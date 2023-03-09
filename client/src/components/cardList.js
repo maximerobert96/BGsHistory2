@@ -7,7 +7,7 @@ export default function CardList() {
         async function getCards(){
             const response = await fetch(`http://localhost:5000/card/`);
             if(!response.ok){
-                const message = `an error has occured: ${response.statusText}`;
+                const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);
                 return;
             }
