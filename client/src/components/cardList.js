@@ -21,7 +21,7 @@ export default function CardList() {
 
     return(
         <div>
-            <p>{cards.blu}</p>
+            <p>{cards.name}</p>
         </div>
     );
 }
