@@ -5,7 +5,7 @@ export default function CardList() {
 
     useEffect(() => {
         async function getCards(){
-            const response = await fetch(`http://localhost:5000/card/`);
+            const response = await fetch(`http://localhost:5000/card/2`);
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);
