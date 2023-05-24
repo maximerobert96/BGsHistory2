@@ -3,14 +3,14 @@ import './App.css';
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import CardList from "./components/cardList";
-import MinionInfo from './components/minionInfo';
+import CardInfo from './components/cardInfo';
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route exact path="/" element={<CardList />} />
-        <Route path="/minion/:id" element={<MinionInfo />} />
+        <Route path="/card/:id" element={<CardInfo />} />
       </Routes>
     </div>
   );

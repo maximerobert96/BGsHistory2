@@ -1,20 +1,7 @@
 const express = require("express");
 const fs = require('fs');
 
-// var db = new JsonDB(new Config("db/cards", true, true, '/'));
-
 const cardRoutes = express.Router();
-
-// cardRoutes.route("/card").get(async function (req,res) {
-//     var data = null;
-//     try{
-//         data = await db.getData("/");
-//     } catch (error){
-//         console.error(error);
-//         return;
-//     }
-//     res.json(data);
-// });
 
 cardRoutes.route("/cards").get(function(req,res) {
     const db = fs.readFileSync('db/cards.json');
@@ -23,21 +10,11 @@ cardRoutes.route("/cards").get(function(req,res) {
 });
 
 cardRoutes.route("/card/:id").get(async function (req,res) {
-    // var data = null;
     try{
         let id = Number(req.params.id);
-        // console.log(id);
-        // let data = await db.getData("/");
         const db = fs.readFileSync('db/cards.json');
         const json = JSON.parse(db);
-        
-        // console.log(JSON.stringify(data));
-        // let searched_card2 = db.find<Number>('/', entry => entry.version_id == id ); // this one doesn't work
-        let searched_card = json.find(o => o.version_id == id); // this one works
-        // console.log(JSON.stringify(searched_card));
-        // console.log(JSON.stringify(searched_card2));
-        // if(searched_card)
-        //     console.log(JSON.stringify(searched_card));
+        let searched_card = json.find(o => o.version_id == id);
         res.json(searched_card);
 
     } catch (error){

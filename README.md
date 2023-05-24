@@ -16,7 +16,7 @@ Display the info of a card from a json db on the browser.
 
 ### More tasks
 
-* Display a different page whether it's a hero card or a minion
+* ~~Display a different page whether it's a hero card or a minion~~
 * Use a form to search for a version_id
 * Error handling
 

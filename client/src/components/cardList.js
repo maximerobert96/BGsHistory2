@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function CardList() {
     const [cards, setCards] = useState([]);
@@ -22,7 +23,7 @@ export default function CardList() {
     if(cards.length){
         const cardlist = cards.map( card =>
             <li key={card.version_id}>
-                {card.name}
+                <Link to={`/card/${card.version_id}`}>{card.name}</Link>
             </li>
         )
         return(

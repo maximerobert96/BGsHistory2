@@ -42,5 +42,18 @@
             "text": "After you play a Demon, deal 1 damage to your hero and gain +4/+4.",
             "image": "wrathweaver_2_G.png"
         }
+    },
+    {
+        "version_id":3,
+        "card_id":2,
+        "name":"Xyrella",
+        "armor":10,
+        "card_type":"hero",
+        "health":30,
+        "heroPower":{
+            "cost":2,
+            "name":"See the Light",
+            "text":"[x]Choose a minion in\nBob's Tavern to add to your\nhand. Set its stats to 2."
+        }
     }
 ]
