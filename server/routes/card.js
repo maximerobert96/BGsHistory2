@@ -1,5 +1,4 @@
 const express = require("express");
-const { JsonDB, Config } = require("node-json-db");
 const fs = require('fs');
 
 // var db = new JsonDB(new Config("db/cards", true, true, '/'));
@@ -28,10 +27,13 @@ cardRoutes.route("/card/:id").get(async function (req,res) {
     try{
         let id = Number(req.params.id);
         // console.log(id);
-        let data = await db.getData("/");
+        // let data = await db.getData("/");
+        const db = fs.readFileSync('db/cards.json');
+        const json = JSON.parse(db);
+        
         // console.log(JSON.stringify(data));
         // let searched_card2 = db.find<Number>('/', entry => entry.version_id == id ); // this one doesn't work
-        let searched_card = data.find(o => o.version_id == id); // this one works
+        let searched_card = json.find(o => o.version_id == id); // this one works
         // console.log(JSON.stringify(searched_card));
         // console.log(JSON.stringify(searched_card2));
         // if(searched_card)
