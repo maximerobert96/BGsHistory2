@@ -5,7 +5,7 @@ export default function CardList() {
 
     useEffect(() => {
         async function getCards(){
-            const response = await fetch(`http://localhost:5000/card/`);
+            const response = await fetch(`http://localhost:5000/cards/`);
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);
@@ -17,11 +17,22 @@ export default function CardList() {
         
         getCards();
         return;
-    }, [cards.length]);
+    }, [cards]);
 
-    return(
-        <div>
-            <p>{cards.name}</p>
-        </div>
-    );
+    if(cards.length){
+        const cardlist = cards.map( card =>
+            <li key={card.id}>
+                {card.name}
+            </li>
+        )
+        return(
+            <ul>
+                {cardlist}
+            </ul>
+        );
+    } else {
+        return(
+            <p>Loading</p>
+        );
+    }
 }

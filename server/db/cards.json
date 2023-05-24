@@ -1,4 +1,4 @@
-
+[
     {
         "id": 1,
         "version_id": 1,
@@ -20,4 +20,27 @@
             "text": "After you play a Demon, deal 1 damage to your hero and gain +4/+4.",
             "image": "wrathweaver_1_G.png"
         }
+    },
+    {
+        "id": 2,
+        "version_id": 1,
+        "card_type": "minion",
+        "name": "Wrath Beaver",
+        "tavern_tier": 1,
+        "attack": 1,
+        "health": 1,
+        "mana": 1,
+        "tribe": "none",
+        "associated_tribe": "demon",
+        "image": "wrathweaver_1.png",
+        "isLegendary": false,
+        "text": "After you play a Demon, deal 1 damage to your hero and gain +2/+2.",
+        "golden":
+        {
+            "attack": 2,
+            "health": 2,
+            "text": "After you play a Demon, deal 1 damage to your hero and gain +4/+4.",
+            "image": "wrathweaver_1_G.png"
+        }
     }
+]
