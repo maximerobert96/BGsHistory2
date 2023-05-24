@@ -21,7 +21,7 @@ export default function CardList() {
 
     if(cards.length){
         const cardlist = cards.map( card =>
-            <li key={card.id}>
+            <li key={card.version_id}>
                 {card.name}
             </li>
         )

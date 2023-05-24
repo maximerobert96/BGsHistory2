@@ -11,8 +11,14 @@ Display the info of a card from a json db on the browser.
 * ~~Display text from the backend in the frontend~~
 * ~~Console log text from a json file in the backend~~
 * ~~Put real data in the json file~~
-* Create a route /card/:id that returns a card from the json db
-* Display the info of a card from the json db
+* ~~Create a route /card/:id that returns a card from the json db~~
+* ~~Display the info of a card from the json db~~
+
+### More tasks
+
+* Display a different page whether it's a hero card or a minion
+* Use a form to search for a version_id
+* Error handling
 
 ## Next goals
 
@@ -20,4 +26,6 @@ Display the info of a card from a json db on the browser.
 * Edit cards
 * Remove cards
 * Display cards from a patch
+
+
 
