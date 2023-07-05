@@ -3,7 +3,7 @@ const fs = require('fs');
 
 
 function getFirstFive(){
-    let jsonDB = JSON.parse(fs.readFileSync("./db/current_db.json"));
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
     let values = Object.values(jsonDB);
     let value;
     let subset = [];
@@ -20,7 +20,7 @@ function isActiveCard( currentCard ) {
 }
 
 function getActiveCards() {
-    let jsonDB = JSON.parse(fs.readFileSync("./db/current_db.json"));
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
     let activeCards = [];
     
 

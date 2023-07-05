@@ -1,6 +1,6 @@
 const express = require("express");
 // const fs = require('fs');
-const dbManager = require('../db/db_manager')
+const dbManager = require('../db/dbManager')
 
 const cardRoutes = express.Router();
 

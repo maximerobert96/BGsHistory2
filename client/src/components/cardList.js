@@ -1,6 +1,21 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+function keepTavernTier ( cards, tavernTier ) {
+    return cards.filter( card =>
+        card.tavernTier === tavernTier).sort((a,b) =>
+        (a.name > b.name) ? 1 : -1
+    );
+}
+
+function listCardsHtml ( cards ) { 
+    return cards.map( card =>
+        <li key={card.id}>
+            <Link to={`/card/${card.id}`}>{card.name}</Link>
+        </li>
+    )
+}
+
 export default function CardList() {
     const [cards, setCards] = useState([]);
 
@@ -21,77 +36,27 @@ export default function CardList() {
     }, [cards]);
 
     if(cards.length){
+
         let heroes = cards.filter( card =>
             card.type === "HERO").sort((a,b) =>
                 (a.name > b.name) ? 1 : -1
             );
-        let tavern_tier_1 = cards.filter( card =>
-            card.tavernTier === 1).sort((a,b) =>
-            (a.name > b.name) ? 1 : -1
-        );
-        let tavern_tier_2 = cards.filter( card =>
-            card.tavernTier === 2).sort((a,b) =>
-            (a.name > b.name) ? 1 : -1
-        );
-        let tavern_tier_3 = cards.filter( card =>
-            card.tavernTier === 3).sort((a,b) =>
-            (a.name > b.name) ? 1 : -1
-        );
-        let tavern_tier_4 = cards.filter( card =>
-            card.tavernTier === 4).sort((a,b) =>
-            (a.name > b.name) ? 1 : -1
-        );
-        let tavern_tier_5 = cards.filter( card =>
-            card.tavernTier === 5).sort((a,b) =>
-            (a.name > b.name) ? 1 : -1
-        );
-        let tavern_tier_6 = cards.filter( card =>
-            card.tavernTier === 6).sort((a,b) =>
-            (a.name > b.name) ? 1 : -1
-        );
+        let tavernTier1 = keepTavernTier(cards, 1);
+        let tavernTier2 = keepTavernTier(cards, 2);
+        let tavernTier3 = keepTavernTier(cards, 3);
+        let tavernTier4 = keepTavernTier(cards, 4);
+        let tavernTier5 = keepTavernTier(cards, 5);
+        let tavernTier6 = keepTavernTier(cards, 6);
+        
+        const cardlistHeroes = listCardsHtml(heroes);
+        const cardlistTier1 = listCardsHtml(tavernTier1);
+        const cardlistTier2 = listCardsHtml(tavernTier2);
+        const cardlistTier3 = listCardsHtml(tavernTier3);
+        const cardlistTier4 = listCardsHtml(tavernTier4);
+        const cardlistTier5 = listCardsHtml(tavernTier5);
+        const cardlistTier6 = listCardsHtml(tavernTier6);
 
-        const cardlistHeroes = heroes.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-
-        const cardlistTier1 = tavern_tier_1.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-        const cardlistTier2 = tavern_tier_2.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-        const cardlistTier3 = tavern_tier_3.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-        const cardlistTier4 = tavern_tier_4.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-        const cardlistTier5 = tavern_tier_5.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-        const cardlistTier6 = tavern_tier_6.map( card =>
-            <li key={card.id}>
-                <Link to={`/card/${card.id}`}>{card.name}</Link>
-            </li>
-        )
-
-        // const cardlist = cards.map( card =>
-        //     <li key={card.id}>
-        //         <Link to={`/card/${card.id}`}>{card.name}</Link>
-        //     </li>
-        // )
+        
         return(
             <div>
                 <h1>Heroes</h1>
