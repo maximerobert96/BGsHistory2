@@ -1,5 +1,4 @@
 const express = require("express");
-// const fs = require('fs');
 const dbManager = require('../db/dbManager')
 
 const cardRoutes = express.Router();
@@ -9,18 +8,16 @@ cardRoutes.route("/card").get(function(req,res) {
     res.json(activeCards);
 });
 
-// cardRoutes.route("/card/:id").get(async function (req,res) {
-//     try{
-//         let id = Number(req.params.id);
-//         const db = fs.readFileSync('db/cards.json');
-//         const json = JSON.parse(db);
-//         let searched_card = json.find(o => o.version_id == id);
-//         res.json(searched_card);
+cardRoutes.route("/card/:id").get(function(req, res) {
+    try {
+        let card = dbManager.getCardById(req.params.id);
+        res.json(card);
+    } catch (error) {
+        res.status(404);
+        res.json({error: error.message});
+        
+    }
+});
 
-//     } catch (error){
-//         console.error(error);
-//         return;
-//     }
-// });
 
 module.exports = cardRoutes;

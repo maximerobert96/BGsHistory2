@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function keepTavernTier ( cards, tavernTier ) {
     return cards.filter( card =>
-        card.tavernTier === tavernTier).sort((a,b) =>
+        card.techLevel === tavernTier).sort((a,b) =>
         (a.name > b.name) ? 1 : -1
     );
 }
@@ -58,7 +58,7 @@ export default function CardList() {
 
         
         return(
-            <div>
+            <>
                 <h1>Heroes</h1>
                 <ul>
                     {cardlistHeroes}
@@ -88,7 +88,7 @@ export default function CardList() {
                 <ul>
                     {cardlistTier6}
                 </ul>
-            </div>
+            </>
         );
     } else {
         return(

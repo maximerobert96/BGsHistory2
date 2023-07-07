@@ -23,18 +23,18 @@ export default function CardInfo() {
     });
 
     if(card){
-        switch (card.card_type){
-            case "minion":
+        switch (card.type){
+            case "MINION":
                 return(
                     <ul>
                         <li>Name: {card.name}</li>
-                        <li>Tier: {card.tavern_tier}</li>
+                        <li>Tier: {card.techLevel}</li>
                         <li>Attack: {card.attack}</li>
                         <li>Health: {card.health}</li>
                         <li>Text: {card.text}</li>
                     </ul>
                 );
-                case "hero":
+                case "HERO":
                     return(
                         <ul>
                             <li>Name: {card.name}</li>
