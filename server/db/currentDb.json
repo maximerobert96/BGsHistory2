@@ -8348,7 +8348,6 @@
   },
   "64296": {
     "attack": 3,
-    "battlegroundsNormalDbfId": 64300,
     "battlegroundsPremiumDbfId": 64300,
     "cardClass": "NEUTRAL",
     "cost": 3,
@@ -8394,7 +8393,6 @@
   "64300": {
     "attack": 6,
     "battlegroundsNormalDbfId": 64296,
-    "battlegroundsPremiumDbfId": 64296,
     "cardClass": "NEUTRAL",
     "cost": 3,
     "dbfId": 64300,
@@ -10044,7 +10042,6 @@
   },
   "70144": {
     "attack": 1,
-    "battlegroundsNormalDbfId": 70146,
     "battlegroundsPremiumDbfId": 70146,
     "cardClass": "NEUTRAL",
     "cost": 3,
@@ -10071,7 +10068,6 @@
   "70146": {
     "attack": 2,
     "battlegroundsNormalDbfId": 70144,
-    "battlegroundsPremiumDbfId": 70144,
     "cardClass": "NEUTRAL",
     "cost": 3,
     "dbfId": 70146,
@@ -10854,7 +10850,6 @@
   },
   "70790": {
     "attack": 3,
-    "battlegroundsNormalDbfId": 70801,
     "battlegroundsPremiumDbfId": 70801,
     "cardClass": "NEUTRAL",
     "cost": 2,
@@ -10903,7 +10898,6 @@
   "70801": {
     "attack": 6,
     "battlegroundsNormalDbfId": 70790,
-    "battlegroundsPremiumDbfId": 70790,
     "cardClass": "NEUTRAL",
     "cost": 2,
     "dbfId": 70801,
@@ -12576,7 +12570,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      96788
+    ]
   },
   "74911": {
     "attack": 2,
@@ -12597,7 +12594,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon two 2/2 Imps.",
-    "type": "MINION"
+    "type": "MINION", 
+    "relatedCards" : [
+      58373
+    ]
   },
   "74929": {
     "attack": 1,
@@ -25274,7 +25274,6 @@
   "95997": {
     "artist": "Todd Harris",
     "attack": 4,
-    "battlegroundsNormalDbfId": 95998,
     "battlegroundsPremiumDbfId": 95998,
     "cardClass": "NEUTRAL",
     "cost": 3,
@@ -25303,7 +25302,6 @@
     "artist": "Todd Harris",
     "attack": 8,
     "battlegroundsNormalDbfId": 95997,
-    "battlegroundsPremiumDbfId": 95997,
     "cardClass": "NEUTRAL",
     "cost": 3,
     "dbfId": 95998,

@@ -38,7 +38,7 @@ function keepSpecificFields( cardObj ) {
     newCardObj["type"] = cardObj["type"];
 
     if(cardObj["type"] == "MINION") {
-        newCardObj["techLevel"] = cardObj["techLevel"];
+        newCardObj["tavernTier"] = cardObj["techLevel"];
     }
 
     return newCardObj;
@@ -50,9 +50,48 @@ function getCardById( id ) {
     if(!currentCard) {
         throw new Error(`The card with the id ${id} doesn't exist.`);
     }
+    currentCard = formatFields(currentCard, jsonDB);
 
     return currentCard;
 }
+
+function formatFields(card, jsonDB) {
+    if(card.battlegroundsBuddyDbfId) {
+        let buddyId = card.battlegroundsBuddyDbfId;
+        let buddyName = jsonDB[buddyId].name;
+        card.buddy = { name: buddyName, id: buddyId}
+        delete card.battlegroundsBuddyDbfId;
+    }
+    if(card.heroPowerDbfId) {
+        let hpId = card.heroPowerDbfId;
+        let hpObj = jsonDB[hpId];
+        if(hpObj.hideCost && hpObj.hideCost == true){
+            card.heroPower = { name: hpObj.name, id: hpId, text: hpObj.text }
+        } else {
+            card.heroPower = { name: hpObj.name, id: hpId, cost: hpObj.cost, text: hpObj.text }
+        }
+        delete card.heroPowerDbfId;
+    }
+    if(card.relatedCards) {
+        let relatedCardIds = card.relatedCards;
+        let relatedCards = [];
+        for (id of relatedCardIds){
+            let cardName = jsonDB[id].name;
+            relatedCards.push( {id: id, name: cardName} );
+        }
+        card.relatedCards = relatedCards;
+    }
+    if(card.techLevel){
+        card.tavernTier = card.techLevel;
+        delete card.techLevel;
+    }
+
+    card.id = card.dbfId;
+    delete card.dbfId;
+
+    return card;
+}
+
 
 // try {
 //     console.log(JSON.stringify(getCardById( "101574" ), null, 2));

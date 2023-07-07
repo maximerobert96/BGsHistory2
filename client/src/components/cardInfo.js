@@ -28,24 +28,35 @@ export default function CardInfo() {
                 return(
                     <ul>
                         <li>Name: {card.name}</li>
-                        <li>Tier: {card.techLevel}</li>
+                        <li>Tier: {card.tavernTier}</li>
                         <li>Attack: {card.attack}</li>
                         <li>Health: {card.health}</li>
                         <li>Text: {card.text}</li>
                     </ul>
                 );
                 case "HERO":
-                    return(
-                        <ul>
-                            <li>Name: {card.name}</li>
-                            <li>Armor: {card.armor}</li>
-                            <li>HP Name: {card.heroPower.name}</li>
-                            <li>HP Cost: {card.heroPower.cost}</li>
-                            <li>HP Text: {card.heroPower.text}</li>
-                        </ul>
-                    );
-                    default: 
-                        return(<p>help</p>);
+                    if(card.heroPower.cost) {
+                        return(
+                            <ul>
+                                <li>Name: {card.name}</li>
+                                <li>Armor: {card.armor}</li>
+                                <li>HP Name: {card.heroPower.name}</li>
+                                <li>HP Cost: {card.heroPower.cost}</li>
+                                <li>HP Text: {card.heroPower.text}</li>
+                            </ul>
+                        );
+                    } else {
+                        return(
+                            <ul>
+                                <li>Name: {card.name}</li>
+                                <li>Armor: {card.armor}</li>
+                                <li>HP Name: {card.heroPower.name}</li>
+                                <li>HP Text: {card.heroPower.text}</li>
+                            </ul>
+                        );
+                    }
+                default: 
+                    return(<p>help</p>);
 
         }
     } else {

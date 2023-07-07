@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function keepTavernTier ( cards, tavernTier ) {
     return cards.filter( card =>
-        card.techLevel === tavernTier).sort((a,b) =>
+        card.tavernTier === tavernTier).sort((a,b) =>
         (a.name > b.name) ? 1 : -1
     );
 }
