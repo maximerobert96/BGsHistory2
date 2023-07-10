@@ -1,4 +1,5 @@
 const fs = require('fs');
+const poolManager = require("./poolManager");
 
 
 function isActiveCard( currentCard ) {
@@ -92,14 +93,36 @@ function formatFields(card, jsonDB) {
     return card;
 }
 
+function tempGetCardPoolNames(){
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let cardPools = [];
+    for(let card of cards) {
+        if(card.pools) {
+            let pools = card.pools;
+            for(let pool of pools) {
+                if(!cardPools.includes(pool)) {
+                    cardPools.push(pool);
+                }
+            }
+        }
+    }
+    return cardPools;
+}
 
-// try {
-//     console.log(JSON.stringify(getCardById( "101574" ), null, 2));
-// } catch (error) {
-//     console.error(error.message);
-// }
+// console.log(tempGetCardPoolNames());
 
+function getCardsOfPool(pool) {
+    let cardsInPool = poolManager.getMinionsForPool(pool);
+    let cardsInPoolFormatted = [];
+    for (let card of cardsInPool) {
+        cardsInPoolFormatted.push(keepSpecificFields(card));
+    }
+    return cardsInPoolFormatted;
+}
+
+console.log(getCardsOfPool("SPELLCRAFT_POOL"));
 
 module.exports = { 
-    getActiveCards, getCardById
+    getActiveCards, getCardById, getCardsOfPool
 }
