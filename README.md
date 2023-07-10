@@ -1,31 +1,15 @@
 # BGsHistory2
 
-## Short-term goal
+## Goal of the branch
 
-Display the info of a card from a json db on the browser.
+Setup the baseline patch
 
 ## Tasks
-* ~~Create github~~
-* ~~Install modules~~
-* ~~Launch React frontend that displays text~~
-* ~~Display text from the backend in the frontend~~
-* ~~Console log text from a json file in the backend~~
-* ~~Put real data in the json file~~
-* ~~Create a route /card/:id that returns a card from the json db~~
-* ~~Display the info of a card from the json db~~
+* Displaying the cards in the card pools
+* Updating cards using the app
+* Adding tribes and banned tribes to the cards
 
-### More tasks
-
-* ~~Display a different page whether it's a hero card or a minion~~
-* Use a form to search for a version_id
-* Error handling
-
-## Next goals
-
-* Add cards to the db with a form
-* Edit cards
-* Remove cards
-* Display cards from a patch
-
-
+### Optional tasks
+* Differenciate golden cards from regular cards (maybe add "Golden" to the name)
+* Finding the correct ids for Putricide card pools
 
