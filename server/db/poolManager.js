@@ -105,17 +105,17 @@ function getMinionsForPool(pool) {
         case "DIABLO_POOL_4":
             return getDiabloPrizes(4);
         case "PUTRI_POOL_1":
-            return [];
+            return getPutriMinions(1);
         case "PUTRI_POOL_2":
-            return [];
+            return getPutriMinions(2);
         case "QUEST_POOL":
             return getQuests();
         case "REWARD_POOL":
             return getRewards();
         case "ETC_BUDDY_POOL":
-            return [];
+            return getFoaFBuddies();
         case "FOAF_BUDDY_POOL":
-            return [];
+            return getFoaFBuddies();
         default:
             return [];
     }
@@ -259,6 +259,33 @@ function getRewards() {
         }
     }
     return rewards;
+}
+
+function getPutriMinions(poolNumber) {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let undeads = [];
+    for (let card of cards) {
+        if(card.undeadCreationPool && card.undeadCreationPool === poolNumber) {
+            undeads.push(card);
+        }
+    }
+    return undeads;
+}
+
+function getFoaFBuddies() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let buddies = [];
+    for (let card of cards) {
+        if(card.battlegroundsHero && card.battlegroundsHero === true && card.battlegroundsBuddyDbfId) {
+            let buddy = jsonDB[card.battlegroundsBuddyDbfId];
+            if((!buddy.bannedFromFoaF || !(buddy.bannedFromFoaF === true)) && !buddies.includes(buddy)) {
+                buddies.push(buddy);
+            }
+        }
+    }
+    return buddies;
 }
 
 module.exports = {

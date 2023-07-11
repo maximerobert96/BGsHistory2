@@ -121,7 +121,7 @@ function getCardsOfPool(pool) {
     return cardsInPoolFormatted;
 }
 
-console.log(getCardsOfPool("QUEST_POOL"));
+// console.log(getCardsOfPool("ETC_BUDDY_POOL"));
 
 module.exports = { 
     getActiveCards, getCardById, getCardsOfPool
