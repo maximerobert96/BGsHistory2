@@ -121,11 +121,12 @@ function getCardsOfPool(cards, pool) {
     return cardsInPoolFormatted;
 }
 
-function keepCardsFromTribes(cards, tribes) {
-    let cardsFittingTribes = [];
-    for(let card of cards) {
+function keepCardsFromTribes(jsonDB, tribes) {
+    let cardsFittingTribes = {};
+    for(let id in jsonDB) {
+        let card = jsonDB[id];
         if(isCardValidForTribes(card, tribes)){
-            cardsFittingTribes.push(card);
+            cardsFittingTribes[card.dbfId] = card;
         }
     }
     return cardsFittingTribes;
@@ -140,14 +141,21 @@ function isCardValidForTribes(card, tribes) {
             }
         }
     }
-    return !card.associatedTribes || card.associatedTribes.includes("GENERAL") || isInTribes;
+    let isBanned = false;
+    if(card.bannedFromLobbies) {
+        for(let tribe of card.bannedFromLobbies) {
+            if(tribes.includes(tribe)){
+                isBanned = true;
+            }
+        }
+    }
+    return !isBanned && (!card.associatedTribes || card.associatedTribes.includes("GENERAL") || isInTribes);
 }
 
 // function temp(){
 //     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
-//     let cards = Object.values(jsonDB);
-//     cards = keepCardsFromTribes(cards, ["MECHANICAL"]);
-//     cards = getCardsOfPool(cards, "UNDEAD_POOL");
+//     let dbSubset = keepCardsFromTribes(jsonDB, ["MECHANICAL", "MURLOC"]);
+//     let cards = getCardsOfPool(dbSubset, "DEATHRATTLE_POOL");
 //     console.log(cards);
 // }
 

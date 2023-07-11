@@ -1,5 +1,3 @@
-const fs = require('fs');
-
 const type = {
     naga: "NAGA",
     pirate: "PIRATE",
@@ -39,94 +37,95 @@ const special = {
 
 /**
  * 
- * @param {*} cards subset of cards to use. Array of card objects
+ * @param {*} jsonDB subset of cards to use
  * @param {*} pool name of the pool to use
  * @returns 
  */
-function getMinionsForPool(cards, pool) {
+function getMinionsForPool(jsonDB, pool) {
     switch (pool) {
         case "TIER_1_POOL":
-            return getMinionsOfTier(cards, 1);
+            return getMinionsOfTier(jsonDB, 1);
         case "TIER_2_POOL":
-            return getMinionsOfTier(cards, 2);
+            return getMinionsOfTier(jsonDB, 2);
         case "TIER_3_POOL":
-            return getMinionsOfTier(cards, 3);
+            return getMinionsOfTier(jsonDB, 3);
         case "TIER_4_POOL":
-            return getMinionsOfTier(cards, 4);
+            return getMinionsOfTier(jsonDB, 4);
         case "TIER_5_POOL":
-            return getMinionsOfTier(cards, 5);
+            return getMinionsOfTier(jsonDB, 5);
         case "TIER_6_POOL":
-            return getMinionsOfTier(cards, 6);
+            return getMinionsOfTier(jsonDB, 6);
         case "BEAST_POOL":
-            return getMinionsOfType(cards, "BEAST");
+            return getMinionsOfType(jsonDB, "BEAST");
         case "DEMON_POOL":
-            return getMinionsOfType(cards, "DEMON");
+            return getMinionsOfType(jsonDB, "DEMON");
         case "DRAGON_POOL":
-            return getMinionsOfType(cards, "DRAGON");
+            return getMinionsOfType(jsonDB, "DRAGON");
         case "ELEMENTAL_POOL":
-            return getMinionsOfType(cards, "ELEMENTAL");
+            return getMinionsOfType(jsonDB, "ELEMENTAL");
         case "MECH_POOL":
-            return getMinionsOfType(cards, "MECHANICAL");
+            return getMinionsOfType(jsonDB, "MECHANICAL");
         case "MURLOC_POOL":
-            return getMinionsOfType(cards, "MURLOC");
+            return getMinionsOfType(jsonDB, "MURLOC");
         case "NAGA_POOL":
-            return getMinionsOfType(cards, "NAGA");
+            return getMinionsOfType(jsonDB, "NAGA");
         case "PIRATE_POOL":
-            return getMinionsOfType(cards, "PIRATE");
+            return getMinionsOfType(jsonDB, "PIRATE");
         case "QUILBOAR_POOL":
-            return getMinionsOfType(cards, "QUILBOAR");
+            return getMinionsOfType(jsonDB, "QUILBOAR");
         case "UNDEAD_POOL":
-            return getMinionsOfType(cards, "UNDEAD");
+            return getMinionsOfType(jsonDB, "UNDEAD");
         case "BATTLECRY_POOL":
-            return getMinionsOfMechanic(cards, "BATTLECRY");
+            return getMinionsOfMechanic(jsonDB, "BATTLECRY");
         case "DEATHRATTLE_POOL":
-            return getMinionsOfMechanic(cards, "DEATHRATTLE");
+            return getMinionsOfMechanic(jsonDB, "DEATHRATTLE");
         case "END_OF_TURN_POOL":
             return [];
         case "SPELLCRAFT_POOL":
-            return getSpellcraftSpells(cards);
+            return getSpellcraftSpells(jsonDB);
         case "SECRET_POOL":
-            return getSecrets(cards);
+            return getSecrets(jsonDB);
         case "MAGNETIC_POOL":
-            return getMinionsOfMechanic(cards, "MAGNETIC");
+            return getMinionsOfMechanic(jsonDB, "MAGNETIC");
         case "GOLDEN_POOL":
             return [];
         case "DARKMOON_PRIZE_POOL_1":
-            return getDarkmoonPrizes(cards, 1);
+            return getDarkmoonPrizes(jsonDB, 1);
         case "DARKMOON_PRIZE_POOL_2":
-            return getDarkmoonPrizes(cards, 2);
+            return getDarkmoonPrizes(jsonDB, 2);
         case "DARKMOON_PRIZE_POOL_3":
-            return getDarkmoonPrizes(cards, 3);
+            return getDarkmoonPrizes(jsonDB, 3);
         case "DARKMOON_PRIZE_POOL_4":
-            return getDarkmoonPrizes(cards, 4);
+            return getDarkmoonPrizes(jsonDB, 4);
         case "NGUYEN_HP_POOL":
-            return getNguyenHPs(cards);
+            return getNguyenHPs(jsonDB);
         case "DIABLO_POOL_1":
-            return getDiabloPrizes(cards, 1);
+            return getDiabloPrizes(jsonDB, 1);
         case "DIABLO_POOL_2":
-            return getDiabloPrizes(cards, 2);
+            return getDiabloPrizes(jsonDB, 2);
         case "DIABLO_POOL_3":
-            return getDiabloPrizes(cards, 3);
+            return getDiabloPrizes(jsonDB, 3);
         case "DIABLO_POOL_4":
-            return getDiabloPrizes(cards, 4);
+            return getDiabloPrizes(jsonDB, 4);
         case "PUTRI_POOL_1":
-            return getPutriMinions(cards, 1);
+            return getPutriMinions(jsonDB, 1);
         case "PUTRI_POOL_2":
-            return getPutriMinions(cards, 2);
+            return getPutriMinions(jsonDB, 2);
         case "QUEST_POOL":
-            return getQuests(cards);
+            return getQuests(jsonDB);
         case "REWARD_POOL":
-            return getRewards(cards);
+            return getRewards(jsonDB);
         case "ETC_BUDDY_POOL":
-            return getFoaFBuddies(cards);
+            return getFoaFBuddies(jsonDB);
         case "FOAF_BUDDY_POOL":
-            return getFoaFBuddies(cards);
+            return getFoaFBuddies(jsonDB);
         default:
             return [];
     }
 }
 
-function getMinionsOfTier(cards, tier) {
+function getMinionsOfTier(jsonDB, tier) {
+    let cards = Object.values(jsonDB);
     let minionsOfTier = [];
     for (let card of cards) {
         if(card.isBattlegroundsPoolMinion && card.techLevel === tier) {
@@ -136,7 +135,8 @@ function getMinionsOfTier(cards, tier) {
     return minionsOfTier;
 }
 
-function getMinionsOfType(cards, type) {
+function getMinionsOfType(jsonDB, type) {
+    let cards = Object.values(jsonDB);
     let minionsOfType = [];
     for (let card of cards) {
         if(card.isBattlegroundsPoolMinion && card.races && card.races.includes(type)) {
@@ -146,7 +146,8 @@ function getMinionsOfType(cards, type) {
     return minionsOfType;
 }
 
-function getMinionsOfMechanic(cards, mechanic) {
+function getMinionsOfMechanic(jsonDB, mechanic) {
+    let cards = Object.values(jsonDB);
     let minionsOfMechanic = [];
     for (let card of cards) {
         if(card.isBattlegroundsPoolMinion && card.mechanics && card.mechanics.includes(mechanic)) {
@@ -156,7 +157,8 @@ function getMinionsOfMechanic(cards, mechanic) {
     return minionsOfMechanic;
 }
 
-function getSpellcraftSpells(cards){
+function getSpellcraftSpells(jsonDB){
+    let cards = Object.values(jsonDB);
     let spellcraftSpells = [];
     for (let card of cards) {
         if(isValidMinionWithSpellcraft(card)) {
@@ -182,7 +184,8 @@ function getSpellcraftSpell(card, db) {
     return [];
 }
 
-function getSecrets(cards) {
+function getSecrets(jsonDB) {
+    let cards = Object.values(jsonDB);
     let secrets = [];
     for (let card of cards) {
         if(card.isAkamSecret && card.isAkamSecret === true) {
@@ -192,7 +195,8 @@ function getSecrets(cards) {
     return secrets;
 }
 
-function getDiabloPrizes(cards, turn) {
+function getDiabloPrizes(jsonDB, turn) {
+    let cards = Object.values(jsonDB);
     let prizes = [];
     for (let card of cards) {
         if(card.battlegroundsDiabloPrizeTurn && card.battlegroundsDiabloPrizeTurn === turn) {
@@ -202,7 +206,8 @@ function getDiabloPrizes(cards, turn) {
     return prizes;
 }
 
-function getDarkmoonPrizes(cards, turn) {
+function getDarkmoonPrizes(jsonDB, turn) {
+    let cards = Object.values(jsonDB);
     let prizes = [];
     for (let card of cards) {
         if(card.battlegroundsDarkmoonPrizeTurn && card.battlegroundsDarkmoonPrizeTurn === turn) {
@@ -212,7 +217,8 @@ function getDarkmoonPrizes(cards, turn) {
     return prizes;
 }
 
-function getNguyenHPs(cards) {
+function getNguyenHPs(jsonDB) {
+    let cards = Object.values(jsonDB);
     let hps = [];
     for (let card of cards) {
         if(card.battlegroundsHero && card.battlegroundsHero === true) {
@@ -225,7 +231,8 @@ function getNguyenHPs(cards) {
     return hps;
 }
 
-function getQuests(cards) {
+function getQuests(jsonDB) {
+    let cards = Object.values(jsonDB);
     let quests = [];
     for (let card of cards) {
         if(card.type === "SPELL" && card.mechanics && card.mechanics.includes("QUEST") 
@@ -236,7 +243,8 @@ function getQuests(cards) {
     return quests;
 }
 
-function getRewards(cards) {
+function getRewards(jsonDB) {
+    let cards = Object.values(jsonDB);
     let rewards = [];
     for (let card of cards) {
         if(card.type === "BATTLEGROUND_QUEST_REWARD" && !(card.bannedFromRewards && card.bannedFromRewards === true)) {
@@ -246,7 +254,8 @@ function getRewards(cards) {
     return rewards;
 }
 
-function getPutriMinions(cards, poolNumber) {
+function getPutriMinions(jsonDB, poolNumber) {
+    let cards = Object.values(jsonDB);
     let undeads = [];
     for (let card of cards) {
         if(card.undeadCreationPool && card.undeadCreationPool === poolNumber) {
@@ -256,7 +265,8 @@ function getPutriMinions(cards, poolNumber) {
     return undeads;
 }
 
-function getFoaFBuddies(cards) {
+function getFoaFBuddies(jsonDB) {
+    let cards = Object.values(jsonDB);
     let buddies = [];
     for (let card of cards) {
         if(card.battlegroundsHero && card.battlegroundsHero === true && card.battlegroundsBuddyDbfId) {

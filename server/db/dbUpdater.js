@@ -34,7 +34,7 @@ function addingTribes() {
     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
     for(let id in jsonDB) {
         let currentCard = jsonDB[id];
-        if(currentCard.races) {
+        if(currentCard.races && !currentCard.races.includes("ALL")) {
             currentCard.associatedTribes = currentCard.races;
         } else if (currentCard.type && (currentCard.type === "HERO" || currentCard.type === "MINION")) {
             currentCard.associatedTribes = [ "GENERAL" ];
@@ -43,7 +43,58 @@ function addingTribes() {
     fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
 }
 
+function removingAssociatedTribesFromSkins() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    for(let id in jsonDB) {
+        let currentCard = jsonDB[id];
+        if(currentCard.associatedTribes && currentCard.battlegroundsSkinParentId) {
+            delete currentCard.associatedTribes;
+        }
+    }
+    fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
+}
+
+function removingAssociatedTribesFromBuddies() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    for(let id in jsonDB) {
+        let currentCard = jsonDB[id];
+        if(currentCard.associatedTribes && currentCard.isBattlegroundsBuddy && currentCard.isBattlegroundsBuddy === true) {
+            delete currentCard.associatedTribes;
+        }
+    }
+    fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
+}
+
+function removingAssociatedTribesFromEverythingExceptActiveCards() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    for(let id in jsonDB) {
+        let currentCard = jsonDB[id];
+        if(!((currentCard["battlegroundsHero"] && currentCard["battlegroundsHero"] == true)
+        || (currentCard["isBattlegroundsPoolMinion"] && currentCard["isBattlegroundsPoolMinion"] == true))) {
+            delete currentCard.associatedTribes;
+        }
+    }
+    fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
+}
+
+function changingAlltoGeneralForTribes(){
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    for(let id in jsonDB) {
+        let currentCard = jsonDB[id];
+        if(currentCard.associatedTribes && currentCard.associatedTribes.includes("ALL")) {
+            currentCard.associatedTribes = [ "GENERAL" ];
+        }
+    }
+    fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
+}
+
+changingAlltoGeneralForTribes();
+
 // addingTribes();
+// removingAssociatedTribesFromSkins();
+// removingAssociatedTribesFromBuddies();
+// removingAssociatedTribesFromEverythingExceptActiveCards();
+
 
 // listBuddiesAndIds();
 
