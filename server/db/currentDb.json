@@ -3169,7 +3169,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58500": {
     "cardClass": "HUNTER",
@@ -3183,7 +3184,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58502": {
     "cardClass": "MAGE",
@@ -3198,7 +3200,8 @@
     "set": "BATTLEGROUNDS",
     "spellSchool": "ARCANE",
     "text": "<b>Secret:</b> When one of your minions is attacked, summon a copy of it.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58503": {
     "cardClass": "MAGE",
@@ -3228,7 +3231,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, give it <b>Divine Shield</b>.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58507": {
     "cardClass": "PALADIN",
@@ -3243,7 +3247,8 @@
     "set": "BATTLEGROUNDS",
     "spellSchool": "HOLY",
     "text": "<b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58509": {
     "cardClass": "PALADIN",
@@ -3258,7 +3263,8 @@
     "set": "BATTLEGROUNDS",
     "spellSchool": "HOLY",
     "text": "<b>Secret:</b> When a friendly minion dies, return it to life with 1 Health.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58510": {
     "cardClass": "PALADIN",
@@ -3290,7 +3296,8 @@
     "set": "BATTLEGROUNDS",
     "spellSchool": "FROST",
     "text": "<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58527": {
     "cardClass": "NEUTRAL",
@@ -3412,6 +3419,7 @@
     "type": "HERO"
   },
   "59201": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 59201,
@@ -3473,6 +3481,7 @@
     "type": "HERO"
   },
   "59399": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 59399,
@@ -4181,6 +4190,7 @@
     "type": "HERO"
   },
   "59832": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 59832,
@@ -4293,6 +4303,7 @@
     "type": "HERO_POWER"
   },
   "59891": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 59891,
@@ -4912,6 +4923,7 @@
     ]
   },
   "60218": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "collectionText": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, add\nBrann Bronzebeard to your\nhand. <i>({0} left!)</i>",
     "cost": 0,
@@ -5263,6 +5275,7 @@
     ]
   },
   "60450": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 60450,
@@ -6455,6 +6468,7 @@
     "type": "HERO"
   },
   "61915": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 61915,
@@ -6597,6 +6611,7 @@
     "type": "MINION"
   },
   "62035": {
+    "bannedFromNguyen": true,
     "cardClass": "DEMONHUNTER",
     "cost": 0,
     "dbfId": 62035,
@@ -7003,6 +7018,7 @@
     ]
   },
   "62250": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 1,
     "dbfId": 62250,
@@ -7164,6 +7180,7 @@
     "type": "HERO"
   },
   "62269": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 62269,
@@ -8517,6 +8534,7 @@
     "type": "HERO"
   },
   "64424": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 64424,
@@ -8632,6 +8650,7 @@
     "type": "HERO"
   },
   "64481": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 64481,
@@ -9240,6 +9259,7 @@
     "type": "MINION"
   },
   "66246": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 2,
     "dbfId": 66246,
@@ -9329,6 +9349,7 @@
     "type": "HERO"
   },
   "66484": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 66484,
@@ -9531,6 +9552,7 @@
     "type": "HERO"
   },
   "67357": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 67357,
@@ -10000,7 +10022,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When your turn starts, give your minions +1/+1.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "70136": {
     "cardClass": "NEUTRAL",
@@ -11029,6 +11052,7 @@
     "type": "HERO"
   },
   "71455": {
+    "bannedFromNguyen": true,
     "cardClass": "WARRIOR",
     "cost": 1,
     "dbfId": 71455,
@@ -11139,6 +11163,7 @@
     "type": "HERO"
   },
   "71909": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 71909,
@@ -11786,6 +11811,7 @@
     "type": "HERO"
   },
   "72471": {
+    "bannedFromNguyen": true,
     "cardClass": "WARRIOR",
     "collectionText": "[x]<b>Passive.</b> Every 4 turns, ALL\nenemies fight the Lord of\nTerror and your warband\n for loot. <i>(Next combat!)</i>",
     "cost": 0,
@@ -12369,6 +12395,7 @@
     "type": "HERO"
   },
   "74632": {
+    "bannedFromNguyen": true,
     "cardClass": "DEMONHUNTER",
     "cost": 0,
     "dbfId": 74632,
@@ -13101,6 +13128,7 @@
     "type": "HERO"
   },
   "75703": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 75703,
@@ -13920,6 +13948,7 @@
     "type": "HERO"
   },
   "77341": {
+    "battlegroundsDiabloPrizeTurn": 1,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77341,
@@ -13930,6 +13959,7 @@
     "type": "SPELL"
   },
   "77344": {
+    "battlegroundsDiabloPrizeTurn": 2,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77344,
@@ -13940,6 +13970,7 @@
     "type": "SPELL"
   },
   "77345": {
+    "battlegroundsDiabloPrizeTurn": 3,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77345,
@@ -13950,6 +13981,7 @@
     "type": "SPELL"
   },
   "77346": {
+    "battlegroundsDiabloPrizeTurn": 4,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77346,
@@ -13960,6 +13992,7 @@
     "type": "SPELL"
   },
   "77347": {
+    "battlegroundsDiabloPrizeTurn": 1,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77347,
@@ -13973,6 +14006,7 @@
     "type": "SPELL"
   },
   "77348": {
+    "battlegroundsDiabloPrizeTurn": 2,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77348,
@@ -13986,6 +14020,7 @@
     "type": "SPELL"
   },
   "77351": {
+    "battlegroundsDiabloPrizeTurn": 3,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77351,
@@ -13999,6 +14034,7 @@
     "type": "SPELL"
   },
   "77353": {
+    "battlegroundsDiabloPrizeTurn": 4,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77353,
@@ -14014,6 +14050,7 @@
     "type": "SPELL"
   },
   "77434": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 77434,
@@ -14030,6 +14067,7 @@
     ]
   },
   "77435": {
+    "battlegroundsDiabloPrizeTurn": 1,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77435,
@@ -14040,6 +14078,7 @@
     "type": "SPELL"
   },
   "77436": {
+    "battlegroundsDiabloPrizeTurn": 2,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77436,
@@ -14050,6 +14089,7 @@
     "type": "SPELL"
   },
   "77437": {
+    "battlegroundsDiabloPrizeTurn": 3,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77437,
@@ -14060,6 +14100,7 @@
     "type": "SPELL"
   },
   "77438": {
+    "battlegroundsDiabloPrizeTurn": 4,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77438,
@@ -14493,6 +14534,7 @@
     "type": "HERO"
   },
   "77518": {
+    "battlegroundsDiabloPrizeTurn": 1,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77518,
@@ -14503,6 +14545,7 @@
     "type": "SPELL"
   },
   "77520": {
+    "battlegroundsDiabloPrizeTurn": 2,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77520,
@@ -14513,6 +14556,7 @@
     "type": "SPELL"
   },
   "77521": {
+    "battlegroundsDiabloPrizeTurn": 3,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77521,
@@ -14523,6 +14567,7 @@
     "type": "SPELL"
   },
   "77522": {
+    "battlegroundsDiabloPrizeTurn": 4,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77522,
@@ -14533,6 +14578,7 @@
     "type": "SPELL"
   },
   "77523": {
+    "battlegroundsDiabloPrizeTurn": 1,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77523,
@@ -14546,6 +14592,7 @@
     "type": "SPELL"
   },
   "77524": {
+    "battlegroundsDiabloPrizeTurn": 2,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77524,
@@ -14559,6 +14606,7 @@
     "type": "SPELL"
   },
   "77526": {
+    "battlegroundsDiabloPrizeTurn": 3,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77526,
@@ -14572,6 +14620,7 @@
     "type": "SPELL"
   },
   "77527": {
+    "battlegroundsDiabloPrizeTurn": 4,
     "cardClass": "WARRIOR",
     "cost": 0,
     "dbfId": 77527,
@@ -16445,7 +16494,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Put a random <b>Secret</b> into the battlefield.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "77840": {
     "attack": 10,
@@ -16466,7 +16518,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> Put 2 random\n<b>Secrets</b> into the battlefield.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "77841": {
     "attack": 6,
@@ -17407,6 +17462,7 @@
     "type": "HERO"
   },
   "77990": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 77990,
@@ -17736,6 +17792,7 @@
     ]
   },
   "79619": {
+    "bannedFromNguyen": true,
     "collectionText": "[x]<b>Passive.</b> When your\nwarband reaches 30 total\nAttack, begin your Naga\nConquest. <i>({0} left!)</i>",
     "cost": 0,
     "dbfId": 79619,
@@ -19587,6 +19644,7 @@
     "type": "HERO"
   },
   "81570": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 81570,
@@ -19609,6 +19667,7 @@
     ]
   },
   "81572": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "collectionText": "[x]<b>Passive</b>\nAfter 12 friendly minions\ndie, get a random Mech.\n<i>({0} left.)</i>",
     "cost": 0,
@@ -21525,6 +21584,7 @@
     "type": "SPELL"
   },
   "89052": {
+    "bannedFromQuests": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 89052,
@@ -22037,6 +22097,7 @@
     "type": "MINION"
   },
   "90861": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 90861,
@@ -23286,6 +23347,7 @@
     "type": "HERO"
   },
   "92961": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 92961,
@@ -24044,6 +24106,7 @@
     "type": "MINION"
   },
   "95148": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 95148,
@@ -25355,6 +25418,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96146": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 96146,
@@ -25366,6 +25430,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96147": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 96147,
@@ -25377,6 +25442,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96148": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 96148,
@@ -25388,6 +25454,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96149": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 96149,
@@ -25399,6 +25466,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96150": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 96150,
@@ -25410,6 +25478,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96151": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 96151,
@@ -27190,6 +27259,7 @@
     "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "97185": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "collectionText": "[x]Give a minion +{1}/+{1}.\nUpgrades after nine\n friendly minions die.\n <i>({0} left!)</i>",
     "cost": 1,
@@ -27507,6 +27577,7 @@
     "type": "MINION"
   },
   "97436": {
+    "bannedFromRewards": true,
     "cardClass": "NEUTRAL",
     "cost": 0,
     "dbfId": 97436,
@@ -30899,6 +30970,7 @@
     "type": "HERO"
   },
   "99034": {
+    "bannedFromNguyen": true,
     "cardClass": "NEUTRAL",
     "collectionText": "[x]<b>Passive.</b> At the end of every 3\nturns, get a plain copy of the\nleft-most card in your hand.\n<i>(End of this turn!)</i>",
     "cost": 0,

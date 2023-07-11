@@ -121,7 +121,7 @@ function getCardsOfPool(pool) {
     return cardsInPoolFormatted;
 }
 
-console.log(getCardsOfPool("SPELLCRAFT_POOL"));
+console.log(getCardsOfPool("QUEST_POOL"));
 
 module.exports = { 
     getActiveCards, getCardById, getCardsOfPool

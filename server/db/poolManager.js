@@ -81,25 +81,37 @@ function getMinionsForPool(pool) {
         case "SPELLCRAFT_POOL":
             return getSpellcraftSpells();
         case "SECRET_POOL":
-            return [];
+            return getSecrets();
         case "MAGNETIC_POOL":
-            return [];
+            return getMinionsOfMechanic("MAGNETIC");
         case "GOLDEN_POOL":
             return [];
-        case "DARKMOON_PRIZE_POOL":
-            return [];
+        case "DARKMOON_PRIZE_POOL_1":
+            return getDarkmoonPrizes(1);
+        case "DARKMOON_PRIZE_POOL_2":
+            return getDarkmoonPrizes(2);
+        case "DARKMOON_PRIZE_POOL_3":
+            return getDarkmoonPrizes(3);
+        case "DARKMOON_PRIZE_POOL_4":
+            return getDarkmoonPrizes(4);
         case "NGUYEN_HP_POOL":
-            return [];
-        case "DIABLO_POOL":
-            return [];
+            return getNguyenHPs();
+        case "DIABLO_POOL_1":
+            return getDiabloPrizes(1);
+        case "DIABLO_POOL_2":
+            return getDiabloPrizes(2);
+        case "DIABLO_POOL_3":
+            return getDiabloPrizes(3);
+        case "DIABLO_POOL_4":
+            return getDiabloPrizes(4);
         case "PUTRI_POOL_1":
             return [];
         case "PUTRI_POOL_2":
             return [];
         case "QUEST_POOL":
-            return [];
+            return getQuests();
         case "REWARD_POOL":
-            return [];
+            return getRewards();
         case "ETC_BUDDY_POOL":
             return [];
         case "FOAF_BUDDY_POOL":
@@ -171,6 +183,82 @@ function getSpellcraftSpell(card, db) {
         }
     }
     return [];
+}
+
+function getSecrets() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let secrets = [];
+    for (let card of cards) {
+        if(card.isAkamSecret && card.isAkamSecret === true) {
+            secrets.push(card);
+        }
+    }
+    return secrets;
+}
+
+function getDiabloPrizes(turn) {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let prizes = [];
+    for (let card of cards) {
+        if(card.battlegroundsDiabloPrizeTurn && card.battlegroundsDiabloPrizeTurn === turn) {
+            prizes.push(card);
+        }
+    }
+    return prizes;
+}
+
+function getDarkmoonPrizes(turn) {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let prizes = [];
+    for (let card of cards) {
+        if(card.battlegroundsDarkmoonPrizeTurn && card.battlegroundsDarkmoonPrizeTurn === turn) {
+            prizes.push(card);
+        }
+    }
+    return prizes;
+}
+
+function getNguyenHPs() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let hps = [];
+    for (let card of cards) {
+        if(card.battlegroundsHero && card.battlegroundsHero === true) {
+            let hp = jsonDB[card.heroPowerDbfId];
+            if(!hp.bannedFromNguyen || !(hp.bannedFromNguyen === true)) {
+                hps.push(hp);
+            }
+        }
+    }
+    return hps;
+}
+
+function getQuests() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let quests = [];
+    for (let card of cards) {
+        if(card.type === "SPELL" && card.mechanics && card.mechanics.includes("QUEST") 
+                && !(card.bannedFromQuests && card.bannedFromQuests === true)) {
+            quests.push(card);
+        }
+    }
+    return quests;
+}
+
+function getRewards() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    let cards = Object.values(jsonDB);
+    let rewards = [];
+    for (let card of cards) {
+        if(card.type === "BATTLEGROUND_QUEST_REWARD" && !(card.bannedFromRewards && card.bannedFromRewards === true)) {
+            rewards.push(card);
+        }
+    }
+    return rewards;
 }
 
 module.exports = {
