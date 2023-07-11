@@ -7,8 +7,11 @@ function isActiveCard( currentCard ) {
     || (currentCard["isBattlegroundsPoolMinion"] && currentCard["isBattlegroundsPoolMinion"] == true);
 }
 
-function getActiveCards() {
+function getActiveCards(tribes) {
     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    if(arguments.length > 0) {
+        jsonDB = keepCardsFromTribes(jsonDB, tribes);
+    }
     let activeCards = [];
     
 
@@ -23,7 +26,6 @@ function getActiveCards() {
 
     return activeCards;
 }
-
 
 
 function keepSpecificFields( cardObj ) {

@@ -35059,7 +35059,6 @@
     "flavor": "\"ME HAVE GOOD STATS FOR THE COST\"",
     "health": 7,
     "id": "BG_CS2_200",
-    "isBattlegroundsPoolMinion": true,
     "name": "Boulderfist Ogre",
     "set": "BASIC",
     "techLevel": 3,
