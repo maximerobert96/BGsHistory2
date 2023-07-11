@@ -112,8 +112,8 @@ function tempGetCardPoolNames(){
 
 // console.log(tempGetCardPoolNames());
 
-function getCardsOfPool(pool) {
-    let cardsInPool = poolManager.getMinionsForPool(pool);
+function getCardsOfPool(cards, pool) {
+    let cardsInPool = poolManager.getMinionsForPool(cards, pool);
     let cardsInPoolFormatted = [];
     for (let card of cardsInPool) {
         cardsInPoolFormatted.push(keepSpecificFields(card));
@@ -121,7 +121,39 @@ function getCardsOfPool(pool) {
     return cardsInPoolFormatted;
 }
 
-// console.log(getCardsOfPool("ETC_BUDDY_POOL"));
+function keepCardsFromTribes(cards, tribes) {
+    let cardsFittingTribes = [];
+    for(let card of cards) {
+        if(isCardValidForTribes(card, tribes)){
+            cardsFittingTribes.push(card);
+        }
+    }
+    return cardsFittingTribes;
+}
+
+function isCardValidForTribes(card, tribes) {
+    let isInTribes = false;
+    if(card.associatedTribes) {
+        for(let tribe of card.associatedTribes) {
+            if(tribes.includes(tribe)){
+                isInTribes = true;
+            }
+        }
+    }
+    return !card.associatedTribes || card.associatedTribes.includes("GENERAL") || isInTribes;
+}
+
+// function temp(){
+//     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+//     let cards = Object.values(jsonDB);
+//     cards = keepCardsFromTribes(cards, ["MECHANICAL"]);
+//     cards = getCardsOfPool(cards, "UNDEAD_POOL");
+//     console.log(cards);
+// }
+
+// temp();
+
+
 
 module.exports = { 
     getActiveCards, getCardById, getCardsOfPool

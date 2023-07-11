@@ -30,6 +30,21 @@ function listBuddiesAndIds(){
     }
 }
 
+function addingTribes() {
+    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    for(let id in jsonDB) {
+        let currentCard = jsonDB[id];
+        if(currentCard.races) {
+            currentCard.associatedTribes = currentCard.races;
+        } else if (currentCard.type && (currentCard.type === "HERO" || currentCard.type === "MINION")) {
+            currentCard.associatedTribes = [ "GENERAL" ];
+        }
+    }
+    fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
+}
+
+// addingTribes();
+
 // listBuddiesAndIds();
 
 // const PUTRI_POOL_1 = [
