@@ -1,0 +1,754 @@
+{
+  "57567": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57567,
+    "id": "TB_BaconShop_HP_001",
+    "name": "Sharpen Blades",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion\n+2/+1 for each minion\n you've bought this turn.",
+    "type": "HERO_POWER"
+  },
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "61048": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62259,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 61048,
+    "health": 3,
+    "id": "BGS_048",
+    "name": "Southsea Strongarm",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Give +1/+1. Repeat for each Pirate you bought this turn.",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Give a friendly\nPirate +1/+1. Repeat for\neach Pirate you bought\nthis turn.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61056": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62257,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61056,
+    "health": 6,
+    "id": "BGS_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ripsnarl Captain",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever another friendly Pirate attacks, give it +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61060": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 63782,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61060,
+    "health": 5,
+    "id": "BGS_060",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61061": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62262,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61061,
+    "health": 1,
+    "id": "BGS_061",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Scallywag",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 1/1 Pirate. It attacks immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62257": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61056,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 62257,
+    "health": 12,
+    "id": "TB_BaconUps_139",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ripsnarl Captain",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever another friendly Pirate attacks, give it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62259": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61048,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 62259,
+    "health": 6,
+    "id": "TB_BaconUps_140",
+    "name": "Southsea Strongarm",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Give +2/+2. Repeat for each Pirate you bought this turn.",
+    "text": "[x]<b>Battlecry:</b> Give a friendly\nPirate +2/+2. Repeat for\neach Pirate you bought\nthis turn.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62262": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61061,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 62262,
+    "health": 2,
+    "id": "TB_BaconUps_141",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Scallywag",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a 2/2 Pirate. It attacks immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "63782": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61060,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63782,
+    "health": 10,
+    "id": "TB_BaconUps_150",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "70151": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70152,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70151,
+    "health": 3,
+    "id": "BG20_202",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Necrolyte",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Play 2 <b>Blood Gems</b> and steal all from neighbors.",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Play 2 <b>Blood\nGems</b> on a friendly minion.\nIt steals all <b>Blood Gems</b>\nfrom its neighbors.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70152": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70151,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70152,
+    "health": 6,
+    "id": "BG20_202_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Necrolyte",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Play 4 <b>Blood Gems</b> and steal all from neighbors.",
+    "text": "[x]<b>Battlecry:</b> Play 4 <b>Blood\nGems</b> on a friendly minion.\nIt steals all <b>Blood Gems</b>\nfrom its neighbors.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70162": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 70168,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70162,
+    "health": 3,
+    "id": "BG20_102",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tough Tusk",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After a <b>Blood Gem</b> is played on this, gain <b>Divine Shield</b> for the next combat.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70168": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 70162,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70168,
+    "health": 6,
+    "id": "BG20_102_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tough Tusk",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a <b>Blood Gem</b> is played on this, gain\n<b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70171": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70172,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70171,
+    "health": 3,
+    "id": "BG20_103",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bristleback Brute",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "The first <b>Blood Gem</b> played on this each turn gives an extra +3/+3.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70172": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70171,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70172,
+    "health": 6,
+    "id": "BG20_103_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bristleback Brute",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "The first <b>Blood Gem</b> played on this each turn gives an extra +6/+6.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70184": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 70191,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 70184,
+    "health": 6,
+    "id": "BG20_207",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dynamic Duo",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b><b>Taunt</b>.</b> After a <b>Blood Gem</b>\nis played on another\nQuilboar, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70191": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 70184,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 70191,
+    "health": 12,
+    "id": "BG20_207_G",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dynamic Duo",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b><b>Taunt</b>.</b> After a <b>Blood Gem</b>\nis played on another\nQuilboar, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "72388": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 74906,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72388,
+    "health": 3,
+    "id": "BG21_023",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Mechano-Tank",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (2):</b> Deal 5 damage to the highest Health enemy minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72389": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 75141,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72389,
+    "health": 6,
+    "id": "BG21_024",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Grease Bot",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, give it +1/+1 permanently.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "74646": {
+    "battlegroundsHero": true,
+    "cardClass": "WARLOCK",
+    "dbfId": 74646,
+    "health": 40,
+    "id": "BG20_HERO_282",
+    "name": "Tamsin Roame",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "74906": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 72388,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 74906,
+    "health": 6,
+    "id": "BG21_023_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Mechano-Tank",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Avenge (2):</b> Deal 5 damage\nto the highest Health\nenemy minion twice.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "74933": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 74934,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 74933,
+    "health": 6,
+    "id": "BG21_031",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Tony Two-Tusk",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Avenge (4):</b> Make\nanother friendly Pirate\nGolden permanently.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "74934": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 74933,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 74934,
+    "health": 12,
+    "id": "BG21_031_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Tony Two-Tusk",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Avenge (4):</b> Make\n2 other friendly Pirates\nGolden permanently.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "75141": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 72389,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 75141,
+    "health": 12,
+    "id": "BG21_024_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Grease Bot",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a friendly minion loses <b>Divine Shield</b>, give it +2/+2 permanently.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "77341": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77341,
+    "id": "BG20_HERO_666p_t3a",
+    "name": "Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +4/+4 for next combat only.",
+    "type": "SPELL"
+  },
+  "77344": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77344,
+    "id": "BG20_HERO_666p_t3b",
+    "name": "Magic Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +8/+8 for next combat only.",
+    "type": "SPELL"
+  },
+  "77345": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77345,
+    "id": "BG20_HERO_666p_t3c",
+    "name": "Rare Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +16/+16 for next combat only.",
+    "type": "SPELL"
+  },
+  "77435": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77435,
+    "id": "BG20_HERO_666p_t1a",
+    "name": "Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 2 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77436": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77436,
+    "id": "BG20_HERO_666p_t1b",
+    "name": "Magic Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 4 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77437": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77437,
+    "id": "BG20_HERO_666p_t1c",
+    "name": "Rare Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 8 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77438": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77438,
+    "id": "BG20_HERO_666p_t1d",
+    "name": "Unique Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 16 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77518": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77518,
+    "id": "BG20_HERO_666p_t5a",
+    "name": "Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +2 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77520": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77520,
+    "id": "BG20_HERO_666p_t5b",
+    "name": "Magic Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +4 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77521": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77521,
+    "id": "BG20_HERO_666p_t5c",
+    "name": "Rare Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +8 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77522": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77522,
+    "id": "BG20_HERO_666p_t5d",
+    "name": "Unique Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +16 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77911": {
+    "cardClass": "WARLOCK",
+    "cost": 0,
+    "dbfId": 77911,
+    "id": "BG20_HERO_282p",
+    "name": "Fragrant Phylactery",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its Health\nto all your others.",
+    "type": "HERO_POWER"
+  },
+  "78109": {
+    "attack": 5,
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 78109,
+    "health": 5,
+    "id": "BG20_HERO_666p_t0",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Diablo, Lord of Terror",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Deathrattle:</b> Give your\nopponent loot!\n<i>(If this survives, Diablo\ngets 2 loot instead.)</i>",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "80271": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80271,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_H",
+    "name": "Flightmaster Dungar",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80666": {
+    "battlegroundsSkinParentId": 63601,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80666,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_71_SKIN_B",
+    "name": "Shadowpanther Jandice",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80667": {
+    "battlegroundsSkinParentId": 57891,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80667,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_10_SKIN_A",
+    "name": "Moneyhogger Gallywix",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80673": {
+    "battlegroundsSkinParentId": 58024,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80673,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_22_SKIN_B",
+    "name": "Invincible Lich King",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80674": {
+    "battlegroundsSkinParentId": 61914,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80674,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_62_SKIN_C",
+    "name": "Saberrider Maiev",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80675": {
+    "battlegroundsSkinParentId": 61910,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80675,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_59_SKIN_B",
+    "name": "Warpfrenzy Aranna",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80676": {
+    "battlegroundsSkinParentId": 61911,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80676,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_59t_SKIN_B",
+    "name": "Warpfrenzy Aranna, Unleashed",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80677": {
+    "battlegroundsSkinParentId": 60372,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80677,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_55_SKIN_B",
+    "name": "Horsemaster Flurgl",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80678": {
+    "battlegroundsSkinParentId": 63602,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80678,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_72_SKIN_A",
+    "name": "Stouthoof Barov",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "57567": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57567,
+    "id": "TB_BaconShop_HP_001",
+    "name": "Sharpen Blades",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a minion +1/+1\nfor each minion you've\nbought this turn.",
+    "type": "HERO_POWER"
+  },
+  "57633": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57633,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_01",
+    "name": "Edwin VanCleef",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "57949": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57949,
+    "id": "TB_BaconShop_HP_015",
+    "name": "Tinker",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +1 Attack.",
+    "type": "HERO_POWER"
+  },
+  "57962": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57962,
+    "id": "TB_BaconShop_HP_018",
+    "name": "Rage Potion",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ngive your left-most minion\n+20 Attack.",
+    "type": "HERO_POWER"
+  },
+  "59397": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 59397,
+    "health": 50,
+    "id": "TB_BaconShop_HERO_34",
+    "name": "Patchwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "59399": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59399,
+    "id": "TB_BaconShop_HP_035",
+    "name": "All Patched Up",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nStart with 50 Health \ninstead of 40.",
+    "type": "HERO_POWER"
+  },
+  "59560": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59560,
+    "faction": "ALLIANCE",
+    "id": "TB_BaconShopLockAll_Button",
+    "name": "Freeze",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Freeze</b> / Unfreeze the minions in Bob's Tavern.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59707": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59707,
+    "health": 2,
+    "id": "BGS_009",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn,\ngive a random friendly Mech, Murloc, Demon, and Beast +2/+1.",
+    "type": "MINION",
+    "techLevel": 5,
+    "isBattlegroundsPoolMinion": true
+  },
+  "59711": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59711,
+    "health": 4,
+    "id": "TB_BaconUps_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn,\ngive a random friendly Mech, Murloc, Demon, and Beast +4/+2.",
+    "type": "MINION",
+    "techLevel": 5
+  },
+  "59839": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59839,
+    "id": "TB_BaconShop_HP_041a",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Beasts",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +1/+1.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59852": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59852,
+    "id": "TB_BaconShop_HP_041c",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Murlocs",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +1/+1.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59853": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59853,
+    "id": "TB_BaconShop_HP_041b",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Mechs",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +1/+1.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59854": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59854,
+    "id": "TB_BaconShop_HP_041d",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Demons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +1/+1.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59891": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59891,
+    "id": "TB_BaconShop_HP_044",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Procrastinate",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nSkip your first two turns.\nStart with two minions\nfrom Tavern Tier 3.",
+    "type": "HERO_POWER"
+  },
+  "60247": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60247,
+    "elite": true,
+    "health": 3,
+    "id": "BGS_030",
+    "mechanics": [
+      "BATTLECRY",
+      "DEATHRATTLE"
+    ],
+    "name": "King Bagurgle",
+    "race": "MURLOC",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry and Deathrattle:</b> Give your other Murlocs +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 5,
+    "isBattlegroundsPoolMinion": true
+  },
+  "60285": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60285,
+    "id": "TB_BaconShop_HP_049",
+    "name": "Graveyard Shift",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nTake $2 damage and add\na Gold Coin to your hand.",
+    "type": "HERO_POWER"
+  },
+  "60361": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60361,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_44",
+    "name": "Sylvanas Windrunner",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "60362": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60362,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_45",
+    "name": "Arch-Villain Rafaam",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "60373": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60373,
+    "id": "TB_BaconShop_HP_050",
+    "name": "Banshee's Blessing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nGive adjacent minions\n+1/+1.",
+    "type": "HERO_POWER"
+  },
+  "60381": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60381,
+    "id": "TB_BaconShop_HP_053",
+    "name": "I'll Take That!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nNext combat, add a plain\ncopy of the first minion\nyou kill to your hand.",
+    "type": "HERO_POWER"
+  },
+  "60396": {
+    "attack": 12,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60396,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconUps_100",
+    "mechanics": [
+      "BATTLECRY",
+      "DEATHRATTLE"
+    ],
+    "name": "King Bagurgle",
+    "race": "MURLOC",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry and Deathrattle:</b> Give your other Murlocs +4/+4.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 5
+  },
+  "60403": {
+    "attack": 8,
+    "cardClass": "WARLOCK",
+    "cost": 5,
+    "dbfId": 60403,
+    "health": 8,
+    "id": "TB_BaconUps_101",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Floating Watcher",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever your hero takes damage on your turn, gain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 3
+  }
+}

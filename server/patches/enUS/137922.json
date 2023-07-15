@@ -1,0 +1,1890 @@
+{
+  "57962": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57962,
+    "id": "TB_BaconShop_HP_018",
+    "name": "Rage Potion",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion\n+10 Attack until\nnext turn.",
+    "type": "HERO_POWER"
+  },
+  "58040": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 58040,
+    "id": "TB_BaconShop_HP_024",
+    "name": "Reborn Rites",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion\n<b>Reborn</b> until next turn.",
+    "type": "HERO_POWER"
+  },
+  "59564": {
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59564,
+    "id": "TB_BaconShopTechUp05_Button",
+    "name": "Tavern Tier 5",
+    "set": "BATTLEGROUNDS",
+    "text": "Bob sells higher tier minions when you <b>Refresh</b>.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "60027": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 60028,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60027,
+    "health": 4,
+    "id": "TB_BaconUps_089",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> If you control\nanother Murloc,\n<b>Discover</b> 2 Murlocs.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "61444": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61445,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61444,
+    "health": 6,
+    "id": "BGS_069",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry:</b> For each different\nminion type you have among\nother minions, <b>Adapt</b>\nrandomly.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "63623": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65666,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63623,
+    "health": 4,
+    "id": "BGS_111",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Champion of Y'Shaarj",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+1 permanently.",
+    "type": "MINION"
+  },
+  "65031": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 65122,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65031,
+    "health": 1,
+    "id": "BGS_131",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Deadly Spore",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION"
+  },
+  "70158": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 70159,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70158,
+    "health": 8,
+    "id": "BG20_204",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "FRENZY",
+      "WINDFURY"
+    ],
+    "name": "Bristleback Knight",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Windfury</b>, <b>Divine Shield</b>\n<b>Frenzy:</b> Gain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70159": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 70158,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70159,
+    "health": 16,
+    "id": "BG20_204_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "FRENZY",
+      "WINDFURY"
+    ],
+    "name": "Bristleback Knight",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Mega-Windfury</b>,\n<b><b>Divine Shield</b>.</b>\n<b>Frenzy:</b> Gain\n<b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70162": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 70168,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70162,
+    "health": 3,
+    "id": "BG20_102",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tough Tusk",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After a <b>Blood Gem</b> is played on this, gain <b>Divine Shield</b> until next turn.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70179": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 70190,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70179,
+    "elite": true,
+    "health": 6,
+    "id": "BG20_206",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Flat Tusk",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you spend 4 Gold, gain a <b>Blood Gem</b>.\n<i>(4 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70188": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 70189,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70188,
+    "health": 6,
+    "id": "BG20_106",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Groundshaker",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a <b>Blood Gem</b> is played on this, give your other minions +2 Attack until next turn.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70189": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 70188,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70189,
+    "health": 12,
+    "id": "BG20_106_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Groundshaker",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a <b>Blood Gem</b> is played on this, give your other minions +4 Attack until next turn.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "72044": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 73009,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72044,
+    "health": 5,
+    "id": "BG21_011",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Seafood Slinger",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Make a Murloc Golden.",
+    "type": "MINION"
+  },
+  "73940": {
+    "battlegroundsBuddyDbfId": 77778,
+    "cardClass": "PALADIN",
+    "dbfId": 73940,
+    "health": 40,
+    "id": "BG21_HERO_000",
+    "name": "Cariel Roame",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "77341": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77341,
+    "id": "BG20_HERO_666p_t3a",
+    "name": "Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +4/+4 until next turn.",
+    "type": "SPELL"
+  },
+  "77344": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77344,
+    "id": "BG20_HERO_666p_t3b",
+    "name": "Magic Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +8/+8 until next turn.",
+    "type": "SPELL"
+  },
+  "77345": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77345,
+    "id": "BG20_HERO_666p_t3c",
+    "name": "Rare Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +16/+16 until next turn.",
+    "type": "SPELL"
+  },
+  "77346": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77346,
+    "id": "BG20_HERO_666p_t3d",
+    "name": "Unique Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Double a friendly\nminion's Attack and\nHealth until next turn.",
+    "type": "SPELL"
+  },
+  "77347": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77347,
+    "id": "BG20_HERO_666p_t4a",
+    "name": "Magma Horns",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Windfury</b> until next turn.",
+    "type": "SPELL"
+  },
+  "77348": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77348,
+    "id": "BG20_HERO_666p_t4b",
+    "name": "Magic Magma Horns",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Reborn</b> until next turn.",
+    "type": "SPELL"
+  },
+  "77351": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77351,
+    "id": "BG20_HERO_666p_t4c",
+    "name": "Rare Magma Horns",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Divine Shield</b> until next turn.",
+    "type": "SPELL"
+  },
+  "77353": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77353,
+    "id": "BG20_HERO_666p_t4d",
+    "name": "Unique Magma Horns",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion\n<b>Windfury</b>, <b>Reborn</b>, and\n<b>Divine Shield</b> until\nnext turn.",
+    "type": "SPELL"
+  },
+  "77475": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 77728,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77475,
+    "health": 1,
+    "id": "TB_BaconShop_HERO_29_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tentacle of C'Thun",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After a different friendly minion gains stats, gain +1/+1 until next turn.",
+    "type": "MINION"
+  },
+  "77518": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77518,
+    "id": "BG20_HERO_666p_t5a",
+    "name": "Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +2 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77520": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77520,
+    "id": "BG20_HERO_666p_t5b",
+    "name": "Magic Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +4 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77521": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77521,
+    "id": "BG20_HERO_666p_t5c",
+    "name": "Rare Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +8 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77522": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77522,
+    "id": "BG20_HERO_666p_t5d",
+    "name": "Unique Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +16 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77728": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 77475,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77728,
+    "health": 2,
+    "id": "TB_BaconShop_HERO_29_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tentacle of C'Thun",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After a different friendly minion gains stats, gain +2/+2 until next turn.",
+    "type": "MINION"
+  },
+  "79618": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 40,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "79619": {
+    "collectionText": "[x]<b>Passive.</b> When your\nwarband reaches 30 total\nAttack, begin your Naga\nConquest. <i>({0} left!)</i>",
+    "cost": 0,
+    "dbfId": 79619,
+    "hideCost": true,
+    "id": "BG22_HERO_007p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Azshara's Ambition",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> When your\nwarband reaches 30 total\nAttack, begin your Naga\nConquest.",
+    "type": "HERO_POWER"
+  },
+  "80007": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80007,
+    "id": "BG22_HERO_007p2",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Naga Conquest",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Discover</b> a Naga.",
+    "type": "HERO_POWER"
+  },
+  "80244": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80244,
+    "id": "BG22_HERO_002p",
+    "name": "Lead the Frostwolves",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Choose a friendly minion.\nIt copies the Attack of your\nhighest Attack minion\nuntil next turn.",
+    "type": "HERO_POWER"
+  },
+  "80248": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80248,
+    "id": "BG22_HERO_003p",
+    "name": "Lead the Stormpikes",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Choose a friendly minion.\nIt copies the Health of your\nhighest Health minion\nuntil next turn.",
+    "type": "HERO_POWER"
+  },
+  "80738": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 80757,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80738,
+    "health": 3,
+    "id": "BG23_000",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mini-Myrmidon",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Spellcraft:</b> Give a minion +2 Attack until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80739": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80758,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80739,
+    "health": 2,
+    "id": "BG23_001",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snail Cavalry",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Once per Turn:</b>\nAfter you cast a spell,\ngain +2 Health.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80740": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 82646,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80740,
+    "health": 1,
+    "id": "BG23_002",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shell Collector",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Add a Gold Coin to your hand.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80741": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80759,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80741,
+    "health": 7,
+    "id": "BG23_003",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +2/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80742": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80760,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80742,
+    "health": 2,
+    "id": "BG23_004",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Deep-Sea Angler",
+    "race": "NAGA",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+3 Health and <b>Taunt</b>\nuntil next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80743": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80761,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80743,
+    "health": 4,
+    "id": "BG23_005",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stormscale Siren",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the end of your turn,\nyour <b>Spellcraft</b> minions\ncast their spells\non themselves.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80744": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 80762,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80744,
+    "health": 4,
+    "id": "BG23_006",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eelbound Archer",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Spellcraft:</b> Give a minion +8 Attack until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80745": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80763,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 80745,
+    "health": 8,
+    "id": "BG23_007",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waverider",
+    "race": "NAGA",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+1/+1 and <b>Windfury</b>\nuntil next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80746": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 80764,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80746,
+    "health": 6,
+    "id": "BG23_008",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Glowscale",
+    "race": "NAGA",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Taunt</b>\n<b>Spellcraft:</b> Give a minion <b>Divine Shield</b> until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80747": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80765,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80747,
+    "health": 5,
+    "id": "BG23_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]The first <b>Spellcraft</b> spell\ncast on this each turn\nis permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80748": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80766,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 80748,
+    "health": 4,
+    "id": "BG23_010",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eventide Brute",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]After you cast a spell,\ngain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80749": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80767,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 80749,
+    "health": 2,
+    "id": "BG23_011",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shoal Commander",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+1/+1 for each friendly\nNaga until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80750": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80768,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80750,
+    "health": 2,
+    "id": "BG23_012",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Corrupted Myrmidon",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Double this minion's stats.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80751": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 80769,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 80751,
+    "elite": true,
+    "health": 8,
+    "id": "BG23_013",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast a spell, give\nfour friendly Naga +1/+1.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80752": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 80770,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80752,
+    "elite": true,
+    "health": 5,
+    "id": "BG23_014",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Pashmar the Vengeful",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Avenge (3):</b> Get a\n<b>Spellcraft</b> spell\nof your Tier or lower.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80753": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80771,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80753,
+    "elite": true,
+    "health": 9,
+    "id": "BG23_015",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Orgozoa, the Tender",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Spellcraft: Discover</b> a Naga.",
+    "type": "MINION"
+  },
+  "80754": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 80772,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80754,
+    "health": 3,
+    "id": "BG23_016",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reef Explorer",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry: Discover</b> a minion from a minion type you don't control.",
+    "type": "MINION"
+  },
+  "80756": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 80774,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80756,
+    "health": 7,
+    "id": "BG23_018",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Darkgaze Elder",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you spend 4 Gold,\nplay a <b>Blood Gem</b> on\nfour friendly Quilboar.\n<i>(4 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "80757": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 80738,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80757,
+    "health": 6,
+    "id": "BG23_000_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mini-Myrmidon",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Spellcraft:</b> Give a minion +4 Attack until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80758": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80739,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80758,
+    "health": 4,
+    "id": "BG23_001_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snail Cavalry",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Once per Turn:</b>\nAfter you cast a spell,\ngain +4 Health.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80759": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80741,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80759,
+    "health": 14,
+    "id": "BG23_003_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80760": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80742,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80760,
+    "health": 4,
+    "id": "BG23_004_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Deep-Sea Angler",
+    "race": "NAGA",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+6 Health and <b>Taunt</b>\nuntil next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80761": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80743,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80761,
+    "health": 8,
+    "id": "BG23_005_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stormscale Siren",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the end of your turn,\nyour <b>Spellcraft</b> minions\ncast their spells\n on themselves twice.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80762": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 80744,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80762,
+    "health": 8,
+    "id": "BG23_006_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eelbound Archer",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+16 Attack until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80763": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80745,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 80763,
+    "health": 16,
+    "id": "BG23_007_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waverider",
+    "race": "NAGA",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2 and <b>Windfury</b>\nuntil next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80764": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 80746,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80764,
+    "health": 12,
+    "id": "BG23_008_G",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Glowscale",
+    "race": "NAGA",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Taunt</b>\n<b>Spellcraft:</b> Give a minion <b>Divine Shield</b> until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80765": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80747,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80765,
+    "health": 10,
+    "id": "BG23_009_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]The first 2 <b>Spellcraft</b> spells\ncast on this each turn\nare permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80766": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80748,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 80766,
+    "health": 8,
+    "id": "BG23_010_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eventide Brute",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]After you cast a spell,\ngain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80767": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80749,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 80767,
+    "health": 4,
+    "id": "BG23_011_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shoal Commander",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2 for each friendly\nNaga until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80768": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80750,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80768,
+    "health": 4,
+    "id": "BG23_012_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Corrupted Myrmidon",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Start of Combat:</b> Triple\nthis minion's stats.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80769": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 80751,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 80769,
+    "elite": true,
+    "health": 16,
+    "id": "BG23_013_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast a spell, give\nfour friendly Naga +2/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80770": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 80752,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80770,
+    "elite": true,
+    "health": 10,
+    "id": "BG23_014_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Pashmar the Vengeful",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Avenge (3):</b> Get 2\n<b>Spellcraft</b> spells\nof your Tier or lower.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80771": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80753,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80771,
+    "elite": true,
+    "health": 18,
+    "id": "BG23_015_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Orgozoa, the Tender",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Spellcraft: Discover</b> 2 Naga.",
+    "type": "MINION"
+  },
+  "80772": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 80754,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80772,
+    "health": 6,
+    "id": "BG23_016_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reef Explorer",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry: Discover</b> 2 minions from minion types you don't control.",
+    "type": "MINION"
+  },
+  "80774": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 80756,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80774,
+    "health": 14,
+    "id": "BG23_018_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Darkgaze Elder",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you spend 4 Gold,\nplay a <b>Blood Gem</b> on four\nfriendly Quilboar twice.\n<i>(4 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "82323": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 82323,
+    "id": "BG23_011t",
+    "name": "Mighty Shoal",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +1/+1 for each friendly Naga until next turn.",
+    "type": "SPELL"
+  },
+  "82646": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 80740,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 82646,
+    "health": 2,
+    "id": "BG23_002_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shell Collector",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Battlecry:</b> Add 2 Gold Coins\nto your hand.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "82699": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 82699,
+    "id": "BG23_011_Gt",
+    "name": "Mighty Shoal",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +2/+2 for each friendly Naga until next turn.",
+    "type": "SPELL"
+  },
+  "83632": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83632,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_N",
+    "name": "Headmaster Kel'thuzad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83633": {
+    "battlegroundsSkinParentId": 74646,
+    "cardClass": "WARLOCK",
+    "dbfId": 83633,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_282_SKIN_A",
+    "name": "Ballroom Tamsin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83634": {
+    "battlegroundsSkinParentId": 74631,
+    "cardClass": "DEMONHUNTER",
+    "dbfId": 83634,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_280_SKIN_A",
+    "name": "Suede Kurtrus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83635": {
+    "battlegroundsSkinParentId": 63601,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83635,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_71_SKIN_C",
+    "name": "Glamorous Jandice",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83636": {
+    "battlegroundsSkinParentId": 67356,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83636,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_94_SKIN_C",
+    "name": "Prom Queen Tickatus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83637": {
+    "battlegroundsSkinParentId": 63602,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83637,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_72_SKIN_B",
+    "name": "Chaperone Barov",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83638": {
+    "battlegroundsSkinParentId": 61910,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83638,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_59_SKIN_D",
+    "name": "Dance-Off Aranna",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83641": {
+    "battlegroundsSkinParentId": 59806,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83641,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_36_SKIN_B",
+    "name": "Prom King Deryl",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83642": {
+    "battlegroundsSkinParentId": 57946,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83642,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_17_SKIN_B",
+    "name": "Chauffeur Millificent",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83643": {
+    "battlegroundsSkinParentId": 61911,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83643,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_59t_SKIN_D",
+    "name": "Dance-Off Aranna, Unleashed",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83645": {
+    "battlegroundsSkinParentId": 71916,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83645,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_301_SKIN_B",
+    "name": "Mutanus the Insatiable",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83646": {
+    "battlegroundsSkinParentId": 63604,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83646,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_74_SKIN_D",
+    "name": "Sapling Omu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83647": {
+    "battlegroundsSkinParentId": 57924,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83647,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_14_SKIN_B",
+    "name": "Princess Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83648": {
+    "battlegroundsSkinParentId": 57893,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83648,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_12_SKIN_B",
+    "name": "The Rat Prince",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83649": {
+    "battlegroundsSkinParentId": 61490,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83649,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_58_SKIN_B",
+    "name": "Twitterpated Malygos",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83650": {
+    "battlegroundsSkinParentId": 58435,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83650,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_27_SKIN_B",
+    "name": "Spring Love Sindragosa",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83651": {
+    "battlegroundsSkinParentId": 59397,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83651,
+    "health": 55,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_34_SKIN_C",
+    "name": "Plushwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83914": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 83914,
+    "id": "BG23_000t",
+    "name": "Mini-Trident",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion +2 Attack\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "83919": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 83919,
+    "id": "BG23_000_Gt",
+    "name": "Mini-Trident",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion +4 Attack\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "83988": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 83988,
+    "id": "BG23_004t",
+    "name": "Angler's Lure",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +3 Health and <b>Taunt</b> until next turn.",
+    "type": "SPELL"
+  },
+  "83991": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 83991,
+    "id": "BG23_004_Gt",
+    "name": "Angler's Lure",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +6 Health and <b>Taunt</b> until next turn.",
+    "type": "SPELL"
+  },
+  "84362": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 84362,
+    "id": "BG23_008t",
+    "name": "Glowing Crown",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion <b>Divine Shield</b> until next turn.",
+    "type": "SPELL"
+  },
+  "84374": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 84374,
+    "id": "BG23_007t",
+    "name": "Undersea Mount",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n+1/+1 and <b>Windfury</b>\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "84379": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 84379,
+    "id": "BG23_007_Gt",
+    "name": "Undersea Mount",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n+2/+2 and <b>Windfury</b>\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "85856": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 85856,
+    "id": "BG23_008_Gt",
+    "name": "Glowing Crown",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion <b>Divine Shield</b> until next turn.",
+    "type": "SPELL"
+  },
+  "86783": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 86994,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 86783,
+    "health": 5,
+    "id": "BG22_402",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "POISONOUS",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mantid Queen",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Poisonous</b>. <b>Start of Combat:</b>\nFor each of your minion\ntypes gain +5/+5, <b>Windfury</b>,\n   <b>Divine Shield</b>, or <b>Taunt</b>.",
+    "type": "MINION"
+  },
+  "86981": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86981,
+    "elite": true,
+    "id": "BG23_015t",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Azshara's Hatchery",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a Naga.",
+    "type": "SPELL"
+  },
+  "86987": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86987,
+    "elite": true,
+    "id": "BG23_015_Gt",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Azshara's Hatchery",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> 2 Naga.",
+    "type": "SPELL"
+  },
+  "86994": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 86783,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 86994,
+    "health": 10,
+    "id": "BG22_402_G",
+    "mechanics": [
+      "POISONOUS",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mantid Queen",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Poisonous</b>. <b>Start of Combat:</b>\nFor each of your minion types\ngain <b>Windfury</b>, <b>Divine Shield</b>,\n <b>Taunt</b>, or +5/+5, twice.",
+    "type": "MINION"
+  },
+  "87084": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 87086,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 87084,
+    "elite": true,
+    "health": 5,
+    "id": "BG22_403",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Young Murk-Eye",
+    "race": "MURLOC",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "At the end of your turn, adjacent Murlocs trigger their <b>Battlecries</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "87086": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 87084,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 87086,
+    "elite": true,
+    "health": 10,
+    "id": "BG22_403_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Young Murk-Eye",
+    "race": "MURLOC",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\nadjacent Murlocs trigger\n their <b>Battlecries</b> twice.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "87690": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 87689,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 87690,
+    "health": 12,
+    "id": "BG22_404_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Friend of a Friend",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry: Discover</b>\n2 Buddies.",
+    "type": "MINION"
+  },
+  "89017": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89017,
+    "id": "BG23_006t",
+    "name": "Electrify",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion +8 Attack\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "89018": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89018,
+    "id": "BG23_006_Gt",
+    "name": "Electrify",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n+16 Attack\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "89813": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89813,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041j",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Naga",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Naga</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "89992": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 89992,
+    "health": 40,
+    "id": "BG22_HERO_007t",
+    "name": "Naga Queen Azshara",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "90425": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 90430,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90425,
+    "elite": true,
+    "health": 2,
+    "id": "BG23_318",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Leeroy the Reckless",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Destroy the minion that killed this.",
+    "type": "MINION"
+  },
+  "90430": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 90425,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90430,
+    "elite": true,
+    "health": 4,
+    "id": "BG23_318_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Leeroy the Reckless",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Destroy the minion that killed this.",
+    "type": "MINION"
+  },
+  "91216": {
+    "artist": "Andrew Hou",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 96780,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 91216,
+    "flavor": "Be all that you can be.",
+    "health": 8,
+    "id": "BG_GIL_681_G",
+    "name": "Nightmare Amalgam",
+    "race": "ALL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "92260": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92260,
+    "id": "BG23_018t",
+    "name": "Darkgaze Mass Blood Gem",
+    "set": "BATTLEGROUNDS",
+    "text": "Give certain friendly minions +0/+0.",
+    "type": "SPELL"
+  },
+  "96780": {
+    "artist": "Andrew Hou",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 91216,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96780,
+    "flavor": "Be all that you can be.",
+    "health": 4,
+    "id": "GIL_681",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Nightmare Amalgam",
+    "race": "ALL",
+    "rarity": "EPIC",
+    "set": "GILNEAS",
+    "techLevel": 3,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  }
+}

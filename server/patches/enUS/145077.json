@@ -1,0 +1,236 @@
+{
+  "57567": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57567,
+    "id": "TB_BaconShop_HP_001",
+    "name": "Sharpen Blades",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion +2/+1\nfor each minion you've\nbought this turn.",
+    "type": "HERO_POWER"
+  },
+  "58040": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 58040,
+    "id": "TB_BaconShop_HP_024",
+    "name": "Reborn Rites",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion <b>Reborn</b>\nuntil next turn.",
+    "type": "HERO_POWER"
+  },
+  "59968": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 60642,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59968,
+    "health": 2,
+    "id": "BGS_019",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Red Whelp",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60642": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59968,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60642,
+    "health": 4,
+    "id": "TB_BaconUps_102",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Red Whelp",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion twice.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "74659": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 74661,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74659,
+    "health": 1,
+    "id": "BG21_027",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After you upgrade your\nTavern Tier, gain +1/+1\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "74661": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 74659,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74661,
+    "health": 2,
+    "id": "BG21_027_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After you upgrade your\nTavern Tier, gain +2/+2\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "76520": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76520,
+    "id": "BG21_HERO_030p",
+    "name": "Sneed's Replicator",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion:\n\"<b>Deathrattle:</b> Summon\na random minion from\na lower Tavern Tier.\"",
+    "type": "HERO_POWER"
+  },
+  "77703": {
+    "artist": "Kleston Marques",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60054,
+    "cardClass": "DRUID",
+    "cost": 3,
+    "dbfId": 77703,
+    "health": 3,
+    "id": "REV_314t",
+    "mechanics": [
+      "RUSH"
+    ],
+    "name": "Whelpagazzor",
+    "race": "DRAGON",
+    "set": "REVENDRETH",
+    "techLevel": 1,
+    "text": "<b>Rush</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "86291": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 86291,
+    "health": 40,
+    "id": "BG23_HERO_305",
+    "name": "Heistbaron Togwaggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "86292": {
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 86292,
+    "id": "BG23_HERO_305p",
+    "name": "The Perfect Crime",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Steal all minions in\nBob's Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
+    "type": "HERO_POWER"
+  },
+  "94870": {
+    "artist": "BOSi Studio",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 94870,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_Q3",
+    "name": "Butler Dribble",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "94871": {
+    "artist": "Anton Zemskov",
+    "battlegroundsSkinParentId": 75702,
+    "cardClass": "NEUTRAL",
+    "dbfId": 94871,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_283_SKIN_C3",
+    "name": "Gravewing Galewing",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "94872": {
+    "artist": "Arthur Bozonnet",
+    "battlegroundsSkinParentId": 76562,
+    "cardClass": "ROGUE",
+    "dbfId": 94872,
+    "health": 40,
+    "id": "BG21_HERO_010_SKIN_A3",
+    "name": "Undercover Chef Cutterbutter",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "94873": {
+    "artist": "Anton Zemskov",
+    "battlegroundsSkinParentId": 76521,
+    "cardClass": "WARRIOR",
+    "dbfId": 94873,
+    "health": 40,
+    "id": "BG21_HERO_030_SKIN_B3",
+    "name": "Sinstone Sneed",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "94874": {
+    "artist": "Valeria Styajkina",
+    "battlegroundsSkinParentId": 63319,
+    "cardClass": "NEUTRAL",
+    "dbfId": 94874,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_70_SKIN_D3",
+    "name": "Mr. Jigglesworth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "94875": {
+    "artist": "Zoltan Boros",
+    "battlegroundsSkinParentId": 74631,
+    "cardClass": "DEMONHUNTER",
+    "dbfId": 94875,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_280_SKIN_C3",
+    "name": "The Honorable Ashfallen",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

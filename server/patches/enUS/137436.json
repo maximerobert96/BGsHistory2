@@ -1,0 +1,283 @@
+{
+  "59491": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96773,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59491,
+    "health": 6,
+    "id": "TB_BaconUps_064",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +4 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "72057": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73762,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 72057,
+    "health": 6,
+    "id": "BG21_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "SI:Sefin",
+    "race": "MURLOC",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Avenge (4):</b> Give a friendly Murloc <b>Poisonous</b> permanently.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "73762": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72057,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 73762,
+    "health": 12,
+    "id": "BG21_009_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "SI:Sefin",
+    "race": "MURLOC",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Avenge (4):</b> Give 2 friendly Murlocs <b>Poisonous</b> permanently.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "77888": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77889,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77888,
+    "health": 6,
+    "id": "BG22_HERO_004_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "'Twice as Nice' also gives both minions stats equal to your Tavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "77889": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77888,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77889,
+    "health": 12,
+    "id": "BG22_HERO_004_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]'Twice as Nice' also gives\nboth minions stats equal\n  to your Tavern Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "81572": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]<b>Passive</b>\nAfter 12 friendly minions\ndie, get a random Mech.\n<i>({0} left.)</i>",
+    "cost": 0,
+    "dbfId": 81572,
+    "hideCost": true,
+    "id": "BG22_HERO_200p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "MechGyver",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter 12 friendly minions\ndie, get a random Mech.",
+    "type": "HERO_POWER"
+  },
+  "82600": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 82603,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 82600,
+    "health": 4,
+    "id": "BG22_HERO_200_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sub Scrubber",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After you play a Mech,\ngain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "82603": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 82600,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 82603,
+    "health": 8,
+    "id": "BG22_HERO_200_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sub Scrubber",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After you play a Mech,\ngain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "86612": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 86625,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86612,
+    "elite": true,
+    "health": 6,
+    "id": "BG22_001",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Baby Krush",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]Whenever this attacks,\nsummon an 8/8 Devilsaur\n  to attack the target first.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "86625": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 86612,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86625,
+    "elite": true,
+    "health": 12,
+    "id": "BG22_001_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Baby Krush",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]Whenever this attacks,\nsummon a 16/16\nDevilsaur to attack\nthe target first.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "87691": {
+    "artist": "Anton Zemskov",
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 87692,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 87691,
+    "health": 8,
+    "id": "BG22_001t2",
+    "name": "Devilsaur",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "87692": {
+    "artist": "Anton Zemskov",
+    "attack": 16,
+    "battlegroundsNormalDbfId": 87691,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 87692,
+    "health": 16,
+    "id": "BG22_001t2_G",
+    "name": "Devilsaur",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "96773": {
+    "artist": "Arthur Gimaldinov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59491,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96773,
+    "flavor": "The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.",
+    "health": 3,
+    "id": "EX1_103",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  }
+}

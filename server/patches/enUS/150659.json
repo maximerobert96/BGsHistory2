@@ -1,0 +1,558 @@
+{
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "89293": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89293,
+    "health": 40,
+    "id": "BG23_HERO_306",
+    "name": "Sylvanas Windrunner",
+    "set": "BATTLEGROUNDS",
+    "text": "Don't bother asking her for drinks. She will never serve.",
+    "type": "HERO"
+  },
+  "89294": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 89294,
+    "id": "BG23_HERO_306p",
+    "name": "Reclaimed Souls",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give +2/+1 to your\nminions that died\nlast combat.",
+    "type": "HERO_POWER"
+  },
+  "96166": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96166,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_U",
+    "name": "Murloc Bob",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96427": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 59814,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96427,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_38_SKIN_C",
+    "name": "King Mrrkla",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96560": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 60366,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96560,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_49_SKIN_D",
+    "name": "Millhouse Mrrglstorm",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96561": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 70838,
+    "cardClass": "PALADIN",
+    "dbfId": 96561,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_100_SKIN_B",
+    "name": "Mrrkara",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96564": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 74631,
+    "cardClass": "DEMONHUNTER",
+    "dbfId": 96564,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_280_SKIN_D",
+    "name": "Mrrrtrus Ashfallen",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96565": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 66196,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96565,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_92_SKIN_B",
+    "name": "Mur’shrrgj",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96566": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 62268,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96566,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_68_SKIN_B",
+    "name": "Skycap’n Mrrg",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96567": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 61490,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96567,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_58_SKIN_D",
+    "name": "Mrrlygos",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96568": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 71454,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96568,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_102_SKIN_F",
+    "name": "Murloc Lord Saurfang",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96569": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 58027,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96569,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_23_SKIN_B",
+    "name": "Shuddurloc",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96570": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 57635,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96570,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_02_SKIN_C",
+    "name": "Galakrond, Proto-Murloc",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96571": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 57924,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96571,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_14_SKIN_C",
+    "name": "Queen Mrrglrrggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96572": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 71463,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96572,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_201_SKIN_D",
+    "name": "Vol'fin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96573": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 57946,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96573,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_17_SKIN_C",
+    "name": "Millificent Mrrglstorm",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96574": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 63601,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96574,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_71_SKIN_E",
+    "name": "Jandice Murlov",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96575": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 63602,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96575,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_72_SKIN_C",
+    "name": "Lord Murlov",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96576": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 60214,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96576,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43_SKIN_D",
+    "name": "Brann Bronzegill",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96577": {
+    "artist": "Grace Liu",
+    "battlegroundsSkinParentId": 59805,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96577,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_35_SKIN_D",
+    "name": "Yogg-Ramen",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96578": {
+    "artist": "Anton Zemskov",
+    "battlegroundsSkinParentId": 59831,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96578,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_39_SKIN_D",
+    "name": "Food Pyramad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96579": {
+    "artist": "Gabriel Rubio",
+    "battlegroundsSkinParentId": 57947,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96579,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_18_SKIN_D",
+    "name": "Pasta the Pirate",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96580": {
+    "artist": "Daniil Kudriavtsev",
+    "battlegroundsSkinParentId": 57892,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96580,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_11_SKIN_D",
+    "name": "The Wood-Fired Lord",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96581": {
+    "battlegroundsSkinParentId": 58535,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96581,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_29_SKIN_C",
+    "name": "C'thun, God of Aspics",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96582": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 64403,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96582,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_76_SKIN_D",
+    "name": "Al'Akir the Sweetlord",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96583": {
+    "artist": "Ivan Fomin",
+    "battlegroundsSkinParentId": 64400,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96583,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_75_SKIN_C",
+    "name": "Hibachi Rakanishu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96584": {
+    "artist": "Anton Zemskov",
+    "battlegroundsSkinParentId": 71916,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96584,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_301_SKIN_E",
+    "name": "Mutanus the Devoured",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97427": {
+    "artist": "Hideaki Takamura",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 86227,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97427,
+    "health": 4,
+    "id": "BG23_HERO_201pt_G",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97428": {
+    "artist": "Hideaki Takamura",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 91958,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97428,
+    "health": 4,
+    "id": "BG23_HERO_201pt2_G",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97429": {
+    "artist": "Hideaki Takamura",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 91959,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97429,
+    "health": 4,
+    "id": "BG23_HERO_201pt3_G",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97430": {
+    "artist": "Hideaki Takamura",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 91960,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97430,
+    "health": 4,
+    "id": "BG23_HERO_201pt4_G",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97431": {
+    "artist": "Hideaki Takamura",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 91961,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97431,
+    "health": 4,
+    "id": "BG23_HERO_201pt5_G",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97432": {
+    "artist": "Hideaki Takamura",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 91962,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97432,
+    "health": 4,
+    "id": "BG23_HERO_201pt6_G",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97444": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "battlegroundsDarkmoonPrizeTurn": 4,
+    "battlegroundsPremiumDbfId": 67493,
+    "cardClass": "PALADIN",
+    "cost": 2,
+    "dbfId": 97444,
+    "flavor": "Not sure why he's bragging, he's got the same stats as the next guy.",
+    "health": 1,
+    "id": "BG_SCH_149",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Argent Braggart",
+    "rarity": "EPIC",
+    "set": "SCHOLOMANCE",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Gain Attack and Health to match the highest in the battlefield.",
+    "type": "MINION"
+  },
+  "97446": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 76353,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 97446,
+    "health": 4,
+    "id": "TB_BaconShop_HP_033t_SKIN_A_G",
+    "name": "Cuddlgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "97481": {
+    "artist": "BOSi Studio",
+    "attack": 2,
+    "battlegroundsNormalDbfId": 78747,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97481,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconShop_HP_105t_SKIN_A_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cattlecarp of N'Zoth",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After a friendly <b>Deathrattle</b> minion dies, gain its <b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97580": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 64040,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 97580,
+    "health": 4,
+    "id": "BGS_115t_G",
+    "name": "Water Droplet",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "97581": {
+    "artist": "Mike Nicholson",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 61077,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 97581,
+    "flavor": "Filling your Ghouls with Rocket Fuel is all the rage at Necromancer school.",
+    "health": 3,
+    "id": "BG_FP1_024",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Unstable Ghoul",
+    "rarity": "COMMON",
+    "set": "NAXX",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.",
+    "type": "MINION"
+  }
+}

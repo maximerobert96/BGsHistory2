@@ -1,0 +1,182 @@
+{
+  "57634": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57634,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_08",
+    "name": "Illidan Stormrage",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "60376": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60376,
+    "id": "TB_BaconShop_HP_051",
+    "name": "Honorable Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive your minions with\nno minion type\n+1/+1.",
+    "type": "HERO_POWER"
+  },
+  "61028": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61043,
+    "cardClass": "WARLOCK",
+    "cost": 8,
+    "dbfId": 61028,
+    "health": 10,
+    "id": "BGS_044",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Imp Mama",
+    "race": "DEMON",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]Whenever this minion takes\ndamage, summon a random\nDemon and give it <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61043": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61028,
+    "cardClass": "WARLOCK",
+    "cost": 8,
+    "dbfId": 61043,
+    "health": 20,
+    "id": "TB_BaconUps_116",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Imp Mama",
+    "race": "DEMON",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]Whenever this minion\ntakes damage, summon\n2 random Demons and\ngive them <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "61851": {
+    "cardClass": "DEMONHUNTER",
+    "cost": 0,
+    "dbfId": 61851,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_069",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wingmen",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\n<b>Start of Combat:</b> Your left\nand right-most minions\nattack immediately.",
+    "type": "HERO_POWER"
+  },
+  "61930": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 61932,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61930,
+    "health": 2,
+    "id": "BGS_071",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Deflect-o-Bot",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Divine Shield</b>\nWhenever you summon a Mech\nduring combat, gain +1 Attack\nand <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61932": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61930,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61932,
+    "health": 4,
+    "id": "TB_BaconUps_123",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Deflect-o-Bot",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Divine Shield</b>\nWhenever you summon a Mech\nduring combat, gain +2 Attack\nand <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "61934": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 96776,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61934,
+    "health": 8,
+    "id": "TB_BaconUps_124",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felfin Navigator",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "96776": {
+    "artist": "Andrew Hou",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 61934,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 96776,
+    "flavor": "Return my fishes to me, and I myself shall carry you to the gates of Mrrhalla!",
+    "health": 4,
+    "id": "BT_010",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felfin Navigator",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BLACK_TEMPLE",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +1/+1.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

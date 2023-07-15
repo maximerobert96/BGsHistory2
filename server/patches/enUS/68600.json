@@ -1,0 +1,937 @@
+{
+  "57635": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57635,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_02",
+    "name": "Galakrond",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "57924": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "58535": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58535,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_29",
+    "name": "C'Thun",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59604": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59604,
+    "id": "TB_BaconShop_Triples_01",
+    "name": "Triple Reward",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier 0</b>.",
+    "type": "SPELL"
+  },
+  "59863": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59863,
+    "id": "TB_BaconShop_HP_037a",
+    "name": "Wax Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+1/+1.",
+    "type": "HERO_POWER"
+  },
+  "60265": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60265,
+    "id": "TB_BaconShop_HP_047t",
+    "name": "Recruitment Map",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier 0</b>.",
+    "type": "SPELL"
+  },
+  "62243": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62243,
+    "id": "TB_BaconShop_HP_072",
+    "name": "Pirate Parrrrty!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGet a Pirate. After you buy\na Pirate, your next Hero\nPower costs (1) less.",
+    "type": "HERO_POWER"
+  },
+  "63614": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 65658,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63614,
+    "health": 2,
+    "id": "BGS_106",
+    "mechanics": [
+      "REBORN",
+      "TAUNT"
+    ],
+    "name": "Acolyte of C'Thun",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Reborn</b>",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63619": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 65675,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63619,
+    "health": 5,
+    "id": "BGS_112",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Qiraji Harbinger",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion with <b>Taunt</b> dies, give its neighbors +2/+2.",
+    "type": "MINION"
+  },
+  "63622": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65673,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 63622,
+    "health": 5,
+    "id": "BGS_110",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arm of the Empire",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, give it +3 Attack.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63623": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 65666,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63623,
+    "health": 2,
+    "id": "BGS_111",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Champion of Y'Shaarj",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+1 permanently.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63627": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 66597,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63627,
+    "health": 4,
+    "id": "BGS_113",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Taverngoer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Choose a minion\nin Bob's Tavern. Transform\ninto a plain copy of it.",
+    "type": "MINION"
+  },
+  "64484": {
+    "artist": "Eva Widermann",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64484,
+    "id": "TB_BaconShop_HP_101t2",
+    "name": "Prize",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier 0</b>.",
+    "type": "SPELL"
+  },
+  "64486": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64486,
+    "id": "TB_BaconShop_HP_102",
+    "name": "Three Wishes",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nIf you have two copies of\na minion, find the third.\n<i>(3 Wishes left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "65230": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65230,
+    "id": "BGS_Treasures_000",
+    "name": "Big Banana",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +2/+2.",
+    "type": "SPELL"
+  },
+  "65232": {
+    "cardClass": "ROGUE",
+    "cost": 0,
+    "dbfId": 65232,
+    "id": "BGS_Treasures_001",
+    "name": "Pocket Change",
+    "set": "BATTLEGROUNDS",
+    "text": "Add 2 Gold Coins to your hand.",
+    "type": "SPELL"
+  },
+  "65235": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65235,
+    "id": "BGS_Treasures_003",
+    "name": "Regular Discount",
+    "set": "BATTLEGROUNDS",
+    "text": "Reduce the cost of upgrading Bob's Tavern by (3).",
+    "type": "SPELL"
+  },
+  "65236": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65236,
+    "id": "BGS_Treasures_004",
+    "name": "Gacha Gift",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion from <b>Tavern Tier 1</b>.",
+    "type": "SPELL"
+  },
+  "65238": {
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 65238,
+    "id": "BGS_Treasures_006",
+    "name": "Evolving Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace all minions in Bob's Tavern with ones of a higher Tavern Tier.",
+    "type": "SPELL"
+  },
+  "65239": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65239,
+    "id": "BGS_Treasures_007",
+    "name": "Might of Stormwind",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +1/+1.",
+    "type": "SPELL"
+  },
+  "65246": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65246,
+    "id": "BGS_Treasures_009",
+    "name": "Gruul Rules",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion \"At the end of your turn, gain +2/+2.\"",
+    "type": "SPELL"
+  },
+  "65248": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65248,
+    "id": "BGS_Treasures_010",
+    "name": "Time Thief",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion from your last opponent's warband.",
+    "type": "SPELL"
+  },
+  "65249": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65249,
+    "id": "BGS_Treasures_011",
+    "name": "Training Session",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a new Hero Power.",
+    "type": "SPELL"
+  },
+  "65250": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65250,
+    "id": "BGS_Treasures_012",
+    "name": "On the House",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion from your current <b>Tavern Tier</b>.",
+    "type": "SPELL"
+  },
+  "65254": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65254,
+    "id": "BGS_Treasures_013",
+    "name": "The Good Stuff",
+    "set": "BATTLEGROUNDS",
+    "text": "Give minions in Bob's Shop +1 Health for the rest of the game.",
+    "type": "SPELL"
+  },
+  "65256": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65256,
+    "id": "BGS_Treasures_014",
+    "name": "The Unlimited Coin",
+    "set": "BATTLEGROUNDS",
+    "text": "Gain 1 Gold this turn only. Return this to your hand at end of turn.",
+    "type": "SPELL"
+  },
+  "65259": {
+    "cardClass": "PALADIN",
+    "cost": 0,
+    "dbfId": 65259,
+    "id": "BGS_Treasures_015",
+    "name": "Buy the Holy Light",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion <b>Divine Shield</b>.",
+    "type": "SPELL"
+  },
+  "65260": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65260,
+    "id": "BGS_Treasures_016",
+    "name": "Raise the Stakes",
+    "set": "BATTLEGROUNDS",
+    "text": "Make a friendly minion Golden and return it to your hand.",
+    "type": "SPELL"
+  },
+  "65262": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65262,
+    "id": "BGS_Treasures_018",
+    "name": "I'm Still Just a Rat in a Cage",
+    "set": "BATTLEGROUNDS",
+    "text": "Double a minion's Attack.",
+    "type": "SPELL"
+  },
+  "65264": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65264,
+    "id": "BGS_Treasures_019",
+    "name": "B.A.N.A.N.A.S.",
+    "set": "BATTLEGROUNDS",
+    "text": "Fill your hand with Bananas.",
+    "type": "SPELL"
+  },
+  "65265": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65265,
+    "id": "BGS_Treasures_020",
+    "name": "Top Shelf",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion from <b>Tavern Tier 6</b>.",
+    "type": "SPELL"
+  },
+  "65270": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65270,
+    "id": "BGS_Treasures_022",
+    "name": "Friends and Family Discount",
+    "set": "BATTLEGROUNDS",
+    "text": "For the rest of the game, minions in Bob's Tavern costs (1) less.",
+    "type": "SPELL"
+  },
+  "65274": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65274,
+    "id": "BGS_Treasures_025",
+    "name": "Fresh Tab",
+    "set": "BATTLEGROUNDS",
+    "text": "Refresh your Gold.",
+    "type": "SPELL"
+  },
+  "65277": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65277,
+    "id": "BGS_Treasures_023",
+    "name": "Open Bar",
+    "set": "BATTLEGROUNDS",
+    "text": "Your first 5 <b>Refreshes</b>\neach turn cost (0).",
+    "type": "SPELL"
+  },
+  "65380": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65380,
+    "id": "BGS_Treasures_026",
+    "name": "The Bouncer",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +5/+5 and <b>Taunt</b>.",
+    "type": "SPELL"
+  },
+  "65529": {
+    "cardClass": "MAGE",
+    "cost": 0,
+    "dbfId": 65529,
+    "id": "BGS_Treasures_027",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Ice Block",
+    "rarity": "EPIC",
+    "referencedTags": [
+      "IMMUNE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.",
+    "type": "SPELL"
+  },
+  "65658": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 63614,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 65658,
+    "health": 4,
+    "id": "TB_BaconUps_255",
+    "mechanics": [
+      "REBORN",
+      "TAUNT"
+    ],
+    "name": "Acolyte of C'Thun",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Taunt</b>\n<b>Reborn</b>",
+    "type": "MINION"
+  },
+  "65660": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 65665,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65660,
+    "health": 3,
+    "id": "BGS_200",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Warden of Old",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Deathrattle:</b> Add a Gold Coin to your hand.",
+    "type": "MINION"
+  },
+  "65661": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 65668,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 65661,
+    "health": 3,
+    "id": "BGS_201",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tormented Ritualist",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nWhenever this is attacked,\ngive adjacent minions\n+1/+1.",
+    "type": "MINION"
+  },
+  "65662": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65671,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65662,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_202",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngain +1/+2 for each\n  minion type you control.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "65665": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 65660,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65665,
+    "health": 6,
+    "id": "TB_BaconUps_256",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Warden of Old",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Add 2 Gold Coins to your hand.",
+    "type": "MINION"
+  },
+  "65666": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 63623,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65666,
+    "health": 4,
+    "id": "TB_BaconUps_301",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Champion of Y'Shaarj",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +2/+2 permanently.",
+    "type": "MINION"
+  },
+  "65668": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 65661,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 65668,
+    "health": 6,
+    "id": "TB_BaconUps_257",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tormented Ritualist",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\nWhenever this is attacked,\ngive adjacent minions\n+2/+2.",
+    "type": "MINION"
+  },
+  "65671": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 65662,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65671,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_258",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngain +2/+4 for each\n  minion type you control.",
+    "type": "MINION"
+  },
+  "65673": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63622,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65673,
+    "health": 10,
+    "id": "TB_BaconUps_302",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arm of the Empire",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, give it +6 Attack.",
+    "type": "MINION"
+  },
+  "65675": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 63619,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 65675,
+    "health": 10,
+    "id": "TB_BaconUps_303",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Qiraji Harbinger",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a friendly minion with <b>Taunt</b> dies, give its neighbors +4/+4.",
+    "type": "MINION"
+  },
+  "66196": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 66196,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_92",
+    "name": "Y'Shaarj",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "66197": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 66197,
+    "id": "TB_BaconShop_HP_103",
+    "name": "Embrace your Rage",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Add a\nminion from your Tavern Tier\nto your warband. Keep it.",
+    "type": "HERO_POWER"
+  },
+  "66227": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 66237,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 66227,
+    "health": 4,
+    "id": "BGS_204",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bigfernal",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After you summon a Demon, gain +1/+1 permanently.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "66237": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 66227,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 66237,
+    "health": 8,
+    "id": "TB_BaconUps_304",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bigfernal",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "After you summon a Demon, gain +2/+2 permanently.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "66246": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 66246,
+    "id": "TB_BaconShop_HP_104",
+    "name": "Saturday C'Thuns!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAt end of turn, give a friendly\nminion +1/+1. Repeat 0 times.\n<i>(Upgrades after each use!)</i>",
+    "type": "HERO_POWER"
+  },
+  "66424": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66424,
+    "id": "BGS_Treasures_028",
+    "name": "Give A Dog A Bone",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Divine Shield</b>, <b>Windfury</b>, and +10/+10.",
+    "type": "SPELL"
+  },
+  "66427": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66427,
+    "id": "BGS_Treasures_029",
+    "name": "Rocking and Rolling",
+    "set": "BATTLEGROUNDS",
+    "text": "Your next three\n <b>Refreshes</b> cost (0).",
+    "type": "SPELL"
+  },
+  "66458": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66458,
+    "id": "BGS_Treasures_030",
+    "name": "Brann's Blessing",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Your <b>Battlecries</b> trigger twice this turn.",
+    "type": "SPELL"
+  },
+  "66460": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66460,
+    "id": "BGS_Treasures_032",
+    "name": "Big Winner!",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a Darkmoon Prize from each of the previous Prize turns.",
+    "type": "SPELL"
+  },
+  "66463": {
+    "cost": 0,
+    "dbfId": 66463,
+    "id": "BGS_Treasures_033",
+    "name": "New Recruit",
+    "set": "BATTLEGROUNDS",
+    "text": "Add a minion to Bob's Tavern for the rest of the game.",
+    "type": "SPELL"
+  },
+  "66483": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 66483,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_93",
+    "name": "N'Zoth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "66484": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66484,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_105",
+    "name": "Avatar of N'Zoth",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nStart the game with a 1/1\nFish that gains all your\n<b>Deathrattles</b> in combat.",
+    "type": "HERO_POWER"
+  },
+  "66495": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66495,
+    "id": "BGS_Treasures_034",
+    "name": "Repeat Customer",
+    "set": "BATTLEGROUNDS",
+    "text": "Return a friendly non-golden minion to your hand. Give it +2/+2.",
+    "type": "SPELL"
+  },
+  "66545": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66545,
+    "id": "BGS_Treasures_036",
+    "name": "Great Deal",
+    "set": "BATTLEGROUNDS",
+    "text": "For the rest of the game, reduce the cost of upgrading Bob's Tavern by (2) at the end of your turn.",
+    "type": "SPELL"
+  },
+  "66597": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63627,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 66597,
+    "health": 8,
+    "id": "TB_BaconUps_305",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Taverngoer",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Choose a minion\nin Bob's Tavern. Transform\ninto a Golden copy of it.",
+    "type": "MINION"
+  },
+  "66835": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 66840,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 66835,
+    "elite": true,
+    "health": 7,
+    "id": "BGS_205",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elistra the Immortal",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
+    "type": "MINION"
+  },
+  "66840": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 66835,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 66840,
+    "elite": true,
+    "health": 14,
+    "id": "TB_BaconUps_306",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elistra the Immortal",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
+    "type": "MINION"
+  },
+  "66947": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66947,
+    "id": "BGS_Treasures_037",
+    "name": "All That Glitters",
+    "set": "BATTLEGROUNDS",
+    "text": "Make a random minion in Bob's Tavern Golden.",
+    "type": "SPELL"
+  },
+  "67213": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 67216,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 67213,
+    "elite": true,
+    "health": 1,
+    "id": "TB_BaconShop_HP_105t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fish of N'Zoth",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a friendly <b>Deathrattle</b> minion dies, gain its <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "67216": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 67213,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 67216,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconUps_307",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fish of N'Zoth",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a friendly <b>Deathrattle</b> minion dies, gain its <b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "67493": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 59616,
+    "cardClass": "PALADIN",
+    "cost": 2,
+    "dbfId": 67493,
+    "health": 2,
+    "id": "TB_BaconUps_308",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Argent Braggart",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Gain double\nthe Attack and Health\nof the highest in\nthe battlefield.",
+    "type": "MINION"
+  },
+  "70114": {
+    "cardClass": "PALADIN",
+    "cost": 1,
+    "dbfId": 70114,
+    "id": "TB_Bacon_Secrets_13",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Competitive Spirit",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> When your turn starts, give your minions +1/+1.",
+    "type": "SPELL"
+  }
+}

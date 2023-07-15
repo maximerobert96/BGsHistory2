@@ -1,0 +1,704 @@
+{
+  "57555": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57555,
+    "id": "TB_BaconShop_HP_011",
+    "name": "Galakrond's Greed",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nReplace a minion in Bob's\nTavern with one from a\nhigher Tavern Tier.",
+    "type": "HERO_POWER"
+  },
+  "57562": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 57562,
+    "id": "TB_BaconShop_HP_010",
+    "name": "Boon of Light",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\nGive a friendly minion <b>Divine Shield</b>.",
+    "type": "HERO_POWER"
+  },
+  "58022": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58022,
+    "id": "TB_BaconShop_HP_020",
+    "name": "Prestidigitation",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\n<b>Discover</b> a <b>Secret</b>.\nPut it into the battlefield.",
+    "type": "HERO_POWER"
+  },
+  "58536": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58536,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_30",
+    "name": "Nefarian",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59201": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59201,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_033",
+    "name": "Menagerist",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nStart the game with a\n1/2 Amalgam with\nall minion types.",
+    "type": "HERO_POWER"
+  },
+  "59202": {
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 59202,
+    "health": 2,
+    "id": "TB_BaconShop_HP_033t",
+    "name": "Amalgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<i>This is an Elemental, Mech,\nDemon, Murloc, Dragon,\nBeast, Pirate and Totem.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "59670": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 59679,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59670,
+    "health": 3,
+    "id": "BGS_004",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wrath Weaver",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After you play a Demon, deal 1 damage to your hero and gain +2/+2.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59679": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 59670,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59679,
+    "health": 6,
+    "id": "TB_BaconUps_079",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wrath Weaver",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "After you play a Demon, deal 1 damage to your hero and gain +4/+4.",
+    "type": "MINION"
+  },
+  "59707": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59711,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59707,
+    "health": 2,
+    "id": "BGS_009",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+2/+2.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59711": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59707,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59711,
+    "health": 4,
+    "id": "TB_BaconUps_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+4/+4.",
+    "type": "MINION"
+  },
+  "59839": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59839,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041a",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Beasts",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59852": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59852,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041c",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Murlocs",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59853": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59853,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041b",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Mechs",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59854": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59854,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041d",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Demons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59863": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59863,
+    "id": "TB_BaconShop_HP_037a",
+    "name": "Wax Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+2/+1.",
+    "type": "HERO_POWER"
+  },
+  "60265": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "</b>.",
+    "cost": 2,
+    "dbfId": 60265,
+    "id": "TB_BaconShop_HP_047t",
+    "name": "Recruitment Map",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier",
+    "type": "SPELL"
+  },
+  "60922": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60922,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041f",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Dragons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Dragon</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "61047": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62228,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61047,
+    "elite": true,
+    "health": 7,
+    "id": "BGS_047",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dread Admiral Eliza",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever a friendly Pirate attacks, give all friendly minions +2/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61048": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62259,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 61048,
+    "health": 3,
+    "id": "BGS_048",
+    "name": "Southsea Strongarm",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Give +1/+1 for each Pirate you bought this turn.",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give a friendly Pirate +1/+1 for each Pirate you bought this turn.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61056": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62257,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61056,
+    "health": 5,
+    "id": "BGS_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ripsnarl Captain",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever another friendly Pirate attacks, give it +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61060": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 63782,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61060,
+    "health": 5,
+    "id": "BGS_060",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61408": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61408,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_062",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dream Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nBob always offers an extra\nDragon whenever the\nTavern is refreshed.",
+    "type": "HERO_POWER"
+  },
+  "61444": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61445,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61444,
+    "health": 6,
+    "id": "BGS_069",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry:</b> For each different\nminion type you have among\nother minions, <b>Adapt</b>\nrandomly.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61445": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61444,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61445,
+    "health": 12,
+    "id": "TB_BaconUps_121",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> For each different\nminion type you have among\nother minions, <b>Adapt</b>\nrandomly twice.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "62228": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61047,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 62228,
+    "elite": true,
+    "health": 14,
+    "id": "TB_BaconUps_134",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dread Admiral Eliza",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly Pirate attacks, give all friendly minions +4/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62257": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61056,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 62257,
+    "health": 10,
+    "id": "TB_BaconUps_139",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ripsnarl Captain",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever another friendly Pirate attacks, give it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62259": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61048,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 62259,
+    "health": 6,
+    "id": "TB_BaconUps_140",
+    "name": "Southsea Strongarm",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Give +2/+2 for each Pirate you bought this turn.",
+    "text": "<b>Battlecry:</b> Give a friendly Pirate +2/+2 for each Pirate you bought this turn.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62267": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 62267,
+    "id": "TB_BaconShop_HP_075",
+    "name": "Trash for Treasure",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\n<b>Discover</b> a random one from\na Tavern Tier lower.",
+    "type": "HERO_POWER"
+  },
+  "62277": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62277,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041g",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Pirates",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Pirate</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "62739": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 62734,
+    "cardClass": "ROGUE",
+    "cost": 4,
+    "dbfId": 62739,
+    "health": 8,
+    "id": "TB_BaconUps_143",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Salty Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you play a Pirate, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "63127": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63127,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041",
+    "name": "A Tale of Kings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a minion of\na specific type, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "63162": {
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 63162,
+    "id": "TB_BaconShop_HP_077",
+    "name": "Bob's Burgles",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern\nwith your last opponent's\nwarband.",
+    "type": "HERO_POWER"
+  },
+  "63624": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64076,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63624,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_100",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "63782": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61060,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63782,
+    "health": 10,
+    "id": "TB_BaconUps_150",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "64062": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64064,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64062,
+    "health": 5,
+    "id": "BGS_121",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Summon another random Elemental and add a copy of it to your hand.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64076": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63624,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64076,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_200",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64081": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 64085,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64081,
+    "elite": true,
+    "health": 1,
+    "id": "BGS_124",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you have.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64085": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 64081,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64085,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconUps_163",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +2 Health for each Elemental you have.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64220": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64220,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041h",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Elementals",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy an\n<b>Elemental</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "64401": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 64401,
+    "id": "TB_BaconShop_HP_085",
+    "name": "Tavern Lighting",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion stats\nequal to your Tavern Tier.",
+    "type": "HERO_POWER"
+  },
+  "97423": {
+    "artist": "Brian Despain",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58397,
+    "cardClass": "ROGUE",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 97423,
+    "flavor": "Mechs like learning from him because he really speaks their language.\n0110100001101001",
+    "health": 2,
+    "id": "GVG_027",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Iron Sensei",
+    "race": "MECHANICAL",
+    "rarity": "RARE",
+    "set": "GVG",
+    "techLevel": 3,
+    "text": "At the end of your turn, give another friendly Mech +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "72470": {
+    "battlegroundsHero": true,
+    "cardClass": "WARRIOR",
+    "dbfId": 72470,
+    "health": 40,
+    "id": "BG20_HERO_666",
+    "name": "Diablo",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "72471": {
+    "cardClass": "WARRIOR",
+    "collectionText": "[x]<b>Passive.</b> Every 4 turns, ALL\nenemies fight the Lord of\nTerror and your warband\n for loot. <i>(Next combat!)</i>",
+    "cost": 0,
+    "dbfId": 72471,
+    "hideCost": true,
+    "id": "BG20_HERO_666p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Realm of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> Every 4 turns, ALL\nenemies fight the Lord of\nTerror and your warband\n for loot. <i>({0} turns left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "76520": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76520,
+    "id": "BG21_HERO_030p",
+    "name": "Sneed's Replicator",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion:\n\"<b>Deathrattle</b>: Summon\na random minion of the\nsame Tavern Tier.\"",
+    "type": "HERO_POWER"
+  },
+  "76521": {
+    "battlegroundsHero": true,
+    "cardClass": "WARRIOR",
+    "dbfId": 76521,
+    "health": 40,
+    "id": "BG21_HERO_030",
+    "name": "Sneed",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "77341": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77341,
+    "id": "BG20_HERO_666p_t3a",
+    "name": "Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +2/+2 for next combat only.",
+    "type": "SPELL"
+  },
+  "77344": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77344,
+    "id": "BG20_HERO_666p_t3b",
+    "name": "Magic Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +6/+6 for next combat only.",
+    "type": "SPELL"
+  },
+  "77345": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77345,
+    "id": "BG20_HERO_666p_t3c",
+    "name": "Rare Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +12/+12 for next combat only.",
+    "type": "SPELL"
+  },
+  "77346": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77346,
+    "id": "BG20_HERO_666p_t3d",
+    "name": "Unique Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Double a friendly minion's\nAttack and Health\nfor next combat only.",
+    "type": "SPELL"
+  },
+  "77347": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77347,
+    "id": "BG20_HERO_666p_t4a",
+    "name": "Magma Horns",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Windfury</b> for next combat only.",
+    "type": "SPELL"
+  },
+  "77348": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77348,
+    "id": "BG20_HERO_666p_t4b",
+    "name": "Magic Magma Horns",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Reborn</b> for next combat only.",
+    "type": "SPELL"
+  },
+  "77351": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77351,
+    "id": "BG20_HERO_666p_t4c",
+    "name": "Rare Magma Horns",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Divine Shield</b> for next combat only.",
+    "type": "SPELL"
+  },
+  "77353": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77353,
+    "id": "BG20_HERO_666p_t4d",
+    "name": "Unique Magma Horns",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion\n<b>Windfury</b>, <b>Reborn</b>, and\n<b>Divine Shield</b> for next\ncombat only.",
+    "type": "SPELL"
+  },
+  "77434": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 77434,
+    "id": "BG21_HERO_020p",
+    "name": "Stir the Pot",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Throw a minion in your pot.\nWhen you've gathered 3,\n<b>Discover</b> from their minion\ntypes. <i>(3 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "77435": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77435,
+    "id": "BG20_HERO_666p_t1a",
+    "name": "Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 1 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77436": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77436,
+    "id": "BG20_HERO_666p_t1b",
+    "name": "Magic Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 3 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77437": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77437,
+    "id": "BG20_HERO_666p_t1c",
+    "name": "Rare Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 6 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77438": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77438,
+    "id": "BG20_HERO_666p_t1d",
+    "name": "Unique Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 12 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77516": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 77516,
+    "health": 40,
+    "id": "BG21_HERO_020",
+    "name": "Cookie the Cook",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "77518": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77518,
+    "id": "BG20_HERO_666p_t5a",
+    "name": "Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +1 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77520": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77520,
+    "id": "BG20_HERO_666p_t5b",
+    "name": "Magic Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +2 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77521": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77521,
+    "id": "BG20_HERO_666p_t5c",
+    "name": "Rare Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +3 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77522": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77522,
+    "id": "BG20_HERO_666p_t5d",
+    "name": "Unique Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +6 Attack for next combat only.",
+    "type": "SPELL"
+  },
+  "77523": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77523,
+    "id": "BG20_HERO_666p_t6a",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Black Soulstone",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> After your last minion dies, summon a random Demon.",
+    "type": "SPELL"
+  },
+  "77524": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77524,
+    "id": "BG20_HERO_666p_t6b",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Magic Black Soulstone",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> After your last minion dies, summon 2 random Demons.",
+    "type": "SPELL"
+  },
+  "77526": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77526,
+    "id": "BG20_HERO_666p_t6c",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Rare Black Soulstone",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> After your last minion dies, summon 3 random Demons.",
+    "type": "SPELL"
+  },
+  "77527": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77527,
+    "id": "BG20_HERO_666p_t6d",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Unique Black Soulstone",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> After your last minion dies, summon 4 random Demons.",
+    "type": "SPELL"
+  },
+  "78109": {
+    "attack": 3,
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 78109,
+    "health": 3,
+    "id": "BG20_HERO_666p_t0",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Diablo, Lord of Terror",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Deathrattle:</b> Give your\nopponent loot!\n<i>(If this survives, Diablo\ngets 2 loot instead.)</i>",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "80030": {
+    "battlegroundsSkinParentId": 71458,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80030,
+    "health": 40,
+    "id": "BG20_HERO_103_SKIN_A",
+    "name": "Tidespeaker Blackthorn",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80072": {
+    "battlegroundsSkinParentId": 71454,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80072,
+    "health": 40,
+    "id": "BG20_HERO_102_SKIN_A",
+    "name": "Sea Admiral Saurfang",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80074": {
+    "battlegroundsSkinParentId": 57947,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80074,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_18_SKIN_A",
+    "name": "Salteye Patches",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80075": {
+    "battlegroundsSkinParentId": 64480,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80075,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_90_SKIN_A",
+    "name": "Port Authority Silas",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80077": {
+    "battlegroundsSkinParentId": 64400,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80077,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_75_SKIN_A",
+    "name": "Deckwatch Rakanishu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80078": {
+    "battlegroundsSkinParentId": 57633,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80078,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_01_SKIN_A",
+    "name": "Kingpin Edwin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80079": {
+    "battlegroundsSkinParentId": 62268,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80079,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_68_SKIN_A",
+    "name": "Undercap'n Kragg",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80080": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80080,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_G",
+    "name": "Pirate Bob",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

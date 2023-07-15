@@ -1,0 +1,936 @@
+{
+  "397": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 397,
+    "flavor": "'Flesheating' is an unfair name.  It's just that there's not really much else for him to eat.",
+    "health": 3,
+    "id": "tt_004",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Flesheating Ghoul",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "EXPERT1",
+    "techLevel": 3,
+    "text": "Whenever a minion dies, gain +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "2884": {
+    "artist": "Dave Allsop",
+    "attack": 5,
+    "cardClass": "ROGUE",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 2884,
+    "flavor": "After the guild broke up, he could no longer raid the tombs.",
+    "health": 4,
+    "howToEarn": "Unlocked in the Hall of Explorers, in the League of Explorers adventure.",
+    "howToEarnGolden": "Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.",
+    "id": "LOE_012",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Tomb Pillager",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "LOE",
+    "techLevel": 3,
+    "text": "<b>Deathrattle:</b> Add a Coin to your hand.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "42446": {
+    "artist": "James Ryman",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 42446,
+    "flavor": "Eight times the death of regular-mancers.",
+    "health": 5,
+    "id": "ICC_032",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Venomancer",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "ICECROWN",
+    "techLevel": 6,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "42773": {
+    "artist": "Luke Mancini",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 42773,
+    "flavor": "This is my Runeblade. There are many like it but this one is mine.",
+    "health": 1,
+    "id": "ICC_092",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Acherus Veteran",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "ICECROWN",
+    "targetingArrowText": "Give +1 Attack.",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Give a friendly minion +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "42777": {
+    "artist": "J. Axer",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 42777,
+    "flavor": "It's hard to keep a Shattered Sun Cleric down.",
+    "health": 1,
+    "id": "ICC_094",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Fallen Sun Cleric",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "ICECROWN",
+    "targetingArrowText": "Give +1/+1.",
+    "techLevel": 2,
+    "text": "<b>Battlecry:</b> Give a friendly minion +1/+1.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "42782": {
+    "artist": "Mike Sass",
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 42782,
+    "flavor": "Abomination. Emphasis on the second syllable.",
+    "health": 6,
+    "id": "ICC_099",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Ticking Abomination",
+    "race": "UNDEAD",
+    "rarity": "RARE",
+    "set": "ICECROWN",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Deal 5 damage to your minions.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "53402": {
+    "artist": "Ivan Fomin",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 53402,
+    "flavor": "\"You no waaaake caaaandle!\"",
+    "health": 2,
+    "id": "ULD_205",
+    "mechanics": [
+      "REBORN"
+    ],
+    "name": "Candletaker",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "ULDUM",
+    "techLevel": 2,
+    "text": "<b>Reborn</b>",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "54002": {
+    "artist": "Steven Prescott",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 54002,
+    "flavor": "It uses only the eco-friendly bones from free-range humanoids.",
+    "health": 5,
+    "id": "ULD_275",
+    "mechanics": [
+      "REBORN",
+      "TAUNT"
+    ],
+    "name": "Bone Wraith",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "ULDUM",
+    "techLevel": 3,
+    "text": "<b>Taunt</b>\n<b>Reborn</b>",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "69661": {
+    "artist": "Tom Fleming",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 69661,
+    "flavor": "\"You'll <i>love</i> my new recipe!\" he says... especially if you're not happy with your current number of limbs.",
+    "health": 2,
+    "howToEarn": "Unlocked at level 42.",
+    "howToEarnGolden": "Unlocked after 1000 total wins.",
+    "id": "CORE_EX1_059",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Crazed Alchemist",
+    "race": "UNDEAD",
+    "rarity": "RARE",
+    "set": "CORE",
+    "targetingArrowText": "Swap Attack and Health of a minion.",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "69680": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 69680,
+    "flavor": "'Flesheating' is an unfair name.  It's just that there's not really much else for him to eat.",
+    "health": 3,
+    "howToEarn": "Unlocked at level 1.",
+    "howToEarnGolden": "Unlocked after 500 total wins.",
+    "id": "CORE_tt_004",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Flesheating Ghoul",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "PLACEHOLDER_202204",
+    "techLevel": 3,
+    "text": "Whenever a minion dies, gain +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "74636": {
+    "cardClass": "DEMONHUNTER",
+    "collectionText": "[x]<b>Passive.</b> Buy 5 minions in\n1 turn to give ALL your\nminions this game +2/+2.\n<i>(Complete!)</i>",
+    "cost": 0,
+    "dbfId": 74636,
+    "hideCost": true,
+    "id": "BG20_HERO_280p3",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Close the Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> Buy 5 minions in\n1 turn to give ALL your\nminions this game +2/+2\n  and complete this. <i>({0} left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "77478": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77536,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77478,
+    "health": 6,
+    "id": "BG20_HERO_103_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Death's Head Sage",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After you get a <b>Blood Gem</b>, get an extra one.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "77536": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77478,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77536,
+    "health": 12,
+    "id": "BG20_HERO_103_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Death's Head Sage",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After you get a <b>Blood Gem</b>, get two extra.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "78607": {
+    "artist": "Arthur Bozonnet",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 78607,
+    "flavor": "The peasants are revolting!",
+    "health": 1,
+    "id": "RLK_070",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Infected Peasant",
+    "rarity": "COMMON",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 2/2 Undead Peasant.",
+    "type": "MINION"
+  },
+  "80084": {
+    "artist": "Dan Scott",
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 80084,
+    "flavor": "You won't believe how long this was called \"Incorporal Corporeal\"…",
+    "health": 5,
+    "id": "RLK_117",
+    "name": "Incorporeal Corporal",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "After this minion attacks,\ndestroy it.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "80087": {
+    "artist": "Chris Rahn",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 80087,
+    "flavor": "A troll in life, death, and online forums.",
+    "health": 4,
+    "id": "RLK_119",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Drakkari Embalmer",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "RETURN_OF_THE_LICH_KING",
+    "targetingArrowText": "Give a friendly Undead <b>Reborn</b>.",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Undead <b>Reborn</b>.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "84229": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "cardClass": "SHAMAN",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 84229,
+    "flavor": "This is where I'd put my Deathrattle - IF I HAD ONE!",
+    "health": 3,
+    "id": "RLK_912",
+    "name": "Scourge Troll",
+    "race": "UNDEAD",
+    "rarity": "EPIC",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 2,
+    "text": "<b>Deathrattles</b> given to this minion trigger twice.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "84290": {
+    "artist": "James Ryman",
+    "attack": 1,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 84290,
+    "elite": true,
+    "flavor": "Winner of the Scourge's annual funnel cake devouring contest 12 years running.",
+    "health": 3,
+    "id": "RLK_538",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Devourer of Souls",
+    "race": "UNDEAD",
+    "rarity": "LEGENDARY",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 4,
+    "text": "After a friendly minion dies, gain its <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "84370": {
+    "artist": "Luca Zontini",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 84370,
+    "flavor": "Need a hand?",
+    "health": 2,
+    "howToEarnGolden": "Earnable on the <i>March of the Lich King</i> Reward Track.",
+    "id": "RLK_824",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arms Dealer",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 2,
+    "text": "After you summon an Undead, give it +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "85152": {
+    "artist": "Kleston Marques",
+    "attack": 0,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 85152,
+    "flavor": "Definitely expired.",
+    "health": 2,
+    "howToEarnGolden": "Earnable on the <i>March of the Lich King</i> Reward Track.",
+    "id": "RLK_833",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Foul Egg",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 3/3 Undead Chicken.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "85651": {
+    "artist": "Alex Stone",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 85651,
+    "flavor": ":O",
+    "health": 1,
+    "howToEarnGolden": "Earnable on the <i>March of the Lich King</i> Reward Track.",
+    "id": "RLK_957",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Banshee",
+    "race": "UNDEAD",
+    "rarity": "RARE",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "86190": {
+    "artist": "Kevin Sidharta",
+    "attack": 1,
+    "cardClass": "DEATHKNIGHT",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 86190,
+    "flavor": "He's got your back. And your arm.",
+    "health": 2,
+    "howToEarn": "Unlocked after completing the Death Knight Prologue.",
+    "howToEarnGolden": "Unlocked after winning 50 games as Death Knight.",
+    "id": "RLK_958",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Skeletal Sidekick",
+    "race": "UNDEAD",
+    "rarity": "COMMON",
+    "targetingArrowText": "Give a friendly Undead +2 Attack.",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Give a friendly Undead +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  },
+  "96870": {
+    "artist": "Zoltan Boros",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96870,
+    "health": 40,
+    "id": "BG24_HERO_204",
+    "name": "Enhance-o Mechano",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "96872": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96872,
+    "hideCost": true,
+    "id": "BG24_HERO_204p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Enhancification",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After each <b>Refresh</b>,\ngive a minion in Bob's\nTavern <b>Taunt</b>, <b>Windfury</b>,\n <b>Reborn</b>, or <b>Divine Shield</b>.",
+    "type": "HERO_POWER"
+  },
+  "97658": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97658,
+    "hideCost": true,
+    "id": "BG24_Reward_715",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Enhance-a-matic",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of your turn,\nget an Enhanced Part\nthat gives +5/+5 and\na random bonus.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "97659": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97659,
+    "id": "BG24_Reward_715t",
+    "name": "Mega Horn",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +5/+5 and <b>Taunt</b>.",
+    "type": "SPELL"
+  },
+  "97661": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97661,
+    "id": "BG24_Reward_715t2",
+    "name": "Blazing Blades",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +5/+5 and <b>Windfury</b>.",
+    "type": "SPELL"
+  },
+  "97662": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97662,
+    "id": "BG24_Reward_715t3",
+    "name": "Bunker Plating",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +5/+5 and <b>Divine Shield</b>.",
+    "type": "SPELL"
+  },
+  "97663": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97663,
+    "id": "BG24_Reward_715t4",
+    "name": "Death Rewinder",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +5/+5 and <b>Reborn</b>.",
+    "type": "SPELL"
+  },
+  "97910": {
+    "artist": "Arthur Bozonnet",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97910,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_S",
+    "name": "Chef Nomi",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97911": {
+    "artist": "Kleston Marques",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97911,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_W",
+    "name": "Macey Jinglepocket",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97920": {
+    "artist": "Ivan Fomin",
+    "battlegroundsSkinParentId": 77516,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97920,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG21_HERO_020_SKIN_B",
+    "name": "Feastmaster Cookie",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97921": {
+    "artist": "Tanamaes Leejierasaes",
+    "battlegroundsSkinParentId": 67356,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97921,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_94_SKIN_D",
+    "name": "Naughty List Tickatus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97922": {
+    "artist": "Tanamaes Leejierasaes",
+    "battlegroundsSkinParentId": 59203,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97922,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_33_SKIN_D",
+    "name": "Yeti Curator",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97923": {
+    "artist": "Kleston Marques",
+    "battlegroundsSkinParentId": 57946,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97923,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_17_SKIN_E",
+    "name": "Millificent Mechastorm",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97924": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 58534,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97924,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_28_SKIN_D",
+    "name": "Tinker Town Toki",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97925": {
+    "artist": "Kleston Marques",
+    "battlegroundsSkinParentId": 67553,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97925,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_95_SKIN_D",
+    "name": "Frostbitten Greybough",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97926": {
+    "artist": "Kevin Sidharta",
+    "battlegroundsSkinParentId": 57891,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97926,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_10_SKIN_D",
+    "name": "Gifting Gallywix",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97927": {
+    "artist": "Kevin Sidharta",
+    "battlegroundsSkinParentId": 82110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97927,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG22_HERO_305_SKIN_B",
+    "name": "Wing-Spring Onyxia",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97928": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 60367,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97928,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_50_SKIN_E",
+    "name": "Veil Savior Tess",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97929": {
+    "artist": "A. Zemskov & T. Shevtsov",
+    "battlegroundsSkinParentId": 80832,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97929,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG22_HERO_200_SKIN_A",
+    "name": "Ini Snowmaster",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97930": {
+    "artist": "Grace Liu",
+    "battlegroundsSkinParentId": 57893,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97930,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_12_SKIN_C",
+    "name": "Nutcracker King",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97931": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 58024,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97931,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_22_SKIN_D",
+    "name": "Greatfather Lich King",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97932": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 58535,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97932,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_29_SKIN_D",
+    "name": "Globe of Chaos",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "98781": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 98782,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 98781,
+    "health": 2,
+    "id": "TB_BaconShop_HP_033t_SKIN_D",
+    "name": "Abominable Amalgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "98782": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 98781,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 98782,
+    "health": 4,
+    "id": "TB_BaconShop_HP_033t_SKIN_D_G",
+    "name": "Abominable Amalgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "100697": {
+    "artist": "Steve Prescott",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 63778,
+    "cardClass": "WARLOCK",
+    "cost": 2,
+    "dbfId": 100697,
+    "flavor": "Fortunately he has an even number of fingers.",
+    "health": 4,
+    "id": "RLK_Prologue_LOOT_013",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Vulgar Homunculus",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "LOOTAPALOOZA",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "100720": {
+    "artist": "James Ryman",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 58418,
+    "cardClass": "WARLOCK",
+    "cost": 7,
+    "dbfId": 100720,
+    "flavor": "Has a side hustle as a siegebroker.",
+    "health": 8,
+    "id": "RLK_Prologue_EX1_185",
+    "mechanics": [
+      "AURA",
+      "TAUNT"
+    ],
+    "name": "Siegebreaker",
+    "race": "DEMON",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "techLevel": 4,
+    "text": "<b>Taunt</b>\nYour other Demons have +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "100751": {
+    "artist": "Arthur Bozonnet",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 100751,
+    "flavor": "The peasants are revolting!",
+    "health": 1,
+    "id": "RLK_Prologue_RLK_070",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Infected Peasant",
+    "rarity": "COMMON",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 2/2 Undead Peasant.",
+    "type": "MINION"
+  },
+  "100775": {
+    "artist": "Alex Stone",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 100775,
+    "flavor": ":O",
+    "health": 1,
+    "id": "RLK_Prologue_RLK_957",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Banshee",
+    "race": "UNDEAD",
+    "rarity": "RARE",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ]
+  }
+}

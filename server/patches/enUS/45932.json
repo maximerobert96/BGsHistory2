@@ -1,0 +1,13 @@
+{
+  "60405": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60405,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_054",
+    "name": "Manastorm",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive Hero Power</b>\nMinions cost 2 Gold\n<b>Refresh</b> costs 2 Gold.\n Tavern Tiers cost (1) more.",
+    "type": "HERO_POWER"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "58028": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]Add a 1/1 Shudderling to\nyour hand that repeats all\n<b>Battlecries</b> you've played.\n<i>({0} left.)</i>",
+    "cost": 0,
+    "dbfId": 58028,
+    "id": "TB_BaconShop_HP_022",
+    "name": "Snicker-snack",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Add a 1/1 Shudderling to\nyour hand that repeats all\n<b>Battlecries</b> you've played.\n<i>(Twice per game.)</i>",
+    "type": "HERO_POWER"
+  },
+  "59860": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59860,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_042",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hat Trick",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After you sell a\nminion, randomly give a\nminion in Bob's Tavern\n+1/+1 three times.",
+    "type": "HERO_POWER"
+  },
+  "60378": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60378,
+    "id": "TB_BaconShop_HP_052",
+    "name": "Arcane Alteration",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace a minion with a random one of the same Tavern Tier.\n<i>(Twice per turn.)</i>",
+    "type": "HERO_POWER"
+  },
+  "60448": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60448,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gone Fishing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nadd a random Murloc\nto Bob's Tavern.",
+    "type": "HERO_POWER"
+  },
+  "61919": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61919,
+    "id": "TB_BaconShop_HP_068",
+    "name": "Imprison",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Make a minion in Bob's\nTavern <b>Dormant</b>. After 3\n  turns, get it with +2/+2.",
+    "type": "HERO_POWER"
+  },
+  "76964": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 76965,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76964,
+    "health": 1,
+    "id": "TB_BaconShop_HP_022t",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shudderling",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Repeat all other\n<b>Battlecries</b> from cards you\nplayed this game <i>(targets\nchosen randomly)</i>.",
+    "type": "MINION"
+  },
+  "76965": {
+    "artist": "Matt Dixon",
+    "attack": 2,
+    "battlegroundsNormalDbfId": 76964,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76965,
+    "health": 2,
+    "id": "TB_BaconShop_HP_022t_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shudderling",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Repeat all other\n<b>Battlecries</b> from cards you\n played this game twice\n<i>     (targets chosen randomly)</i>.  ",
+    "type": "MINION"
+  }
+}

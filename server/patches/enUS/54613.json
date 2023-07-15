@@ -1,0 +1,98 @@
+{
+  "63319": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63319,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_70",
+    "name": "Mr. Bigglesworth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "63320": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63320,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_080",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Kel'Thuzad's Kitty",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhen a player dies, <b>Discover</b>\na minion from their warband.\nIt keeps any enchantments.",
+    "type": "HERO_POWER"
+  },
+  "63435": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 63489,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 63435,
+    "health": 2,
+    "id": "BGS_082",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Mug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +1/+1.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63487": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 63492,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 63487,
+    "health": 3,
+    "id": "BGS_083",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Jug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +2/+2.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63489": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 63435,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 63489,
+    "health": 4,
+    "id": "TB_BaconUps_144",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Mug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +2/+2.",
+    "type": "MINION"
+  },
+  "63492": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 63487,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 63492,
+    "health": 6,
+    "id": "TB_BaconUps_145",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Jug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +4/+4.",
+    "type": "MINION"
+  }
+}

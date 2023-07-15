@@ -1,0 +1,480 @@
+{
+  "57949": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57949,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_015",
+    "name": "Tinker",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +2 Attack.",
+    "type": "HERO_POWER"
+  },
+  "58040": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58040,
+    "id": "TB_BaconShop_HP_024",
+    "name": "Reborn Rites",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion\n<b>Reborn</b> for the next\ncombat only.",
+    "type": "HERO_POWER"
+  },
+  "58409": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 96793,
+    "cardClass": "HUNTER",
+    "cost": 6,
+    "dbfId": 58409,
+    "health": 10,
+    "id": "TB_BaconUps_049",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Savannah Highmane",
+    "race": "BEAST",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Summon two 4/4 Hyenas.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "59186": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59487,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59186,
+    "health": 3,
+    "id": "BGS_001",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Nathrezim Overseer",
+    "race": "DEMON",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Battlecry:</b> Give a friendly Demon +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "59487": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59186,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59487,
+    "health": 6,
+    "id": "TB_BaconUps_062",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Nathrezim Overseer",
+    "race": "DEMON",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Battlecry:</b> Give a friendly Demon +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "59832": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59832,
+    "id": "TB_BaconShop_HP_040",
+    "name": "Brick by Brick",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\nGive a random friendly minion +4 Health.",
+    "type": "HERO_POWER"
+  },
+  "59839": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59839,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041a",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Beasts",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59852": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59852,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041c",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Murlocs",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59853": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59853,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041b",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Mechs",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "59854": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59854,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041d",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Demons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "60216": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60216,
+    "id": "TB_BaconShop_HP_046",
+    "name": "Gonna Be Rich!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
+    "type": "HERO_POWER"
+  },
+  "60372": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60372,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_55",
+    "name": "Fungalmancer Flurgl",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "60405": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60405,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_054",
+    "name": "Manastorm",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nMinions cost 2 Gold.\n<b>Refresh</b> costs 2 Gold.",
+    "type": "HERO_POWER"
+  },
+  "60448": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60448,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gone Fishing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you sell a Murloc,\nadd a random Murloc to\nBob's Tavern.",
+    "type": "HERO_POWER"
+  },
+  "60450": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60450,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_057",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Adventure!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAt the start of the game,\n<b>Discover</b> a Hero Power.",
+    "type": "HERO_POWER"
+  },
+  "60498": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 60643,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60498,
+    "health": 6,
+    "id": "BGS_032",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Overkill:</b> Deal 3 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60621": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60663,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60621,
+    "health": 4,
+    "id": "BGS_037",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +1/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60626": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60665,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60626,
+    "health": 4,
+    "id": "BGS_038",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Twilight Emissary",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a friendly Dragon +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60630": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60667,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60630,
+    "elite": true,
+    "health": 12,
+    "id": "BGS_041",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Kalecgos, Arcane Aspect",
+    "race": "DRAGON",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a minion with <b>Battlecry</b>, give your Dragons +1/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60643": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 60498,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60643,
+    "health": 12,
+    "id": "TB_BaconUps_103",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Overkill:</b> Deal 6 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60663": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 60621,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60663,
+    "health": 8,
+    "id": "TB_BaconUps_107",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60665": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 60626,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60665,
+    "health": 8,
+    "id": "TB_BaconUps_108",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Twilight Emissary",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a friendly Dragon +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60667": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 60630,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60667,
+    "elite": true,
+    "health": 24,
+    "id": "TB_BaconUps_109",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Kalecgos, Arcane Aspect",
+    "race": "DRAGON",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a minion with <b>Battlecry</b>, give your Dragons +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60922": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60922,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041f",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Dragons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Dragon</b>, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "61077": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 1808,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 61077,
+    "health": 6,
+    "id": "TB_BaconUps_118",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Unstable Ghoul",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Deal 1 damage to all minions twice.",
+    "type": "MINION"
+  },
+  "61406": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61406,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_061",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "ALL Will Burn!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nALL minions have\n+2 Attack.",
+    "type": "HERO_POWER"
+  },
+  "61408": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61408,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_062",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dream Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAt the start of your turn,\nadd a Dragon to Bob's\nTavern.",
+    "type": "HERO_POWER"
+  },
+  "96793": {
+    "artist": "Milivoj Ceran",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 58409,
+    "cardClass": "HUNTER",
+    "collectible": true,
+    "cost": 6,
+    "dbfId": 96793,
+    "flavor": "In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.",
+    "health": 5,
+    "id": "EX1_534",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Savannah Highmane",
+    "race": "BEAST",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Summon two 2/2 Hyenas.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

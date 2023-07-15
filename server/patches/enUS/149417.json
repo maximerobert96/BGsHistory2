@@ -1,0 +1,403 @@
+{
+  "61060": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 63782,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61060,
+    "health": 6,
+    "id": "BGS_060",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "63782": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61060,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63782,
+    "health": 12,
+    "id": "TB_BaconUps_150",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "64056": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64058,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64056,
+    "health": 2,
+    "id": "BGS_120",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Party Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play an Elemental, give another random friendly Elemental +1/+1.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64058": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64056,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64058,
+    "health": 4,
+    "id": "TB_BaconUps_160",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Party Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play an Elemental, give another random friendly Elemental +1/+1 twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "76520": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76520,
+    "id": "BG21_HERO_030p",
+    "name": "Sneed's Replicator",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon\na random minion from\na Tavern Tier lower.\"",
+    "type": "HERO_POWER"
+  },
+  "80747": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80765,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80747,
+    "health": 5,
+    "id": "BG23_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]The first <b>Spellcraft</b> spell\ncast on this each turn\nis permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80765": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80747,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80765,
+    "health": 10,
+    "id": "BG23_009_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]The first 2 <b>Spellcraft</b> spells\ncast on this each turn\nare permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "86292": {
+    "cardClass": "NEUTRAL",
+    "cost": 10,
+    "dbfId": 86292,
+    "id": "BG23_HERO_305p",
+    "name": "The Perfect Crime",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Steal all minions in\nBob's Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
+    "type": "HERO_POWER"
+  },
+  "90437": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90437,
+    "hideCost": true,
+    "id": "BG24_Reward_309",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Devils in the Details",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\nyour left and right-most\nminions consume a\nminion in Bob's Tavern.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92397": {
+    "attack": 0,
+    "battlegroundsPremiumDbfId": 92421,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92397,
+    "health": 4,
+    "id": "BG24_003",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nether Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "At the end of your turn, give your Dragons +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "92408": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 92438,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92408,
+    "elite": true,
+    "health": 6,
+    "id": "BG24_020",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play a minion\nwith no minion type,\ngive 3 friendly minions of\n  different types +2/+2.",
+    "type": "MINION"
+  },
+  "92421": {
+    "attack": 0,
+    "battlegroundsNormalDbfId": 92397,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92421,
+    "health": 8,
+    "id": "BG24_003_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nether Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "At the end of your turn, give your Dragons +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "92438": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 92408,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92438,
+    "elite": true,
+    "health": 12,
+    "id": "BG24_020_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play a minion\nwith no minion type,\ngive 3 friendly minions of\n  different types +4/+4.",
+    "type": "MINION"
+  },
+  "92552": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92552,
+    "hideCost": true,
+    "id": "BG24_Reward_312",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Staff of Origination",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Give\nyour minions +12/+12.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "93069": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93069,
+    "hideCost": true,
+    "id": "BG24_Reward_136",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tiny Henchmen",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive +3/+3 to 3 friendly\nminions of Tier 3 or lower.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "93324": {
+    "cost": 0,
+    "dbfId": 93324,
+    "hideCost": true,
+    "id": "BG24_Quest_Bob",
+    "mechanics": [
+      "SIDEQUEST"
+    ],
+    "name": "An Investigation!",
+    "set": "BATTLEGROUNDS",
+    "text": "In 3 turns, choose one of three <b>Quests</b>!",
+    "type": "SPELL"
+  },
+  "93382": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 93385,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93382,
+    "health": 4,
+    "id": "BG23_361",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Legion Overseer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Minions in Bob's Tavern have +2/+1.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "93385": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 93382,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93385,
+    "health": 8,
+    "id": "BG23_361_G",
+    "name": "Legion Overseer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Minions in Bob's Tavern have +4/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "95006": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 95010,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95006,
+    "health": 2,
+    "id": "BG24_500",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Amber Guardian",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Start of Combat:</b> Give another friendly Dragon +2/+2 and <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "95010": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 95006,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95010,
+    "health": 4,
+    "id": "BG24_500_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Amber Guardian",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Start of Combat:</b> Give another friendly Dragon +4/+4 and <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "95149": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95149,
+    "hideCost": true,
+    "id": "BG24_Reward_321",
+    "name": "Alter Ego",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Even Tier minions in\nBob's Tavern have +7/+7.\n<i>(Swaps to Odd next turn!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96137": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96137,
+    "hideCost": true,
+    "id": "BG24_Reward_321t",
+    "name": "Alter Ego",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Odd Tier minions in\nBob's Tavern have +7/+7.\n<i>(Swaps to Even next turn!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "94199": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 94200,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 94199,
+    "elite": true,
+    "health": 6,
+    "id": "BG23_362",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Atramedes",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]Whenever this attacks,\ndeal 3 damage to the\n  target and its neighbors.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "97186": {
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97186,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_702",
+    "name": "The Jailer",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "97597": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97597,
+    "hideCost": true,
+    "id": "BG24_Reward_364",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Volatile Venom",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Your minions have +7/+7.\nAfter they attack,\nthey die. Horribly.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  }
+}

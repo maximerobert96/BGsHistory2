@@ -1,0 +1,147 @@
+{
+  "61914": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61914,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_62",
+    "name": "Maiev Shadowsong",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61989": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62224,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61989,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_072",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cap'n Hoggarr",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]Whenever you buy a Pirate,\ngain 1 Gold this turn only.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62224": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61989,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 62224,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconUps_133",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cap'n Hoggarr",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Whenever you buy a Pirate,\ngain 2 Gold this turn only.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "68129": {
+    "battlegroundsHero": true,
+    "cardClass": "DRUID",
+    "dbfId": 68129,
+    "health": 40,
+    "id": "BG20_HERO_242",
+    "name": "Guff Runetotem",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "68130": {
+    "cardClass": "DRUID",
+    "cost": 1,
+    "dbfId": 68130,
+    "id": "BG20_HERO_242p",
+    "name": "Natural Balance",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion of\neach Tavern Tier +2/+1.",
+    "type": "HERO_POWER"
+  },
+  "71914": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 71914,
+    "id": "BG20_HERO_301p",
+    "name": "Devour",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nSpit its stats onto another.\nGet 1 Gold.",
+    "type": "HERO_POWER"
+  },
+  "71916": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71916,
+    "health": 40,
+    "id": "BG20_HERO_301",
+    "name": "Mutanus the Devourer",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "72675": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 72675,
+    "id": "TB_BaconShop_CheckTriples",
+    "name": "Check Triples",
+    "set": "BATTLEGROUNDS",
+    "text": "3ofKindCheck",
+    "type": "SPELL"
+  },
+  "73072": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 73092,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73072,
+    "health": 5,
+    "id": "BG20_210",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hexruin Marauder",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\nif you have 6 or fewer\nminions, gain +3/+3.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "73092": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 73072,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73092,
+    "health": 10,
+    "id": "BG20_210_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hexruin Marauder",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\nif you have 6 or fewer\nminions, gain +6/+6.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  }
+}

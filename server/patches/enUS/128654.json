@@ -1,0 +1,119 @@
+{
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "72068": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 74938,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72068,
+    "health": 5,
+    "id": "BG21_020",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Dazzling Lightspawn",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Avenge (2):</b> Elementals in\nBob's Tavern have +1/+1\n  for the rest of the game.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72073": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 73452,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72073,
+    "health": 3,
+    "id": "BG21_014",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prized Promo-Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Start of Combat:</b> Give\nadjacent minions +1/+1\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "73452": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 72073,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73452,
+    "health": 6,
+    "id": "BG21_014_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prized Promo-Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b> Give\nadjacent minions +2/+2\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "74938": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72068,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 74938,
+    "health": 10,
+    "id": "BG21_020_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Dazzling Lightspawn",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Avenge (2):</b> Elementals in\nBob's Tavern have +2/+2\n  for the rest of the game.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "76520": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 76520,
+    "id": "BG21_HERO_030p",
+    "name": "Sneed's Replicator",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion:\n\"<b>Deathrattle</b>: Summon\na random minion of the\nsame Tavern Tier.\"",
+    "type": "HERO_POWER"
+  },
+  "77911": {
+    "cardClass": "WARLOCK",
+    "cost": 1,
+    "dbfId": 77911,
+    "id": "BG20_HERO_282p",
+    "name": "Fragrant Phylactery",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\nto all your others.",
+    "type": "HERO_POWER"
+  }
+}

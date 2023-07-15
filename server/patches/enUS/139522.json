@@ -1,0 +1,413 @@
+{
+  "60448": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60448,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gone Fishing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After you sell\n2 minions, add a random\nMurloc to Bob's Tavern.\n<i>(2 left.)</i>",
+    "type": "HERO_POWER"
+  },
+  "80739": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 80758,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80739,
+    "health": 2,
+    "id": "BG23_001",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snail Cavalry",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Once per Turn:</b>\nAfter you cast a spell,\ngain +2 Health.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80741": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80759,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80741,
+    "health": 6,
+    "id": "BG23_003",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +2/+1.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80743": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 80761,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80743,
+    "health": 5,
+    "id": "BG23_005",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stormscale Siren",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\nyou cast your <b>Spellcraft</b>\n minions' spells on them.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80747": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80765,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80747,
+    "health": 4,
+    "id": "BG23_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]The first <b>Spellcraft</b> spell\ncast on this each turn\nis permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80749": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 80767,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 80749,
+    "health": 2,
+    "id": "BG23_011",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shoal Commander",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+1/+1 for each friendly\nNaga until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80751": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 80769,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 80751,
+    "elite": true,
+    "health": 3,
+    "id": "BG23_013",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast a spell, give\nthree friendly Naga +1/+1.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80753": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 80771,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80753,
+    "elite": true,
+    "health": 7,
+    "id": "BG23_015",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Orgozoa, the Tender",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Spellcraft: Discover</b> a Naga.",
+    "type": "MINION"
+  },
+  "80756": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 80774,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80756,
+    "health": 7,
+    "id": "BG23_018",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Darkgaze Elder",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you spend 5 Gold,\nplay a <b>Blood Gem</b> on\nfour friendly Quilboar.\n<i>(5 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "80758": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 80739,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80758,
+    "health": 4,
+    "id": "BG23_001_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snail Cavalry",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Once per Turn:</b>\nAfter you cast a spell,\ngain +4 Health.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80759": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80741,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80759,
+    "health": 12,
+    "id": "BG23_003_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +4/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80761": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 80743,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80761,
+    "health": 10,
+    "id": "BG23_005_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stormscale Siren",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\nyou cast your <b>Spellcraft</b>\nminions' spells on them\ntwice.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80765": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80747,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80765,
+    "health": 8,
+    "id": "BG23_009_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]The first 2 <b>Spellcraft</b> spells\ncast on this each turn\nare permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80767": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 80749,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 80767,
+    "health": 4,
+    "id": "BG23_011_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shoal Commander",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2 for each friendly\nNaga until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80769": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 80751,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 80769,
+    "elite": true,
+    "health": 6,
+    "id": "BG23_013_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast a spell, give\nthree friendly Naga +2/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80771": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 80753,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80771,
+    "elite": true,
+    "health": 14,
+    "id": "BG23_015_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Orgozoa, the Tender",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Spellcraft: Discover</b> 2 Naga.",
+    "type": "MINION"
+  },
+  "80774": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 80756,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80774,
+    "health": 14,
+    "id": "BG23_018_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Darkgaze Elder",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you spend 5 Gold,\nplay a <b>Blood Gem</b> on four\nfriendly Quilboar twice.\n<i>(5 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "87084": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 87086,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 87084,
+    "elite": true,
+    "health": 5,
+    "id": "BG22_403",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Young Murk-Eye",
+    "race": "MURLOC",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn, the\nMurloc to the left of this\ntriggers its <b>Battlecry</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "87086": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 87084,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 87086,
+    "elite": true,
+    "health": 10,
+    "id": "BG22_403_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Young Murk-Eye",
+    "race": "MURLOC",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "At the end of your turn, adjacent Murlocs trigger their <b>Battlecries</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  }
+}

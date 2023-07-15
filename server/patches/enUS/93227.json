@@ -1,0 +1,123 @@
+{
+  "78745": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78745,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_F",
+    "name": "Gala Medivh",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78746": {
+    "battlegroundsSkinParentId": 66483,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78746,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_93_SKIN_A",
+    "name": "Cowboy N'Zoth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78747": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 67216,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 78747,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconShop_HP_105t_SKIN_A",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cattlecarp of N'Zoth",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a friendly <b>Deathrattle</b> minion dies, gain its <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "78748": {
+    "battlegroundsSkinParentId": 58534,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78748,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_28__SKIN_A",
+    "name": "Toki the Clown",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78749": {
+    "battlegroundsSkinParentId": 59807,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78749,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_37_SKIN_A",
+    "name": "Shado-pan Jaraxxus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78750": {
+    "battlegroundsSkinParentId": 68129,
+    "cardClass": "DRUID",
+    "dbfId": 78750,
+    "health": 40,
+    "id": "BG20_HERO_242_SKIN_A",
+    "name": "Stormwind Guard Guff",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78751": {
+    "battlegroundsSkinParentId": 60214,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78751,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43_SKIN_A",
+    "name": "Orc Grunt Brann",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78752": {
+    "battlegroundsSkinParentId": 63604,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78752,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_74_SKIN_B",
+    "name": "Pugilist Omu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78753": {
+    "battlegroundsSkinParentId": 64485,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78753,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_91_SKIN_A",
+    "name": "Agent Z",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "78754": {
+    "battlegroundsSkinParentId": 57892,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78754,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_11_SKIN_A",
+    "name": "Flamewarden Ragnaros",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

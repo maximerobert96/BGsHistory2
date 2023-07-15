@@ -1,0 +1,13 @@
+{
+  "73940": {
+    "battlegroundsBuddyDbfId": 77778,
+    "battlegroundsHero": true,
+    "cardClass": "PALADIN",
+    "dbfId": 73940,
+    "health": 40,
+    "id": "BG21_HERO_000",
+    "name": "Cariel Roame",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

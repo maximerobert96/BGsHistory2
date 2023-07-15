@@ -1,0 +1,349 @@
+{
+  "59940": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59969,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59940,
+    "health": 3,
+    "id": "BGS_017",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Beast, give it +2 Attack.",
+    "type": "MINION"
+  },
+  "59969": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59940,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59969,
+    "health": 6,
+    "id": "TB_BaconUps_086",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Beast, give it +4 Attack.",
+    "type": "MINION"
+  },
+  "63600": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63600,
+    "id": "TB_BaconShop_HP_081",
+    "name": "Friendly Wager",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGuess which player will\nwin their next combat.\n If they win, get three Coins.",
+    "type": "HERO_POWER"
+  },
+  "63601": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63601,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_71",
+    "name": "Jandice Barov",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "63602": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63602,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_72",
+    "name": "Lord Barov",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "63604": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63604,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_74",
+    "name": "Forest Warden Omu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "63605": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63605,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Everbloom",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you upgrade Bob's\nTavern, gain 2 Gold\nthis turn only.",
+    "type": "HERO_POWER"
+  },
+  "63607": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63607,
+    "id": "TB_BaconShop_HP_084",
+    "name": "Swap, Lock, & Shop It",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nSwap a friendly non-golden\nminion with a random one\nin Bob's Tavern.",
+    "type": "HERO_POWER"
+  },
+  "63772": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 60628,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 63772,
+    "health": 6,
+    "id": "TB_BaconUps_146",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Dragonspawn Lieutenant",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "63774": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 42467,
+    "cardClass": "PALADIN",
+    "cost": 1,
+    "dbfId": 63774,
+    "health": 2,
+    "id": "TB_BaconUps_147",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Righteous Protector",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION"
+  },
+  "63776": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 96787,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 63776,
+    "elite": true,
+    "health": 18,
+    "id": "TB_BaconUps_153",
+    "name": "Foe Reaper 4000",
+    "race": "MECHANICAL",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Also damages the minions next to whomever it attacks.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "63778": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 43121,
+    "cardClass": "WARLOCK",
+    "cost": 2,
+    "dbfId": 63778,
+    "health": 8,
+    "id": "TB_BaconUps_148",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Vulgar Homunculus",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "63779": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 60558,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63779,
+    "health": 2,
+    "id": "TB_BaconUps_149",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN"
+    ],
+    "name": "Bronze Warden",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Divine Shield</b>\n<b>Reborn</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "63780": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 60629,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63780,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_154",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Nadina the Red",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Dragons <b>Divine Shield</b>.",
+    "type": "MINION"
+  },
+  "63781": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 1791,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63781,
+    "elite": true,
+    "health": 16,
+    "id": "TB_BaconUps_155",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Maexxna",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "63782": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61060,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63782,
+    "health": 16,
+    "id": "TB_BaconUps_150",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "63794": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96782,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 63794,
+    "health": 8,
+    "id": "TB_BaconUps_151",
+    "name": "Cave Hydra",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Also damages the minions next to whomever\nthis attacks.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "63796": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 96842,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63796,
+    "health": 4,
+    "id": "TB_BaconUps_152",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Toxfin",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "96760": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 64343,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 96760,
+    "flavor": "The dramatically detailed terrifically trimmed replica of the real thing!",
+    "health": 2,
+    "id": "ULD_217",
+    "mechanics": [
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Micro Mummy",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "ULDUM",
+    "techLevel": 1,
+    "text": "[x]<b>Reborn</b>\nAt the end of your turn, give\nanother random friendly\nminion +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

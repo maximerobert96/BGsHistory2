@@ -1,0 +1,134 @@
+{
+  "66618": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 73503,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 66618,
+    "health": 4,
+    "id": "BG20_401",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Holy Mecherel",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After another friendly minion loses <b>Divine Shield</b>, gain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72391": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 73014,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72391,
+    "health": 5,
+    "id": "BG21_025",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Omega Buster",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Summon five 1/1 Microbots. For each that doesn't fit, give your Mechs +1/+1.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "73014": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 72391,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 73014,
+    "health": 10,
+    "id": "BG21_025_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Omega Buster",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon five 2/2 Microbots. For each that doesn't fit, give your Mechs +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "73503": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 66618,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73503,
+    "health": 8,
+    "id": "BG20_401_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Holy Mecherel",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After another friendly minion loses <b>Divine Shield</b>, gain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "76902": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 76903,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 76902,
+    "health": 4,
+    "id": "BG21_040",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Recycling Wraith",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]After you play an\nElemental, your next\n<b>Refresh</b> costs (1) less.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "76903": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 76902,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 76903,
+    "health": 8,
+    "id": "BG21_040_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Recycling Wraith",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you play an\nElemental, your next two\n<b>Refreshes</b> cost (1) less.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  }
+}

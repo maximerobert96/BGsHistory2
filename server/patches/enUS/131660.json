@@ -1,0 +1,315 @@
+{
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "70838": {
+    "battlegroundsBuddyDbfId": 77876,
+    "battlegroundsHero": true,
+    "cardClass": "WARRIOR",
+    "dbfId": 70838,
+    "health": 40,
+    "id": "BG20_HERO_100",
+    "name": "Rokara",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "77876": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77877,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77876,
+    "elite": true,
+    "health": 2,
+    "id": "BG20_HERO_100_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Icesnarl the Mighty",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]After a friendly minion\nkills an enemy, gain\n+1 Health permanently.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "77877": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77876,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77877,
+    "elite": true,
+    "health": 4,
+    "id": "BG20_HERO_100_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Icesnarl the Mighty",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]After a friendly minion\nkills an enemy, gain\n+2 Health permanently.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "77888": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77889,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77888,
+    "health": 5,
+    "id": "BG22_HERO_004_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "'Twice as Nice' also gives the copy stats equal to your Tavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "77889": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77888,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77889,
+    "health": 10,
+    "id": "BG22_HERO_004_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]'Twice as Nice' also gives\nthe copy stats equal to\nyour Tavern Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "77890": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77891,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 77890,
+    "health": 2,
+    "id": "BG22_HERO_305_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Many Whelps",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Whelp, gain +2/+2 permanently.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "77891": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77890,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 77891,
+    "health": 4,
+    "id": "BG22_HERO_305_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Many Whelps",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Whelp, gain +4/+4 permanently.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "79615": {
+    "battlegroundsBuddyDbfId": 77888,
+    "battlegroundsHero": true,
+    "cardClass": "MAGE",
+    "dbfId": 79615,
+    "health": 40,
+    "id": "BG22_HERO_004",
+    "name": "Varden Dawngrasp",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80229": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 80229,
+    "hideCost": true,
+    "id": "BG20_HERO_100p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Glory of Combat",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive.</b> After a friendly minion kills an enemy, give it +1 Attack permanently.",
+    "type": "HERO_POWER"
+  },
+  "80539": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80539,
+    "hideCost": true,
+    "id": "BG22_HERO_004p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Twice as Nice",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After Bob's\nTavern is <b>Refreshed</b>,\ncopy and <b>Freeze</b> one\nof his minions.",
+    "type": "HERO_POWER"
+  },
+  "82110": {
+    "battlegroundsBuddyDbfId": 77890,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82110,
+    "health": 40,
+    "id": "BG22_HERO_305",
+    "name": "Onyxia",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82114": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 82114,
+    "hideCost": true,
+    "id": "BG22_HERO_305p",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Broodmother",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\n<b>Avenge (4):</b> Summon\na 2/1 Whelp. It attacks\nimmediately.",
+    "type": "HERO_POWER"
+  },
+  "82117": {
+    "artist": "Mauricio Herrera",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 82117,
+    "health": 1,
+    "id": "BG22_HERO_305t",
+    "name": "Onyxian Whelp",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "82391": {
+    "battlegroundsSkinParentId": 75702,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82391,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_283_SKIN_A",
+    "name": "Starblast Galewing",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82392": {
+    "battlegroundsSkinParentId": 60370,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82392,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_53_SKIN_C",
+    "name": "Ysera, Embraced by Elune",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82503": {
+    "battlegroundsSkinParentId": 64485,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82503,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_91_SKIN_D",
+    "name": "Goldenstar Zephrys",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82504": {
+    "battlegroundsSkinParentId": 63319,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82504,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_70_SKIN_C",
+    "name": "Cosmic Bigglesworth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82505": {
+    "battlegroundsSkinParentId": 59805,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82505,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_35_SKIN_B",
+    "name": "Yogg-Saron, Devourer of Stars",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82506": {
+    "battlegroundsSkinParentId": 59831,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82506,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_39_SKIN_B",
+    "name": "Originator Pyramad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82542": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82542,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_M",
+    "name": "Algalon",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

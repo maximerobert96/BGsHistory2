@@ -1,0 +1,1003 @@
+{
+  "57947": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57947,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_18",
+    "name": "Patches the Pirate",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "57961": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57961,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_20",
+    "name": "Professor Putricide",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59707": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59711,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59707,
+    "health": 2,
+    "id": "BGS_009",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+2/+1.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59711": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59707,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59711,
+    "health": 4,
+    "id": "TB_BaconUps_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+4/+2.",
+    "type": "MINION"
+  },
+  "59826": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 59826,
+    "id": "TB_BaconShop_HP_039",
+    "name": "Puzzle Box",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAdd a random minion in\nBob's Tavern to your hand.\nGive it +1/+1.",
+    "type": "HERO_POWER"
+  },
+  "59863": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59863,
+    "id": "TB_BaconShop_HP_037a",
+    "name": "Wax Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+2 Attack.",
+    "type": "HERO_POWER"
+  },
+  "61046": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 62217,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 61046,
+    "elite": true,
+    "health": 5,
+    "id": "BGS_046",
+    "name": "Nat Pagle, Extreme Angler",
+    "race": "PIRATE",
+    "referencedTags": [
+      "OVERKILL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Overkill:</b> Summon a 0/2 Treasure Chest.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "61047": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62228,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61047,
+    "elite": true,
+    "health": 7,
+    "id": "BGS_047",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dread Admiral Eliza",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever a friendly Pirate attacks, give all friendly minions +1/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61048": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 62259,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 61048,
+    "health": 4,
+    "id": "BGS_048",
+    "name": "Southsea Strongarm",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Give +1/+1 for each Pirate you bought this turn.",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Pirate +1/+1 for each Pirate you bought this turn.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61049": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62187,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 61049,
+    "health": 3,
+    "id": "BGS_049",
+    "name": "Freedealing Gambler",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "This minion sells for\n3 Gold.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61053": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62254,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61053,
+    "health": 2,
+    "id": "BGS_053",
+    "name": "Bloodsail Cannoneer",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry</b>: Give your other Pirates +3 Attack.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "61055": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 62186,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 61055,
+    "health": 2,
+    "id": "BGS_055",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Deck Swabbie",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Reduce the cost of upgrading Bob's\nTavern by (1).",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61056": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62257,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61056,
+    "health": 4,
+    "id": "BGS_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ripsnarl Captain",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever another friendly Pirate attacks, give it +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61060": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61060,
+    "health": 8,
+    "id": "BGS_060",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61061": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 62262,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61061,
+    "health": 1,
+    "id": "BGS_061",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Scallywag",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 1/1 Pirate. It attacks immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61066": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 62194,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 61066,
+    "health": 2,
+    "id": "BGS_066",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Goldgrubber",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, gain +2/+2 for each friendly Golden minion.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61910": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61911": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61911,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_59t",
+    "name": "Aranna, Unleashed",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61915": {
+    "cardClass": "NEUTRAL",
+    "collectionText": " left!)</i>",
+    "cost": 0,
+    "dbfId": 61915,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_065",
+    "name": "Demon Hunter Training",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 7 times,\nBob always has 7 minions.\n<i>(",
+    "type": "HERO_POWER"
+  },
+  "61989": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62224,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61989,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_072",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cap'n Hoggarr",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you buy a Pirate,\ngain 1 Gold this turn\nonly.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62035": {
+    "cardClass": "DEMONHUNTER",
+    "cost": 0,
+    "dbfId": 62035,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_065t2",
+    "name": "Spectral Sight",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nBob's Tavern refreshes\nwith 7 minions.",
+    "type": "HERO_POWER"
+  },
+  "62186": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61055,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62186,
+    "health": 4,
+    "id": "TB_BaconUps_126",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Deck Swabbie",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Reduce the cost of upgrading Bob's\nTavern by (2).",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62187": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61049,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62187,
+    "health": 6,
+    "id": "TB_BaconUps_127",
+    "name": "Freedealing Gambler",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "This minion sells for\n6 Gold.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62188": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 62189,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62188,
+    "health": 2,
+    "id": "BGS_077",
+    "mechanics": [
+      "CANT_ATTACK",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arcane Cannon",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]Can't attack.\nAfter an adjacent minion\nattacks, deal 2 damage\nto an enemy minion.",
+    "type": "MINION"
+  },
+  "62189": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 62188,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62189,
+    "health": 4,
+    "id": "TB_BaconUps_128",
+    "mechanics": [
+      "CANT_ATTACK",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arcane Cannon",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]Can't attack.\nAfter an adjacent minion\nattacks, deal 2 damage to\n   an enemy minion twice.",
+    "type": "MINION"
+  },
+  "62194": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61066,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 62194,
+    "health": 4,
+    "id": "TB_BaconUps_130",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Goldgrubber",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, gain +4/+4 for each friendly Golden minion.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62213": {
+    "attack": 1,
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 62213,
+    "health": 1,
+    "id": "BGS_061t",
+    "name": "Sky Pirate",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62215": {
+    "attack": 2,
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 62215,
+    "health": 2,
+    "id": "TB_BaconUps_141t",
+    "name": "Sky Pirate",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62216": {
+    "attack": 0,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 62216,
+    "health": 2,
+    "id": "BGS_046t",
+    "name": "Treasure Chest",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a random Golden minion.",
+    "type": "MINION"
+  },
+  "62217": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 61046,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62217,
+    "elite": true,
+    "health": 10,
+    "id": "TB_BaconUps_132",
+    "name": "Nat Pagle, Extreme Angler",
+    "race": "PIRATE",
+    "referencedTags": [
+      "OVERKILL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Overkill:</b> Summon a 0/2 Golden Treasure Chest.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62218": {
+    "attack": 0,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 62218,
+    "health": 2,
+    "id": "TB_BaconUps_132t",
+    "name": "Treasure Chest",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon 2 random Golden minions.",
+    "type": "MINION"
+  },
+  "62224": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61989,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 62224,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconUps_133",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cap'n Hoggarr",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you buy a Pirate,\ngain 2 Gold this turn\nonly.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62228": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61047,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 62228,
+    "elite": true,
+    "health": 14,
+    "id": "TB_BaconUps_134",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dread Admiral Eliza",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever a friendly Pirate attacks, give all friendly minions +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62230": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62231,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62230,
+    "health": 2,
+    "id": "BGS_078",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]After this attacks,\ntrigger a random friendly\nminion's <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62231": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62230,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62231,
+    "health": 4,
+    "id": "TB_BaconUps_135",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]After this attacks, trigger\na random friendly minion's\n<b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62232": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62251,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62232,
+    "health": 4,
+    "id": "BGS_079",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Tide Razor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle</b>: Summon 3 random Pirates.",
+    "type": "MINION"
+  },
+  "62237": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 96771,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62237,
+    "health": 6,
+    "id": "TB_BaconUps_136",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Southsea Captain",
+    "race": "PIRATE",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Your other Pirates have +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62242": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 62242,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_64",
+    "name": "Captain Eudora",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "62243": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 62243,
+    "id": "TB_BaconShop_HP_072",
+    "name": "Pirate Parrrrty!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGet a Pirate. After you buy\na Pirate, your next Hero\nPower costs (1) less.",
+    "type": "HERO_POWER"
+  },
+  "62250": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(4 Digs left.)</i>",
+    "cost": 1,
+    "dbfId": 62250,
+    "id": "TB_BaconShop_HP_074",
+    "name": "Buried Treasure",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(@ |4(Dig, Digs) left.)</i>",
+    "type": "HERO_POWER"
+  },
+  "62251": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 62232,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62251,
+    "health": 8,
+    "id": "TB_BaconUps_137",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Tide Razor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle</b>: Summon 6 random Pirates.",
+    "type": "MINION"
+  },
+  "62254": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61053,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 62254,
+    "health": 4,
+    "id": "TB_BaconUps_138",
+    "name": "Bloodsail Cannoneer",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry</b>: Give your other Pirates +6 Attack.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62257": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61056,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 62257,
+    "health": 8,
+    "id": "TB_BaconUps_139",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ripsnarl Captain",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever another friendly Pirate attacks, give it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62259": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 61048,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 62259,
+    "health": 8,
+    "id": "TB_BaconUps_140",
+    "name": "Southsea Strongarm",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Give +2/+2 for each Pirate you bought this turn.",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Pirate +2/+2 for each Pirate you bought this turn.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62262": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61061,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 62262,
+    "health": 2,
+    "id": "TB_BaconUps_141",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Scallywag",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 2/2 Pirate. It attacks immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62266": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 62266,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_67",
+    "name": "Captain Hooktusk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "62267": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62267,
+    "id": "TB_BaconShop_HP_075",
+    "name": "Trash for Treasure",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\n <b>Discover</b> one from a\nTavern Tier lower.",
+    "type": "HERO_POWER"
+  },
+  "62268": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 62268,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_68",
+    "name": "Skycap'n Kragg",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "62269": {
+    "cardClass": "NEUTRAL",
+    "collectionText": " Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
+    "cost": 0,
+    "dbfId": 62269,
+    "id": "TB_BaconShop_HP_076",
+    "name": "Piggy Bank",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGain",
+    "type": "HERO_POWER"
+  },
+  "62277": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62277,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041g",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Pirates",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Pirate</b>, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "62458": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62460,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62458,
+    "health": 7,
+    "id": "BGS_080",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Seabreaker Goliath",
+    "race": "PIRATE",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Windfury</b>\n<b>Overkill:</b> Give your other Pirates +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62460": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 62458,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62460,
+    "health": 14,
+    "id": "TB_BaconUps_142",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Seabreaker Goliath",
+    "race": "PIRATE",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Windfury</b>\n<b>Overkill:</b> Give your other Pirates +4/+4.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62734": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62739,
+    "cardClass": "ROGUE",
+    "cost": 4,
+    "dbfId": 62734,
+    "health": 3,
+    "id": "BGS_081",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Salty Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Whenever you play a Pirate, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62739": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62734,
+    "cardClass": "ROGUE",
+    "cost": 4,
+    "dbfId": 62739,
+    "health": 6,
+    "id": "TB_BaconUps_143",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Salty Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Whenever you play a Pirate, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "63127": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63127,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041",
+    "name": "A Tale of Kings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a minion of\na specific type, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "96771": {
+    "artist": "Ken Steacy",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62237,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96771,
+    "flavor": "When he saves enough plunder, he's going to commission an enormous captain's hat.  He has hat envy.",
+    "health": 3,
+    "id": "NEW1_027",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Southsea Captain",
+    "race": "PIRATE",
+    "rarity": "EPIC",
+    "set": "EXPERT1",
+    "techLevel": 2,
+    "text": "Your other Pirates have +1/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

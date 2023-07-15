@@ -1,0 +1,317 @@
+{
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "77484": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77540,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77484,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_42_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Jr. Navigator",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the start of your turn,\nget a 'Recruitment Map.'\nYour Maps cost (1).",
+    "type": "MINION"
+  },
+  "77510": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77546,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77510,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_25_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Unearthed Underling",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever your hero takes\ndamage, this minion\ngains +3/+3 instead.\n<i>(2 left this turn.)</i>",
+    "type": "MINION"
+  },
+  "77511": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77547,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77511,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_72_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Barov's Apprentice",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After you play a Gold Coin, gain 1 Gold this turn only.",
+    "type": "MINION"
+  },
+  "77540": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77484,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77540,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_42_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Jr. Navigator",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the start of your turn,\nget 2 'Recruitment Maps.'\nYour Maps cost (1).",
+    "type": "MINION"
+  },
+  "77546": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77510,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77546,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_25_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Unearthed Underling",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever your hero takes\ndamage, this minion\ngains +6/+6 instead.\n<i>(2 left this turn.)</i>",
+    "type": "MINION"
+  },
+  "77547": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77511,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77547,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_72_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Barov's Apprentice",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After you play a Gold Coin, gain 2 Gold this turn only.",
+    "type": "MINION"
+  },
+  "77629": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77732,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77629,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_14_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elder Taggawag",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever you play a minion\nof a type you don't control,\ntrigger your Hero Power.\n<i>(2 left this turn.)</i>",
+    "type": "MINION"
+  },
+  "77732": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77629,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77732,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_14_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elder Taggawag",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever you play a minion\nof a type you don't control,\ntrigger your Hero Power\n  twice. <i>(2 left this turn.)</i>",
+    "type": "MINION"
+  },
+  "77835": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77836,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77835,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_50_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hunter of Old",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "At the start of your turn,\nadd your last opponent's Buddy to your hand.",
+    "type": "MINION"
+  },
+  "77836": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77835,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77836,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_50_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hunter of Old",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "At the start of your turn, add 2 of your last opponent's Buddy to your hand.",
+    "type": "MINION"
+  },
+  "77849": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 77850,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77849,
+    "elite": true,
+    "health": 5,
+    "id": "BG20_HERO_201_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Master Gadrin",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\nthe minion to the left\nof this copies this\nminion's Attack.",
+    "type": "MINION"
+  },
+  "77850": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 77849,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77850,
+    "elite": true,
+    "health": 10,
+    "id": "BG20_HERO_201_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Master Gadrin",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\nadjacent minions copy\nthis minion's Attack.",
+    "type": "MINION"
+  },
+  "77878": {
+    "attack": 0,
+    "battlegroundsPremiumDbfId": 77879,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77878,
+    "health": 14,
+    "id": "BG20_HERO_282_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrosity",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion dies, gain its Attack.",
+    "type": "MINION"
+  },
+  "77879": {
+    "attack": 0,
+    "battlegroundsNormalDbfId": 77878,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77879,
+    "health": 28,
+    "id": "BG20_HERO_282_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrosity",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion dies, gain its Attack twice.",
+    "type": "MINION"
+  },
+  "77882": {
+    "artist": "Hideaki Takamura",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77883,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77882,
+    "health": 2,
+    "id": "BG22_HERO_001_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Spirit Raptor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon\nthose Elements.",
+    "type": "MINION"
+  },
+  "77883": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77882,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77883,
+    "health": 4,
+    "id": "BG22_HERO_001_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Spirit Raptor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon those\nElements twice.",
+    "type": "MINION"
+  },
+  "77911": {
+    "cardClass": "WARLOCK",
+    "cost": 0,
+    "dbfId": 77911,
+    "id": "BG20_HERO_282p",
+    "name": "Fragrant Phylactery",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to four friendly minions.",
+    "type": "HERO_POWER"
+  }
+}

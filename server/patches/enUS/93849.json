@@ -1,0 +1,681 @@
+{
+  "61066": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62194,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 61066,
+    "health": 4,
+    "id": "BGS_066",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Goldgrubber",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, gain +2/+2 for each friendly Golden minion.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62194": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61066,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 62194,
+    "health": 8,
+    "id": "TB_BaconUps_130",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Goldgrubber",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn, gain +4/+4 for each friendly Golden minion.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62230": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 62231,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62230,
+    "health": 3,
+    "id": "BGS_078",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After this attacks,\ntrigger another friendly\nminion's <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62231": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 62230,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62231,
+    "health": 6,
+    "id": "TB_BaconUps_135",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After this attacks, trigger\nanother friendly minion's\n<b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62734": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62739,
+    "cardClass": "ROGUE",
+    "cost": 4,
+    "dbfId": 62734,
+    "health": 5,
+    "id": "BGS_081",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Salty Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Whenever you play a Pirate, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62739": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 62734,
+    "cardClass": "ROGUE",
+    "cost": 4,
+    "dbfId": 62739,
+    "health": 10,
+    "id": "TB_BaconUps_143",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Salty Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you play a Pirate, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "70153": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70155,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70153,
+    "health": 3,
+    "id": "BG20_203",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prophet of the Boar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Once per Turn:</b> After you play a Quilboar, gain a <b>Blood Gem</b>.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "70155": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70153,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70155,
+    "health": 6,
+    "id": "BG20_203_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prophet of the Boar",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Once per Turn:</b> After you play a Quilboar, gain 2 <b>Blood Gems</b>.",
+    "type": "MINION"
+  },
+  "70157": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 70161,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70157,
+    "health": 4,
+    "id": "BG20_101",
+    "name": "Roadboar",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "FRENZY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Frenzy:</b> Gain a <b>Blood Gem</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70161": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 70157,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70161,
+    "health": 8,
+    "id": "BG20_101_G",
+    "name": "Roadboar",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "FRENZY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Frenzy:</b> Gain 2 <b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70165": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70166,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70165,
+    "elite": true,
+    "health": 4,
+    "id": "BG20_303",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Charlga",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "At the end of your turn, play a <b>Blood Gem</b> on all friendly minions.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70166": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70165,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70166,
+    "elite": true,
+    "health": 8,
+    "id": "BG20_303_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Charlga",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn, play 2 <b>Blood Gems</b> on all friendly minions.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70171": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70172,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70171,
+    "health": 4,
+    "id": "BG20_103",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bristleback Brute",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "The first <b>Blood Gem</b> played on this each turn gives an extra +2/+2.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70172": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70171,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70172,
+    "health": 8,
+    "id": "BG20_103_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bristleback Brute",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "The first <b>Blood Gem</b> played on this each turn gives an extra +4/+4.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70184": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70191,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 70184,
+    "health": 5,
+    "id": "BG20_207",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dynamic Duo",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b><b>Taunt</b>.</b> After a <b>Blood Gem</b>\nis played on another\nQuilboar, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70191": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70184,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 70191,
+    "health": 10,
+    "id": "BG20_207_G",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dynamic Duo",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b><b>Taunt</b>.</b> After a <b>Blood Gem</b>\nis played on another\nQuilboar, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "72042": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 74974,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 72042,
+    "health": 3,
+    "id": "BG21_000",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Leapfrogger",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Deathrattle:</b> Give a friendly Beast +1/+1 and this <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72045": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 72825,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72045,
+    "health": 3,
+    "id": "BG21_003",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reanimating Rattler",
+    "race": "BEAST",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> Give a friendly Beast <b>Reborn</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72059": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 72922,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 72059,
+    "health": 2,
+    "id": "BG21_006",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Impulsive Trickster",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\n  to another friendly minion. ",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72066": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73474,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 72066,
+    "health": 6,
+    "id": "BG21_007",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Impatient Doomsayer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (4):</b> Add a random Demon to your hand.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "72070": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 73813,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72070,
+    "health": 5,
+    "id": "BG21_016",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Peggy Brittlebone",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a card is added to your hand, give another friendly Pirate +1/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "72072": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73546,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 72072,
+    "health": 5,
+    "id": "BG21_013",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Whelp Smuggler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After a friendly Dragon gains Attack, give it +1 Health.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "72825": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 72045,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72825,
+    "health": 6,
+    "id": "BG21_003_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reanimating Rattler",
+    "race": "BEAST",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> Give a friendly Beast <b>Reborn</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "72922": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72059,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 72922,
+    "health": 4,
+    "id": "BG21_006_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Impulsive Trickster",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\nto another friendly minion\ntwice.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "73474": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72066,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 73474,
+    "health": 12,
+    "id": "BG21_007_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Impatient Doomsayer",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Avenge (4):</b> Add 2 random Demons to your hand.",
+    "type": "MINION"
+  },
+  "73546": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72072,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 73546,
+    "health": 10,
+    "id": "BG21_013_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Whelp Smuggler",
+    "set": "BATTLEGROUNDS",
+    "text": "After a friendly Dragon gains Attack, give it +2 Health.",
+    "type": "MINION"
+  },
+  "73813": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 72070,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73813,
+    "health": 10,
+    "id": "BG21_016_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Peggy Brittlebone",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "After a card is added to your hand, give another friendly Pirate +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "74899": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 72061,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74899,
+    "health": 8,
+    "id": "BG21_018_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Defiant Shipwright",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you upgrade your\nTavern Tier, add two random\nPirates to Bob's Tavern.",
+    "type": "MINION"
+  },
+  "74974": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 72042,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 74974,
+    "health": 6,
+    "id": "BG21_000_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Leapfrogger",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Give a friendly Beast +2/+2 and this <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "75180": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 75182,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 75180,
+    "health": 6,
+    "id": "BG21_036",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Master of Realities",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +1/+1.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "75706": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75706,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t3",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eastern Plaguelands",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 5 turns, your\nnext Tavern Tier upgrade\ncosts (5) less. <i>(5 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "76566": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 76569,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76566,
+    "elite": true,
+    "health": 4,
+    "id": "BG21_039",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Kathra'natir",
+    "race": "DEMON",
+    "referencedTags": [
+      "IMMUNE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Your other Demons\nhave +2 Attack.\nYour Hero is <b>Immune</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "76569": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 76566,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76569,
+    "elite": true,
+    "health": 8,
+    "id": "BG21_039_G",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Kathra'natir",
+    "race": "DEMON",
+    "referencedTags": [
+      "IMMUNE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Your other Demons\nhave +4 Attack.\nYour Hero is <b>Immune</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  }
+}

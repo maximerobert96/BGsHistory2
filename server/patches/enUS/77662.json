@@ -1,0 +1,150 @@
+{
+  "763": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 57404,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 763,
+    "faction": "ALLIANCE",
+    "flavor": "You wouldn’t think that Argus would need this much defending.  But it does.",
+    "health": 3,
+    "id": "EX1_093",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Defender of Argus",
+    "rarity": "RARE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "EXPERT1",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "57404": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 763,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 57404,
+    "faction": "ALLIANCE",
+    "health": 6,
+    "id": "TB_BaconUps_009",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Defender of Argus",
+    "rarity": "RARE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> Give adjacent minions +2/+2 and <b>Taunt</b>.",
+    "type": "MINION"
+  },
+  "62582": {
+    "artist": "Ursula Dorada",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 71533,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 62582,
+    "flavor": "\"Maybe someday you’ll make it to Gadgetzan, kid.\"",
+    "health": 5,
+    "id": "BAR_073",
+    "mechanics": [
+      "FRENZY"
+    ],
+    "name": "Barrens Blacksmith",
+    "rarity": "EPIC",
+    "set": "THE_BARRENS",
+    "techLevel": 3,
+    "text": "<b>Frenzy:</b> Give your other minions +2/+2.",
+    "type": "MINION"
+  },
+  "67357": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 67357,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prize Wall",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nEvery 4 turns, <b>Discover</b>\na Darkmoon Prize.\n<i>(3 turns left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "69960": {
+    "artist": "Jaemin Kim",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58138,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 69960,
+    "flavor": "This guy gets crazy strong at family reunions.",
+    "health": 2,
+    "id": "VAN_EX1_509",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Murloc Tidecaller",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "VANILLA",
+    "techLevel": 1,
+    "text": "Whenever a Murloc is summoned, gain +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "71454": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71454,
+    "health": 40,
+    "id": "BG20_HERO_102",
+    "name": "Overlord Saurfang",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "71455": {
+    "cardClass": "WARRIOR",
+    "cost": 1,
+    "dbfId": 71455,
+    "id": "BG20_HERO_102p",
+    "name": "For the Horde!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive +1 Attack to the next\nminion you buy this turn.\n<i>(Upgrades each turn!)</i>",
+    "type": "HERO_POWER"
+  },
+  "71533": {
+    "artist": "Ursula Dorada",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62582,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 71533,
+    "health": 10,
+    "id": "TB_BaconUps_320",
+    "mechanics": [
+      "FRENZY"
+    ],
+    "name": "Barrens Blacksmith",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Frenzy:</b> Give your other minions +4/+4.",
+    "type": "MINION"
+  }
+}

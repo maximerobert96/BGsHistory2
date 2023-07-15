@@ -1,0 +1,433 @@
+{
+  "67428": {
+    "attack": 2,
+    "cardClass": "PALADIN",
+    "classes": [
+      "PALADIN",
+      "WARRIOR"
+    ],
+    "cost": 3,
+    "dbfId": 67428,
+    "elite": true,
+    "flavor": "All gas, no breaks!",
+    "health": 6,
+    "id": "PVPDR_YOP_WarPalT1",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "multiClassGroup": "PALADIN_WARRIOR",
+    "name": "Su Leadfoot",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "RUSH"
+    ],
+    "set": "TB",
+    "techLevel": 4,
+    "text": "After you summon a minion, it gains <b>Divine Shield</b> and <b>Rush</b>.",
+    "type": "MINION"
+  },
+  "76270": {
+    "artist": "Tim McBurnie",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 57403,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 76270,
+    "flavor": "Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!",
+    "health": 3,
+    "howToEarn": "Unlocked at level 1.",
+    "howToEarnGolden": "Unlocked after 2500 total wins.",
+    "id": "CORE_EX1_507",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Murloc Warleader",
+    "race": "MURLOC",
+    "rarity": "EPIC",
+    "set": "CORE",
+    "techLevel": 2,
+    "text": "Your other Murlocs have +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "76281": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 1,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 76281,
+    "flavor": "No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
+    "health": 3,
+    "howToEarn": "Unlocked at level 1.",
+    "howToEarnGolden": "Unlocked after winning 50 games as Warlock.",
+    "id": "CORE_CS2_065",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Voidwalker",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "CORE",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "76312": {
+    "artist": "Sam Nielson",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58400,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 76312,
+    "elite": true,
+    "flavor": "Contains 75% more fiber than his brother Magni!",
+    "health": 4,
+    "howToEarn": "Unlocked at level 41.",
+    "howToEarnGolden": "Unlocked after 5000 total wins.",
+    "id": "CORE_LOE_077",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Brann Bronzebeard",
+    "rarity": "LEGENDARY",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "CORE",
+    "techLevel": 5,
+    "text": "Your <b>Battlecries</b> trigger twice.",
+    "type": "MINION"
+  },
+  "77888": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77889,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77888,
+    "health": 5,
+    "id": "BG22_HERO_004_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "'Twice as Nice' also gives both minions stats equal to your Tavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "77889": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77888,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77889,
+    "health": 10,
+    "id": "BG22_HERO_004_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]'Twice as Nice' also gives\nboth minions stats equal\n  to your Tavern Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "80539": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80539,
+    "hideCost": true,
+    "id": "BG22_HERO_004p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Twice as Nice",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After Bob's\nTavern is <b>Refreshed</b>, copy\nhis highest Tier minion\n and <b>Freeze</b> them both.",
+    "type": "HERO_POWER"
+  },
+  "80832": {
+    "battlegroundsBuddyDbfId": 82600,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80832,
+    "health": 40,
+    "id": "BG22_HERO_200",
+    "name": "Ini Stormcoil",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "81572": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]<b>Passive</b>\nAfter 9 friendly minions\ndie, get a random Mech.\n<i>({0} left.)</i>",
+    "cost": 0,
+    "dbfId": 81572,
+    "hideCost": true,
+    "id": "BG22_HERO_200p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "MechGyver",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter 9 friendly minions\ndie, get a random Mech.",
+    "type": "HERO_POWER"
+  },
+  "82600": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 82603,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 82600,
+    "health": 4,
+    "id": "BG22_HERO_200_Buddy",
+    "isBattlegroundsBuddy": true,
+    "name": "Sub Scrubber",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a Mech,\ngain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "82603": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 82600,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 82603,
+    "health": 8,
+    "id": "BG22_HERO_200_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "name": "Sub Scrubber",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a Mech,\ngain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "87689": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 87690,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 87689,
+    "health": 6,
+    "id": "BG22_404",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Friend of a Friend",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry: Discover</b> a Buddy.",
+    "type": "MINION"
+  },
+  "88930": {
+    "battlegroundsSkinParentId": 60211,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88930,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_40_SKIN_D",
+    "name": "Sea Guide Finley",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88932": {
+    "battlegroundsSkinParentId": 62266,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88932,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_67_SKIN_C",
+    "name": "Sunken Raider Hooktusk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88933": {
+    "battlegroundsSkinParentId": 60372,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88933,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_55_SKIN_C",
+    "name": "Flowmancer Flurgl",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88934": {
+    "battlegroundsSkinParentId": 57947,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88934,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_18_SKIN_B",
+    "name": "Patches the Octopus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88936": {
+    "battlegroundsSkinParentId": 57892,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88936,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_11_SKIN_C",
+    "name": "Abyssal Volcano Ragnaros",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88938": {
+    "battlegroundsSkinParentId": 57929,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88938,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_15_SKIN_E",
+    "name": "George the Sunken",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88939": {
+    "battlegroundsSkinParentId": 59203,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88939,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_33_SKIN_B",
+    "name": "Curator, Abyssal Guardian",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88940": {
+    "battlegroundsSkinParentId": 64403,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88940,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_76_SKIN_C",
+    "name": "Al'Akir the Whirlpool",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88941": {
+    "battlegroundsSkinParentId": 57635,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88941,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_02_SKIN_A",
+    "name": "Deep Sea Galakrond",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88942": {
+    "battlegroundsSkinParentId": 64485,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88942,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_91_SKIN_E",
+    "name": "Zephrys the Tide-Turner",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88943": {
+    "battlegroundsSkinParentId": 57633,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88943,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_01_SKIN_C",
+    "name": "Edwin VanReef",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88944": {
+    "battlegroundsSkinParentId": 66196,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88944,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_92_SKIN_A",
+    "name": "Maw of Y'Shaarj",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88945": {
+    "battlegroundsSkinParentId": 61488,
+    "cardClass": "NEUTRAL",
+    "dbfId": 88945,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_56_SKIN_B",
+    "name": "Alexstrasza, Sea Dragon Queen",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "88990": {
+    "battlegroundsSkinParentId": 76521,
+    "cardClass": "WARRIOR",
+    "dbfId": 88990,
+    "health": 40,
+    "id": "BG21_HERO_030_SKIN_A",
+    "name": "Submersible Sneed",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89019": {
+    "battlegroundsSkinParentId": 63604,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89019,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_74_SKIN_D1",
+    "name": "Coral Keeper Omu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89020": {
+    "battlegroundsSkinParentId": 59806,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89020,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_36_SKIN_B1",
+    "name": "Divin' Deryl",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89502": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89502,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_O",
+    "name": "Harth Stonebrew",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

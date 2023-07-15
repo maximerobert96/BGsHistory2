@@ -1,0 +1,34 @@
+{
+  "58394": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 70033,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 58394,
+    "elite": true,
+    "health": 14,
+    "id": "TB_BaconUps_042",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Beast",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Deathrattle:</b> Summon a\n3/3 Pip Quickwit for\nyour opponent.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "78751": {
+    "battlegroundsSkinParentId": 60214,
+    "cardClass": "NEUTRAL",
+    "dbfId": 78751,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43_SKIN_A",
+    "name": "Orgrimmar Grunt Brann",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

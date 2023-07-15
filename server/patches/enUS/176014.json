@@ -1,0 +1,29 @@
+{
+  "63602": {
+    "armor": 10,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 77511,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63602,
+    "health": 30,
+    "heroPowerDbfId": 63600,
+    "id": "TB_BaconShop_HERO_72",
+    "name": "Lord Barov",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "72470": {
+    "armor": 10,
+    "cardClass": "WARRIOR",
+    "dbfId": 72470,
+    "health": 30,
+    "heroPowerDbfId": 72471,
+    "id": "BG20_HERO_666",
+    "name": "Diablo",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

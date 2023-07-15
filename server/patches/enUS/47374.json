@@ -1,0 +1,119 @@
+{
+  "61912": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61912,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_60",
+    "name": "Kael'thas Sunstrider",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61913": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61913,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_61",
+    "name": "Lady Vashj",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61914": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61914,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_62",
+    "name": "Maiev Shadowsong",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61917": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61917,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_066",
+    "name": "Verdant Spheres",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nEvery third minion you\nbuy gains +2/+2.",
+    "type": "HERO_POWER"
+  },
+  "61918": {
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 61918,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_067",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Electricity",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you upgrade Bob's\nTavern, replace his minions\n   with ones of a higher Tier.",
+    "type": "HERO_POWER"
+  },
+  "61919": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61919,
+    "id": "TB_BaconShop_HP_068",
+    "name": "Imprison",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nMake a minion in Bob's\nTavern <b>Dormant</b>. After 2\n  turns, get it with +1/+1.",
+    "type": "HERO_POWER"
+  },
+  "62162": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62165,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62162,
+    "health": 1,
+    "id": "BGS_075",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62165": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62162,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62165,
+    "health": 2,
+    "id": "TB_BaconUps_125",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  }
+}

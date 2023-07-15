@@ -1,0 +1,82 @@
+{
+  "59935": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 59976,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59935,
+    "health": 6,
+    "id": "BGS_012",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59976": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 59935,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59976,
+    "health": 12,
+    "id": "TB_BaconUps_087",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle</b>: Summon the first 4 friendly Mechs that died this combat.",
+    "type": "MINION"
+  },
+  "70179": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 70190,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70179,
+    "elite": true,
+    "health": 6,
+    "id": "BG20_206",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Flat Tusk",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you spend 4 Gold, gain a <b>Blood Gem</b>.\n<i>(4 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70190": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 70179,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70190,
+    "elite": true,
+    "health": 12,
+    "id": "BG20_206_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Flat Tusk",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you spend 4 Gold,\ngain 2 <b>Blood Gems</b>.\n<i>(4 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "64485": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64485,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_91",
+    "name": "Zephrys, the Great",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "64486": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64486,
+    "id": "TB_BaconShop_HP_102",
+    "name": "Three Wishes",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nIf you have two copies\nof a minion, find the third.\n<i>(3 wishes left)</i>",
+    "type": "HERO_POWER"
+  }
+}

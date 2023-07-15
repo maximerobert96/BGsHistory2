@@ -1,0 +1,210 @@
+{
+  "57949": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57949,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_015",
+    "name": "Tinker",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +1/+1.",
+    "type": "HERO_POWER"
+  },
+  "58395": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96762,
+    "cardClass": "HUNTER",
+    "cost": 2,
+    "dbfId": 58395,
+    "health": 4,
+    "id": "TB_BaconUps_043",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Scavenging Hyena",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "Whenever a friendly Beast dies, gain +4/+2.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "59808": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59808,
+    "id": "TB_BaconShop_HP_036",
+    "name": "Bloodfury",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive your Demons\n+1/+1.",
+    "type": "HERO_POWER"
+  },
+  "60216": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60216,
+    "id": "TB_BaconShop_HP_046",
+    "name": "Gonna Be Rich!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
+    "type": "HERO_POWER"
+  },
+  "61915": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61915,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_065",
+    "name": "Demon Hunter Training",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 7 times,\nBob always has 7 minions.\n<i>(7 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "62162": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62165,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62162,
+    "health": 2,
+    "id": "BGS_075",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62165": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62162,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62165,
+    "health": 4,
+    "id": "TB_BaconUps_125",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62230": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62231,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62230,
+    "health": 2,
+    "id": "BGS_078",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After this attacks,\ntrigger a random friendly\nminion's <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62231": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62230,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62231,
+    "health": 4,
+    "id": "TB_BaconUps_135",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After this attacks, trigger\na random friendly minion's\n<b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62250": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 62250,
+    "id": "TB_BaconShop_HP_074",
+    "name": "Buried Treasure",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(4 Digs left.)</i>",
+    "type": "HERO_POWER"
+  },
+  "62269": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62269,
+    "id": "TB_BaconShop_HP_076",
+    "name": "Piggy Bank",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGain 1 Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
+    "type": "HERO_POWER"
+  },
+  "96762": {
+    "artist": "Jim Nelson",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58395,
+    "cardClass": "HUNTER",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 96762,
+    "flavor": "Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even Brussels sprouts.",
+    "health": 2,
+    "id": "EX1_531",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Scavenging Hyena",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "EXPERT1",
+    "techLevel": 1,
+    "text": "Whenever a friendly Beast dies, gain +2/+1.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

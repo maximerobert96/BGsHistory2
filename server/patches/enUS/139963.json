@@ -1,0 +1,567 @@
+{
+  "72470": {
+    "battlegroundsHero": true,
+    "cardClass": "WARRIOR",
+    "dbfId": 72470,
+    "health": 40,
+    "id": "BG20_HERO_666",
+    "name": "Diablo",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "77341": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77341,
+    "id": "BG20_HERO_666p_t3a",
+    "name": "Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +2/+2 until next turn.",
+    "type": "SPELL"
+  },
+  "77344": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77344,
+    "id": "BG20_HERO_666p_t3b",
+    "name": "Magic Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +6/+6 until next turn.",
+    "type": "SPELL"
+  },
+  "77345": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77345,
+    "id": "BG20_HERO_666p_t3c",
+    "name": "Rare Claws of Terror",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +12/+12 until next turn.",
+    "type": "SPELL"
+  },
+  "77435": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77435,
+    "id": "BG20_HERO_666p_t1a",
+    "name": "Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 1 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77436": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77436,
+    "id": "BG20_HERO_666p_t1b",
+    "name": "Magic Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 3 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77437": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77437,
+    "id": "BG20_HERO_666p_t1c",
+    "name": "Rare Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 9 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77438": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77438,
+    "id": "BG20_HERO_666p_t1d",
+    "name": "Unique Sigil of Hell",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Deal 27 damage to 3 random enemy minions.",
+    "type": "SPELL"
+  },
+  "77518": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77518,
+    "id": "BG20_HERO_666p_t5a",
+    "name": "Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +1 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77520": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77520,
+    "id": "BG20_HERO_666p_t5b",
+    "name": "Magic Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +3 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77521": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77521,
+    "id": "BG20_HERO_666p_t5c",
+    "name": "Rare Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +9 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "77522": {
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 77522,
+    "id": "BG20_HERO_666p_t5d",
+    "name": "Unique Hellfire Hooves",
+    "set": "BATTLEGROUNDS",
+    "text": "Give your minions +27 Attack until next turn.",
+    "type": "SPELL"
+  },
+  "78109": {
+    "attack": 4,
+    "cardClass": "WARRIOR",
+    "cost": 0,
+    "dbfId": 78109,
+    "health": 4,
+    "id": "BG20_HERO_666p_t0",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Diablo, Lord of Terror",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Deathrattle:</b> Give your\nopponent 2 loot!\n<i>(If this survives, Diablo\ngets 2 loot instead.)</i>",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "86013": {
+    "artist": "Zoltan Boros",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 86013,
+    "health": 40,
+    "id": "BG23_HERO_201",
+    "name": "Ozumat",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "86014": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86014,
+    "hideCost": true,
+    "id": "BG23_HERO_201p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tentacular",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive. Start of Combat:</b>\nSummon a 2/2 Tentacle\nwith <b>Taunt</b>. <i>(Upgrades\n  after you sell a minion!)</i>",
+    "type": "HERO_POWER"
+  },
+  "86227": {
+    "artist": "Hideaki Takamura",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 86227,
+    "health": 2,
+    "id": "BG23_HERO_201pt",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "89021": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89021,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_N1",
+    "name": "Neptulon",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89506": {
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 89506,
+    "health": 4,
+    "id": "LT23_823P1_01",
+    "mercenariesAbilityCooldown": 1,
+    "name": "Come on Down! 1",
+    "set": "LETTUCE",
+    "techLevel": 3,
+    "text": "Spin the Wheel of Yogg-Saron.",
+    "type": "LETTUCE_ABILITY"
+  },
+  "89550": {
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 89550,
+    "health": 4,
+    "id": "LT23_823P1_02",
+    "mercenariesAbilityCooldown": 1,
+    "name": "Come on Down! 2",
+    "set": "LETTUCE",
+    "techLevel": 3,
+    "text": "Spin the Wheel of Yogg-Saron.",
+    "type": "LETTUCE_ABILITY"
+  },
+  "89809": {
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 89809,
+    "health": 4,
+    "id": "LT23_823P1_03",
+    "name": "Come on Down! 3",
+    "set": "LETTUCE",
+    "techLevel": 3,
+    "text": "Spin the Wheel of Yogg-Saron.",
+    "type": "LETTUCE_ABILITY"
+  },
+  "90531": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 91055,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 90531,
+    "health": 10,
+    "id": "BG_TID_713_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bubblette",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After this minion takes\n exactly two damage,\ndestroy it. <i>(Pop!)</i>",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "91055": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 90531,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91055,
+    "health": 5,
+    "id": "BG_TID_713",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bubblette",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After this minion takes\n exactly one damage,\ndestroy it. <i>(Pop!)</i>",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "91958": {
+    "artist": "Hideaki Takamura",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91958,
+    "health": 2,
+    "id": "BG23_HERO_201pt2",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "91959": {
+    "artist": "Hideaki Takamura",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91959,
+    "health": 2,
+    "id": "BG23_HERO_201pt3",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "91960": {
+    "artist": "Hideaki Takamura",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91960,
+    "health": 2,
+    "id": "BG23_HERO_201pt4",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "91961": {
+    "artist": "Hideaki Takamura",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91961,
+    "health": 2,
+    "id": "BG23_HERO_201pt5",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "91962": {
+    "artist": "Hideaki Takamura",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91962,
+    "health": 2,
+    "id": "BG23_HERO_201pt6",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Ozumat's Tentacle",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "92178": {
+    "battlegroundsSkinParentId": 64480,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92178,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_90_SKIN_C",
+    "name": "Skating Silas",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92179": {
+    "battlegroundsSkinParentId": 61489,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92179,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_57_SKIN_B",
+    "name": "Captive Guest Nozdormu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92180": {
+    "battlegroundsSkinParentId": 59805,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92180,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_35_SKIN_C",
+    "name": "Yogg-Saron, Punch Guardian",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92181": {
+    "battlegroundsSkinParentId": 59814,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92181,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_38_SKIN_B",
+    "name": "Party Animal Mukla",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92182": {
+    "battlegroundsSkinParentId": 70956,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92182,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_101_SKIN_C",
+    "name": "Xyrella the Elegant",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92183": {
+    "battlegroundsSkinParentId": 57891,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92183,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_10_SKIN_C",
+    "name": "Party Prince Gallywix",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92184": {
+    "battlegroundsSkinParentId": 58044,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92184,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_25_SKIN_B",
+    "name": "Baz'hial, Unlife of the Party",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92185": {
+    "battlegroundsSkinParentId": 67553,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92185,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_95_SKIN_B",
+    "name": "Traybough",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92192": {
+    "battlegroundsSkinParentId": 60212,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92192,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_41_SKIN_D",
+    "name": "Grand Entrance Reno",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92193": {
+    "battlegroundsSkinParentId": 60362,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92193,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_45_SKIN_D",
+    "name": "Arch-Host Rafaam",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92194": {
+    "battlegroundsSkinParentId": 74646,
+    "cardClass": "WARLOCK",
+    "dbfId": 92194,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_282_SKIN_B",
+    "name": "Dancin' Tamsin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92195": {
+    "battlegroundsSkinParentId": 80239,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92195,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG22_HERO_002_SKIN_A",
+    "name": "Disco Drek'thar",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92204": {
+    "battlegroundsSkinParentId": 59831,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92204,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_39_SKIN_C",
+    "name": "Disco Pyramad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92209": {
+    "battlegroundsSkinParentId": 64475,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92209,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_78_SKIN_B",
+    "name": "Ice Sculptor Chenvaala",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92220": {
+    "battlegroundsSkinParentId": 62266,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92220,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_67_SKIN_D",
+    "name": "Captain Party-Crasher",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92221": {
+    "battlegroundsSkinParentId": 71916,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92221,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_301_SKIN_C",
+    "name": "Hot Mess Mutanus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

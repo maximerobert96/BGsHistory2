@@ -1,0 +1,884 @@
+{
+  "59202": {
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 59202,
+    "health": 2,
+    "id": "TB_BaconShop_HP_033t",
+    "name": "Amalgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "64424": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64424,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_087",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "DIE, INSECTS!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you kill 25 enemy\nminions, get Sulfuras.\n<i>(25 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "64476": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64476,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_088",
+    "name": "Avalanche",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you play 3 Elementals,\nreduce the cost of upgrading\nBob's Tavern by (3).",
+    "type": "HERO_POWER"
+  },
+  "70136": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 70136,
+    "id": "BG20_GEM",
+    "name": "Blood Gem",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +1/+1.",
+    "type": "SPELL"
+  },
+  "70143": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70150,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 70143,
+    "health": 1,
+    "id": "BG20_100",
+    "name": "Razorfen Geomancer",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Gain a\n<b>Blood Gem</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70144": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 70146,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70144,
+    "health": 5,
+    "id": "BG20_201",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bannerboar",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "At the end of your turn, play a <b>Blood Gem</b> on adjacent Quilboar.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70146": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 70144,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70146,
+    "health": 10,
+    "id": "BG20_201_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bannerboar",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn, play 2 <b>Blood Gems</b> on adjacent Quilboar.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70147": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 70148,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70147,
+    "health": 2,
+    "id": "BG20_301",
+    "name": "Sun-Bacon Relaxer",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "When you sell this, gain 2 <b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70148": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 70147,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70148,
+    "health": 4,
+    "id": "BG20_301_G",
+    "name": "Sun-Bacon Relaxer",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "When you sell this, gain 4 <b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70150": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70143,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 70150,
+    "health": 2,
+    "id": "BG20_100_G",
+    "name": "Razorfen Geomancer",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> Gain 2\n<b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70151": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70152,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70151,
+    "health": 3,
+    "id": "BG20_202",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Necrolyte",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Steal all <b>Blood Gems</b> from neighbors.",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Choose a friendly\nminion. It steals all <b>Blood\nGems</b> from its neighbors.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70152": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70151,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70152,
+    "health": 6,
+    "id": "BG20_202_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Necrolyte",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Steal all <b>Blood Gems</b> from neighbors.",
+    "text": "[x]<b>Battlecry:</b> Choose a friendly\nminion. It steals all <b>Blood\nGems</b> from its neighbors.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70153": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70155,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70153,
+    "health": 3,
+    "id": "BG20_203",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prophet of the Boar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Once per Turn:</b> After you play a Quilboar, gain a <b>Blood Gem</b>.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "70155": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70153,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70155,
+    "health": 6,
+    "id": "BG20_203_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prophet of the Boar",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Once per Turn:</b> After you play a Quilboar, gain 2 <b>Blood Gems</b>.",
+    "type": "MINION"
+  },
+  "70157": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 70161,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70157,
+    "health": 4,
+    "id": "BG20_101",
+    "name": "Roadboar",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "FRENZY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Frenzy:</b> Gain a <b>Blood Gem</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70158": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70159,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70158,
+    "health": 8,
+    "id": "BG20_204",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "FRENZY",
+      "WINDFURY"
+    ],
+    "name": "Bristleback Knight",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Windfury</b>, <b>Divine Shield</b>\n<b>Frenzy:</b> Gain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70159": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70158,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70159,
+    "health": 16,
+    "id": "BG20_204_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "FRENZY",
+      "WINDFURY"
+    ],
+    "name": "Bristleback Knight",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Mega-Windfury</b>,\n<b><b>Divine Shield</b>.</b>\n<b>Frenzy:</b> Gain\n<b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70161": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 70157,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70161,
+    "health": 8,
+    "id": "BG20_101_G",
+    "name": "Roadboar",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "FRENZY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Frenzy:</b> Gain 2 <b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70162": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70168,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70162,
+    "health": 3,
+    "id": "BG20_102",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tough Tusk",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After a <b>Blood Gem</b> is played on this, gain <b>Divine Shield</b> for the next combat.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70163": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70164,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70163,
+    "elite": true,
+    "health": 6,
+    "id": "BG20_302",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Aggem Thorncurse",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After a <b>Blood Gem</b> is played on this, give a friendly minion of each minion type +1/+1.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70164": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70163,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70164,
+    "elite": true,
+    "health": 12,
+    "id": "BG20_302_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Aggem Thorncurse",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "After a <b>Blood Gem</b> is played on this, give a friendly minion of each minion type +2/+2.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70165": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 70166,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70165,
+    "elite": true,
+    "health": 7,
+    "id": "BG20_303",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Charlga",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "At the end of your turn, play a <b>Blood Gem</b> on all friendly minions.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70166": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 70165,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70166,
+    "elite": true,
+    "health": 14,
+    "id": "BG20_303_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Charlga",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn, play 2 <b>Blood Gems</b> on all friendly minions.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70168": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70162,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 70168,
+    "health": 6,
+    "id": "BG20_102_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tough Tusk",
+    "race": "QUILBOAR",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After a <b>Blood Gem</b> is played on this, gain\n<b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70171": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70172,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70171,
+    "health": 3,
+    "id": "BG20_103",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bristleback Brute",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "The first <b>Blood Gem</b> played on this each turn gives an extra +3/+3.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70172": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70171,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70172,
+    "health": 6,
+    "id": "BG20_103_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bristleback Brute",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "The first <b>Blood Gem</b> played on this each turn gives an extra +6/+6.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70173": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70174,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70173,
+    "health": 7,
+    "id": "BG20_104",
+    "mechanics": [
+      "TRIGGER_VISUAL",
+      "WINDFURY"
+    ],
+    "name": "Bonker",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Windfury</b>\nAfter this attacks, gain a <b>Blood Gem</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70174": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70173,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70174,
+    "health": 14,
+    "id": "BG20_104_G",
+    "mechanics": [
+      "TRIGGER_VISUAL",
+      "WINDFURY"
+    ],
+    "name": "Bonker",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Mega-Windfury</b>\nAfter this attacks, gain 2 <b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70175": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 70181,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70175,
+    "health": 3,
+    "id": "BG20_105",
+    "mechanics": [
+      "BATTLECRY",
+      "DEATHRATTLE"
+    ],
+    "name": "Thorncaller",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry and Deathrattle:</b> Gain a <b>Blood Gem</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70176": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 70177,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70176,
+    "elite": true,
+    "health": 6,
+    "id": "BG20_205",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Agamaggan, the Great Boar",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Your <b>Blood Gems</b> give an extra +1/+1.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70177": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 70176,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70177,
+    "elite": true,
+    "health": 12,
+    "id": "BG20_205_G",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Agamaggan, the Great Boar",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "text": "Your <b>Blood Gems</b> give an extra +2/+2.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "70179": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 70190,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70179,
+    "elite": true,
+    "health": 6,
+    "id": "BG20_206",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Flat Tusk",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you spend 3 Gold, gain a <b>Blood Gem</b>.\n<i>(3 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70181": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 70175,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70181,
+    "health": 6,
+    "id": "BG20_105_G",
+    "mechanics": [
+      "BATTLECRY",
+      "DEATHRATTLE"
+    ],
+    "name": "Thorncaller",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry and Deathrattle:</b> Gain 2 <b>Blood Gems</b>.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70184": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 70191,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 70184,
+    "health": 6,
+    "id": "BG20_207",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dynamic Duo",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b><b>Taunt</b>.</b> After a <b>Blood Gem</b>\nis played on another\nQuilboar, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70188": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 70189,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70188,
+    "health": 6,
+    "id": "BG20_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Groundshaker",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a <b>Blood Gem</b> is played on this, give your minions +2 Attack for next combat only.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "70189": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 70188,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70189,
+    "health": 12,
+    "id": "BG20_106_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Groundshaker",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "After a <b>Blood Gem</b> is played on this, give your minions +4 Attack for next combat only.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70190": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 70179,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70190,
+    "elite": true,
+    "health": 12,
+    "id": "BG20_206_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Flat Tusk",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you spend 3 Gold,\ngain 2 <b>Blood Gems</b>.\n<i>(3 Gold left!)</i>",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70191": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 70184,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 70191,
+    "health": 12,
+    "id": "BG20_207_G",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dynamic Duo",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b><b>Taunt</b>.</b> After a <b>Blood Gem</b>\nis played on another\nQuilboar, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ]
+  },
+  "70956": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 70956,
+    "health": 40,
+    "id": "BG20_HERO_101",
+    "name": "Xyrella",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "70957": {
+    "cardClass": "PRIEST",
+    "cost": 2,
+    "dbfId": 70957,
+    "id": "BG20_HERO_101p",
+    "name": "See the Light",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nChoose a minion in\nBob's Tavern to add to your\nhand. Set its stats to 2.",
+    "type": "HERO_POWER"
+  },
+  "71081": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 71081,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041i",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Quilboar",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Quilboar</b>, give it +2/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "71458": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71458,
+    "health": 40,
+    "id": "BG20_HERO_103",
+    "name": "Death Speaker Blackthorn",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "71459": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 71459,
+    "id": "BG20_HERO_103p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bloodbound",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive Hero Power</b>\nAfter you upgrade\nBob's Tavern, gain\n2 <b>Blood Gems</b>.",
+    "type": "HERO_POWER"
+  },
+  "71463": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71463,
+    "health": 40,
+    "id": "BG20_HERO_201",
+    "name": "Vol'jin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "71464": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 71464,
+    "id": "BG20_HERO_201p",
+    "name": "Spirit Swap",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\nChoose two minions. Swap their stats.",
+    "type": "HERO_POWER"
+  },
+  "71644": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 71644,
+    "id": "BG20_HERO_201p2",
+    "name": "Spirit Swap",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\nChoose a minion. Swap its stats with {0}.",
+    "type": "HERO_POWER"
+  },
+  "72652": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 72652,
+    "id": "BG20_GEMt",
+    "name": "Mass Blood Gem",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minions +0/+0.",
+    "type": "SPELL"
+  },
+  "73635": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 73635,
+    "id": "BG20_GEM_No_Impact",
+    "name": "Blood Gem No Impact",
+    "set": "BATTLEGROUNDS",
+    "type": "SPELL"
+  }
+}

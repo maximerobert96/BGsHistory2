@@ -1,0 +1,47 @@
+{
+  "66835": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 66840,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 66835,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_205",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elistra the Immortal",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
+    "type": "MINION"
+  },
+  "66840": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 66835,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 66840,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_306",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elistra the Immortal",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
+    "type": "MINION"
+  }
+}

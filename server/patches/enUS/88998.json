@@ -1,0 +1,517 @@
+{
+  "57110": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57110,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob",
+    "name": "Bartender Bob",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "57559": {
+    "cardClass": "ROGUE",
+    "collectionText": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>({0} Gold saved.)</i>",
+    "cost": 1,
+    "dbfId": 57559,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_008",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Smart Savings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>(Can exceed 10.)</i>",
+    "type": "HERO_POWER"
+  },
+  "59559": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59559,
+    "id": "TB_BaconShop_8p_Reroll_Button",
+    "name": "Refresh",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace Bob's Tavern with new minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59920": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59920,
+    "id": "TB_BaconShop_1p_Reroll_Button",
+    "name": "Refresh",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace Bob's Tavern with new minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "60218": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, add\nBrann Bronzebeard to your\nhand. <i>({0} left!)</i>",
+    "cost": 0,
+    "dbfId": 60218,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_048",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Battle Brand",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, add\nBrann Bronzebeard to your\n hand. <i>(Once per game.)</i>",
+    "type": "HERO_POWER"
+  },
+  "75129": {
+    "battlegroundsSkinParentId": 71463,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75129,
+    "health": 40,
+    "id": "BG20_HERO_201_SKIN_A",
+    "name": "Chillin' Vol'jin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75136": {
+    "battlegroundsSkinParentId": 67356,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75136,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_94_SKIN_A",
+    "name": "Flexfire Tickatus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75138": {
+    "battlegroundsSkinParentId": 58024,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75138,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_22_SKIN_A",
+    "name": "Grill King Bolvar",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75151": {
+    "battlegroundsSkinParentId": 61914,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75151,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_62_SKIN_A",
+    "name": "Pool Party Maiev",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75156": {
+    "battlegroundsSkinParentId": 64475,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75156,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_78_SKIN_A",
+    "name": "Volcanic Chenvaala",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75161": {
+    "battlegroundsSkinParentId": 60366,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75161,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_49_SKIN_A",
+    "name": "Pyrospike Millhouse",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75166": {
+    "battlegroundsSkinParentId": 57944,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75166,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_16_SKIN_A",
+    "name": "Sunlounger A. F. Kay",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75168": {
+    "battlegroundsSkinParentId": 60211,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75168,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_40_SKIN_A",
+    "name": "Finley of the Kyrian",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75170": {
+    "battlegroundsSkinParentId": 57929,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75170,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_15_SKIN_A",
+    "name": "George the Ascended",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75171": {
+    "battlegroundsSkinParentId": 60370,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75171,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_53_SKIN_A",
+    "name": "Ysera of the Night Fae",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75172": {
+    "battlegroundsSkinParentId": 63604,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75172,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_74_SKIN_A",
+    "name": "Faewarden Omu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75174": {
+    "battlegroundsSkinParentId": 59397,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75174,
+    "health": 55,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_34_SKIN_A",
+    "name": "Necrolord Patchwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75177": {
+    "battlegroundsSkinParentId": 58044,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75177,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_25_SKIN_A",
+    "name": "Margrave Baz'hial",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75178": {
+    "battlegroundsSkinParentId": 60367,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75178,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_50_SKIN_A",
+    "name": "Venthyr Tess",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75179": {
+    "battlegroundsSkinParentId": 61912,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75179,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_60_SKIN_A",
+    "name": "Chained Kael'thas",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75587": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75587,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_A",
+    "name": "Ragnaros, Tikilord",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75702": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75702,
+    "health": 40,
+    "id": "BG20_HERO_283",
+    "name": "Galewing",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75703": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75703,
+    "id": "BG20_HERO_283p",
+    "name": "Dungar's Gryphon",
+    "set": "BATTLEGROUNDS",
+    "text": "Choose a flightpath. Complete it to get a bonus!",
+    "type": "HERO_POWER"
+  },
+  "75704": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75704,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t1",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Westfall",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 1 turn, give\nyour left-most minion\n+2 Attack. <i>(1 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "75705": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75705,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t2",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ironforge",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 3 turns,\n<b>Discover</b> a minion of your\nTavern Tier. <i>(3 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "75706": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75706,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t3",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eastern Plaguelands",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 5 turns,\nupgrade your Tavern Tier.\n<i>(5 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "76336": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76336,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_C",
+    "name": "Dragonspeaker Bob",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76337": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76337,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_D",
+    "name": "Fizzy",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76338": {
+    "battlegroundsSkinParentId": 60370,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76338,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_53_SKIN_B",
+    "name": "Ysera the Green",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76339": {
+    "battlegroundsSkinParentId": 61489,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76339,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_57_SKIN_A",
+    "name": "Nozdormu the Bronze",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76340": {
+    "battlegroundsSkinParentId": 61488,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76340,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_56_SKIN_A",
+    "name": "Alexstrasza the Red",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76341": {
+    "battlegroundsSkinParentId": 60369,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76341,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_52_SKIN_A",
+    "name": "Deathwing the Black",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76342": {
+    "battlegroundsSkinParentId": 61490,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76342,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_58_SKIN_A",
+    "name": "Malygos the Blue",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76343": {
+    "battlegroundsSkinParentId": 58435,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76343,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_27_SKIN_A",
+    "name": "Sindragosa the Blue",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76344": {
+    "battlegroundsSkinParentId": 60212,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76344,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_41_SKIN_A",
+    "name": "Renogos",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76346": {
+    "battlegroundsSkinParentId": 59831,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76346,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_39_SKIN_A",
+    "name": "Pyramellow",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76347": {
+    "battlegroundsSkinParentId": 59814,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76347,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_38_SKIN_A",
+    "name": "Banana Man Mukla",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76348": {
+    "battlegroundsSkinParentId": 58027,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76348,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_23_SKIN_A",
+    "name": "Gentleman Shudderwock",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76349": {
+    "battlegroundsSkinParentId": 58535,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76349,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_29_SKIN_A",
+    "name": "Cute'Thun",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76350": {
+    "battlegroundsSkinParentId": 59805,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76350,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_35_SKIN_A",
+    "name": "Soggy Yoggy",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76351": {
+    "battlegroundsSkinParentId": 63319,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76351,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_70_SKIN_A",
+    "name": "Pet Salon Bigglesworth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76352": {
+    "battlegroundsSkinParentId": 59203,
+    "cardClass": "NEUTRAL",
+    "dbfId": 76352,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_33_SKIN_A",
+    "name": "Cuddly Curator",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76353": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 76353,
+    "health": 2,
+    "id": "TB_BaconShop_HP_033t_SKIN_A",
+    "name": "Cuddlgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "76964": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76964,
+    "health": 1,
+    "id": "TB_BaconShop_HP_022t",
+    "name": "placeholder [DNT]",
+    "set": "BATTLEGROUNDS",
+    "type": "MINION"
+  },
+  "76965": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76965,
+    "health": 1,
+    "id": "TB_BaconShop_HP_022t_G",
+    "name": "placeholder [DNT]",
+    "set": "BATTLEGROUNDS",
+    "type": "MINION"
+  }
+}

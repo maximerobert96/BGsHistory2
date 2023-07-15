@@ -1,0 +1,464 @@
+{
+  "57945": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57945,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_014",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stay Frosty",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAt the end of your turn,\n<b>Frozen</b> minions get\n+2/+1.",
+    "type": "HERO_POWER"
+  },
+  "58143": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96769,
+    "cardClass": "PALADIN",
+    "cost": 1,
+    "dbfId": 58143,
+    "health": 2,
+    "id": "TB_BaconUps_014",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Selfless Hero",
+    "rarity": "RARE",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Deathrattle:</b> Give 2 random friendly minions <b>Divine Shield</b>.",
+    "type": "MINION"
+  },
+  "58546": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58546,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_31",
+    "name": "Bartendotron",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59397": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59397,
+    "health": 55,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_34",
+    "name": "Patchwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59399": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59399,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_035",
+    "name": "All Patched Up",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nStart with 55 Health \ninstead of 40.",
+    "type": "HERO_POWER"
+  },
+  "61053": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62254,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61053,
+    "health": 3,
+    "id": "BGS_053",
+    "name": "Bloodsail Cannoneer",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry</b>: Give your other Pirates +3 Attack.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "61919": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61919,
+    "id": "TB_BaconShop_HP_068",
+    "name": "Imprison",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nMake a minion in Bob's\nTavern <b>Dormant</b>. After 2\n  turns, get it with +1 Attack.",
+    "type": "HERO_POWER"
+  },
+  "62254": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61053,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 62254,
+    "health": 6,
+    "id": "TB_BaconUps_138",
+    "name": "Bloodsail Cannoneer",
+    "race": "PIRATE",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry</b>: Give your other Pirates +6 Attack.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62734": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62739,
+    "cardClass": "ROGUE",
+    "cost": 4,
+    "dbfId": 62734,
+    "health": 4,
+    "id": "BGS_081",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Salty Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Whenever you play a Pirate, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "63600": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63600,
+    "id": "TB_BaconShop_HP_081",
+    "name": "Friendly Wager",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGuess which player will\nwin their next combat.\n If they win, get 3 Coins.",
+    "type": "HERO_POWER"
+  },
+  "63624": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64076,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63624,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_100",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "63630": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64459,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63630,
+    "elite": true,
+    "health": 3,
+    "id": "BGS_105",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Majordomo Executus",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn, give\nyour left-most minion +1/+1.\nRepeat for each Elemental\nyou played this turn.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "64056": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 64058,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64056,
+    "health": 2,
+    "id": "BGS_120",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Party Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play an Elemental, give another random friendly Elemental +1/+1.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64058": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 64056,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64058,
+    "health": 4,
+    "id": "TB_BaconUps_160",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Party Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play an Elemental, give another random friendly Elemental +1/+1 twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64062": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64064,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64062,
+    "health": 5,
+    "id": "BGS_121",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Summon another random Elemental and add a copy of it to your hand.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64064": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64062,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64064,
+    "health": 10,
+    "id": "TB_BaconUps_165",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Summon two other random Elementals and add copies of them to your hand.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64076": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 63624,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64076,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconUps_200",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64297": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 64303,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64297,
+    "health": 3,
+    "id": "BGS_128",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Arcane Assistant",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Elementals +1/+1.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64303": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 64297,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64303,
+    "health": 6,
+    "id": "TB_Baconups_203",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Arcane Assistant",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Elementals +2/+2.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64424": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64424,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_087",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "DIE, INSECTS!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAfter you kill 25 enemy\nminions, get Sulfuras.\n<i>(25 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "64426": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64426,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_087t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sulfuras",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAt the end of your turn,\ngive your left- and right-\nmost minions +3/+3.",
+    "type": "HERO_POWER"
+  },
+  "64459": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 63630,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64459,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconUps_207",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Majordomo Executus",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn, give\nyour left-most minion +2/+2.\nRepeat for each Elemental\nyou played this turn.",
+    "type": "MINION"
+  },
+  "64476": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64476,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_088",
+    "name": "Avalanche",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAfter you play 3 Elementals,\nreduce the cost of upgrading\nBob's Tavern by (3).",
+    "type": "HERO_POWER"
+  },
+  "65031": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 65122,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65031,
+    "health": 1,
+    "id": "BGS_131",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Deadly Spore",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "65122": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 65031,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65122,
+    "health": 2,
+    "id": "TB_BaconUps_251",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Deadly Spore",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION"
+  },
+  "96769": {
+    "artist": "Rafael Zanchetin",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58143,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 96769,
+    "flavor": "\"Don't worry about me… I'll just be here... under these tentacles.\"",
+    "health": 1,
+    "id": "OG_221",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Selfless Hero",
+    "rarity": "RARE",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "OG",
+    "techLevel": 2,
+    "text": "<b>Deathrattle:</b> Give a random friendly minion <b>Divine Shield</b>.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "61059": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 61081,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61059,
+    "health": 3,
+    "id": "BGS_059",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Soul Devourer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Choose a\nfriendly Demon. Remove\nit to gain its stats and\n3 Gold.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61081": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61059,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61081,
+    "health": 6,
+    "id": "TB_BaconUps_119",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Soul Devourer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Choose a\nfriendly Demon. Remove\nit to gain double its stats\nand 6 Gold.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "65259": {
+    "cardClass": "PALADIN",
+    "cost": 0,
+    "dbfId": 65259,
+    "id": "BGS_Treasures_015",
+    "name": "Buy the Holy Light",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion <b>Divine Shield</b>.",
+    "type": "SPELL"
+  },
+  "65380": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65380,
+    "id": "BGS_Treasures_026",
+    "name": "The Bouncer",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a friendly minion +5/+5 and <b>Taunt</b>.",
+    "type": "SPELL"
+  },
+  "66197": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 66197,
+    "id": "TB_BaconShop_HP_103",
+    "name": "Embrace Your Rage",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Add a\nminion from your Tavern Tier\nto your warband. Keep it.",
+    "type": "HERO_POWER"
+  },
+  "67356": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 67356,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_94",
+    "name": "Tickatus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "67357": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 67357,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prize Wall",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nEvery 4 turns, <b>Discover</b>\na Darkmoon Prize.\n<i>(0 turns left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "67493": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 59616,
+    "cardClass": "PALADIN",
+    "cost": 2,
+    "dbfId": 67493,
+    "health": 2,
+    "id": "TB_BaconUps_308",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Argent Braggart",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Gain Attack and\nHealth to match double the\nhighest in the battlefield.",
+    "type": "MINION"
+  },
+  "67553": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 67553,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_95",
+    "name": "Greybough",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "67554": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 67554,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_107",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sprout It Out!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nGive +1/+2 and <b>Taunt</b>\nto minions you summon\nduring combat.",
+    "type": "HERO_POWER"
+  },
+  "67728": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 96791,
+    "cardClass": "WARLOCK",
+    "cost": 6,
+    "dbfId": 67728,
+    "health": 8,
+    "id": "TB_BaconUps_309",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Ring Matron",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon\ntwo 6/4 Imps.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "67729": {
+    "attack": 6,
+    "cardClass": "WARLOCK",
+    "cost": 2,
+    "dbfId": 67729,
+    "health": 4,
+    "id": "TB_BaconUps_309t",
+    "name": "Fiery Imp",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "96791": {
+    "artist": "James Ryman",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 67728,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 6,
+    "dbfId": 96791,
+    "flavor": "But where does she keep them?",
+    "health": 4,
+    "id": "DMF_533",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Ring Matron",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "DARKMOON_FAIRE",
+    "techLevel": 4,
+    "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon\ntwo 3/2 Imps.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

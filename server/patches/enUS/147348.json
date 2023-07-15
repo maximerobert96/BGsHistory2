@@ -1,0 +1,265 @@
+{
+  "60217": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60217,
+    "id": "TB_BaconShop_HP_047",
+    "name": "Lead Explorer",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion from your Tavern tier.\nCosts (1) more after each use.",
+    "type": "HERO_POWER"
+  },
+  "60285": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60285,
+    "id": "TB_BaconShop_HP_049",
+    "name": "Graveyard Shift",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Take $4 damage.\nGain 2 Gold\nthis turn only.",
+    "type": "HERO_POWER"
+  },
+  "61406": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61406,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_061",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "ALL Will Burn!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nALL minions have\n+3 Attack.",
+    "type": "HERO_POWER"
+  },
+  "61917": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61917,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_066",
+    "name": "Verdant Spheres",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nEvery third minion you\nplay gains +2/+2.",
+    "type": "HERO_POWER"
+  },
+  "63624": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64076,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63624,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_100",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64062": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64064,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64062,
+    "health": 5,
+    "id": "BGS_121",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Add another random Elemental to your hand and summon a copy of it.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64064": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64062,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64064,
+    "health": 10,
+    "id": "TB_BaconUps_165",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Add two\nother random Elementals to\nyour hand and summon\ncopies of them.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64081": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 64085,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64081,
+    "elite": true,
+    "health": 8,
+    "id": "BGS_124",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you have.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "66545": {
+    "battlegroundsDarkmoonPrizeTurn": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66545,
+    "id": "BGS_Treasures_036",
+    "name": "Great Deal",
+    "set": "BATTLEGROUNDS",
+    "text": "Reduce the cost of upgrading Bob's Tavern by (5).",
+    "type": "SPELL"
+  },
+  "68130": {
+    "cardClass": "DRUID",
+    "cost": 2,
+    "dbfId": 68130,
+    "id": "BG20_HERO_242p",
+    "name": "Natural Balance",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion of\neach Tavern Tier +2/+2.",
+    "type": "HERO_POWER"
+  },
+  "72389": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 75141,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72389,
+    "health": 7,
+    "id": "BG21_024",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Grease Bot",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, give it +2/+2 permanently.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "74659": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 74661,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74659,
+    "health": 4,
+    "id": "BG21_027",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After you upgrade your\nTavern Tier, gain +1 Attack\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "74661": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 74659,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74661,
+    "health": 8,
+    "id": "BG21_027_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After you upgrade your\nTavern Tier, gain +2 Attack\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "75141": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 72389,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 75141,
+    "health": 14,
+    "id": "BG21_024_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Grease Bot",
+    "race": "MECHANICAL",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, give it +4/+4 permanently.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "76520": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76520,
+    "id": "BG21_HERO_030p",
+    "name": "Sneed's Replicator",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion:\n\"<b>Deathrattle:</b> Summon\na random minion from\na Tavern Tier lower.\"",
+    "type": "HERO_POWER"
+  }
+}

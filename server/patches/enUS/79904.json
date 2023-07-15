@@ -1,0 +1,324 @@
+{
+  "57924": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59940": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 59969,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59940,
+    "health": 3,
+    "id": "BGS_017",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Beast, give it +2 Attack.",
+    "type": "MINION"
+  },
+  "59969": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 59940,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59969,
+    "health": 6,
+    "id": "TB_BaconUps_086",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you summon a Beast, give it +4 Attack.",
+    "type": "MINION"
+  },
+  "60498": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 60643,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60498,
+    "health": 6,
+    "id": "BGS_032",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Overkill:</b> Deal 3 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60621": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60663,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60621,
+    "health": 3,
+    "id": "BGS_037",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +2/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60643": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 60498,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60643,
+    "health": 12,
+    "id": "TB_BaconUps_103",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Overkill:</b> Deal 6 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60663": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 60621,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60663,
+    "health": 6,
+    "id": "TB_BaconUps_107",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "text": "When you sell this minion, give all minions in Bob's Tavern +4/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "62230": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 62231,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62230,
+    "health": 3,
+    "id": "BGS_078",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After this attacks,\ntrigger a random friendly\nminion's <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62231": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 62230,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62231,
+    "health": 6,
+    "id": "TB_BaconUps_135",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After this attacks, trigger\na random friendly minion's\n<b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62266": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 62266,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_67",
+    "name": "Captain Hooktusk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "62267": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62267,
+    "id": "TB_BaconShop_HP_075",
+    "name": "Trash for Treasure",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nChoose one of two from a\nTavern Tier lower to keep.",
+    "type": "HERO_POWER"
+  },
+  "63624": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64076,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63624,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_100",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64076": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 63624,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64076,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconUps_200",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64081": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 64085,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64081,
+    "elite": true,
+    "health": 1,
+    "id": "BGS_124",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you have.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64085": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 64081,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64085,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconUps_163",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +2 Health for each Elemental you have.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64189": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 64190,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64189,
+    "health": 4,
+    "id": "BGS_126",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wildfire Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After this attacks and kills\na minion, deal excess damage to a random adjacent minion.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64190": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 64189,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64190,
+    "health": 8,
+    "id": "TB_BaconUps_166",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wildfire Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "After this attacks and kills\na minion, deal excess damage to both adjacent minions.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  }
+}

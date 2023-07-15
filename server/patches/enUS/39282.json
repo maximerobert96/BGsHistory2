@@ -1,0 +1,87 @@
+{
+  "58028": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58028,
+    "id": "TB_BaconShop_HP_022",
+    "name": "Burbling",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
+    "type": "HERO_POWER"
+  },
+  "58527": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58527,
+    "id": "TB_BaconShop_HP_027",
+    "name": "Fire the Cannons!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ndeal 4 damage to two\n random enemy minions.",
+    "type": "HERO_POWER"
+  },
+  "58537": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58537,
+    "id": "TB_BaconShop_HP_028",
+    "name": "Temporal Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern.\nInclude a minion from\na higher <b>Tavern Tier</b>.",
+    "type": "HERO_POWER"
+  },
+  "59660": {
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59660,
+    "health": 3,
+    "id": "BGS_002",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Soul Juggler",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59661": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59661,
+    "health": 6,
+    "id": "TB_BaconUps_075",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Soul Juggler",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion twice.",
+    "type": "MINION"
+  },
+  "59832": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59832,
+    "id": "TB_BaconShop_HP_040",
+    "name": "Brick by Brick",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\nGive a random friendly minion +3 Health.",
+    "type": "HERO_POWER"
+  },
+  "59863": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59863,
+    "id": "TB_BaconShop_HP_037a",
+    "name": "Wax Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a random friendly\nMech, Demon, Murloc \nand Beast +2 Attack.",
+    "type": "HERO_POWER"
+  }
+}

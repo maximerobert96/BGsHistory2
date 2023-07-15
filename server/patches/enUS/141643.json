@@ -1,0 +1,476 @@
+{
+  "59491": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96773,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59491,
+    "health": 6,
+    "id": "TB_BaconUps_064",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +4 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "59832": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59832,
+    "id": "TB_BaconShop_HP_040",
+    "name": "Brick by Brick",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion +2 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>",
+    "type": "HERO_POWER"
+  },
+  "65660": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 65665,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65660,
+    "health": 3,
+    "id": "BGS_200",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Warden of Old",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Deathrattle:</b> Add a Gold Coin to your hand.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "72062": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 73453,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 72062,
+    "elite": true,
+    "health": 4,
+    "id": "BG21_015",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tarecgosa",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "This permanently keeps enchantments from combat.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "77911": {
+    "cardClass": "WARLOCK",
+    "cost": 0,
+    "dbfId": 77911,
+    "id": "BG20_HERO_282p",
+    "name": "Fragrant Phylactery",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to five friendly minions.",
+    "type": "HERO_POWER"
+  },
+  "80741": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80759,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80741,
+    "health": 7,
+    "id": "BG23_003",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +2/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80743": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 80761,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80743,
+    "health": 5,
+    "id": "BG23_005",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stormscale Siren",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\nyou cast your <b>Spellcraft</b>\n minions' spells on them.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80745": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80763,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 80745,
+    "health": 8,
+    "id": "BG23_007",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waverider",
+    "race": "NAGA",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2 and <b>Windfury</b>\nuntil next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80749": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80767,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 80749,
+    "health": 2,
+    "id": "BG23_011",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shoal Commander",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+1/+1 for each friendly\nNaga until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80750": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 80768,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80750,
+    "health": 3,
+    "id": "BG23_012",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Corrupted Myrmidon",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Double this minion's stats.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80751": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 80769,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 80751,
+    "elite": true,
+    "health": 8,
+    "id": "BG23_013",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast a spell, give\nthree friendly Naga +1/+1.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80759": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 80741,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80759,
+    "health": 14,
+    "id": "BG23_003_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80763": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80745,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 80763,
+    "health": 16,
+    "id": "BG23_007_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waverider",
+    "race": "NAGA",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+4/+4 and <b>Windfury</b>\nuntil next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80767": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80749,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 80767,
+    "health": 4,
+    "id": "BG23_011_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shoal Commander",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2 for each friendly\nNaga until next turn.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80768": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 80750,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80768,
+    "health": 6,
+    "id": "BG23_012_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Corrupted Myrmidon",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Start of Combat:</b> Triple\nthis minion's stats.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80769": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 80751,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 80769,
+    "elite": true,
+    "health": 16,
+    "id": "BG23_013_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast a spell, give\nthree friendly Naga +2/+2.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "82114": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 82114,
+    "hideCost": true,
+    "id": "BG22_HERO_305p",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Broodmother",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\n<b>Avenge (4):</b> Summon\na 3/1 Whelp. It attacks\nimmediately.",
+    "type": "HERO_POWER"
+  },
+  "82117": {
+    "artist": "Mauricio Herrera",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 82117,
+    "health": 1,
+    "id": "BG22_HERO_305t",
+    "name": "Onyxian Whelp",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "84374": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 84374,
+    "id": "BG23_007t",
+    "name": "Undersea Mount",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n+2/+2 and <b>Windfury</b>\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "84379": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 84379,
+    "id": "BG23_007_Gt",
+    "name": "Undersea Mount",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n+4/+4 and <b>Windfury</b>\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "86014": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86014,
+    "hideCost": true,
+    "id": "BG23_HERO_201p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tentacular",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive. Start of Combat:</b>\nSummon a 2/2 Tentacle\nwith <b>Taunt</b>. <i>(Gains +1/+1\nafter you sell a minion!)</i>",
+    "type": "HERO_POWER"
+  },
+  "90531": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 91055,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 90531,
+    "health": 8,
+    "id": "BG_TID_713_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bubblette",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After this minion takes\n exactly two damage,\ndestroy it. <i>(Pop!)</i>",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "91055": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 90531,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91055,
+    "health": 4,
+    "id": "BG_TID_713",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bubblette",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After this minion takes\n exactly one damage,\ndestroy it. <i>(Pop!)</i>",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "96773": {
+    "artist": "Arthur Gimaldinov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59491,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96773,
+    "flavor": "The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.",
+    "health": 3,
+    "id": "EX1_103",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  }
+}

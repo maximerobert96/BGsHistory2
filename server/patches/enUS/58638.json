@@ -1,0 +1,25 @@
+{
+  "64343": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 96760,
+    "cardClass": "PALADIN",
+    "cost": 2,
+    "dbfId": 64343,
+    "health": 4,
+    "id": "TB_BaconUps_250",
+    "mechanics": [
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Micro Mummy",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Reborn</b>\nAt the end of your turn, give\nanother random friendly\nminion +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  }
+}

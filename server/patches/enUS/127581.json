@@ -1,0 +1,11 @@
+{
+  "72470": {
+    "cardClass": "WARRIOR",
+    "dbfId": 72470,
+    "health": 40,
+    "id": "BG20_HERO_666",
+    "name": "Diablo",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "57555": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57555,
+    "id": "TB_BaconShop_HP_011",
+    "name": "Galakrond's Greed",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nReplace a minion in Bob's\nTavern with one from a higher\nTavern Tier and <b>Freeze</b> it.",
+    "type": "HERO_POWER"
+  },
+  "58367": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96789,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 58367,
+    "health": 4,
+    "id": "TB_BaconUps_027",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Rat Pack",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Deathrattle:</b> Summon a\nnumber of 2/2 Rats equal\n to this minion's Attack.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "59940": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 59969,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59940,
+    "health": 3,
+    "id": "BGS_017",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Beast, give it +3 Attack.",
+    "type": "MINION"
+  },
+  "59955": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 59956,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59955,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_018",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Goldrinn, the Great Wolf",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Beasts +5/+5.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "59956": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 59955,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59956,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_085",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Goldrinn, the Great Wolf",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Beasts +10/+10.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "59969": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 59940,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59969,
+    "health": 6,
+    "id": "TB_BaconUps_086",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Beast, give it +6 Attack.",
+    "type": "MINION"
+  },
+  "60027": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 60028,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60027,
+    "health": 4,
+    "id": "TB_BaconUps_089",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> two Murlocs.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "60028": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60027,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60028,
+    "health": 2,
+    "id": "BGS_020",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60036": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60038,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60036,
+    "health": 4,
+    "id": "BGS_021",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mama Bear",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever you summon a Beast, give it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60038": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 60036,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60038,
+    "health": 8,
+    "id": "TB_BaconUps_090",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mama Bear",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever you summon a Beast, give it +8/+8.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "61046": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 62217,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 61046,
+    "elite": true,
+    "health": 5,
+    "id": "BGS_046",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nat Pagle, Extreme Angler",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]When this attacks and kills\na minion, add a random\nminion to your hand.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "61913": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61913,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_61",
+    "name": "Lady Vashj",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "62162": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62165,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62162,
+    "health": 2,
+    "id": "BGS_075",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62165": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 62162,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62165,
+    "health": 4,
+    "id": "TB_BaconUps_125",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62217": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 61046,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62217,
+    "elite": true,
+    "health": 10,
+    "id": "TB_BaconUps_132",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nat Pagle, Extreme Angler",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]When this attacks and kills\na minion, add 2 random\nminions to your hand.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62230": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 62231,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62230,
+    "health": 3,
+    "id": "BGS_078",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After this attacks,\ntrigger a random friendly\nminion's <b>Deathrattle</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62231": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 62230,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62231,
+    "health": 6,
+    "id": "TB_BaconUps_135",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Monstrous Macaw",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After this attacks, trigger\na random friendly minion's\n<b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62250": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 62250,
+    "id": "TB_BaconShop_HP_074",
+    "name": "Buried Treasure",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(5 Digs left.)</i>",
+    "type": "HERO_POWER"
+  },
+  "96789": {
+    "artist": "Ozhill Studio",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58367,
+    "cardClass": "HUNTER",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96789,
+    "flavor": "He's gonna do it his way.",
+    "health": 2,
+    "id": "CFM_316",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Rat Pack",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "GANGS",
+    "techLevel": 3,
+    "text": "[x]<b>Deathrattle:</b> Summon a\nnumber of 1/1 Rats equal\n to this minion's Attack.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  }
+}

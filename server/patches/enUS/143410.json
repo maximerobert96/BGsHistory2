@@ -1,0 +1,42 @@
+{
+  "60621": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60663,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60621,
+    "health": 3,
+    "id": "BGS_037",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +2/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "74659": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 74661,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74659,
+    "health": 3,
+    "id": "BG21_027",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After you upgrade your Tavern Tier, double this minion's Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  }
+}

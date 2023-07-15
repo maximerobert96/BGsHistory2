@@ -1,0 +1,17 @@
+{
+  "74636": {
+    "cardClass": "DEMONHUNTER",
+    "collectionText": "[x]<b>Passive.</b> Buy 5 minions in\n1 turn to give ALL your\nminions this game +2/+2.\n<i>(Complete!)</i>",
+    "cost": 0,
+    "dbfId": 74636,
+    "hideCost": true,
+    "id": "BG20_HERO_280p3",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Close the Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> Buy 5 minions in\n1 turn to give ALL your\nminions this game +2/+2\n  and complete this. <i>({0} left!)</i>",
+    "type": "HERO_POWER"
+  }
+}

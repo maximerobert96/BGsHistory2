@@ -1,0 +1,188 @@
+{
+  "59814": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59814,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_38",
+    "name": "King Mukla",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59815": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59815,
+    "id": "TB_BaconShop_HP_038",
+    "name": "Bananarama",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGet 2 Bananas.\nAt the end of your turn,\n give everyone else one.",
+    "type": "HERO_POWER"
+  },
+  "59955": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 59956,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59955,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_018",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Goldrinn, the Great Wolf",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Beasts +4/+4.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "59956": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 59955,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59956,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_085",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Goldrinn, the Great Wolf",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Beasts +8/+8.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "60214": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60214,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_43",
+    "name": "Dinotamer Brann",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "60218": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60218,
+    "id": "TB_BaconShop_HP_048",
+    "name": "Battle Brand",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRefresh Bob's Tavern\n  with <b>Battlecry</b> minions.",
+    "type": "HERO_POWER"
+  },
+  "60367": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60367,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_50",
+    "name": "Tess Greymane",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "61444": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61445,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61444,
+    "health": 6,
+    "id": "BGS_069",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry:</b> For each different\nminion type you have,\n<b>Adapt</b> randomly.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61445": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61444,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61445,
+    "health": 12,
+    "id": "TB_BaconUps_121",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry:</b> For each different\nminion type you have,\n<b>Adapt</b> randomly twice.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "61915": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61915,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_065",
+    "name": "Demon Hunter Training",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 5 times,\nBob always has 7 minions.\n<i>(5 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "62267": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62267,
+    "id": "TB_BaconShop_HP_075",
+    "name": "Trash for Treasure",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nGet a random one from a\nTavern Tier lower.",
+    "type": "HERO_POWER"
+  },
+  "63162": {
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 63162,
+    "id": "TB_BaconShop_HP_077",
+    "name": "Bob's Burgles",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nRefresh Bob's Tavern with\nminions from your last\nopponent's warband.",
+    "type": "HERO_POWER"
+  }
+}

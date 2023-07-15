@@ -1,0 +1,331 @@
+{
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "76562": {
+    "battlegroundsHero": true,
+    "cardClass": "ROGUE",
+    "dbfId": 76562,
+    "health": 40,
+    "id": "BG21_HERO_010",
+    "name": "Scabbs Cutterbutter",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "76563": {
+    "cardClass": "ROGUE",
+    "cost": 2,
+    "dbfId": 76563,
+    "id": "BG21_HERO_010p",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "I Spy",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Discover</b> a plain copy of\na minion from your next \nopponent's warband.",
+    "type": "HERO_POWER"
+  },
+  "80566": {
+    "battlegroundsSkinParentId": 71463,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80566,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "id": "BG20_HERO_201_SKIN_B",
+    "name": "Vol'jin, Frostwolf Officer",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80567": {
+    "battlegroundsSkinParentId": 71454,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80567,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "id": "BG20_HERO_102_SKIN_B",
+    "name": "Chargeleader Saurfang",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80568": {
+    "battlegroundsSkinParentId": 62242,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80568,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_64_SKIN_B",
+    "name": "Snowblast Eudora",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80569": {
+    "battlegroundsSkinParentId": 61912,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80569,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_60_SKIN_B",
+    "name": "Winterflurry Kael'thas",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80570": {
+    "battlegroundsSkinParentId": 60212,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80570,
+    "health": 40,
+    "hideCost": true,
+    "howToEarn": "Earnable after purchasing the Fractured in Alterac Valley Tavern Pass.",
+    "id": "TB_BaconShop_HERO_41_SKIN_C",
+    "name": "Tower-toppler Reno",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80571": {
+    "battlegroundsSkinParentId": 60367,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80571,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_50_SKIN_B",
+    "name": "Tess, Stormpike Assassin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80573": {
+    "battlegroundsSkinParentId": 57929,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80573,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_15_SKIN_C",
+    "name": "Battle Healer George",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80574": {
+    "battlegroundsSkinParentId": 60214,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80574,
+    "flavor": "Earnable on the Fractured in Alterac Valley Tavern Pass.",
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43_SKIN_B",
+    "name": "Yetitamer Brann",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80575": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80575,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_I",
+    "name": "Alterac Bob",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80576": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80576,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_J",
+    "name": "Bartendotron",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80778": {
+    "battlegroundsSkinParentId": 63604,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80778,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_74_SKIN_C",
+    "name": "Gingerbread Omu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80780": {
+    "battlegroundsSkinParentId": 64485,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80780,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_91_SKIN_B",
+    "name": "Stockingstuffer Zephrys",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80781": {
+    "battlegroundsSkinParentId": 60211,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80781,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_40_SKIN_C",
+    "name": "Finley & Metzen",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80782": {
+    "battlegroundsSkinParentId": 63319,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80782,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_70_SKIN_B",
+    "name": "Gifted Bigglesworth",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80783": {
+    "battlegroundsSkinParentId": 62266,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80783,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_67_SKIN_A",
+    "name": "Snowball Hooktusk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80784": {
+    "battlegroundsSkinParentId": 67553,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80784,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_95_SKIN_A",
+    "name": "Winterbough",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80785": {
+    "battlegroundsSkinParentId": 64480,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80785,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_90_SKIN_B",
+    "name": "Jinglepocket Silas",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80786": {
+    "battlegroundsSkinParentId": 58021,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80786,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_21_SKIN_A",
+    "name": "Crashin' Thrashin' Akazamzarak",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80787": {
+    "battlegroundsSkinParentId": 60367,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80787,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_50_SKIN_C",
+    "name": "Riddling Tempest Tess",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80788": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80788,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_K",
+    "name": "Greatfather Boom",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80789": {
+    "battlegroundsSkinParentId": 64403,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80789,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_76_SKIN_A",
+    "name": "Mechastorm Al'Akir",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80790": {
+    "battlegroundsSkinParentId": 70956,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80790,
+    "health": 40,
+    "id": "BG20_HERO_101_SKIN_A",
+    "name": "Empyreal Xyrella",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80791": {
+    "battlegroundsSkinParentId": 60362,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80791,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_45_SKIN_B",
+    "name": "Holofist Rafaam",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80809": {
+    "battlegroundsSkinParentId": 58535,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80809,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_29_SKIN_B",
+    "name": "Mecha'thun",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80810": {
+    "battlegroundsSkinParentId": 57892,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80810,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_11_SKIN_B",
+    "name": "Infernojet Ragnaros",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80811": {
+    "battlegroundsSkinParentId": 67356,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80811,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_94_SKIN_B",
+    "name": "Felblaze Tickatus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "80812": {
+    "battlegroundsSkinParentId": 57924,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80812,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_14_SKIN_A",
+    "name": "Amalgamech Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

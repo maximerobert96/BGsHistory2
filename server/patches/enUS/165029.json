@@ -1,0 +1,276 @@
+{
+  "48885": {
+    "artist": "Eva Widermann",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 48885,
+    "health": 1,
+    "id": "BOT_445t",
+    "name": "Jo-E Bot",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL",
+      "BEAST"
+    ],
+    "set": "BOOMSDAY",
+    "techLevel": 1,
+    "type": "MINION"
+  },
+  "48886": {
+    "artist": "Eva Widermann",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 57336,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 48886,
+    "flavor": "Its project name was KAN-GA. The little one was R-00.",
+    "health": 1,
+    "id": "BOT_445",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mecharoo",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL",
+      "BEAST"
+    ],
+    "rarity": "COMMON",
+    "set": "BOOMSDAY",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon a 1/1 Jo-E Bot.",
+    "type": "MINION"
+  },
+  "49168": {
+    "artist": "Hideaki Takamura",
+    "attack": 8,
+    "cardClass": "PALADIN",
+    "cost": 8,
+    "dbfId": 49168,
+    "health": 8,
+    "id": "BOT_537t",
+    "name": "Robosaur",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL",
+      "BEAST"
+    ],
+    "set": "BOOMSDAY",
+    "techLevel": 1,
+    "type": "MINION"
+  },
+  "89506": {
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 89506,
+    "health": 4,
+    "id": "LT23_823P1_01",
+    "mercenariesAbilityCooldown": 1,
+    "name": "Come on Down! {0}",
+    "set": "LETTUCE",
+    "techLevel": 3,
+    "text": "Spin the Wheel of Yogg-Saron.",
+    "type": "LETTUCE_ABILITY"
+  },
+  "96167": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 96174,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 96167,
+    "elite": true,
+    "health": 8,
+    "id": "BG25_309",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "General Drakkisath",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Add a 2/1\nSmolderwing to your hand\nwith \"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
+    "type": "MINION"
+  },
+  "96174": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96167,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 96174,
+    "elite": true,
+    "health": 16,
+    "id": "BG25_309_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "General Drakkisath",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Add two 2/1\nSmolderwings to your hand\nwith \"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
+    "type": "MINION"
+  },
+  "97557": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 97558,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 97557,
+    "health": 10,
+    "id": "BG25_043",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Cyborg Drake",
+    "race": "DRAGON",
+    "races": [
+      "MECHANICAL",
+      "DRAGON"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+8 Attack.",
+    "type": "MINION"
+  },
+  "97558": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 97557,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 97558,
+    "health": 20,
+    "id": "BG25_043_G",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Cyborg Drake",
+    "race": "DRAGON",
+    "races": [
+      "MECHANICAL",
+      "DRAGON"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+16 Attack.",
+    "type": "MINION"
+  },
+  "98697": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 79728,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 98697,
+    "health": 2,
+    "id": "BG22_HERO_001p_t1et_G",
+    "name": "Stone Elemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION"
+  },
+  "98726": {
+    "artist": "Paul Mafayon",
+    "battlegroundsArmorTier": 1,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 98726,
+    "flavor": "Catch him Teron up the Battlegrounds.",
+    "health": 40,
+    "id": "BG25_HERO_103",
+    "name": "Teron Gorefiend",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "98728": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 98728,
+    "id": "BG25_HERO_103p",
+    "name": "Rapid Reanimation",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Destroy it.\nOnce you have space,\n   resummon an exact copy.",
+    "type": "HERO_POWER"
+  },
+  "99059": {
+    "artist": "Ramzy Kamen",
+    "battlegroundsSkinParentId": 57944,
+    "cardClass": "NEUTRAL",
+    "dbfId": 99059,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_16_SKIN_E",
+    "name": "Benchwarmer A. F. Kay",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "99060": {
+    "artist": "The \"M.V.P.\" stands for Most Valuable Petowner.\nObtainable from a Battle Bash.",
+    "battlegroundsSkinParentId": 71908,
+    "cardClass": "NEUTRAL",
+    "dbfId": 99060,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_202_SKIN_D",
+    "name": "M.V.P. Nguyen",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "99061": {
+    "battlegroundsSkinParentId": 62242,
+    "cardClass": "NEUTRAL",
+    "dbfId": 99061,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_64_SKIN_D",
+    "name": "Coach Eudora",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "99062": {
+    "battlegroundsSkinParentId": 60214,
+    "cardClass": "NEUTRAL",
+    "dbfId": 99062,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43_SKIN_F",
+    "name": "Brawlin' Brann",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "99063": {
+    "battlegroundsSkinParentId": 70838,
+    "cardClass": "PALADIN",
+    "dbfId": 99063,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_100_SKIN_C",
+    "name": "Rustlin' Rokara",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

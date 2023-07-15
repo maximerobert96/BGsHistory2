@@ -1,0 +1,132 @@
+{
+  "58537": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 58537,
+    "id": "TB_BaconShop_HP_028",
+    "name": "Temporal Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern.\nAdd a minion from\na higher <b>Tavern Tier</b>.",
+    "type": "HERO_POWER"
+  },
+  "59808": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 59808,
+    "id": "TB_BaconShop_HP_036",
+    "name": "Bloodfury",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive your Demons\n+1/+1.",
+    "type": "HERO_POWER"
+  },
+  "59815": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59815,
+    "id": "TB_BaconShop_HP_038",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bananarama",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\nBeast, add a Banana\nto your hand.",
+    "type": "HERO_POWER"
+  },
+  "59935": {
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59935,
+    "health": 6,
+    "id": "BGS_012",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
+    "type": "MINION",
+    "techLevel": 6,
+    "isBattlegroundsPoolMinion": true
+  },
+  "59976": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59976,
+    "health": 12,
+    "id": "TB_BaconUps_087",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle</b>: Summon the first 4 friendly Mechs that died this combat.",
+    "type": "MINION",
+    "techLevel": 6
+  },
+  "60036": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60036,
+    "health": 4,
+    "id": "BGS_021",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mama Bear",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you summon a Beast, give it +4/+4.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 6,
+    "isBattlegroundsPoolMinion": true
+  },
+  "60038": {
+    "attack": 8,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60038,
+    "health": 8,
+    "id": "TB_BaconUps_090",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mama Bear",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you summon a Beast, give it +8/+8.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 6
+  },
+  "60040": {
+    "attack": 7,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60040,
+    "elite": true,
+    "health": 10,
+    "id": "BGS_022",
+    "mechanics": [
+      "WINDFURY"
+    ],
+    "name": "Zapp Slywick",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
+    "type": "MINION",
+    "techLevel": 6,
+    "isBattlegroundsPoolMinion": true
+  }
+}

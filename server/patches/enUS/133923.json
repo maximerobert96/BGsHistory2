@@ -1,0 +1,689 @@
+{
+  "736": {
+    "artist": "Dan Scott",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58382,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 736,
+    "elite": true,
+    "flavor": "He's a legend among murlocs.  \"Mrghllghghllghg!\", they say.",
+    "health": 4,
+    "howToEarn": "Unlocked when you have all the Murlocs from the Legacy Set.",
+    "id": "EX1_062",
+    "mechanics": [
+      "CHARGE"
+    ],
+    "name": "Old Murk-Eye",
+    "race": "MURLOC",
+    "rarity": "LEGENDARY",
+    "set": "LEGACY",
+    "techLevel": 2,
+    "text": "<b>Charge</b>. Has +1 Attack for each other Murloc on the battlefield.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "976": {
+    "artist": "Dan Scott",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 57338,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 976,
+    "flavor": "\"Death will rise, from the tides!\"",
+    "health": 1,
+    "id": "EX1_506",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Murloc Tidehunter",
+    "race": "MURLOC",
+    "rarity": "FREE",
+    "set": "LEGACY",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Summon a 1/1 Murloc Scout.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "1791": {
+    "artist": "Howard Lyon",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 63781,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 6,
+    "dbfId": 1791,
+    "elite": true,
+    "flavor": "Maexxna gets super mad when people introduce her as \"Maxina\" or \"Maxxy\".",
+    "health": 8,
+    "howToEarn": "Unlocked in The Arachnid Quarter, in the Naxxramas adventure.",
+    "howToEarnGolden": "Crafting unlocked in The Arachnid Quarter, in the Naxxramas adventure.",
+    "id": "FP1_010",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Maexxna",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "NAXX",
+    "techLevel": 6,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "59508": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 97422,
+    "cardClass": "DRUID",
+    "cost": 4,
+    "dbfId": 59508,
+    "health": 6,
+    "id": "TB_BaconUps_072",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Strongshell Scavenger",
+    "rarity": "RARE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give your <b>Taunt</b> minions +4/+4.",
+    "type": "MINION"
+  },
+  "60405": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60405,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_054",
+    "name": "Manastorm",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive</b>\nMinions cost 2 Gold.\n<b>Refresh</b> costs 2 Gold.\n Tavern Tiers cost (1) more.",
+    "type": "HERO_POWER"
+  },
+  "63614": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 65658,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63614,
+    "health": 3,
+    "id": "BGS_106",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "REBORN",
+      "TAUNT"
+    ],
+    "name": "Acolyte of C'Thun",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>\n<b>Reborn</b>",
+    "type": "MINION"
+  },
+  "65658": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 63614,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 65658,
+    "health": 6,
+    "id": "TB_BaconUps_255",
+    "mechanics": [
+      "REBORN",
+      "TAUNT"
+    ],
+    "name": "Acolyte of C'Thun",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>\n<b>Reborn</b>",
+    "type": "MINION"
+  },
+  "65662": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65671,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65662,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_202",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
+    "type": "MINION"
+  },
+  "65671": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 65662,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65671,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_258",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngain +4/+4 for each\n  minion type you control.",
+    "type": "MINION"
+  },
+  "72045": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 72825,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72045,
+    "health": 3,
+    "id": "BG21_003",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reanimating Rattler",
+    "race": "BEAST",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Beast <b>Reborn</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "72053": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 73504,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72053,
+    "health": 8,
+    "id": "BG21_019",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nosy Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]Every two turns,\nadd a random Golden\nminion to your hand.\n<i>(2 turns left!)</i>",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "72825": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 72045,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72825,
+    "health": 6,
+    "id": "BG21_003_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reanimating Rattler",
+    "race": "BEAST",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Beast <b>Reborn</b>.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "73504": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 72053,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 73504,
+    "health": 16,
+    "id": "BG21_019_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nosy Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "At the start of your turn,\nadd a random Golden minion to your hand.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "81569": {
+    "battlegroundsBuddyDbfId": 82604,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 81569,
+    "health": 40,
+    "id": "BG22_HERO_201",
+    "name": "Ambassador Faelin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "81570": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 81570,
+    "hideCost": true,
+    "id": "BG22_HERO_201p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Expedition Plans",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive.</b> Skip your first turn. <b>Discover</b> a Tier 2, 4, and 6 minion to get at those Tiers.",
+    "type": "HERO_POWER"
+  },
+  "82507": {
+    "battlegroundsSkinParentId": 71463,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82507,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_201_SKIN_C",
+    "name": "Vol'jin of Blind Absolution",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82508": {
+    "battlegroundsSkinParentId": 59807,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82508,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_37_SKIN_B",
+    "name": "Malefic Jaraxxus",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82509": {
+    "battlegroundsSkinParentId": 57633,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82509,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_01_SKIN_B",
+    "name": "Edwin, the Dashing Scoundrel",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82510": {
+    "battlegroundsSkinParentId": 57634,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82510,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_08_SKIN_B",
+    "name": "Illidan of the Second Sight",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82511": {
+    "battlegroundsSkinParentId": 60213,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82511,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_42_SKIN_C",
+    "name": "Nightsong Elise",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82512": {
+    "battlegroundsSkinParentId": 60214,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82512,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43_SKIN_C",
+    "name": "Gronnstalker Brann",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82513": {
+    "battlegroundsSkinParentId": 64403,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82513,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_76_SKIN_B",
+    "name": "Al'Akir the Skybreaker",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82514": {
+    "battlegroundsSkinParentId": 57929,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82514,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_15_SKIN_D",
+    "name": "George the Lightbringer",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82515": {
+    "battlegroundsSkinParentId": 71454,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82515,
+    "health": 40,
+    "id": "BG20_HERO_102_SKIN_D",
+    "name": "Colossal Dragonplate Saurfang",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82516": {
+    "battlegroundsSkinParentId": 57944,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82516,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_16_SKIN_B",
+    "name": "A. F. Kay, the Tempest",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "82604": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 82606,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 82604,
+    "health": 3,
+    "id": "BG22_HERO_201_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Submersible Chef",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Add a random Tier 1, 3, and 5 minion to your hand.",
+    "type": "MINION"
+  },
+  "82606": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 82604,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 82606,
+    "health": 6,
+    "id": "BG22_HERO_201_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Submersible Chef",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Add a random Tier 1, 3, and 5 minion to your hand twice.",
+    "type": "MINION"
+  },
+  "86612": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 86625,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86612,
+    "elite": true,
+    "health": 7,
+    "id": "BG22_001",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Baby Krush",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]Whenever this attacks,\nsummon a 9/9 Devilsaur to\nattack the target first.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "86625": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 86612,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 86625,
+    "elite": true,
+    "health": 14,
+    "id": "BG22_001_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Baby Krush",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever this attacks, summon an 18/18 Devilsaur to attack the target first.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "86779": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 86781,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 86779,
+    "health": 4,
+    "id": "BG22_401",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Swampstriker",
+    "race": "MURLOC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After you summon a Murloc, gain +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "86781": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 86779,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 86781,
+    "health": 8,
+    "id": "BG22_401_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Swampstriker",
+    "race": "MURLOC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After you summon a Murloc, gain +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "87019": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 87019,
+    "id": "TB_BaconShop_CheckPtntlTriples",
+    "name": "Check Potential Triples",
+    "set": "BATTLEGROUNDS",
+    "text": "3ofKindCheck [DNT]",
+    "type": "SPELL"
+  },
+  "87060": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 87062,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 87060,
+    "elite": true,
+    "health": 4,
+    "id": "BG22_202",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Tad",
+    "race": "MURLOC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this,\nadd another random\nMurloc to your hand.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "87062": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 87060,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 87062,
+    "elite": true,
+    "health": 8,
+    "id": "BG22_202_G",
+    "name": "Tad",
+    "race": "MURLOC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this,\nadd 2 other random\nMurlocs to your hand.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "87689": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 87690,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 87689,
+    "health": 6,
+    "id": "BG22_404",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Friend of a Friend",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry: Discover</b> a Buddy.",
+    "type": "MINION"
+  },
+  "87690": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 87689,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 87690,
+    "health": 12,
+    "id": "BG22_404_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Friend of a Friend",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry: Discover</b>\ntwo Buddies.",
+    "type": "MINION"
+  },
+  "87691": {
+    "artist": "Anton Zemskov",
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 87692,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 87691,
+    "health": 9,
+    "id": "BG22_001t2",
+    "name": "Devilsaur",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "87692": {
+    "artist": "Anton Zemskov",
+    "attack": 18,
+    "battlegroundsNormalDbfId": 87691,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 87692,
+    "health": 18,
+    "id": "BG22_001t2_G",
+    "name": "Devilsaur",
+    "race": "BEAST",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97422": {
+    "artist": "James Ryman",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59508,
+    "cardClass": "DRUID",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 97422,
+    "flavor": "It isn't \"grave robbing\" when there's no grave. It's just scavenging…",
+    "health": 3,
+    "id": "ICC_807",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Strongshell Scavenger",
+    "rarity": "RARE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "ICECROWN",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give your <b>Taunt</b> minions +2/+2.",
+    "type": "MINION"
+  }
+}

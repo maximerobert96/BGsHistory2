@@ -1,0 +1,183 @@
+{
+  "49169": {
+    "artist": "Hideaki Takamura",
+    "attack": 0,
+    "battlegroundsPremiumDbfId": 58387,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 49169,
+    "flavor": "When you need more iron in your diet.",
+    "health": 5,
+    "id": "BOT_537",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mechano-Egg",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "BOOMSDAY",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Summon an 8/8 Robosaur.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "63796": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 96842,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63796,
+    "health": 4,
+    "id": "TB_BaconUps_152",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Toxfin",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "DALARAN",
+    "targetingArrowText": "Give a friendly Murloc Poisonous.",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "65662": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65671,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65662,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_202",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
+    "type": "MINION"
+  },
+  "72044": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 73009,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72044,
+    "health": 5,
+    "id": "BG21_011",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Seafood Slinger",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Make a Murloc Golden.",
+    "type": "MINION"
+  },
+  "72388": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 74906,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72388,
+    "health": 3,
+    "id": "BG21_023",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Mechano-Tank",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (2):</b> Deal 5 damage to the highest Health enemy minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "76185": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 76187,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76185,
+    "health": 5,
+    "id": "BG21_038",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Witchwing Nestmatron",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
+    "type": "MINION"
+  },
+  "96842": {
+    "artist": "Anton Zemskov",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 63796,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96842,
+    "flavor": "I'm addicted to him, but I know that he's Toxfin.",
+    "health": 2,
+    "id": "BG_DAL_077",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Toxfin",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "DALARAN",
+    "targetingArrowText": "Give a friendly Murloc Poisonous.",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "97072": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 97081,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 97072,
+    "elite": true,
+    "health": 5,
+    "id": "BG24_704",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Interrogator Whitemane",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Start of Combat:</b> Give the\nenemies opposite this <b>Taunt</b>.\nThey take double damage.",
+    "type": "MINION"
+  }
+}

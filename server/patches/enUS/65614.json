@@ -1,0 +1,24 @@
+{
+  "64480": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64480,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_90",
+    "name": "Silas Darkmoon",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "64481": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64481,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_101",
+    "name": "Come One, Come All!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nDarkmoon Tickets are in the\nTavern! Get 3 to <b>Discover</b> a\n  minion from your Tavern Tier.",
+    "type": "HERO_POWER"
+  }
+}

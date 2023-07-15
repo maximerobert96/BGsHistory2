@@ -1,0 +1,2452 @@
+{
+  "42442": {
+    "artist": "Jim Nelson",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 61442,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 42442,
+    "flavor": "You get a sword! And you get a sword! Everybody gets a sword!",
+    "health": 5,
+    "id": "ICC_029",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cobalt Scalebane",
+    "race": "DRAGON",
+    "rarity": "COMMON",
+    "set": "ICECROWN",
+    "techLevel": 4,
+    "text": "At the end of your turn, give another random friendly minion +3 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "48536": {
+    "artist": "Vladimir Kafanov",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 58376,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 48536,
+    "flavor": "It's a car!\n*Whomp whomp whomp*\nIt's a robot!\n*Whomp whom-CRUNCH*\nIt's… three.. smaller robots!",
+    "health": 1,
+    "id": "BOT_312",
+    "mechanics": [
+      "DEATHRATTLE",
+      "MODULAR"
+    ],
+    "name": "Replicating Menace",
+    "race": "MECHANICAL",
+    "rarity": "RARE",
+    "set": "BOOMSDAY",
+    "techLevel": 3,
+    "text": "<b>Magnetic</b>\n<b>Deathrattle:</b> Summon three 1/1 Microbots.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "57559": {
+    "cardClass": "ROGUE",
+    "collectionText": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>({0} Gold saved.)</i>",
+    "cost": 1,
+    "dbfId": 57559,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_008",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Smart Savings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.",
+    "type": "HERO_POWER"
+  },
+  "57742": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 60233,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57742,
+    "elite": true,
+    "health": 1,
+    "id": "BGS_029",
+    "name": "Shifter Zerus",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Each turn this is in your hand, transform it into a random minion.",
+    "type": "MINION"
+  },
+  "59186": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59487,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59186,
+    "health": 4,
+    "id": "BGS_001",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Nathrezim Overseer",
+    "race": "DEMON",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Battlecry:</b> Give a friendly Demon +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "59397": {
+    "artist": "Mike Nicholson",
+    "battlegroundsBuddyDbfId": 77817,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59397,
+    "health": 60,
+    "id": "TB_BaconShop_HERO_34",
+    "name": "Patchwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59399": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59399,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_035",
+    "name": "All Patched Up",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nStart with 60 Health \ninstead of 40.",
+    "type": "HERO_POWER"
+  },
+  "59937": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 60676,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59937,
+    "health": 2,
+    "id": "BGS_014",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Imprisoner",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 1/1 Imp.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "60448": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60448,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gone Fishing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After you sell\n4 minions, get a random\nMurloc. <i>(4 left.)</i>",
+    "type": "HERO_POWER"
+  },
+  "60621": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60663,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60621,
+    "health": 3,
+    "id": "BGS_037",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +2/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60676": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59937,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60676,
+    "health": 4,
+    "id": "TB_BaconUps_113",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Imprisoner",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 2/2 Imp.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "61059": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 61081,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61059,
+    "health": 3,
+    "id": "BGS_059",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Soul Devourer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Consume a\nfriendly Demon to gain\nits stats and 3 Gold.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "61072": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 61075,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61072,
+    "health": 7,
+    "id": "BGS_067",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Drakonid Enforcer",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "61075": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61072,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61075,
+    "health": 14,
+    "id": "TB_BaconUps_117",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Drakonid Enforcer",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, gain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "62035": {
+    "cardClass": "DEMONHUNTER",
+    "cost": 0,
+    "dbfId": 62035,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_065t2",
+    "name": "Spectral Sight",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nBob's Tavern always\nhas 7 minions.",
+    "type": "HERO_POWER"
+  },
+  "64401": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 64401,
+    "id": "TB_BaconShop_HP_085",
+    "name": "Tavern Lighting",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion stats equal to its Tavern Tier.",
+    "type": "HERO_POWER"
+  },
+  "65662": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65671,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65662,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_202",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
+    "type": "MINION"
+  },
+  "72057": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73762,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 72057,
+    "health": 6,
+    "id": "BG21_009",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "SI:Sefin",
+    "race": "MURLOC",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Avenge (4):</b> Give a friendly Murloc <b>Poisonous</b> permanently.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "72059": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 72922,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 72059,
+    "health": 3,
+    "id": "BG21_006",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Impulsive Trickster",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\n  to another friendly minion. ",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "72071": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 73951,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72071,
+    "health": 4,
+    "id": "BG21_017",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Briny Bootlegger",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the end of your turn,\nif you have another Pirate,\nadd a Gold Coin\nto your hand.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "72922": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72059,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 72922,
+    "health": 6,
+    "id": "BG21_006_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Impulsive Trickster",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\nto another friendly minion\ntwice.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "74636": {
+    "cardClass": "DEMONHUNTER",
+    "collectionText": "[x]<b>Passive.</b> Buy 5 minions in\n1 turn to give ALL your\nminions this game +2/+2.\n<i>(Complete!)</i>",
+    "cost": 0,
+    "dbfId": 74636,
+    "hideCost": true,
+    "id": "BG20_HERO_280p3",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Close the Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> Buy 5 minions in\n1 turn to give ALL your\nminions this game +3/+3\n  and complete this. <i>({0} left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "74910": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 74911,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74910,
+    "health": 1,
+    "id": "BG21_029",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Icky Imp",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "75174": {
+    "artist": "Kleston Marques",
+    "battlegroundsSkinParentId": 59397,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75174,
+    "health": 60,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_34_SKIN_A",
+    "name": "Necrolord Patchwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "75704": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75704,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t1",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Westfall",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 1 turn, give\nyour left-most minion\n+2/+1. <i>(1 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "75706": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75706,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t3",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eastern Plaguelands",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 5 turns, your\nnext Tavern Tier upgrade\ncosts (6) less. <i>(5 left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "76185": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 76187,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76185,
+    "health": 5,
+    "id": "BG21_038",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Witchwing Nestmatron",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
+    "type": "MINION"
+  },
+  "76566": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 76569,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76566,
+    "elite": true,
+    "health": 4,
+    "id": "BG21_039",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Kathra'natir",
+    "race": "DEMON",
+    "referencedTags": [
+      "IMMUNE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Your other Demons\nhave +2 Attack.\nYour hero is <b>Immune</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "76569": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 76566,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76569,
+    "elite": true,
+    "health": 8,
+    "id": "BG21_039_G",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Kathra'natir",
+    "race": "DEMON",
+    "referencedTags": [
+      "IMMUNE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Your other Demons\nhave +4 Attack.\nYour hero is <b>Immune</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "80244": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80244,
+    "hideCost": true,
+    "id": "BG22_HERO_002p",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Lead the Frostwolves",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive</b>\n<b>Avenge (3):</b> Give your minions +1 Attack permanently.",
+    "type": "HERO_POWER"
+  },
+  "80248": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80248,
+    "hideCost": true,
+    "id": "BG22_HERO_003p",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Lead the Stormpikes",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Passive</b>\n<b>Avenge (2):</b> Give your minions +1 Health permanently.",
+    "type": "HERO_POWER"
+  },
+  "80434": {
+    "artist": "Akkapoj T.",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80434,
+    "id": "TB_BaconShop_HERO_35_Buddy_t2",
+    "name": "Hand of Fate",
+    "set": "BATTLEGROUNDS",
+    "text": "Add 2 random Darkmoon Prizes to your hand.",
+    "type": "SPELL"
+  },
+  "82078": {
+    "artist": "Konstantin Porubov",
+    "battlegroundsSkinParentId": 59397,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82078,
+    "health": 60,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_34_SKIN_B",
+    "name": "Gluthrider Patchwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "83651": {
+    "artist": "Anton Zemskov",
+    "battlegroundsSkinParentId": 59397,
+    "cardClass": "NEUTRAL",
+    "dbfId": 83651,
+    "health": 60,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_34_SKIN_C",
+    "name": "Plushwerk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "84867": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 84867,
+    "health": 40,
+    "id": "BG23_HERO_303",
+    "name": "Murloc Holmes",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89011": {
+    "cost": 0,
+    "dbfId": 89011,
+    "hideCost": true,
+    "id": "BG24_Quest_311",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Cry for Help",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Play {0} <b>Battlecry</b> minions.",
+    "type": "SPELL"
+  },
+  "89037": {
+    "cost": 0,
+    "dbfId": 89037,
+    "hideCost": true,
+    "id": "BG24_Quest_313",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Invite the Guests",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Buy {0} minions.",
+    "type": "SPELL"
+  },
+  "89044": {
+    "cost": 0,
+    "dbfId": 89044,
+    "hideCost": true,
+    "id": "BG24_Quest_314",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Dust for Prints",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Add {0} cards to your hand.",
+    "type": "SPELL"
+  },
+  "89052": {
+    "cost": 0,
+    "dbfId": 89052,
+    "hideCost": true,
+    "id": "BG24_Quest_318",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Witness Protection",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Have a friendly <b>Taunt</b> minion attacked {0} times.",
+    "type": "SPELL"
+  },
+  "89057": {
+    "cost": 0,
+    "dbfId": 89057,
+    "hideCost": true,
+    "id": "BG24_Quest_320",
+    "mechanics": [
+      "QUEST",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Exhume the Bones",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Trigger {0} friendly <b>Deathrattles</b>.",
+    "type": "SPELL"
+  },
+  "89449": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89449,
+    "hideCost": true,
+    "id": "BG24_Reward_107",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snicker Snacks",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\n2 friendly minions\ntrigger their <b>Battlecries</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89473": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89473,
+    "hideCost": true,
+    "id": "BG24_Reward_109",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stolen Gold",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b>\nMake your left and right-\nmost minions Golden.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89481": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89481,
+    "hideCost": true,
+    "id": "BG24_Reward_111",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evil Twin",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Summon a copy of your highest-Health minion.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89483": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89483,
+    "hideCost": true,
+    "id": "BG24_Reward_113",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ritual Dagger",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +4/+4 permanently.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89641": {
+    "cost": 0,
+    "dbfId": 89641,
+    "hideCost": true,
+    "id": "BG24_Quest_112",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Track the Footprints",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Have Bob's Tavern <b>Refreshed</b> {0} times.",
+    "type": "SPELL"
+  },
+  "89643": {
+    "cost": 0,
+    "dbfId": 89643,
+    "hideCost": true,
+    "id": "BG24_Quest_114",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Assemble a Lineup",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Summon {0} minions.",
+    "type": "SPELL"
+  },
+  "89645": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89645,
+    "hideCost": true,
+    "id": "BG24_Reward_305",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Anima Bribe",
+    "set": "BATTLEGROUNDS",
+    "text": "After you sell a minion, give its stats to a minion in Bob's Tavern.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89650": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89650,
+    "hideCost": true,
+    "id": "BG24_Reward_306",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cooked Book",
+    "set": "BATTLEGROUNDS",
+    "text": "After you buy a minion, give it +1/+1 and upgrade this.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89700": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 61910,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89700,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_59_SKIN_E",
+    "name": "Secret Destiny Aranna",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89701": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 61911,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89701,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_59t_SKIN_E",
+    "name": "Magic Guardian Aranna",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89702": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 60213,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89702,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_42_SKIN_D",
+    "name": "Magic Guardian Elise",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89703": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 60212,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89703,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_41_SKIN_E",
+    "name": "Adventure Beauty Reno",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89704": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 79615,
+    "cardClass": "MAGE",
+    "dbfId": 89704,
+    "health": 40,
+    "id": "BG22_HERO_004_SKIN_A",
+    "name": "Dawn Guardian Varden",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89705": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 57633,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89705,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_01_SKIN_D",
+    "name": "Enchanting Edwin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "89947": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89947,
+    "hideCost": true,
+    "id": "BG24_Reward_115",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Theotar's Parasol",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive your right-most\nminion <b>Stealth</b> until next\nturn and +8 Health.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "89958": {
+    "cost": 0,
+    "dbfId": 89958,
+    "hideCost": true,
+    "id": "BG24_Quest_120",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Unmask the Culprit",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Lose or tie {0} combats.",
+    "type": "SPELL"
+  },
+  "90328": {
+    "cost": 0,
+    "dbfId": 90328,
+    "hideCost": true,
+    "id": "BG24_Quest_151",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Unlikely Duo",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Play {0} {2} or {3}.",
+    "type": "SPELL"
+  },
+  "90403": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90403,
+    "id": "BG23_HERO_303p2",
+    "name": "Detective for Hire",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Look at 2 minions.\nGuess which one your\nnext opponent had\nlast combat for a Coin.",
+    "type": "HERO_POWER"
+  },
+  "90435": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90435,
+    "hideCost": true,
+    "id": "BG24_Reward_308",
+    "name": "Teal Tiger Sapphire",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Minions in Bob's Tavern\nhave +1/+1 for each time\nit was <b>Refreshed</b> this turn.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90437": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90437,
+    "hideCost": true,
+    "id": "BG24_Reward_309",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Devils in the Details",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\nYour left and right-most\nminions consume a\nminion in Bob's Tavern.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90861": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90861,
+    "hideCost": true,
+    "id": "BG24_Reward_123",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Exquisite Conch",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Your first <b>Battlecry</b> each turn triggers 2 extra times.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90865": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90865,
+    "hideCost": true,
+    "id": "BG24_Reward_125",
+    "name": "The Smoking Gun",
+    "set": "BATTLEGROUNDS",
+    "text": "Your minions have\n+5 Attack.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90914": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90914,
+    "hideCost": true,
+    "id": "BG24_Reward_128",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mirror Shield",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After each <b>Refresh</b>, give\na minion in Bob's Tavern\n+4/+4 and <b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90916": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90916,
+    "hideCost": true,
+    "id": "BG24_Reward_129",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Secret Sinstone",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you <b>Discover</b> a card,\nget an extra copy of it.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90917": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90917,
+    "hideCost": true,
+    "id": "BG24_Reward_130",
+    "name": "Ghastly Mask",
+    "set": "BATTLEGROUNDS",
+    "text": "Add '{0}' to your hand. Your end of turn effects trigger twice.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "91055": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 90531,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 91055,
+    "health": 4,
+    "id": "BG_TID_713",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bubblette",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After this minion takes\n exactly one damage,\ndestroy it. <i>(Pop!)</i>",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "91980": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 91980,
+    "hideCost": true,
+    "id": "BG24_Reward_310",
+    "name": "Partner in Crime",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Get your Golden Buddy.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "91992": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 91992,
+    "hideCost": true,
+    "id": "BG24_Reward_311",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Another Hidden Body",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Discover</b> a minion of\nyour Tavern Tier. <i>(Can\nbe earned endlessly!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92397": {
+    "attack": 0,
+    "battlegroundsPremiumDbfId": 92421,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92397,
+    "health": 5,
+    "id": "BG24_003",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nether Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "At the end of your turn, give your Dragons +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "92400": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 92427,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92400,
+    "health": 1,
+    "id": "BG24_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Picky Eater",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Consume a random minion in Bob's Tavern to gain its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "92406": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 92436,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92406,
+    "health": 7,
+    "id": "BG24_018",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Tortollan Blue Shell",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "If you lost your last combat, this minion sells for 5 Gold.",
+    "type": "MINION"
+  },
+  "92408": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 92438,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92408,
+    "elite": true,
+    "health": 6,
+    "id": "BG24_020",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a minion with no minion type, give 3 friendly minions of different types +2/+2.",
+    "type": "MINION"
+  },
+  "92410": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 92440,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92410,
+    "elite": true,
+    "health": 5,
+    "id": "BG24_022",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rendle the Mistermind",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, steal the highest Tier minion from Bob's Tavern.",
+    "type": "MINION"
+  },
+  "92421": {
+    "attack": 0,
+    "battlegroundsNormalDbfId": 92397,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92421,
+    "health": 10,
+    "id": "BG24_003_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nether Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "At the end of your turn, give your Dragons +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "92427": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 92400,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92427,
+    "health": 2,
+    "id": "BG24_009_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Picky Eater",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Consume a random minion in Bob's Tavern to gain double its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "92436": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 92406,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92436,
+    "health": 14,
+    "id": "BG24_018_G",
+    "name": "Tortollan Blue Shell",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "If you lost your last combat, this minion sells for 10 Gold.",
+    "type": "MINION"
+  },
+  "92438": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 92408,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92438,
+    "elite": true,
+    "health": 12,
+    "id": "BG24_020_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a minion with no minion type, give 3 friendly minions of different types +4/+4.",
+    "type": "MINION"
+  },
+  "92440": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 92410,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92440,
+    "elite": true,
+    "health": 10,
+    "id": "BG24_022_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rendle the Mistermind",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, steal the 2 highest Tier minions from Bob's Tavern.",
+    "type": "MINION"
+  },
+  "92542": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92542,
+    "hideCost": true,
+    "id": "BG24_Reward_131",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Red Hand",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of your turn, give a minion in your hand +12/+12.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92548": {
+    "cost": 0,
+    "dbfId": 92548,
+    "hideCost": true,
+    "id": "BG24_Quest_123",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Find the Murder Weapon",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Increase a friendly minion's stats {0} times.",
+    "type": "SPELL"
+  },
+  "92549": {
+    "cost": 0,
+    "dbfId": 92549,
+    "hideCost": true,
+    "id": "BG24_Quest_124",
+    "mechanics": [
+      "QUEST",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Reenact the Murder",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Have {0} friendly minions die.",
+    "type": "SPELL"
+  },
+  "92550": {
+    "cost": 0,
+    "dbfId": 92550,
+    "hideCost": true,
+    "id": "BG24_Quest_125",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Sort It All Out",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Quest:</b> Order your minions\nfrom lowest to highest\nAttack for {0} combats.",
+    "type": "SPELL"
+  },
+  "92551": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92551,
+    "hideCost": true,
+    "id": "BG24_Reward_134",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "The Friends Along the Way",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of your turn, get 2 random {0}.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92552": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92552,
+    "hideCost": true,
+    "id": "BG24_Reward_312",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Staff of Origination",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Give\nyour minions +15/+15.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92554": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92554,
+    "hideCost": true,
+    "id": "BG24_Reward_313",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wondrous Wisdomball",
+    "set": "BATTLEGROUNDS",
+    "text": "Occasionally gives helpful <b>Refreshes</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92563": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92563,
+    "hideCost": true,
+    "id": "BG24_Reward_135",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yogg-tastic Tasties",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of your turn, spin the Wheel of Yogg-Saron.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92876": {
+    "artist": "Daren Bader",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 92877,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 92876,
+    "faction": "HORDE",
+    "flavor": "He likes to act like he's in charge, but the silverback matriarch actually runs things.",
+    "health": 4,
+    "id": "BG_CS2_127",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Silverback Patriarch",
+    "race": "BEAST",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "92883": {
+    "artist": "Dave Allsop",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 92885,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 92883,
+    "flavor": "#abs",
+    "health": 4,
+    "id": "BG_CFM_063",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Kooky Chemist",
+    "rarity": "COMMON",
+    "set": "GANGS",
+    "targetingArrowText": "Swap Attack and Health of a minion.",
+    "techLevel": 2,
+    "text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
+    "type": "MINION"
+  },
+  "92960": {
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92960,
+    "health": 40,
+    "id": "BG24_HERO_100",
+    "name": "Sire Denathrius",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "92961": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92961,
+    "id": "BG24_HERO_100p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Whodunit?",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> At the start\nof the game, choose\none of two <b>Quests</b>.",
+    "type": "HERO_POWER"
+  },
+  "92966": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92966,
+    "id": "BG24_QuestsPlayerEnch_t",
+    "name": "Discover Quest + Reward [DNT]",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a Quest and Reward pair. [DNT]",
+    "type": "SPELL"
+  },
+  "92974": {
+    "attack": 0,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92974,
+    "health": 1,
+    "hideCost": true,
+    "hideStats": true,
+    "id": "BG23_HERO_303pt",
+    "name": "No Minions",
+    "set": "BATTLEGROUNDS",
+    "text": "<i>(Guess that they had no minions last combat.)</i>",
+    "type": "MINION"
+  },
+  "93069": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93069,
+    "hideCost": true,
+    "id": "BG24_Reward_136",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tiny Henchmen",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive +2/+2 to 3 friendly\nminions of Tier 3 or lower.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "93074": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93074,
+    "hideCost": true,
+    "id": "BG24_Reward_138",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Victim's Specter",
+    "set": "BATTLEGROUNDS",
+    "text": "[x] After each combat, get\na plain copy of the last\nfriendly minion that died.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "93099": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 93106,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93099,
+    "elite": true,
+    "health": 5,
+    "id": "BG23_353",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Treasure-Seeker Elise",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After you <b>Refresh</b> 5 times, find the <b>Golden</b> Monkey! <i>(5 left!)</i>",
+    "type": "MINION"
+  },
+  "93101": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93101,
+    "health": 6,
+    "id": "BG23_353_Gt",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Golden Monkey",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<i>(You found it!)</i>",
+    "type": "MINION"
+  },
+  "93106": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 93099,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93106,
+    "elite": true,
+    "health": 10,
+    "id": "BG23_353_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Treasure-Seeker Elise",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After you <b>Refresh</b> 5 times, find two <b>Golden</b> Monkeys! <i>(5 left!)</i>",
+    "type": "MINION"
+  },
+  "93321": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 93323,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93321,
+    "health": 2,
+    "id": "BG23_357",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mind Muck",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Choose a hungry Demon.",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\nminion in Bob's Tavern\nto gain its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "93323": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 93321,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93323,
+    "health": 4,
+    "id": "BG23_357_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mind Muck",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Choose a hungry Demon.",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\n minion in Bob's Tavern\n   to gain double its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "93324": {
+    "cost": 0,
+    "dbfId": 93324,
+    "hideCost": true,
+    "id": "BG24_Quest_Bob",
+    "mechanics": [
+      "SIDEQUEST"
+    ],
+    "name": "An Investigation!",
+    "set": "BATTLEGROUNDS",
+    "text": "In 3 turns, <b>Discover</b> a <b>Quest</b>!",
+    "type": "SPELL"
+  },
+  "93382": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 93385,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93382,
+    "health": 4,
+    "id": "BG23_361",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Legion Overseer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Minions in Bob's Tavern have +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "93385": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 93382,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93385,
+    "health": 8,
+    "id": "BG23_361_G",
+    "name": "Legion Overseer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Minions in Bob's Tavern have +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "93390": {
+    "artist": "Kagi",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93390,
+    "id": "TB_BaconShop_HERO_35_Buddy_t7",
+    "name": "Mysterybox",
+    "set": "BATTLEGROUNDS",
+    "text": "Make a random minion in Bob's Tavern Golden.",
+    "type": "SPELL"
+  },
+  "93391": {
+    "artist": "Kagi",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93391,
+    "id": "TB_BaconShop_HERO_35_Buddy_t8",
+    "name": "Mindflayer Goggles",
+    "set": "BATTLEGROUNDS",
+    "text": "Give minions in Bob's Tavern +3/+3 for the rest of the game.",
+    "type": "SPELL"
+  },
+  "93835": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 93836,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93835,
+    "elite": true,
+    "health": 4,
+    "id": "BG23_192",
+    "isBattlegroundsPoolMinion": true,
+    "name": "First Mate Pip",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "You only need 2 copies of this minion to make it Golden.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "93836": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 93835,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93836,
+    "elite": true,
+    "health": 8,
+    "id": "BG23_192_G",
+    "name": "First Mate Pip",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<i>(Only 2 copies of this minion were needed to make it Golden.)</i>",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "95006": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 95010,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95006,
+    "health": 2,
+    "id": "BG24_500",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Amber Guardian",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Start of Combat:</b> Give another friendly Dragon +3/+3 and <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "95010": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 95006,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95010,
+    "health": 4,
+    "id": "BG24_500_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Amber Guardian",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Start of Combat:</b> Give another friendly Dragon +6/+6 and <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "95148": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95148,
+    "hideCost": true,
+    "id": "BG24_Reward_320",
+    "name": "To The Moon... Almost",
+    "set": "BATTLEGROUNDS",
+    "text": "Skip to Tavern Tier 5. You can't upgrade to Tavern Tier 6.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "95149": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95149,
+    "hideCost": true,
+    "id": "BG24_Reward_321",
+    "name": "Alter Ego",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Even Tier minions in\nBob's Tavern have +6/+6.\n<i>(Swaps to Odd next turn!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "95309": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 63319,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95309,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_70_SKIN_E4",
+    "name": "Bigglesworth, Feline Guide",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95310": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 71458,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95310,
+    "health": 40,
+    "id": "BG20_HERO_103_SKIN_C4",
+    "name": "Deal Speaker Blackthorn",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95311": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 63601,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95311,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_71_SKIN_D4",
+    "name": "Little Witch Jandice",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95312": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 75702,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95312,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_283_SKIN_D4",
+    "name": "Sky Sailor Galewing",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95313": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 76562,
+    "cardClass": "ROGUE",
+    "dbfId": 95313,
+    "health": 40,
+    "id": "BG21_HERO_010_SKIN_B4",
+    "name": "Star Scout Scabbs",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95314": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 60367,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95314,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_50_SKIN_D4",
+    "name": "Sorceress Greymane",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95315": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 57929,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95315,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_15_SKIN_F4",
+    "name": "George the Fated",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95316": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 74646,
+    "cardClass": "WARLOCK",
+    "dbfId": 95316,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_282_SKIN_C4",
+    "name": "Tamsin, Shadow Mage",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95317": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 70956,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95317,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_101_SKIN_E4",
+    "name": "Xyrella, Mi'da's Champion",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95318": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 61489,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95318,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_57_SKIN_C4",
+    "name": "Nozdormu, Time Warden",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95319": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 73940,
+    "cardClass": "PALADIN",
+    "dbfId": 95319,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG21_HERO_000_SKIN_C4",
+    "name": "Cariel, Hammer of Light",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95320": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 70838,
+    "cardClass": "PALADIN",
+    "dbfId": 95320,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_100_SKIN_A4",
+    "name": "Rokara, Arcane Warrior",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95321": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 71908,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95321,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG20_HERO_202_SKIN_B4",
+    "name": "Mystical Mentor Nguyen",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95322": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 58044,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95322,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_25_SKIN_C4",
+    "name": "Spellbound Baz'hial",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95323": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95323,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_R4",
+    "name": "Tuxedo Bob",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95324": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 61490,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95324,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_58_SKIN_C4",
+    "name": "Dark Flight Malygos",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95325": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 62242,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95325,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_64_SKIN_C4",
+    "name": "Moonlight Familiar Eudora",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95326": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 58534,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95326,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_28_SKIN_C4",
+    "name": "Spellwinder Toki",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95327": {
+    "artist": "Jongsup Kim",
+    "battlegroundsSkinParentId": 82110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95327,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG22_HERO_305_SKIN_A4",
+    "name": "Omencaller Prestor",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95328": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 57944,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95328,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_16_SKIN_C4",
+    "name": "AF Kitsune",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95329": {
+    "artist": "Mooncolony",
+    "battlegroundsSkinParentId": 71454,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95329,
+    "health": 40,
+    "id": "BG20_HERO_102_SKIN_E4",
+    "name": "Shadow Helm Saurfang",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95330": {
+    "artist": "Angelo Bortolini",
+    "battlegroundsSkinParentId": 60362,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95330,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_45_SKIN_E",
+    "name": "Prime Suspect Rafaam",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95331": {
+    "artist": "Matt Dixon",
+    "battlegroundsSkinParentId": 59806,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95331,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_36_SKIN_E",
+    "name": "Delivery Deryl",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95332": {
+    "artist": "BOSi Studio",
+    "battlegroundsSkinParentId": 85125,
+    "cardClass": "NEUTRAL",
+    "dbfId": 95332,
+    "health": 40,
+    "hideCost": true,
+    "id": "BG23_HERO_304_SKIN_A",
+    "name": "Baroness Vashj",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "95631": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95631,
+    "hideCost": true,
+    "id": "BG24_Reward_331",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Menagerie Mayhem",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive your minions\n+1 Attack for each\nfriendly minion type.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "95858": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95858,
+    "hideCost": true,
+    "id": "BG24_Reward_113_ALT",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ritual Dagger",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Your first <b>Deathrattle</b> each combat triggers an extra time.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "95867": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95867,
+    "hideCost": true,
+    "id": "BG24_Reward_350",
+    "name": "Pilfered Lamps",
+    "set": "BATTLEGROUNDS",
+    "text": "You only need 2 copies of a minion to make it Golden.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "95940": {
+    "cost": 0,
+    "dbfId": 95940,
+    "hideCost": true,
+    "id": "BG24_Quest_126",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Follow the Money",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Spend {0} Gold.",
+    "type": "SPELL"
+  },
+  "95997": {
+    "artist": "Todd Harris",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 95998,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95997,
+    "flavor": "Imp my ride.",
+    "health": 1,
+    "id": "BG_AV_309",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Piggyback Imp",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Deathrattle:</b> Summon a 4/1 Imp.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "95998": {
+    "artist": "Todd Harris",
+    "attack": 8,
+    "battlegroundsNormalDbfId": 95997,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95998,
+    "flavor": "Imp my ride.",
+    "health": 2,
+    "id": "BG_AV_309_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Piggyback Imp",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Deathrattle:</b> Summon a 8/2 Imp.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "95999": {
+    "artist": "Todd Harris",
+    "attack": 8,
+    "battlegroundsNormalDbfId": 97426,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95999,
+    "health": 2,
+    "id": "BG_AV_309_Gt",
+    "name": "Backpiggy Imp",
+    "race": "DEMON",
+    "set": "ALTERAC_VALLEY",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "96137": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96137,
+    "hideCost": true,
+    "id": "BG24_Reward_321t",
+    "name": "Alter Ego",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Odd Tier minions in\nBob's Tavern have +6/+6.\n<i>(Swaps to Even next turn!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96146": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96146,
+    "hideCost": true,
+    "id": "BG24_Reward_210",
+    "name": "A Good Time",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]You have unlimited Gold\nbut only 15 second turns.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96147": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96147,
+    "hideCost": true,
+    "id": "BG24_Reward_211",
+    "name": "Avatar of the Coin",
+    "set": "BATTLEGROUNDS",
+    "text": "Combat is replaced with a coin flip.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96148": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96148,
+    "hideCost": true,
+    "id": "BG24_Reward_323",
+    "name": "9 Lives",
+    "set": "BATTLEGROUNDS",
+    "text": "Set your Health to 1. Add 8 'Iceblocks' to your hand.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96149": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96149,
+    "hideCost": true,
+    "id": "BG24_Reward_351",
+    "name": "Totemic Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]The Totem minion type\nis added to Bob's Tavern.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96150": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96150,
+    "hideCost": true,
+    "id": "BG24_Reward_352",
+    "name": "Purified Shard",
+    "set": "BATTLEGROUNDS",
+    "text": "Win the game.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96151": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96151,
+    "hideCost": true,
+    "id": "BG24_Reward_535",
+    "name": "Un-Murloc Your Potential",
+    "set": "BATTLEGROUNDS",
+    "text": "Transform your hero into a Murloc.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96152": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96152,
+    "hideCost": true,
+    "id": "BG24_Quest_152",
+    "name": "Balance the Scales",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Control at least 2 Naga, 2 Murlocs, and 2 Dragons.",
+    "type": "SPELL"
+  },
+  "96153": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96153,
+    "hideCost": true,
+    "id": "BG24_Quest_328",
+    "name": "Close the Case",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Win the game.",
+    "type": "SPELL"
+  },
+  "96764": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 57408,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96764,
+    "health": 1,
+    "id": "BG_EX1_556t",
+    "name": "Damaged Golem",
+    "race": "MECHANICAL",
+    "set": "EXPERT1",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "96788": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58373,
+    "cardClass": "WARLOCK",
+    "cost": 1,
+    "dbfId": 96788,
+    "health": 1,
+    "id": "BG_BRM_006t",
+    "name": "Imp",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "96790": {
+    "artist": "L. Lullabi & A. Bozonnet",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58368,
+    "cardClass": "HUNTER",
+    "cost": 1,
+    "dbfId": 96790,
+    "health": 1,
+    "id": "BG_CFM_316t",
+    "name": "Rat",
+    "race": "BEAST",
+    "set": "GANGS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "96792": {
+    "artist": "James Ryman",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 67729,
+    "cardClass": "WARLOCK",
+    "cost": 2,
+    "dbfId": 96792,
+    "health": 2,
+    "id": "BG_DMF_533t",
+    "name": "Fiery Imp",
+    "race": "DEMON",
+    "set": "DARKMOON_FAIRE",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "96795": {
+    "artist": "Andrew Robinson",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58410,
+    "cardClass": "HUNTER",
+    "cost": 2,
+    "dbfId": 96795,
+    "health": 2,
+    "id": "BG_EX1_534t",
+    "name": "Hyena",
+    "race": "BEAST",
+    "set": "EXPERT1",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "96796": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 57299,
+    "cardClass": "WARLOCK",
+    "cost": 1,
+    "dbfId": 96796,
+    "flavor": "No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
+    "health": 3,
+    "id": "BG_CS2_065",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Voidwalker",
+    "race": "DEMON",
+    "rarity": "FREE",
+    "set": "BASIC",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "96810": {
+    "artist": "Vladimir Kafanov",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58377,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96810,
+    "health": 1,
+    "id": "BG_BOT_312t",
+    "name": "Microbot",
+    "race": "MECHANICAL",
+    "set": "BOOMSDAY",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "96842": {
+    "artist": "Anton Zemskov",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 63796,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96842,
+    "flavor": "I'm addicted to him, but I know that he's Toxfin.",
+    "health": 2,
+    "id": "BG_DAL_077",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Toxfin",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "DALARAN",
+    "targetingArrowText": "Give a friendly Murloc Poisonous.",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "97426": {
+    "artist": "Todd Harris",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 95999,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 97426,
+    "health": 1,
+    "id": "BG_AV_309t",
+    "name": "Backpiggy Imp",
+    "race": "DEMON",
+    "set": "ALTERAC_VALLEY",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  }
+}

@@ -1,0 +1,1208 @@
+{
+  "1808": {
+    "artist": "Mike Nicholson",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 61077,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 1808,
+    "flavor": "Filling your Ghouls with Rocket Fuel is all the rage at Necromancer school.",
+    "health": 3,
+    "howToEarn": "Unlocked in The Plague Quarter, in the Naxxramas adventure.",
+    "howToEarnGolden": "Crafting unlocked in The Plague Quarter, in the Naxxramas adventure.",
+    "id": "FP1_024",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Unstable Ghoul",
+    "rarity": "COMMON",
+    "set": "NAXX",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "2068": {
+    "artist": "Todd Lockwood",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60403,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 2068,
+    "flavor": "\"Evil Eye Watcher of Doom\" was the original name, but marketing felt it was a bit too aggressive.",
+    "health": 4,
+    "id": "GVG_100",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Floating Watcher",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "GVG",
+    "techLevel": 4,
+    "text": "Whenever your hero takes damage on your turn, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "42442": {
+    "artist": "Jim Nelson",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 61442,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 42442,
+    "flavor": "You get a sword! And you get a sword! Everybody gets a sword!",
+    "health": 5,
+    "id": "ICC_029",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cobalt Scalebane",
+    "race": "DRAGON",
+    "rarity": "COMMON",
+    "set": "ICECROWN",
+    "techLevel": 4,
+    "text": "At the end of your turn, give another random friendly minion +3 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "57555": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57555,
+    "id": "TB_BaconShop_HP_011",
+    "name": "Galakrond's Greed",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nReplace a minion in Bob's\nTavern with a minion from\na higher Tavern Tier.",
+    "type": "HERO_POWER"
+  },
+  "57559": {
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 57559,
+    "id": "TB_BaconShop_HP_008",
+    "name": "Smart Savings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAdd a Gold Coin\nto your hand.",
+    "type": "HERO_POWER"
+  },
+  "57562": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 57562,
+    "id": "TB_BaconShop_HP_010",
+    "name": "Boon of Light",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Hero Power</b>\nGive a friendly minion <b>Divine Shield</b>.",
+    "type": "HERO_POWER"
+  },
+  "57635": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57635,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_02",
+    "name": "Galakrond",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "57962": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57962,
+    "id": "TB_BaconShop_HP_018",
+    "name": "Rage Potion",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion\n+10 Attack for the next\ncombat only.",
+    "type": "HERO_POWER"
+  },
+  "58017": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 58017,
+    "id": "TB_BaconShop_HP_019",
+    "name": "DIE, INSECTS!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b>\nDeal 8 damage to two\n  random enemy minions.",
+    "type": "HERO_POWER"
+  },
+  "58040": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58040,
+    "id": "TB_BaconShop_HP_024",
+    "name": "Reborn Rites",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b>\nGive your right-most\nminion <b>Reborn</b>.",
+    "type": "HERO_POWER"
+  },
+  "58527": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58527,
+    "id": "TB_BaconShop_HP_027",
+    "name": "Fire the Cannons!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b>\nDeal 4 damage to two\n  random enemy minions.",
+    "type": "HERO_POWER"
+  },
+  "58537": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58537,
+    "id": "TB_BaconShop_HP_028",
+    "name": "Temporal Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern.\nInclude a minion from\na higher Tavern Tier.",
+    "type": "HERO_POWER"
+  },
+  "59565": {
+    "cardClass": "NEUTRAL",
+    "cost": 10,
+    "dbfId": 59565,
+    "id": "TB_BaconShopTechUp06_Button",
+    "name": "Tavern Tier 6",
+    "set": "BATTLEGROUNDS",
+    "text": "Bob sells higher tier minions when you <b>Refresh</b>.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59682": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 59683,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59682,
+    "elite": true,
+    "health": 7,
+    "id": "BGS_006",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Sneed's Old Shredder",
+    "race": "MECHANICAL",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Summon a random <b>Legendary</b> minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "59683": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 59682,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59683,
+    "elite": true,
+    "health": 14,
+    "id": "TB_BaconUps_080",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Sneed's Old Shredder",
+    "race": "MECHANICAL",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Summon 2 random <b>Legendary</b> minions.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "59707": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59711,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59707,
+    "health": 2,
+    "id": "BGS_009",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a random friendly Mech,\nMurloc, Beast, Demon,\nand Dragon +2/+1.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59711": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 59707,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59711,
+    "health": 4,
+    "id": "TB_BaconUps_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a random friendly Mech,\nMurloc, Beast, Demon,\nand Dragon +4/+2.",
+    "type": "MINION"
+  },
+  "59862": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59862,
+    "id": "TB_BaconShop_HP_043",
+    "name": "Nefarious Fire",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b>\nDeal 1 damage to all\nenemy minions.",
+    "type": "HERO_POWER"
+  },
+  "59863": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59863,
+    "id": "TB_BaconShop_HP_037a",
+    "name": "Wax Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a random friendly Mech,\nMurloc, Beast, Demon,\nand Dragon +2 Attack.",
+    "type": "HERO_POWER"
+  },
+  "59968": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 60642,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59968,
+    "health": 2,
+    "id": "BGS_019",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Red Whelp",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60036": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 60038,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60036,
+    "health": 5,
+    "id": "BGS_021",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mama Bear",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever you summon a Beast, give it +5/+5.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60038": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 60036,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60038,
+    "health": 10,
+    "id": "TB_BaconUps_090",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mama Bear",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever you summon a Beast, give it +10/+10.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "60212": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60212,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_41",
+    "name": "Reno Jackson",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "60214": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60214,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_43",
+    "name": "Dinotamer Brann",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "60216": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60216,
+    "id": "TB_BaconShop_HP_046",
+    "name": "Gonna Be Rich!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
+    "type": "HERO_POWER"
+  },
+  "60369": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60369,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_52",
+    "name": "Deathwing",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "60370": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60370,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_53",
+    "name": "Ysera",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "60378": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60378,
+    "id": "TB_BaconShop_HP_052",
+    "name": "Arcane Alteration",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nReplace a minion with a\nrandom one of the same\nTavern Tier.",
+    "type": "HERO_POWER"
+  },
+  "60403": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 2068,
+    "cardClass": "WARLOCK",
+    "cost": 5,
+    "dbfId": 60403,
+    "health": 8,
+    "id": "TB_BaconUps_101",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Floating Watcher",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever your hero takes damage on your turn, gain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "60498": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 60643,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60498,
+    "health": 4,
+    "id": "BGS_032",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Overkill:</b> Deal 3 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60552": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60645,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 60552,
+    "health": 4,
+    "id": "BGS_033",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hangry Dragon",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the start of your turn,\ngain +2/+2 if you won\nthe last combat.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60558": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60558,
+    "health": 1,
+    "id": "BGS_034",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN"
+    ],
+    "name": "Bronze Warden",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Divine Shield</b>\n<b>Reborn</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60559": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 60647,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60559,
+    "elite": true,
+    "health": 2,
+    "id": "BGS_035",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waxrider Togwaggle",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever a friendly Dragon kills an enemy, gain +2/+2.",
+    "type": "MINION"
+  },
+  "60561": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 60649,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60561,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_036",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Razorgore, the Untamed",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "At the end of your turn, gain +1/+1 for each Dragon you have.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60621": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 60663,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60621,
+    "health": 4,
+    "id": "BGS_037",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +1/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60626": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 60665,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60626,
+    "health": 8,
+    "id": "BGS_038",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Twilight Emissary",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a friendly Dragon +3/+3.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60628": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60628,
+    "health": 3,
+    "id": "BGS_039",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Dragonspawn Lieutenant",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60629": {
+    "attack": 7,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60629,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_040",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Nadina the Red",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Dragons <b>Divine Shield</b>.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "60630": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 60667,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60630,
+    "elite": true,
+    "health": 8,
+    "id": "BGS_041",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Kalecgos, Arcane Aspect",
+    "race": "DRAGON",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a minion with <b>Battlecry</b>, give your Dragons +1/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60637": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 60669,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 60637,
+    "elite": true,
+    "health": 5,
+    "id": "BGS_043",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Murozond",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Add a minion\nfrom your last opponent's\nwarband to your hand.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "60642": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 59968,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60642,
+    "health": 4,
+    "id": "TB_BaconUps_102",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Red Whelp",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion twice.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60643": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 60498,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60643,
+    "health": 8,
+    "id": "TB_BaconUps_103",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Overkill:</b> Deal 6 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60645": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 60552,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 60645,
+    "health": 8,
+    "id": "TB_BaconUps_104",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hangry Dragon",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the start of your turn,\ngain +4/+4 if you won\nthe last combat.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60647": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 60559,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60647,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconUps_105",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waxrider Togwaggle",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever a friendly Dragon kills an enemy, gain +4/+4.",
+    "type": "MINION"
+  },
+  "60649": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 60561,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60649,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Razorgore, the Untamed",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "At the end of your turn, gain +2/+2 for each Dragon you have.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60663": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 60621,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60663,
+    "health": 8,
+    "id": "TB_BaconUps_107",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this minion, give all minions in Bob's Tavern +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60665": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 60626,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60665,
+    "health": 16,
+    "id": "TB_BaconUps_108",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Twilight Emissary",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a friendly Dragon +6/+6.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60667": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 60630,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60667,
+    "elite": true,
+    "health": 16,
+    "id": "TB_BaconUps_109",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Kalecgos, Arcane Aspect",
+    "race": "DRAGON",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a minion with <b>Battlecry</b>, give your Dragons +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60669": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 60637,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 60669,
+    "elite": true,
+    "health": 10,
+    "id": "TB_BaconUps_110",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Murozond",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Add a minion\nfrom your last opponent's\nwarband to your hand.\nMake it Golden!",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "60922": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60922,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041f",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "King of Dragons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Dragon</b>, give it +1/+1.\nSwaps type each turn.",
+    "type": "HERO_POWER"
+  },
+  "61028": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61043,
+    "cardClass": "WARLOCK",
+    "cost": 8,
+    "dbfId": 61028,
+    "health": 8,
+    "id": "BGS_044",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Imp Mama",
+    "race": "DEMON",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]Whenever this minion takes\ndamage, summon a random\nDemon and give it <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61029": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 61032,
+    "cardClass": "MAGE",
+    "cost": 3,
+    "dbfId": 61029,
+    "health": 4,
+    "id": "BGS_045",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Glyph Guardian",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever this attacks, double its Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61032": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61029,
+    "cardClass": "MAGE",
+    "cost": 3,
+    "dbfId": 61032,
+    "health": 8,
+    "id": "TB_BaconUps_115",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Glyph Guardian",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever this attacks, triple its Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "61043": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61028,
+    "cardClass": "WARLOCK",
+    "cost": 8,
+    "dbfId": 61043,
+    "health": 16,
+    "id": "TB_BaconUps_116",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Imp Mama",
+    "race": "DEMON",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]Whenever this minion\ntakes damage, summon\n2 random Demons and\ngive them <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "61059": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 61081,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 61059,
+    "health": 6,
+    "id": "BGS_059",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Master Demonologist",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you summon a Demon, gain +1/+1.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61072": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 61075,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61072,
+    "health": 6,
+    "id": "BGS_067",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Drakonid Enforcer",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "61075": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 61072,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61075,
+    "health": 12,
+    "id": "TB_BaconUps_117",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Drakonid Enforcer",
+    "race": "DRAGON",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After a friendly minion loses <b>Divine Shield</b>, gain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "61077": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 1808,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 61077,
+    "health": 6,
+    "id": "TB_BaconUps_118",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Unstable Ghoul",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 2 damage to all minions.",
+    "type": "MINION"
+  },
+  "61079": {
+    "attack": 8,
+    "cardClass": "PALADIN",
+    "cost": 8,
+    "dbfId": 61079,
+    "health": 4,
+    "id": "BGS_068",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Holy Mackerel",
+    "race": "MURLOC",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After another friendly\nminion loses <b>Divine Shield</b>,\ngain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "61081": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 61059,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 61081,
+    "health": 12,
+    "id": "TB_BaconUps_119",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Master Demonologist",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever you summon a Demon, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "61406": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61406,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_061",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "ALL Will Burn!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nALL minions have\n+3 Attack.",
+    "type": "HERO_POWER"
+  },
+  "61408": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61408,
+    "id": "TB_BaconShop_HP_062",
+    "name": "Dream Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> and add a\nDragon to Bob's Tavern.",
+    "type": "HERO_POWER"
+  },
+  "61442": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 42442,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 61442,
+    "health": 10,
+    "id": "TB_BaconUps_120",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cobalt Scalebane",
+    "race": "DRAGON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, give another random friendly minion +6 Attack.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "61488": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61488,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_56",
+    "name": "Alexstrasza",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "61489": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61489,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_57",
+    "name": "Nozdormu",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "61490": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61490,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_58",
+    "name": "Malygos",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "battlegroundsHero": true
+  },
+  "61491": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61491,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_063",
+    "name": "Clairvoyance",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nYour first <b>Refresh</b> each\nturn costs (0).",
+    "type": "HERO_POWER"
+  },
+  "61517": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61517,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_064",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Queen of Dragons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nAfter you upgrade Bob's\nTavern to Tavern Tier 5,\n<b>Discover</b> two Dragons.",
+    "type": "HERO_POWER"
+  }
+}

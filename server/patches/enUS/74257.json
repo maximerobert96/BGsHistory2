@@ -1,0 +1,358 @@
+{
+  "2074": {
+    "artist": "Zoltan Boros",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58402,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 2074,
+    "flavor": "One bot's junk is another bot's AWESOME UPGRADE!",
+    "health": 5,
+    "id": "GVG_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Junkbot",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "GVG",
+    "techLevel": 4,
+    "text": "Whenever a friendly Mech dies, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "59935": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 59976,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59935,
+    "health": 8,
+    "id": "BGS_012",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "59976": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 59935,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59976,
+    "health": 16,
+    "id": "TB_BaconUps_087",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle</b>: Summon the first 4 friendly Mechs that died this combat.",
+    "type": "MINION"
+  },
+  "60265": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60265,
+    "id": "TB_BaconShop_HP_047t",
+    "name": "Recruitment Map",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier 0</b>.",
+    "type": "SPELL"
+  },
+  "60559": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 60647,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60559,
+    "elite": true,
+    "health": 3,
+    "id": "BGS_035",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waxrider Togwaggle",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever a friendly Dragon kills an enemy, gain +2/+2.",
+    "type": "MINION"
+  },
+  "60647": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 60559,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60647,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconUps_105",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waxrider Togwaggle",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly Dragon kills an enemy, gain +4/+4.",
+    "type": "MINION"
+  },
+  "61060": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 63782,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 61060,
+    "health": 6,
+    "id": "BGS_060",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62162": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 62165,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62162,
+    "health": 2,
+    "id": "BGS_075",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +1/+2.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "62165": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 62162,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 62165,
+    "health": 4,
+    "id": "TB_BaconUps_125",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rabid Saurolisk",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "After you play a minion with <b>Deathrattle</b>, gain +2/+4.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "62266": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 62266,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_67",
+    "name": "Captain Hooktusk",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "63622": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65673,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 63622,
+    "health": 5,
+    "id": "BGS_110",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arm of the Empire",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked,\ngive it +2 Attack\npermanently.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63623": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 65666,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63623,
+    "health": 4,
+    "id": "BGS_111",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Champion of Y'Shaarj",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+1 permanently.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true
+  },
+  "63782": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61060,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63782,
+    "health": 12,
+    "id": "TB_BaconUps_150",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "64296": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 64300,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64296,
+    "health": 4,
+    "id": "BGS_127",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Molten Rock",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64300": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 64296,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64300,
+    "health": 8,
+    "id": "TB_Baconups_202",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Molten Rock",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +2 Health.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "65666": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63623,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65666,
+    "health": 8,
+    "id": "TB_BaconUps_301",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Champion of Y'Shaarj",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +2/+2 permanently.",
+    "type": "MINION"
+  },
+  "65673": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63622,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 65673,
+    "health": 10,
+    "id": "TB_BaconUps_302",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arm of the Empire",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked,\ngive it +4 Attack\npermanently.",
+    "type": "MINION"
+  },
+  "66197": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 66197,
+    "id": "TB_BaconShop_HP_103",
+    "name": "Embrace Your Rage",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Summon a\nminion from your Tavern Tier.\nAdd a copy to your hand.",
+    "type": "HERO_POWER"
+  },
+  "68130": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 68130,
+    "id": "TB_BaconShop_HP_108",
+    "name": "Mosh Pit!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive +1/+1 to a random\nfriendly minion of\neach Tavern Tier.",
+    "type": "HERO_POWER"
+  }
+}
