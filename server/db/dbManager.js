@@ -39,7 +39,6 @@ function findMostRecentVersionLowerThanRef(referencePatch, patchesOfCardChange) 
 }
 
 function getActiveCardsOfPatch(patchId, tribes) {
-    // TODO tribes
     let mappingJson = getJsonFromFile("./mapping.json");
     let cards = mappingJson.cards;
     let activeCards = [];
@@ -48,13 +47,17 @@ function getActiveCardsOfPatch(patchId, tribes) {
         if(patchId >= patchesOfCardChange[0]) {
             let highestPatch = findMostRecentVersionLowerThanRef(patchId, patchesOfCardChange);
             let jsonHighestPatch = getJsonFromFile(`./patches/enUS/${highestPatch}.json`);
+            if(tribes) {
+                jsonHighestPatch = keepCardsFromTribes(jsonHighestPatch, tribes);
+            }
             let mostRecentVersionCard = jsonHighestPatch[cardId];
-            if(isActiveCard(mostRecentVersionCard)){
+            if(mostRecentVersionCard && isActiveCard(mostRecentVersionCard)){
                 activeCards.push(keepSpecificFields(mostRecentVersionCard));
             }
 
         }
     }
+    
     return activeCards;
 }
 
@@ -73,6 +76,8 @@ function keepSpecificFields( cardObj ) {
     newCardObj["name"] = cardObj["name"];
     newCardObj["id"] = cardObj["dbfId"];
     newCardObj["type"] = cardObj["type"];
+    if(cardObj["associatedTribes"])
+        newCardObj["tribes"] = cardObj["associatedTribes"];
 
     if(cardObj["type"] == "MINION") {
         newCardObj["tavernTier"] = cardObj["techLevel"];
@@ -185,7 +190,8 @@ function isCardValidForTribes(card, tribes) {
             }
         }
     }
-    return !isBanned && (!card.associatedTribes || isInTribes);
+    // return !isBanned && (!card.associatedTribes || isInTribes);
+    return !isBanned && isInTribes;
 }
 
 // function temp(){

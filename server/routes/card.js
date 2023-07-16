@@ -29,15 +29,15 @@ cardRoutes.route("/cards/:id").get(function(req, res) {
 
 cardRoutes.route("/:patchId/cards/").get(function(req, res) {
     let activeCards;
-    // let tribes;
+    let tribes;
     let patchId = req.params.patchId;
-    // if(req.query.tribes) {
-    //     tribes = req.query.tribes;
-    //     tribes = typeof tribes === "string"? [tribes] : tribes;
-    //     activeCards = dbManager.getActiveCardsOfPatch(patchId, tribes);
-    // } else {
+    if(req.query.tribes) {
+        tribes = req.query.tribes;
+        tribes = typeof tribes === "string"? [tribes] : tribes;
+        activeCards = dbManager.getActiveCardsOfPatch(patchId, tribes);
+    } else {
         activeCards = dbManager.getActiveCardsOfPatch(patchId);
-    // }
+    }
     res.json(activeCards);
 });
 
