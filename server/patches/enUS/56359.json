@@ -29,6 +29,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "relatedCards": [
+      58368
     ]
   },
   "59940": {
@@ -135,6 +138,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
     ]
   },
   "60028": {
@@ -159,7 +165,13 @@
     "races": [
       "MURLOC"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60036": {
     "attack": 4,
@@ -182,7 +194,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "60038": {
     "attack": 8,
@@ -226,6 +241,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      62216
     ]
   },
   "61913": {
@@ -307,6 +325,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      62218
     ]
   },
   "62230": {
@@ -332,7 +353,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62231": {
     "attack": 8,
@@ -366,7 +390,11 @@
     "name": "Buried Treasure",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(5 Digs left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "GOLDEN_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "96789": {
     "artist": "Ozhill Studio",
@@ -392,6 +420,12 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "relatedCards": [
+      96790
+    ]
   }
 }

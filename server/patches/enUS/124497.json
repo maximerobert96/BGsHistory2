@@ -22,7 +22,11 @@
     "name": "Realm of Terror",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Every 4 turns, ALL\nenemies fight the Lord of\nTerror and your warband\n for loot. <i>({0} turns left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DIABLO_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "76520": {
     "cardClass": "NEUTRAL",
@@ -45,7 +49,10 @@
     "id": "BG21_HERO_030",
     "name": "Sneed",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77341": {
     "cardClass": "WARRIOR",
@@ -55,7 +62,8 @@
     "name": "Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +2/+2 for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77344": {
     "cardClass": "WARRIOR",
@@ -65,7 +73,8 @@
     "name": "Magic Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +6/+6 for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77345": {
     "cardClass": "WARRIOR",
@@ -75,7 +84,8 @@
     "name": "Rare Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +12/+12 for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77346": {
     "cardClass": "WARRIOR",
@@ -85,7 +95,8 @@
     "name": "Unique Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "[x]Double a friendly minion's\nAttack and Health\nfor next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77347": {
     "cardClass": "WARRIOR",
@@ -98,7 +109,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Windfury</b> for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77348": {
     "cardClass": "WARRIOR",
@@ -111,7 +123,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Reborn</b> for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77351": {
     "cardClass": "WARRIOR",
@@ -124,7 +137,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Divine Shield</b> for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77353": {
     "cardClass": "WARRIOR",
@@ -139,7 +153,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n<b>Windfury</b>, <b>Reborn</b>, and\n<b>Divine Shield</b> for next\ncombat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77434": {
     "cardClass": "NEUTRAL",
@@ -149,7 +164,11 @@
     "name": "Stir the Pot",
     "set": "BATTLEGROUNDS",
     "text": "[x]Throw a minion in your pot.\nWhen you've gathered 3,\n<b>Discover</b> from their minion\ntypes. <i>(3 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "77435": {
     "cardClass": "WARRIOR",
@@ -159,7 +178,8 @@
     "name": "Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 1 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77436": {
     "cardClass": "WARRIOR",
@@ -169,7 +189,8 @@
     "name": "Magic Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 3 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77437": {
     "cardClass": "WARRIOR",
@@ -179,7 +200,8 @@
     "name": "Rare Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 6 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77438": {
     "cardClass": "WARRIOR",
@@ -189,7 +211,8 @@
     "name": "Unique Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 12 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77516": {
     "battlegroundsHero": true,
@@ -199,7 +222,10 @@
     "id": "BG21_HERO_020",
     "name": "Cookie the Cook",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77518": {
     "cardClass": "WARRIOR",
@@ -209,7 +235,8 @@
     "name": "Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +1 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77520": {
     "cardClass": "WARRIOR",
@@ -219,7 +246,8 @@
     "name": "Magic Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +2 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77521": {
     "cardClass": "WARRIOR",
@@ -229,7 +257,8 @@
     "name": "Rare Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +3 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77522": {
     "cardClass": "WARRIOR",
@@ -239,7 +268,8 @@
     "name": "Unique Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +6 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77523": {
     "cardClass": "WARRIOR",
@@ -252,7 +282,8 @@
     "name": "Black Soulstone",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> After your last minion dies, summon a random Demon.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77524": {
     "cardClass": "WARRIOR",
@@ -265,7 +296,8 @@
     "name": "Magic Black Soulstone",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> After your last minion dies, summon 2 random Demons.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77526": {
     "cardClass": "WARRIOR",
@@ -278,7 +310,8 @@
     "name": "Rare Black Soulstone",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> After your last minion dies, summon 3 random Demons.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77527": {
     "cardClass": "WARRIOR",
@@ -291,7 +324,8 @@
     "name": "Unique Black Soulstone",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> After your last minion dies, summon 4 random Demons.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "78109": {
     "attack": 3,

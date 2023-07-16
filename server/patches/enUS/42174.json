@@ -116,7 +116,10 @@
     "name": "Galakrond",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57962": {
     "cardClass": "NEUTRAL",
@@ -244,7 +247,10 @@
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngive a random friendly Mech,\nMurloc, Beast, Demon,\nand Dragon +2/+1.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59711": {
     "attack": 4,
@@ -327,7 +333,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "60038": {
     "attack": 10,
@@ -360,7 +369,10 @@
     "name": "Reno Jackson",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60214": {
     "cardClass": "NEUTRAL",
@@ -370,7 +382,10 @@
     "id": "TB_BaconShop_HERO_43",
     "name": "Dinotamer Brann",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60216": {
     "cardClass": "NEUTRAL",
@@ -391,7 +406,10 @@
     "name": "Deathwing",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60370": {
     "cardClass": "NEUTRAL",
@@ -402,7 +420,10 @@
     "name": "Ysera",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60378": {
     "cardClass": "NEUTRAL",
@@ -498,7 +519,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60559": {
     "attack": 1,
@@ -580,7 +604,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60628": {
     "attack": 2,
@@ -621,7 +648,10 @@
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Give your Dragons <b>Divine Shield</b>.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60630": {
     "attack": 2,
@@ -647,7 +677,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60637": {
     "attack": 5,
@@ -670,7 +703,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60642": {
     "attack": 2,
@@ -874,7 +910,10 @@
     "name": "King of Dragons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Dragon</b>, give it +1/+1.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61028": {
     "attack": 6,
@@ -1122,7 +1161,10 @@
     "name": "Dream Portal",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> and add a\nDragon to Bob's Tavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61442": {
     "attack": 10,
@@ -1155,7 +1197,10 @@
     "name": "Alexstrasza",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61489": {
     "cardClass": "NEUTRAL",
@@ -1166,7 +1211,10 @@
     "name": "Nozdormu",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61490": {
     "cardClass": "NEUTRAL",
@@ -1177,7 +1225,10 @@
     "name": "Malygos",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61491": {
     "cardClass": "NEUTRAL",
@@ -1203,6 +1254,9 @@
     "name": "Queen of Dragons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you upgrade Bob's\nTavern to Tavern Tier 5,\n<b>Discover</b> two Dragons.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   }
 }

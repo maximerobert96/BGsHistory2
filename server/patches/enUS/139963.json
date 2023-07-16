@@ -17,7 +17,8 @@
     "name": "Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +2/+2 until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77344": {
     "cardClass": "WARRIOR",
@@ -27,7 +28,8 @@
     "name": "Magic Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +6/+6 until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77345": {
     "cardClass": "WARRIOR",
@@ -37,7 +39,8 @@
     "name": "Rare Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +12/+12 until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77435": {
     "cardClass": "WARRIOR",
@@ -47,7 +50,8 @@
     "name": "Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 1 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77436": {
     "cardClass": "WARRIOR",
@@ -57,7 +61,8 @@
     "name": "Magic Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 3 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77437": {
     "cardClass": "WARRIOR",
@@ -67,7 +72,8 @@
     "name": "Rare Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 9 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77438": {
     "cardClass": "WARRIOR",
@@ -77,7 +83,8 @@
     "name": "Unique Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 27 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77518": {
     "cardClass": "WARRIOR",
@@ -87,7 +94,8 @@
     "name": "Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +1 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77520": {
     "cardClass": "WARRIOR",
@@ -97,7 +105,8 @@
     "name": "Magic Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +3 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77521": {
     "cardClass": "WARRIOR",
@@ -107,7 +116,8 @@
     "name": "Rare Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +9 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77522": {
     "cardClass": "WARRIOR",
@@ -117,7 +127,8 @@
     "name": "Unique Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +27 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "78109": {
     "attack": 4,
@@ -148,7 +159,10 @@
     "id": "BG23_HERO_201",
     "name": "Ozumat",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86014": {
     "cardClass": "NEUTRAL",
@@ -165,7 +179,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive. Start of Combat:</b>\nSummon a 2/2 Tentacle\nwith <b>Taunt</b>. <i>(Upgrades\n  after you sell a minion!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      86227
+    ]
   },
   "86227": {
     "artist": "Hideaki Takamura",

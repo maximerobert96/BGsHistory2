@@ -12,7 +12,10 @@
     "name": "Galakrond",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57947": {
     "armor": 10,
@@ -27,7 +30,10 @@
     "name": "Patches the Pirate",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "58535": {
     "armor": 13,
@@ -42,7 +48,10 @@
     "name": "C'Thun",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60036": {
     "attack": 4,
@@ -64,7 +73,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "Whenever you summon a Beast, give it +4/+4.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "60038": {
     "attack": 8,
@@ -104,7 +116,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60041": {
     "attack": 16,
@@ -137,7 +152,10 @@
     "name": "Dinotamer Brann",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60367": {
     "armor": 17,
@@ -152,7 +170,10 @@
     "name": "Tess Greymane",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60629": {
     "attack": 8,
@@ -174,7 +195,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Give 3 friendly Dragons <b>Divine Shield</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60630": {
     "attack": 2,
@@ -200,7 +224,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you trigger a <b>Battlecry</b>,\ngive your Dragons +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60667": {
     "attack": 4,
@@ -240,7 +267,13 @@
     "name": "Aranna Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "63602": {
     "armor": 10,
@@ -254,7 +287,10 @@
     "name": "Lord Barov",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63780": {
     "attack": 16,
@@ -299,7 +335,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64300": {
     "attack": 6,
@@ -337,7 +376,10 @@
     "name": "Chenvaala",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "66483": {
     "armor": 10,
@@ -352,7 +394,10 @@
     "name": "N'Zoth",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71908": {
     "armor": 8,
@@ -367,7 +412,10 @@
     "name": "Master Nguyen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72045": {
     "attack": 4,
@@ -392,7 +440,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "At the end of your turn, give another friendly Beast <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72470": {
     "armor": 10,
@@ -452,7 +503,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> Add a plain\ncopy of the minion that\n  killed this to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95794": {
     "artist": "Grace Liu",
@@ -497,7 +551,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Battlecry:</b> Add a 2/1\nSmolderwing to your hand\nwith \"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "relatedCards": [
+      96170
+    ]
   },
   "96174": {
     "attack": 4,
@@ -519,7 +579,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Battlecry:</b> Add two 2/1\nSmolderwings to your hand\nwith \"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      96173
+    ]
   },
   "97535": {
     "attack": 4,
@@ -542,7 +605,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a card is added to your hand, give another friendly Pirate +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "97536": {
     "attack": 8,
@@ -590,7 +656,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a spell is played on this, gain <b>Venomous</b>\nuntil next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR",
+      "NAGA"
+    ]
   },
   "97550": {
     "attack": 4,
@@ -638,7 +708,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]After you summon a\nBeast in combat,\ndouble its stats.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "98827": {
     "artist": "BOSi Studio",
@@ -683,7 +756,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Spellcraft:</b> Give a minion stats equal to your Tavern Tier until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      98881
+    ]
   },
   "98882": {
     "artist": "Grafit",
@@ -705,7 +784,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Spellcraft:</b> Give a minion\nstats equal to twice your\nTavern Tier until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      98885
+    ]
   },
   "98910": {
     "artist": "Kevin Sidharta",
@@ -728,7 +810,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the start of your turn,\ngain 1 Gold. Repeat for\neach other friendly Pirate.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "98911": {
     "artist": "Kevin Sidharta",
@@ -772,7 +857,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you gain Gold,\ngain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "99015": {
     "attack": 8,
@@ -807,7 +895,10 @@
     "name": "Rock Master Voone",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "99523": {
     "artist": "Edgar Hidalgo",
@@ -830,7 +921,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Deathrattle:</b> Elementals in\nBob's Tavern have +3/+2\n  for the rest of the game.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "99734": {
     "artist": "Edgar Hidalgo",
@@ -875,7 +969,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give your\nother Dragons +3 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "100029": {
     "artist": "Zoltan Boros",
@@ -920,7 +1017,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you sell 5 Elementals, get another random Elemental. <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "100708": {
     "artist": "BOSi Studio",
@@ -942,7 +1045,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you sell 5 Elementals, get two other random Elementals. <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "100718": {
     "artist": "Grafit",
@@ -966,7 +1072,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you play an Elemental,\ngive your other minions\n+2 Attack. <i>(Swaps to\nHealth next turn!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "100721": {
     "artist": "Grafit",
@@ -1012,7 +1121,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Give a\nrandom minion in your hand +5/+5.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "100931": {
     "artist": "Tanamaes Leejierasaes",
@@ -1057,7 +1169,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]At the end of your turn, give\n+1 Attack to your minions\n   with less Attack than this.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "101032": {
     "artist": "Hideaki Takamura",
@@ -1099,7 +1214,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of every 2 turns,\nget a plain copy of\nthe minion to the left of this.\n<i>({0} turns left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101095": {
     "artist": "Matt Dixon",
@@ -1142,7 +1260,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]At the end of every 3 turns,\nget another random Dragon.\n<i>({0} turns left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "101115": {
     "artist": "Ramzy Kamen",
@@ -1165,7 +1289,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]At the end of every 3 turns,\nget 2 other random Dragons.\n<i>({0} turns left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "101130": {
     "armor": 10,
@@ -1210,7 +1337,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Has +1 Attack for each\nElemental you played this\n   game <i>(wherever this is)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "101268": {
     "attack": 0,
@@ -1241,7 +1371,10 @@
     "name": "Sign a New Artist",
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Buddy.\n<i>(Unlocks at Tier 2.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "ETC_BUDDY_POOL"
+    ]
   },
   "101562": {
     "attack": 4,

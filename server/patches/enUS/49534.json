@@ -8,7 +8,10 @@
     "id": "TB_BaconShop_HERO_18",
     "name": "Patches the Pirate",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -37,7 +40,10 @@
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+2/+1.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59711": {
     "attack": 4,
@@ -97,6 +103,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      62216
     ]
   },
   "61047": {
@@ -162,7 +171,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61053": {
     "attack": 4,
@@ -182,6 +194,9 @@
     "text": "<b>Battlecry</b>: Give your other Pirates +3 Attack.",
     "type": "MINION",
     "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
       "PIRATE"
     ]
   },
@@ -227,7 +242,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61060": {
     "attack": 2,
@@ -273,7 +291,13 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "relatedCards": [
+      62213
+    ]
   },
   "61066": {
     "attack": 2,
@@ -306,7 +330,13 @@
     "id": "TB_BaconShop_HERO_59",
     "name": "Aranna Starseeker",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "61911": {
     "cardClass": "NEUTRAL",
@@ -328,7 +358,8 @@
     "name": "Demon Hunter Training",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 7 times,\nBob always has 7 minions.\n<i>(",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "61989": {
     "attack": 6,
@@ -362,7 +393,8 @@
     "name": "Spectral Sight",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nBob's Tavern refreshes\nwith 7 minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62186": {
     "attack": 4,
@@ -528,6 +560,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      62218
     ]
   },
   "62218": {
@@ -613,7 +648,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62231": {
     "attack": 6,
@@ -687,7 +725,10 @@
     "id": "TB_BaconShop_HERO_64",
     "name": "Captain Eudora",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62243": {
     "cardClass": "NEUTRAL",
@@ -697,7 +738,10 @@
     "name": "Pirate Parrrrty!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGet a Pirate. After you buy\na Pirate, your next Hero\nPower costs (1) less.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "62250": {
     "cardClass": "NEUTRAL",
@@ -708,7 +752,11 @@
     "name": "Buried Treasure",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(@ |4(Dig, Digs) left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "GOLDEN_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "62251": {
     "attack": 12,
@@ -810,6 +858,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      62215
     ]
   },
   "62266": {
@@ -821,7 +872,10 @@
     "id": "TB_BaconShop_HERO_67",
     "name": "Captain Hooktusk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62267": {
     "cardClass": "NEUTRAL",
@@ -834,7 +888,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\n <b>Discover</b> one from a\nTavern Tier lower.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "62268": {
     "battlegroundsHero": true,
@@ -845,7 +902,10 @@
     "id": "TB_BaconShop_HERO_68",
     "name": "Skycap'n Kragg",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62269": {
     "cardClass": "NEUTRAL",
@@ -856,7 +916,8 @@
     "name": "Piggy Bank",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGain",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -870,7 +931,10 @@
     "name": "King of Pirates",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Pirate</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "62458": {
     "attack": 6,
@@ -972,7 +1036,22 @@
     "name": "A Tale of Kings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a minion of\na specific type, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "relatedCards": [
+      59839,
+      59852,
+      59853,
+      59854,
+      60922,
+      62277,
+      64220,
+      71081,
+      89813,
+      98888
+    ]
   },
   "96771": {
     "artist": "Ken Steacy",

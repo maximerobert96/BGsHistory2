@@ -51,7 +51,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "73452": {
     "attack": 6,

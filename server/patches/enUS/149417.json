@@ -124,6 +124,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80765": {
@@ -309,6 +312,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "93385": {
@@ -352,6 +358,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "95010": {
@@ -387,7 +396,10 @@
     "name": "Alter Ego",
     "set": "BATTLEGROUNDS",
     "text": "[x]Even Tier minions in\nBob's Tavern have +7/+7.\n<i>(Swaps to Odd next turn!)</i>",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      96137
+    ]
   },
   "96137": {
     "cardClass": "NEUTRAL",

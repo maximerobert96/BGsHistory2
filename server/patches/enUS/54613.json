@@ -8,7 +8,10 @@
     "id": "TB_BaconShop_HERO_70",
     "name": "Mr. Bigglesworth",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63320": {
     "cardClass": "NEUTRAL",
@@ -23,7 +26,10 @@
     "name": "Kel'Thuzad's Kitty",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhen a player dies, <b>Discover</b>\na minion from their warband.\nIt keeps any enchantments.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      94063
+    ]
   },
   "63435": {
     "attack": 2,
@@ -41,7 +47,10 @@
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +1/+1.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63487": {
     "attack": 3,
@@ -59,7 +68,10 @@
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +2/+2.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63489": {
     "attack": 4,

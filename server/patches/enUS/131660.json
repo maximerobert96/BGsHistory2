@@ -18,7 +18,10 @@
     "id": "BG20_HERO_100",
     "name": "Rokara",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77876": {
     "attack": 5,
@@ -86,7 +89,8 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77889": {
     "attack": 6,
@@ -130,7 +134,8 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77891": {
     "attack": 8,
@@ -163,7 +168,10 @@
     "id": "BG22_HERO_004",
     "name": "Varden Dawngrasp",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80229": {
     "cardClass": "WARRIOR",
@@ -202,7 +210,10 @@
     "id": "BG22_HERO_305",
     "name": "Onyxia",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "82114": {
     "cardClass": "NEUTRAL",
@@ -216,7 +227,10 @@
     "name": "Broodmother",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\n<b>Avenge (4):</b> Summon\na 2/1 Whelp. It attacks\nimmediately.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      82117
+    ]
   },
   "82117": {
     "artist": "Mauricio Herrera",

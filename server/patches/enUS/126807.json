@@ -17,7 +17,10 @@
     "id": "BG21_HERO_010",
     "name": "Scabbs Cutterbutter",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76563": {
     "cardClass": "ROGUE",

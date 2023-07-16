@@ -8,7 +8,10 @@
     "id": "TB_BaconShop_HERO_38",
     "name": "King Mukla",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -18,7 +21,11 @@
     "name": "Bananarama",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGet 2 Bananas.\nAt the end of your turn,\n give everyone else one.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      59816,
+      65230
+    ]
   },
   "59955": {
     "attack": 4,
@@ -76,7 +83,10 @@
     "id": "TB_BaconShop_HERO_43",
     "name": "Dinotamer Brann",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -89,7 +99,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRefresh Bob's Tavern\n  with <b>Battlecry</b> minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      96786
+    ]
   },
   "60367": {
     "battlegroundsHero": true,
@@ -100,7 +114,10 @@
     "id": "TB_BaconShop_HERO_50",
     "name": "Tess Greymane",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61444": {
     "attack": 6,
@@ -160,7 +177,8 @@
     "name": "Demon Hunter Training",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 5 times,\nBob always has 7 minions.\n<i>(5 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62267": {
     "cardClass": "NEUTRAL",
@@ -173,7 +191,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nGet a random one from a\nTavern Tier lower.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "63162": {
     "cardClass": "ROGUE",

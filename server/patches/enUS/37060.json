@@ -17,7 +17,10 @@
     "name": "Edwin VanCleef",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57949": {
     "cardClass": "NEUTRAL",
@@ -47,7 +50,10 @@
     "name": "Patchwerk",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -57,7 +63,8 @@
     "name": "All Patched Up",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart with 50 Health \ninstead of 40.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59560": {
     "cardClass": "NEUTRAL",
@@ -86,7 +93,10 @@
     "text": "At the end of your turn,\ngive a random friendly Mech, Murloc, Demon, and Beast +2/+1.",
     "type": "MINION",
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59711": {
     "attack": 4,
@@ -116,7 +126,10 @@
     "name": "King of Beasts",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +1/+1.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "BEAST_POOL"
+    ]
   },
   "59852": {
     "cardClass": "NEUTRAL",
@@ -129,7 +142,10 @@
     "name": "King of Murlocs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +1/+1.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "59853": {
     "cardClass": "NEUTRAL",
@@ -142,7 +158,10 @@
     "name": "King of Mechs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +1/+1.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ]
   },
   "59854": {
     "cardClass": "NEUTRAL",
@@ -155,7 +174,10 @@
     "name": "King of Demons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +1/+1.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DEMON_POOL"
+    ]
   },
   "59891": {
     "cardClass": "NEUTRAL",
@@ -168,7 +190,11 @@
     "name": "Procrastinate",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nSkip your first two turns.\nStart with two minions\nfrom Tavern Tier 3.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_3_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "60247": {
     "attack": 6,
@@ -192,7 +218,10 @@
       "MURLOC"
     ],
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "60285": {
     "cardClass": "NEUTRAL",
@@ -221,7 +250,10 @@
     "name": "Arch-Villain Rafaam",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60373": {
     "cardClass": "NEUTRAL",

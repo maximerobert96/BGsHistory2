@@ -11,7 +11,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Add a 1/1 Shudderling to\nyour hand that repeats all\n<b>Battlecries</b> you've played.\n<i>(Twice per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      76964
+    ]
   },
   "59860": {
     "cardClass": "NEUTRAL",
@@ -49,7 +52,10 @@
     "name": "Gone Fishing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nadd a random Murloc\nto Bob's Tavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "61919": {
     "cardClass": "NEUTRAL",

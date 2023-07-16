@@ -208,6 +208,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "72053": {
@@ -286,7 +289,10 @@
     "id": "BG22_HERO_201",
     "name": "Ambassador Faelin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "81570": {
     "cardClass": "NEUTRAL",
@@ -303,7 +309,13 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive.</b> Skip your first turn. <b>Discover</b> a Tier 2, 4, and 6 minion to get at those Tiers.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_2_POOL",
+      "TIER_4_POOL",
+      "TIER_6_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "82507": {
     "battlegroundsSkinParentId": 71463,
@@ -512,6 +524,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "86781": {
@@ -563,6 +578,12 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
     ]
   },
   "87062": {
@@ -582,6 +603,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
     ]
   },
   "87689": {
@@ -603,7 +627,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Battlecry: Discover</b> a Buddy.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "FOAF_BUDDY_POOL"
+    ]
   },
   "87690": {
     "attack": 10,
@@ -684,6 +711,9 @@
     "set": "ICECROWN",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give your <b>Taunt</b> minions +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

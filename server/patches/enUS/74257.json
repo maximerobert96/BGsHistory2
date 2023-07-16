@@ -41,7 +41,10 @@
     "techLevel": 6,
     "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "59976": {
     "attack": 8,
@@ -68,7 +71,10 @@
     "name": "Recruitment Map",
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier 0</b>.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "60559": {
     "attack": 1,
@@ -186,7 +192,10 @@
     "id": "TB_BaconShop_HERO_67",
     "name": "Captain Hooktusk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63622": {
     "attack": 4,
@@ -274,7 +283,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64300": {
     "attack": 4,

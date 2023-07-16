@@ -12,7 +12,10 @@
     "name": "Illidan Stormrage",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57635": {
     "armor": 16,
@@ -27,7 +30,10 @@
     "name": "Galakrond",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57892": {
     "armor": 18,
@@ -42,7 +48,10 @@
     "name": "Ragnaros the Firelord",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58027": {
     "armor": 6,
@@ -57,7 +66,10 @@
     "name": "Shudderwock",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58044": {
     "armor": 7,
@@ -72,7 +84,10 @@
     "name": "Lich Baz'hial",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59201": {
     "cardClass": "NEUTRAL",
@@ -83,7 +98,11 @@
     "name": "Menagerist",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Start the game\nwith a 1/1 Amalgam\nwith <b>Venomous</b> and\nall minion types.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      59202
+    ]
   },
   "59202": {
     "attack": 1,
@@ -119,7 +138,10 @@
     "name": "The Curator",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59707": {
     "attack": 4,
@@ -137,7 +159,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59711": {
     "attack": 8,
@@ -169,7 +194,10 @@
     "name": "Dancin' Deryl",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "armor": 19,
@@ -184,7 +212,10 @@
     "name": "Lord Jaraxxus",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59814": {
     "armor": 20,
@@ -199,7 +230,10 @@
     "name": "King Mukla",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59831": {
     "armor": 18,
@@ -214,7 +248,10 @@
     "name": "Pyramad",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60213": {
     "armor": 13,
@@ -229,7 +266,10 @@
     "name": "Elise Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60366": {
     "armor": 5,
@@ -244,7 +284,10 @@
     "name": "Millhouse Manastorm",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60367": {
     "armor": 14,
@@ -259,7 +302,10 @@
     "name": "Tess Greymane",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60370": {
     "armor": 10,
@@ -274,7 +320,10 @@
     "name": "Ysera",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60372": {
     "armor": 15,
@@ -289,7 +338,10 @@
     "name": "Fungalmancer Flurgl",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "61488": {
     "armor": 17,
@@ -304,7 +356,10 @@
     "name": "Alexstrasza",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61490": {
     "armor": 14,
@@ -319,7 +374,10 @@
     "name": "Malygos",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61910": {
     "armor": 10,
@@ -333,7 +391,13 @@
     "name": "Aranna Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "61914": {
     "armor": 14,
@@ -348,7 +412,10 @@
     "name": "Maiev Shadowsong",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61915": {
     "cardClass": "NEUTRAL",
@@ -362,7 +429,8 @@
     "name": "Demon Hunter Training",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After 16 friendly\nminions attack, the first\nminion you buy each\nturn is free. <i>(16 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62035": {
     "cardClass": "DEMONHUNTER",
@@ -373,7 +441,8 @@
     "name": "Spectral Sight",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\nThe first minion you buy each turn is free.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62242": {
     "armor": 18,
@@ -388,7 +457,10 @@
     "name": "Captain Eudora",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62268": {
     "armor": 18,
@@ -403,7 +475,10 @@
     "name": "Skycap'n Kragg",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63601": {
     "armor": 16,
@@ -418,7 +493,10 @@
     "name": "Jandice Barov",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64400": {
     "armor": 18,
@@ -433,7 +511,10 @@
     "name": "Rakanishu",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64480": {
     "armor": 10,
@@ -448,7 +529,10 @@
     "name": "Silas Darkmoon",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64485": {
     "armor": 18,
@@ -463,7 +547,10 @@
     "name": "Zephrys, the Great",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66196": {
     "armor": 17,
@@ -478,7 +565,10 @@
     "name": "Y'Shaarj",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "70158": {
     "attack": 6,
@@ -502,7 +592,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Windfury</b>, <b>Divine Shield</b>\n<b>Frenzy:</b> Gain <b>Divine Shield</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
   },
   "70159": {
     "attack": 12,
@@ -540,7 +633,10 @@
     "name": "Mutanus the Devourer",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72470": {
     "armor": 10,
@@ -568,7 +664,10 @@
     "name": "Tamsin Roame",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76353": {
     "attack": 1,
@@ -604,7 +703,10 @@
     "name": "Cookie the Cook",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79615": {
     "armor": 14,
@@ -619,7 +721,10 @@
     "name": "Varden Dawngrasp",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79618": {
     "armor": 16,
@@ -634,7 +739,13 @@
     "name": "Queen Azshara",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
   },
   "84867": {
     "armor": 8,
@@ -649,7 +760,10 @@
     "name": "Murloc Holmes",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "87084": {
     "attack": 9,
@@ -675,7 +789,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]At the end of your turn, the\nminion to the left of this\ntriggers its <b>Battlecry</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "87086": {
     "attack": 18,
@@ -722,7 +839,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Has +1/+1 for each friendly\nEternal Knight that died this\n  game <i>(wherever this is)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95262": {
     "attack": 8,
@@ -766,7 +886,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b><b>Reborn</b>.</b> <b>Deathrattle:</b>\nSummon 1 Eternal Knight.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
   },
   "95264": {
     "attack": 16,
@@ -788,7 +912,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Reborn</b>. <b>Deathrattle:</b>\nSummon 2 Eternal Knights.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "95265": {
     "attack": 2,
@@ -810,7 +935,14 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Summon a 2/1 Hand with <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1,
+    "relatedCards": [
+      100153
+    ]
   },
   "95266": {
     "attack": 4,
@@ -831,7 +963,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Summon a 4/2 Hand with <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1,
+    "relatedCards": [
+      100154
+    ]
   },
   "95271": {
     "attack": 1,
@@ -873,7 +1009,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "After a friendly minion is <b>Reborn</b>, give your Undead +1/+3 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95277": {
     "attack": 8,
@@ -918,7 +1057,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Reborn</b>\n<b>Deathrattle:</b> Give a friendly Undead +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95281": {
     "attack": 4,
@@ -963,7 +1105,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> Add a plain\ncopy of the minion that\n  killed this to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95794": {
     "artist": "Grace Liu",
@@ -1021,7 +1166,10 @@
     "name": "Professor Putricide",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "98576": {
     "artist": "Vlad Botos",
@@ -1045,7 +1193,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Magnetic</b>\nAt the start of your turn,\ngain 1 extra Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "98581": {
     "artist": "Vlad Botos",
@@ -1094,7 +1245,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngive your minions +1/+1\nfor each <b>Magnetization</b>\nthey have.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "98591": {
     "artist": "Vlad Botos",
@@ -1144,7 +1298,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "At the end of your turn, get a random <b>Magnetic</b> Mech.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "pools": [
+      "MAGNETIC_POOL"
+    ]
   },
   "98593": {
     "attack": 6,
@@ -1168,7 +1328,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of your turn,\nget 2 random <b>Magnetic</b>\nMechs.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "MAGNETIC_POOL"
+    ]
   },
   "98699": {
     "attack": 2,
@@ -1215,7 +1378,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "Whenever you <b>Magnetize</b> another minion, it also <b>Magnetizes</b> to this.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "98718": {
     "artist": "Kevin Sidharta",
@@ -1310,7 +1476,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Trigger the\n<b>Battlecries</b> of adjacent\nminions.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "98830": {
     "artist": "Angelo Bortolini",
@@ -1359,7 +1528,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Your other Beasts have\n+2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "98941": {
     "artist": "Gabriel Lopes",
@@ -1404,7 +1576,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> For the rest of\nthe game, your <b>Blood Gems</b>\n  give an extra +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "98947": {
     "artist": "Anton Zemskov & Timur Shevtsov",
@@ -1426,7 +1604,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> For the rest of\nthe game, your <b>Blood Gems</b>\n  give an extra +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "99033": {
     "armor": 8,
@@ -1440,7 +1621,10 @@
     "name": "Rock Master Voone",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "99122": {
     "artist": "Dan Scott",
@@ -1464,7 +1648,11 @@
     "set": "RETURN_OF_THE_LICH_KING",
     "techLevel": 1,
     "text": "After this minion attacks,\ndestroy it.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
   },
   "99199": {
     "attack": 6,
@@ -1487,7 +1675,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "2 Refreshes each turn cost Health instead of Gold.\n<i>(2 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "99220": {
     "attack": 12,
@@ -1576,7 +1767,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\nget 2 <b>Blood Gems</b> and\nplay 2 more on this.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "100591": {
     "artist": "Anton Zemskov & Timur Shevtsov",
@@ -1598,7 +1795,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\nget 4 <b>Blood Gems</b> and\nplay 4 more on this.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "100679": {
     "artist": "Kleston Marques",
@@ -1621,7 +1821,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you summon a minion in combat, gain +3 Health permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "100696": {
     "artist": "Kleston Marques",
@@ -1666,7 +1869,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you sell 5 Elementals, get another random Elemental. <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "100708": {
     "artist": "BOSi Studio",
@@ -1688,7 +1897,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you sell 5 Elementals, get two other random Elementals. <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "100949": {
     "artist": "Sergey Tsvelykh",
@@ -1711,7 +1923,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After your hero takes damage, rewind it and give this +1 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "100950": {
     "artist": "Sergey Tsvelykh",
@@ -1753,7 +1968,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of every 2 turns,\nget a plain copy of\nthe minion to the left of this.\n<i>({0} turns left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101095": {
     "artist": "Matt Dixon",
@@ -1796,7 +2014,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you spend 9 Gold,\nget another random\nPirate. <i>(9 Gold left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "101123": {
     "artist": "Sergey Tsvelykh",
@@ -1819,7 +2043,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you spend 9 Gold,\nget 2 other random\nPirates. <i>(9 Gold left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "101130": {
     "armor": 15,
@@ -1850,7 +2077,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Has +1 Attack for each\nElemental you played this\n   game <i>(wherever this is)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "101268": {
     "attack": 0,
@@ -1884,7 +2114,10 @@
     "name": "E.T.C., Band Manager",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101349": {
     "attack": 4,

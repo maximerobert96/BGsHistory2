@@ -11,7 +11,10 @@
     "name": "Gone Fishing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After you sell\n2 minions, add a random\nMurloc to Bob's Tavern.\n<i>(2 left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "80739": {
     "attack": 4,
@@ -32,6 +35,9 @@
     "text": "[x]<b>Once per Turn:</b>\nAfter you cast a spell,\ngain +2 Health.",
     "type": "MINION",
     "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
       "NAGA"
     ]
   },
@@ -54,6 +60,9 @@
     "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +2/+1.",
     "type": "MINION",
     "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
       "NAGA"
     ]
   },
@@ -99,6 +108,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80749": {
@@ -121,6 +133,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      82323
     ]
   },
   "80751": {
@@ -144,6 +159,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80753": {
@@ -166,7 +184,16 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Spellcraft: Discover</b> a Naga.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "pools": [
+      "NAGA_POOL"
+    ],
+    "relatedCards": [
+      86981
+    ]
   },
   "80756": {
     "attack": 6,
@@ -188,6 +215,10 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      92260,
+      70136
     ]
   },
   "80758": {
@@ -293,6 +324,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      82699
     ]
   },
   "80769": {
@@ -336,7 +370,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Spellcraft: Discover</b> 2 Naga.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "NAGA_POOL"
+    ],
+    "relatedCards": [
+      86987
+    ]
   },
   "80774": {
     "attack": 12,
@@ -357,6 +397,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "87084": {
@@ -382,6 +425,9 @@
     "text": "[x]At the end of your turn, the\nMurloc to the left of this\ntriggers its <b>Battlecry</b>.",
     "type": "MINION",
     "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
       "MURLOC"
     ]
   },

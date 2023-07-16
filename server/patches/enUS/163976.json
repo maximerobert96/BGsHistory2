@@ -31,7 +31,10 @@
     "id": "TB_BaconShop_HERO_02",
     "name": "Galakrond",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58534": {
     "artist": "Adam Byrne",
@@ -44,7 +47,10 @@
     "id": "TB_BaconShop_HERO_28",
     "name": "Infinite Toki",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59831": {
     "artist": "Anton Zemskov",
@@ -57,7 +63,10 @@
     "id": "TB_BaconShop_HERO_39",
     "name": "Pyramad",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61056": {
     "attack": 4,
@@ -79,7 +88,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "Whenever another friendly Pirate attacks, give it +3/+3.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62257": {
     "attack": 8,
@@ -139,7 +151,10 @@
     "id": "TB_BaconShop_HERO_95",
     "name": "Greybough",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72389": {
     "attack": 4,
@@ -238,7 +253,10 @@
     "id": "BG21_HERO_030",
     "name": "Sneed",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80239": {
     "artist": "Alex Horley Orlandelli",
@@ -251,7 +269,10 @@
     "id": "BG22_HERO_002",
     "name": "Drek'Thar",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "82110": {
     "artist": "Alex Stone",
@@ -264,7 +285,10 @@
     "id": "BG22_HERO_305",
     "name": "Onyxia",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86291": {
     "artist": "Ludo Lullabi & Konstantin Turovec",
@@ -276,7 +300,10 @@
     "id": "BG23_HERO_305",
     "name": "Heistbaron Togwaggle",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "89293": {
     "artist": "Glenn Rane",
@@ -289,7 +316,10 @@
     "name": "Sylvanas Windrunner",
     "set": "BATTLEGROUNDS",
     "text": "Don't bother asking her for drinks. She will never serve.",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92398": {
     "attack": 3,
@@ -313,7 +343,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ]
   },
   "92423": {
     "attack": 6,
@@ -358,7 +392,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (1):</b> Give a friendly minion of each minion type +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95250": {
     "attack": 4,
@@ -402,7 +439,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Deathrattle:</b> Your Undead\nhave +1 Attack for the\nrest of the game\n<i>(wherever they are)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95260": {
     "attack": 8,
@@ -446,7 +486,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Has +1/+1 for each friendly\nEternal Knight that died this\n  game <i>(wherever this is)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95262": {
     "attack": 6,
@@ -490,7 +533,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b><b>Reborn</b>.</b> <b>Deathrattle:</b>\nSummon 1 Eternal Knight.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
   },
   "95264": {
     "attack": 12,
@@ -512,7 +559,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Reborn</b>. <b>Deathrattle:</b>\nSummon 2 Eternal Knights.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "95276": {
     "attack": 4,
@@ -538,7 +586,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "After a friendly minion is <b>Reborn</b>, give your Undead +1/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95277": {
     "attack": 8,
@@ -586,7 +637,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Reborn</b>\n<b>Start of Combat:</b> Give a\n   friendly Undead <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95283": {
     "attack": 10,
@@ -632,7 +686,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Windfury</b>, <b>Divine Shield</b>\nWhenever this attacks,\nremove <b>Reborn</b> and <b>Taunt</b>\nfrom the target.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "95287": {
     "attack": 6,
@@ -677,7 +734,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngain +1/+1. Repeat for\neach minion you played\nthis turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "MURLOC"
+    ]
   },
   "96770": {
     "attack": 6,
@@ -722,7 +783,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "After a card is added to your hand, gain +1 Health until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR",
+      "PIRATE"
+    ]
   },
   "96775": {
     "attack": 8,
@@ -796,7 +861,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "Whenever this attacks, give your Pirates +2/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "97279": {
     "attack": 6,
@@ -844,7 +912,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a spell is played on this, gain <b>Poisonous</b>\nuntil next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR",
+      "NAGA"
+    ]
   },
   "97550": {
     "attack": 4,
@@ -892,7 +964,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you summon a\n minion in combat, give\n   your minions +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON",
+      "BEAST"
+    ]
   },
   "97556": {
     "attack": 6,

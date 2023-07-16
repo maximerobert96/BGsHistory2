@@ -53,7 +53,10 @@
     "id": "TB_BaconShop_HERO_34",
     "name": "Patchwerk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -64,7 +67,8 @@
     "name": "All Patched Up",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart with 55 Health \ninstead of 40.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "61053": {
     "attack": 4,
@@ -84,6 +88,9 @@
     "text": "<b>Battlecry</b>: Give your other Pirates +3 Attack.",
     "type": "MINION",
     "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
       "PIRATE"
     ]
   },
@@ -356,7 +363,11 @@
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAfter you kill 25 enemy\nminions, get Sulfuras.\n<i>(25 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64426
+    ]
   },
   "64426": {
     "cardClass": "NEUTRAL",
@@ -459,6 +470,9 @@
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Give a random friendly minion <b>Divine Shield</b>.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

@@ -31,7 +31,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Beast.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "BEAST_POOL"
+    ]
   },
   "59852": {
     "cardClass": "NEUTRAL",
@@ -44,7 +47,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Murloc.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "59853": {
     "cardClass": "NEUTRAL",
@@ -57,7 +63,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Mech.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ]
   },
   "59854": {
     "cardClass": "NEUTRAL",
@@ -70,7 +79,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Demon.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DEMON_POOL"
+    ]
   },
   "60285": {
     "cardClass": "NEUTRAL",
@@ -93,7 +105,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Dragon.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61055": {
     "attack": 2,
@@ -191,7 +206,8 @@
     "name": "Piggy Bank",
     "set": "BATTLEGROUNDS",
     "text": "[x]Gain 1 Gold.\nIncreases each turn.\n<i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -204,7 +220,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Pirate.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "63127": {
     "cardClass": "NEUTRAL",
@@ -217,7 +236,22 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Discover</b> a minion of a\nspecific minion type.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "relatedCards": [
+      59839,
+      59852,
+      59853,
+      59854,
+      60922,
+      62277,
+      64220,
+      71081,
+      89813,
+      98888
+    ]
   },
   "63435": {
     "attack": 2,
@@ -235,7 +269,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63605": {
     "cardClass": "NEUTRAL",
@@ -262,7 +299,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> an Elemental.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "65235": {
     "cardClass": "NEUTRAL",
@@ -293,7 +333,8 @@
     "name": "Saturday C'Thuns!",
     "set": "BATTLEGROUNDS",
     "text": "[x]At end of turn, give a\nfriendly minion +1/+1.\n  Repeat 0 times.\n<i>  (Upgrades each turn!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "66545": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -326,6 +367,12 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70147": {
@@ -345,6 +392,12 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70148": {
@@ -363,6 +416,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70150": {
@@ -384,6 +440,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70153": {
@@ -403,7 +462,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Taunt</b>\nAfter you play a Quilboar, get a <b>Blood Gem</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70155": {
     "attack": 4,
@@ -421,7 +486,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Taunt</b>\nAfter you play a Quilboar, get 2 <b>Blood Gems</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "70157": {
     "attack": 2,
@@ -443,6 +511,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70161": {
@@ -464,6 +535,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70173": {
@@ -487,6 +561,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70174": {
@@ -509,6 +586,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70175": {
@@ -532,6 +612,12 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70179": {
@@ -554,6 +640,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70181": {
@@ -576,6 +665,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70190": {
@@ -598,6 +690,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "71081": {
@@ -611,7 +706,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Quilboar.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "QUILBOAR_POOL"
+    ]
   },
   "71459": {
     "cardClass": "NEUTRAL",
@@ -624,7 +722,10 @@
     "name": "Bloodbound",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive.</b> After you\nupgrade Bob's Tavern,\nget 2 <b>Blood Gems</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      70136
+    ]
   },
   "72053": {
     "attack": 9,
@@ -667,6 +768,9 @@
     "text": "This permanently keeps your enchantments from combat.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -714,6 +818,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "75485": {
@@ -738,6 +845,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "77478": {
@@ -760,6 +870,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "77511": {
@@ -778,7 +891,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After you play a Gold Coin, gain 1 Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      58596
+    ]
   },
   "77536": {
     "attack": 6,
@@ -800,6 +917,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "77547": {
@@ -818,7 +938,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After you play a Gold Coin, gain 2 Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ]
   },
   "77829": {
     "attack": 3,
@@ -837,7 +960,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you buy a minion\nwith a Darkmoon Ticket,\ngain 1 Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77830": {
     "attack": 6,
@@ -889,7 +1013,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a Naga.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "NAGA_POOL"
+    ]
   },
   "92305": {
     "attack": 1,
@@ -928,6 +1055,9 @@
     "text": "[x]<b>Battlecry:</b> Consume a\nrandom minion in Bob's\nTavern to gain its stats.",
     "type": "MINION",
     "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
       "DEMON"
     ]
   },
@@ -970,7 +1100,10 @@
     "targetingArrowText": "Give +6 Health and <b>Taunt</b>.",
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Give a minion\n+6 Health and <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92435": {
     "attack": 10,
@@ -1067,6 +1200,9 @@
     "text": "[x]<b>Start of Combat:</b> Give\nanother friendly Dragon\n+2/+2 and <b>Divine Shield</b>.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -1238,7 +1374,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "97072": {
     "attack": 8,
@@ -1303,6 +1440,12 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "97116": {
@@ -1326,6 +1469,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "97118": {
@@ -1351,7 +1497,8 @@
     "name": "Runic Empowerment",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +{0}/+{0}.\nUpgrades after nine\n friendly minions die.\n <i>({1} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "97186": {
     "artist": "Alex Horley Orlandelli",
@@ -1363,7 +1510,10 @@
     "id": "TB_BaconShop_HERO_702",
     "name": "The Jailer",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97270": {
     "attack": 3,
@@ -1385,6 +1535,9 @@
     "text": "Whenever this attacks, give your Pirates +2/+1 permanently.",
     "type": "MINION",
     "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
       "PIRATE"
     ]
   },
@@ -1422,7 +1575,8 @@
     "name": "The Wall",
     "set": "BATTLEGROUNDS",
     "text": "At the end of your turn, give your <b>Taunt</b> minions +1/+1 for each minion you have without <b>Taunt</b> .",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "97442": {
     "cardClass": "NEUTRAL",
@@ -1495,7 +1649,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "At the end of your turn, give 4 friendly <b>Taunt</b> minions +4/+4.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97586": {
     "attack": 8,
@@ -1536,6 +1693,9 @@
     "text": "[x]<b><b>Taunt</b>.</b> Whenever this is\nattacked, gain +1 Attack\npermanently.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -1594,7 +1754,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]When you sell this,\n<b>Discover</b> a Tier 1 minion.\n<i>(Upgrades each turn!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "97605": {
     "attack": 2,
@@ -1614,7 +1780,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]When you sell this,\n<b>Discover</b> two Tier 1 minions.\n<i>(Upgrades each turn!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "97674": {
     "cardClass": "NEUTRAL",
@@ -1666,7 +1835,10 @@
     "name": "The Golden Hammer",
     "set": "BATTLEGROUNDS",
     "text": "<b>Spellcraft:</b> Make a friendly minion Golden until next turn.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      97754
+    ]
   },
   "97957": {
     "attack": 6,
@@ -1685,7 +1857,10 @@
     "targetingArrowText": "Transform into a Tavern Tier higher.",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Transform a\nminion into one from\na Tavern Tier higher.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97958": {
     "attack": 12,
@@ -1717,7 +1892,10 @@
     "name": "Kidnap Sack",
     "set": "BATTLEGROUNDS",
     "text": "<b>Spellcraft:</b> Choose a non-golden minion. Add it to your hand.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      97967
+    ]
   },
   "97967": {
     "cardClass": "NEUTRAL",

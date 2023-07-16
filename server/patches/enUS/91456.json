@@ -11,7 +11,10 @@
     "name": "Dream Portal",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBob always offers an extra\nDragon whenever the\nTavern is <b>Refreshed</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "63622": {
     "attack": 4,
@@ -110,7 +113,13 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "relatedCards": [
+      70791
+    ]
   },
   "70791": {
     "attack": 2,
@@ -150,6 +159,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "relatedCards": [
+      70802
     ]
   },
   "70802": {
@@ -179,7 +191,10 @@
     "id": "BG20_HERO_202",
     "name": "Master Nguyen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71909": {
     "cardClass": "NEUTRAL",
@@ -190,7 +205,14 @@
     "name": "Power of the Storm",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\nAt the start of every turn, choose from 2 new Hero Powers.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "NGUYEN_HP_POOL"
+    ],
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      72671
+    ]
   },
   "72042": {
     "attack": 3,
@@ -212,7 +234,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72043": {
     "attack": 4,
@@ -235,7 +260,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72044": {
     "attack": 5,
@@ -278,7 +306,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72053": {
     "attack": 7,
@@ -365,7 +396,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "72060": {
     "attack": 4,
@@ -388,7 +422,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "72061": {
     "attack": 3,
@@ -428,7 +465,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "72063": {
     "attack": 3,
@@ -494,7 +534,10 @@
     "races": [
       "MURLOC"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "72066": {
     "attack": 2,
@@ -534,7 +577,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "72068": {
     "attack": 4,
@@ -578,7 +624,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "72070": {
     "attack": 5,
@@ -622,7 +671,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      58596
+    ]
   },
   "72072": {
     "attack": 2,
@@ -640,7 +692,10 @@
     "techLevel": 2,
     "text": "After a friendly Dragon gains Attack, give it +2 Health.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "72073": {
     "attack": 5,
@@ -662,7 +717,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "72387": {
     "attack": 2,
@@ -684,7 +742,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72388": {
     "attack": 6,
@@ -753,7 +814,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72671": {
     "cardClass": "NEUTRAL",
@@ -1148,7 +1212,10 @@
     "id": "BG21_HERO_000",
     "name": "Cariel Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73941": {
     "cardClass": "PALADIN",
@@ -1198,6 +1265,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      58596
     ]
   },
   "74659": {
@@ -1339,7 +1409,13 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "relatedCards": [
+      96788
+    ]
   },
   "74911": {
     "attack": 2,
@@ -1359,6 +1435,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "relatedCards": [
+      58373
     ]
   },
   "74929": {
@@ -1377,7 +1456,10 @@
     "techLevel": 3,
     "text": "<b>Avenge (3):</b> Give\nadjacent minions\n+2/+1 permanently.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74932": {
     "attack": 2,
@@ -1559,7 +1641,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "75485": {
     "attack": 4,
@@ -1582,6 +1667,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "76185": {
@@ -1694,7 +1782,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "76903": {
     "attack": 10,

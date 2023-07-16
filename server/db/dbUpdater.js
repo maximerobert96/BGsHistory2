@@ -88,15 +88,42 @@ function changingAlltoGeneralForTribes(){
     fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
 }
 
-changingAlltoGeneralForTribes();
+function addCustomFieldsToAllVersions() {
+    const customFields = ["associatedTribes", "pools", "bannedFromFoaF", "undeadCreationPool", "battlegroundsDiabloPrizeTurn", "bannedFromRewards", "bannedFromQuests", "bannedFromNguyen", "isAkamSecret", "relatedCards"];
+    let referencePatch = JSON.parse(fs.readFileSync("./db/currentDb.json"));
+    for(let card of Object.values(referencePatch)) {
+        let fieldsToUpdate = [];
+        for(let field of customFields) {
+            if(card[field]) {
+                fieldsToUpdate.push(field);
+            }
+        }
+        updateVersionsUsingMappingFile(fieldsToUpdate, card);
+    }
+}
+
+function updateVersionsUsingMappingFile(fieldsToUpdate, referenceCard) {
+    let referenceId = referenceCard.dbfId;
+    let mappingJson = JSON.parse(fs.readFileSync("./mapping.json"));
+    let patchesToUpdate = mappingJson.cards[referenceId];
+    for(let patchId of patchesToUpdate) {
+        let patchJson = JSON.parse(fs.readFileSync(`./patches/enUS/${patchId}.json`));
+        for(let field of fieldsToUpdate) {
+            patchJson[referenceId][field] = referenceCard[field];
+        }
+        fs.writeFileSync(`./patches/enUS/${patchId}.json`, JSON.stringify(patchJson, null , 2));
+    }
+}
 
 // addingTribes();
 // removingAssociatedTribesFromSkins();
 // removingAssociatedTribesFromBuddies();
 // removingAssociatedTribesFromEverythingExceptActiveCards();
-
+// changingAlltoGeneralForTribes();
 
 // listBuddiesAndIds();
+
+addCustomFieldsToAllVersions();
 
 // const PUTRI_POOL_1 = [
 // 85651, 99117, 100775, 85152, 99116,

@@ -22,7 +22,10 @@
     "set": "BOOMSDAY",
     "techLevel": 4,
     "text": "<b>Deathrattle:</b> Summon an 8/8 Robosaur.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      49168
+    ]
   },
   "57634": {
     "artist": "Alex Horley Orlandelli",
@@ -35,7 +38,10 @@
     "id": "TB_BaconShop_HERO_08",
     "name": "Illidan Stormrage",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57635": {
     "artist": "Konstantin Turovec",
@@ -48,7 +54,10 @@
     "id": "TB_BaconShop_HERO_02",
     "name": "Galakrond",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57929": {
     "artist": "J. Axer",
@@ -61,7 +70,10 @@
     "id": "TB_BaconShop_HERO_15",
     "name": "George the Fallen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57944": {
     "artist": "Adam Byrne",
@@ -74,7 +86,10 @@
     "id": "TB_BaconShop_HERO_16",
     "name": "A. F. Kay",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57946": {
     "artist": "Aaron Su",
@@ -87,7 +102,10 @@
     "id": "TB_BaconShop_HERO_17",
     "name": "Millificent Manastorm",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "57949": {
     "cardClass": "NEUTRAL",
@@ -114,7 +132,10 @@
     "id": "TB_BaconShop_HERO_29",
     "name": "C'Thun",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59203": {
     "artist": "Wei Wang",
@@ -127,7 +148,10 @@
     "id": "TB_BaconShop_HERO_33",
     "name": "The Curator",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "artist": "Alex Horley Orlandelli",
@@ -140,7 +164,10 @@
     "id": "TB_BaconShop_HERO_37",
     "name": "Lord Jaraxxus",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59808": {
     "cardClass": "NEUTRAL",
@@ -163,7 +190,10 @@
     "id": "TB_BaconShop_HERO_38",
     "name": "King Mukla",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59832": {
     "cardClass": "NEUTRAL",
@@ -173,7 +203,8 @@
     "name": "Brick by Brick",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +1 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59937": {
     "attack": 2,
@@ -208,7 +239,10 @@
     "id": "TB_BaconShop_HERO_40",
     "name": "Sir Finley Mrrgglton",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60212": {
     "artist": "Eric Braddock",
@@ -221,7 +255,10 @@
     "id": "TB_BaconShop_HERO_41",
     "name": "Reno Jackson",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60213": {
     "artist": "Luke Mancini",
@@ -234,7 +271,10 @@
     "id": "TB_BaconShop_HERO_42",
     "name": "Elise Starseeker",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60367": {
     "artist": "J. Axer",
@@ -247,7 +287,10 @@
     "id": "TB_BaconShop_HERO_50",
     "name": "Tess Greymane",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60369": {
     "artist": "Ludo Lullabi",
@@ -260,7 +303,10 @@
     "id": "TB_BaconShop_HERO_52",
     "name": "Deathwing",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60561": {
     "attack": 4,
@@ -411,7 +457,13 @@
     "id": "TB_BaconShop_HERO_59",
     "name": "Aranna Starseeker",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "61914": {
     "artist": "James Ryman",
@@ -424,7 +476,10 @@
     "id": "TB_BaconShop_HERO_62",
     "name": "Maiev Shadowsong",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62242": {
     "artist": "Dave Allsop",
@@ -437,7 +492,10 @@
     "id": "TB_BaconShop_HERO_64",
     "name": "Captain Eudora",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63319": {
     "artist": "Arthur Bozonnet",
@@ -450,7 +508,10 @@
     "id": "TB_BaconShop_HERO_70",
     "name": "Mr. Bigglesworth",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63630": {
     "attack": 6,
@@ -526,7 +587,10 @@
     "id": "TB_BaconShop_HERO_91",
     "name": "Zephrys, the Great",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65662": {
     "attack": 4,
@@ -557,7 +621,10 @@
     "id": "TB_BaconShop_HERO_95",
     "name": "Greybough",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "68129": {
     "artist": "Paul Mafayon",
@@ -570,7 +637,10 @@
     "id": "BG20_HERO_242",
     "name": "Guff Runetotem",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "70173": {
     "attack": 3,
@@ -592,7 +662,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Windfury</b>\nAfter this attacks, get a <b>Blood Gem</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "70956": {
     "artist": "James Ryman",
@@ -605,7 +678,10 @@
     "id": "BG20_HERO_101",
     "name": "Xyrella",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71463": {
     "artist": "Raymond Swanland",
@@ -618,7 +694,10 @@
     "id": "BG20_HERO_201",
     "name": "Vol'jin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72043": {
     "attack": 4,
@@ -640,7 +719,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Avenge (2) and Deathrattle:</b> Give another friendly Beast +6/+6.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72065": {
     "attack": 3,
@@ -661,7 +743,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you play a Murloc, give two other friendly Murlocs +1 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "72070": {
     "attack": 6,
@@ -720,7 +805,10 @@
     "id": "BG21_HERO_000",
     "name": "Cariel Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74631": {
     "artist": "Zoltan Boros",
@@ -733,7 +821,10 @@
     "id": "BG20_HERO_280",
     "name": "Kurtrus Ashfallen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74910": {
     "attack": 1,
@@ -755,7 +846,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "relatedCards": [
+      96788
+    ]
   },
   "74929": {
     "attack": 1,
@@ -773,7 +870,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (3):</b> Give\nadjacent minions\n+2/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74932": {
     "attack": 2,
@@ -822,7 +922,13 @@
     "name": "Dungar's Gryphon",
     "set": "BATTLEGROUNDS",
     "text": "Choose a new flightpath. Complete it to get a bonus!",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      75704,
+      75705,
+      75706
+    ]
   },
   "75704": {
     "cardClass": "NEUTRAL",
@@ -865,7 +971,10 @@
     "name": "Eastern Plaguelands",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> In 3 turns,\n<b>Discover</b> a minion of your\nTavern Tier. <i>(3 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "76185": {
     "attack": 3,
@@ -898,7 +1007,10 @@
     "id": "BG22_HERO_000",
     "name": "Tavish Stormpike",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79719": {
     "artist": "Alex Horley Orlandelli",
@@ -911,7 +1023,10 @@
     "id": "BG22_HERO_001",
     "name": "Bru'kan",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80239": {
     "artist": "Alex Horley Orlandelli",
@@ -924,7 +1039,10 @@
     "id": "BG22_HERO_002",
     "name": "Drek'Thar",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "84290": {
     "artist": "James Ryman",
@@ -964,7 +1082,10 @@
     "id": "BG23_HERO_304",
     "name": "Lady Vashj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86612": {
     "attack": 6,
@@ -1010,7 +1131,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ]
   },
   "92423": {
     "attack": 8,
@@ -1080,7 +1205,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 2
   },
   "95248": {
     "attack": 4,
@@ -1102,7 +1231,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "95249": {
     "attack": 2,
@@ -1124,7 +1254,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (1):</b> Give a friendly minion of each minion type +3 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95250": {
     "attack": 4,
@@ -1168,7 +1301,8 @@
     "targetingArrowText": "Give an Undead +2/+7.",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give an Undead +2/+7.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "95254": {
     "attack": 4,
@@ -1190,7 +1324,8 @@
     "targetingArrowText": "Give an Undead +4/+14.",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give an Undead +4/+14.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "95255": {
     "attack": 3,
@@ -1215,7 +1350,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, gain +3/+3.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "95256": {
     "attack": 6,
@@ -1239,7 +1375,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, gain +6/+6.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "95257": {
     "attack": 3,
@@ -1307,7 +1444,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Deathrattle:</b> Your Undead\nhave +2 Attack for the\nrest of the game\n<i>(wherever they are)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95260": {
     "attack": 10,
@@ -1351,7 +1491,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Has +1/+1 for each friendly\nEternal Knight that died this\n  game <i>(wherever this is)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95262": {
     "attack": 8,
@@ -1394,7 +1537,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Summon\n2 Eternal Knights.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
   },
   "95264": {
     "attack": 16,
@@ -1415,7 +1562,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Summon\n4 Eternal Knights.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "95265": {
     "attack": 2,
@@ -1440,7 +1588,14 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Deathrattle:</b> Summon a 2/2 Hand with <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1,
+    "relatedCards": [
+      100153
+    ]
   },
   "95266": {
     "attack": 4,
@@ -1464,7 +1619,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Deathrattle:</b> Summon a 4/4 Hand with <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1,
+    "relatedCards": [
+      100154
+    ]
   },
   "95267": {
     "attack": 1,
@@ -1486,7 +1645,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Give your\nUndead +1 Attack for\nthe rest of the game\n<i>(wherever they are)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95268": {
     "attack": 2,
@@ -1566,7 +1728,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Avenge (1):</b> Gain +1/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
   },
   "95275": {
     "attack": 6,
@@ -1587,7 +1753,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Avenge (1):</b> Gain +2/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "95276": {
     "attack": 4,
@@ -1613,7 +1780,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "After a friendly minion is <b>Reborn</b>, give your Undead +1/+3 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95277": {
     "attack": 8,
@@ -1661,7 +1831,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Reborn</b>\n<b>Deathrattle:</b> Give a friendly Undead +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95281": {
     "attack": 2,
@@ -1706,7 +1879,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Reborn</b>\n<b>Start of Combat:</b> Give a\n   friendly Undead <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95283": {
     "attack": 8,
@@ -1752,7 +1928,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Windfury</b>. <b>Divine Shield</b>.\nWhenever this attacks,\nremove <b>Reborn</b> and <b>Taunt</b>\nfrom the target.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "95287": {
     "attack": 6,
@@ -1845,7 +2024,16 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> Add a random Mecha-Demon to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DEMON"
+    ],
+    "relatedCards": [
+      96922,
+      96924,
+      96925
+    ]
   },
   "95471": {
     "attack": 6,
@@ -1867,7 +2055,12 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> Add 2 random Mecha-Demons to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      96922,
+      96924,
+      96925
+    ]
   },
   "96167": {
     "attack": 2,
@@ -1890,7 +2083,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Add a 2/1\nSmolderwing to your hand\nthat gives another Dragon\n+5 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "relatedCards": [
+      96170
+    ]
   },
   "96170": {
     "attack": 2,
@@ -1956,7 +2155,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Add two 2/1\nSmolderwings to your hand\nthat each give another\nDragon +5 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      96173
+    ]
   },
   "96703": {
     "attack": 1,
@@ -1979,7 +2181,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of your turn,\ngain +1/+1. Repeat for\neach minion you played\nthis turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "MURLOC"
+    ]
   },
   "96760": {
     "artist": "Matt Dixon",
@@ -2006,7 +2212,11 @@
     "set": "ULDUM",
     "techLevel": 1,
     "text": "[x]<b>Reborn</b>\nAt the end of your turn, give\nanother random friendly\nminion +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "MECHANICAL"
+    ]
   },
   "96770": {
     "attack": 2,
@@ -2051,7 +2261,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "After a card is added to your hand, gain +1 Health until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR",
+      "PIRATE"
+    ]
   },
   "96775": {
     "attack": 8,
@@ -2146,7 +2360,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Spellcraft:</b> Make a different\nfriendly Pirate or Naga\nGolden until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      96866
+    ]
   },
   "96866": {
     "cardClass": "NEUTRAL",
@@ -2335,7 +2552,10 @@
     "id": "TB_BaconShop_HERO_702",
     "name": "The Jailer",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97408": {
     "artist": "Ralph Horsley",
@@ -2359,7 +2579,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "Your <b>Deathrattles</b> trigger an extra time.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97409": {
     "attack": 2,
@@ -2403,7 +2626,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a card is added to your hand, give another friendly Pirate +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "97536": {
     "attack": 12,
@@ -2449,7 +2675,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Avenge (4):</b> This minion\nsells for 1 more Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "PIRATE"
+    ]
   },
   "97538": {
     "attack": 4,
@@ -2499,7 +2729,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a spell is played on this, gain <b>Poisonous</b>\nuntil next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR",
+      "NAGA"
+    ]
   },
   "97550": {
     "attack": 4,
@@ -2551,7 +2785,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you play a <b>Battlecry</b> minion, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC",
+      "DRAGON"
+    ]
   },
   "97552": {
     "attack": 2,
@@ -2599,7 +2837,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Minions in\nBob's Tavern have +1/+1\n  for the rest of the game.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "DEMON"
+    ]
   },
   "97554": {
     "attack": 6,
@@ -2644,7 +2886,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you summon a\n minion in combat, give\n   your minions +3 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON",
+      "BEAST"
+    ]
   },
   "97556": {
     "attack": 6,
@@ -2729,7 +2975,10 @@
     "id": "BG25_HERO_100",
     "name": "Professor Putricide",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "97814": {
     "cardClass": "NEUTRAL",
@@ -2739,7 +2988,14 @@
     "name": "Build-An-Undead",
     "set": "BATTLEGROUNDS",
     "text": "[x]Craft a custom Undead.\n<i>(3 Creations left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PUTRI_POOL_1",
+      "PUTRI_POOL_2"
+    ],
+    "relatedCards": [
+      97817
+    ]
   },
   "97817": {
     "attack": 1,
@@ -2824,7 +3080,8 @@
     "targetingArrowText": "Swap Attack and Health of a minion.",
     "techLevel": 1,
     "text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "98784": {
     "battlegroundsSkinParentId": 57110,
@@ -3229,7 +3486,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Divine Shield</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 2
   },
   "98868": {
     "attack": 12,
@@ -3252,7 +3513,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Divine Shield</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "98888": {
     "cardClass": "NEUTRAL",
@@ -3265,7 +3527,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> an Undead.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "UNDEAD_POOL"
+    ]
   },
   "99116": {
     "artist": "Kleston Marques",
@@ -3288,7 +3553,8 @@
     "set": "RETURN_OF_THE_LICH_KING",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon a 3/3 Undead Chicken.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99117": {
     "artist": "Alex Stone",
@@ -3311,7 +3577,8 @@
     "set": "RETURN_OF_THE_LICH_KING",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99118": {
     "artist": "Luca Zontini",
@@ -3334,7 +3601,8 @@
     "set": "RETURN_OF_THE_LICH_KING",
     "techLevel": 2,
     "text": "After you summon an Undead, give it +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99119": {
     "artist": "James Ryman",
@@ -3385,7 +3653,8 @@
     "targetingArrowText": "Give a friendly Undead +2 Attack.",
     "techLevel": 1,
     "text": "<b>Battlecry:</b> Give a friendly Undead +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99121": {
     "artist": "Chris Rahn",
@@ -3412,7 +3681,8 @@
     "targetingArrowText": "Give a friendly Undead <b>Reborn</b>.",
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Give a friendly Undead <b>Reborn</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99122": {
     "artist": "Dan Scott",
@@ -3432,7 +3702,11 @@
     "set": "RETURN_OF_THE_LICH_KING",
     "techLevel": 1,
     "text": "After this minion attacks,\ndestroy it.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
   },
   "99156": {
     "artist": "Tyler West Studio",
@@ -3455,7 +3729,8 @@
     "set": "GILNEAS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Give your minions +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99157": {
     "artist": "Evgeniy Dlinnov",
@@ -3478,7 +3753,8 @@
     "set": "GILNEAS",
     "techLevel": 5,
     "text": "After a friendly minion attacks, gain +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99158": {
     "artist": "Jim Nelson",
@@ -3520,7 +3796,8 @@
     "rarity": "COMMON",
     "set": "OG",
     "techLevel": 2,
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99160": {
     "artist": "Ittoku",
@@ -3544,7 +3821,8 @@
     "set": "NAXX",
     "techLevel": 3,
     "text": "<b><b>Stealth</b>.</b> At the start of your turn, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99161": {
     "artist": "Hideaki Takamura",
@@ -3567,7 +3845,8 @@
     "set": "ICECROWN",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give adjacent minions +2 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99162": {
     "artist": "Jon Neimeister",
@@ -3590,7 +3869,8 @@
     "set": "GANGS",
     "techLevel": 4,
     "text": "<b>Stealth</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99163": {
     "artist": "Phroilan Gardner",
@@ -3641,7 +3921,11 @@
     "set": "BATTLEGROUNDS",
     "targetingArrowText": "Give +4/+4 and Taunt.",
     "text": "<b>Battlecry:</b> Give a friendly minion +4/+4 and <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ]
   },
   "99166": {
     "artist": "Dave Allsop",
@@ -3664,7 +3948,8 @@
     "set": "LOE",
     "techLevel": 4,
     "text": "<b>Deathrattle:</b> Add a Coin to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99167": {
     "artist": "Alex Horley Orlandelli",
@@ -3687,7 +3972,8 @@
     "set": "EXPERT1",
     "techLevel": 2,
     "text": "Whenever a minion dies, gain +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99200": {
     "artist": "E. M. Gist",
@@ -3710,7 +3996,8 @@
     "set": "LOOTAPALOOZA",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Add a Coin to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99201": {
     "artist": "Dave Allsop",
@@ -3733,7 +4020,8 @@
     "set": "ICECROWN",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Summon two 1/1 Skeletons.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99202": {
     "artist": "Brian Despain",
@@ -3756,7 +4044,8 @@
     "set": "ICECROWN",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Add two 1/1 Skeletons to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99203": {
     "artist": "Peter Stapleton",
@@ -3780,7 +4069,8 @@
     "set": "ICECROWN",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Add a random Dragon to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99524": {
     "artist": "Steven Prescott",
@@ -3804,7 +4094,8 @@
     "set": "ULDUM",
     "techLevel": 3,
     "text": "<b>Taunt</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99527": {
     "artist": "James Ryman",
@@ -3827,7 +4118,8 @@
     "set": "ICECROWN",
     "techLevel": 6,
     "text": "<b>Poisonous</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99573": {
     "artist": "Mike Sass",
@@ -3850,7 +4142,8 @@
     "set": "ICECROWN",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Deal 5 damage to your minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 1
   },
   "99576": {
     "artist": "Luke Mancini",
@@ -3874,7 +4167,8 @@
     "targetingArrowText": "Give +1 Attack.",
     "techLevel": 1,
     "text": "<b>Battlecry:</b> Give a friendly minion +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99577": {
     "artist": "Ivan Fomin",
@@ -3897,7 +4191,8 @@
     "set": "ULDUM",
     "techLevel": 2,
     "text": "<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99578": {
     "artist": "J. Axer",
@@ -3921,7 +4216,8 @@
     "targetingArrowText": "Give +1/+1.",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Give a friendly minion +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "undeadCreationPool": 2
   },
   "99579": {
     "artist": "Kleston Marques",

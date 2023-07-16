@@ -12,7 +12,10 @@
     "name": "Illidan Stormrage",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57635": {
     "armor": 18,
@@ -27,7 +30,10 @@
     "name": "Galakrond",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57891": {
     "armor": 7,
@@ -42,7 +48,10 @@
     "name": "Trade Prince Gallywix",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57892": {
     "armor": 16,
@@ -57,7 +66,10 @@
     "name": "Ragnaros the Firelord",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "armor": 15,
@@ -72,7 +84,10 @@
     "name": "Queen Wagtoggle",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57929": {
     "armor": 13,
@@ -87,7 +102,10 @@
     "name": "George the Fallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57946": {
     "armor": 14,
@@ -102,7 +120,10 @@
     "name": "Millificent Manastorm",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "57947": {
     "armor": 10,
@@ -117,7 +138,10 @@
     "name": "Patches the Pirate",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "58027": {
     "armor": 10,
@@ -132,7 +156,10 @@
     "name": "Shudderwock",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58044": {
     "armor": 10,
@@ -147,7 +174,10 @@
     "name": "Lich Baz'hial",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58435": {
     "armor": 12,
@@ -162,7 +192,10 @@
     "name": "Sindragosa",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58534": {
     "armor": 8,
@@ -177,7 +210,10 @@
     "name": "Infinite Toki",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "armor": 8,
@@ -192,7 +228,10 @@
     "name": "Lord Jaraxxus",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60213": {
     "armor": 10,
@@ -207,7 +246,10 @@
     "name": "Elise Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60214": {
     "armor": 8,
@@ -222,7 +264,10 @@
     "name": "Dinotamer Brann",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60367": {
     "armor": 15,
@@ -237,7 +282,10 @@
     "name": "Tess Greymane",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60369": {
     "armor": 10,
@@ -252,7 +300,10 @@
     "name": "Deathwing",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60561": {
     "attack": 4,
@@ -290,7 +341,10 @@
     "name": "Nozdormu",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61490": {
     "armor": 8,
@@ -305,7 +359,10 @@
     "name": "Malygos",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61910": {
     "armor": 20,
@@ -320,7 +377,13 @@
     "name": "Aranna Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "62266": {
     "armor": 14,
@@ -335,7 +398,10 @@
     "name": "Captain Hooktusk",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63319": {
     "armor": 11,
@@ -350,7 +416,10 @@
     "name": "Mr. Bigglesworth",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63601": {
     "armor": 12,
@@ -365,7 +434,10 @@
     "name": "Jandice Barov",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63602": {
     "armor": 15,
@@ -380,7 +452,10 @@
     "name": "Lord Barov",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63604": {
     "armor": 14,
@@ -395,7 +470,10 @@
     "name": "Forest Warden Omu",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64475": {
     "armor": 17,
@@ -410,7 +488,10 @@
     "name": "Chenvaala",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64480": {
     "armor": 15,
@@ -425,7 +506,10 @@
     "name": "Silas Darkmoon",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66483": {
     "armor": 16,
@@ -440,7 +524,10 @@
     "name": "N'Zoth",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "68129": {
     "armor": 8,
@@ -455,7 +542,10 @@
     "name": "Guff Runetotem",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71458": {
     "armor": 10,
@@ -470,7 +560,10 @@
     "name": "Death Speaker Blackthorn",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
   },
   "71908": {
     "armor": 15,
@@ -485,7 +578,10 @@
     "name": "Master Nguyen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73940": {
     "armor": 10,
@@ -500,7 +596,10 @@
     "name": "Cariel Roame",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74631": {
     "armor": 18,
@@ -515,7 +614,10 @@
     "name": "Kurtrus Ashfallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75702": {
     "armor": 12,
@@ -530,7 +632,10 @@
     "name": "Galewing",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76521": {
     "armor": 20,
@@ -545,7 +650,10 @@
     "name": "Sneed",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76562": {
     "armor": 5,
@@ -560,7 +668,10 @@
     "name": "Scabbs Cutterbutter",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77468": {
     "attack": 4,
@@ -674,7 +785,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Reduce the Cost of 'Lead Explorer' by (2).",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77494": {
     "attack": 2,
@@ -758,7 +870,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you feed a minion a Banana, give it +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77510": {
     "attack": 2,
@@ -780,7 +893,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]Whenever your hero takes\ndamage, this minion\ngains +2/+2 instead.\n<i>(2 left this turn.)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77535": {
     "attack": 10,
@@ -945,7 +1059,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Gain 1 Gold for each minion type you control.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77712": {
     "attack": 8,
@@ -982,7 +1097,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]'Arcane Alteration'\nreplaces with a minion\none Tavern Tier higher.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77726": {
     "attack": 8,
@@ -1094,7 +1210,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you use 'Trash for Treasure', gain Gold equal to the removed minion's Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77777": {
     "attack": 10,
@@ -1131,7 +1248,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Choose One</b> - 'Conviction'\ngives an additional +2 Attack\nfor the rest of the game;\nor +2 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      101567
+    ]
   },
   "77779": {
     "attack": 14,
@@ -1150,7 +1271,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Choose One</b> - 'Conviction'\ngives an additional +4 Attack\nfor the rest of the game;\nor +4 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      101576
+    ]
   },
   "77784": {
     "attack": 0,
@@ -1212,7 +1336,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Your flightpaths trigger twice.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77789": {
     "attack": 4,
@@ -1292,7 +1417,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After 'Verdant Spheres' triggers, give your hand and board +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77795": {
     "attack": 14,
@@ -1684,7 +1810,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you <b>Discover</b> a minion, give it +{1}/+{1} and upgrade this by +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77830": {
     "attack": 10,
@@ -1773,7 +1900,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Put a random <b>Secret</b> into the battlefield.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "77840": {
     "attack": 10,
@@ -1794,7 +1924,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> Put 2 random\n<b>Secrets</b> into the battlefield.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "77841": {
     "attack": 6,
@@ -2069,7 +2202,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon\nthose Elements.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77883": {
     "attack": 6,
@@ -2151,7 +2285,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "'Twice as Nice' also gives both minions stats equal to your Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77889": {
     "attack": 6,
@@ -2195,7 +2330,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Whenever you summon a Whelp, gain +2/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77891": {
     "attack": 8,
@@ -2295,7 +2431,10 @@
     "name": "Varden Dawngrasp",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80239": {
     "armor": 17,
@@ -2310,7 +2449,10 @@
     "name": "Drek'Thar",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "81569": {
     "armor": 15,
@@ -2325,7 +2467,10 @@
     "name": "Ambassador Faelin",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "89293": {
     "armor": 10,
@@ -2341,7 +2486,10 @@
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
     "text": "Don't bother asking her for drinks. She will never serve.",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96870": {
     "armor": 18,
@@ -2356,7 +2504,10 @@
     "name": "Enhance-o Mechano",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "98635": {
     "attack": 4,
@@ -2379,7 +2530,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Avenge (2):</b> Upgrade 'Tentacular' by +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "98636": {
     "attack": 8,

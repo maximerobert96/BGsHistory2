@@ -36,7 +36,10 @@
     "id": "TB_BaconShop_HERO_11",
     "name": "Ragnaros the Firelord",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -49,7 +52,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern\n  with <b>Battlecry</b> minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      96786
+    ]
   },
   "62460": {
     "attack": 12,
@@ -125,7 +132,10 @@
     "techLevel": 5,
     "text": "[x]After you play an Elemental,\nElementals in Bob's Tavern\nhave +1/+1 for the rest\nof the game.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "63630": {
     "attack": 6,
@@ -163,7 +173,13 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "relatedCards": [
+      64040
+    ]
   },
   "64040": {
     "attack": 2,
@@ -219,7 +235,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64045": {
     "attack": 2,
@@ -263,7 +282,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64055": {
     "attack": 8,
@@ -466,7 +488,13 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "64079": {
     "attack": 8,
@@ -487,6 +515,9 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
     ]
   },
   "64081": {
@@ -573,7 +604,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64190": {
     "attack": 14,
@@ -608,7 +642,10 @@
     "name": "King of Elementals",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy an\n<b>Elemental</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "64296": {
     "attack": 2,
@@ -631,7 +668,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64297": {
     "attack": 3,
@@ -706,7 +746,10 @@
     "id": "TB_BaconShop_HERO_75",
     "name": "Rakanishu",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64401": {
     "cardClass": "NEUTRAL",
@@ -746,7 +789,10 @@
     "id": "TB_BaconShop_HERO_76",
     "name": "Al'Akir",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64424": {
     "cardClass": "NEUTRAL",
@@ -760,7 +806,11 @@
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAfter you kill 20 enemy\nminions, get Sulfuras.\n<i>(20 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64426
+    ]
   },
   "64426": {
     "cardClass": "NEUTRAL",
@@ -828,7 +878,10 @@
     "id": "TB_BaconShop_HERO_78",
     "name": "Chenvaala",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64476": {
     "cardClass": "NEUTRAL",

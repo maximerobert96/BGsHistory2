@@ -66,7 +66,10 @@
     "id": "TB_BaconShop_HERO_02",
     "name": "Galakrond",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57891": {
     "battlegroundsHero": true,
@@ -76,7 +79,10 @@
     "id": "TB_BaconShop_HERO_10",
     "name": "Trade Prince Gallywix",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57945": {
     "cardClass": "NEUTRAL",
@@ -143,7 +149,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a <b>Secret</b>.\nPut it into the battlefield.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "58028": {
     "cardClass": "NEUTRAL",
@@ -157,7 +166,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third <b>Battlecry</b>\n triggers an extra time.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      76964
+    ]
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -224,7 +236,11 @@
     "name": "Menagerist",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nStart the game with a\n2/2 Amalgam with\nall minion types.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      59202
+    ]
   },
   "59202": {
     "attack": 2,
@@ -251,7 +267,8 @@
     "name": "All Patched Up",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nStart with 55 Health \ninstead of 40.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59487": {
     "attack": 4,
@@ -326,7 +343,11 @@
     "name": "Bananarama",
     "set": "BATTLEGROUNDS",
     "text": "[x]Get 2 Bananas.\nAt the end of your turn,\n give everyone else one.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      59816,
+      65230
+    ]
   },
   "59826": {
     "cardClass": "NEUTRAL",
@@ -346,7 +367,8 @@
     "name": "Brick by Brick",
     "set": "BATTLEGROUNDS",
     "text": "Give a random friendly minion +4 Health.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -360,7 +382,10 @@
     "name": "King of Beasts",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Beast</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "BEAST_POOL"
+    ]
   },
   "59852": {
     "cardClass": "NEUTRAL",
@@ -374,7 +399,10 @@
     "name": "King of Murlocs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Murloc</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "59853": {
     "cardClass": "NEUTRAL",
@@ -388,7 +416,10 @@
     "name": "King of Mechs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Mech</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ]
   },
   "59854": {
     "cardClass": "NEUTRAL",
@@ -402,7 +433,10 @@
     "name": "King of Demons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Demon</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DEMON_POOL"
+    ]
   },
   "59860": {
     "cardClass": "NEUTRAL",
@@ -450,7 +484,11 @@
     "name": "Procrastinate",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nSkip your first two turns.\nStart with two minions\nfrom Tavern Tier 3.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_3_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "59940": {
     "attack": 3,
@@ -508,7 +546,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "60038": {
     "attack": 10,
@@ -553,7 +594,10 @@
     "name": "Lead Explorer",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhen you upgrade\n Bob's Tavern get a\n'Recruitment Map'.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      60265
+    ]
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -571,7 +615,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, add\nBrann Bronzebeard to your\nhand. <i>(Once per game)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      96786
+    ]
   },
   "60285": {
     "cardClass": "NEUTRAL",
@@ -646,7 +694,10 @@
     "name": "Gone Fishing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a Murloc,\nadd a random Murloc\nto Bob's Tavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60450": {
     "cardClass": "NEUTRAL",
@@ -659,7 +710,8 @@
     "name": "Adventure!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAt the start of the game,\n<b>Discover</b> a Hero Power.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "60561": {
     "attack": 4,
@@ -717,7 +769,10 @@
     "name": "King of Dragons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Dragon</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61406": {
     "cardClass": "NEUTRAL",
@@ -745,7 +800,10 @@
     "name": "Dream Portal",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBob always offers an extra\nDragon whenever the\nTavern is refreshed.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61491": {
     "cardClass": "NEUTRAL",
@@ -771,7 +829,10 @@
     "name": "Queen of Dragons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you upgrade Bob's\nTavern to Tavern Tier 5,\n<b>Discover</b> two Dragons.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61851": {
     "cardClass": "DEMONHUNTER",
@@ -795,7 +856,10 @@
     "id": "TB_BaconShop_HERO_62",
     "name": "Maiev Shadowsong",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61915": {
     "cardClass": "NEUTRAL",
@@ -806,7 +870,8 @@
     "name": "Demon Hunter Training",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you <b>Refresh</b> 5 times,\nBob always has 7 minions.\n<i>(5 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "61917": {
     "cardClass": "NEUTRAL",
@@ -866,7 +931,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "61932": {
     "attack": 6,
@@ -900,7 +968,8 @@
     "name": "Spectral Sight",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBob's Tavern refreshes\nwith 7 minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62243": {
     "cardClass": "NEUTRAL",
@@ -910,7 +979,10 @@
     "name": "Pirate Parrrrty!",
     "set": "BATTLEGROUNDS",
     "text": "[x]Get a Pirate. After you buy\na Pirate, your next Hero\nPower costs (1) less.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "62250": {
     "cardClass": "NEUTRAL",
@@ -920,7 +992,11 @@
     "name": "Buried Treasure",
     "set": "BATTLEGROUNDS",
     "text": "[x] Dig for a Golden minion!\n<i>(5 Digs left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "GOLDEN_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "62267": {
     "cardClass": "NEUTRAL",
@@ -930,7 +1006,10 @@
     "name": "Trash for Treasure",
     "set": "BATTLEGROUNDS",
     "text": "[x]Remove a friendly minion.\nChoose one of two from a\nTavern Tier lower to keep.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "62269": {
     "cardClass": "NEUTRAL",
@@ -940,7 +1019,8 @@
     "name": "Piggy Bank",
     "set": "BATTLEGROUNDS",
     "text": "[x]Gain 1 Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -954,7 +1034,10 @@
     "name": "King of Pirates",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Pirate</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "63127": {
     "cardClass": "NEUTRAL",
@@ -965,7 +1048,22 @@
     "name": "A Tale of Kings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a minion of\na specific type, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "relatedCards": [
+      59839,
+      59852,
+      59853,
+      59854,
+      60922,
+      62277,
+      64220,
+      71081,
+      89813,
+      98888
+    ]
   },
   "63162": {
     "cardClass": "ROGUE",
@@ -990,7 +1088,10 @@
     "name": "Kel'Thuzad's Kitty",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhen a player dies, <b>Discover</b>\na minion from their warband.\nIt keeps any enchantments.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      94063
+    ]
   },
   "63600": {
     "cardClass": "NEUTRAL",
@@ -1046,7 +1147,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64045": {
     "attack": 2,
@@ -1125,7 +1229,10 @@
     "name": "King of Elementals",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy an\n<b>Elemental</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "64401": {
     "cardClass": "NEUTRAL",
@@ -1168,7 +1275,11 @@
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you kill 25 enemy\nminions, get Sulfuras.\n<i>(25 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64426
+    ]
   },
   "64426": {
     "cardClass": "NEUTRAL",
@@ -1204,7 +1315,11 @@
     "name": "Come One, Come All!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Darkmoon Tickets\nare in the Tavern! Get 3\nto <b>Discover</b> a minion\nfrom your Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64484
+    ]
   },
   "64486": {
     "cardClass": "NEUTRAL",
@@ -1309,7 +1424,8 @@
     "name": "Saturday C'Thuns!",
     "set": "BATTLEGROUNDS",
     "text": "[x]At end of turn, give a\nfriendly minion +1/+1.\n  Repeat 0 times.\n<i>  (Upgrades after each use!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "66484": {
     "cardClass": "NEUTRAL",
@@ -1320,7 +1436,11 @@
     "name": "Avatar of N'Zoth",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nStart the game with a 2/2\nFish that gains all your\n<b>Deathrattles</b> in combat.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      67213
+    ]
   },
   "66545": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -1396,7 +1516,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery 4 turns, <b>Discover</b>\na Darkmoon Prize.\n<i>(3 turns left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DARKMOON_PRIZE_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "67554": {
     "cardClass": "NEUTRAL",
@@ -1443,7 +1567,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70166": {
     "attack": 8,
@@ -1464,6 +1594,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70957": {
@@ -1488,7 +1621,10 @@
     "name": "King of Quilboar",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Quilboar</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "QUILBOAR_POOL"
+    ]
   },
   "71455": {
     "cardClass": "WARRIOR",
@@ -1498,7 +1634,8 @@
     "name": "For the Horde!",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give +2 Attack to the next\nminion you buy this turn.\n<i>(Upgrades each turn!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "71459": {
     "cardClass": "NEUTRAL",
@@ -1511,7 +1648,10 @@
     "name": "Bloodbound",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\nAfter you upgrade\nBob's Tavern, gain\n2 <b>Blood Gems</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      70136
+    ]
   },
   "71464": {
     "cardClass": "NEUTRAL",
@@ -1597,7 +1737,10 @@
     "id": "BG20_HERO_280",
     "name": "Kurtrus Ashfallen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74632": {
     "cardClass": "DEMONHUNTER",
@@ -1611,7 +1754,8 @@
     "name": "Final Showdown",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBuy 3 minions in 1 turn\nto give them +2/+2 and\n progress this. <i>(3 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "74635": {
     "cardClass": "DEMONHUNTER",

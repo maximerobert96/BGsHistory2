@@ -8,7 +8,10 @@
     "id": "TB_BaconShop_HERO_60",
     "name": "Kael'thas Sunstrider",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61913": {
     "battlegroundsHero": true,
@@ -30,7 +33,10 @@
     "id": "TB_BaconShop_HERO_62",
     "name": "Maiev Shadowsong",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61917": {
     "cardClass": "NEUTRAL",

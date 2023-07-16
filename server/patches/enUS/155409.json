@@ -31,7 +31,10 @@
     "id": "TB_BaconShop_HERO_702",
     "name": "The Jailer",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97597": {
     "cardClass": "NEUTRAL",

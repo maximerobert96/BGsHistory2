@@ -8,7 +8,10 @@
     "id": "TB_BaconShop_HERO_90",
     "name": "Silas Darkmoon",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64481": {
     "cardClass": "NEUTRAL",
@@ -19,6 +22,10 @@
     "name": "Come One, Come All!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nDarkmoon Tickets are in the\nTavern! Get 3 to <b>Discover</b> a\n  minion from your Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64484
+    ]
   }
 }

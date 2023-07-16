@@ -11,7 +11,10 @@
     "name": "Gone Fishing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After you sell\n5 minions, get a random\nMurloc. <i>(5 left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60626": {
     "attack": 3,
@@ -34,6 +37,9 @@
     "text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a friendly Dragon +2/+2.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },

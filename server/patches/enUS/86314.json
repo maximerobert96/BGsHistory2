@@ -16,7 +16,10 @@
     "techLevel": 5,
     "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "59976": {
     "attack": 6,
@@ -56,7 +59,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70190": {
     "attack": 18,
@@ -77,6 +83,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   }
 }

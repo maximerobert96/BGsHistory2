@@ -60,7 +60,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, add\nBrann Bronzebeard to your\n hand. <i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      96786
+    ]
   },
   "75129": {
     "battlegroundsSkinParentId": 71463,
@@ -245,7 +249,10 @@
     "id": "BG20_HERO_283",
     "name": "Galewing",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75703": {
     "cardClass": "NEUTRAL",
@@ -255,7 +262,13 @@
     "name": "Dungar's Gryphon",
     "set": "BATTLEGROUNDS",
     "text": "Choose a flightpath. Complete it to get a bonus!",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      75704,
+      75705,
+      75706
+    ]
   },
   "75704": {
     "cardClass": "NEUTRAL",
@@ -298,7 +311,10 @@
     "name": "Eastern Plaguelands",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> In 5 turns,\nupgrade your Tavern Tier.\n<i>(5 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "76336": {
     "battlegroundsSkinParentId": 57110,

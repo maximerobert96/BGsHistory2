@@ -10,7 +10,10 @@
     "id": "TB_BaconShop_HERO_01",
     "name": "Edwin VanCleef",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57634": {
     "artist": "Alex Horley Orlandelli",
@@ -23,7 +26,10 @@
     "id": "TB_BaconShop_HERO_08",
     "name": "Illidan Stormrage",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57635": {
     "artist": "Konstantin Turovec",
@@ -36,7 +42,10 @@
     "id": "TB_BaconShop_HERO_02",
     "name": "Galakrond",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57891": {
     "artist": "Mike Sass",
@@ -49,7 +58,10 @@
     "id": "TB_BaconShop_HERO_10",
     "name": "Trade Prince Gallywix",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57892": {
     "artist": "Greg Staples",
@@ -62,7 +74,10 @@
     "id": "TB_BaconShop_HERO_11",
     "name": "Ragnaros the Firelord",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57893": {
     "artist": "Steve Ellis",
@@ -75,7 +90,10 @@
     "id": "TB_BaconShop_HERO_12",
     "name": "The Rat King",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "artist": "L. Lullabi & K. Turovec",
@@ -88,7 +106,10 @@
     "id": "TB_BaconShop_HERO_14",
     "name": "Queen Wagtoggle",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57929": {
     "artist": "J. Axer",
@@ -101,7 +122,10 @@
     "id": "TB_BaconShop_HERO_15",
     "name": "George the Fallen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57944": {
     "artist": "Adam Byrne",
@@ -114,7 +138,10 @@
     "id": "TB_BaconShop_HERO_16",
     "name": "A. F. Kay",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57946": {
     "artist": "Aaron Su",
@@ -127,7 +154,10 @@
     "id": "TB_BaconShop_HERO_17",
     "name": "Millificent Manastorm",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "57947": {
     "artist": "James Ryman",
@@ -140,7 +170,10 @@
     "id": "TB_BaconShop_HERO_18",
     "name": "Patches the Pirate",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "58021": {
     "artist": "Ivan Fomin",
@@ -153,7 +186,10 @@
     "id": "TB_BaconShop_HERO_21",
     "name": "The Great Akazamzarak",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58024": {
     "artist": "Glenn Rane",
@@ -166,7 +202,10 @@
     "id": "TB_BaconShop_HERO_22",
     "name": "The Lich King",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58027": {
     "artist": "Matt Dixon",
@@ -179,7 +218,10 @@
     "id": "TB_BaconShop_HERO_23",
     "name": "Shudderwock",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58044": {
     "artist": "Dave Allsop",
@@ -192,7 +234,10 @@
     "id": "TB_BaconShop_HERO_25",
     "name": "Lich Baz'hial",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58435": {
     "artist": "Alex Horley Orlandelli",
@@ -205,7 +250,10 @@
     "id": "TB_BaconShop_HERO_27",
     "name": "Sindragosa",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58534": {
     "artist": "Adam Byrne",
@@ -218,7 +266,10 @@
     "id": "TB_BaconShop_HERO_28",
     "name": "Infinite Toki",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58535": {
     "artist": "Alex Horley Orlandelli",
@@ -231,7 +282,10 @@
     "id": "TB_BaconShop_HERO_29",
     "name": "C'Thun",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59203": {
     "artist": "Wei Wang",
@@ -244,7 +298,10 @@
     "id": "TB_BaconShop_HERO_33",
     "name": "The Curator",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59397": {
     "artist": "Mike Nicholson",
@@ -257,7 +314,10 @@
     "id": "TB_BaconShop_HERO_34",
     "name": "Patchwerk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59805": {
     "artist": "Tooth",
@@ -270,7 +330,10 @@
     "id": "TB_BaconShop_HERO_35",
     "name": "Yogg-Saron, Hope's End",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59806": {
     "artist": "Matt Dixon",
@@ -283,7 +346,10 @@
     "id": "TB_BaconShop_HERO_36",
     "name": "Dancin' Deryl",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "artist": "Alex Horley Orlandelli",
@@ -296,7 +362,10 @@
     "id": "TB_BaconShop_HERO_37",
     "name": "Lord Jaraxxus",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59814": {
     "artist": "Sean McNally",
@@ -309,7 +378,10 @@
     "id": "TB_BaconShop_HERO_38",
     "name": "King Mukla",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59831": {
     "artist": "Anton Zemskov",
@@ -322,7 +394,10 @@
     "id": "TB_BaconShop_HERO_39",
     "name": "Pyramad",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60211": {
     "artist": "Matt Dixon",
@@ -335,7 +410,10 @@
     "id": "TB_BaconShop_HERO_40",
     "name": "Sir Finley Mrrgglton",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60212": {
     "artist": "Eric Braddock",
@@ -348,7 +426,10 @@
     "id": "TB_BaconShop_HERO_41",
     "name": "Reno Jackson",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60213": {
     "artist": "Luke Mancini",
@@ -361,7 +442,10 @@
     "id": "TB_BaconShop_HERO_42",
     "name": "Elise Starseeker",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60214": {
     "artist": "L. Lullabi & K. Turovec",
@@ -374,7 +458,10 @@
     "id": "TB_BaconShop_HERO_43",
     "name": "Dinotamer Brann",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60362": {
     "artist": "Alex Horley Orlandelli",
@@ -387,7 +474,10 @@
     "id": "TB_BaconShop_HERO_45",
     "name": "Arch-Villain Rafaam",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60366": {
     "artist": "Jim Nelson",
@@ -400,7 +490,10 @@
     "id": "TB_BaconShop_HERO_49",
     "name": "Millhouse Manastorm",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60367": {
     "artist": "J. Axer",
@@ -413,7 +506,10 @@
     "id": "TB_BaconShop_HERO_50",
     "name": "Tess Greymane",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60369": {
     "artist": "Ludo Lullabi",
@@ -426,7 +522,10 @@
     "id": "TB_BaconShop_HERO_52",
     "name": "Deathwing",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60370": {
     "artist": "Gabor Szikszai",
@@ -439,7 +538,10 @@
     "id": "TB_BaconShop_HERO_53",
     "name": "Ysera",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60372": {
     "artist": "Arthur Bozonnet",
@@ -452,7 +554,10 @@
     "id": "TB_BaconShop_HERO_55",
     "name": "Fungalmancer Flurgl",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "61488": {
     "artist": "Raymond Swanland",
@@ -465,7 +570,10 @@
     "id": "TB_BaconShop_HERO_56",
     "name": "Alexstrasza",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61489": {
     "artist": "James Ryman",
@@ -478,7 +586,10 @@
     "id": "TB_BaconShop_HERO_57",
     "name": "Nozdormu",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61490": {
     "artist": "Michael Komarck",
@@ -491,7 +602,10 @@
     "id": "TB_BaconShop_HERO_58",
     "name": "Malygos",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61910": {
     "artist": "Luke Mancini",
@@ -504,7 +618,13 @@
     "id": "TB_BaconShop_HERO_59",
     "name": "Aranna Starseeker",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "61912": {
     "artist": "James Ryman",
@@ -517,7 +637,10 @@
     "id": "TB_BaconShop_HERO_60",
     "name": "Kael'thas Sunstrider",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61914": {
     "artist": "James Ryman",
@@ -530,7 +653,10 @@
     "id": "TB_BaconShop_HERO_62",
     "name": "Maiev Shadowsong",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62242": {
     "artist": "Dave Allsop",
@@ -543,7 +669,10 @@
     "id": "TB_BaconShop_HERO_64",
     "name": "Captain Eudora",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62266": {
     "artist": "Matt Dixon",
@@ -556,7 +685,10 @@
     "id": "TB_BaconShop_HERO_67",
     "name": "Captain Hooktusk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62268": {
     "artist": "Alex Horley Orlandelli",
@@ -569,7 +701,10 @@
     "id": "TB_BaconShop_HERO_68",
     "name": "Skycap'n Kragg",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63319": {
     "artist": "Arthur Bozonnet",
@@ -582,7 +717,10 @@
     "id": "TB_BaconShop_HERO_70",
     "name": "Mr. Bigglesworth",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63601": {
     "artist": "Arthur Gimaldinov",
@@ -595,7 +733,10 @@
     "id": "TB_BaconShop_HERO_71",
     "name": "Jandice Barov",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63602": {
     "artist": "Zoltan Boros",
@@ -608,7 +749,10 @@
     "id": "TB_BaconShop_HERO_72",
     "name": "Lord Barov",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63604": {
     "artist": "Mike Sass",
@@ -621,7 +765,10 @@
     "id": "TB_BaconShop_HERO_74",
     "name": "Forest Warden Omu",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64400": {
     "artist": "Konstantin Turovec",
@@ -634,7 +781,10 @@
     "id": "TB_BaconShop_HERO_75",
     "name": "Rakanishu",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64403": {
     "artist": "Raymond Swanland",
@@ -647,7 +797,10 @@
     "id": "TB_BaconShop_HERO_76",
     "name": "Al'Akir",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64475": {
     "artist": "James Ryman",
@@ -660,7 +813,10 @@
     "id": "TB_BaconShop_HERO_78",
     "name": "Chenvaala",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64480": {
     "artist": "Ivan Fomin",
@@ -673,7 +829,10 @@
     "id": "TB_BaconShop_HERO_90",
     "name": "Silas Darkmoon",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64485": {
     "artist": "Max Grecke",
@@ -686,7 +845,10 @@
     "id": "TB_BaconShop_HERO_91",
     "name": "Zephrys, the Great",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66196": {
     "artist": "Alex Horley Orlandelli",
@@ -699,7 +861,10 @@
     "id": "TB_BaconShop_HERO_92",
     "name": "Y'Shaarj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66483": {
     "artist": "Alex Horley Orlandelli",
@@ -712,7 +877,10 @@
     "id": "TB_BaconShop_HERO_93",
     "name": "N'Zoth",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "67356": {
     "artist": "James Ryman",
@@ -725,7 +893,10 @@
     "id": "TB_BaconShop_HERO_94",
     "name": "Tickatus",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "67553": {
     "artist": "Steven Prescott",
@@ -738,7 +909,10 @@
     "id": "TB_BaconShop_HERO_95",
     "name": "Greybough",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "68129": {
     "artist": "Paul Mafayon",
@@ -751,7 +925,10 @@
     "id": "BG20_HERO_242",
     "name": "Guff Runetotem",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "70838": {
     "artist": "Rafael Zanchetin",
@@ -764,7 +941,10 @@
     "id": "BG20_HERO_100",
     "name": "Rokara",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "70956": {
     "artist": "James Ryman",
@@ -777,7 +957,10 @@
     "id": "BG20_HERO_101",
     "name": "Xyrella",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71454": {
     "artist": "Glenn Rane",
@@ -790,7 +973,10 @@
     "id": "BG20_HERO_102",
     "name": "Overlord Saurfang",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71458": {
     "artist": "Samwise Didier",
@@ -803,7 +989,10 @@
     "id": "BG20_HERO_103",
     "name": "Death Speaker Blackthorn",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
   },
   "71463": {
     "artist": "Raymond Swanland",
@@ -816,7 +1005,10 @@
     "id": "BG20_HERO_201",
     "name": "Vol'jin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71908": {
     "artist": "Ben Thompson",
@@ -829,7 +1021,10 @@
     "id": "BG20_HERO_202",
     "name": "Master Nguyen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71916": {
     "artist": "Matt Dixon",
@@ -842,7 +1037,10 @@
     "id": "BG20_HERO_301",
     "name": "Mutanus the Devourer",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72470": {
     "battlegroundsArmorTier": 1,
@@ -865,7 +1063,10 @@
     "id": "BG21_HERO_000",
     "name": "Cariel Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74631": {
     "artist": "Zoltan Boros",
@@ -878,7 +1079,10 @@
     "id": "BG20_HERO_280",
     "name": "Kurtrus Ashfallen",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74646": {
     "artist": "BOSi Studio",
@@ -891,7 +1095,10 @@
     "id": "BG20_HERO_282",
     "name": "Tamsin Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75702": {
     "artist": "Chris Bjors",
@@ -904,7 +1111,10 @@
     "id": "BG20_HERO_283",
     "name": "Galewing",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76521": {
     "artist": "Vladimir Kafanov",
@@ -917,7 +1127,10 @@
     "id": "BG21_HERO_030",
     "name": "Sneed",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76562": {
     "artist": "Ivan Fomin",
@@ -930,7 +1143,10 @@
     "id": "BG21_HERO_010",
     "name": "Scabbs Cutterbutter",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77516": {
     "artist": "Ivan Fomin",
@@ -943,7 +1159,10 @@
     "id": "BG21_HERO_020",
     "name": "Cookie the Cook",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77987": {
     "artist": "BOSi Studio",
@@ -956,7 +1175,10 @@
     "id": "BG22_HERO_000",
     "name": "Tavish Stormpike",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79615": {
     "artist": "Arthur Bozonnet",
@@ -969,7 +1191,10 @@
     "id": "BG22_HERO_004",
     "name": "Varden Dawngrasp",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79618": {
     "artist": "Alex Garner",
@@ -981,7 +1206,13 @@
     "id": "BG22_HERO_007",
     "name": "Queen Azshara",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
   },
   "79719": {
     "artist": "Alex Horley Orlandelli",
@@ -994,7 +1225,10 @@
     "id": "BG22_HERO_001",
     "name": "Bru'kan",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80239": {
     "artist": "Alex Horley Orlandelli",
@@ -1007,7 +1241,10 @@
     "id": "BG22_HERO_002",
     "name": "Drek'Thar",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80247": {
     "artist": "A.J. Nazzaro",
@@ -1020,7 +1257,10 @@
     "id": "BG22_HERO_003",
     "name": "Vanndar Stormpike",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80832": {
     "artist": "Arthur Bozonnet",
@@ -1033,7 +1273,10 @@
     "id": "BG22_HERO_200",
     "name": "Ini Stormcoil",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "81569": {
     "artist": "Anton Zemskov",
@@ -1046,7 +1289,10 @@
     "id": "BG22_HERO_201",
     "name": "Ambassador Faelin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "82110": {
     "artist": "Alex Stone",
@@ -1059,7 +1305,10 @@
     "id": "BG22_HERO_305",
     "name": "Onyxia",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "84867": {
     "artist": "Matt Dixon",
@@ -1071,7 +1320,10 @@
     "id": "BG23_HERO_303",
     "name": "Murloc Holmes",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "85125": {
     "artist": "James Ryman",
@@ -1083,7 +1335,10 @@
     "id": "BG23_HERO_304",
     "name": "Lady Vashj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86013": {
     "artist": "Zoltan Boros",
@@ -1095,7 +1350,10 @@
     "id": "BG23_HERO_201",
     "name": "Ozumat",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86291": {
     "artist": "Ludo Lullabi & Konstantin Turovec",
@@ -1107,7 +1365,10 @@
     "id": "BG23_HERO_305",
     "name": "Heistbaron Togwaggle",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "89293": {
     "artist": "Glenn Rane",
@@ -1120,7 +1381,10 @@
     "name": "Sylvanas Windrunner",
     "set": "BATTLEGROUNDS",
     "text": "Don't bother asking her for drinks. She will never serve.",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92960": {
     "artist": "James Ryman",
@@ -1132,7 +1396,10 @@
     "id": "BG24_HERO_100",
     "name": "Sire Denathrius",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96870": {
     "artist": "Zoltan Boros",
@@ -1144,7 +1411,10 @@
     "id": "BG24_HERO_204",
     "name": "Enhance-o Mechano",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97186": {
     "artist": "Alex Horley Orlandelli",
@@ -1156,6 +1426,9 @@
     "id": "TB_BaconShop_HERO_702",
     "name": "The Jailer",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

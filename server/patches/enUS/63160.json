@@ -8,7 +8,10 @@
     "id": "TB_BaconShop_HERO_91",
     "name": "Zephrys, the Great",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64486": {
     "cardClass": "NEUTRAL",

@@ -12,7 +12,10 @@
     "name": "Lord Barov",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72470": {
     "armor": 10,

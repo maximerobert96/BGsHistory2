@@ -18,7 +18,10 @@
     "name": "Sylvanas Windrunner",
     "set": "BATTLEGROUNDS",
     "text": "Don't bother asking her for drinks. She will never serve.",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "89294": {
     "cardClass": "NEUTRAL",

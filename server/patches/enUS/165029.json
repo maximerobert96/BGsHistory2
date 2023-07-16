@@ -41,7 +41,10 @@
     "set": "BOOMSDAY",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon a 1/1 Jo-E Bot.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      48885
+    ]
   },
   "49168": {
     "artist": "Hideaki Takamura",
@@ -96,7 +99,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Add a 2/1\nSmolderwing to your hand\nwith \"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "relatedCards": [
+      96170
+    ]
   },
   "96174": {
     "attack": 4,
@@ -118,7 +127,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Add two 2/1\nSmolderwings to your hand\nwith \"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      96173
+    ]
   },
   "97557": {
     "attack": 2,
@@ -200,7 +212,11 @@
     "name": "Teron Gorefiend",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ]
   },
   "98728": {
     "cardClass": "NEUTRAL",

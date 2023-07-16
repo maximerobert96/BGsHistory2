@@ -7,7 +7,10 @@
     "name": "Lead Explorer",
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a minion from your Tavern tier.\nCosts (1) more after each use.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      60265
+    ]
   },
   "60285": {
     "cardClass": "NEUTRAL",

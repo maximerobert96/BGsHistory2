@@ -151,7 +151,10 @@
     "id": "BG23_HERO_305",
     "name": "Heistbaron Togwaggle",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86292": {
     "cardClass": "NEUTRAL",

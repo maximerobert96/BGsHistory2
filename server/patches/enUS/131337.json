@@ -69,6 +69,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "72230": {
@@ -143,7 +146,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]At the start of your turn,\nget a 'Recruitment Map'\nand reduce the Cost of\nyour maps by (1).",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77493": {
     "attack": 9,
@@ -201,7 +205,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you use your Hero Power, give your <b>Divine Shield</b> minions +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77510": {
     "attack": 4,
@@ -219,7 +224,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]Whenever your hero would\ntake damage, this minion\ngains +2/+2 instead.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77540": {
     "attack": 8,
@@ -429,7 +435,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the end of your turn, give five random friendly minions +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      101567
+    ]
   },
   "77779": {
     "attack": 14,
@@ -448,7 +458,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the end of your turn, give five random friendly minions +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      101576
+    ]
   },
   "77780": {
     "attack": 4,
@@ -592,7 +605,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "At the end of your turn, progress your flightpath by 1 turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77789": {
     "attack": 10,
@@ -957,7 +971,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77838": {
     "attack": 4,
@@ -1333,7 +1348,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77881": {
     "attack": 4,

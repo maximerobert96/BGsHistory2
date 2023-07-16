@@ -33,7 +33,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\n<b>Discover</b> a <b>Secret</b>.\nPut it into the battlefield.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "58536": {
     "cardClass": "NEUTRAL",
@@ -54,7 +57,11 @@
     "name": "Menagerist",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart the game with a\n1/2 Amalgam with\nall minion types.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      59202
+    ]
   },
   "59202": {
     "attack": 1,
@@ -89,7 +96,10 @@
     "techLevel": 1,
     "text": "After you play a Demon, deal 1 damage to your hero and gain +2/+2.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59679": {
     "attack": 2,
@@ -125,7 +135,10 @@
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngive a friendly minion\nof each minion type\n+2/+2.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59711": {
     "attack": 4,
@@ -156,7 +169,10 @@
     "name": "King of Beasts",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "BEAST_POOL"
+    ]
   },
   "59852": {
     "cardClass": "NEUTRAL",
@@ -170,7 +186,10 @@
     "name": "King of Murlocs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "59853": {
     "cardClass": "NEUTRAL",
@@ -184,7 +203,10 @@
     "name": "King of Mechs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ]
   },
   "59854": {
     "cardClass": "NEUTRAL",
@@ -198,7 +220,10 @@
     "name": "King of Demons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DEMON_POOL"
+    ]
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -219,7 +244,10 @@
     "name": "Recruitment Map",
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier",
-    "type": "SPELL"
+    "type": "SPELL",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "60922": {
     "cardClass": "NEUTRAL",
@@ -233,7 +261,10 @@
     "name": "King of Dragons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Dragon</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61047": {
     "attack": 6,
@@ -301,7 +332,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61060": {
     "attack": 2,
@@ -340,7 +374,10 @@
     "name": "Dream Portal",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nBob always offers an extra\nDragon whenever the\nTavern is refreshed.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61444": {
     "attack": 6,
@@ -460,7 +497,10 @@
     "name": "Trash for Treasure",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\n<b>Discover</b> a random one from\na Tavern Tier lower.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -474,7 +514,10 @@
     "name": "King of Pirates",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Pirate</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "62739": {
     "attack": 8,
@@ -505,7 +548,22 @@
     "name": "A Tale of Kings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a minion of\na specific type, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "relatedCards": [
+      59839,
+      59852,
+      59853,
+      59854,
+      60922,
+      62277,
+      64220,
+      71081,
+      89813,
+      98888
+    ]
   },
   "63162": {
     "cardClass": "ROGUE",
@@ -664,7 +722,10 @@
     "name": "King of Elementals",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy an\n<b>Elemental</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
   },
   "64401": {
     "cardClass": "NEUTRAL",

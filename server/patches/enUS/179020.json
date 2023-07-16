@@ -25,7 +25,10 @@
     "name": "Edwin VanCleef",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57634": {
     "armor": 14,
@@ -40,7 +43,10 @@
     "name": "Illidan Stormrage",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "armor": 10,
@@ -55,7 +61,10 @@
     "name": "Queen Wagtoggle",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58021": {
     "armor": 11,
@@ -70,7 +79,10 @@
     "name": "The Great Akazamzarak",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59806": {
     "armor": 12,
@@ -85,7 +97,10 @@
     "name": "Dancin' Deryl",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59814": {
     "armor": 14,
@@ -100,7 +115,10 @@
     "name": "King Mukla",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -113,7 +131,11 @@
     "name": "Bananarama",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAt the start of your turn,\n get 2 Bananas and\n   give everyone else one.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      59816,
+      65230
+    ]
   },
   "59860": {
     "cardClass": "NEUTRAL",
@@ -157,7 +179,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "59937": {
     "attack": 2,
@@ -195,7 +220,10 @@
     "name": "Deathwing",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60637": {
     "attack": 5,
@@ -218,7 +246,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Get a plain copy of a minion from your last opponent's warband.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60669": {
     "attack": 10,
@@ -325,7 +356,10 @@
     "name": "Rakanishu",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64401": {
     "cardClass": "NEUTRAL",
@@ -377,7 +411,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Get a\n<b>Blood Gem</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70181": {
     "attack": 6,
@@ -398,7 +438,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Get 2\n<b>Blood Gems</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "71454": {
     "armor": 13,
@@ -412,7 +455,10 @@
     "name": "Overlord Saurfang",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71455": {
     "cardClass": "WARRIOR",
@@ -426,7 +472,8 @@
     "name": "For the Horde!",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion in\nthe Tavern +{1}/+{2}.\n<i>(Doubles every {0} turns!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "71458": {
     "armor": 10,
@@ -441,7 +488,10 @@
     "name": "Death Speaker Blackthorn",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
   },
   "71459": {
     "cardClass": "NEUTRAL",
@@ -451,7 +501,10 @@
     "name": "Bloodbound",
     "set": "BATTLEGROUNDS",
     "text": "Get 2 <b>Blood Gems</b>.\n<i>(Twice per turn.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      70136
+    ]
   },
   "72042": {
     "attack": 3,
@@ -472,7 +525,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Give a friendly Beast +1/+1 and this <b>Deathrattle</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72071": {
     "attack": 4,
@@ -494,7 +550,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]At the end of your turn,\nif you have another Pirate,\nadd a Gold Coin\nto your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ]
   },
   "72387": {
     "attack": 2,
@@ -515,7 +574,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Divine Shield</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72389": {
     "attack": 1,
@@ -561,7 +623,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Summon five 1/1 Microbots. For each that doesn't fit, give your Mechs +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72470": {
     "armor": 10,
@@ -589,7 +654,10 @@
     "name": "Cariel Roame",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73941": {
     "cardClass": "PALADIN",
@@ -615,7 +683,10 @@
     "name": "Kurtrus Ashfallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74646": {
     "armor": 10,
@@ -630,7 +701,10 @@
     "name": "Tamsin Roame",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74910": {
     "attack": 1,
@@ -651,7 +725,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "relatedCards": [
+      96788
+    ]
   },
   "74929": {
     "attack": 1,
@@ -668,7 +748,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (3):</b> Give\nadjacent minions\n+2/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75141": {
     "attack": 2,
@@ -717,7 +800,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a friendly minion loses <b>Divine Shield</b>,\nget a <b>Blood Gem</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "76185": {
     "attack": 3,
@@ -757,7 +843,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Choose One</b> - For the rest\n of the game, 'Conviction'\ngives an additional\n  +2 Attack; or +2 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      101567
+    ]
   },
   "77779": {
     "attack": 14,
@@ -776,7 +866,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Choose One</b> - For the rest\n of the game, 'Conviction'\ngives an additional\n  +4 Attack; or +4 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      101576
+    ]
   },
   "77809": {
     "attack": 5,
@@ -791,7 +884,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "When you 'Devour' this, spit its stats onto 1 extra minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77911": {
     "cardClass": "WARLOCK",
@@ -816,7 +910,10 @@
     "name": "Tavish Stormpike",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77990": {
     "cardClass": "NEUTRAL",
@@ -830,7 +927,14 @@
     "name": "Deadeye",
     "set": "BATTLEGROUNDS",
     "text": "[x]Take aim!\n<b>Start of Combat:</b> Deal {1}\ndamage to your target.\n<i>  (Doubles every {0} turns!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      77991,
+      77992,
+      77993,
+      77994
+    ]
   },
   "77991": {
     "cardClass": "NEUTRAL",
@@ -901,7 +1005,13 @@
     "name": "Queen Azshara",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
   },
   "79619": {
     "collectionText": "[x]<b>Passive.</b> When your\nwarband reaches 25 total\nAttack, begin your Naga\nConquest. <i>({0} left!)</i>",
@@ -915,7 +1025,8 @@
     "name": "Azshara's Ambition",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> When your\nwarband reaches 25 total\nAttack, begin your Naga\nConquest.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "80239": {
     "armor": 10,
@@ -930,7 +1041,10 @@
     "name": "Drek'Thar",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80244": {
     "cardClass": "NEUTRAL",
@@ -966,7 +1080,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Once per turn,\nafter you cast a spell,\ngain +2 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ]
   },
   "80758": {
     "attack": 10,
@@ -1002,7 +1119,11 @@
     "name": "MechGyver",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter 10 friendly minions\ndie, get a random Mech.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "82110": {
     "armor": 10,
@@ -1017,7 +1138,10 @@
     "name": "Onyxia",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "82114": {
     "cardClass": "NEUTRAL",
@@ -1031,7 +1155,10 @@
     "name": "Broodmother",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\n<b>Avenge (3):</b> Summon\na 3/1 Whelp. It attacks\nimmediately.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      82117
+    ]
   },
   "86612": {
     "attack": 6,
@@ -1065,7 +1192,10 @@
     "name": "Ghastly Mask",
     "set": "BATTLEGROUNDS",
     "text": "Add '{0}' to your hand. Your end of turn effects trigger an extra time.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "pools": [
+      "END_OF_TURN_POOL"
+    ]
   },
   "92305": {
     "attack": 1,
@@ -1107,7 +1237,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ]
   },
   "92399": {
     "attack": 2,
@@ -1170,7 +1304,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you <b>Refresh</b> 5 times, find the <b>Golden</b> Monkey! <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      93101
+    ]
   },
   "95149": {
     "cardClass": "NEUTRAL",
@@ -1181,7 +1321,10 @@
     "name": "Alter Ego",
     "set": "BATTLEGROUNDS",
     "text": "[x]Even-Tier minions in\nBob's Tavern have +7/+7.\n<i>(Swaps to Odd next turn!)</i>",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      96137
+    ]
   },
   "96137": {
     "cardClass": "NEUTRAL",
@@ -1216,7 +1359,10 @@
     "set": "GVG",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Give your other Mechs +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "96772": {
     "artist": "Peter Stapleton",
@@ -1283,7 +1429,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]When you sell this,\n<b>Discover</b> a Tier 1 minion.\n<i>(Upgrades each turn!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "97957": {
     "attack": 6,
@@ -1301,7 +1453,10 @@
     "targetingArrowText": "Transform into a Tavern Tier higher.",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Transform a\nminion into one from\na Tavern Tier higher.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "99054": {
     "artist": "Kleston Marques",
@@ -1324,7 +1479,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]Once per turn, after you\ncast a <b>Spellcraft</b> spell on\nthis, add a new copy\nof it to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ]
   },
   "99066": {
     "artist": "Kleston Marques",
@@ -1379,7 +1537,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Deathrattle:</b> Deal 7\ndamage to the 2 nearest\nenemy minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "101575": {
     "cardClass": "NEUTRAL",
@@ -1431,7 +1592,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Play a <b>Blood Gem</b> on all your other Quilboar.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "102493": {
     "artist": "Grafit",

@@ -27,7 +27,11 @@
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you kill 25 enemy\nminions, get Sulfuras.\n<i>(25 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64426
+    ]
   },
   "64476": {
     "cardClass": "NEUTRAL",
@@ -48,7 +52,10 @@
     "name": "Blood Gem",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +1/+1.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "relatedCards": [
+      72652
+    ]
   },
   "70143": {
     "attack": 3,
@@ -70,7 +77,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70144": {
     "attack": 2,
@@ -92,7 +105,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70146": {
     "attack": 4,
@@ -112,6 +131,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70147": {
@@ -131,7 +153,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70148": {
     "attack": 2,
@@ -148,6 +176,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70150": {
@@ -168,6 +199,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70151": {
@@ -191,7 +225,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70152": {
     "attack": 6,
@@ -212,6 +252,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70153": {
@@ -230,7 +273,13 @@
     "techLevel": 2,
     "text": "<b>Once per Turn:</b> After you play a Quilboar, gain a <b>Blood Gem</b>.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70155": {
     "attack": 6,
@@ -246,7 +295,10 @@
     "name": "Prophet of the Boar",
     "set": "BATTLEGROUNDS",
     "text": "<b>Once per Turn:</b> After you play a Quilboar, gain 2 <b>Blood Gems</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "70157": {
     "attack": 2,
@@ -268,7 +320,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70158": {
     "attack": 4,
@@ -290,6 +345,9 @@
     "text": "<b>Windfury</b>, <b>Divine Shield</b>\n<b>Frenzy:</b> Gain <b>Divine Shield</b>.",
     "type": "MINION",
     "races": [
+      "QUILBOAR"
+    ],
+    "associatedTribes": [
       "QUILBOAR"
     ]
   },
@@ -333,6 +391,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70162": {
@@ -358,7 +419,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70163": {
     "attack": 3,
@@ -381,7 +448,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70164": {
     "attack": 6,
@@ -402,6 +475,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70165": {
@@ -425,7 +501,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70166": {
     "attack": 14,
@@ -446,6 +528,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70168": {
@@ -469,6 +554,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70171": {
@@ -491,7 +579,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70172": {
     "attack": 6,
@@ -511,6 +602,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70173": {
@@ -534,7 +628,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70174": {
     "attack": 8,
@@ -555,6 +652,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70175": {
@@ -578,7 +678,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70176": {
     "attack": 6,
@@ -601,7 +707,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70177": {
     "attack": 12,
@@ -622,6 +731,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70179": {
@@ -645,7 +757,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70181": {
     "attack": 8,
@@ -666,6 +781,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70184": {
@@ -689,7 +807,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70188": {
     "attack": 2,
@@ -711,7 +835,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70189": {
     "attack": 4,
@@ -731,6 +858,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70190": {
@@ -752,6 +882,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70191": {
@@ -773,6 +906,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70956": {
@@ -783,7 +919,10 @@
     "id": "BG20_HERO_101",
     "name": "Xyrella",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "70957": {
     "cardClass": "PRIEST",
@@ -807,7 +946,10 @@
     "name": "King of Quilboar",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Quilboar</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "QUILBOAR_POOL"
+    ]
   },
   "71458": {
     "battlegroundsHero": true,
@@ -817,7 +959,10 @@
     "id": "BG20_HERO_103",
     "name": "Death Speaker Blackthorn",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
   },
   "71459": {
     "cardClass": "NEUTRAL",
@@ -830,7 +975,10 @@
     "name": "Bloodbound",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive Hero Power</b>\nAfter you upgrade\nBob's Tavern, gain\n2 <b>Blood Gems</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      70136
+    ]
   },
   "71463": {
     "battlegroundsHero": true,
@@ -840,7 +988,10 @@
     "id": "BG20_HERO_201",
     "name": "Vol'jin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71464": {
     "cardClass": "NEUTRAL",
@@ -870,7 +1021,10 @@
     "name": "Mass Blood Gem",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minions +0/+0.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "relatedCards": [
+      70136
+    ]
   },
   "73635": {
     "cardClass": "NEUTRAL",

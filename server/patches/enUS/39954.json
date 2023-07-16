@@ -48,7 +48,11 @@
     "name": "Menagerist",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart the game with a\n1/1 Amalgam with\nall minion types.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      59202
+    ]
   },
   "59560": {
     "cardClass": "NEUTRAL",
@@ -122,7 +126,10 @@
     "name": "Reno the Relicologist",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60215": {
     "cardClass": "NEUTRAL",
@@ -161,7 +168,10 @@
     "name": "Millhouse Manastorm",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60376": {
     "cardClass": "NEUTRAL",

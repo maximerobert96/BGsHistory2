@@ -61,7 +61,8 @@
     "name": "Demon Hunter Training",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 7 times,\nBob always has 7 minions.\n<i>(7 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "62162": {
     "attack": 3,
@@ -135,7 +136,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62231": {
     "attack": 6,
@@ -169,7 +173,11 @@
     "name": "Buried Treasure",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n Dig for a Golden minion!\n<i>(4 Digs left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "GOLDEN_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "62269": {
     "cardClass": "NEUTRAL",
@@ -179,7 +187,8 @@
     "name": "Piggy Bank",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGain 1 Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "96762": {
     "artist": "Jim Nelson",
@@ -205,6 +214,9 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   }
 }

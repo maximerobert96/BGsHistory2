@@ -6,7 +6,10 @@
     "id": "TB_BaconShop_HERO_02",
     "name": "Galakrond",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "cardClass": "NEUTRAL",
@@ -16,7 +19,10 @@
     "id": "TB_BaconShop_HERO_14",
     "name": "Queen Wagtoggle",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58535": {
     "battlegroundsHero": true,
@@ -27,7 +33,10 @@
     "id": "TB_BaconShop_HERO_29",
     "name": "C'Thun",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59604": {
     "cardClass": "NEUTRAL",
@@ -57,7 +66,10 @@
     "name": "Recruitment Map",
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier 0</b>.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "62243": {
     "cardClass": "NEUTRAL",
@@ -67,7 +79,10 @@
     "name": "Pirate Parrrrty!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGet a Pirate. After you buy\na Pirate, your next Hero\nPower costs (1) less.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "63614": {
     "attack": 2,
@@ -206,7 +221,10 @@
     "name": "Pocket Change",
     "set": "BATTLEGROUNDS",
     "text": "Add 2 Gold Coins to your hand.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "relatedCards": [
+      58596
+    ]
   },
   "65235": {
     "cardClass": "NEUTRAL",
@@ -468,7 +486,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Add a Gold Coin to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ]
   },
   "65661": {
     "attack": 2,
@@ -521,7 +542,10 @@
     "name": "Warden of Old",
     "set": "BATTLEGROUNDS",
     "text": "<b>Deathrattle:</b> Add 2 Gold Coins to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ]
   },
   "65666": {
     "attack": 4,
@@ -623,7 +647,10 @@
     "id": "TB_BaconShop_HERO_92",
     "name": "Y'Shaarj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66197": {
     "cardClass": "NEUTRAL",
@@ -685,7 +712,8 @@
     "name": "Saturday C'Thuns!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt end of turn, give a friendly\nminion +1/+1. Repeat 0 times.\n<i>(Upgrades after each use!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "66424": {
     "cardClass": "NEUTRAL",
@@ -751,7 +779,10 @@
     "id": "TB_BaconShop_HERO_93",
     "name": "N'Zoth",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66484": {
     "cardClass": "NEUTRAL",
@@ -762,7 +793,11 @@
     "name": "Avatar of N'Zoth",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart the game with a 1/1\nFish that gains all your\n<b>Deathrattles</b> in combat.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      67213
+    ]
   },
   "66495": {
     "cardClass": "NEUTRAL",
@@ -932,6 +967,7 @@
     "rarity": "RARE",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When your turn starts, give your minions +1/+1.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   }
 }

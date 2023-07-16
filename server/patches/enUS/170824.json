@@ -38,7 +38,10 @@
     "name": "Illidan Stormrage",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57892": {
     "armor": 13,
@@ -53,7 +56,10 @@
     "name": "Ragnaros the Firelord",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57929": {
     "armor": 10,
@@ -68,7 +74,10 @@
     "name": "George the Fallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57946": {
     "armor": 10,
@@ -83,7 +92,10 @@
     "name": "Millificent Manastorm",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "58376": {
     "attack": 6,
@@ -106,7 +118,10 @@
     "set": "BOOMSDAY",
     "techLevel": 3,
     "text": "<b>Magnetic</b>\n<b>Deathrattle:</b> Summon three 2/2 Microbots.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      58377
+    ]
   },
   "59805": {
     "armor": 12,
@@ -121,7 +136,10 @@
     "name": "Yogg-Saron, Hope's End",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "armor": 12,
@@ -136,7 +154,10 @@
     "name": "Lord Jaraxxus",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60212": {
     "armor": 10,
@@ -151,7 +172,10 @@
     "name": "Reno Jackson",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60372": {
     "armor": 10,
@@ -166,7 +190,10 @@
     "name": "Fungalmancer Flurgl",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "61488": {
     "armor": 11,
@@ -181,7 +208,10 @@
     "name": "Alexstrasza",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61910": {
     "armor": 14,
@@ -196,7 +226,13 @@
     "name": "Aranna Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "61912": {
     "armor": 12,
@@ -211,7 +247,10 @@
     "name": "Kael'thas Sunstrider",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61914": {
     "armor": 12,
@@ -226,7 +265,10 @@
     "name": "Maiev Shadowsong",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62266": {
     "armor": 7,
@@ -241,7 +283,10 @@
     "name": "Captain Hooktusk",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63319": {
     "armor": 16,
@@ -256,7 +301,10 @@
     "name": "Mr. Bigglesworth",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64475": {
     "armor": 12,
@@ -271,7 +319,10 @@
     "name": "Chenvaala",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64480": {
     "armor": 12,
@@ -286,7 +337,10 @@
     "name": "Silas Darkmoon",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66483": {
     "armor": 13,
@@ -301,7 +355,10 @@
     "name": "N'Zoth",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "67356": {
     "armor": 12,
@@ -316,7 +373,10 @@
     "name": "Tickatus",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71916": {
     "armor": 7,
@@ -331,7 +391,10 @@
     "name": "Mutanus the Devourer",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76562": {
     "armor": 13,
@@ -346,7 +409,10 @@
     "name": "Scabbs Cutterbutter",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79618": {
     "armor": 13,
@@ -361,7 +427,13 @@
     "name": "Queen Azshara",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
   },
   "80239": {
     "armor": 12,
@@ -376,7 +448,10 @@
     "name": "Drek'Thar",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80832": {
     "armor": 10,
@@ -391,7 +466,10 @@
     "name": "Ini Stormcoil",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "82110": {
     "armor": 12,
@@ -406,7 +484,10 @@
     "name": "Onyxia",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "87689": {
     "attack": 5,
@@ -424,7 +505,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "When you sell this,\n<b>Discover</b> a Buddy.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "FOAF_BUDDY_POOL"
+    ]
   },
   "87690": {
     "attack": 10,
@@ -467,7 +551,13 @@
     "set": "BOOMSDAY",
     "techLevel": 3,
     "text": "<b>Magnetic</b>\n<b>Deathrattle:</b> Summon three 1/1 Microbots.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "relatedCards": [
+      96810
+    ]
   },
   "92969": {
     "artist": "Dave Allsop",
@@ -492,7 +582,10 @@
     "set": "BOOMSDAY",
     "techLevel": 4,
     "text": "<b>Magnetic</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "92970": {
     "artist": "Dave Allsop",
@@ -531,7 +624,10 @@
     "name": "Enhance-o Mechano",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97186": {
     "armor": 11,
@@ -546,7 +642,10 @@
     "name": "The Jailer",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97813": {
     "armor": 10,
@@ -561,7 +660,10 @@
     "name": "Professor Putricide",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "101345": {
     "armor": 20,
@@ -576,7 +678,10 @@
     "name": "E.T.C., Band Manager",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101684": {
     "artist": "Anton Zemskov",

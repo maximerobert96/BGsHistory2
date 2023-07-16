@@ -21,7 +21,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "2884": {
     "artist": "Dave Allsop",
@@ -47,7 +48,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "42446": {
     "artist": "James Ryman",
@@ -71,7 +73,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "42773": {
     "artist": "Luke Mancini",
@@ -96,7 +99,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "42777": {
     "artist": "J. Axer",
@@ -121,7 +125,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "42782": {
     "artist": "Mike Sass",
@@ -145,7 +150,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "53402": {
     "artist": "Ivan Fomin",
@@ -169,7 +175,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "54002": {
     "artist": "Steven Prescott",
@@ -194,7 +201,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "69661": {
     "artist": "Tom Fleming",
@@ -221,7 +229,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "69680": {
     "artist": "Alex Horley Orlandelli",
@@ -247,7 +256,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "74636": {
     "cardClass": "DEMONHUNTER",
@@ -284,6 +294,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "77536": {
@@ -306,6 +319,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "78607": {
@@ -347,7 +363,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "80087": {
     "artist": "Chris Rahn",
@@ -375,7 +392,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "84229": {
     "artist": "Matt Dixon",
@@ -452,7 +470,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "85152": {
     "artist": "Kleston Marques",
@@ -477,7 +496,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "85651": {
     "artist": "Alex Stone",
@@ -502,7 +522,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "86190": {
     "artist": "Kevin Sidharta",
@@ -528,7 +549,8 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 2
   },
   "96870": {
     "artist": "Zoltan Boros",
@@ -539,7 +561,10 @@
     "id": "BG24_HERO_204",
     "name": "Enhance-o Mechano",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96872": {
     "cardClass": "NEUTRAL",
@@ -573,7 +598,10 @@
     "name": "Enhance-a-matic",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of your turn,\nget an Enhanced Part\nthat gives +5/+5 and\na random bonus.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      97659
+    ]
   },
   "97659": {
     "cardClass": "NEUTRAL",
@@ -931,6 +959,7 @@
     "type": "MINION",
     "races": [
       "UNDEAD"
-    ]
+    ],
+    "undeadCreationPool": 1
   }
 }

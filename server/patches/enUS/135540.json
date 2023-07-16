@@ -127,7 +127,8 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77889": {
     "attack": 6,
@@ -174,7 +175,10 @@
     "id": "BG22_HERO_200",
     "name": "Ini Stormcoil",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "81572": {
     "cardClass": "NEUTRAL",
@@ -189,7 +193,11 @@
     "name": "MechGyver",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter 9 friendly minions\ndie, get a random Mech.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "82600": {
     "attack": 4,
@@ -247,7 +255,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Battlecry: Discover</b> a Buddy.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "FOAF_BUDDY_POOL"
+    ]
   },
   "88930": {
     "battlegroundsSkinParentId": 60211,

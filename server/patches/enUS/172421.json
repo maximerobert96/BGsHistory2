@@ -12,7 +12,10 @@
     "name": "Illidan Stormrage",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57893": {
     "armor": 9,
@@ -27,7 +30,10 @@
     "name": "The Rat King",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "armor": 10,
@@ -42,7 +48,10 @@
     "name": "Queen Wagtoggle",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57929": {
     "armor": 13,
@@ -57,7 +66,10 @@
     "name": "George the Fallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57944": {
     "armor": 18,
@@ -72,7 +84,10 @@
     "name": "A. F. Kay",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57946": {
     "armor": 14,
@@ -87,7 +102,10 @@
     "name": "Millificent Manastorm",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "57947": {
     "armor": 14,
@@ -102,7 +120,10 @@
     "name": "Patches the Pirate",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "59807": {
     "armor": 18,
@@ -117,7 +138,10 @@
     "name": "Lord Jaraxxus",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60211": {
     "armor": 10,
@@ -132,7 +156,10 @@
     "name": "Sir Finley Mrrgglton",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60366": {
     "armor": 6,
@@ -147,7 +174,10 @@
     "name": "Millhouse Manastorm",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61914": {
     "armor": 9,
@@ -162,7 +192,10 @@
     "name": "Maiev Shadowsong",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62268": {
     "armor": 11,
@@ -177,7 +210,10 @@
     "name": "Skycap'n Kragg",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64400": {
     "armor": 18,
@@ -192,7 +228,10 @@
     "name": "Rakanishu",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64480": {
     "armor": 10,
@@ -207,7 +246,10 @@
     "name": "Silas Darkmoon",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64485": {
     "armor": 10,
@@ -222,7 +264,10 @@
     "name": "Zephrys, the Great",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71908": {
     "armor": 12,
@@ -237,7 +282,10 @@
     "name": "Master Nguyen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74631": {
     "armor": 12,
@@ -252,7 +300,10 @@
     "name": "Kurtrus Ashfallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75702": {
     "armor": 14,
@@ -267,7 +318,10 @@
     "name": "Galewing",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76521": {
     "armor": 12,
@@ -282,7 +336,10 @@
     "name": "Sneed",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76562": {
     "armor": 10,
@@ -297,7 +354,10 @@
     "name": "Scabbs Cutterbutter",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77448": {
     "attack": 5,
@@ -361,7 +421,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you use 'Trash for Treasure', gain Gold equal to the removed minion's Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77777": {
     "attack": 10,
@@ -482,7 +543,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "When you 'Devour' this, spit its stats onto 2 extra minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77810": {
     "attack": 8,
@@ -558,7 +620,10 @@
     "name": "Tavish Stormpike",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "79719": {
     "armor": 12,
@@ -573,7 +638,10 @@
     "name": "Bru'kan",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "80832": {
     "armor": 15,
@@ -588,7 +656,10 @@
     "name": "Ini Stormcoil",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "82110": {
     "armor": 14,
@@ -603,7 +674,10 @@
     "name": "Onyxia",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "82600": {
     "attack": 4,
@@ -662,7 +736,10 @@
     "name": "Sire Denathrius",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96870": {
     "armor": 8,
@@ -677,7 +754,10 @@
     "name": "Enhance-o Mechano",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97186": {
     "armor": 15,
@@ -692,7 +772,10 @@
     "name": "The Jailer",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97813": {
     "armor": 14,
@@ -707,7 +790,10 @@
     "name": "Professor Putricide",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "98650": {
     "attack": 7,
@@ -770,7 +856,10 @@
     "name": "E.T.C., Band Manager",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101349": {
     "attack": 4,
@@ -875,7 +964,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Deathrattle:</b> Deal 7\ndamage to the 2 nearest\nenemy minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "101582": {
     "attack": 14,

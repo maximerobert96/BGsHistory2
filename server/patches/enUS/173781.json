@@ -12,7 +12,10 @@
     "name": "Edwin VanCleef",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57634": {
     "armor": 17,
@@ -27,7 +30,10 @@
     "name": "Illidan Stormrage",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57891": {
     "armor": 5,
@@ -42,7 +48,10 @@
     "name": "Trade Prince Gallywix",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "armor": 16,
@@ -57,7 +66,10 @@
     "name": "Queen Wagtoggle",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58027": {
     "armor": 7,
@@ -72,7 +84,10 @@
     "name": "Shudderwock",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58534": {
     "armor": 13,
@@ -87,7 +102,10 @@
     "name": "Infinite Toki",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "armor": 13,
@@ -102,7 +120,10 @@
     "name": "Lord Jaraxxus",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60367": {
     "armor": 12,
@@ -117,7 +138,10 @@
     "name": "Tess Greymane",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60369": {
     "armor": 14,
@@ -132,7 +156,10 @@
     "name": "Deathwing",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60370": {
     "armor": 8,
@@ -147,7 +174,10 @@
     "name": "Ysera",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61488": {
     "armor": 9,
@@ -162,7 +192,10 @@
     "name": "Alexstrasza",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61910": {
     "armor": 10,
@@ -177,7 +210,13 @@
     "name": "Aranna Starseeker",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
   },
   "63602": {
     "armor": 10,
@@ -192,7 +231,10 @@
     "name": "Lord Barov",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64475": {
     "armor": 10,
@@ -207,7 +249,10 @@
     "name": "Chenvaala",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64480": {
     "armor": 7,
@@ -222,7 +267,10 @@
     "name": "Silas Darkmoon",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64485": {
     "armor": 13,
@@ -237,7 +285,10 @@
     "name": "Zephrys, the Great",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "66483": {
     "armor": 17,
@@ -252,7 +303,10 @@
     "name": "N'Zoth",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74631": {
     "armor": 15,
@@ -267,7 +321,10 @@
     "name": "Kurtrus Ashfallen",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74646": {
     "armor": 16,
@@ -282,7 +339,10 @@
     "name": "Tamsin Roame",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76521": {
     "armor": 20,
@@ -297,7 +357,10 @@
     "name": "Sneed",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77803": {
     "attack": 4,
@@ -350,7 +413,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "When you 'Devour' this, spit its stats onto 1 extra minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "77810": {
     "attack": 10,
@@ -416,7 +480,10 @@
     "name": "Ini Stormcoil",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "86013": {
     "armor": 19,
@@ -431,7 +498,10 @@
     "name": "Ozumat",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86291": {
     "armor": 10,
@@ -446,7 +516,10 @@
     "name": "Heistbaron Togwaggle",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97813": {
     "armor": 10,
@@ -461,7 +534,10 @@
     "name": "Professor Putricide",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "98726": {
     "armor": 15,
@@ -477,7 +553,11 @@
     "name": "Teron Gorefiend",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ]
   },
   "101345": {
     "armor": 15,
@@ -492,6 +572,9 @@
     "name": "E.T.C., Band Manager",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

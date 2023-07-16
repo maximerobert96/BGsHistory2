@@ -86,7 +86,10 @@
     "id": "TB_BaconShop_HERO_94",
     "name": "Tickatus",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "67357": {
     "cardClass": "NEUTRAL",
@@ -103,7 +106,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nEvery 4 turns, <b>Discover</b>\na Darkmoon Prize.\n<i>(0 turns left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DARKMOON_PRIZE_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "67493": {
     "attack": 2,
@@ -131,7 +138,10 @@
     "id": "TB_BaconShop_HERO_95",
     "name": "Greybough",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "67554": {
     "cardClass": "NEUTRAL",
@@ -167,6 +177,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "relatedCards": [
+      67729
     ]
   },
   "67729": {
@@ -209,6 +222,12 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "relatedCards": [
+      96792
+    ]
   }
 }

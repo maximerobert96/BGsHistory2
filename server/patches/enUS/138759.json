@@ -8,6 +8,9 @@
     "id": "BG21_HERO_000",
     "name": "Cariel Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

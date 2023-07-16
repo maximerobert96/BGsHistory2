@@ -113,7 +113,10 @@
     "id": "TB_BaconShop_HERO_34",
     "name": "Patchwerk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -124,7 +127,8 @@
     "name": "All Patched Up",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nStart with 60 Health \ninstead of 40.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59937": {
     "attack": 2,
@@ -161,7 +165,10 @@
     "name": "Gone Fishing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After you sell\n4 minions, get a random\nMurloc. <i>(4 left.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60621": {
     "attack": 3,
@@ -282,7 +289,8 @@
     "name": "Spectral Sight",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBob's Tavern always\nhas 7 minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "64401": {
     "cardClass": "NEUTRAL",
@@ -356,6 +364,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "72071": {
@@ -377,6 +388,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      58596
     ]
   },
   "72922": {
@@ -434,6 +448,12 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "relatedCards": [
+      96788
     ]
   },
   "75174": {
@@ -474,7 +494,10 @@
     "name": "Eastern Plaguelands",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> In 5 turns, your\nnext Tavern Tier upgrade\ncosts (6) less. <i>(5 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "76185": {
     "attack": 3,
@@ -618,7 +641,10 @@
     "id": "BG23_HERO_303",
     "name": "Murloc Holmes",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "89011": {
     "cost": 0,
@@ -670,7 +696,8 @@
     "name": "Witness Protection",
     "set": "BATTLEGROUNDS",
     "text": "<b>Quest:</b> Have a friendly <b>Taunt</b> minion attacked {0} times.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "bannedFromQuests": true
   },
   "89057": {
     "cost": 0,
@@ -962,7 +989,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Your first <b>Battlecry</b> each turn triggers 2 extra times.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "90865": {
     "cardClass": "NEUTRAL",
@@ -1018,7 +1046,10 @@
     "name": "Ghastly Mask",
     "set": "BATTLEGROUNDS",
     "text": "Add '{0}' to your hand. Your end of turn effects trigger twice.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "pools": [
+      "END_OF_TURN_POOL"
+    ]
   },
   "91055": {
     "attack": 5,
@@ -1109,6 +1140,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "92406": {
@@ -1124,7 +1158,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "If you lost your last combat, this minion sells for 5 Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92408": {
     "attack": 6,
@@ -1420,7 +1457,10 @@
     "id": "BG24_HERO_100",
     "name": "Sire Denathrius",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92961": {
     "cardClass": "NEUTRAL",
@@ -1433,7 +1473,12 @@
     "name": "Whodunit?",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> At the start\nof the game, choose\none of two <b>Quests</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "QUEST_POOL",
+      "REWARD_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "92966": {
     "cardClass": "NEUTRAL",
@@ -1504,7 +1549,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you <b>Refresh</b> 5 times, find the <b>Golden</b> Monkey! <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      93101
+    ]
   },
   "93101": {
     "attack": 6,
@@ -1538,7 +1589,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you <b>Refresh</b> 5 times, find two <b>Golden</b> Monkeys! <i>(5 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      93101
+    ]
   },
   "93321": {
     "attack": 3,
@@ -1560,6 +1614,9 @@
     "text": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\nminion in Bob's Tavern\nto gain its stats.",
     "type": "MINION",
     "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
       "DEMON"
     ]
   },
@@ -1614,6 +1671,9 @@
     "text": "Minions in Bob's Tavern have +2/+2.",
     "type": "MINION",
     "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
       "DEMON"
     ]
   },
@@ -1719,6 +1779,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "95010": {
@@ -1754,7 +1817,8 @@
     "name": "To The Moon... Almost",
     "set": "BATTLEGROUNDS",
     "text": "Skip to Tavern Tier 5. You can't upgrade to Tavern Tier 6.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "95149": {
     "cardClass": "NEUTRAL",
@@ -1765,7 +1829,10 @@
     "name": "Alter Ego",
     "set": "BATTLEGROUNDS",
     "text": "[x]Even Tier minions in\nBob's Tavern have +6/+6.\n<i>(Swaps to Odd next turn!)</i>",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      96137
+    ]
   },
   "95309": {
     "artist": "Mooncolony",
@@ -2129,6 +2196,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "relatedCards": [
+      97426
     ]
   },
   "95998": {
@@ -2153,6 +2223,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "relatedCards": [
+      95999
     ]
   },
   "95999": {
@@ -2193,7 +2266,8 @@
     "name": "A Good Time",
     "set": "BATTLEGROUNDS",
     "text": "[x]You have unlimited Gold\nbut only 15 second turns.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "96147": {
     "cardClass": "NEUTRAL",
@@ -2204,7 +2278,8 @@
     "name": "Avatar of the Coin",
     "set": "BATTLEGROUNDS",
     "text": "Combat is replaced with a coin flip.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "96148": {
     "cardClass": "NEUTRAL",
@@ -2215,7 +2290,8 @@
     "name": "9 Lives",
     "set": "BATTLEGROUNDS",
     "text": "Set your Health to 1. Add 8 'Iceblocks' to your hand.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "96149": {
     "cardClass": "NEUTRAL",
@@ -2226,7 +2302,8 @@
     "name": "Totemic Tavern",
     "set": "BATTLEGROUNDS",
     "text": "[x]The Totem minion type\nis added to Bob's Tavern.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "96150": {
     "cardClass": "NEUTRAL",
@@ -2237,7 +2314,8 @@
     "name": "Purified Shard",
     "set": "BATTLEGROUNDS",
     "text": "Win the game.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "96151": {
     "cardClass": "NEUTRAL",
@@ -2248,7 +2326,8 @@
     "name": "Un-Murloc Your Potential",
     "set": "BATTLEGROUNDS",
     "text": "Transform your hero into a Murloc.",
-    "type": "BATTLEGROUND_QUEST_REWARD"
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "bannedFromRewards": true
   },
   "96152": {
     "cardClass": "NEUTRAL",

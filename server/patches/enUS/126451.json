@@ -62,7 +62,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61060": {
     "attack": 3,
@@ -109,7 +112,13 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "relatedCards": [
+      62213
+    ]
   },
   "62257": {
     "attack": 8,
@@ -170,6 +179,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "relatedCards": [
+      62215
     ]
   },
   "63782": {
@@ -216,7 +228,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70152": {
     "attack": 6,
@@ -237,6 +255,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70162": {
@@ -262,7 +283,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70168": {
     "attack": 10,
@@ -285,6 +312,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70171": {
@@ -307,7 +337,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70172": {
     "attack": 6,
@@ -327,6 +360,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70184": {
@@ -350,7 +386,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70191": {
     "attack": 10,
@@ -371,6 +413,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "72388": {
@@ -428,7 +473,10 @@
     "id": "BG20_HERO_282",
     "name": "Tamsin Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74906": {
     "attack": 10,
@@ -523,7 +571,8 @@
     "name": "Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +4/+4 for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77344": {
     "cardClass": "WARRIOR",
@@ -533,7 +582,8 @@
     "name": "Magic Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +8/+8 for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77345": {
     "cardClass": "WARRIOR",
@@ -543,7 +593,8 @@
     "name": "Rare Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +16/+16 for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77435": {
     "cardClass": "WARRIOR",
@@ -553,7 +604,8 @@
     "name": "Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 2 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77436": {
     "cardClass": "WARRIOR",
@@ -563,7 +615,8 @@
     "name": "Magic Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 4 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77437": {
     "cardClass": "WARRIOR",
@@ -573,7 +626,8 @@
     "name": "Rare Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 8 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77438": {
     "cardClass": "WARRIOR",
@@ -583,7 +637,8 @@
     "name": "Unique Sigil of Hell",
     "set": "BATTLEGROUNDS",
     "text": "<b>Start of Combat:</b> Deal 16 damage to 3 random enemy minions.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77518": {
     "cardClass": "WARRIOR",
@@ -593,7 +648,8 @@
     "name": "Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +2 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77520": {
     "cardClass": "WARRIOR",
@@ -603,7 +659,8 @@
     "name": "Magic Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +4 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77521": {
     "cardClass": "WARRIOR",
@@ -613,7 +670,8 @@
     "name": "Rare Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +8 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77522": {
     "cardClass": "WARRIOR",
@@ -623,7 +681,8 @@
     "name": "Unique Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +16 Attack for next combat only.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77911": {
     "cardClass": "WARLOCK",

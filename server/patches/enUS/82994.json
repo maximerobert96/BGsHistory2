@@ -19,7 +19,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70146": {
     "attack": 2,
@@ -39,6 +45,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70153": {
@@ -57,7 +66,13 @@
     "techLevel": 2,
     "text": "<b>Once per Turn:</b> After you play a Quilboar, gain a <b>Blood Gem</b>.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70155": {
     "attack": 4,
@@ -73,7 +88,10 @@
     "name": "Prophet of the Boar",
     "set": "BATTLEGROUNDS",
     "text": "<b>Once per Turn:</b> After you play a Quilboar, gain 2 <b>Blood Gems</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "70157": {
     "attack": 1,
@@ -95,7 +113,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70161": {
     "attack": 2,
@@ -115,6 +136,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70165": {
@@ -138,7 +162,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70166": {
     "attack": 8,
@@ -159,6 +189,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70171": {
@@ -181,7 +214,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70172": {
     "attack": 6,
@@ -201,6 +237,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70173": {
@@ -224,7 +263,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70174": {
     "attack": 6,
@@ -245,6 +287,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70184": {
@@ -268,7 +313,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70188": {
     "attack": 2,
@@ -290,7 +341,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70189": {
     "attack": 4,
@@ -310,6 +364,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70191": {
@@ -331,6 +388,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   }
 }

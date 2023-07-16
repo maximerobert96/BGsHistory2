@@ -54,7 +54,10 @@
     "id": "TB_BaconShop_HERO_71",
     "name": "Jandice Barov",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63602": {
     "battlegroundsHero": true,
@@ -65,7 +68,10 @@
     "id": "TB_BaconShop_HERO_72",
     "name": "Lord Barov",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63604": {
     "battlegroundsHero": true,
@@ -76,7 +82,10 @@
     "id": "TB_BaconShop_HERO_74",
     "name": "Forest Warden Omu",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63605": {
     "cardClass": "NEUTRAL",
@@ -344,6 +353,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "UNDEAD",
+      "MECHANICAL"
+    ]
   }
 }

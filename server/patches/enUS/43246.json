@@ -43,6 +43,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "relatedCards": [
+      58410
     ]
   },
   "59186": {
@@ -98,7 +101,8 @@
     "name": "Brick by Brick",
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a random friendly minion +4 Health.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -112,7 +116,10 @@
     "name": "King of Beasts",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "BEAST_POOL"
+    ]
   },
   "59852": {
     "cardClass": "NEUTRAL",
@@ -126,7 +133,10 @@
     "name": "King of Murlocs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "59853": {
     "cardClass": "NEUTRAL",
@@ -140,7 +150,10 @@
     "name": "King of Mechs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ]
   },
   "59854": {
     "cardClass": "NEUTRAL",
@@ -154,7 +167,10 @@
     "name": "King of Demons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DEMON_POOL"
+    ]
   },
   "60216": {
     "cardClass": "NEUTRAL",
@@ -175,7 +191,10 @@
     "id": "TB_BaconShop_HERO_55",
     "name": "Fungalmancer Flurgl",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "60405": {
     "cardClass": "NEUTRAL",
@@ -200,7 +219,10 @@
     "name": "Gone Fishing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you sell a Murloc,\nadd a random Murloc to\nBob's Tavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60450": {
     "cardClass": "NEUTRAL",
@@ -214,7 +236,8 @@
     "name": "Adventure!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAt the start of the game,\n<b>Discover</b> a Hero Power.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "60498": {
     "attack": 5,
@@ -276,7 +299,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60630": {
     "attack": 4,
@@ -302,7 +328,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60643": {
     "attack": 10,
@@ -402,7 +431,10 @@
     "name": "King of Dragons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Dragon</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "61077": {
     "attack": 2,
@@ -449,7 +481,10 @@
     "name": "Dream Portal",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAt the start of your turn,\nadd a Dragon to Bob's\nTavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
   },
   "96793": {
     "artist": "Milivoj Ceran",
@@ -475,6 +510,9 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      96795
+    ]
   }
 }

@@ -64,7 +64,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62231": {
     "attack": 10,
@@ -147,7 +150,13 @@
     "techLevel": 2,
     "text": "<b>Once per Turn:</b> After you play a Quilboar, gain a <b>Blood Gem</b>.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70155": {
     "attack": 6,
@@ -163,7 +172,10 @@
     "name": "Prophet of the Boar",
     "set": "BATTLEGROUNDS",
     "text": "<b>Once per Turn:</b> After you play a Quilboar, gain 2 <b>Blood Gems</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
   },
   "70157": {
     "attack": 2,
@@ -185,7 +197,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70161": {
     "attack": 4,
@@ -205,6 +220,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70165": {
@@ -228,7 +246,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70166": {
     "attack": 8,
@@ -249,6 +273,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70171": {
@@ -271,7 +298,10 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      70136
+    ]
   },
   "70172": {
     "attack": 8,
@@ -291,6 +321,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70184": {
@@ -314,7 +347,13 @@
     "races": [
       "QUILBOAR"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
   },
   "70191": {
     "attack": 8,
@@ -335,6 +374,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "72042": {
@@ -357,7 +399,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72045": {
     "attack": 7,
@@ -382,7 +427,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "72059": {
     "attack": 2,
@@ -404,7 +452,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "72066": {
     "attack": 2,
@@ -462,7 +513,10 @@
     "techLevel": 2,
     "text": "After a friendly Dragon gains Attack, give it +1 Health.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "72825": {
     "attack": 14,
@@ -626,7 +680,10 @@
     "name": "Eastern Plaguelands",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> In 5 turns, your\nnext Tavern Tier upgrade\ncosts (5) less. <i>(5 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "76566": {
     "attack": 5,

@@ -7,7 +7,10 @@
     "name": "Burbling",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      76964
+    ]
   },
   "58527": {
     "cardClass": "NEUTRAL",
@@ -72,7 +75,8 @@
     "name": "Brick by Brick",
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a random friendly minion +3 Health.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59863": {
     "cardClass": "NEUTRAL",

@@ -90,7 +90,8 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77889": {
     "attack": 6,
@@ -127,7 +128,11 @@
     "name": "MechGyver",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter 12 friendly minions\ndie, get a random Mech.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "82600": {
     "attack": 4,
@@ -277,6 +282,9 @@
     "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
     "type": "MINION",
     "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
       "MURLOC"
     ]
   }

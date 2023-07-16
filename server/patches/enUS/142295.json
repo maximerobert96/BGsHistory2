@@ -97,6 +97,9 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
+    ],
+    "relatedCards": [
+      49168
     ]
   },
   "57742": {
@@ -146,6 +149,9 @@
     "text": "<b>Battlecry:</b> Gain +1 Health for each Health your hero is missing.",
     "type": "MINION",
     "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
       "DEMON"
     ]
   },
@@ -245,7 +251,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63614": {
     "attack": 2,
@@ -352,6 +361,12 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70146": {
@@ -373,6 +388,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "71455": {
@@ -383,7 +401,8 @@
     "name": "For the Horde!",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give +2 Attack to the\nnext minion you buy.\n <i>(Upgrades each turn!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "72063": {
     "attack": 3,
@@ -485,7 +504,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (3):</b> Give\nadjacent minions\n+2/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75141": {
     "attack": 8,
@@ -553,7 +575,10 @@
     "id": "BG23_HERO_304",
     "name": "Lady Vashj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "85126": {
     "cardClass": "NEUTRAL",
@@ -566,7 +591,10 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Discover</b> a <b>Spellcraft</b> spell\nof your Tier or lower.\n<b>Passive:</b> Your first one\n  each turn is permanent.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "SPELLCRAFT_POOL"
+    ]
   },
   "89017": {
     "cardClass": "NEUTRAL",
@@ -757,7 +785,10 @@
     "targetingArrowText": "Grant <b>Taunt</b>.",
     "techLevel": 2,
     "text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a\nminion <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92879": {
     "artist": "Jim Nelson",
@@ -803,7 +834,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Deal 3 damage\nto all minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92881": {
     "artist": "Ivan Fomin",
@@ -844,7 +878,10 @@
     "targetingArrowText": "Set stats to 15.",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> Set a minion's Attack and Health to 15.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92883": {
     "artist": "Dave Allsop",
@@ -930,6 +967,9 @@
     "text": "<b>Magnetic</b>",
     "type": "MINION",
     "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
       "MECHANICAL"
     ]
   },
@@ -1083,7 +1123,10 @@
     "id": "TB_BaconShop_HERO_59_SKIN_F2",
     "name": "Fire Spinner Aranna",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "relatedCards": [
+      94527
+    ]
   },
   "94527": {
     "artist": "Mooncolony",

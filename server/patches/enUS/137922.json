@@ -53,6 +53,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
     ]
   },
   "61444": {
@@ -138,6 +141,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70159": {
@@ -186,6 +192,12 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70179": {
@@ -208,6 +220,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70188": {
@@ -230,6 +245,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "70189": {
@@ -251,6 +269,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "72044": {
@@ -278,7 +299,10 @@
     "id": "BG21_HERO_000",
     "name": "Cariel Roame",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77341": {
     "cardClass": "WARRIOR",
@@ -288,7 +312,8 @@
     "name": "Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +4/+4 until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77344": {
     "cardClass": "WARRIOR",
@@ -298,7 +323,8 @@
     "name": "Magic Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +8/+8 until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77345": {
     "cardClass": "WARRIOR",
@@ -308,7 +334,8 @@
     "name": "Rare Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion +16/+16 until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77346": {
     "cardClass": "WARRIOR",
@@ -318,7 +345,8 @@
     "name": "Unique Claws of Terror",
     "set": "BATTLEGROUNDS",
     "text": "[x]Double a friendly\nminion's Attack and\nHealth until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77347": {
     "cardClass": "WARRIOR",
@@ -331,7 +359,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Windfury</b> until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77348": {
     "cardClass": "WARRIOR",
@@ -344,7 +373,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Reborn</b> until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77351": {
     "cardClass": "WARRIOR",
@@ -357,7 +387,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Divine Shield</b> until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77353": {
     "cardClass": "WARRIOR",
@@ -372,7 +403,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n<b>Windfury</b>, <b>Reborn</b>, and\n<b>Divine Shield</b> until\nnext turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77475": {
     "attack": 1,
@@ -400,7 +432,8 @@
     "name": "Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +2 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 1
   },
   "77520": {
     "cardClass": "WARRIOR",
@@ -410,7 +443,8 @@
     "name": "Magic Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +4 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 2
   },
   "77521": {
     "cardClass": "WARRIOR",
@@ -420,7 +454,8 @@
     "name": "Rare Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +8 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 3
   },
   "77522": {
     "cardClass": "WARRIOR",
@@ -430,7 +465,8 @@
     "name": "Unique Hellfire Hooves",
     "set": "BATTLEGROUNDS",
     "text": "Give your minions +16 Attack until next turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "battlegroundsDiabloPrizeTurn": 4
   },
   "77728": {
     "attack": 2,
@@ -458,7 +494,13 @@
     "id": "BG22_HERO_007",
     "name": "Queen Azshara",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
   },
   "79619": {
     "collectionText": "[x]<b>Passive.</b> When your\nwarband reaches 30 total\nAttack, begin your Naga\nConquest. <i>({0} left!)</i>",
@@ -472,7 +514,8 @@
     "name": "Azshara's Ambition",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> When your\nwarband reaches 30 total\nAttack, begin your Naga\nConquest.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "80007": {
     "cardClass": "NEUTRAL",
@@ -485,7 +528,10 @@
     "name": "Naga Conquest",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Discover</b> a Naga.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "NAGA_POOL"
+    ]
   },
   "80244": {
     "cardClass": "NEUTRAL",
@@ -527,6 +573,12 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      83914
     ]
   },
   "80739": {
@@ -548,6 +600,9 @@
     "text": "[x]<b>Once per Turn:</b>\nAfter you cast a spell,\ngain +2 Health.",
     "type": "MINION",
     "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
       "NAGA"
     ]
   },
@@ -571,6 +626,12 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      58596
     ]
   },
   "80741": {
@@ -592,6 +653,9 @@
     "text": "After you cast a <b>Spellcraft</b> spell on a minion,\ngive it +2/+2.",
     "type": "MINION",
     "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
       "NAGA"
     ]
   },
@@ -618,6 +682,12 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      83988
     ]
   },
   "80743": {
@@ -662,6 +732,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      89017
     ]
   },
   "80745": {
@@ -687,6 +760,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      84374
     ]
   },
   "80746": {
@@ -713,6 +789,12 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      84362
     ]
   },
   "80747": {
@@ -734,6 +816,9 @@
     "text": "[x]The first <b>Spellcraft</b> spell\ncast on this each turn\nis permanent.",
     "type": "MINION",
     "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
       "NAGA"
     ]
   },
@@ -757,6 +842,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80749": {
@@ -779,6 +867,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      82323
     ]
   },
   "80750": {
@@ -800,6 +891,9 @@
     "text": "<b>Start of Combat:</b> Double this minion's stats.",
     "type": "MINION",
     "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
       "NAGA"
     ]
   },
@@ -824,6 +918,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80752": {
@@ -847,6 +944,12 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "pools": [
+      "SPELLCRAFT_POOL"
     ]
   },
   "80753": {
@@ -869,7 +972,16 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Spellcraft: Discover</b> a Naga.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "pools": [
+      "NAGA_POOL"
+    ],
+    "relatedCards": [
+      86981
+    ]
   },
   "80754": {
     "attack": 3,
@@ -912,6 +1024,10 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      92260,
+      70136
     ]
   },
   "80757": {
@@ -933,6 +1049,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      83919
     ]
   },
   "80758": {
@@ -999,6 +1118,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      83991
     ]
   },
   "80761": {
@@ -1041,6 +1163,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      89018
     ]
   },
   "80763": {
@@ -1065,6 +1190,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      84379
     ]
   },
   "80764": {
@@ -1090,6 +1218,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      85856
     ]
   },
   "80765": {
@@ -1153,6 +1284,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      82699
     ]
   },
   "80768": {
@@ -1218,6 +1352,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "pools": [
+      "SPELLCRAFT_POOL"
     ]
   },
   "80771": {
@@ -1239,7 +1376,13 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Spellcraft: Discover</b> 2 Naga.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "NAGA_POOL"
+    ],
+    "relatedCards": [
+      86987
+    ]
   },
   "80772": {
     "attack": 6,
@@ -1280,6 +1423,9 @@
     "type": "MINION",
     "races": [
       "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
     ]
   },
   "82323": {
@@ -1311,6 +1457,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "relatedCards": [
+      58596
     ]
   },
   "82699": {
@@ -1629,7 +1778,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Poisonous</b>. <b>Start of Combat:</b>\nFor each of your minion\ntypes gain +5/+5, <b>Windfury</b>,\n   <b>Divine Shield</b>, or <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "86981": {
     "cardClass": "NEUTRAL",
@@ -1705,6 +1857,9 @@
     "text": "At the end of your turn, adjacent Murlocs trigger their <b>Battlecries</b>.",
     "type": "MINION",
     "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
       "MURLOC"
     ]
   },
@@ -1785,7 +1940,10 @@
     "name": "King of Naga",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you buy a\n<b>Naga</b>, give it +2/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "NAGA_POOL"
+    ]
   },
   "89992": {
     "cardClass": "NEUTRAL",
@@ -1813,7 +1971,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Deathrattle:</b> Destroy the minion that killed this.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "90430": {
     "attack": 12,
@@ -1852,7 +2013,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "undeadCreationPool": 1
   },
   "92260": {
     "cardClass": "NEUTRAL",
@@ -1862,7 +2024,10 @@
     "name": "Darkgaze Mass Blood Gem",
     "set": "BATTLEGROUNDS",
     "text": "Give certain friendly minions +0/+0.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "relatedCards": [
+      70136
+    ]
   },
   "96780": {
     "artist": "Andrew Hou",
@@ -1885,6 +2050,7 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "undeadCreationPool": 1
   }
 }

@@ -960,7 +960,8 @@
     "set": "GILNEAS",
     "text": "After a friendly minion attacks, gain +1 Attack.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "undeadCreationPool": 1
   },
   "48100": {
     "artist": "Adam Byrne",
@@ -987,7 +988,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "relatedCards": [
+      49278
+    ]
   },
   "48842": {
     "artist": "Vladimir Kafanov",
@@ -1045,7 +1049,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "relatedCards": [
+      48885
+    ]
   },
   "49168": {
     "artist": "Hideaki Takamura",
@@ -1087,7 +1094,10 @@
       "MECHANICAL"
     ],
     "techLevel": 4,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      49168
+    ]
   },
   "49278": {
     "artist": "Sam Nielson",
@@ -1132,7 +1142,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "relatedCards": [
+      50359
+    ]
   },
   "50359": {
     "artist": "Luca Zontini",
@@ -1170,7 +1183,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "pools": [
+      "DEATHRATTLE_POOL"
+    ]
   },
   "53013": {
     "attack": 0,
@@ -1340,7 +1356,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "relatedCards": [
+      57337
+    ]
   },
   "57337": {
     "attack": 2,
@@ -1377,7 +1396,10 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "relatedCards": [
+      57339
+    ]
   },
   "57339": {
     "attack": 2,
@@ -1415,7 +1437,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "relatedCards": [
+      57341
+    ]
   },
   "57341": {
     "attack": 6,
@@ -1452,7 +1477,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "relatedCards": [
+      57408
+    ]
   },
   "57403": {
     "attack": 6,
@@ -1569,7 +1597,10 @@
     "id": "TB_BaconShop_HERO_10",
     "name": "Trade Prince Gallywix",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57892": {
     "cardClass": "NEUTRAL",
@@ -1578,7 +1609,10 @@
     "id": "TB_BaconShop_HERO_11",
     "name": "Ragnaros the Firelord",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57893": {
     "cardClass": "NEUTRAL",
@@ -1588,7 +1622,10 @@
     "name": "The Rat King",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "cardClass": "NEUTRAL",
@@ -1598,7 +1635,10 @@
     "name": "Queen Wagtoggle",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57929": {
     "cardClass": "NEUTRAL",
@@ -1608,7 +1648,10 @@
     "name": "George the Fallen",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57944": {
     "cardClass": "NEUTRAL",
@@ -1618,7 +1661,10 @@
     "name": "A. F. Kay",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57945": {
     "cardClass": "NEUTRAL",
@@ -1641,7 +1687,10 @@
     "name": "Millificent Manastorm",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "57947": {
     "cardClass": "NEUTRAL",
@@ -1650,7 +1699,10 @@
     "id": "TB_BaconShop_HERO_18",
     "name": "Patches the Pirate",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "57949": {
     "cardClass": "NEUTRAL",
@@ -1719,7 +1771,10 @@
     "name": "The Great Akazamzarak",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58022": {
     "cardClass": "NEUTRAL",
@@ -1732,7 +1787,10 @@
     },
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\n<b>Discover</b> a <b>Secret</b>.\nPut it into the battlefield.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "SECRET_POOL"
+    ]
   },
   "58024": {
     "cardClass": "NEUTRAL",
@@ -1742,7 +1800,10 @@
     "name": "The Lich King",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58027": {
     "cardClass": "NEUTRAL",
@@ -1752,7 +1813,10 @@
     "name": "Shudderwock",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58028": {
     "cardClass": "NEUTRAL",
@@ -1762,7 +1826,10 @@
     "name": "Burbling",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      76964
+    ]
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -1782,7 +1849,10 @@
     "name": "Lich Baz'hial",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58138": {
     "attack": 2,
@@ -1882,7 +1952,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "relatedCards": [
+      58366
+    ]
   },
   "58366": {
     "attack": 2,
@@ -1919,7 +1992,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "relatedCards": [
+      58368
+    ]
   },
   "58368": {
     "attack": 2,
@@ -1977,7 +2053,10 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "relatedCards": [
+      58373
+    ]
   },
   "58373": {
     "attack": 2,
@@ -2033,7 +2112,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "relatedCards": [
+      58377
+    ]
   },
   "58377": {
     "attack": 2,
@@ -2066,7 +2148,8 @@
     "set": "BATTLEGROUNDS",
     "text": "After a friendly minion attacks, gain +2 Attack.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "undeadCreationPool": 1
   },
   "58380": {
     "attack": 4,
@@ -2185,7 +2268,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "relatedCards": [
+      58389
+    ]
   },
   "58389": {
     "attack": 16,
@@ -2223,7 +2309,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "relatedCards": [
+      58391
+    ]
   },
   "58391": {
     "attack": 0,
@@ -2267,7 +2356,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "relatedCards": [
+      58393
+    ]
   },
   "58393": {
     "attack": 4,
@@ -2433,7 +2525,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "relatedCards": [
+      58410
+    ]
   },
   "58410": {
     "attack": 4,
@@ -2491,7 +2586,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "relatedCards": [
+      60232
+    ]
   },
   "58413": {
     "attack": 10,
@@ -2512,7 +2610,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "relatedCards": [
+      58414
+    ]
   },
   "58414": {
     "attack": 2,
@@ -2591,7 +2692,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "pools": [
+      "DEATHRATTLE_POOL"
+    ]
   },
   "58425": {
     "attack": 12,
@@ -2631,7 +2735,10 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "relatedCards": [
+      57299
+    ]
   },
   "58428": {
     "attack": 18,
@@ -2666,7 +2773,10 @@
     "name": "Sindragosa",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58499": {
     "cardClass": "HUNTER",
@@ -2683,7 +2793,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58500": {
     "cardClass": "HUNTER",
@@ -2697,7 +2808,8 @@
     "rarity": "EPIC",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58502": {
     "cardClass": "MAGE",
@@ -2711,7 +2823,8 @@
     "rarity": "EPIC",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, summon a copy of it.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58503": {
     "cardClass": "MAGE",
@@ -2742,7 +2855,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions is attacked, give it <b>Divine Shield</b>.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58507": {
     "cardClass": "PALADIN",
@@ -2756,7 +2870,8 @@
     "rarity": "COMMON",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58509": {
     "cardClass": "PALADIN",
@@ -2770,7 +2885,8 @@
     "rarity": "COMMON",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When a friendly minion dies, return it to life with 1 Health.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58510": {
     "cardClass": "PALADIN",
@@ -2801,7 +2917,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58527": {
     "cardClass": "NEUTRAL",
@@ -2821,7 +2938,10 @@
     "name": "Infinite Toki",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58536": {
     "cardClass": "NEUTRAL",
@@ -2911,7 +3031,11 @@
     "name": "Menagerist",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart the game with a\n1/1 Amalgam that has\nall minion types.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      59202
+    ]
   },
   "59202": {
     "attack": 1,
@@ -2938,7 +3062,10 @@
     "name": "The Curator",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59397": {
     "cardClass": "NEUTRAL",
@@ -2948,7 +3075,10 @@
     "name": "Patchwerk",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -2958,7 +3088,8 @@
     "name": "All Patched Up",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart with 60 Health \ninstead of 40.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59485": {
     "attack": 4,
@@ -3358,7 +3489,10 @@
     "text": "After you play a Demon, deal 1 damage to your hero and gain +2/+2.",
     "type": "MINION",
     "techLevel": 1,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59679": {
     "attack": 2,
@@ -3440,7 +3574,13 @@
       "BEAST"
     ],
     "techLevel": 6,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "pools": [
+      "DEATHRATTLE_POOL"
+    ]
   },
   "59707": {
     "attack": 2,
@@ -3458,7 +3598,10 @@
     "text": "At the end of your turn,\ngive a random friendly Mech, Murloc, Demon, and Beast +2/+2.",
     "type": "MINION",
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59711": {
     "attack": 4,
@@ -3497,7 +3640,10 @@
       "DEMON"
     ],
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59716": {
     "attack": 6,
@@ -3528,7 +3674,10 @@
     "name": "Yogg-Saron, Hope's End",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59806": {
     "cardClass": "NEUTRAL",
@@ -3538,7 +3687,10 @@
     "name": "Dancin' Deryl",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59807": {
     "cardClass": "NEUTRAL",
@@ -3548,7 +3700,10 @@
     "name": "Lord Jaraxxus",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59808": {
     "cardClass": "NEUTRAL",
@@ -3567,7 +3722,10 @@
     "id": "TB_BaconShop_HERO_38",
     "name": "King Mukla",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -3580,7 +3738,11 @@
     "name": "Bananarama",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you sell a\nBeast, add a Banana\nto your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      59816,
+      65230
+    ]
   },
   "59816": {
     "cardClass": "NEUTRAL",
@@ -3646,7 +3808,10 @@
     "name": "Pyramad",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59832": {
     "cardClass": "NEUTRAL",
@@ -3656,7 +3821,8 @@
     "name": "Brick by Brick",
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a random friendly minion +2 Health.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -3669,7 +3835,10 @@
     "name": "King of Beasts",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Beast</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "BEAST_POOL"
+    ]
   },
   "59852": {
     "cardClass": "NEUTRAL",
@@ -3682,7 +3851,10 @@
     "name": "King of Murlocs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Murloc</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "59853": {
     "cardClass": "NEUTRAL",
@@ -3695,7 +3867,10 @@
     "name": "King of Mechs",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Mech</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "MECH_POOL"
+    ]
   },
   "59854": {
     "cardClass": "NEUTRAL",
@@ -3708,7 +3883,10 @@
     "name": "King of Demons",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a\n<b>Demon</b>, give it +1/+2.\nSwaps type each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DEMON_POOL"
+    ]
   },
   "59860": {
     "cardClass": "NEUTRAL",
@@ -3754,7 +3932,11 @@
     "name": "Procrastinate",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nSkip your first two turns.\nStart with a minion from\nTavern Tier 3 and 4.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_3_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "59894": {
     "cardClass": "NEUTRAL",
@@ -3811,7 +3993,10 @@
     "text": "<b>Deathrattle</b>: Summon the first 2 friendly Mechs that died this combat.",
     "type": "MINION",
     "techLevel": 6,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "59940": {
     "attack": 3,
@@ -3951,7 +4136,10 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60028": {
     "attack": 3,
@@ -3974,7 +4162,13 @@
       "MURLOC"
     ],
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
+    ]
   },
   "60036": {
     "attack": 5,
@@ -3996,7 +4190,10 @@
       "BEAST"
     ],
     "techLevel": 6,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "60038": {
     "attack": 10,
@@ -4036,7 +4233,10 @@
     "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
     "type": "MINION",
     "techLevel": 6,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60048": {
     "attack": 4,
@@ -4120,7 +4320,10 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "relatedCards": [
+      60054
+    ]
   },
   "60054": {
     "attack": 2,
@@ -4209,7 +4412,10 @@
     "name": "Sir Finley Mrrgglton",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60213": {
     "cardClass": "NEUTRAL",
@@ -4219,7 +4425,10 @@
     "name": "Elise Starseeker",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60214": {
     "cardClass": "NEUTRAL",
@@ -4228,7 +4437,10 @@
     "id": "TB_BaconShop_HERO_43",
     "name": "Brann Bronzebeard",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60215": {
     "cardClass": "NEUTRAL",
@@ -4255,7 +4467,10 @@
     "name": "Lead Explorer",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nWhen you upgrade\n Bob's Tavern get a\n'Recruitment Map'.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "relatedCards": [
+      60265
+    ]
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -4268,7 +4483,11 @@
     "name": "Battle Brand",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you play a <b>Battlecry</b>\nminion, give a random\n   friendly minion +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      96786
+    ]
   },
   "60232": {
     "attack": 10,
@@ -4310,7 +4529,10 @@
     "name": "Recruitment Map",
     "set": "BATTLEGROUNDS",
     "text": "<b>Discover</b> a minion\nfrom <b>Tavern Tier",
-    "type": "SPELL"
+    "type": "SPELL",
+    "pools": [
+      "TIER_X_POOL"
+    ]
   },
   "60285": {
     "cardClass": "NEUTRAL",
@@ -4372,7 +4594,13 @@
       "MECHANICAL"
     ],
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "relatedCards": [
+      96810
+    ]
   },
   "96758": {
     "artist": "Anton Zemskov",
@@ -4397,7 +4625,10 @@
       "BEAST"
     ],
     "techLevel": 1,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      96759
+    ]
   },
   "96759": {
     "artist": "Anton Zemskov",
@@ -4446,7 +4677,10 @@
       "MURLOC"
     ],
     "techLevel": 1,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "96762": {
     "artist": "Jim Nelson",
@@ -4471,7 +4705,10 @@
       "BEAST"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "96763": {
     "artist": "Brian Despain",
@@ -4496,7 +4733,13 @@
       "MECHANICAL"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "relatedCards": [
+      96764
+    ]
   },
   "96766": {
     "artist": "Tyler West Studio",
@@ -4546,7 +4789,10 @@
       "MECHANICAL"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "96768": {
     "artist": "Tim McBurnie",
@@ -4595,7 +4841,10 @@
     "text": "<b>Deathrattle:</b> Give a random friendly minion <b>Divine Shield</b>.",
     "type": "MINION",
     "techLevel": 1,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96772": {
     "artist": "Peter Stapleton",
@@ -4641,7 +4890,10 @@
       "MURLOC"
     ],
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "96778": {
     "artist": "Dan Brereton",
@@ -4716,7 +4968,8 @@
     "races": [
       "ALL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "undeadCreationPool": 1
   },
   "96782": {
     "artist": "Peter Stapleton",
@@ -4792,7 +5045,10 @@
     "text": "Your <b>Battlecries</b> trigger twice.",
     "type": "MINION",
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96787": {
     "artist": "James Ryman",
@@ -4815,7 +5071,10 @@
       "MECHANICAL"
     ],
     "techLevel": 6,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "96789": {
     "artist": "Ozhill Studio",
@@ -4840,7 +5099,13 @@
       "BEAST"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "relatedCards": [
+      96790
+    ]
   },
   "96793": {
     "artist": "Milivoj Ceran",
@@ -4865,7 +5130,10 @@
       "BEAST"
     ],
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      96795
+    ]
   },
   "96797": {
     "artist": "Jerry Mascho",
@@ -4918,7 +5186,10 @@
       "MECHANICAL"
     ],
     "techLevel": 4,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "96842": {
     "artist": "Anton Zemskov",
@@ -4976,7 +5247,10 @@
     "text": "<b>Battlecry:</b> Give your <b>Taunt</b> minions +2/+2.",
     "type": "MINION",
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97423": {
     "artist": "Brian Despain",

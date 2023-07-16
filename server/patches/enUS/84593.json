@@ -7,7 +7,10 @@
     "id": "TB_BaconShop_HERO_62",
     "name": "Maiev Shadowsong",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61989": {
     "attack": 6,
@@ -61,7 +64,10 @@
     "id": "BG20_HERO_242",
     "name": "Guff Runetotem",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "68130": {
     "cardClass": "DRUID",
@@ -91,7 +97,10 @@
     "id": "BG20_HERO_301",
     "name": "Mutanus the Devourer",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72675": {
     "cardClass": "NEUTRAL",

@@ -82,7 +82,11 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nEvery 4 turns, <b>Discover</b>\na Darkmoon Prize.\n<i>(3 turns left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "pools": [
+      "DARKMOON_PRIZE_POOL"
+    ],
+    "bannedFromNguyen": true
   },
   "69960": {
     "artist": "Jaemin Kim",
@@ -117,7 +121,10 @@
     "id": "BG20_HERO_102",
     "name": "Overlord Saurfang",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "71455": {
     "cardClass": "WARRIOR",
@@ -127,7 +134,8 @@
     "name": "For the Horde!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive +1 Attack to the next\nminion you buy this turn.\n<i>(Upgrades each turn!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true
   },
   "71533": {
     "artist": "Ursula Dorada",
