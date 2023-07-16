@@ -115,6 +115,17 @@ function updateVersionsUsingMappingFile(fieldsToUpdate, referenceCard) {
     }
 }
 
+function updatePatchesJson() {
+    let patchesJson = JSON.parse(fs.readFileSync("./patches.json"));
+    let newPatchesJson = {}; // {build: patchObj, build2: patchObj} instead of list
+    for(let patchObject of patchesJson) {
+        newPatchesJson[patchObject.build] = patchObject;
+    }
+    fs.writeFileSync(`./patches.json`, JSON.stringify(newPatchesJson, null , 2));
+}
+
+
+
 // addingTribes();
 // removingAssociatedTribesFromSkins();
 // removingAssociatedTribesFromBuddies();
@@ -123,7 +134,11 @@ function updateVersionsUsingMappingFile(fieldsToUpdate, referenceCard) {
 
 // listBuddiesAndIds();
 
-addCustomFieldsToAllVersions();
+// addCustomFieldsToAllVersions();
+
+// updatePatchesJson();
+
+
 
 // const PUTRI_POOL_1 = [
 // 85651, 99117, 100775, 85152, 99116,

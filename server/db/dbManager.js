@@ -194,6 +194,76 @@ function isCardValidForTribes(card, tribes) {
     return !isBanned && isInTribes;
 }
 
+function getJsonMappingFile() {
+    return getJsonFromFile("./mapping.json");
+}
+
+function getJsonDBOfPatch(patchId) {
+    return getJsonFromFile(`./patches/enUS/${patchId}.json`);
+}
+
+function getChangesOfPatch(patchId, mode) {
+    let mappingJson = getJsonMappingFile();
+    let idsChangesOfPatch = mappingJson.patches[patchId];
+    let currentPatchJson = getJsonDBOfPatch(patchId);
+    let patchInfo = getJsonFromFile("./patches.json")[patchId];
+    let cardsChanged = {"patchInfo": patchInfo, "cardChanges": []};
+
+    for(let id of idsChangesOfPatch) {
+        let currentChange = {};
+        currentChange[id] = {};
+        let previousPatchId = getPreviousPatchIdOfCard(patchId, id, mappingJson);
+        let newVersion = currentPatchJson[id];
+        let oldVersion = getJsonDBOfPatch(previousPatchId)[id];
+        currentChange[id].changes = getChangesBetweenVersions(newVersion, oldVersion);
+        if(mode === "EXTENDED") {
+            currentChange[id].new = newVersion;
+            currentChange[id].old = oldVersion;
+        }
+        cardsChanged.cardChanges.push(currentChange);
+    }
+
+    return cardsChanged;
+}
+
+function getChangesBetweenVersions(newVersion, oldVersion) {
+    let fieldsNew = Object.keys(newVersion);
+    let fieldsOld = Object.keys(oldVersion);
+    let allFields = concatAndDedupArrays(fieldsNew, fieldsOld);
+    let fieldsBeingChanged = {};
+
+    for(let field of allFields) {
+        if(!existsInBothAndSame(newVersion, oldVersion, field)) {
+            fieldsBeingChanged[field] = {};
+            fieldsBeingChanged[field] = {};
+            fieldsBeingChanged[field].new = newVersion[field];
+            fieldsBeingChanged[field].old = oldVersion[field];
+        }
+    }
+    return fieldsBeingChanged;
+}
+
+function existsInBothAndSame(version1, version2, field) {
+    return version1.hasOwnProperty(field) && version2.hasOwnProperty(field) && version1[field].toString() === version2[field].toString();
+}
+
+function concatAndDedupArrays(array1, array2) {
+    return array1.concat(array2.filter((item) => array1.indexOf(item) < 0));
+}
+
+function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
+    let cardVersions = mappingJson.cards[cardId];
+    let previousPatchId;
+    for(let patch of cardVersions) {
+        if(patch >= currentPatchId) {
+            break;
+        }
+        previousPatchId = patch;
+    }
+    return previousPatchId;
+}
+
+
 // function temp(){
 //     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
 //     let dbSubset = keepCardsFromTribes(jsonDB, ["MECHANICAL", "MURLOC"]);
@@ -206,5 +276,5 @@ function isCardValidForTribes(card, tribes) {
 
 
 module.exports = { 
-    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool
+    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch
 }
