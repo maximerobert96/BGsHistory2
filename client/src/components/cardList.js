@@ -11,7 +11,7 @@ function keepTavernTier ( cards, tavernTier ) {
 function listCardsHtml ( cards ) { 
     return cards.map( card =>
         <li key={card.id}>
-            <Link to={`/card/${card.id}`}>{card.name}</Link>
+            <Link to={`/cards/${card.id}`}>{card.name}</Link>
         </li>
     )
 }
@@ -21,7 +21,7 @@ export default function CardList() {
 
     useEffect(() => {
         async function getCards(){
-            const response = await fetch(`http://localhost:5000/card/`);
+            const response = await fetch(`http://localhost:5000/cards/`);
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);

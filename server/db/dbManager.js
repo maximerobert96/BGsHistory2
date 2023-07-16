@@ -27,6 +27,40 @@ function getActiveCards(tribes) {
     return activeCards;
 }
 
+function findMostRecentVersionLowerThanRef(referencePatch, patchesOfCardChange) {
+    let highestPatch;
+    for(let patch of patchesOfCardChange) {
+        if(patch > referencePatch) {
+            break;
+        }
+        highestPatch = patch;
+    }
+    return highestPatch;
+}
+
+function getActiveCardsOfPatch(patchId, tribes) {
+    // TODO tribes
+    let mappingJson = getJsonFromFile("./mapping.json");
+    let cards = mappingJson.cards;
+    let activeCards = [];
+    for(let cardId in cards) {
+        let patchesOfCardChange = cards[cardId];
+        if(patchId >= patchesOfCardChange[0]) {
+            let highestPatch = findMostRecentVersionLowerThanRef(patchId, patchesOfCardChange);
+            let jsonHighestPatch = getJsonFromFile(`./patches/enUS/${highestPatch}.json`);
+            let mostRecentVersionCard = jsonHighestPatch[cardId];
+            if(isActiveCard(mostRecentVersionCard)){
+                activeCards.push(keepSpecificFields(mostRecentVersionCard));
+            }
+
+        }
+    }
+    return activeCards;
+}
+
+function getJsonFromFile(file) {
+    return JSON.parse(fs.readFileSync(file));
+}
 
 function keepSpecificFields( cardObj ) {
     let newCardObj = {};
@@ -151,7 +185,7 @@ function isCardValidForTribes(card, tribes) {
             }
         }
     }
-    return !isBanned && (!card.associatedTribes || card.associatedTribes.includes("GENERAL") || isInTribes);
+    return !isBanned && (!card.associatedTribes || isInTribes);
 }
 
 // function temp(){
@@ -166,5 +200,5 @@ function isCardValidForTribes(card, tribes) {
 
 
 module.exports = { 
-    getActiveCards, getCardById, getCardsOfPool
+    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool
 }

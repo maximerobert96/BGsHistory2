@@ -8,7 +8,7 @@ export default function CardInfo() {
     useEffect(() => {
         async function getCard(){
             const id = params.id.toString();
-            const response = await fetch(`http://localhost:5000/card/${id}`);
+            const response = await fetch(`http://localhost:5000/cards/${id}`);
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);
