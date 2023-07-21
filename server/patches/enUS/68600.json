@@ -101,7 +101,10 @@
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Reborn</b>",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63619": {
     "attack": 5,
@@ -121,7 +124,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a friendly minion with <b>Taunt</b> dies, give its neighbors +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63622": {
     "attack": 4,
@@ -142,7 +148,10 @@
     "techLevel": 3,
     "text": "Whenever a friendly <b>Taunt</b> minion is attacked, give it +3 Attack.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63623": {
     "attack": 2,
@@ -163,7 +172,10 @@
     "techLevel": 4,
     "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+1 permanently.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63627": {
     "attack": 4,
@@ -489,6 +501,9 @@
     "type": "MINION",
     "relatedCards": [
       58596
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "65661": {
@@ -526,7 +541,10 @@
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngain +1/+2 for each\n  minion type you control.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65665": {
     "attack": 6,
@@ -682,7 +700,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "66237": {
     "attack": 8,
@@ -940,7 +961,7 @@
   },
   "67493": {
     "attack": 2,
-    "battlegroundsNormalDbfId": 59616,
+    "battlegroundsNormalDbfId": 97444,
     "cardClass": "PALADIN",
     "cost": 2,
     "dbfId": 67493,

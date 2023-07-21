@@ -7,7 +7,10 @@
     "id": "BG20_HERO_666",
     "name": "Diablo",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77341": {
     "cardClass": "WARRIOR",
@@ -203,7 +206,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97427
   },
   "89021": {
     "battlegroundsSkinParentId": 57110,
@@ -298,6 +302,9 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
     ]
   },
   "91958": {
@@ -319,7 +326,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97428
   },
   "91959": {
     "artist": "Hideaki Takamura",
@@ -340,7 +348,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97429
   },
   "91960": {
     "artist": "Hideaki Takamura",
@@ -361,7 +370,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97430
   },
   "91961": {
     "artist": "Hideaki Takamura",
@@ -382,7 +392,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97431
   },
   "91962": {
     "artist": "Hideaki Takamura",
@@ -403,7 +414,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97432
   },
   "92178": {
     "battlegroundsSkinParentId": 64480,

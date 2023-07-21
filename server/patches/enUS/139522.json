@@ -86,6 +86,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80747": {
@@ -136,6 +139,9 @@
     ],
     "relatedCards": [
       82323
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80751": {
@@ -219,6 +225,9 @@
     "relatedCards": [
       92260,
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "80758": {

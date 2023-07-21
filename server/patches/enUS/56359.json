@@ -74,7 +74,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "59956": {
     "attack": 8,
@@ -254,7 +257,10 @@
     "id": "TB_BaconShop_HERO_61",
     "name": "Lady Vashj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "62162": {
     "attack": 4,
@@ -279,7 +285,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62165": {
     "attack": 8,

@@ -19,7 +19,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "61081": {
     "attack": 6,
@@ -114,7 +117,7 @@
   },
   "67493": {
     "attack": 2,
-    "battlegroundsNormalDbfId": 59616,
+    "battlegroundsNormalDbfId": 97444,
     "cardClass": "PALADIN",
     "cost": 2,
     "dbfId": 67493,
@@ -195,7 +198,8 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 96792
   },
   "96791": {
     "artist": "James Ryman",

@@ -179,7 +179,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "After a friendly minion loses <b>Divine Shield</b>, give it +3/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "75141": {
     "attack": 8,
@@ -222,7 +225,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75182": {
     "attack": 8,
@@ -838,7 +844,10 @@
     "targetingArrowText": "Give a friendly Murloc Poisonous.",
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "97270": {
     "attack": 3,
@@ -1016,7 +1025,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Divine Shield</b>\nYour <b>Divine Shield</b> minions have +8 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
   },
   "97558": {
     "attack": 4,

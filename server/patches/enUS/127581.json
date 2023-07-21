@@ -6,6 +6,9 @@
     "id": "BG20_HERO_666",
     "name": "Diablo",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

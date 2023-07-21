@@ -156,7 +156,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+8 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
   },
   "97558": {
     "attack": 4,

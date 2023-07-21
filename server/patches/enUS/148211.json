@@ -22,6 +22,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "48536": {
@@ -79,7 +82,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "Each turn this is in your hand, transform it into a random minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59186": {
     "attack": 2,
@@ -100,6 +106,9 @@
     "text": "<b>Battlecry:</b> Give a friendly Demon +2/+2.",
     "type": "MINION",
     "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
       "DEMON"
     ]
   },
@@ -151,6 +160,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "60448": {
@@ -185,6 +197,9 @@
     "text": "When you sell this minion, give all minions in Bob's Tavern +2/+1.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -229,6 +244,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "61072": {
@@ -253,6 +271,9 @@
     "text": "After a friendly minion loses <b>Divine Shield</b>, gain +2/+2.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -318,7 +339,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72057": {
     "attack": 2,
@@ -341,6 +365,9 @@
     "text": "<b>Avenge (4):</b> Give a friendly Murloc <b>Poisonous</b> permanently.",
     "type": "MINION",
     "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
       "MURLOC"
     ]
   },
@@ -391,6 +418,9 @@
     ],
     "relatedCards": [
       58596
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "72922": {
@@ -517,7 +547,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76566": {
     "attack": 5,
@@ -542,6 +575,9 @@
     "text": "[x]Your other Demons\nhave +2 Attack.\nYour hero is <b>Immune</b>.",
     "type": "MINION",
     "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
       "DEMON"
     ]
   },
@@ -1070,6 +1106,9 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
     ]
   },
   "91980": {
@@ -1117,6 +1156,9 @@
     "text": "At the end of your turn, give your Dragons +1 Attack.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -1180,7 +1222,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "After you play a minion with no minion type, give 3 friendly minions of different types +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92410": {
     "attack": 4,
@@ -1199,7 +1244,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "At the end of your turn, steal the highest Tier minion from Bob's Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92421": {
     "attack": 0,
@@ -1426,6 +1474,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "92883": {
@@ -1447,7 +1498,10 @@
     "targetingArrowText": "Swap Attack and Health of a minion.",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92960": {
     "battlegroundsHero": true,
@@ -1734,6 +1788,9 @@
     "text": "You only need 2 copies of this minion to make it Golden.",
     "type": "MINION",
     "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
       "PIRATE"
     ]
   },
@@ -2199,6 +2256,9 @@
     ],
     "relatedCards": [
       97426
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "95998": {
@@ -2507,6 +2567,9 @@
     "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
     "type": "MINION",
     "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
       "MURLOC"
     ]
   },

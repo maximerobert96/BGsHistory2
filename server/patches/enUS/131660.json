@@ -247,7 +247,8 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 98698
   },
   "82391": {
     "battlegroundsSkinParentId": 75702,

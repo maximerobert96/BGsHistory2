@@ -225,7 +225,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59201": {
     "cardClass": "NEUTRAL",
@@ -256,7 +259,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 98699
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -307,7 +311,10 @@
     "techLevel": 3,
     "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59661": {
     "attack": 6,
@@ -734,7 +741,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60649": {
     "attack": 8,
@@ -1193,6 +1203,9 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
     ]
   },
   "64085": {
@@ -1394,7 +1407,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "66237": {
     "attack": 12,
@@ -1700,7 +1716,10 @@
     "techLevel": 6,
     "text": "<b>Battlecry:</b> <b>Refresh</b> Bob's Tavern with minions of your most common type.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72231": {
     "attack": 8,

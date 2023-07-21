@@ -1504,7 +1504,10 @@
     "id": "BG20_HERO_666",
     "name": "Diablo",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73940": {
     "battlegroundsBuddyDbfId": 77778,
@@ -4859,7 +4862,8 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 98697
   },
   "80239": {
     "battlegroundsBuddyDbfId": 77884,
@@ -5257,6 +5261,10 @@
     "races": [
       "ALL"
     ],
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "battlegroundsPremiumDbfId": 91216,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

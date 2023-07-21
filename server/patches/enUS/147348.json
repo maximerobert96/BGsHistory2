@@ -68,6 +68,9 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
     ]
   },
   "64062": {
@@ -90,6 +93,9 @@
     "text": "<b>Taunt</b>. <b>Deathrattle:</b> Add another random Elemental to your hand and summon a copy of it.",
     "type": "MINION",
     "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
       "ELEMENTAL"
     ]
   },
@@ -137,6 +143,9 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
     ]
   },
   "66545": {
@@ -183,6 +192,9 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "74659": {
@@ -204,6 +216,9 @@
     "text": "[x]After you upgrade your\nTavern Tier, gain +1 Attack\n  for each friendly Dragon.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },

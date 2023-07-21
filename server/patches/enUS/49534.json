@@ -21,7 +21,10 @@
     "id": "TB_BaconShop_HERO_20",
     "name": "Professor Putricide",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59707": {
     "attack": 2,
@@ -129,7 +132,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61048": {
     "attack": 5,
@@ -152,7 +158,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61049": {
     "attack": 3,
@@ -220,7 +229,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61056": {
     "attack": 3,
@@ -269,7 +281,11 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 63782,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61061": {
     "attack": 2,
@@ -319,7 +335,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61910": {
     "battlegroundsHero": true,
@@ -382,7 +401,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62035": {
     "cardClass": "DEMONHUNTER",
@@ -506,7 +528,8 @@
     "type": "MINION",
     "races": [
       "PIRATE"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 62215
   },
   "62215": {
     "attack": 2,
@@ -522,7 +545,8 @@
     "type": "MINION",
     "races": [
       "PIRATE"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 62213
   },
   "62216": {
     "attack": 0,
@@ -1004,7 +1028,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62739": {
     "attack": 6,
@@ -1077,6 +1104,9 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   }
 }

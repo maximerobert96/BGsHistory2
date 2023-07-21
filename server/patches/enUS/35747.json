@@ -79,7 +79,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 58138
   },
   "736": {
     "artist": "Dan Scott",
@@ -107,7 +108,11 @@
       "MURLOC"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58382,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "763": {
     "artist": "Alex Horley Orlandelli",
@@ -132,7 +137,11 @@
     "text": "<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.",
     "type": "MINION",
     "techLevel": 4,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 57404,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "962": {
     "artist": "Glenn Rane",
@@ -157,7 +166,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58394
   },
   "976": {
     "artist": "Dan Scott",
@@ -183,7 +193,11 @@
       "MURLOC"
     ],
     "techLevel": 1,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 57338,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "985": {
     "artist": "John Dickenson",
@@ -208,7 +222,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 60025
   },
   "1006": {
     "attack": 3,
@@ -238,7 +253,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 57339
   },
   "1098": {
     "artist": "Lars Grant-West",
@@ -307,7 +323,11 @@
       "BEAST"
     ],
     "techLevel": 6,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 63781,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "1986": {
     "artist": "Wayne Reynolds",
@@ -335,7 +355,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsPremiumDbfId": 58428
   },
   "2023": {
     "artist": "Jesper Ejsing",
@@ -366,7 +387,11 @@
       "MECHANICAL"
     ],
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 59501,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "2026": {
     "artist": "Raymond Swanland",
@@ -466,7 +491,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 60403
   },
   "2074": {
     "artist": "Zoltan Boros",
@@ -490,7 +516,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsPremiumDbfId": 58402
   },
   "2288": {
     "artist": "Steve Prescott",
@@ -516,7 +543,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58372
   },
   "2518": {
     "artist": "Jakub Kasper",
@@ -539,7 +567,8 @@
     "set": "TGT",
     "text": "Whenever you play a card with <b>Battlecry</b>, gain +1/+1.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58383
   },
   "2779": {
     "attack": 1,
@@ -604,7 +633,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58365
   },
   "38735": {
     "artist": "Luca Zontini",
@@ -642,7 +672,8 @@
     "set": "OG",
     "text": "Whenever this attacks and kills a minion, gain +2/+2.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58425
   },
   "39161": {
     "artist": "Matt Dixon",
@@ -681,7 +712,8 @@
     "set": "KARA",
     "text": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 59510
   },
   "39481": {
     "artist": "Matt Dixon",
@@ -707,7 +739,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 57340
   },
   "39839": {
     "artist": "Matt Dixon",
@@ -733,7 +766,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 59489
   },
   "40391": {
     "artist": "Arthur Gimaldinov",
@@ -753,7 +787,8 @@
     "set": "GANGS",
     "text": "<b>Battlecry:</b> Give your Demons +1/+1.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 59504
   },
   "40641": {
     "artist": "Dany Orizio",
@@ -780,7 +815,8 @@
     "targetingArrowText": "Give +2/+2.",
     "text": "<b>Battlecry:</b> Give a friendly Beast +2/+2.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 59512
   },
   "41067": {
     "artist": "Zoltan Boros",
@@ -817,7 +853,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsPremiumDbfId": 58413
   },
   "41180": {
     "artist": "Garrett Hanna",
@@ -838,7 +875,8 @@
     "set": "UNGORO",
     "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Give a random\n friendly minion +1/+1.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58374
   },
   "41523": {
     "artist": "Jakub Kasper",
@@ -893,7 +931,8 @@
     "set": "ICECROWN",
     "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
     "type": "MINION",
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 63774
   },
   "43121": {
     "artist": "Steve Prescott",
@@ -918,7 +957,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 63778
   },
   "45392": {
     "artist": "Tooth",
@@ -940,7 +980,8 @@
     "set": "ICECROWN",
     "text": "<b>Divine Shield</b>\nAfter a friendly minion loses <b>Divine Shield</b>, gain +2 Attack.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58405
   },
   "47516": {
     "artist": "Evgeniy Dlinnov",
@@ -961,7 +1002,8 @@
     "text": "After a friendly minion attacks, gain +1 Attack.",
     "type": "MINION",
     "techLevel": 4,
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "battlegroundsPremiumDbfId": 58378
   },
   "48100": {
     "artist": "Adam Byrne",
@@ -991,7 +1033,8 @@
     "techLevel": 4,
     "relatedCards": [
       49278
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58392
   },
   "48842": {
     "artist": "Vladimir Kafanov",
@@ -1052,7 +1095,8 @@
     "techLevel": 1,
     "relatedCards": [
       48885
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 57336
   },
   "49168": {
     "artist": "Hideaki Takamura",
@@ -1097,6 +1141,10 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       49168
+    ],
+    "battlegroundsPremiumDbfId": 58387,
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "49278": {
@@ -1145,7 +1193,8 @@
     "techLevel": 5,
     "relatedCards": [
       50359
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58412
   },
   "50359": {
     "artist": "Luca Zontini",
@@ -1186,7 +1235,8 @@
     "techLevel": 6,
     "pools": [
       "DEATHRATTLE_POOL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58424
   },
   "53013": {
     "attack": 0,
@@ -1246,7 +1296,8 @@
     "set": "ULDUM",
     "text": "Your <b>Taunt</b> minions\nhave +2 Attack.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58385
   },
   "54835": {
     "artist": "James Ryman",
@@ -1271,7 +1322,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58418
   },
   "56298": {
     "cardClass": "NEUTRAL",
@@ -1304,7 +1356,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsPremiumDbfId": 59828
   },
   "57110": {
     "cardClass": "NEUTRAL",
@@ -1335,7 +1388,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96796
   },
   "57336": {
     "attack": 2,
@@ -1359,7 +1413,8 @@
     "techLevel": 1,
     "relatedCards": [
       57337
-    ]
+    ],
+    "battlegroundsNormalDbfId": 48886
   },
   "57337": {
     "attack": 2,
@@ -1399,7 +1454,8 @@
     "techLevel": 1,
     "relatedCards": [
       57339
-    ]
+    ],
+    "battlegroundsNormalDbfId": 976
   },
   "57339": {
     "attack": 2,
@@ -1416,7 +1472,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 68469
   },
   "57340": {
     "attack": 2,
@@ -1440,7 +1497,8 @@
     "techLevel": 2,
     "relatedCards": [
       57341
-    ]
+    ],
+    "battlegroundsNormalDbfId": 39481
   },
   "57341": {
     "attack": 6,
@@ -1480,7 +1538,8 @@
     "techLevel": 2,
     "relatedCards": [
       57408
-    ]
+    ],
+    "battlegroundsNormalDbfId": 96763
   },
   "57403": {
     "attack": 6,
@@ -1501,7 +1560,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 76270
   },
   "57404": {
     "attack": 4,
@@ -1522,7 +1582,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Battlecry:</b> Give adjacent minions +2/+2 and <b>Taunt</b>.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 763
   },
   "57408": {
     "attack": 4,
@@ -1538,7 +1599,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96764
   },
   "57559": {
     "cardClass": "ROGUE",
@@ -1588,7 +1650,11 @@
     "set": "BATTLEGROUNDS",
     "text": "Each turn this is in your hand, transform it into a random minion.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 60233,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57891": {
     "cardClass": "NEUTRAL",
@@ -1741,7 +1807,10 @@
     "name": "Professor Putricide",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57962": {
     "cardClass": "NEUTRAL",
@@ -1873,7 +1942,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 475
   },
   "58143": {
     "attack": 4,
@@ -1893,7 +1963,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Deathrattle:</b> Give 2 random friendly minions <b>Divine Shield</b>.",
     "type": "MINION",
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96769
   },
   "58150": {
     "attack": 6,
@@ -1914,7 +1985,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 60050
   },
   "58168": {
     "attack": 4,
@@ -1931,7 +2003,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Deathrattle:</b> Give your minions +2/+2.",
     "type": "MINION",
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 96772
   },
   "58365": {
     "attack": 6,
@@ -1955,7 +2028,8 @@
     "techLevel": 3,
     "relatedCards": [
       58366
-    ]
+    ],
+    "battlegroundsNormalDbfId": 38734
   },
   "58366": {
     "attack": 2,
@@ -1995,7 +2069,8 @@
     "techLevel": 2,
     "relatedCards": [
       58368
-    ]
+    ],
+    "battlegroundsNormalDbfId": 96789
   },
   "58368": {
     "attack": 2,
@@ -2011,7 +2086,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96790
   },
   "58369": {
     "attack": 4,
@@ -2032,7 +2108,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 96766
   },
   "58372": {
     "attack": 4,
@@ -2056,7 +2133,8 @@
     "techLevel": 3,
     "relatedCards": [
       58373
-    ]
+    ],
+    "battlegroundsNormalDbfId": 76282
   },
   "58373": {
     "attack": 2,
@@ -2072,7 +2150,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96788
   },
   "58374": {
     "attack": 4,
@@ -2090,7 +2169,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Give a random\n friendly minion +2/+2.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 41180
   },
   "58376": {
     "attack": 6,
@@ -2115,7 +2195,8 @@
     "techLevel": 3,
     "relatedCards": [
       58377
-    ]
+    ],
+    "battlegroundsNormalDbfId": 89724
   },
   "58377": {
     "attack": 2,
@@ -2131,7 +2212,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96810
   },
   "58378": {
     "attack": 4,
@@ -2149,7 +2231,8 @@
     "text": "After a friendly minion attacks, gain +2 Attack.",
     "type": "MINION",
     "techLevel": 4,
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "battlegroundsNormalDbfId": 47516
   },
   "58380": {
     "attack": 4,
@@ -2167,7 +2250,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Your cards that summon minions summon three times as many.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 96779
   },
   "58381": {
     "attack": 8,
@@ -2188,7 +2272,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 60048
   },
   "58382": {
     "attack": 4,
@@ -2210,7 +2295,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 736
   },
   "58383": {
     "attack": 8,
@@ -2230,7 +2316,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Whenever you play a card with <b>Battlecry</b>, gain +2/+2.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 2518
   },
   "58385": {
     "attack": 8,
@@ -2247,7 +2334,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Your <b>Taunt</b> minions\nhave +4 Attack.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 54153
   },
   "58387": {
     "attack": 0,
@@ -2271,7 +2359,8 @@
     "techLevel": 4,
     "relatedCards": [
       58389
-    ]
+    ],
+    "battlegroundsNormalDbfId": 49169
   },
   "58389": {
     "attack": 16,
@@ -2359,7 +2448,8 @@
     "techLevel": 4,
     "relatedCards": [
       58393
-    ]
+    ],
+    "battlegroundsNormalDbfId": 48100
   },
   "58393": {
     "attack": 4,
@@ -2401,7 +2491,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 70033
   },
   "58395": {
     "attack": 4,
@@ -2422,7 +2513,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 96762
   },
   "58397": {
     "attack": 4,
@@ -2443,7 +2535,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 97423
   },
   "58400": {
     "attack": 4,
@@ -2464,7 +2557,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Your <b>Battlecries</b> trigger three times.",
     "type": "MINION",
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 96786
   },
   "58402": {
     "attack": 2,
@@ -2485,7 +2579,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 2074
   },
   "58405": {
     "attack": 2,
@@ -2504,7 +2599,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Divine Shield</b>\nAfter a friendly minion loses <b>Divine Shield</b>, gain +4 Attack.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 45392
   },
   "58409": {
     "attack": 12,
@@ -2528,7 +2624,8 @@
     "techLevel": 5,
     "relatedCards": [
       58410
-    ]
+    ],
+    "battlegroundsNormalDbfId": 96793
   },
   "58410": {
     "attack": 4,
@@ -2544,7 +2641,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96795
   },
   "58411": {
     "attack": 12,
@@ -2565,7 +2663,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 60049
   },
   "58412": {
     "attack": 14,
@@ -2589,7 +2688,8 @@
     "techLevel": 5,
     "relatedCards": [
       60232
-    ]
+    ],
+    "battlegroundsNormalDbfId": 49973
   },
   "58413": {
     "attack": 10,
@@ -2613,7 +2713,8 @@
     "techLevel": 5,
     "relatedCards": [
       58414
-    ]
+    ],
+    "battlegroundsNormalDbfId": 41138
   },
   "58414": {
     "attack": 2,
@@ -2651,7 +2752,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 100720
   },
   "58421": {
     "attack": 2,
@@ -2672,7 +2774,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Your minions trigger their <b>Deathrattles</b> three times.",
     "type": "MINION",
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 96785
   },
   "58424": {
     "attack": 14,
@@ -2695,7 +2798,8 @@
     "techLevel": 6,
     "pools": [
       "DEATHRATTLE_POOL"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 52041
   },
   "58425": {
     "attack": 12,
@@ -2713,7 +2817,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Whenever this attacks and kills a minion, gain +4/+4.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 38895
   },
   "58427": {
     "attack": 6,
@@ -2738,7 +2843,8 @@
     "techLevel": 5,
     "relatedCards": [
       57299
-    ]
+    ],
+    "battlegroundsNormalDbfId": 96797
   },
   "58428": {
     "attack": 18,
@@ -2763,7 +2869,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 1986
   },
   "58435": {
     "cardClass": "NEUTRAL",
@@ -2951,7 +3058,10 @@
     "name": "Nefarian",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58537": {
     "cardClass": "NEUTRAL",
@@ -2971,7 +3081,10 @@
     "name": "Bartendotron",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58596": {
     "cardClass": "NEUTRAL",
@@ -3009,7 +3122,11 @@
       "DEMON"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 59487,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59194": {
     "cardClass": "NEUTRAL",
@@ -3052,7 +3169,8 @@
     "races": [
       "ALL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 98699
   },
   "59203": {
     "cardClass": "NEUTRAL",
@@ -3116,7 +3234,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96761
   },
   "59487": {
     "attack": 4,
@@ -3142,7 +3261,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 59186
   },
   "59489": {
     "attack": 6,
@@ -3163,7 +3283,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 39839
   },
   "59491": {
     "attack": 4,
@@ -3184,7 +3305,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 96773
   },
   "59495": {
     "attack": 6,
@@ -3205,7 +3327,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 96767
   },
   "59499": {
     "attack": 8,
@@ -3230,7 +3353,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Battlecry:</b> Give a friendly Beast +4/+4 and <b>Taunt</b>.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 96778
   },
   "59501": {
     "attack": 4,
@@ -3256,7 +3380,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 2023
   },
   "59504": {
     "attack": 10,
@@ -3273,7 +3398,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Battlecry:</b> Give your Demons +2/+2.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 40391
   },
   "59508": {
     "attack": 4,
@@ -3293,7 +3419,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Battlecry:</b> Give your <b>Taunt</b> minions +4/+4.",
     "type": "MINION",
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 97422
   },
   "59510": {
     "attack": 8,
@@ -3310,7 +3437,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +4/+4.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 39269
   },
   "59512": {
     "attack": 8,
@@ -3333,7 +3461,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Battlecry:</b> Give a friendly Beast +4/+4.",
     "type": "MINION",
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 40641
   },
   "59559": {
     "cardClass": "NEUTRAL",
@@ -3433,7 +3562,11 @@
     "text": "Whenever a friendly Demon dies, deal 3 damage to a [x]random enemy minion.",
     "type": "MINION",
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 59661,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59661": {
     "attack": 6,
@@ -3450,7 +3583,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Whenever a friendly Demon dies, deal 6 damage to a [x]random enemy minion.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 59660
   },
   "59664": {
     "attack": 2,
@@ -3471,7 +3605,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 60122
   },
   "59670": {
     "attack": 1,
@@ -3492,7 +3627,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59679
   },
   "59679": {
     "attack": 2,
@@ -3509,7 +3645,8 @@
     "set": "BATTLEGROUNDS",
     "text": "After you play a Demon, deal 1 damage to your hero and gain +4/+4.",
     "type": "MINION",
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 59670
   },
   "59682": {
     "attack": 5,
@@ -3531,7 +3668,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsPremiumDbfId": 59683
   },
   "59683": {
     "attack": 10,
@@ -3553,7 +3691,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsNormalDbfId": 59682
   },
   "59687": {
     "attack": 7,
@@ -3580,7 +3719,8 @@
     ],
     "pools": [
       "DEATHRATTLE_POOL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58424
   },
   "59707": {
     "attack": 2,
@@ -3601,7 +3741,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59711
   },
   "59711": {
     "attack": 4,
@@ -3618,7 +3759,8 @@
     "set": "BATTLEGROUNDS",
     "text": "At the end of your turn,\ngive a random friendly Mech, Murloc, Demon, and Beast +4/+4.",
     "type": "MINION",
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 59707
   },
   "59714": {
     "attack": 3,
@@ -3643,7 +3785,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59716
   },
   "59716": {
     "attack": 6,
@@ -3664,7 +3807,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 59714
   },
   "59805": {
     "cardClass": "NEUTRAL",
@@ -3798,7 +3942,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsNormalDbfId": 56465
   },
   "59831": {
     "cardClass": "NEUTRAL",
@@ -3996,7 +4141,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59976
   },
   "59940": {
     "attack": 3,
@@ -4013,7 +4159,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Whenever you summon a Beast, give it +3 Attack.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 59969
   },
   "59955": {
     "attack": 4,
@@ -4036,7 +4183,11 @@
       "BEAST"
     ],
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 59956,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "59956": {
     "attack": 8,
@@ -4058,7 +4209,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 59955
   },
   "59969": {
     "attack": 6,
@@ -4075,7 +4227,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Whenever you summon a Beast, give it +6 Attack.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 59940
   },
   "59976": {
     "attack": 8,
@@ -4092,7 +4245,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Deathrattle</b>: Summon the first 4 friendly Mechs that died this combat.",
     "type": "MINION",
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsNormalDbfId": 59935
   },
   "60025": {
     "attack": 4,
@@ -4114,7 +4268,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 69870
   },
   "60027": {
     "attack": 6,
@@ -4139,7 +4294,8 @@
     "techLevel": 5,
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 60028
   },
   "60028": {
     "attack": 3,
@@ -4168,7 +4324,8 @@
     ],
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60027
   },
   "60036": {
     "attack": 5,
@@ -4193,7 +4350,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60038
   },
   "60038": {
     "attack": 10,
@@ -4214,7 +4372,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsNormalDbfId": 60036
   },
   "60040": {
     "attack": 7,
@@ -4236,7 +4395,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60041
   },
   "60048": {
     "attack": 4,
@@ -4257,7 +4417,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58381
   },
   "60049": {
     "attack": 6,
@@ -4278,7 +4439,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58411
   },
   "60050": {
     "attack": 3,
@@ -4299,7 +4461,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 58150
   },
   "60053": {
     "attack": 2,
@@ -4323,7 +4486,8 @@
     "techLevel": 1,
     "relatedCards": [
       60054
-    ]
+    ],
+    "battlegroundsNormalDbfId": 96758
   },
   "60054": {
     "attack": 2,
@@ -4339,7 +4503,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 96759
   },
   "60055": {
     "attack": 1,
@@ -4360,7 +4525,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 60056
   },
   "60056": {
     "attack": 2,
@@ -4381,7 +4547,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 60055
   },
   "60122": {
     "attack": 1,
@@ -4402,7 +4569,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 2
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 59664
   },
   "60211": {
     "cardClass": "NEUTRAL",
@@ -4518,7 +4686,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Each turn this is in your hand, transform it into a random minion.",
     "type": "MINION",
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 57742
   },
   "60265": {
     "cardClass": "NEUTRAL",
@@ -4568,7 +4737,8 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 96812
   },
   "89724": {
     "artist": "Vladimir Kafanov",
@@ -4600,7 +4770,8 @@
     ],
     "relatedCards": [
       96810
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58376
   },
   "96758": {
     "artist": "Anton Zemskov",
@@ -4628,6 +4799,10 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       96759
+    ],
+    "battlegroundsPremiumDbfId": 60053,
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "96759": {
@@ -4645,7 +4820,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 60054
   },
   "96761": {
     "artist": "Alex Horley Orlandelli",
@@ -4680,7 +4856,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59485
   },
   "96762": {
     "artist": "Jim Nelson",
@@ -4708,7 +4885,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58395
   },
   "96763": {
     "artist": "Brian Despain",
@@ -4739,7 +4917,8 @@
     ],
     "relatedCards": [
       96764
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 57401
   },
   "96766": {
     "artist": "Tyler West Studio",
@@ -4764,7 +4943,11 @@
       "MECHANICAL"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58369,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "96767": {
     "artist": "Hideaki Takamura",
@@ -4792,7 +4975,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59495
   },
   "96768": {
     "artist": "Tim McBurnie",
@@ -4817,7 +5001,11 @@
       "MURLOC"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 57403,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "96769": {
     "artist": "Rafael Zanchetin",
@@ -4844,7 +5032,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58143
   },
   "96772": {
     "artist": "Peter Stapleton",
@@ -4865,7 +5054,11 @@
     "text": "<b>Deathrattle:</b> Give your minions +1/+1.",
     "type": "MINION",
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58168,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96773": {
     "artist": "Arthur Gimaldinov",
@@ -4893,7 +5086,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59491
   },
   "96778": {
     "artist": "Dan Brereton",
@@ -4925,7 +5119,11 @@
     "text": "<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.",
     "type": "MINION",
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 59499,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96779": {
     "artist": "Evgeniy Zagumennyy",
@@ -4947,7 +5145,11 @@
     "text": "Your cards that summon minions summon twice as many.",
     "type": "MINION",
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58380,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96780": {
     "artist": "Andrew Hou",
@@ -4969,7 +5171,11 @@
       "ALL"
     ],
     "techLevel": 2,
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "battlegroundsPremiumDbfId": 91216,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96782": {
     "artist": "Peter Stapleton",
@@ -4991,7 +5197,11 @@
       "BEAST"
     ],
     "techLevel": 4,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 63794,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "96785": {
     "artist": "Ralph Horsley",
@@ -5018,7 +5228,11 @@
     "text": "Your minions trigger their <b>Deathrattles</b> twice.",
     "type": "MINION",
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58421,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96786": {
     "artist": "Sam Nielson",
@@ -5048,7 +5262,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58400
   },
   "96787": {
     "artist": "James Ryman",
@@ -5074,7 +5289,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 63776
   },
   "96789": {
     "artist": "Ozhill Studio",
@@ -5105,7 +5321,8 @@
     ],
     "relatedCards": [
       96790
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 58367
   },
   "96793": {
     "artist": "Milivoj Ceran",
@@ -5133,6 +5350,10 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       96795
+    ],
+    "battlegroundsPremiumDbfId": 58409,
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "96797": {
@@ -5159,7 +5380,11 @@
       "DEMON"
     ],
     "techLevel": 5,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58427,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "96812": {
     "artist": "Matt Dixon",
@@ -5189,7 +5414,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60327
   },
   "96842": {
     "artist": "Anton Zemskov",
@@ -5223,7 +5449,11 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 63796,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "97422": {
     "artist": "James Ryman",
@@ -5250,7 +5480,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59508
   },
   "97423": {
     "artist": "Brian Despain",
@@ -5274,6 +5505,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58397,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   }
 }

@@ -16,6 +16,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "74659": {
@@ -36,6 +39,9 @@
     "text": "After you upgrade your Tavern Tier, double this minion's Attack.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   }

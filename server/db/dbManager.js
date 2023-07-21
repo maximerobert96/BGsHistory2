@@ -281,17 +281,8 @@ function getCardChangesOfId(cardId) {
     return cardChangesObj;
 }
 
-// function temp(){
-//     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
-//     let dbSubset = keepCardsFromTribes(jsonDB, ["MECHANICAL", "MURLOC"]);
-//     let cards = getCardsOfPool(dbSubset, "DEATHRATTLE_POOL");
-//     console.log(cards);
-// }
-
-// temp();
-
 
 
 module.exports = { 
-    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId
+    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile
 }

@@ -23,7 +23,10 @@
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57404": {
     "attack": 6,

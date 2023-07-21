@@ -504,7 +504,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 97446
   },
   "76964": {
     "artist": "Matt Dixon",
@@ -516,7 +517,8 @@
     "id": "TB_BaconShop_HP_022t",
     "name": "placeholder [DNT]",
     "set": "BATTLEGROUNDS",
-    "type": "MINION"
+    "type": "MINION",
+    "battlegroundsPremiumDbfId": 76965
   },
   "76965": {
     "artist": "Matt Dixon",
@@ -528,6 +530,7 @@
     "id": "TB_BaconShop_HP_022t_G",
     "name": "placeholder [DNT]",
     "set": "BATTLEGROUNDS",
-    "type": "MINION"
+    "type": "MINION",
+    "battlegroundsNormalDbfId": 76964
   }
 }

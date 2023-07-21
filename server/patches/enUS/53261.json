@@ -49,7 +49,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "59956": {
     "attack": 8,
@@ -142,7 +145,10 @@
     "races": [
       "ALL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61445": {
     "attack": 12,

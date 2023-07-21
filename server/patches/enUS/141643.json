@@ -55,6 +55,9 @@
     ],
     "relatedCards": [
       58596
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "72062": {
@@ -137,6 +140,9 @@
     "type": "MINION",
     "races": [
       "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80745": {
@@ -165,6 +171,9 @@
     ],
     "relatedCards": [
       84374
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80749": {
@@ -190,6 +199,9 @@
     ],
     "relatedCards": [
       82323
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80750": {
@@ -390,7 +402,8 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 98698
   },
   "84374": {
     "cardClass": "NEUTRAL",
@@ -478,6 +491,9 @@
     "text": "[x]After this minion takes\n exactly one damage,\ndestroy it. <i>(Pop!)</i>",
     "type": "MINION",
     "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
       "ELEMENTAL"
     ]
   },

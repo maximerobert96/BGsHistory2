@@ -20,6 +20,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "97186": {

@@ -44,6 +44,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "73762": {
@@ -198,6 +201,9 @@
     "text": "[x]Whenever this attacks,\nsummon an 8/8 Devilsaur\n  to attack the target first.",
     "type": "MINION",
     "races": [
+      "BEAST"
+    ],
+    "associatedTribes": [
       "BEAST"
     ]
   },

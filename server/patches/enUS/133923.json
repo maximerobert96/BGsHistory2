@@ -24,6 +24,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "976": {
@@ -48,6 +51,9 @@
     "text": "<b>Battlecry:</b> Summon a 1/1 Murloc Scout.",
     "type": "MINION",
     "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
       "MURLOC"
     ]
   },
@@ -76,6 +82,9 @@
     "text": "<b>Poisonous</b>",
     "type": "MINION",
     "races": [
+      "BEAST"
+    ],
+    "associatedTribes": [
       "BEAST"
     ]
   },
@@ -128,7 +137,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Taunt</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65658": {
     "attack": 4,
@@ -165,7 +177,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65671": {
     "attack": 8,
@@ -232,6 +247,9 @@
     "text": "[x]Every two turns,\nadd a random Golden\nminion to your hand.\n<i>(2 turns left!)</i>",
     "type": "MINION",
     "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
       "PIRATE"
     ]
   },
@@ -480,6 +498,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "86625": {
@@ -630,6 +651,9 @@
     "type": "MINION",
     "pools": [
       "FOAF_BUDDY_POOL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "87690": {

@@ -85,6 +85,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "60643": {
@@ -223,7 +226,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64076": {
     "attack": 12,
@@ -266,6 +272,9 @@
     "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you have.",
     "type": "MINION",
     "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
       "ELEMENTAL"
     ]
   },

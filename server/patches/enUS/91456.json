@@ -35,7 +35,10 @@
     "techLevel": 3,
     "text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked,\ngive it +2 Attack\npermanently.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65246": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -90,7 +93,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "70790": {
     "attack": 3,
@@ -138,7 +144,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 70802
   },
   "70801": {
     "attack": 6,
@@ -181,7 +188,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 70791
   },
   "71908": {
     "battlegroundsHero": true,
@@ -281,7 +289,10 @@
     "techLevel": 6,
     "text": "<b>Battlecry:</b> Make a Murloc Golden.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72045": {
     "attack": 6,
@@ -331,7 +342,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "72055": {
     "attack": 2,
@@ -349,7 +363,10 @@
     "techLevel": 3,
     "text": "<b>Avenge (1):</b> Give your Beasts +1/+1.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72057": {
     "attack": 2,
@@ -374,7 +391,10 @@
     "races": [
       "MURLOC"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "72059": {
     "attack": 2,
@@ -490,7 +510,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "72064": {
     "attack": 4,
@@ -512,7 +535,10 @@
     "races": [
       "MURLOC"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "72065": {
     "attack": 3,
@@ -555,7 +581,10 @@
     "techLevel": 3,
     "text": "<b>Avenge (3):</b> Add a random Demon to your hand.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72067": {
     "attack": 9,
@@ -602,7 +631,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "72069": {
     "attack": 3,
@@ -649,7 +681,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "72071": {
     "attack": 4,
@@ -674,6 +709,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       58596
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "72072": {
@@ -767,7 +805,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72389": {
     "attack": 3,
@@ -792,7 +833,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72391": {
     "attack": 6,
@@ -1290,7 +1334,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "74661": {
     "attack": 2,
@@ -1497,7 +1544,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "74934": {
     "attack": 8,
@@ -1599,7 +1649,10 @@
     "techLevel": 6,
     "text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +1/+1.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75182": {
     "attack": 12,
@@ -1644,6 +1697,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "75485": {
@@ -1691,7 +1747,10 @@
     "techLevel": 4,
     "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "76187": {
     "attack": 6,
@@ -1736,7 +1795,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "76569": {
     "attack": 14,

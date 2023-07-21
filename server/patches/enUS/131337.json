@@ -22,6 +22,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "61075": {
@@ -90,7 +93,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> <b>Refresh</b> Bob's Tavern with minions of your most common type.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77468": {
     "attack": 4,

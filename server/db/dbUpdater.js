@@ -1,4 +1,6 @@
 const fs = require("fs");
+const dbManager = require('../db/dbManager');
+const { exit } = require("process");
 
 function addField(cardIds, field, value){
     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
@@ -88,8 +90,7 @@ function changingAlltoGeneralForTribes(){
     fs.writeFileSync("./db/currentDb.json", JSON.stringify(jsonDB, null , 2));
 }
 
-function addCustomFieldsToAllVersions() {
-    const customFields = ["associatedTribes", "pools", "bannedFromFoaF", "undeadCreationPool", "battlegroundsDiabloPrizeTurn", "bannedFromRewards", "bannedFromQuests", "bannedFromNguyen", "isAkamSecret", "relatedCards"];
+function addCustomFieldsToAllVersions(customFields) {
     let referencePatch = JSON.parse(fs.readFileSync("./db/currentDb.json"));
     for(let card of Object.values(referencePatch)) {
         let fieldsToUpdate = [];
@@ -124,7 +125,61 @@ function updatePatchesJson() {
     fs.writeFileSync(`./patches.json`, JSON.stringify(newPatchesJson, null , 2));
 }
 
+function saveJsonToFile(filename, jsonObj) {
+    fs.writeFileSync(filename, JSON.stringify(jsonObj, null , 2));
+}
 
+function updateOldCardsWithNormalAndGolden() {
+    addCustomFieldsToAllVersions(["battlegroundsPremiumDbfId", "battlegroundsNormalDbfId"]);
+}
+
+function addTribesToAllCardsThatWereActive() {
+    let activeCardsId = getAllActiveCardsId();
+    let mappingJson = dbManager.getJsonMappingFile();
+    for(let cardId of activeCardsId) {
+        let patchesOfCard = mappingJson.cards[cardId];
+        for(let patch of patchesOfCard) {
+            let jsonOfPatch = dbManager.getJsonDBOfPatch(patch);
+            let currentVersion = jsonOfPatch[cardId];
+            if(!currentVersion.hasOwnProperty("associatedTribes")) {
+                let newVersion = addTribesToCard(currentVersion);
+                jsonOfPatch[cardId] = newVersion;
+                saveJsonToFile(`./patches/enUS/${patch}.json`, jsonOfPatch);
+            }
+        }
+    }
+}
+
+function addTribesToCard(card) {
+    let newCard = card;
+    if(newCard.hasOwnProperty("races") && newCard.races.toString() !== ["ALL"].toString()) {
+        newCard.associatedTribes = newCard.races;
+    } else {
+        newCard.associatedTribes = [ "GENERAL" ];
+    }
+    return newCard;
+}
+
+function getAllActiveCardsId() {
+    let mappingJson = dbManager.getJsonMappingFile();
+    let activeCardsId = [];
+    for(let cardId in mappingJson.cards) {
+        let patchesOfCard = mappingJson.cards[cardId];
+        for(let patch of patchesOfCard) {
+            let jsonOfPatch = dbManager.getJsonDBOfPatch(patch);
+            let currentVersion = jsonOfPatch[cardId];
+            if(isActiveCard(currentVersion)) {
+                activeCardsId.push(cardId);
+                break;
+            }
+        }
+    }
+    return activeCardsId;
+}
+
+function isActiveCard( currentCard ) {
+    return currentCard["battlegroundsHero"] || currentCard["isBattlegroundsPoolMinion"];
+}
 
 // addingTribes();
 // removingAssociatedTribesFromSkins();
@@ -134,11 +189,14 @@ function updatePatchesJson() {
 
 // listBuddiesAndIds();
 
-// addCustomFieldsToAllVersions();
+// const customFields = ["associatedTribes", "pools", "bannedFromFoaF", "undeadCreationPool", "battlegroundsDiabloPrizeTurn", "bannedFromRewards", "bannedFromQuests", "bannedFromNguyen", "isAkamSecret", "relatedCards"];
+// addCustomFieldsToAllVersions(customFields);
 
 // updatePatchesJson();
 
+// updateOldCardsWithNormalAndGolden();
 
+// addTribesToAllCardsThatWereActive();
 
 // const PUTRI_POOL_1 = [
 // 85651, 99117, 100775, 85152, 99116,

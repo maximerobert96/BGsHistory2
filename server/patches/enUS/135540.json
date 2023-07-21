@@ -105,7 +105,10 @@
     "set": "CORE",
     "techLevel": 5,
     "text": "Your <b>Battlecries</b> trigger twice.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77888": {
     "attack": 3,
@@ -258,6 +261,9 @@
     "type": "MINION",
     "pools": [
       "FOAF_BUDDY_POOL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "88930": {

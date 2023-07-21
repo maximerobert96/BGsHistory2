@@ -96,7 +96,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59711
   },
   "59711": {
     "attack": 4,
@@ -113,7 +114,8 @@
     "set": "BATTLEGROUNDS",
     "text": "At the end of your turn,\ngive a random friendly Mech, Murloc, Demon, and Beast +4/+2.",
     "type": "MINION",
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 59707
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -221,7 +223,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60396
   },
   "60285": {
     "cardClass": "NEUTRAL",
@@ -296,7 +299,8 @@
     "races": [
       "MURLOC"
     ],
-    "techLevel": 5
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 60247
   },
   "60403": {
     "attack": 8,
@@ -317,6 +321,7 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 3
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 2068
   }
 }

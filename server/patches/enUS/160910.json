@@ -26,6 +26,9 @@
     ],
     "relatedCards": [
       49168
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "63796": {
@@ -71,7 +74,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72044": {
     "attack": 5,
@@ -89,7 +95,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> Make a Murloc Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72388": {
     "attack": 5,
@@ -109,6 +118,9 @@
     "text": "<b>Avenge (2):</b> Deal 5 damage to the highest Health enemy minion.",
     "type": "MINION",
     "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
       "MECHANICAL"
     ]
   },
@@ -131,7 +143,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96842": {
     "artist": "Anton Zemskov",
@@ -160,6 +175,9 @@
     "type": "MINION",
     "races": [
       "MURLOC"
+    ],
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "97072": {
@@ -181,6 +199,9 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Start of Combat:</b> Give the\nenemies opposite this <b>Taunt</b>.\nThey take double damage.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

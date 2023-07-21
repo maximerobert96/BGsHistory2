@@ -87,7 +87,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62165": {
     "attack": 6,

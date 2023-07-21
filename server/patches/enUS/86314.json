@@ -62,6 +62,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70190": {

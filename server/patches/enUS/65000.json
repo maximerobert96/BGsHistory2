@@ -46,7 +46,10 @@
     "id": "TB_BaconShop_HERO_30",
     "name": "Nefarian",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59201": {
     "cardClass": "NEUTRAL",
@@ -77,7 +80,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 98699
   },
   "59670": {
     "attack": 1,
@@ -287,7 +291,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61048": {
     "attack": 4,
@@ -310,7 +317,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61056": {
     "attack": 4,
@@ -360,7 +370,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61408": {
     "cardClass": "NEUTRAL",
@@ -402,7 +415,10 @@
     "races": [
       "ALL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61445": {
     "attack": 12,
@@ -596,7 +612,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "63782": {
     "attack": 4,
@@ -642,7 +661,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64076": {
     "attack": 8,
@@ -685,6 +707,9 @@
     "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you have.",
     "type": "MINION",
     "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
       "ELEMENTAL"
     ]
   },
@@ -759,6 +784,9 @@
     "text": "At the end of your turn, give another friendly Mech +2/+2.",
     "type": "MINION",
     "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
       "MECHANICAL"
     ]
   }

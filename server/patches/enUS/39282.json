@@ -48,7 +48,11 @@
     "techLevel": 3,
     "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 59661,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59661": {
     "attack": 6,
@@ -65,7 +69,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion twice.",
-    "type": "MINION"
+    "type": "MINION",
+    "battlegroundsNormalDbfId": 59660
   },
   "59832": {
     "cardClass": "NEUTRAL",

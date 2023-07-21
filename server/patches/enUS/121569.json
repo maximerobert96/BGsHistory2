@@ -22,7 +22,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72391": {
     "attack": 5,

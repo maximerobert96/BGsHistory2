@@ -22,7 +22,10 @@
     "techLevel": 2,
     "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "2068": {
     "artist": "Todd Lockwood",
@@ -73,7 +76,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "57555": {
     "cardClass": "NEUTRAL",
@@ -310,7 +316,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60036": {
     "attack": 5,
@@ -522,7 +531,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 63779
   },
   "60559": {
     "attack": 1,
@@ -563,7 +573,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60621": {
     "attack": 2,
@@ -580,6 +593,9 @@
     "text": "When you sell this minion, give all minions in Bob's Tavern +1/+1.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -627,7 +643,8 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 63772
   },
   "60629": {
     "attack": 7,
@@ -651,7 +668,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 63780
   },
   "60630": {
     "attack": 2,
@@ -938,7 +956,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "61029": {
     "attack": 2,
@@ -960,7 +981,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61032": {
     "attack": 4,
@@ -1026,7 +1050,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "61072": {
     "attack": 3,
@@ -1051,7 +1078,10 @@
     "races": [
       "DRAGON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61075": {
     "attack": 6,
@@ -1079,7 +1109,7 @@
   },
   "61077": {
     "attack": 2,
-    "battlegroundsNormalDbfId": 1808,
+    "battlegroundsNormalDbfId": 97581,
     "cardClass": "NEUTRAL",
     "cost": 2,
     "dbfId": 61077,

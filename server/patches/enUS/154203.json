@@ -130,6 +130,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "61989": {
@@ -152,6 +155,9 @@
     "text": "[x]Whenever you buy a Pirate,\ngain 1 Gold.",
     "type": "MINION",
     "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
       "PIRATE"
     ]
   },
@@ -514,6 +520,9 @@
     ],
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70161": {
@@ -564,6 +573,9 @@
     ],
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70174": {
@@ -643,6 +655,9 @@
     ],
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70181": {
@@ -746,6 +761,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "72062": {
@@ -821,6 +839,9 @@
     ],
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "75485": {
@@ -1000,7 +1021,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Battlecry: Discover</b> a minion from a minion type you don't control.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "89813": {
     "cardClass": "NEUTRAL",
@@ -1034,7 +1058,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After this attacks, give a friendly minion of each minion type +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92400": {
     "attack": 1,
@@ -1078,6 +1105,9 @@
     "type": "MINION",
     "races": [
       "ALL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "92411": {
@@ -1175,6 +1205,9 @@
     "text": "[x]Whenever this attacks,\ndeal 3 damage to the\n  target and its neighbors.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -1353,7 +1386,10 @@
     "set": "OG",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Give your minions +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96780": {
     "artist": "Andrew Hou",
@@ -1375,7 +1411,10 @@
     "races": [
       "ALL"
     ],
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97072": {
     "attack": 8,
@@ -1396,7 +1435,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Start of Combat:</b> Give the\nenemies opposite this <b>Taunt</b>.\nThey take double damage.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97081": {
     "attack": 16,

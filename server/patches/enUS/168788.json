@@ -228,7 +228,10 @@
     "name": "Professor Putricide",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58021": {
     "armor": 13,
@@ -382,7 +385,10 @@
     "name": "Nefarian",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "58546": {
     "cardClass": "NEUTRAL",
@@ -394,7 +400,10 @@
     "name": "Bartendotron",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59203": {
     "armor": 13,
@@ -923,7 +932,10 @@
     "name": "Lady Vashj",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61914": {
     "armor": 10,
@@ -1417,7 +1429,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> <b>Refresh</b> Bob's Tavern with minions of your most common type.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72470": {
     "armor": 10,
@@ -1429,7 +1444,10 @@
     "name": "Diablo",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73453": {
     "attack": 8,
@@ -7076,7 +7094,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "At the end of your turn, steal the highest Tier minion from Bob's Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92960": {
     "armor": 10,
@@ -8134,7 +8155,10 @@
     "set": "BOOMSDAY",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Deal 4 damage to a random enemy minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "96778": {
     "artist": "Dan Brereton",
@@ -8158,7 +8182,10 @@
     "targetingArrowText": "Give a Beast +2/+2 and Taunt.",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96793": {
     "artist": "Milivoj Ceran",
@@ -8185,6 +8212,9 @@
     "type": "MINION",
     "relatedCards": [
       96795
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "96870": {
@@ -9272,7 +9302,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Reduce the Cost of your next Buddy by (2).",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101434": {
     "attack": 4,
@@ -9595,7 +9628,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "Whenever you get a minion you already have, give your minions +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101564": {
     "attack": 8,

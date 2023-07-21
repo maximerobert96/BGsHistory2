@@ -22,6 +22,9 @@
     "type": "MINION",
     "races": [
       "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "63782": {
@@ -67,6 +70,9 @@
     "text": "After you play an Elemental, give another random friendly Elemental +1/+1.",
     "type": "MINION",
     "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
       "ELEMENTAL"
     ]
   },
@@ -194,6 +200,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "92408": {
@@ -213,7 +222,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you play a minion\nwith no minion type,\ngive 3 friendly minions of\n  different types +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92421": {
     "attack": 0,

@@ -134,7 +134,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62162": {
     "attack": 3,
@@ -159,7 +162,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62165": {
     "attack": 6,
@@ -216,7 +222,10 @@
     "techLevel": 3,
     "text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked,\ngive it +2 Attack\npermanently.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63623": {
     "attack": 4,
@@ -237,7 +246,10 @@
     "techLevel": 4,
     "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+1 permanently.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63782": {
     "attack": 4,

@@ -69,7 +69,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "59487": {
     "attack": 4,
@@ -276,6 +279,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "60626": {
@@ -438,7 +444,7 @@
   },
   "61077": {
     "attack": 2,
-    "battlegroundsNormalDbfId": 1808,
+    "battlegroundsNormalDbfId": 97581,
     "cardClass": "NEUTRAL",
     "cost": 2,
     "dbfId": 61077,
@@ -513,6 +519,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       96795
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   }
 }

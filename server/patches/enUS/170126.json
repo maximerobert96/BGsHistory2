@@ -326,7 +326,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "At the end of your turn, gain +1/+1 for each Dragon you have.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61489": {
     "armor": 18,
@@ -2624,7 +2627,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "While this is in Bob's Tavern, gain the stats of any minions sold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "98690": {
     "attack": 2,

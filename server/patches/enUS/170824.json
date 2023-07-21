@@ -99,7 +99,7 @@
   },
   "58376": {
     "attack": 6,
-    "battlegroundsNormalDbfId": 102969,
+    "battlegroundsNormalDbfId": 89724,
     "cardClass": "NEUTRAL",
     "cost": 4,
     "dbfId": 58376,
@@ -508,6 +508,9 @@
     "type": "MINION",
     "pools": [
       "FOAF_BUDDY_POOL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "87690": {

@@ -226,6 +226,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70189": {
@@ -269,7 +272,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> <b>Refresh</b> Bob's Tavern with minions of your most common type.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72389": {
     "attack": 3,
@@ -294,7 +300,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a friendly minion loses <b>Divine Shield</b>, give it +2/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "75141": {
     "attack": 6,
@@ -494,7 +503,10 @@
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, gain +3/+3.",
     "type": "MINION",
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95256": {
     "attack": 6,
@@ -685,7 +697,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "While this is in Bob's Tavern, gain the stats of any minions sold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "98682": {
     "attack": 12,

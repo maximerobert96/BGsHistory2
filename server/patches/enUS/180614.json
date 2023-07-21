@@ -697,7 +697,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give a minion\n  in your hand +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "92426": {
     "attack": 2,
@@ -814,7 +817,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+6 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
   },
   "97558": {
     "attack": 6,
@@ -1154,7 +1161,10 @@
     "name": "Cap'n Hoggarr",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101345": {
     "armor": 5,
@@ -1228,7 +1238,10 @@
     "id": "BG26_HERO_102",
     "name": "Inge, the Iron Hymn",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104877": {
     "attack": 5,
@@ -1250,7 +1263,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you summon a\nBeast, gain +1 Health permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "104879": {
     "attack": 10,

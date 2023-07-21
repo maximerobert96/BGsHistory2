@@ -52,10 +52,21 @@ cardRoutes.route("/card-changes/:id").get(function(req, res) {
     }
 });
 
+
 cardRoutes.route("/card-changes/").post(function(req, res){
-    console.log(req.body.card);
-    let card = req.body.card;
-    res.json(Object.values(card));
+    // let build = 35747; // first patch
+    // let cardId = 736; // old murkeye
+    // let affects = "ALL"; //updates all patches. CURRENT, RANGE, ALL are the valid options. RANGE needs field build2
+    // let newFields = {"associatedTribes": [ "MURLOC" ]};
+    // let modifyGolden = false;
+    // let removedFields = []; // array of fields to remove
+    // let areNewFieldsReplacingCard = false;
+    // let build2;
+    // let goldenText;
+
+    // console.log(req.body.card);
+    // let card = req.body.card;
+    // res.json(Object.values(card));
     // res.json(req.body);
 });
 

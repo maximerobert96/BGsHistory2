@@ -42,7 +42,10 @@
     "id": "TB_BaconShop_HERO_31",
     "name": "Bartendotron",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59397": {
     "battlegroundsHero": true,
@@ -145,7 +148,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "63600": {
     "cardClass": "NEUTRAL",
@@ -178,7 +184,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "63630": {
     "attack": 6,
@@ -197,7 +206,10 @@
     "techLevel": 4,
     "text": "[x]At the end of your turn, give\nyour left-most minion +1/+1.\nRepeat for each Elemental\nyou played this turn.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64056": {
     "attack": 3,
@@ -219,7 +231,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64058": {
     "attack": 6,
@@ -263,7 +278,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64064": {
     "attack": 8,
@@ -428,7 +446,10 @@
     "techLevel": 5,
     "text": "<b>Poisonous</b>",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65122": {
     "attack": 2,

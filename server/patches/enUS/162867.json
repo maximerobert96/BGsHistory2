@@ -25,6 +25,9 @@
     "type": "MINION",
     "relatedCards": [
       49168
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "57634": {
@@ -226,7 +229,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 1/1 Imp.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60211": {
     "artist": "Matt Dixon",
@@ -328,7 +334,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "At the end of your turn, gain +1/+1 for each Dragon you have.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61028": {
     "attack": 6,
@@ -352,7 +361,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]Whenever this minion takes\ndamage, summon a random\nDemon and give it <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "61029": {
     "attack": 2,
@@ -374,7 +386,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Whenever this attacks, double its Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "DRAGON"
+    ]
   },
   "61032": {
     "attack": 4,
@@ -420,7 +436,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61072": {
     "attack": 3,
@@ -444,7 +463,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a friendly minion loses <b>Divine Shield</b>, gain +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "61910": {
     "artist": "Luke Mancini",
@@ -529,7 +551,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of your turn, give\nyour left-most minion +1/+1.\nRepeat for each Elemental\nyou played this turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64069": {
     "attack": 4,
@@ -550,7 +575,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Add another random Elemental to Bob's Tavern and <b>Freeze</b> it.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64343": {
     "attack": 2,
@@ -608,7 +636,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngain +2/+2 for each\n  minion type you control.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "67553": {
     "artist": "Steven Prescott",
@@ -665,6 +696,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70956": {
@@ -769,7 +803,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a card is added to your hand, give another friendly Pirate +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "PIRATE"
+    ]
   },
   "73813": {
     "attack": 12,
@@ -912,7 +950,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Avenge (4):</b> Make\nanother friendly Pirate\nGolden permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "75703": {
     "cardClass": "NEUTRAL",
@@ -994,7 +1035,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77987": {
     "artist": "BOSi Studio",
@@ -1107,7 +1151,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]Whenever this attacks,\nsummon an 8/8 Devilsaur\n  to attack the target first.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "92398": {
     "attack": 4,
@@ -1302,7 +1349,10 @@
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give an Undead +2/+7.",
     "type": "MINION",
-    "undeadCreationPool": 2
+    "undeadCreationPool": 2,
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95254": {
     "attack": 4,
@@ -1351,7 +1401,10 @@
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, gain +3/+3.",
     "type": "MINION",
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95256": {
     "attack": 6,
@@ -1399,7 +1452,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Taunt</b>. At the start of your\nturn, give your minions that\n died last combat +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95258": {
     "attack": 6,
@@ -1688,7 +1744,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "Has +1 Attack for each friendly minion that died this combat.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95272": {
     "attack": 2,
@@ -2308,7 +2367,10 @@
     "set": "DALARAN",
     "techLevel": 3,
     "text": "Your cards that summon minions summon twice as many.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "96785": {
     "artist": "Ralph Horsley",
@@ -2336,7 +2398,10 @@
     "set": "NAXX",
     "techLevel": 5,
     "text": "Your minions trigger their <b>Deathrattles</b> twice.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "96865": {
     "attack": 2,
@@ -2363,6 +2428,10 @@
     "type": "MINION",
     "relatedCards": [
       96866
+    ],
+    "associatedTribes": [
+      "NAGA",
+      "PIRATE"
     ]
   },
   "96866": {
@@ -2938,7 +3007,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Divine Shield</b>\nYour <b>Divine Shield</b> minions have +10 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
   },
   "97558": {
     "attack": 4,
@@ -3034,7 +3107,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "While this is in Bob's Tavern, gain the stats of any minions sold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "98682": {
     "attack": 8,
@@ -3706,7 +3782,8 @@
     "associatedTribes": [
       "UNDEAD"
     ],
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "battlegroundsPremiumDbfId": 102298
   },
   "99156": {
     "artist": "Tyler West Studio",
@@ -3925,7 +4002,8 @@
     "associatedTribes": [
       "UNDEAD",
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 101491
   },
   "99166": {
     "artist": "Dave Allsop",

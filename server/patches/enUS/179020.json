@@ -205,7 +205,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 1/1 Imp.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60369": {
     "armor": 8,
@@ -320,7 +323,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a friendly minion with <b>Taunt</b> dies, give its neighbors +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63623": {
     "attack": 3,
@@ -341,7 +347,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "64400": {
     "armor": 15,
@@ -553,6 +562,9 @@
     "type": "MINION",
     "relatedCards": [
       58596
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "72387": {
@@ -602,7 +614,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+2/+2 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72391": {
     "attack": 5,
@@ -639,7 +654,10 @@
     "name": "Diablo",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73940": {
     "armor": 10,
@@ -803,6 +821,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "76185": {
@@ -824,7 +845,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Avenge (3):</b> Add a random <b>Battlecry</b> minion to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77778": {
     "attack": 7,
@@ -1181,7 +1205,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]Whenever this attacks,\nsummon an 8/8 Devilsaur\n  to attack the target first.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "90917": {
     "cardClass": "NEUTRAL",
@@ -1214,7 +1241,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After this attacks, give a friendly minion of each minion type +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92398": {
     "attack": 3,
@@ -1264,7 +1294,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give a minion\n  in your hand +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "92426": {
     "attack": 4,
@@ -1383,7 +1416,10 @@
     "set": "OG",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Give your minions +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "97557": {
     "attack": 2,
@@ -1409,7 +1445,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+8 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
   },
   "97604": {
     "attack": 1,
@@ -1639,7 +1679,10 @@
     "targetingArrowText": "_",
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "103653": {
     "artist": "Matt Dixon",
@@ -2067,7 +2110,10 @@
     "set": "BATTLE_OF_THE_BANDS",
     "techLevel": 5,
     "text": "[x]<b>Taunt</b>, <b>Divine Shield</b>\n<b>Deathrattle:</b> Summon three\n1/2 Mechs with <b>Taunt</b>\nand <b>Divine Shield</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "104848": {
     "artist": "Matt Dixon",
@@ -2174,7 +2220,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you summon a\nBeast, gain +1 Health permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "104879": {
     "attack": 8,

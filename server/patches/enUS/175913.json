@@ -456,7 +456,10 @@
     "name": "Diablo",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72825": {
     "attack": 8,
@@ -1304,7 +1307,10 @@
     "id": "BG26_HERO_101",
     "name": "Cap'n Hoggarr",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101132": {
     "cardClass": "NEUTRAL",
@@ -1391,7 +1397,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "Whenever you get a minion you already have, give your minions +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "102913": {
     "artist": "Anton Zemskov",
@@ -1519,7 +1528,10 @@
     "id": "BG26_HERO_102",
     "name": "Inge, the Iron Hymn",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103501": {
     "cardClass": "NEUTRAL",

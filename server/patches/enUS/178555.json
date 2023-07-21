@@ -649,7 +649,10 @@
     "name": "Diablo",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "74646": {
     "armor": 12,
@@ -986,7 +989,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "Has +1 Attack for each friendly minion that died this combat.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95276": {
     "attack": 4,
@@ -2058,7 +2064,10 @@
     "id": "BG26_HERO_101",
     "name": "Cap'n Hoggarr",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101267": {
     "attack": 0,
@@ -2190,7 +2199,10 @@
     "id": "BG26_HERO_102",
     "name": "Inge, the Iron Hymn",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104894": {
     "artist": "Grafit",

@@ -42,6 +42,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "60642": {
@@ -84,6 +87,9 @@
     "text": "[x]After you upgrade your\nTavern Tier, gain +1/+1\n  for each friendly Dragon.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },

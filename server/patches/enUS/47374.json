@@ -22,7 +22,10 @@
     "id": "TB_BaconShop_HERO_61",
     "name": "Lady Vashj",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "61914": {
     "battlegroundsHero": true,
@@ -96,7 +99,10 @@
     "races": [
       "BEAST"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62165": {
     "attack": 6,

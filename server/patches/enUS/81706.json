@@ -13,7 +13,8 @@
     "type": "MINION",
     "races": [
       "ALL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 98699
   },
   "64424": {
     "cardClass": "NEUTRAL",
@@ -323,6 +324,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70158": {
@@ -582,6 +586,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70172": {
@@ -631,6 +638,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70174": {
@@ -710,6 +720,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "70177": {
@@ -760,6 +773,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70181": {
@@ -838,6 +854,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70189": {

@@ -29,7 +29,10 @@
     "races": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "72073": {
     "attack": 3,

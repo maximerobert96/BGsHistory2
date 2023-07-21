@@ -40,7 +40,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61056": {
     "attack": 4,
@@ -90,7 +93,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61061": {
     "attack": 3,
@@ -340,6 +346,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70172": {
@@ -438,7 +447,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72389": {
     "attack": 3,
@@ -463,7 +475,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "74646": {
     "battlegroundsHero": true,
@@ -518,7 +533,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "74934": {
     "attack": 8,

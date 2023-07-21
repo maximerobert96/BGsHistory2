@@ -22,7 +22,10 @@
     "set": "EXPERT1",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "1808": {
     "artist": "Mike Nicholson",
@@ -46,7 +49,10 @@
     "set": "NAXX",
     "techLevel": 2,
     "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "2023": {
     "artist": "Jesper Ejsing",
@@ -71,6 +77,9 @@
     "text": "<b>Battlecry:</b> Give a friendly Mech +2/+2.",
     "type": "MINION",
     "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
       "MECHANICAL"
     ]
   },
@@ -100,6 +109,9 @@
     ],
     "relatedCards": [
       49168
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "57742": {
@@ -117,7 +129,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "Each turn this is in your hand, transform it into a random minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57945": {
     "cardClass": "NEUTRAL",
@@ -213,6 +228,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "61081": {
@@ -272,7 +290,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Taunt</b>\n<b>Reborn</b>",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "65254": {
     "battlegroundsDarkmoonPrizeTurn": 1,
@@ -423,6 +444,9 @@
     "type": "MINION",
     "races": [
       "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "72389": {
@@ -448,6 +472,9 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "72470": {
@@ -457,7 +484,10 @@
     "id": "BG20_HERO_666",
     "name": "Diablo",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "73941": {
     "cardClass": "PALADIN",
@@ -633,7 +663,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After this attacks, give a friendly minion of each minion type +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92309": {
     "attack": 2,
@@ -692,7 +725,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]If you have any unspent\nGold at the end of\n  your turn, gain +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92874": {
     "attack": 4,
@@ -734,6 +770,9 @@
     "text": "<b>Taunt</b>",
     "type": "MINION",
     "races": [
+      "BEAST"
+    ],
+    "associatedTribes": [
       "BEAST"
     ]
   },
@@ -903,7 +942,10 @@
     "targetingArrowText": "Swap Attack and Health of a minion.",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92885": {
     "artist": "Dave Allsop",
@@ -1029,6 +1071,9 @@
     "text": "[x]Whenever this attacks,\ndeal 3 damage to the\n  target and its neighbors.",
     "type": "MINION",
     "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
       "DRAGON"
     ]
   },
@@ -1290,6 +1335,9 @@
     "text": "At the end of your turn, give another friendly Mech +2/+2.",
     "type": "MINION",
     "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
       "MECHANICAL"
     ]
   }

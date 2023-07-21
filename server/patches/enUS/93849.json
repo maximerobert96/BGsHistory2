@@ -19,7 +19,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62194": {
     "attack": 8,
@@ -112,7 +115,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62739": {
     "attack": 8,
@@ -200,6 +206,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70161": {
@@ -301,6 +310,9 @@
     "isBattlegroundsPoolMinion": true,
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70172": {
@@ -473,7 +485,10 @@
     "techLevel": 4,
     "text": "<b>Avenge (4):</b> Add a random Demon to your hand.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72070": {
     "attack": 6,
@@ -495,7 +510,10 @@
     "races": [
       "PIRATE"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "72072": {
     "attack": 2,
@@ -666,7 +684,10 @@
     "techLevel": 5,
     "text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +1/+1.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75706": {
     "cardClass": "NEUTRAL",
@@ -709,7 +730,10 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "76569": {
     "attack": 10,

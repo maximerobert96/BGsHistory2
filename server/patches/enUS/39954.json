@@ -21,7 +21,8 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60671
   },
   "57652": {
     "attack": 2,
@@ -99,7 +100,11 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 60676,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "60041": {
     "attack": 14,
@@ -116,7 +121,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Mega-Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "battlegroundsNormalDbfId": 60040
   },
   "60212": {
     "cardClass": "NEUTRAL",
@@ -212,7 +218,8 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 56112
   },
   "60676": {
     "attack": 6,
@@ -234,6 +241,7 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ]
+    ],
+    "battlegroundsNormalDbfId": 59937
   }
 }

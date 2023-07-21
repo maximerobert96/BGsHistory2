@@ -55,7 +55,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 59976
   },
   "59976": {
     "attack": 6,
@@ -72,7 +73,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Deathrattle</b>: Summon the first 4 friendly Mechs that died this combat.",
     "type": "MINION",
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsNormalDbfId": 59935
   },
   "60036": {
     "attack": 4,
@@ -97,7 +99,8 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "BEAST"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60038
   },
   "60038": {
     "attack": 8,
@@ -118,7 +121,8 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 6
+    "techLevel": 6,
+    "battlegroundsNormalDbfId": 60036
   },
   "60040": {
     "attack": 7,
@@ -140,6 +144,7 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 60041
   }
 }

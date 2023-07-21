@@ -158,7 +158,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "59670": {
     "attack": 1,
@@ -300,7 +303,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle:</b> Give your Beasts +5/+5.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "59968": {
     "attack": 2,
@@ -321,7 +327,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60041": {
     "attack": 14,
@@ -443,7 +452,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "At the end of your turn, gain +1/+1 for each Dragon you have.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "60630": {
     "attack": 4,
@@ -519,7 +531,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "Whenever a friendly Pirate attacks, give all friendly minions +2/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61048": {
     "attack": 4,
@@ -541,7 +556,10 @@
     "targetingArrowText": "Give +1/+1. Repeat for each Pirate you bought this turn.",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Give a friendly\nPirate +1/+1. Repeat for\neach Pirate you bought\nthis turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61053": {
     "attack": 4,
@@ -587,7 +605,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Battlecry:</b> Reduce the Cost of upgrading Bob's\nTavern by (1).",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61056": {
     "attack": 2,
@@ -633,7 +654,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "At the end of your turn, gain +2/+2 for each friendly Golden minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "61488": {
     "armor": 10,
@@ -763,7 +787,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]Whenever you buy a Pirate,\ngain 1 Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "62162": {
     "attack": 3,
@@ -787,7 +814,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you play a minion with <b>Deathrattle</b>, gain +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "62254": {
     "attack": 8,
@@ -886,7 +916,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "Whenever you play a Pirate, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "63319": {
     "armor": 18,
@@ -942,7 +975,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked,\ngive it +2 Attack\npermanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "63624": {
     "attack": 6,
@@ -964,7 +1000,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]After you play an Elemental,\ngive a friendly minion stats\nequal to the Elemental's\nTavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64055": {
     "attack": 8,
@@ -1007,7 +1046,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you play an Elemental, give another random friendly Elemental +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64062": {
     "attack": 4,
@@ -1029,7 +1071,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get another\nrandom Elemental.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64064": {
     "attack": 8,
@@ -1074,7 +1119,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you have.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "64400": {
     "armor": 14,
@@ -1152,6 +1200,9 @@
     "type": "MINION",
     "relatedCards": [
       58596
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "66197": {
@@ -1183,7 +1234,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you summon a Demon, gain +1/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "66458": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -1221,7 +1275,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After another friendly minion loses <b>Divine Shield</b>, gain <b>Divine Shield</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "67356": {
     "armor": 14,
@@ -1294,6 +1351,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70159": {
@@ -1395,6 +1455,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "70174": {
@@ -1473,6 +1536,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "70181": {
@@ -1521,6 +1587,9 @@
     "type": "MINION",
     "relatedCards": [
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "71454": {
@@ -1636,7 +1705,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Battlecry:</b> Make a Murloc Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72055": {
     "attack": 2,
@@ -1653,7 +1725,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (1):</b> Give your Beasts +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72062": {
     "attack": 4,
@@ -1700,7 +1775,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Gain +2/+1 for\neach other friendly Murloc.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "72065": {
     "attack": 3,
@@ -1742,7 +1820,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Avenge (4):</b> Add a random Demon to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "72067": {
     "attack": 9,
@@ -1788,7 +1869,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Avenge (2):</b> Elementals in\nBob's Tavern have +1/+1\n  for the rest of the game.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "72389": {
     "attack": 3,
@@ -1812,7 +1896,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a friendly minion loses <b>Divine Shield</b>, give it +2/+1 permanently.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "72652": {
     "cardClass": "NEUTRAL",
@@ -1908,7 +1995,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]After you upgrade your\nTavern Tier, gain +1 Attack\n  for each friendly Dragon.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "75180": {
     "attack": 6,
@@ -1926,7 +2016,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "75182": {
     "attack": 12,
@@ -2005,7 +2098,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]Your other Demons\nhave +2 Attack.\nYour hero is <b>Immune</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "77784": {
     "attack": 0,
@@ -2189,6 +2285,9 @@
     "type": "MINION",
     "relatedCards": [
       89017
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80745": {
@@ -2216,6 +2315,9 @@
     "type": "MINION",
     "relatedCards": [
       84374
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80748": {
@@ -2265,6 +2367,9 @@
     "type": "MINION",
     "relatedCards": [
       82323
+    ],
+    "associatedTribes": [
+      "NAGA"
     ]
   },
   "80756": {
@@ -2290,6 +2395,9 @@
     "relatedCards": [
       92260,
       70136
+    ],
+    "associatedTribes": [
+      "QUILBOAR"
     ]
   },
   "80758": {
@@ -2630,6 +2738,9 @@
     "type": "MINION",
     "pools": [
       "FOAF_BUDDY_POOL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "89293": {
@@ -2683,7 +2794,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the end of your turn, give your Dragons +1 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "92405": {
     "attack": 5,
@@ -2701,7 +2815,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]When you sell this,\ngive its stats to a random\nfriendly minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92408": {
     "attack": 6,
@@ -2719,7 +2836,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you play a minion\nwith no minion type,\ngive 3 friendly minions of\n  different types +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "92871": {
     "attack": 2,
@@ -2736,7 +2856,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]If you have any unspent\nGold at the end of\n  your turn, gain +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "93835": {
     "attack": 5,
@@ -2755,7 +2878,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "You only need 2 copies of this minion to make it Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "94199": {
     "attack": 3,
@@ -2777,7 +2903,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]Whenever this attacks,\ndeal 3 damage to the\n  target and its neighbors.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "95253": {
     "attack": 2,
@@ -2800,7 +2929,10 @@
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give an Undead +2/+7.",
     "type": "MINION",
-    "undeadCreationPool": 2
+    "undeadCreationPool": 2,
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95255": {
     "attack": 3,
@@ -2822,7 +2954,10 @@
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, gain +3/+3.",
     "type": "MINION",
-    "undeadCreationPool": 1
+    "undeadCreationPool": 1,
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95257": {
     "attack": 3,
@@ -2844,7 +2979,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Taunt</b>. At the start of your\nturn, give your minions that\n died last combat +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95271": {
     "attack": 1,
@@ -2862,7 +3000,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "Has +1 Attack for each friendly minion that died this combat.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "95287": {
     "attack": 6,
@@ -2960,6 +3101,9 @@
     "type": "MINION",
     "relatedCards": [
       97426
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "96758": {
@@ -2987,6 +3131,9 @@
     "type": "MINION",
     "relatedCards": [
       96759
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "96768": {
@@ -3011,7 +3158,10 @@
     "set": "EXPERT1",
     "techLevel": 2,
     "text": "Your other Murlocs have +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "96771": {
     "artist": "Ken Steacy",
@@ -3035,7 +3185,10 @@
     "set": "EXPERT1",
     "techLevel": 2,
     "text": "Your other Pirates have +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "96776": {
     "artist": "Andrew Hou",
@@ -3059,7 +3212,10 @@
     "set": "BLACK_TEMPLE",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Give your other Murlocs +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "96782": {
     "artist": "Peter Stapleton",
@@ -3080,7 +3236,10 @@
     "set": "LOOTAPALOOZA",
     "techLevel": 4,
     "text": "Also damages the minions next to whomever\nthis attacks.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "96797": {
     "artist": "Jerry Mascho",
@@ -3105,7 +3264,10 @@
     "set": "LOOTAPALOOZA",
     "techLevel": 5,
     "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon three\n1/3 Demons with <b>Taunt</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "96842": {
     "artist": "Anton Zemskov",
@@ -3133,7 +3295,10 @@
     "targetingArrowText": "Give a friendly Murloc Poisonous.",
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "96865": {
     "attack": 2,
@@ -3159,6 +3324,10 @@
     "type": "MINION",
     "relatedCards": [
       96866
+    ],
+    "associatedTribes": [
+      "NAGA",
+      "PIRATE"
     ]
   },
   "96870": {
@@ -3288,7 +3457,10 @@
     "set": "GVG",
     "techLevel": 3,
     "text": "At the end of your turn, give another friendly Mech +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "97549": {
     "attack": 2,
@@ -3368,7 +3540,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+8 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
   },
   "98011": {
     "artist": "Lea Faske",
@@ -6436,7 +6612,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Reduce the Cost of your next Buddy by (2).",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "102255": {
     "artist": "Matt Dixon",
