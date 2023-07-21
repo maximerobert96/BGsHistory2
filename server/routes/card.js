@@ -41,5 +41,23 @@ cardRoutes.route("/:patchId/cards/").get(function(req, res) {
     res.json(activeCards);
 });
 
+cardRoutes.route("/card-changes/:id").get(function(req, res) {
+    try {
+        let card = dbManager.getCardChangesOfId(req.params.id);
+        res.json(card);
+    } catch (error) {
+        res.status(404);
+        res.json({error: error.message});
+        
+    }
+});
+
+cardRoutes.route("/card-changes/").post(function(req, res){
+    console.log(req.body.card);
+    let card = req.body.card;
+    res.json(Object.values(card));
+    // res.json(req.body);
+});
+
 
 module.exports = cardRoutes;

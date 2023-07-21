@@ -263,6 +263,23 @@ function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
     return previousPatchId;
 }
 
+function getCardChangesOfId(cardId) {
+    let mappingJson = getJsonMappingFile();
+    let patchOfChanges = mappingJson.cards[cardId];
+    let currentCard;
+    let previousCard = {};
+    let cardChangesObj = {};
+    let changes;
+
+    for(let patch of patchOfChanges) {
+        currentCard = getJsonDBOfPatch(patch)[cardId];
+        changes = getChangesBetweenVersions(currentCard, previousCard);
+        previousCard = currentCard;
+        cardChangesObj[patch] = {changes: changes, cardVersion: currentCard};
+    }
+
+    return cardChangesObj;
+}
 
 // function temp(){
 //     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
@@ -276,5 +293,5 @@ function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
 
 
 module.exports = { 
-    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch
+    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId
 }
