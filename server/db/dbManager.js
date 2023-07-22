@@ -252,6 +252,8 @@ function concatAndDedupArrays(array1, array2) {
 }
 
 function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
+    if(!mappingJson.cards.hasOwnProperty(cardId))
+        return undefined;
     let cardVersions = mappingJson.cards[cardId];
     let previousPatchId;
     for(let patch of cardVersions) {
@@ -284,5 +286,5 @@ function getCardChangesOfId(cardId) {
 
 
 module.exports = { 
-    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile
+    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard
 }

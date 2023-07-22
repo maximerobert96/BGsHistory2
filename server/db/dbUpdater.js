@@ -233,3 +233,5 @@ function isActiveCard( currentCard ) {
 
 // addField(PUTRI_POOL_1, "undeadCreationPool", 1);
 // addField(PUTRI_POOL_2, "undeadCreationPool", 2);
+
+module.exports = { saveJsonToFile }
