@@ -1,4 +1,5 @@
 const dbManager = require('../db/dbManager');
+const { saveJsonToFile, saveJsonDBOfPatch } = require('./dbUpdater');
 
 /**
  * 
@@ -13,19 +14,24 @@ const dbManager = require('../db/dbManager');
  * @param {*} goldenText 
  */
 function addNewChange(build, cardId, newFields, removedFields = [], areReplacing = false, affectedBuilds = "ALL_FROM_NOW", build2, modifyGolden = false, goldenText, goldenId) {
-    let mappingFile = dbManager.getJsonMappingFile();
-    let cardInMapping = mappingFile.cards[cardId];
-    let patchInMapping = mappingFile.patches[build];
+    let mappingFile = dbManager.getJsonMappingFile();   
 
     if(!mappingFile.cards.hasOwnProperty(cardId)) {
         mappingFile.cards[cardId] = [];
     }    
     let patchesOfChange = mappingFile.cards[cardId];
+    patchesOfChange = addToSortedArray(patchesOfChange, build);
     
-    if(!patchesOfChange.includes(build)) {
-        patchesOfChange.push(build);
-        patchesOfChange = patchesOfChange.sort((a,b) => a - b);
+    let cardsAffectedByBuild = mappingFile.patches[build];
+    cardsAffectedByBuild = addToSortedArray(cardsAffectedByBuild, cardId);
+
+    if(modifyGolden) {
+        if(goldenId === undefined){
+            goldenId = getGoldenId(cardId);
+        }
+        cardsAffectedByBuild = addToSortedArray(cardsAffectedByBuild, goldenId);
     }
+
     if(affectedBuilds === "ALL_FROM_NOW"){
         updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else if (affectedBuilds === "ONLY_THIS") {
@@ -36,8 +42,11 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
         console.log("this shouldn't happen");
     }
 
-    
+    // mappingFile = removeUnnecessaryChanges(mappingFile, build, cardId, goldenId);
 
+    mappingFile.cards[cardId] = patchesOfChange;
+    mappingFile.patches[build] = cardsAffectedByBuild;
+    saveJsonToFile("./mapping.json", mappingFile);
     
     /*
     Do the changes. Verify the cards. Remove unnecessary changes.
@@ -52,6 +61,32 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
         Change associated tribes of micro mummy until patch with dual-tribes
         Remove field isBattlegroundsHero from brann bronzebeard in one of the first few patches (when brann was removed)
     */
+}
+
+function removeUnnecessaryChanges(mappingFile, build, cardId, goldenId) {
+    // TODO remove duplicate cards, changes that didn't change anything, etc.
+}
+
+function getGoldenId(cardId) {
+    let mappingJson = dbManager.getJsonMappingFile();
+    let firstPatch = mappingJson.cards[cardId][0];
+    let firstPatchJson = dbManager.getJsonDBOfPatch(firstPatch);
+    let cardObj = firstPatchJson[cardId];
+    let goldenId = undefined;
+    if(regularCardObj.hasOwnProperty("battlegroundsPremiumDbfId")) {
+        goldenId = cardObj.battlegroundsPremiumDbfId;
+    } else {
+        throw new Error("No golden id could be found");
+    }
+    return goldenId;
+}
+
+function addToSortedArray(sortedArray, entry) {
+    if(!sortedArray.includes(entry)) {
+        sortedArray.push(entry);
+        sortedArray = sortedArray.sort((a,b) => a - b);
+    }
+    return sortedArray;
 }
 
 function updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId) {
@@ -111,11 +146,16 @@ function updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedField
         let newFieldsForGolden = transformFieldsToGolden(newFields, goldenText);
         goldenVersionObj = addFieldsToCard(goldenVersionObj, newFieldsForGolden);
         goldenVersionObj = deleteFieldsToCard(goldenVersionObj, removedFields);
+        currentDb[goldenId] = goldenVersionObj;
     }
+    currentDb[cardId] = currentVersionObj;
 
-    let newVersion = {[currentPatch]: [currentVersionObj, goldenVersionObj]};
-    console.log(JSON.stringify(newVersion));
+    saveJsonDBOfPatch(currentDb, currentPatch);
+
+    // let newVersion = {[currentPatch]: [currentVersionObj, goldenVersionObj]};
+    // console.log(JSON.stringify(newVersion));
 } 
+
 
 function getGoldenVersionObj(currentDb, currentPatch, regularCardObj, cardId, goldenId) {
     let goldenVersionObj;
@@ -212,15 +252,15 @@ function testChangingBoogeymonstersTier(){
 function test2() {
     let build = 35747;
     let cardId = 96782; // hydra
-    let newFields = {"name": "Pinocchio", "health": 15, "text": "I eat lizards"};
+    let newFields = {"panda" : 2};
     let removedFields;
-    let areReplacing;
+    let areReplacing = false;
     let affectedBuilds = "ONLY_THIS";
     let build2;
-    let modifyGolden = true;
+    let modifyGolden;
     let goldenText;
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
 // testAddingTribeToMurkeye();
-test2();
+// test2();

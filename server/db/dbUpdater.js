@@ -181,6 +181,10 @@ function isActiveCard( currentCard ) {
     return currentCard["battlegroundsHero"] || currentCard["isBattlegroundsPoolMinion"];
 }
 
+function saveJsonDBOfPatch(obj, patchId) {
+    saveJsonToFile(`./patches/enUS/${patchId}.json`);
+}
+
 // addingTribes();
 // removingAssociatedTribesFromSkins();
 // removingAssociatedTribesFromBuddies();
@@ -234,4 +238,4 @@ function isActiveCard( currentCard ) {
 // addField(PUTRI_POOL_1, "undeadCreationPool", 1);
 // addField(PUTRI_POOL_2, "undeadCreationPool", 2);
 
-module.exports = { saveJsonToFile }
+module.exports = { saveJsonToFile, saveJsonDBOfPatch }

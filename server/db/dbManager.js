@@ -202,6 +202,8 @@ function getJsonDBOfPatch(patchId) {
     return getJsonFromFile(`./patches/enUS/${patchId}.json`);
 }
 
+
+
 function getChangesOfPatch(patchId, mode) {
     let mappingJson = getJsonMappingFile();
     let idsChangesOfPatch = mappingJson.patches[patchId];
