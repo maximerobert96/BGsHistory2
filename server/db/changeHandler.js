@@ -12,7 +12,7 @@ const dbManager = require('../db/dbManager');
  * @param {*} modifyGolden 
  * @param {*} goldenText 
  */
-function addNewChange(build, cardId, newFields, removedFields = [], areReplacing = false, affectedBuilds = "ALL_FROM_NOW", build2, modifyGolden = false, goldenText) {
+function addNewChange(build, cardId, newFields, removedFields = [], areReplacing = false, affectedBuilds = "ALL_FROM_NOW", build2, modifyGolden = false, goldenText, goldenId) {
     let mappingFile = dbManager.getJsonMappingFile();
     let cardInMapping = mappingFile.cards[cardId];
     let patchInMapping = mappingFile.patches[build];
@@ -27,11 +27,11 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
         patchesOfChange = patchesOfChange.sort((a,b) => a - b);
     }
     if(affectedBuilds === "ALL_FROM_NOW"){
-        updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText);
+        updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else if (affectedBuilds === "ONLY_THIS") {
-        updateOnlyCurrent(build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText);
+        updateOnlyCurrent(build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else if (affectedBuilds === "RANGE" && build !== undefined && build2 !== undefined) {
-        updateRange(patchesOfChange, build, build2, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText);
+        updateRange(patchesOfChange, build, build2, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else {
         console.log("this shouldn't happen");
     }
@@ -54,12 +54,12 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
     */
 }
 
-function updateAllFromNow(patchesOfChange, build, cardId, newFields) {
+function updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId) {
     for(let currentPatch of patchesOfChange) {
         if(currentPatch < build) {
             continue;
         }
-        addFieldsToCurrentCard(currentPatch, cardId, newFields);
+        updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
 
     }
 }
@@ -72,7 +72,7 @@ function updateAllFromNow(patchesOfChange, build, cardId, newFields) {
  * @param {*} cardId 
  * @param {*} newFields 
  */
-function updateRange(patchesOfChange, build, build2, cardId, newFields) {
+function updateRange(patchesOfChange, build, build2, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId) {
     if(build > build2) {
         let buildtemp = build;
         build = build2;
@@ -82,28 +82,101 @@ function updateRange(patchesOfChange, build, build2, cardId, newFields) {
         if(currentPatch < build || currentPatch >= build2) {
             continue;
         }
-        addFieldsToCurrentCard(currentPatch, cardId, newFields);
+        updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
 
     }
 }
 
-function updateOnlyCurrent(build, cardId, newFields) {
-    addFieldsToCurrentCard(build, cardId, newFields);
+function updateOnlyCurrent(build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId) {
+    updateFieldsToCurrentCard(build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
 }
 
-function addFieldsToCurrentCard(currentPatch, cardId, newFields){
+function updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId){
     let currentDb = dbManager.getJsonDBOfPatch(currentPatch);
+    let previousVersionObj = getPreviousPatchCardObj(currentPatch, cardId);
+    let goldenVersionObj = {};
+    
     if(!currentDb.hasOwnProperty(cardId)) {
-        currentDb[cardId] = getPreviousPatchCardObj(currentPatch, cardId);
+        currentDb[cardId] = previousVersionObj;
     }
-    for(let field in newFields) {
-        currentDb[cardId][field] = newFields[field];
+    let currentVersionObj = currentDb[cardId];
+    
+    if(modifyGolden) {
+        goldenVersionObj = getGoldenVersionObj(currentDb, currentPatch, currentVersionObj, cardId, goldenId);
     }
-    let newVersion = {[currentPatch]: currentDb[cardId]};
+    currentVersionObj = addFieldsToCard(currentVersionObj, newFields, areReplacing);
+    currentVersionObj = deleteFieldsToCard(currentVersionObj, removedFields);
+
+    if(modifyGolden) {
+        let newFieldsForGolden = transformFieldsToGolden(newFields, goldenText);
+        goldenVersionObj = addFieldsToCard(goldenVersionObj, newFieldsForGolden);
+        goldenVersionObj = deleteFieldsToCard(goldenVersionObj, removedFields);
+    }
+
+    let newVersion = {[currentPatch]: [currentVersionObj, goldenVersionObj]};
     console.log(JSON.stringify(newVersion));
 } 
 
+function getGoldenVersionObj(currentDb, currentPatch, regularCardObj, cardId, goldenId) {
+    let goldenVersionObj;
+    if(goldenId === undefined) {
+        if(regularCardObj.hasOwnProperty("battlegroundsPremiumDbfId")) {
+            goldenId = regularCardObj.battlegroundsPremiumDbfId;
+        } else {
+            throw new Error("No golden id could be found");
+        }
+    }
+    let previousGoldenVersion = getPreviousPatchCardObj(currentPatch, goldenId);
+    if(currentDb.hasOwnProperty(goldenId)) {
+        goldenVersionObj = currentDb[goldenId];
+    } else if (Object.keys(previousGoldenVersion).length) {
+        goldenVersionObj = previousGoldenVersion;
+    } else {
+        goldenVersionObj = transformFieldsToGolden(regularCardObj, undefined, cardId);
+        goldenVersionObj.dbfId = goldenId;
+    }
+    return goldenVersionObj;
+}
 
+function transformFieldsToGolden(newFields, goldenText, regularCardId) {
+    let goldenNewFields = {...newFields};
+    goldenNewFields.battlegroundsNormalDbfId = regularCardId;
+    for(let field in goldenNewFields) {
+        if(field === "attack" || field === "health") {
+            goldenNewFields[field] = 2 * goldenNewFields[field];
+        }
+        if(field === "text" && goldenText !== undefined) {
+            goldenNewFields[field] = goldenText;
+        }
+        if(isNotGoldenField(field)) {
+            delete goldenNewFields[field];
+        }
+    }
+    return goldenNewFields;
+}
+
+function isNotGoldenField(field) {
+    return field === "associatedTribes" || field === "battlegroundsPremiumDbfId" || field === "isBattlegroundsPoolMinion";
+}
+
+function addFieldsToCard(card, newFields, areReplacing) {
+    if(areReplacing) {
+        card = newFields;
+    } else {
+        for(let field in newFields) {
+            card[field] = newFields[field];
+        }
+    }
+    
+    return card;
+}
+
+function deleteFieldsToCard(card, removedFields) {
+    for(let field of removedFields) {
+        delete card[field];
+    }
+    return card;
+}
 
 function getPreviousPatchCardObj(currentPatch, cardId) {
     let mappingJson = dbManager.getJsonMappingFile();
@@ -137,15 +210,15 @@ function testChangingBoogeymonstersTier(){
 }
 
 function test2() {
-    let build = 38377;
-    let cardId = 59940;
-    let newFields = {"name": "Pinocchio", "text": "I eat lizards"};
+    let build = 35747;
+    let cardId = 96782; // hydra
+    let newFields = {"name": "Pinocchio", "health": 15, "text": "I eat lizards"};
     let removedFields;
     let areReplacing;
-    let affectedBuilds = "RANGE";
-    let build2 = 79904;
+    let affectedBuilds = "ONLY_THIS";
+    let build2;
     let modifyGolden = true;
-    let goldenText = "LIZARDS!";
+    let goldenText;
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
