@@ -82,7 +82,7 @@ function getGoldenId(cardId) {
 }
 
 function addToSortedArray(sortedArray, entry) {
-    if(!sortedArray.includes(entry)) {
+    if(!(sortedArray.includes(entry) || sortedArray.includes(entry.toString()))) {
         sortedArray.push(entry);
         sortedArray = sortedArray.sort((a,b) => a - b);
     }
@@ -261,6 +261,21 @@ function test2() {
     let goldenText;
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
+
+function homunculus() {
+    let build = 35747;
+    let cardId = 985; // dire wolf
+    let newFields = {"isBattlegroundsPoolMinion" : true};
+    let removedFields;
+    let areReplacing = false;
+    let affectedBuilds = "ONLY_THIS";
+    let build2;
+    let modifyGolden;
+    let goldenText;
+    addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
+}
+
+homunculus();
 
 // testAddingTribeToMurkeye();
 // test2();

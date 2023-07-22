@@ -182,7 +182,7 @@ function isActiveCard( currentCard ) {
 }
 
 function saveJsonDBOfPatch(obj, patchId) {
-    saveJsonToFile(`./patches/enUS/${patchId}.json`);
+    saveJsonToFile(`./patches/enUS/${patchId}.json`, obj);
 }
 
 // addingTribes();

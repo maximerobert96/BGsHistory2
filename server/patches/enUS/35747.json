@@ -223,7 +223,8 @@
       "BEAST"
     ],
     "techLevel": 1,
-    "battlegroundsPremiumDbfId": 60025
+    "battlegroundsPremiumDbfId": 60025,
+    "isBattlegroundsPoolMinion": true
   },
   "1006": {
     "attack": 3,
@@ -958,7 +959,8 @@
       "DEMON"
     ],
     "techLevel": 1,
-    "battlegroundsPremiumDbfId": 63778
+    "battlegroundsPremiumDbfId": 63778,
+    "isBattlegroundsPoolMinion": true
   },
   "45392": {
     "artist": "Tooth",
