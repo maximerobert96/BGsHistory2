@@ -39,7 +39,7 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
     } else if (affectedBuilds === "RANGE" && build !== undefined && build2 !== undefined) {
         updateRange(patchesOfChange, build, build2, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else {
-        console.log("this shouldn't happen");
+        throw new Error("this shouldn't happen");
     }
 
     // mappingFile = removeUnnecessaryChanges(mappingFile, build, cardId, goldenId);
@@ -73,7 +73,7 @@ function getGoldenId(cardId) {
     let firstPatchJson = dbManager.getJsonDBOfPatch(firstPatch);
     let cardObj = firstPatchJson[cardId];
     let goldenId = undefined;
-    if(regularCardObj.hasOwnProperty("battlegroundsPremiumDbfId")) {
+    if(cardObj.hasOwnProperty("battlegroundsPremiumDbfId")) {
         goldenId = cardObj.battlegroundsPremiumDbfId;
     } else {
         throw new Error("No golden id could be found");
@@ -143,7 +143,7 @@ function updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedField
     currentVersionObj = deleteFieldsToCard(currentVersionObj, removedFields);
 
     if(modifyGolden) {
-        let newFieldsForGolden = transformFieldsToGolden(newFields, goldenText);
+        let newFieldsForGolden = transformFieldsToGolden(newFields, goldenText, cardId);
         goldenVersionObj = addFieldsToCard(goldenVersionObj, newFieldsForGolden);
         goldenVersionObj = deleteFieldsToCard(goldenVersionObj, removedFields);
         currentDb[goldenId] = goldenVersionObj;
@@ -159,13 +159,6 @@ function updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedField
 
 function getGoldenVersionObj(currentDb, currentPatch, regularCardObj, cardId, goldenId) {
     let goldenVersionObj;
-    if(goldenId === undefined) {
-        if(regularCardObj.hasOwnProperty("battlegroundsPremiumDbfId")) {
-            goldenId = regularCardObj.battlegroundsPremiumDbfId;
-        } else {
-            throw new Error("No golden id could be found");
-        }
-    }
     let previousGoldenVersion = getPreviousPatchCardObj(currentPatch, goldenId);
     if(currentDb.hasOwnProperty(goldenId)) {
         goldenVersionObj = currentDb[goldenId];
@@ -262,20 +255,20 @@ function test2() {
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
-function homunculus() {
-    let build = 35747;
-    let cardId = 985; // dire wolf
-    let newFields = {"isBattlegroundsPoolMinion" : true};
+function manuallyAddingChange() {
+    let build = 38377;
+    let cardId = 38895; // boogeymonster
+    let newFields = {"techLevel": 4};
     let removedFields;
     let areReplacing = false;
-    let affectedBuilds = "ONLY_THIS";
+    let affectedBuilds = "ALL_FROM_NOW";
     let build2;
-    let modifyGolden;
+    let modifyGolden = true;
     let goldenText;
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
-homunculus();
+manuallyAddingChange();
 
 // testAddingTribeToMurkeye();
 // test2();
