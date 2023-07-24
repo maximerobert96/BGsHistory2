@@ -22,7 +22,8 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "59935": {
     "attack": 4,

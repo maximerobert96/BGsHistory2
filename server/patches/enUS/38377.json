@@ -19,7 +19,8 @@
     "text": "Whenever this attacks and kills a minion, gain +2/+2.",
     "type": "MINION",
     "techLevel": 4,
-    "battlegroundsPremiumDbfId": 58425
+    "battlegroundsPremiumDbfId": 58425,
+    "isBattlegroundsPoolMinion": true
   },
   "58425": {
     "attack": 12,

@@ -1414,7 +1414,8 @@
     "undeadCreationPool": 1,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "97072": {
     "attack": 8,

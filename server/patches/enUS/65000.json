@@ -789,6 +789,7 @@
     ],
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   }
 }

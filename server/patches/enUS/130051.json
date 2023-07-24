@@ -44,7 +44,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "1006": {
     "attack": 3,
@@ -370,7 +371,6 @@
   },
   "58435": {
     "battlegroundsBuddyDbfId": 77724,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 58435,
     "health": 40,
@@ -600,7 +600,6 @@
   },
   "60211": {
     "battlegroundsBuddyDbfId": 77831,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 60211,
     "health": 40,
@@ -630,7 +629,6 @@
   },
   "60213": {
     "battlegroundsBuddyDbfId": 77484,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 60213,
     "health": 40,
@@ -5335,6 +5333,7 @@
     "battlegroundsPremiumDbfId": 91216,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   }
 }

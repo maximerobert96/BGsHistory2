@@ -75,7 +75,6 @@
     "armor": 18,
     "artist": "Alex Horley Orlandelli",
     "battlegroundsBuddyDbfId": 77724,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 58435,
     "health": 30,
@@ -3298,7 +3297,8 @@
     "type": "MINION",
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "96865": {
     "attack": 2,
@@ -3460,7 +3460,8 @@
     "type": "MINION",
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "97549": {
     "attack": 2,

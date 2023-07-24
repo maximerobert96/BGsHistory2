@@ -325,3 +325,6 @@ function tempLookForCardId(cardName) {
 // test2();
 
 // firstPatchChanges();
+// makeMinionActive(2026, 35747);
+// makeMinionActive(2030, 35747);
+// makeMinionActive(38526, 35747);
