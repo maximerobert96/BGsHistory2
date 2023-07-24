@@ -1,11 +1,11 @@
 {
-  "48": {
+  "96796": {
     "artist": "Alex Horley Orlandelli",
     "attack": 1,
     "cardClass": "WARLOCK",
     "collectible": true,
     "cost": 1,
-    "dbfId": 48,
+    "dbfId": 96796,
     "flavor": "No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
     "health": 3,
     "howToEarn": "Unlocked at Level 1.",
@@ -23,7 +23,8 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 1
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 57299
   },
   "204": {
     "attack": 1,
@@ -445,13 +446,14 @@
     ],
     "techLevel": 3
   },
-  "2053": {
+  "103652": {
     "artist": "Matt Dixon",
     "attack": 1,
+    "battlegroundsPremiumDbfId": 103653,
     "cardClass": "NEUTRAL",
     "collectible": true,
     "cost": 2,
-    "dbfId": 2053,
+    "dbfId": 103652,
     "flavor": "The inventor of the Annoy-o-Tron was immediately expelled from Tinkerschool, Tinkertown, and was eventually exiled from the Eastern Kingdoms altogether.",
     "health": 2,
     "id": "GVG_085",

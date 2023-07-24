@@ -95,7 +95,7 @@ function addCustomFieldsToAllVersions(customFields) {
     for(let card of Object.values(referencePatch)) {
         let fieldsToUpdate = [];
         for(let field of customFields) {
-            if(card[field]) {
+            if(card.hasOwnProperty(field)) {
                 fieldsToUpdate.push(field);
             }
         }
@@ -110,7 +110,9 @@ function updateVersionsUsingMappingFile(fieldsToUpdate, referenceCard) {
     for(let patchId of patchesToUpdate) {
         let patchJson = JSON.parse(fs.readFileSync(`./patches/enUS/${patchId}.json`));
         for(let field of fieldsToUpdate) {
-            patchJson[referenceId][field] = referenceCard[field];
+            if(!patchJson[referenceId].hasOwnProperty(field)) {
+                patchJson[referenceId][field] = referenceCard[field];
+            }
         }
         fs.writeFileSync(`./patches/enUS/${patchId}.json`, JSON.stringify(patchJson, null , 2));
     }

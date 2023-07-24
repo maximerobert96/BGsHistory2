@@ -270,7 +270,7 @@ function manuallyAddingChange() {
 
 function firstPatchChanges() {
     const heroesToAdd = ["King Mukla", "Patches the Pirate", "Ragnaros the Firelord", "Trade Prince Gallywix"]
-    const minionsToAdd = ["Mecharoo", "Micro Machine", "Murloc Tidecaller", "Righteous Protector", "Voidwalker", "Annoy-o-Tron", "Kindly Grandmother", "Mounted Raptor", "Nightmare Amalgam", "Pogo Hopper", "Shielded Minibot", "Zoobot", "Cobalt Guardian", "Crowd Favorite", "Crystalweaver", "Imp Gang Boss", "Infested Wolf", "Pack Leader", "Piloted Shredder", "Phalanx Commander", "Psych-o-Tron", "Shifter Zerus", "Tortollan Shellraiser", "Bolvar, Fireblood", "Festeroot Hulk", "Iron Sensei", "Siegebreaker", "Security Rover", "Piloted Sky Golem", "Menagerie Magician", "Junkbot", "The Beast", "Toxfin", "Virmen Sensei", "Ironhide Direhorn", "Mal'Ganis", "Sated Treshadon", "The Boogeymonster", "Gentle Megasaur", "Sneed's Old Shredder"];
+    const minionsToAdd = ["Mecharoo", "Micro Machine", "Murloc Tidecaller", "Righteous Protector", "Voidwalker", "Annoy-o-Tron", "Kindly Grandmother", "Mounted Raptor", "Nightmare Amalgam", "Pogo-Hopper", "Shielded Minibot", "Zoobot", "Cobalt Guardian", "Crowd Favorite", "Crystalweaver", "Imp Gang Boss", "Infested Wolf", "Pack Leader", "Piloted Shredder", "Phalanx Commander", "Psych-o-Tron", "Shifter Zerus", "Tortollan Shellraiser", "Bolvar, Fireblood", "Festeroot Hulk", "Iron Sensei", "Siegebreaker", "Security Rover", "Piloted Sky Golem", "Menagerie Magician", "Junkbot", "The Beast", "Toxfin", "Virmen Sensei", "Ironhide Direhorn", "Mal'Ganis", "Sated Threshadon", "The Boogeymonster", "Gentle Megasaur", "Sneed's Old Shredder"];
     const heroesToRemove = ["Elise Starseeker", "Sir Finley Mrrgglton", "Sindragosa"];
     /*
 	Change MechanoEgg to tier 5
@@ -278,14 +278,20 @@ function firstPatchChanges() {
     */
    for(let cardName of minionsToAdd) {
     let cardId = tempLookForCardId(cardName);
+    if(cardId === undefined)
+        continue;
     makeMinionActive(cardId, 35747);
    }
    for(let cardName of heroesToAdd) {
     let cardId = tempLookForCardId(cardName);
+    if(cardId === undefined)
+        continue;
     makeHeroActive(cardId, 35747);
    }
    for(let cardName of heroesToRemove) {
     let cardId = tempLookForCardId(cardName);
+    if(cardId === undefined)
+        continue;
     removeActiveHero(cardId, 35747);
    }
 }
