@@ -491,7 +491,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 77911
   },
   "74906": {
     "attack": 10,

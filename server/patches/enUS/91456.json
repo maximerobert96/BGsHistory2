@@ -202,7 +202,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 71909
   },
   "71909": {
     "cardClass": "NEUTRAL",
@@ -1259,7 +1260,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 73941
   },
   "73941": {
     "cardClass": "PALADIN",

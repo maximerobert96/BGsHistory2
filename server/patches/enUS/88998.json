@@ -74,7 +74,8 @@
     "id": "BG20_HERO_201_SKIN_A",
     "name": "Chillin' Vol'jin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 71464
   },
   "75136": {
     "battlegroundsSkinParentId": 67356,
@@ -85,7 +86,8 @@
     "id": "TB_BaconShop_HERO_94_SKIN_A",
     "name": "Flexfire Tickatus",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 67357
   },
   "75138": {
     "battlegroundsSkinParentId": 58024,
@@ -96,7 +98,8 @@
     "id": "TB_BaconShop_HERO_22_SKIN_A",
     "name": "Grill King Bolvar",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 58040
   },
   "75151": {
     "battlegroundsSkinParentId": 61914,
@@ -107,7 +110,8 @@
     "id": "TB_BaconShop_HERO_62_SKIN_A",
     "name": "Pool Party Maiev",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61919
   },
   "75156": {
     "battlegroundsSkinParentId": 64475,
@@ -118,7 +122,8 @@
     "id": "TB_BaconShop_HERO_78_SKIN_A",
     "name": "Volcanic Chenvaala",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 64476
   },
   "75161": {
     "battlegroundsSkinParentId": 60366,
@@ -129,7 +134,8 @@
     "id": "TB_BaconShop_HERO_49_SKIN_A",
     "name": "Pyrospike Millhouse",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 60405
   },
   "75166": {
     "battlegroundsSkinParentId": 57944,
@@ -140,7 +146,8 @@
     "id": "TB_BaconShop_HERO_16_SKIN_A",
     "name": "Sunlounger A. F. Kay",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 59891
   },
   "75168": {
     "battlegroundsSkinParentId": 60211,
@@ -151,7 +158,8 @@
     "id": "TB_BaconShop_HERO_40_SKIN_A",
     "name": "Finley of the Kyrian",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 60450
   },
   "75170": {
     "battlegroundsSkinParentId": 57929,
@@ -162,7 +170,8 @@
     "id": "TB_BaconShop_HERO_15_SKIN_A",
     "name": "George the Ascended",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 57562
   },
   "75171": {
     "battlegroundsSkinParentId": 60370,
@@ -173,7 +182,8 @@
     "id": "TB_BaconShop_HERO_53_SKIN_A",
     "name": "Ysera of the Night Fae",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61408
   },
   "75172": {
     "battlegroundsSkinParentId": 63604,
@@ -184,7 +194,8 @@
     "id": "TB_BaconShop_HERO_74_SKIN_A",
     "name": "Faewarden Omu",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 63605
   },
   "75174": {
     "battlegroundsSkinParentId": 59397,
@@ -195,7 +206,8 @@
     "id": "TB_BaconShop_HERO_34_SKIN_A",
     "name": "Necrolord Patchwerk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 59399
   },
   "75177": {
     "battlegroundsSkinParentId": 58044,
@@ -206,7 +218,8 @@
     "id": "TB_BaconShop_HERO_25_SKIN_A",
     "name": "Margrave Baz'hial",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 60285
   },
   "75178": {
     "battlegroundsSkinParentId": 60367,
@@ -217,7 +230,8 @@
     "id": "TB_BaconShop_HERO_50_SKIN_A",
     "name": "Venthyr Tess",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 63162
   },
   "75179": {
     "battlegroundsSkinParentId": 61912,
@@ -228,7 +242,8 @@
     "id": "TB_BaconShop_HERO_60_SKIN_A",
     "name": "Chained Kael'thas",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61917
   },
   "75587": {
     "battlegroundsSkinParentId": 57110,
@@ -252,7 +267,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 75703
   },
   "75703": {
     "cardClass": "NEUTRAL",
@@ -347,7 +363,8 @@
     "id": "TB_BaconShop_HERO_53_SKIN_B",
     "name": "Ysera the Green",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61408
   },
   "76339": {
     "battlegroundsSkinParentId": 61489,
@@ -358,7 +375,8 @@
     "id": "TB_BaconShop_HERO_57_SKIN_A",
     "name": "Nozdormu the Bronze",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61491
   },
   "76340": {
     "battlegroundsSkinParentId": 61488,
@@ -369,7 +387,8 @@
     "id": "TB_BaconShop_HERO_56_SKIN_A",
     "name": "Alexstrasza the Red",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61517
   },
   "76341": {
     "battlegroundsSkinParentId": 60369,
@@ -380,7 +399,8 @@
     "id": "TB_BaconShop_HERO_52_SKIN_A",
     "name": "Deathwing the Black",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 61406
   },
   "76342": {
     "battlegroundsSkinParentId": 61490,

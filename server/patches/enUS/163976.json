@@ -34,7 +34,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57555
   },
   "58534": {
     "artist": "Adam Byrne",
@@ -50,7 +51,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58537
   },
   "59831": {
     "artist": "Anton Zemskov",
@@ -66,7 +68,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59832
   },
   "61056": {
     "attack": 4,
@@ -154,7 +157,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 67554
   },
   "72389": {
     "attack": 4,

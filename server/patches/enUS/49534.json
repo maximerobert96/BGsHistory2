@@ -11,7 +11,8 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "heroPowerDbfId": 62243
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -24,7 +25,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57962
   },
   "59707": {
     "attack": 2,
@@ -355,7 +357,8 @@
     ],
     "relatedCards": [
       61911
-    ]
+    ],
+    "heroPowerDbfId": 61915
   },
   "61911": {
     "cardClass": "NEUTRAL",
@@ -365,7 +368,8 @@
     "id": "TB_BaconShop_HERO_59t",
     "name": "Aranna, Unleashed",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 62035
   },
   "61915": {
     "cardClass": "NEUTRAL",
@@ -752,7 +756,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62250
   },
   "62243": {
     "cardClass": "NEUTRAL",
@@ -899,7 +904,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62267
   },
   "62267": {
     "cardClass": "NEUTRAL",
@@ -929,7 +935,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62269
   },
   "62269": {
     "cardClass": "NEUTRAL",

@@ -9,7 +9,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57555
   },
   "57924": {
     "cardClass": "NEUTRAL",
@@ -22,7 +23,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59863
   },
   "58535": {
     "battlegroundsHero": true,
@@ -36,7 +38,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 66246
   },
   "59604": {
     "cardClass": "NEUTRAL",
@@ -668,7 +671,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 66197
   },
   "66197": {
     "cardClass": "NEUTRAL",
@@ -803,7 +807,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 66484
   },
   "66484": {
     "cardClass": "NEUTRAL",

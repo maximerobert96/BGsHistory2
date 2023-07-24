@@ -84,7 +84,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57567
   },
   "57634": {
     "battlegroundsBuddyDbfId": 77626,
@@ -98,7 +99,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61851
   },
   "57635": {
     "battlegroundsBuddyDbfId": 77494,
@@ -112,7 +114,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57555
   },
   "57652": {
     "attack": 2,
@@ -143,7 +146,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57559
   },
   "57892": {
     "battlegroundsBuddyDbfId": 77821,
@@ -157,7 +161,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 64424
   },
   "57893": {
     "battlegroundsBuddyDbfId": 77843,
@@ -171,7 +176,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63127
   },
   "57924": {
     "battlegroundsBuddyDbfId": 77629,
@@ -185,7 +191,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59863
   },
   "57929": {
     "battlegroundsBuddyDbfId": 77495,
@@ -199,7 +206,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57562
   },
   "57944": {
     "battlegroundsBuddyDbfId": 77774,
@@ -213,7 +221,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59891
   },
   "57946": {
     "battlegroundsBuddyDbfId": 77805,
@@ -227,7 +236,8 @@
     "type": "HERO",
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "heroPowerDbfId": 57949
   },
   "57947": {
     "battlegroundsBuddyDbfId": 77815,
@@ -241,7 +251,8 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "heroPowerDbfId": 62243
   },
   "57957": {
     "cardClass": "NEUTRAL",
@@ -265,7 +276,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58022
   },
   "58024": {
     "battlegroundsBuddyDbfId": 77841,
@@ -279,7 +291,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58040
   },
   "58027": {
     "battlegroundsBuddyDbfId": 77827,
@@ -293,7 +306,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58028
   },
   "58044": {
     "battlegroundsBuddyDbfId": 77510,
@@ -307,7 +321,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60285
   },
   "58397": {
     "attack": 4,
@@ -365,7 +380,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57945
   },
   "58534": {
     "battlegroundsBuddyDbfId": 77507,
@@ -379,7 +395,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58537
   },
   "58535": {
     "battlegroundsBuddyDbfId": 77475,
@@ -393,7 +410,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 66246
   },
   "59203": {
     "battlegroundsBuddyDbfId": 77837,
@@ -407,7 +425,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59201
   },
   "59397": {
     "battlegroundsBuddyDbfId": 77817,
@@ -421,7 +440,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59399
   },
   "59564": {
     "cardClass": "NEUTRAL",
@@ -515,7 +535,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59826
   },
   "59806": {
     "battlegroundsBuddyDbfId": 77477,
@@ -529,7 +550,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59860
   },
   "59807": {
     "battlegroundsBuddyDbfId": 77798,
@@ -543,7 +565,8 @@
     "type": "HERO",
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "heroPowerDbfId": 59808
   },
   "59814": {
     "battlegroundsBuddyDbfId": 77508,
@@ -557,7 +580,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59815
   },
   "59831": {
     "battlegroundsBuddyDbfId": 77819,
@@ -571,7 +595,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59832
   },
   "60211": {
     "battlegroundsBuddyDbfId": 77831,
@@ -585,7 +610,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60450
   },
   "60212": {
     "battlegroundsBuddyDbfId": 77825,
@@ -599,7 +625,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60216
   },
   "60213": {
     "battlegroundsBuddyDbfId": 77484,
@@ -613,7 +640,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60217
   },
   "60214": {
     "battlegroundsBuddyDbfId": 77784,
@@ -627,7 +655,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60218
   },
   "60362": {
     "battlegroundsBuddyDbfId": 77470,
@@ -641,7 +670,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60381
   },
   "60366": {
     "battlegroundsBuddyDbfId": 77803,
@@ -655,7 +685,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60405
   },
   "60367": {
     "battlegroundsBuddyDbfId": 77835,
@@ -669,7 +700,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63162
   },
   "60369": {
     "battlegroundsBuddyDbfId": 77782,
@@ -683,7 +715,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61406
   },
   "60370": {
     "battlegroundsBuddyDbfId": 77855,
@@ -697,7 +730,8 @@
     "type": "HERO",
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "heroPowerDbfId": 61408
   },
   "60372": {
     "battlegroundsBuddyDbfId": 77786,
@@ -711,7 +745,8 @@
     "type": "HERO",
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "heroPowerDbfId": 60448
   },
   "61488": {
     "battlegroundsBuddyDbfId": 77448,
@@ -725,7 +760,8 @@
     "type": "HERO",
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "heroPowerDbfId": 61517
   },
   "61489": {
     "battlegroundsBuddyDbfId": 77512,
@@ -739,7 +775,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61491
   },
   "61490": {
     "battlegroundsBuddyDbfId": 77723,
@@ -753,7 +790,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60378
   },
   "61517": {
     "cardClass": "NEUTRAL",
@@ -788,7 +826,8 @@
     ],
     "relatedCards": [
       61911
-    ]
+    ],
+    "heroPowerDbfId": 61915
   },
   "61911": {
     "battlegroundsBuddyDbfId": 77468,
@@ -798,7 +837,8 @@
     "id": "TB_BaconShop_HERO_59t",
     "name": "Aranna, Unleashed",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 62035
   },
   "61912": {
     "battlegroundsBuddyDbfId": 77794,
@@ -812,7 +852,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61917
   },
   "61914": {
     "battlegroundsBuddyDbfId": 77800,
@@ -826,7 +867,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61919
   },
   "62242": {
     "battlegroundsBuddyDbfId": 77472,
@@ -840,7 +882,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62250
   },
   "62266": {
     "battlegroundsBuddyDbfId": 77776,
@@ -854,7 +897,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62267
   },
   "62268": {
     "battlegroundsBuddyDbfId": 77833,
@@ -868,7 +912,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62269
   },
   "63273": {
     "artist": "James Ryman",
@@ -899,7 +944,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63320
   },
   "63601": {
     "battlegroundsBuddyDbfId": 77792,
@@ -913,7 +959,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63607
   },
   "63602": {
     "battlegroundsBuddyDbfId": 77511,
@@ -927,7 +974,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63600
   },
   "63604": {
     "battlegroundsBuddyDbfId": 77493,
@@ -941,7 +989,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63605
   },
   "64064": {
     "attack": 8,
@@ -977,7 +1026,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 64401
   },
   "64403": {
     "battlegroundsBuddyDbfId": 77447,
@@ -991,7 +1041,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 64402
   },
   "64475": {
     "battlegroundsBuddyDbfId": 77780,
@@ -1005,7 +1056,8 @@
     "type": "HERO",
     "associatedTribes": [
       "ELEMENTAL"
-    ]
+    ],
+    "heroPowerDbfId": 64476
   },
   "64480": {
     "battlegroundsBuddyDbfId": 77829,
@@ -1019,7 +1071,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 64481
   },
   "64485": {
     "battlegroundsBuddyDbfId": 77859,
@@ -1033,7 +1086,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 64486
   },
   "66196": {
     "battlegroundsBuddyDbfId": 77857,
@@ -1047,7 +1101,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 66197
   },
   "66483": {
     "battlegroundsBuddyDbfId": 77811,
@@ -1061,7 +1116,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 66484
   },
   "67356": {
     "battlegroundsBuddyDbfId": 77845,
@@ -1075,7 +1131,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 67357
   },
   "67428": {
     "attack": 2,
@@ -1116,7 +1173,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 67554
   },
   "68129": {
     "battlegroundsBuddyDbfId": 77790,
@@ -1130,7 +1188,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 68130
   },
   "68347": {
     "artist": "Alex Horley Orlandelli",
@@ -1408,7 +1467,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 70957
   },
   "71306": {
     "attack": 1,
@@ -1438,7 +1498,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 71455
   },
   "71458": {
     "battlegroundsBuddyDbfId": 77478,
@@ -1452,7 +1513,8 @@
     "type": "HERO",
     "associatedTribes": [
       "QUILBOAR"
-    ]
+    ],
+    "heroPowerDbfId": 71459
   },
   "71463": {
     "battlegroundsBuddyDbfId": 77849,
@@ -1466,7 +1528,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 71464
   },
   "71908": {
     "battlegroundsBuddyDbfId": 77514,
@@ -1480,7 +1543,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 71909
   },
   "71916": {
     "battlegroundsBuddyDbfId": 77809,
@@ -1494,7 +1558,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 71914
   },
   "72470": {
     "battlegroundsBuddyDbfId": 77896,
@@ -1507,7 +1572,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 72471
   },
   "73940": {
     "battlegroundsBuddyDbfId": 77778,
@@ -1521,7 +1587,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 73941
   },
   "74631": {
     "battlegroundsBuddyDbfId": 77796,
@@ -1535,7 +1602,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 74632
   },
   "74646": {
     "battlegroundsBuddyDbfId": 77878,
@@ -1549,7 +1617,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 77911
   },
   "75069": {
     "attack": 2,
@@ -1579,7 +1648,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 75703
   },
   "75916": {
     "artist": "John Dickenson",

@@ -125,7 +125,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59399
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -496,7 +497,8 @@
     "id": "TB_BaconShop_HERO_34_SKIN_A",
     "name": "Necrolord Patchwerk",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 59399
   },
   "75704": {
     "cardClass": "NEUTRAL",

@@ -260,7 +260,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61918
   },
   "62162": {
     "attack": 4,

@@ -10,7 +10,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61851
   },
   "60376": {
     "cardClass": "NEUTRAL",

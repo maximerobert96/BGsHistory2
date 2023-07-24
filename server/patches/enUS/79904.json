@@ -11,7 +11,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59863
   },
   "59940": {
     "attack": 3,
@@ -190,7 +191,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 62267
   },
   "62267": {
     "cardClass": "NEUTRAL",

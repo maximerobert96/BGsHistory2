@@ -320,7 +320,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 73941
   },
   "77341": {
     "cardClass": "WARRIOR",

@@ -45,7 +45,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57561
   },
   "59397": {
     "battlegroundsHero": true,
@@ -59,7 +60,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59399
   },
   "59399": {
     "cardClass": "NEUTRAL",

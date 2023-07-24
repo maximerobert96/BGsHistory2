@@ -133,6 +133,10 @@ function updateOldCardsWithNormalAndGolden() {
     addCustomFieldsToAllVersions(["battlegroundsPremiumDbfId", "battlegroundsNormalDbfId"]);
 }
 
+function updateOldCardsWithHp() {
+    addCustomFieldsToAllVersions(["heroPowerDbfId"]);
+}
+
 
 function addTribesToAllCardsThatWereActive() {
     let activeCardsId = getAllActiveCardsId();
@@ -202,6 +206,7 @@ function saveJsonDBOfPatch(obj, patchId) {
 // updateOldCardsWithNormalAndGolden();
 
 // addTribesToAllCardsThatWereActive();
+updateOldCardsWithHp();
 
 // const PUTRI_POOL_1 = [
 // 85651, 99117, 100775, 85152, 99116,

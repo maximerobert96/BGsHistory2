@@ -941,7 +941,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 70957
   },
   "70957": {
     "cardClass": "PRIEST",
@@ -981,7 +982,8 @@
     "type": "HERO",
     "associatedTribes": [
       "QUILBOAR"
-    ]
+    ],
+    "heroPowerDbfId": 71459
   },
   "71459": {
     "cardClass": "NEUTRAL",
@@ -1010,7 +1012,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 71464
   },
   "71464": {
     "cardClass": "NEUTRAL",

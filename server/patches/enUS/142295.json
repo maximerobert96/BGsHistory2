@@ -487,7 +487,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 72471
   },
   "73941": {
     "cardClass": "PALADIN",

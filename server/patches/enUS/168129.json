@@ -14,7 +14,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61851
   },
   "57635": {
     "artist": "Konstantin Turovec",
@@ -31,7 +32,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57555
   },
   "57929": {
     "artist": "J. Axer",
@@ -48,7 +50,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57562
   },
   "57947": {
     "artist": "James Ryman",
@@ -65,7 +68,8 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "heroPowerDbfId": 62243
   },
   "58044": {
     "artist": "Dave Allsop",
@@ -82,7 +86,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60285
   },
   "58435": {
     "artist": "Alex Horley Orlandelli",
@@ -99,7 +104,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57945
   },
   "59807": {
     "artist": "Alex Horley Orlandelli",
@@ -116,7 +122,8 @@
     "type": "HERO",
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "heroPowerDbfId": 59808
   },
   "60213": {
     "artist": "Luke Mancini",
@@ -133,7 +140,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60217
   },
   "60214": {
     "artist": "L. Lullabi & K. Turovec",
@@ -150,7 +158,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60218
   },
   "60367": {
     "artist": "J. Axer",
@@ -167,7 +176,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63162
   },
   "60372": {
     "artist": "Arthur Bozonnet",
@@ -184,7 +194,8 @@
     "type": "HERO",
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "heroPowerDbfId": 60448
   },
   "67553": {
     "artist": "Steven Prescott",
@@ -201,7 +212,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 67554
   },
   "70188": {
     "attack": 3,

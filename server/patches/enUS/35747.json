@@ -1668,7 +1668,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57559
   },
   "57892": {
     "cardClass": "NEUTRAL",
@@ -1680,7 +1681,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 64424
   },
   "57893": {
     "cardClass": "NEUTRAL",
@@ -1693,7 +1695,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 63127
   },
   "57924": {
     "cardClass": "NEUTRAL",
@@ -1706,7 +1709,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59863
   },
   "57929": {
     "cardClass": "NEUTRAL",
@@ -1719,7 +1723,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57562
   },
   "57944": {
     "cardClass": "NEUTRAL",
@@ -1732,7 +1737,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59891
   },
   "57945": {
     "cardClass": "NEUTRAL",
@@ -1758,7 +1764,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "heroPowerDbfId": 57949
   },
   "57947": {
     "cardClass": "NEUTRAL",
@@ -1770,7 +1777,8 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "heroPowerDbfId": 62243
   },
   "57949": {
     "cardClass": "NEUTRAL",
@@ -1789,7 +1797,8 @@
     "id": "TB_BaconShop_HERO_19",
     "name": "Giantfin",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 57957
   },
   "57957": {
     "cardClass": "NEUTRAL",
@@ -1812,7 +1821,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57962
   },
   "57962": {
     "cardClass": "NEUTRAL",
@@ -1845,7 +1855,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58022
   },
   "58022": {
     "cardClass": "NEUTRAL",
@@ -1874,7 +1885,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58040
   },
   "58027": {
     "cardClass": "NEUTRAL",
@@ -1887,7 +1899,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58028
   },
   "58028": {
     "cardClass": "NEUTRAL",
@@ -1923,7 +1936,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60285
   },
   "58138": {
     "attack": 2,
@@ -2885,7 +2899,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57945
   },
   "58499": {
     "cardClass": "HUNTER",
@@ -3050,7 +3065,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 58537
   },
   "58536": {
     "cardClass": "NEUTRAL",
@@ -3063,7 +3079,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59862
   },
   "58537": {
     "cardClass": "NEUTRAL",
@@ -3086,7 +3103,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57561
   },
   "58596": {
     "cardClass": "NEUTRAL",
@@ -3185,7 +3203,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59201
   },
   "59397": {
     "cardClass": "NEUTRAL",
@@ -3198,7 +3217,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59399
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -3823,7 +3843,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59826
   },
   "59806": {
     "cardClass": "NEUTRAL",
@@ -3836,7 +3857,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59860
   },
   "59807": {
     "cardClass": "NEUTRAL",
@@ -3849,7 +3871,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "heroPowerDbfId": 59808
   },
   "59808": {
     "cardClass": "NEUTRAL",
@@ -3871,7 +3894,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59815
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -3958,7 +3982,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59832
   },
   "59832": {
     "cardClass": "NEUTRAL",
@@ -4585,7 +4610,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60450
   },
   "60213": {
     "cardClass": "NEUTRAL",
@@ -4598,7 +4624,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60217
   },
   "60214": {
     "cardClass": "NEUTRAL",
@@ -4610,7 +4637,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60218
   },
   "60215": {
     "cardClass": "NEUTRAL",

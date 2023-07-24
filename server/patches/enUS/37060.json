@@ -20,7 +20,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57567
   },
   "57949": {
     "cardClass": "NEUTRAL",
@@ -53,7 +54,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 59399
   },
   "59399": {
     "cardClass": "NEUTRAL",
@@ -243,7 +245,8 @@
     "id": "TB_BaconShop_HERO_44",
     "name": "Sylvanas Windrunner",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 60373
   },
   "60362": {
     "cardClass": "NEUTRAL",
@@ -256,7 +259,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60381
   },
   "60373": {
     "cardClass": "NEUTRAL",

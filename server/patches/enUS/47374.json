@@ -11,7 +11,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61917
   },
   "61913": {
     "battlegroundsHero": true,
@@ -25,7 +26,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61918
   },
   "61914": {
     "battlegroundsHero": true,
@@ -39,7 +41,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61919
   },
   "61917": {
     "cardClass": "NEUTRAL",

@@ -135,7 +135,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60216
   },
   "60215": {
     "cardClass": "NEUTRAL",
@@ -164,7 +165,8 @@
     "id": "TB_BaconShop_HERO_47",
     "name": "Tirion Fordring",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "heroPowerDbfId": 60376
   },
   "60366": {
     "cardClass": "NEUTRAL",
@@ -177,7 +179,8 @@
     "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 60405
   },
   "60376": {
     "cardClass": "NEUTRAL",

@@ -69,7 +69,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57555
   },
   "57891": {
     "battlegroundsHero": true,
@@ -82,7 +83,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 57559
   },
   "57945": {
     "cardClass": "NEUTRAL",
@@ -869,7 +871,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 61919
   },
   "61915": {
     "cardClass": "NEUTRAL",
@@ -1759,7 +1762,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "heroPowerDbfId": 74632
   },
   "74632": {
     "cardClass": "DEMONHUNTER",

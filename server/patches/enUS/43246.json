@@ -197,7 +197,8 @@
     "type": "HERO",
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "heroPowerDbfId": 60448
   },
   "60405": {
     "cardClass": "NEUTRAL",
