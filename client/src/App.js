@@ -11,6 +11,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<CardList />} />
         <Route path="/cards/:id" element={<CardInfo />} />
+        <Route path="/:patchId/cards/" element={<CardList  />} />
+        <Route path="/:patchId/cards/:id" element={<CardInfo />} />
       </Routes>
     </div>
   );

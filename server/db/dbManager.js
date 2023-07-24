@@ -196,7 +196,7 @@ function getJsonDBOfPatch(patchId) {
 
 
 
-function getChangesOfPatch(patchId, mode) {
+function getChangesOfPatch(patchId) {
     let mappingJson = getJsonMappingFile();
     let idsChangesOfPatch = mappingJson.patches[patchId];
     let currentPatchJson = getJsonDBOfPatch(patchId);
@@ -210,10 +210,10 @@ function getChangesOfPatch(patchId, mode) {
         let newVersion = currentPatchJson[id];
         let oldVersion = getJsonDBOfPatch(previousPatchId)[id];
         currentChange[id].changes = getChangesBetweenVersions(newVersion, oldVersion);
-        if(mode === "EXTENDED") {
-            currentChange[id].new = newVersion;
-            currentChange[id].old = oldVersion;
-        }
+        
+        currentChange[id].new = newVersion;
+        currentChange[id].old = oldVersion;
+        
         cardsChanged.cardChanges.push(currentChange);
     }
 
@@ -246,12 +246,13 @@ function concatAndDedupArrays(array1, array2) {
 }
 
 function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
-    if(!mappingJson.cards.hasOwnProperty(cardId))
+    if(!mappingJson.cards.hasOwnProperty(cardId)){
         return undefined;
+    }
     let cardVersions = mappingJson.cards[cardId];
     let previousPatchId;
     for(let patch of cardVersions) {
-        if(patch >= currentPatchId) {
+        if(patch > currentPatchId) {
             break;
         }
         previousPatchId = patch;

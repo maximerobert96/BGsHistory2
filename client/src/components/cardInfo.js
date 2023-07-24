@@ -8,7 +8,15 @@ export default function CardInfo() {
     useEffect(() => {
         async function getCard(){
             const id = params.id.toString();
-            const response = await fetch(`http://localhost:5000/cards/${id}`);
+            let response;
+            if(params.patchId !== undefined) {
+                let patchId = params.patchId.toString();
+                response = await fetch(`http://localhost:5000/${patchId}/cards/${id}`);
+            } else {
+                response = await fetch(`http://localhost:5000/cards/${id}`);
+            }
+           
+            
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router";
 
 function keepTavernTier ( cards, tavernTier ) {
     return cards.filter( card =>
@@ -8,20 +9,40 @@ function keepTavernTier ( cards, tavernTier ) {
     );
 }
 
-function listCardsHtml ( cards ) { 
-    return cards.map( card =>
-        <li key={card.dbfId}>
-            <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
-        </li>
-    )
+function listCardsHtml ( cards, patchId ) {
+    if(patchId === undefined) { 
+        return cards.map( card =>
+            <li key={card.dbfId}>
+                <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
+            </li>
+        )
+    } else {
+        return cards.map( card =>
+            <li key={card.dbfId}>
+                <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link>
+            </li>
+        )
+    }
 }
 
 export default function CardList() {
     const [cards, setCards] = useState([]);
+    const params = useParams();
+
+    let patchId;
+    if(params.patchId !== undefined) {
+        patchId = params.patchId.toString();
+    }
 
     useEffect(() => {
         async function getCards(){
-            const response = await fetch(`http://localhost:5000/cards/`);
+            let response;
+            if(params.patchId !== undefined) {
+                let patchId = params.patchId.toString();
+                response = await fetch(`http://localhost:5000/${patchId}/cards/`);
+            } else {
+                response = await fetch(`http://localhost:5000/cards/`);
+            }
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
                 window.alert(message);
@@ -48,13 +69,13 @@ export default function CardList() {
         let tavernTier5 = keepTavernTier(cards, 5);
         let tavernTier6 = keepTavernTier(cards, 6);
         
-        const cardlistHeroes = listCardsHtml(heroes);
-        const cardlistTier1 = listCardsHtml(tavernTier1);
-        const cardlistTier2 = listCardsHtml(tavernTier2);
-        const cardlistTier3 = listCardsHtml(tavernTier3);
-        const cardlistTier4 = listCardsHtml(tavernTier4);
-        const cardlistTier5 = listCardsHtml(tavernTier5);
-        const cardlistTier6 = listCardsHtml(tavernTier6);
+        const cardlistHeroes = listCardsHtml(heroes, patchId);
+        const cardlistTier1 = listCardsHtml(tavernTier1, patchId);
+        const cardlistTier2 = listCardsHtml(tavernTier2, patchId);
+        const cardlistTier3 = listCardsHtml(tavernTier3, patchId);
+        const cardlistTier4 = listCardsHtml(tavernTier4, patchId);
+        const cardlistTier5 = listCardsHtml(tavernTier5, patchId);
+        const cardlistTier6 = listCardsHtml(tavernTier6, patchId);
 
         
         return(

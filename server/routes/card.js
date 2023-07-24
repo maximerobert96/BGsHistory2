@@ -26,6 +26,13 @@ cardRoutes.route("/:patchId/cards").get(function(req, res) {
     res.json(activeCards);
 });
 
+cardRoutes.route("/:patchId/cards/:id").get(function(req, res) {
+    let patchId = req.params.patchId;
+    let cardId = req.params.id;
+    let card = dbManager.getCardById(cardId, patchId);
+    res.json(card);
+});
+
 cardRoutes.route("/card-changes/:id").get(function(req, res) {
     try {
         let card = dbManager.getCardChangesOfId(req.params.id);

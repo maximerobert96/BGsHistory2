@@ -133,6 +133,7 @@ function updateOldCardsWithNormalAndGolden() {
     addCustomFieldsToAllVersions(["battlegroundsPremiumDbfId", "battlegroundsNormalDbfId"]);
 }
 
+
 function addTribesToAllCardsThatWereActive() {
     let activeCardsId = getAllActiveCardsId();
     let mappingJson = dbManager.getJsonMappingFile();
