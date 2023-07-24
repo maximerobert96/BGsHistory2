@@ -1798,7 +1798,8 @@
     "name": "Giantfin",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "heroPowerDbfId": 57957
+    "heroPowerDbfId": 57957,
+    "battlegroundsHero": true
   },
   "57957": {
     "cardClass": "NEUTRAL",

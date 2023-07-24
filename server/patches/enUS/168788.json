@@ -216,7 +216,8 @@
     "name": "Giantfin",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "battlegroundsHero": true
   },
   "57961": {
     "cardClass": "NEUTRAL",

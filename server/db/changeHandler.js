@@ -256,19 +256,19 @@ function test2() {
 }
 
 function manuallyAddingChange() {
-    let build = 38377;
-    let cardId = 38895; // boogeymonster
-    let newFields = {"techLevel": 4};
+    let build = 35747;
+    let cardId = 57956; // giantfin
+    let newFields = {"battlegroundsHero": true};
     let removedFields;
     let areReplacing = false;
     let affectedBuilds = "ALL_FROM_NOW";
     let build2;
-    let modifyGolden = true;
+    let modifyGolden = false;
     let goldenText;
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
-// manuallyAddingChange();
+manuallyAddingChange();
 
 // testAddingTribeToMurkeye();
 // test2();

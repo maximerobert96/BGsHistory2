@@ -206,7 +206,7 @@ function saveJsonDBOfPatch(obj, patchId) {
 // updateOldCardsWithNormalAndGolden();
 
 // addTribesToAllCardsThatWereActive();
-updateOldCardsWithHp();
+// updateOldCardsWithHp();
 
 // const PUTRI_POOL_1 = [
 // 85651, 99117, 100775, 85152, 99116,
