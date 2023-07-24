@@ -268,7 +268,54 @@ function manuallyAddingChange() {
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
-manuallyAddingChange();
+function firstPatchChanges() {
+    const heroesToAdd = ["King Mukla", "Patches the Pirate", "Ragnaros the Firelord", "Trade Prince Gallywix"]
+    const minionsToAdd = ["Mecharoo", "Micro Machine", "Murloc Tidecaller", "Righteous Protector", "Voidwalker", "Annoy-o-Tron", "Kindly Grandmother", "Mounted Raptor", "Nightmare Amalgam", "Pogo Hopper", "Shielded Minibot", "Zoobot", "Cobalt Guardian", "Crowd Favorite", "Crystalweaver", "Imp Gang Boss", "Infested Wolf", "Pack Leader", "Piloted Shredder", "Phalanx Commander", "Psych-o-Tron", "Shifter Zerus", "Tortollan Shellraiser", "Bolvar, Fireblood", "Festeroot Hulk", "Iron Sensei", "Siegebreaker", "Security Rover", "Piloted Sky Golem", "Menagerie Magician", "Junkbot", "The Beast", "Toxfin", "Virmen Sensei", "Ironhide Direhorn", "Mal'Ganis", "Sated Treshadon", "The Boogeymonster", "Gentle Megasaur", "Sneed's Old Shredder"];
+    const heroesToRemove = ["Elise Starseeker", "Sir Finley Mrrgglton", "Sindragosa"];
+    /*
+	Change MechanoEgg to tier 5
+	Change Voidlord to tier 6
+    */
+   for(let cardName of minionsToAdd) {
+    let cardId = tempLookForCardId(cardName);
+    makeMinionActive(cardId, 35747);
+   }
+   for(let cardName of heroesToAdd) {
+    let cardId = tempLookForCardId(cardName);
+    makeHeroActive(cardId, 35747);
+   }
+   for(let cardName of heroesToRemove) {
+    let cardId = tempLookForCardId(cardName);
+    removeActiveHero(cardId, 35747);
+   }
+}
+
+function makeMinionActive(cardId, buildId) {
+    addNewChange(buildId, cardId, {"isBattlegroundsPoolMinion": true});
+}
+
+function makeHeroActive(cardId, buildId) {
+    addNewChange(buildId, cardId, {"battlegroundsHero": true});
+}
+
+function removeActiveHero(cardId, buildId) {
+    addNewChange(buildId, cardId, undefined, ["battlegroundsHero"]);
+}
+
+function tempLookForCardId(cardName) {
+    let jsonDB = dbManager.getJsonDBOfPatch(35747);
+    let cardsOfPatch = Object.values(jsonDB);
+    let result = cardsOfPatch.find(card => card.name === cardName && (card.type === "HERO" || (card.hasOwnProperty("battlegroundsPremiumDbfId"))));
+    if(result === undefined) {
+        console.log(`Couldn't find the card for ${cardName}`);
+        return;
+    }
+    return result.dbfId;
+}
+
+// manuallyAddingChange();
 
 // testAddingTribeToMurkeye();
 // test2();
+
+// firstPatchChanges();
