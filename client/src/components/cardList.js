@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 function keepTavernTier ( cards, tavernTier ) {
     return cards.filter( card =>
-        card.tavernTier === tavernTier).sort((a,b) =>
+        card.techLevel === tavernTier).sort((a,b) =>
         (a.name > b.name) ? 1 : -1
     );
 }
 
 function listCardsHtml ( cards ) { 
     return cards.map( card =>
-        <li key={card.id}>
-            <Link to={`/cards/${card.id}`}>{card.name}</Link>
+        <li key={card.dbfId}>
+            <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
         </li>
     )
 }

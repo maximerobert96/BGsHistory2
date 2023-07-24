@@ -28,7 +28,7 @@ export default function CardInfo() {
                 return(
                     <ul>
                         <li>Name: {card.name}</li>
-                        <li>Tier: {card.tavernTier}</li>
+                        <li>Tier: {card.techLevel}</li>
                         <li>Attack: {card.attack}</li>
                         <li>Health: {card.health}</li>
                         <li>Text: {card.text}</li>
@@ -60,7 +60,7 @@ export default function CardInfo() {
 
         }
     } else {
-        return(<p>non</p>);
+        return(<p>Loading</p>);
     }
     // return(
     //     <div>

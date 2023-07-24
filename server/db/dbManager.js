@@ -7,24 +7,16 @@ function isActiveCard( currentCard ) {
     || (currentCard["isBattlegroundsPoolMinion"] && currentCard["isBattlegroundsPoolMinion"] == true);
 }
 
-function getActiveCards(tribes) {
-    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
-    if(arguments.length > 0) {
-        jsonDB = keepCardsFromTribes(jsonDB, tribes);
-    }
-    let activeCards = [];
-    
+function getMostRecentPatch() {
+    let mappingJson = getJsonMappingFile();
+    let patchesOfMapping = Object.keys(mappingJson.patches);
+    let mostRecentPatch = patchesOfMapping[patchesOfMapping.length - 1];
 
-    for(let id in jsonDB) {
-        let currentCard = jsonDB[id];
+    return mostRecentPatch;
+}
 
-        if( isActiveCard(currentCard) ){
-            activeCards.push(keepSpecificFields(currentCard));
-        }
-        
-    }
-
-    return activeCards;
+function getActiveCardsOfRecentPatch() {
+    return getActiveCardsOfPatch(getMostRecentPatch());
 }
 
 function findMostRecentVersionLowerThanRef(referencePatch, patchesOfCardChange) {
@@ -52,7 +44,7 @@ function getActiveCardsOfPatch(patchId, tribes) {
             }
             let mostRecentVersionCard = jsonHighestPatch[cardId];
             if(mostRecentVersionCard && isActiveCard(mostRecentVersionCard)){
-                activeCards.push(keepSpecificFields(mostRecentVersionCard));
+                activeCards.push(mostRecentVersionCard);
             }
 
         }
@@ -86,11 +78,15 @@ function keepSpecificFields( cardObj ) {
     return newCardObj;
 }
 
-function getCardById( id ) {
-    let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
-    let currentCard = jsonDB[id];
+function getCardById( cardId, patch ) {
+    if(patch === undefined) {
+        patch = getMostRecentPatch();
+    }
+    let patchOfCurrentVersion = getPreviousPatchIdOfCard(patch, cardId, getJsonMappingFile());
+    let jsonDB = getJsonDBOfPatch(patchOfCurrentVersion);
+    let currentCard = jsonDB[cardId];
     if(!currentCard) {
-        throw new Error(`The card with the id ${id} doesn't exist.`);
+        throw new Error(`The card with the id ${cardId} doesn't exist.`);
     }
     currentCard = formatFields(currentCard, jsonDB);
 
@@ -123,10 +119,6 @@ function formatFields(card, jsonDB) {
         }
         card.relatedCards = relatedCards;
     }
-    if(card.techLevel){
-        card.tavernTier = card.techLevel;
-        delete card.techLevel;
-    }
 
     card.id = card.dbfId;
     delete card.dbfId;
@@ -157,7 +149,7 @@ function getCardsOfPool(cards, pool) {
     let cardsInPool = poolManager.getMinionsForPool(cards, pool);
     let cardsInPoolFormatted = [];
     for (let card of cardsInPool) {
-        cardsInPoolFormatted.push(keepSpecificFields(card));
+        cardsInPoolFormatted.push(card);
     }
     return cardsInPoolFormatted;
 }
@@ -288,5 +280,5 @@ function getCardChangesOfId(cardId) {
 
 
 module.exports = { 
-    getActiveCards, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard
 }

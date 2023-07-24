@@ -268,7 +268,7 @@ function manuallyAddingChange() {
     addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
 }
 
-manuallyAddingChange();
+// manuallyAddingChange();
 
 // testAddingTribeToMurkeye();
 // test2();

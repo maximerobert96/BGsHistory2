@@ -4,15 +4,8 @@ const dbManager = require('../db/dbManager');
 const cardRoutes = express.Router();
 
 cardRoutes.route("/cards").get(function(req,res) {
-    let activeCards;
-    let tribes;
-    if(req.query.tribes) {
-        tribes = req.query.tribes;
-        tribes = typeof tribes === "string"? [tribes] : tribes;
-        activeCards = dbManager.getActiveCards(tribes);
-    } else {
-        activeCards = dbManager.getActiveCards();
-    }
+    let activeCards = dbManager.getActiveCards();
+
     res.json(activeCards);
 });
 
@@ -27,17 +20,9 @@ cardRoutes.route("/cards/:id").get(function(req, res) {
     }
 });
 
-cardRoutes.route("/:patchId/cards/").get(function(req, res) {
-    let activeCards;
-    let tribes;
+cardRoutes.route("/:patchId/cards").get(function(req, res) {
     let patchId = req.params.patchId;
-    if(req.query.tribes) {
-        tribes = req.query.tribes;
-        tribes = typeof tribes === "string"? [tribes] : tribes;
-        activeCards = dbManager.getActiveCardsOfPatch(patchId, tribes);
-    } else {
-        activeCards = dbManager.getActiveCardsOfPatch(patchId);
-    }
+    let activeCards = dbManager.getActiveCardsOfPatch(patchId);
     res.json(activeCards);
 });
 
