@@ -202,7 +202,8 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "57956": {
     "cardClass": "NEUTRAL",
@@ -594,7 +595,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -691,7 +693,8 @@
     "name": "Sylvanas Windrunner",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "battlegroundsHero": true
   },
   "60362": {
     "armor": 10,

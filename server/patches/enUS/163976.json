@@ -68,7 +68,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 59832
+    "heroPowerDbfId": 59832,
+    "battlegroundsHero": true
   },
   "61056": {
     "attack": 4,

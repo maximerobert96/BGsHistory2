@@ -68,7 +68,8 @@
     "associatedTribes": [
       "PIRATE"
     ],
-    "heroPowerDbfId": 62243
+    "heroPowerDbfId": 62243,
+    "battlegroundsHero": true
   },
   "58044": {
     "artist": "Dave Allsop",

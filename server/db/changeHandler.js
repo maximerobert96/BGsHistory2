@@ -412,7 +412,14 @@ function patch38377() {
     addNewChange(build, 60214, undefined, ["battlegroundsHero"]); // brann - leaving
 }
 
+function patch39282() {
+    let build = 39282;
 
+    addNewChange(build, 57947, {"battlegroundsHero": true}); // patches - returning
+    addNewChange(build, 59831, {"battlegroundsHero": true}); // pyramad - returning
+}
+
+// patch39282();
 // patch37060();
 // patch36500();
 // temp();

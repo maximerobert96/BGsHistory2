@@ -1,4 +1,18 @@
 {
+  "57947": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57947,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_18",
+    "name": "Patches the Pirate",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "heroPowerDbfId": 62243,
+    "battlegroundsHero": true
+  },
   "58028": {
     "cardClass": "NEUTRAL",
     "cost": 1,
@@ -71,6 +85,20 @@
     "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion twice.",
     "type": "MINION",
     "battlegroundsNormalDbfId": 59660
+  },
+  "59831": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 59831,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_39",
+    "name": "Pyramad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 59832,
+    "battlegroundsHero": true
   },
   "59832": {
     "cardClass": "NEUTRAL",

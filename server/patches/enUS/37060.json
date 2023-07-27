@@ -379,7 +379,8 @@
     "name": "Sylvanas Windrunner",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "heroPowerDbfId": 60373
+    "heroPowerDbfId": 60373,
+    "battlegroundsHero": true
   },
   "60362": {
     "cardClass": "NEUTRAL",
