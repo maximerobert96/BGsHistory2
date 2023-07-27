@@ -360,10 +360,10 @@ function patch36500() {
     addNewChange(build, 60214, {"battlegroundsHero": true}); // brann
     addNewChange(build, 60211, {"battlegroundsHero": true}); // finley
     // removed heroes
-    addNewChange(build, 59814, undefined, "battlegroundsHero", undefined, "ONLY_THIS"); // mukla
-    addNewChange(build, 57956, undefined, "battlegroundsHero"); // giantfin
-    addNewChange(build, 57946, undefined, "battlegroundsHero", undefined, "ONLY_THIS"); // millificent
-    addNewChange(build, 58044, undefined, "battlegroundsHero", undefined, "ONLY_THIS"); // lich
+    addNewChange(build, 59814, undefined, ["battlegroundsHero"], undefined, "ONLY_THIS"); // mukla
+    addNewChange(build, 57956, undefined, ["battlegroundsHero"]); // giantfin
+    addNewChange(build, 57946, undefined, ["battlegroundsHero"], undefined, "ONLY_THIS"); // millificent
+    addNewChange(build, 58044, undefined, ["battlegroundsHero"], undefined, "ONLY_THIS"); // lich
     // minions changed
     addNewChange(build, 60028, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined); // primalfin
     addNewChange(build, 96797, {"techLevel": 5}, undefined, undefined, undefined, undefined, true, undefined, undefined); // voidlord
@@ -372,7 +372,25 @@ function patch36500() {
     
 }
 
-patch36500();
+function patch37060() {
+    let build = 37060;
+    // returning heroes
+    addNewChange(build, 57946, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // milli
+    addNewChange(build, 58044, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // milli
+    // removed heroes
+    addNewChange(build, 57947, undefined, ["battlegroundsHero"]); // patches
+    addNewChange(build, 58546, undefined, ["battlegroundsHero"]); // bartendotron
+    addNewChange(build, 59831, undefined, ["battlegroundsHero"]); // pyramad
+    addNewChange(build, 57961, undefined, ["battlegroundsHero"]); // putri
+    addNewChange(build, 57891, undefined, ["battlegroundsHero"]); // gally
+    // other changes
+    addNewChange(build, 60028, {"isBattlegroundsPoolMinion": true}); // floating watcher
+    addNewChange(build, 58510, undefined, ["isAkamSecret"], undefined, undefined, undefined, true, undefined, undefined); // hand of salvation
+    
+}
+
+patch37060();
+// patch36500();
 // temp();
 // testAddingChangeToNonexistentPatch();
 

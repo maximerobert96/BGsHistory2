@@ -1,4 +1,233 @@
 {
+  "2074": {
+    "artist": "Zoltan Boros",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 2074,
+    "flavor": "One bot's junk is another bot's AWESOME UPGRADE!",
+    "health": 5,
+    "id": "GVG_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Junkbot",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "GVG",
+    "text": "Whenever a friendly Mech dies, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 5,
+    "battlegroundsPremiumDbfId": 58402,
+    "isBattlegroundsPoolMinion": true
+  },
+  "57946": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57946,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_17",
+    "name": "Millificent Manastorm",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "heroPowerDbfId": 57949
+  },
+  "57956": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57956,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_19",
+    "name": "Giantfin",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "heroPowerDbfId": 57957
+  },
+  "58044": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58044,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_25",
+    "name": "Lich Baz'hial",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60285
+  },
+  "58402": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 58402,
+    "health": 10,
+    "id": "TB_BaconUps_046",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Junkbot",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly Mech dies, gain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 5,
+    "battlegroundsNormalDbfId": 2074
+  },
+  "58427": {
+    "attack": 6,
+    "cardClass": "WARLOCK",
+    "cost": 9,
+    "dbfId": 58427,
+    "health": 18,
+    "id": "TB_BaconUps_059",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Voidlord",
+    "race": "DEMON",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon three\n2/6 Demons with <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 5,
+    "relatedCards": [
+      57299
+    ],
+    "battlegroundsNormalDbfId": 96797
+  },
+  "58435": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58435,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_27",
+    "name": "Sindragosa",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57945,
+    "battlegroundsHero": true
+  },
+  "59491": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59491,
+    "health": 6,
+    "id": "TB_BaconUps_064",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> Give your other Murlocs +4 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 96773
+  },
+  "59814": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 59814,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_38",
+    "name": "King Mukla",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 59815
+  },
+  "60027": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60027,
+    "health": 4,
+    "id": "TB_BaconUps_089",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> two Murlocs.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 4,
+    "pools": [
+      "MURLOC_POOL"
+    ],
+    "battlegroundsNormalDbfId": 60028
+  },
+  "60028": {
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60028,
+    "health": 2,
+    "id": "BGS_020",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 4,
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
+    ],
+    "battlegroundsPremiumDbfId": 60027
+  },
+  "60211": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60211,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_40",
+    "name": "Sir Finley Mrrgglton",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60450,
+    "battlegroundsHero": true
+  },
   "60213": {
     "cardClass": "NEUTRAL",
     "dbfId": 60213,
@@ -12,5 +241,78 @@
     ],
     "heroPowerDbfId": 60217,
     "battlegroundsHero": true
+  },
+  "60214": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60214,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43",
+    "name": "Brann Bronzebeard",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60218,
+    "battlegroundsHero": true
+  },
+  "96773": {
+    "artist": "Arthur Gimaldinov",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96773,
+    "flavor": "The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.",
+    "health": 3,
+    "id": "EX1_103",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 2,
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "battlegroundsPremiumDbfId": 59491
+  },
+  "96797": {
+    "artist": "Jerry Mascho",
+    "attack": 3,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 9,
+    "dbfId": 96797,
+    "flavor": "Never let it hold your checkbook.",
+    "health": 9,
+    "id": "LOOT_368",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Voidlord",
+    "race": "DEMON",
+    "rarity": "EPIC",
+    "set": "LOOTAPALOOZA",
+    "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon three\n1/3 Demons with <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 5,
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 58427,
+    "associatedTribes": [
+      "DEMON"
+    ]
   }
 }

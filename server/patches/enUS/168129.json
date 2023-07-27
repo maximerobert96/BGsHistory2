@@ -104,7 +104,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 57945
+    "heroPowerDbfId": 57945,
+    "battlegroundsHero": true
   },
   "59807": {
     "artist": "Alex Horley Orlandelli",

@@ -282,7 +282,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60450
+    "heroPowerDbfId": 60450,
+    "battlegroundsHero": true
   },
   "60212": {
     "artist": "Eric Braddock",

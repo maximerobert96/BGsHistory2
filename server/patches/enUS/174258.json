@@ -91,7 +91,7 @@
     "races": [
       "DEMON"
     ],
-    "techLevel": 6,
+    "techLevel": 5,
     "relatedCards": [
       57299
     ],
@@ -112,7 +112,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "58534": {
     "armor": 10,
@@ -3287,7 +3288,7 @@
     ],
     "rarity": "EPIC",
     "set": "LOOTAPALOOZA",
-    "techLevel": 6,
+    "techLevel": 5,
     "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon three\n1/3 Demons with <b>Taunt</b>.",
     "type": "MINION",
     "associatedTribes": [

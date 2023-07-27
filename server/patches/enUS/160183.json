@@ -268,7 +268,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 57945
+    "heroPowerDbfId": 57945,
+    "battlegroundsHero": true
   },
   "58534": {
     "artist": "Adam Byrne",
@@ -437,7 +438,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60450
+    "heroPowerDbfId": 60450,
+    "battlegroundsHero": true
   },
   "60212": {
     "artist": "Eric Braddock",

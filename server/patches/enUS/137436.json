@@ -14,7 +14,7 @@
     "race": "MURLOC",
     "rarity": "RARE",
     "set": "BATTLEGROUNDS",
-    "techLevel": 4,
+    "techLevel": 2,
     "text": "<b>Battlecry:</b> Give your other Murlocs +4 Health.",
     "type": "MINION",
     "races": [
@@ -284,7 +284,7 @@
     "race": "MURLOC",
     "rarity": "RARE",
     "set": "EXPERT1",
-    "techLevel": 4,
+    "techLevel": 2,
     "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
     "type": "MINION",
     "races": [

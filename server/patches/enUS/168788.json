@@ -216,8 +216,7 @@
     "name": "Giantfin",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO",
-    "battlegroundsHero": true
+    "type": "HERO"
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -337,7 +336,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "58534": {
     "armor": 14,
@@ -627,7 +627,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "60212": {
     "armor": 15,

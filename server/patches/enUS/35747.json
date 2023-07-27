@@ -3095,7 +3095,8 @@
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When your second minion dies in a turn, return it to life.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isAkamSecret": true
   },
   "58512": {
     "cardClass": "MAGE",

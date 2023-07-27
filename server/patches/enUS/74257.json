@@ -17,7 +17,7 @@
     "race": "MECHANICAL",
     "rarity": "EPIC",
     "set": "GVG",
-    "techLevel": 4,
+    "techLevel": 5,
     "text": "Whenever a friendly Mech dies, gain +2/+2.",
     "type": "MINION",
     "races": [
@@ -44,7 +44,7 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 4,
+    "techLevel": 5,
     "battlegroundsNormalDbfId": 2074
   },
   "59935": {
