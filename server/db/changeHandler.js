@@ -419,22 +419,9 @@ function patch39282() {
     addNewChange(build, 59831, {"battlegroundsHero": true}); // pyramad - returning
 }
 
-// patch39282();
-// patch37060();
-// patch36500();
-// temp();
-// testAddingChangeToNonexistentPatch();
+function patch39954() {
+    let build = 39954;
 
-// manuallyAddingChange();
-
-// testAddingTribeToMurkeye();
-// test2();
-
-// firstPatchChanges();
-// makeMinionActive(2026, 35747);
-// makeMinionActive(2030, 35747);
-// makeMinionActive(38526, 35747);
-
-// addNewChange(38203, 60028, {"techLevel": 5}, undefined, undefined, undefined, undefined, true, undefined, undefined); // primalfin
-
-// moreToFirstPatch();
+    addNewChange(build, 60211, undefined, ["battlegroundsHero"]); // finley - leaving
+    addNewChange(build, 96796, undefined, ["isBattlegroundsPoolMinion"]); // voidwalker - removed
+}

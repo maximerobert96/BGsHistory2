@@ -633,8 +633,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60450,
-    "battlegroundsHero": true
+    "heroPowerDbfId": 60450
   },
   "60212": {
     "battlegroundsBuddyDbfId": 77825,

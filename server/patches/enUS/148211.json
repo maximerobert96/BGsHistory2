@@ -2524,8 +2524,7 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ],
-    "isBattlegroundsPoolMinion": true
+    ]
   },
   "96810": {
     "artist": "Vladimir Kafanov",

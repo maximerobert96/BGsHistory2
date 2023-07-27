@@ -22,7 +22,8 @@
     "races": [
       "DEMON"
     ],
-    "battlegroundsPremiumDbfId": 60671
+    "battlegroundsPremiumDbfId": 60671,
+    "isBattlegroundsPoolMinion": true
   },
   "57652": {
     "attack": 2,
@@ -124,6 +125,19 @@
     "type": "MINION",
     "battlegroundsNormalDbfId": 60040
   },
+  "60211": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60211,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_40",
+    "name": "Sir Finley Mrrgglton",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60450
+  },
   "60212": {
     "cardClass": "NEUTRAL",
     "dbfId": 60212,
@@ -132,7 +146,6 @@
     "name": "Reno the Relicologist",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "battlegroundsHero": true,
     "associatedTribes": [
       "GENERAL"
     ],
@@ -166,7 +179,11 @@
     "name": "Tirion Fordring",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "heroPowerDbfId": 60376
+    "heroPowerDbfId": 60376,
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "60366": {
     "cardClass": "NEUTRAL",
@@ -246,5 +263,32 @@
       "DEMON"
     ],
     "battlegroundsNormalDbfId": 59937
+  },
+  "96796": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 1,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 96796,
+    "flavor": "No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
+    "health": 3,
+    "howToEarn": "Unlocked at Level 1.",
+    "howToEarnGolden": "Unlocked at Level 36.",
+    "id": "CS2_065",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Voidwalker",
+    "race": "DEMON",
+    "rarity": "FREE",
+    "set": "CORE",
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 57299
   }
 }

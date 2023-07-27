@@ -146,5 +146,23 @@
       "GENERAL"
     ],
     "battlegroundsPremiumDbfId": 60041
+  },
+  "60041": {
+    "attack": 14,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60041,
+    "elite": true,
+    "health": 20,
+    "id": "TB_BaconUps_091",
+    "mechanics": [
+      "WINDFURY"
+    ],
+    "name": "Zapp Slywick",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
+    "type": "MINION",
+    "battlegroundsNormalDbfId": 60040
   }
 }

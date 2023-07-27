@@ -158,8 +158,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "battlegroundsHero": true
+    ]
   },
   "60366": {
     "armor": 6,
