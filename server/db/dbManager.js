@@ -83,7 +83,7 @@ function getCardById( cardId, patch ) {
     if(patch === undefined) {
         patch = getMostRecentPatch();
     }
-    let patchOfCurrentVersion = getPreviousPatchIdOfCard(patch, cardId, getJsonMappingFile());
+    let patchOfCurrentVersion = getPreviousOrEqualPatchIdOfCard(patch, cardId, getJsonMappingFile());
     let jsonDB = getJsonDBOfPatch(patchOfCurrentVersion);
     let currentCard = jsonDB[cardId];
     if(!currentCard) {
@@ -209,7 +209,12 @@ function getChangesOfPatch(patchId) {
         currentChange[id] = {};
         let previousPatchId = getPreviousPatchIdOfCard(patchId, id, mappingJson);
         let newVersion = currentPatchJson[id];
-        let oldVersion = getJsonDBOfPatch(previousPatchId)[id];
+        let oldVersion;
+        if(previousPatchId.toString() === patchId.toString()) {
+            oldVersion = {};
+        } else {
+            oldVersion = getJsonDBOfPatch(previousPatchId)[id];
+        }
         currentChange[id].changes = getChangesBetweenVersions(newVersion, oldVersion);
         
         currentChange[id].new = newVersion;
@@ -252,6 +257,23 @@ function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
     }
     let cardVersions = mappingJson.cards[cardId];
     let previousPatchId;
+    let patch;
+    for(patch of cardVersions) {
+        if(patch >= currentPatchId) {
+            break;
+        }
+        previousPatchId = patch;
+    }
+    return previousPatchId === undefined ? patch : previousPatchId;
+    return previousPatchId;
+}
+
+function getPreviousOrEqualPatchIdOfCard(currentPatchId, cardId, mappingJson) {
+    if(!mappingJson.cards.hasOwnProperty(cardId)){
+        return undefined;
+    }
+    let cardVersions = mappingJson.cards[cardId];
+    let previousPatchId;
     for(let patch of cardVersions) {
         if(patch > currentPatchId) {
             break;
@@ -286,5 +308,5 @@ function addServerPatchToPatchesFile(build) {
 }
 
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard, addServerPatchToPatchesFile
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile
 }

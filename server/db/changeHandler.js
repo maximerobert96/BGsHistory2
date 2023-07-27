@@ -8,7 +8,7 @@ const { saveJsonToFile, saveJsonDBOfPatch } = require('./dbUpdater');
  * @param {*} newFields 
  * @param {*} removedFields 
  * @param {*} areReplacing 
- * @param {*} affectedBuilds 
+ * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE"
  * @param {*} build2 
  * @param {*} modifyGolden 
  * @param {*} goldenText 
@@ -352,6 +352,28 @@ function moreToFirstPatch() {
     addNewChange(build, 96797, {"techLevel": 6}, undefined, undefined, undefined, undefined, true, undefined, undefined);
 }
 
+function patch36500() {
+    let build = 36500;
+    // new heroes
+    // elise already done
+    addNewChange(build, 58435, {"battlegroundsHero": true}); // sindy
+    addNewChange(build, 60214, {"battlegroundsHero": true}); // brann
+    addNewChange(build, 60211, {"battlegroundsHero": true}); // finley
+    // removed heroes
+    addNewChange(build, 59814, undefined, "battlegroundsHero", undefined, "ONLY_THIS"); // mukla
+    addNewChange(build, 57956, undefined, "battlegroundsHero"); // giantfin
+    addNewChange(build, 57946, undefined, "battlegroundsHero", undefined, "ONLY_THIS"); // millificent
+    addNewChange(build, 58044, undefined, "battlegroundsHero", undefined, "ONLY_THIS"); // lich
+    // minions changed
+    addNewChange(build, 60028, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined); // primalfin
+    addNewChange(build, 96797, {"techLevel": 5}, undefined, undefined, undefined, undefined, true, undefined, undefined); // voidlord
+    addNewChange(build, 2074, {"techLevel": 5}, undefined, undefined, undefined, undefined, true, undefined, undefined); // junkbot
+    addNewChange(build, 96773, {"techLevel": 2}, undefined, undefined, undefined, undefined, true, undefined, undefined); // seer
+    
+}
+
+patch36500();
+// temp();
 // testAddingChangeToNonexistentPatch();
 
 // manuallyAddingChange();
