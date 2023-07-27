@@ -376,7 +376,7 @@ function patch37060() {
     let build = 37060;
     // returning heroes
     addNewChange(build, 57946, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // milli
-    addNewChange(build, 58044, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // milli
+    addNewChange(build, 58044, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // lich
     // removed heroes
     addNewChange(build, 57947, undefined, ["battlegroundsHero"]); // patches
     addNewChange(build, 58546, undefined, ["battlegroundsHero"]); // bartendotron
@@ -384,12 +384,12 @@ function patch37060() {
     addNewChange(build, 57961, undefined, ["battlegroundsHero"]); // putri
     addNewChange(build, 57891, undefined, ["battlegroundsHero"]); // gally
     // other changes
-    addNewChange(build, 60028, {"isBattlegroundsPoolMinion": true}); // floating watcher
-    addNewChange(build, 58510, undefined, ["isAkamSecret"], undefined, undefined, undefined, true, undefined, undefined); // hand of salvation
+    addNewChange(build, 2068, {"isBattlegroundsPoolMinion": true}); // floating watcher
+    addNewChange(build, 58510, undefined, ["isAkamSecret"]); // hand of salvation
     
 }
 
-patch37060();
+// patch37060();
 // patch36500();
 // temp();
 // testAddingChangeToNonexistentPatch();

@@ -50,7 +50,8 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "42442": {
     "artist": "Jim Nelson",

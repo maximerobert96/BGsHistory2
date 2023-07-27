@@ -1,4 +1,30 @@
 {
+  "2068": {
+    "artist": "Todd Lockwood",
+    "attack": 4,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 2068,
+    "flavor": "\"Evil Eye Watcher of Doom\" was the original name, but marketing felt it was a bit too aggressive.",
+    "health": 4,
+    "id": "GVG_100",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Floating Watcher",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "GVG",
+    "text": "Whenever your hero takes damage on your turn, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 60403,
+    "isBattlegroundsPoolMinion": true
+  },
   "57567": {
     "cardClass": "NEUTRAL",
     "cost": 1,
@@ -23,6 +49,46 @@
     ],
     "heroPowerDbfId": 57567
   },
+  "57891": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57891,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_10",
+    "name": "Trade Prince Gallywix",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57559
+  },
+  "57946": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57946,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_17",
+    "name": "Millificent Manastorm",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "heroPowerDbfId": 57949,
+    "battlegroundsHero": true
+  },
+  "57947": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57947,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_18",
+    "name": "Patches the Pirate",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "heroPowerDbfId": 62243
+  },
   "57949": {
     "cardClass": "NEUTRAL",
     "cost": 0,
@@ -33,6 +99,19 @@
     "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +1 Attack.",
     "type": "HERO_POWER"
   },
+  "57961": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57961,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_20",
+    "name": "Professor Putricide",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57962
+  },
   "57962": {
     "cardClass": "NEUTRAL",
     "cost": 1,
@@ -42,6 +121,47 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ngive your left-most minion\n+20 Attack.",
     "type": "HERO_POWER"
+  },
+  "58044": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58044,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_25",
+    "name": "Lich Baz'hial",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60285,
+    "battlegroundsHero": true
+  },
+  "58510": {
+    "cardClass": "PALADIN",
+    "cost": 1,
+    "dbfId": 58510,
+    "id": "TB_Bacon_Secrets_11",
+    "mechanics": [
+      "SECRET"
+    ],
+    "name": "Hand of Salvation",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Secret:</b> When your second minion dies in a turn, return it to life.",
+    "type": "SPELL"
+  },
+  "58546": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58546,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_31",
+    "name": "Bartendotron",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57561
   },
   "59397": {
     "cardClass": "NEUTRAL",
@@ -118,6 +238,19 @@
     "type": "MINION",
     "techLevel": 5,
     "battlegroundsNormalDbfId": 59707
+  },
+  "59831": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 59831,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_39",
+    "name": "Pyramad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 59832
   },
   "59839": {
     "cardClass": "NEUTRAL",

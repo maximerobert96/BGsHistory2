@@ -73,7 +73,6 @@
     "heroPowerDbfId": 57555
   },
   "57891": {
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57891,
     "health": 40,

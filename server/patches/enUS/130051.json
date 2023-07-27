@@ -137,7 +137,6 @@
   },
   "57891": {
     "battlegroundsBuddyDbfId": 77847,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57891,
     "health": 40,
@@ -242,7 +241,6 @@
   },
   "57947": {
     "battlegroundsBuddyDbfId": 77815,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57947,
     "health": 40,
@@ -609,7 +607,6 @@
   },
   "59831": {
     "battlegroundsBuddyDbfId": 77819,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 59831,
     "health": 40,
