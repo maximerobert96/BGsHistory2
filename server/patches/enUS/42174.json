@@ -399,8 +399,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60218,
-    "battlegroundsHero": true
+    "heroPowerDbfId": 60218
   },
   "60216": {
     "cardClass": "NEUTRAL",

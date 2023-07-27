@@ -1,4 +1,31 @@
 {
+  "962": {
+    "artist": "Glenn Rane",
+    "attack": 9,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 6,
+    "dbfId": 962,
+    "elite": true,
+    "flavor": "He lives in Blackrock Mountain.  He eats Gnomes.  That's pretty much it.",
+    "health": 7,
+    "id": "EX1_577",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Beast",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "EXPERT1",
+    "text": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58394,
+    "isBattlegroundsPoolMinion": true
+  },
   "38895": {
     "artist": "Alex Horley Orlandelli",
     "attack": 6,
@@ -22,6 +49,86 @@
     "battlegroundsPremiumDbfId": 58425,
     "isBattlegroundsPoolMinion": true
   },
+  "49169": {
+    "artist": "Hideaki Takamura",
+    "attack": 0,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 49169,
+    "flavor": "When you need more iron in your diet.",
+    "health": 5,
+    "id": "BOT_537",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mechano-Egg",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "BOOMSDAY",
+    "text": "<b>Deathrattle:</b> Summon an 8/8 Robosaur.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 4,
+    "isBattlegroundsPoolMinion": true,
+    "relatedCards": [
+      49168
+    ],
+    "battlegroundsPremiumDbfId": 58387,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "58387": {
+    "attack": 0,
+    "cardClass": "PALADIN",
+    "cost": 5,
+    "dbfId": 58387,
+    "health": 10,
+    "id": "TB_BaconUps_039",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mechano-Egg",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a 16/16 Robosaur.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 4,
+    "relatedCards": [
+      58389
+    ],
+    "battlegroundsNormalDbfId": 49169
+  },
+  "58394": {
+    "attack": 18,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 58394,
+    "elite": true,
+    "health": 14,
+    "id": "TB_BaconUps_042",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Beast",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 962
+  },
   "58425": {
     "attack": 12,
     "cardClass": "NEUTRAL",
@@ -40,5 +147,109 @@
     "type": "MINION",
     "techLevel": 4,
     "battlegroundsNormalDbfId": 38895
+  },
+  "58546": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58546,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_31",
+    "name": "Bartendotron",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57561,
+    "battlegroundsHero": true
+  },
+  "59491": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59491,
+    "health": 6,
+    "id": "TB_BaconUps_064",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> Give your other Murlocs +4 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 96773
+  },
+  "60214": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60214,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_43",
+    "name": "Brann Bronzebeard",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60218
+  },
+  "96773": {
+    "artist": "Arthur Gimaldinov",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96773,
+    "flavor": "The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.",
+    "health": 3,
+    "id": "EX1_103",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 3,
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "battlegroundsPremiumDbfId": 59491
+  },
+  "96780": {
+    "artist": "Andrew Hou",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96780,
+    "flavor": "Be all that you can be.",
+    "health": 4,
+    "id": "GIL_681",
+    "name": "Nightmare Amalgam",
+    "race": "ALL",
+    "rarity": "EPIC",
+    "set": "GILNEAS",
+    "text": "[x]<i>This is an Elemental, Mech,\nDemon, Murloc, Dragon,\nBeast, Pirate and Totem.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "techLevel": 2,
+    "undeadCreationPool": 1,
+    "battlegroundsPremiumDbfId": 91216,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

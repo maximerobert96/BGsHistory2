@@ -39,7 +39,7 @@
     "race": "BEAST",
     "rarity": "LEGENDARY",
     "set": "EXPERT1",
-    "techLevel": 4,
+    "techLevel": 3,
     "text": "[x]<b>Deathrattle:</b> Summon a\n3/3 Pip Quickwit for\nyour opponent.",
     "type": "MINION",
     "races": [
@@ -344,7 +344,7 @@
     "races": [
       "BEAST"
     ],
-    "techLevel": 4
+    "techLevel": 3
   },
   "58397": {
     "attack": 4,
@@ -666,7 +666,6 @@
   },
   "60214": {
     "battlegroundsBuddyDbfId": 77784,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 60214,
     "health": 40,
@@ -5356,7 +5355,6 @@
     "battlegroundsPremiumDbfId": 91216,
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isBattlegroundsPoolMinion": true
+    ]
   }
 }

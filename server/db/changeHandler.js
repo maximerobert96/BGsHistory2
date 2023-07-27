@@ -398,6 +398,21 @@ function patch37060() {
     
 }
 
+function patch38377() {
+    let build = 38377;
+
+    // minion changes
+    addNewChange(build, 96773, {"techLevel": 3}, undefined, undefined, undefined, undefined, true, undefined, undefined); // seer
+    addNewChange(build, 49169, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined); // mechano
+    addNewChange(build, 962, {"techLevel": 3}, undefined, undefined, undefined, undefined, true, undefined, undefined); // beast
+    addNewChange(build, 96780, undefined, ["isBattlegroundsPoolMinion"]); // amalgam - removed
+
+    // heroes
+    addNewChange(build, 58546, {"battlegroundsHero": true}); // bartendotron - returning
+    addNewChange(build, 60214, undefined, ["battlegroundsHero"]); // brann - leaving
+}
+
+
 // patch37060();
 // patch36500();
 // temp();

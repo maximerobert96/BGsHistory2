@@ -401,7 +401,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "59203": {
     "armor": 13,
@@ -667,7 +668,6 @@
     "armor": 15,
     "artist": "L. Lullabi & K. Turovec",
     "battlegroundsBuddyDbfId": 77784,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 60214,
     "health": 30,

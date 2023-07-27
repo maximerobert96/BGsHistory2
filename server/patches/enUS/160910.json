@@ -18,7 +18,7 @@
     "race": "MECHANICAL",
     "rarity": "COMMON",
     "set": "BOOMSDAY",
-    "techLevel": 5,
+    "techLevel": 4,
     "text": "<b>Deathrattle:</b> Summon an 8/8 Robosaur.",
     "type": "MINION",
     "races": [
@@ -50,7 +50,7 @@
     "races": [
       "MECHANICAL"
     ],
-    "techLevel": 5,
+    "techLevel": 4,
     "relatedCards": [
       58389
     ],
