@@ -25,6 +25,28 @@
     ],
     "isBattlegroundsPoolMinion": true
   },
+  "58402": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 58402,
+    "health": 10,
+    "id": "TB_BaconUps_046",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Junkbot",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly Mech dies, gain +4/+4.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 2074
+  },
   "59935": {
     "attack": 4,
     "battlegroundsPremiumDbfId": 59976,

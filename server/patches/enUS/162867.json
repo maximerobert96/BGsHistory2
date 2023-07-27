@@ -20,7 +20,7 @@
     ],
     "rarity": "COMMON",
     "set": "BOOMSDAY",
-    "techLevel": 4,
+    "techLevel": 5,
     "text": "<b>Deathrattle:</b> Summon an 8/8 Robosaur.",
     "type": "MINION",
     "relatedCards": [
@@ -128,6 +128,31 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you summon a\nMech, give it +2 Attack.",
     "type": "HERO_POWER"
+  },
+  "58387": {
+    "attack": 0,
+    "cardClass": "PALADIN",
+    "cost": 5,
+    "dbfId": 58387,
+    "health": 10,
+    "id": "TB_BaconUps_039",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mechano-Egg",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a 16/16 Robosaur.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 5,
+    "relatedCards": [
+      58389
+    ],
+    "battlegroundsNormalDbfId": 49169
   },
   "58535": {
     "artist": "Alex Horley Orlandelli",

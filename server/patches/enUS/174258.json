@@ -71,6 +71,32 @@
       "GENERAL"
     ]
   },
+  "58427": {
+    "attack": 6,
+    "cardClass": "WARLOCK",
+    "cost": 9,
+    "dbfId": 58427,
+    "health": 18,
+    "id": "TB_BaconUps_059",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Voidlord",
+    "race": "DEMON",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon three\n2/6 Demons with <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 6,
+    "relatedCards": [
+      57299
+    ],
+    "battlegroundsNormalDbfId": 96797
+  },
   "58435": {
     "armor": 18,
     "artist": "Alex Horley Orlandelli",
@@ -3261,7 +3287,7 @@
     ],
     "rarity": "EPIC",
     "set": "LOOTAPALOOZA",
-    "techLevel": 5,
+    "techLevel": 6,
     "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon three\n1/3 Demons with <b>Taunt</b>.",
     "type": "MINION",
     "associatedTribes": [
