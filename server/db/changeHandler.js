@@ -21,6 +21,7 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
     }    
     let patchesOfChange = mappingFile.cards[cardId];
     patchesOfChange = addToSortedArray(patchesOfChange, build);
+    let patchesOfChangeForGolden;
 
     if(!mappingFile.patches.hasOwnProperty(build)) {
         mappingFile.patches[build] = [];
@@ -35,6 +36,11 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
             goldenId = getGoldenId(cardId);
         }
         cardsAffectedByBuild = addToSortedArray(cardsAffectedByBuild, goldenId);
+        if(!mappingFile.cards.hasOwnProperty(goldenId)) {
+            mappingFile.cards[goldenId] = [];
+        }
+        patchesOfChangeForGolden = mappingFile.cards[goldenId];
+        patchesOfChangeForGolden = addToSortedArray(patchesOfChangeForGolden, build);
     }
 
     if(affectedBuilds === "ALL_FROM_NOW"){
@@ -51,6 +57,9 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
 
     mappingFile.cards[cardId] = patchesOfChange;
     mappingFile.patches[build] = cardsAffectedByBuild;
+    if(modifyGolden) {
+        mappingFile.cards[goldenId] = patchesOfChangeForGolden;
+    } 
     saveJsonToFile("./mapping.json", mappingFile);
     
     /*
@@ -404,6 +413,6 @@ function patch37060() {
 // makeMinionActive(2030, 35747);
 // makeMinionActive(38526, 35747);
 
-
+// addNewChange(38203, 60028, {"techLevel": 5}, undefined, undefined, undefined, undefined, true, undefined, undefined); // primalfin
 
 // moreToFirstPatch();

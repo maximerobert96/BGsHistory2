@@ -137,7 +137,7 @@
     "race": "MURLOC",
     "rarity": "COMMON",
     "set": "BATTLEGROUNDS",
-    "techLevel": 4,
+    "techLevel": 5,
     "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> two Murlocs.",
     "type": "MINION",
     "races": [
@@ -163,7 +163,7 @@
     "race": "MURLOC",
     "rarity": "COMMON",
     "set": "BATTLEGROUNDS",
-    "techLevel": 4,
+    "techLevel": 5,
     "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
     "type": "MINION",
     "races": [

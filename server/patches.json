@@ -27,7 +27,8 @@
     "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/16-0-3-update-december-12/20356",
     "build": "38203",
     "releaseDate": "December 12, 2019",
-    "patchNumber": "16.0.3"
+    "patchNumber": "16.0.3",
+    "serverSide": true
   },
   "38377": {
     "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/16-0-5-balance-update-december-19/20934",

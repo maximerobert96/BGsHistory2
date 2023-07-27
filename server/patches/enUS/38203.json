@@ -1,1 +1,58 @@
-{}
+{
+  "60027": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60027,
+    "health": 4,
+    "id": "TB_BaconUps_089",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> two Murlocs.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 5,
+    "pools": [
+      "MURLOC_POOL"
+    ],
+    "battlegroundsNormalDbfId": 60028
+  },
+  "60028": {
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60028,
+    "health": 2,
+    "id": "BGS_020",
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Primalfin Lookout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 5,
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
+    ],
+    "battlegroundsPremiumDbfId": 60027
+  }
+}
