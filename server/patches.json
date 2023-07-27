@@ -11,6 +11,12 @@
     "releaseDate": "November 11, 2019",
     "patchNumber": "15.6.2"
   },
+  "36500": {
+    "build": 36500,
+    "patchNotes": "",
+    "releaseDate": "",
+    "serverSide": true
+  },
   "37060": {
     "patchNotes": "https://playhearthstone.com/en-us/blog/23239986/hearthstone-update-december-5-descent-of-dragons",
     "build": "37060",

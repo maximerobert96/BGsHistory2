@@ -1,5 +1,6 @@
 const fs = require('fs');
 const poolManager = require("./poolManager");
+const { saveJsonToFile } = require('./dbUpdater');
 
 
 function isActiveCard( currentCard ) {
@@ -278,8 +279,12 @@ function getCardChangesOfId(cardId) {
     return cardChangesObj;
 }
 
-
+function addServerPatchToPatchesFile(build) {
+    let patches = getJsonFromFile("./patches.json");
+    patches[build] = {build: build, patchNotes: "", releaseDate: "", serverSide: true};
+    saveJsonToFile("./patches.json", patches);
+}
 
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard, addServerPatchToPatchesFile
 }

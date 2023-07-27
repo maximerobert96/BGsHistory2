@@ -1,0 +1,16 @@
+{
+  "60213": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60213,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_42",
+    "name": "Elise Starseeker",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60217,
+    "battlegroundsHero": true
+  }
+}

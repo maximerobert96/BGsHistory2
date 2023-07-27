@@ -470,7 +470,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60217
+    "heroPowerDbfId": 60217,
+    "battlegroundsHero": true
   },
   "60214": {
     "artist": "L. Lullabi & K. Turovec",

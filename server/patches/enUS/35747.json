@@ -394,7 +394,36 @@
       "MECHANICAL"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 1,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "1": {
+    "artist": "Raymond Swanland",
+    "attack": 4,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 1,
+    "flavor": "He chooses to believe what he is programmed to believe!",
+    "health": 4,
+    "id": "GVG_058_G",
+    "mechanics": [
+      "DIVINE_SHIELD"
+    ],
+    "name": "Shielded Minibot",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "GVG",
+    "text": "<b>Divine Shield</b>",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 2026
   },
   "2030": {
     "artist": "Jim Nelson",
@@ -422,7 +451,39 @@
       "MECHANICAL"
     ],
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "battlegroundsPremiumDbfId": 2,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "2": {
+    "artist": "Jim Nelson",
+    "attack": 12,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 2,
+    "flavor": "Guardians used to be built out of Adamantium, but production got moved to Gadgetzan and Cobalt was cheap.",
+    "health": 6,
+    "id": "GVG_062_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cobalt Guardian",
+    "race": "MECHANICAL",
+    "rarity": "RARE",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "GVG",
+    "text": "Whenever you summon a Mech, gain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 2030
   },
   "2068": {
     "artist": "Todd Lockwood",
@@ -568,7 +629,37 @@
       "MECHANICAL"
     ],
     "techLevel": 3,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "battlegroundsPremiumDbfId": 3
+  },
+  "3": {
+    "artist": "Matt Dixon",
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 3,
+    "flavor": "\"Annoyinger-o-Tron\" was just too unwieldy. And accurate.",
+    "health": 8,
+    "id": "OG_145_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Psych-o-Tron",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "OG",
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 38526
   },
   "38734": {
     "artist": "E. Guiton & A. Bozonnet",
@@ -5583,6 +5674,35 @@
       "MECHANICAL"
     ],
     "techLevel": 2,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "103653": {
+    "artist": "Matt Dixon",
+    "attack": 2,
+    "battlegroundsNormalDbfId": 103652,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103653,
+    "flavor": "The inventor of the Annoy-o-Tron was immediately expelled from Tinkerschool, Tinkertown, and was eventually exiled from the Eastern Kingdoms altogether.",
+    "health": 4,
+    "id": "BG_GVG_085_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Annoy-o-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "rarity": "COMMON",
+    "set": "GVG",
+    "targetingArrowText": "_",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION"
   }
 }

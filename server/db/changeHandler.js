@@ -21,6 +21,11 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
     }    
     let patchesOfChange = mappingFile.cards[cardId];
     patchesOfChange = addToSortedArray(patchesOfChange, build);
+
+    if(!mappingFile.patches.hasOwnProperty(build)) {
+        mappingFile.patches[build] = [];
+        dbManager.addServerPatchToPatchesFile(build);
+    }
     
     let cardsAffectedByBuild = mappingFile.patches[build];
     cardsAffectedByBuild = addToSortedArray(cardsAffectedByBuild, cardId);
@@ -62,6 +67,8 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
         Remove field isBattlegroundsHero from brann bronzebeard in one of the first few patches (when brann was removed)
     */
 }
+
+
 
 function removeUnnecessaryChanges(mappingFile, build, cardId, goldenId) {
     // TODO remove duplicate cards, changes that didn't change anything, etc.
@@ -127,7 +134,12 @@ function updateOnlyCurrent(build, cardId, newFields, removedFields, areReplacing
 }
 
 function updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId){
-    let currentDb = dbManager.getJsonDBOfPatch(currentPatch);
+    let currentDb;
+    try{
+        currentDb = dbManager.getJsonDBOfPatch(currentPatch);
+    } catch(e) {
+        currentDb = {};
+    }
     let previousVersionObj = getPreviousPatchCardObj(currentPatch, cardId);
     let goldenVersionObj = {};
     
@@ -319,6 +331,29 @@ function tempLookForCardId(cardName) {
     return result.dbfId;
 }
 
+function testAddingChangeToNonexistentPatch() {
+    let build = 36500;
+    let cardId = 60213; // elise
+    let newFields = {"battlegroundsHero": true};
+    let removedFields;
+    let areReplacing = false;
+    let affectedBuilds = "ALL_FROM_NOW";
+    let build2;
+    let modifyGolden = false;
+    let goldenText;
+    addNewChange(build, cardId, newFields, removedFields, areReplacing, affectedBuilds, build2, modifyGolden, goldenText);
+}
+
+function moreToFirstPatch() {
+    let build = 35747;
+    addNewChange(build, 2074, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined);
+    addNewChange(build, 962, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined);
+    addNewChange(build, 49169, {"techLevel": 5}, undefined, undefined, undefined, undefined, true, undefined, undefined);
+    addNewChange(build, 96797, {"techLevel": 6}, undefined, undefined, undefined, undefined, true, undefined, undefined);
+}
+
+// testAddingChangeToNonexistentPatch();
+
 // manuallyAddingChange();
 
 // testAddingTribeToMurkeye();
@@ -328,3 +363,7 @@ function tempLookForCardId(cardName) {
 // makeMinionActive(2026, 35747);
 // makeMinionActive(2030, 35747);
 // makeMinionActive(38526, 35747);
+
+
+
+moreToFirstPatch();
