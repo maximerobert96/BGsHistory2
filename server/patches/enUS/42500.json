@@ -1,0 +1,29 @@
+{
+  "57924": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 59863,
+    "battlegroundsHero": true
+  },
+  "60364": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60364,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_47",
+    "name": "Tirion Fordring",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "heroPowerDbfId": 60376,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  }
+}

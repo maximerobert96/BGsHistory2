@@ -464,4 +464,12 @@ function patch42174() {
 
 }
 
+function patch42500() {
+    let build = 42500;
+
+    addNewChange(build, 57924, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // wagtoggle returning
+    addNewChange(build, 60364, undefined, ["battlegroundsHero"]); // tirion leaving
+}
+
+patch42500();
 // patch42174();
