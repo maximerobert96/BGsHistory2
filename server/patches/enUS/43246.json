@@ -262,7 +262,11 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60621": {
     "attack": 3,
@@ -283,7 +287,8 @@
     ],
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60626": {
     "attack": 4,
@@ -445,7 +450,7 @@
   },
   "61077": {
     "attack": 2,
-    "battlegroundsNormalDbfId": 97581,
+    "battlegroundsNormalDbfId": 1808,
     "cardClass": "NEUTRAL",
     "cost": 2,
     "dbfId": 61077,

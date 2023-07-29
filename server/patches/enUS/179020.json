@@ -1664,7 +1664,6 @@
     "flavor": "The inventor of the Annoy-o-Tron was immediately expelled from Tinkerschool, Tinkertown, and was eventually exiled from the Eastern Kingdoms altogether.",
     "health": 2,
     "id": "BG_GVG_085",
-    "isBattlegroundsPoolMinion": true,
     "mechanics": [
       "DIVINE_SHIELD",
       "TAUNT"

@@ -1,4 +1,28 @@
 {
+  "4": {
+    "attack": 16,
+    "cardClass": "PALADIN",
+    "cost": 8,
+    "dbfId": 4,
+    "health": 8,
+    "id": "BGS_068",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Holy Mackerel",
+    "race": "MURLOC",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After another friendly\nminion loses <b>Divine Shield</b>,\ngain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "battlegroundsNormalDbfId": 61079
+  },
   "1808": {
     "artist": "Mike Nicholson",
     "attack": 1,
@@ -27,6 +51,34 @@
       "GENERAL"
     ]
   },
+  "2026": {
+    "artist": "Raymond Swanland",
+    "attack": 2,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 2026,
+    "flavor": "He chooses to believe what he is programmed to believe!",
+    "health": 2,
+    "id": "GVG_058",
+    "mechanics": [
+      "DIVINE_SHIELD"
+    ],
+    "name": "Shielded Minibot",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "GVG",
+    "text": "<b>Divine Shield</b>",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 1,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
   "2068": {
     "artist": "Todd Lockwood",
     "attack": 4,
@@ -52,6 +104,104 @@
       "DEMON"
     ],
     "isBattlegroundsPoolMinion": true
+  },
+  "38526": {
+    "artist": "Matt Dixon",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 38526,
+    "flavor": "\"Annoyinger-o-Tron\" was just too unwieldy. And accurate.",
+    "health": 4,
+    "id": "OG_145",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Psych-o-Tron",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "OG",
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 3,
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "battlegroundsPremiumDbfId": 3
+  },
+  "38895": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 8,
+    "dbfId": 38895,
+    "elite": true,
+    "flavor": "Has 20 years of training in classical ballet, but ALLLLLL he ever gets asked to do is boogie.",
+    "health": 7,
+    "id": "OG_300",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "The Boogeymonster",
+    "rarity": "LEGENDARY",
+    "set": "OG",
+    "text": "Whenever this attacks and kills a minion, gain +2/+2.",
+    "type": "MINION",
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58425
+  },
+  "41138": {
+    "artist": "James Ryman",
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 7,
+    "dbfId": 41138,
+    "flavor": "Bet you can't eat just one murloc!",
+    "health": 7,
+    "id": "UNG_010",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Sated Threshadon",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "UNGORO",
+    "text": "<b>Deathrattle:</b> Summon three 1/1 Murlocs.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 5,
+    "battlegroundsPremiumDbfId": 58413
+  },
+  "41180": {
+    "artist": "Garrett Hanna",
+    "attack": 2,
+    "cardClass": "PRIEST",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 41180,
+    "flavor": "A hero... In a half-shell.",
+    "health": 6,
+    "id": "UNG_037",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Tortollan Shellraiser",
+    "rarity": "COMMON",
+    "set": "UNGORO",
+    "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Give a random\n friendly minion +1/+1.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58374
   },
   "42442": {
     "artist": "Jim Nelson",
@@ -81,6 +231,52 @@
     "associatedTribes": [
       "DRAGON"
     ]
+  },
+  "47516": {
+    "artist": "Evgeniy Dlinnov",
+    "attack": 2,
+    "cardClass": "WARRIOR",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 47516,
+    "flavor": "Tree puns arboring.",
+    "health": 7,
+    "id": "GIL_655",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Festeroot Hulk",
+    "rarity": "RARE",
+    "set": "GILNEAS",
+    "text": "After a friendly minion attacks, gain +1 Attack.",
+    "type": "MINION",
+    "techLevel": 4,
+    "undeadCreationPool": 1,
+    "battlegroundsPremiumDbfId": 58378
+  },
+  "54153": {
+    "artist": "Anton Zemskov",
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 54153,
+    "flavor": "Turns out he's really good at herding cats.",
+    "health": 5,
+    "id": "ULD_179",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Phalanx Commander",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "ULDUM",
+    "text": "Your <b>Taunt</b> minions\nhave +2 Attack.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58385
   },
   "57555": {
     "cardClass": "NEUTRAL",
@@ -128,6 +324,32 @@
       "GENERAL"
     ],
     "heroPowerDbfId": 57555
+  },
+  "57924": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 59863
+  },
+  "57961": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57961,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_20",
+    "name": "Professor Putricide",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57962
   },
   "57962": {
     "cardClass": "NEUTRAL",
@@ -372,6 +594,50 @@
       "BEAST"
     ]
   },
+  "60049": {
+    "attack": 6,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 60049,
+    "health": 4,
+    "id": "BGS_024",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Piloted Sky Golem",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a random 4-Cost minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58411
+  },
+  "60050": {
+    "attack": 3,
+    "cardClass": "DRUID",
+    "cost": 3,
+    "dbfId": 60050,
+    "health": 2,
+    "id": "BGS_025",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mounted Raptor",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a random 1-Cost minion.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 58150
+  },
   "60212": {
     "cardClass": "NEUTRAL",
     "dbfId": 60212,
@@ -492,7 +758,11 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60552": {
     "attack": 4,
@@ -513,7 +783,11 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60558": {
     "attack": 2,
@@ -557,7 +831,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Whenever a friendly Dragon kills an enemy, gain +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60561": {
     "attack": 2,
@@ -604,7 +882,8 @@
     ],
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60626": {
     "attack": 6,
@@ -651,7 +930,11 @@
     "races": [
       "DRAGON"
     ],
-    "battlegroundsPremiumDbfId": 63772
+    "battlegroundsPremiumDbfId": 63772,
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60629": {
     "attack": 7,
@@ -1057,7 +1340,6 @@
     "races": [
       "DEMON"
     ],
-    "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "DEMON"
     ]
@@ -1116,7 +1398,7 @@
   },
   "61077": {
     "attack": 2,
-    "battlegroundsNormalDbfId": 97581,
+    "battlegroundsNormalDbfId": 1808,
     "cardClass": "NEUTRAL",
     "cost": 2,
     "dbfId": 61077,
@@ -1154,7 +1436,12 @@
     "type": "MINION",
     "races": [
       "MURLOC"
-    ]
+    ],
+    "battlegroundsPremiumDbfId": 4,
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "61081": {
     "attack": 8,
@@ -1297,6 +1584,99 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
+    ]
+  },
+  "63772": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 63772,
+    "health": 6,
+    "id": "BGS_039",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Dragonspawn Lieutenant",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "battlegroundsNormalDbfId": 60628
+  },
+  "63779": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63779,
+    "health": 2,
+    "id": "BGS_034",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN"
+    ],
+    "name": "Bronze Warden",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Divine Shield</b>\n<b>Reborn</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "battlegroundsNormalDbfId": 60558
+  },
+  "63780": {
+    "attack": 14,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63780,
+    "elite": true,
+    "health": 8,
+    "id": "BGS_040",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Nadina the Red",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> Give your Dragons <b>Divine Shield</b>.",
+    "type": "MINION",
+    "battlegroundsNormalDbfId": 60629
+  },
+  "103652": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 103653,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 103652,
+    "flavor": "The inventor of the Annoy-o-Tron was immediately expelled from Tinkerschool, Tinkertown, and was eventually exiled from the Eastern Kingdoms altogether.",
+    "health": 2,
+    "id": "GVG_085",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Annoy-o-Tron",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "GVG",
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 2,
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   }
 }

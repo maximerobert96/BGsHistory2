@@ -203,7 +203,8 @@
     ],
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60676": {
     "attack": 4,

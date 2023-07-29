@@ -115,7 +115,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Whenever a friendly Dragon kills an enemy, gain +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60647": {
     "attack": 2,

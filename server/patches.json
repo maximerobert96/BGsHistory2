@@ -52,7 +52,8 @@
     "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_16.2.3.40734",
     "build": "40734",
     "releaseDate": "February 13, 2020",
-    "patchNumber": "16.2.3"
+    "patchNumber": "16.2.3",
+    "serverSide": true
   },
   "42174": {
     "patchNotes": "https://playhearthstone.com/en-us/blog/23312587/",

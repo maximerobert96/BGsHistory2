@@ -241,7 +241,6 @@
     "dbfId": 61059,
     "health": 3,
     "id": "BGS_059",
-    "isBattlegroundsPoolMinion": true,
     "mechanics": [
       "BATTLECRY"
     ],

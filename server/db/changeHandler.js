@@ -429,9 +429,10 @@ function patch39954() {
 function patch42174() {
     let build = 42174;
 
-    addNewChange(build, 61059, undefined, ["isBattlegroundsPoolMinion"]); // remove Master Demonologist
+    // addNewChange(build, 61059, undefined, ["isBattlegroundsPoolMinion"]); // remove Master Demonologist
 
-    addNewChange(build, 60628, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }, undefined, undefined, undefined, undefined, true); // dragonspawn lieutenant
+    // addNewChange(build, 60628, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }, undefined, undefined, undefined, undefined, true); // dragonspawn lieutenant
+    addNewChange(build, 61079, {"battlegroundsPremiumDbfId": 4 }); // making up golden mack
     addNewChange(build, 61079, {"associatedTribes": ["MURLOC"], "isBattlegroundsPoolMinion": true }, undefined, undefined, undefined, undefined, true); // holy mack
 
     addNewChange(build, 60559, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }); // waxrider toggwaggle
@@ -462,3 +463,5 @@ function patch42174() {
     addNewChange(build, 57924, undefined, ["battlegroundsHero"], undefined, "ONLY_THIS"); // queen wagtoggle temporarily removed
 
 }
+
+// patch42174();

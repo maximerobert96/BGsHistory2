@@ -69,7 +69,11 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60621": {
     "attack": 3,
@@ -90,7 +94,8 @@
     ],
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "60643": {
     "attack": 12,

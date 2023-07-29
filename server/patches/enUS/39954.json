@@ -42,6 +42,20 @@
       "ALL"
     ]
   },
+  "57961": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57961,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_20",
+    "name": "Professor Putricide",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57962,
+    "battlegroundsHero": true
+  },
   "59201": {
     "cardClass": "NEUTRAL",
     "cost": 0,
