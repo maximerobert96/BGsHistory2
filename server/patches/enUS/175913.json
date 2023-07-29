@@ -32,8 +32,7 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ],
-    "battlegroundsHero": true
+    ]
   },
   "58535": {
     "armor": 13,

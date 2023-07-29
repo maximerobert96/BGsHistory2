@@ -8,7 +8,7 @@ const { saveJsonToFile, saveJsonDBOfPatch } = require('./dbUpdater');
  * @param {*} newFields 
  * @param {*} removedFields 
  * @param {*} areReplacing 
- * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE"
+ * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE" : for range [build1, build2[
  * @param {*} build2 
  * @param {*} modifyGolden 
  * @param {*} goldenText 
@@ -471,5 +471,21 @@ function patch42500() {
     addNewChange(build, 60364, undefined, ["battlegroundsHero"]); // tirion leaving
 }
 
-patch42500();
+function patch43246() {
+    let build = 43246;
+
+    addNewChange(build, 57961, {"battlegroundsHero": true}); // putricide returning
+    addNewChange(35747, 60211, {"heroPowerDbfId": 60215}, undefined, undefined, "RANGE", build); // updating old hp for finley
+    addNewChange(build, 60211, {"battlegroundsHero": true}); // finley returning
+
+    addNewChange(build, 57892, undefined, ["battlegroundsHero"]); // ragnaros leaving
+    addNewChange(build, 60361, undefined, ["battlegroundsHero"]); // sylvanas leaving
+    addNewChange(build, 57947, undefined, ["battlegroundsHero"]); // patches leaving
+    
+}
+
+// patch43246();
+
+
+// patch42500();
 // patch42174();

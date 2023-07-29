@@ -83,7 +83,6 @@
     "armor": 13,
     "artist": "Greg Staples",
     "battlegroundsBuddyDbfId": 77821,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57892,
     "health": 30,
@@ -202,8 +201,7 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ],
-    "battlegroundsHero": true
+    ]
   },
   "57956": {
     "cardClass": "NEUTRAL",
@@ -230,7 +228,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "58021": {
     "armor": 13,
@@ -627,7 +626,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "60212": {
     "armor": 15,
@@ -692,8 +692,7 @@
     "name": "Sylvanas Windrunner",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO",
-    "battlegroundsHero": true
+    "type": "HERO"
   },
   "60362": {
     "armor": 10,

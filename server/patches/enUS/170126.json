@@ -56,7 +56,6 @@
     "armor": 16,
     "artist": "Greg Staples",
     "battlegroundsBuddyDbfId": 77821,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57892,
     "health": 30,
@@ -139,8 +138,7 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ],
-    "battlegroundsHero": true
+    ]
   },
   "58027": {
     "armor": 10,

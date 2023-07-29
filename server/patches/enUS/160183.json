@@ -70,7 +70,6 @@
     "artist": "Greg Staples",
     "battlegroundsArmorTier": 4,
     "battlegroundsBuddyDbfId": 77821,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57892,
     "health": 40,
@@ -182,8 +181,7 @@
     "associatedTribes": [
       "PIRATE"
     ],
-    "heroPowerDbfId": 62243,
-    "battlegroundsHero": true
+    "heroPowerDbfId": 62243
   },
   "58021": {
     "artist": "Ivan Fomin",
@@ -437,7 +435,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60450
+    "heroPowerDbfId": 60450,
+    "battlegroundsHero": true
   },
   "60212": {
     "artist": "Eric Braddock",

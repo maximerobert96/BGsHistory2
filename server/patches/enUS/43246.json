@@ -1,4 +1,30 @@
 {
+  "57892": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57892,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_11",
+    "name": "Ragnaros the Firelord",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 64424
+  },
+  "57947": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57947,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_18",
+    "name": "Patches the Pirate",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "heroPowerDbfId": 62243
+  },
   "57949": {
     "cardClass": "NEUTRAL",
     "cost": 0,
@@ -9,6 +35,20 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +2 Attack.",
     "type": "HERO_POWER"
+  },
+  "57961": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57961,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_20",
+    "name": "Professor Putricide",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 57962,
+    "battlegroundsHero": true
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -175,6 +215,20 @@
       "DEMON_POOL"
     ]
   },
+  "60211": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60211,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_40",
+    "name": "Sir Finley Mrrgglton",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60450,
+    "battlegroundsHero": true
+  },
   "60216": {
     "cardClass": "NEUTRAL",
     "cost": 3,
@@ -184,6 +238,16 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
     "type": "HERO_POWER"
+  },
+  "60361": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60361,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_44",
+    "name": "Sylvanas Windrunner",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "heroPowerDbfId": 60373
   },
   "60372": {
     "battlegroundsHero": true,
