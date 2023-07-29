@@ -244,6 +244,31 @@ function patch44222() {
     addNewChange(build, 2030, undefined, ["isBattlegroundsPoolMinion"]); // cobalt guardian removed
 }
 
+function patch49534() {
+    let build = 49534;
+
+    addNewChange(build, 57947, {"battlegroundsHero": true}); // patches returning
+    addNewChange(35747, 57947, {"heroPowerDbfId": 58527}, undefined, undefined, "RANGE", build); // updating old hp for patches
+
+    addNewChange(build, 57961, undefined, ["battlegroundsHero"]); // putricide leaving
+    addNewChange(build, 61079, undefined, ["isBattlegroundsPoolMinion"]); // holy mack removed
+
+    addNewChange(build, 62188, {"associatedTribes": ["PIRATE"], "isBattlegroundsPoolMinion": true }); // arcane cannon
+    addNewChange(build, 62458, {"associatedTribes": ["PIRATE"], "isBattlegroundsPoolMinion": true }); // Seabreaker Goliath
+    addNewChange(build, 61046, {"associatedTribes": ["PIRATE"], "isBattlegroundsPoolMinion": true }); // Nat Pagle
+
+    addNewChange(build, 61053, {"isBattlegroundsPoolMinion": true }); // Bloodsail Cannoneer
+
+    addNewChange(build, 62232, {"associatedTribes": ["PIRATE"], "isBattlegroundsPoolMinion": true, "pools": [ "PIRATE_POOL" ] }); // Tide Razor YEP BOAT
+    addNewChange(build, 62216, {"pools": [ "GOLDEN_POOL" ] }, undefined, undefined, undefined, undefined, true); // Treasure Chest
+
+    addNewChange(build, 61060, undefined, undefined, undefined, undefined, undefined, true); // Yo-Ho make golden
+
+
+}
+
+patch49534();
+
 // addNewChange(47374, 985, undefined, ["isBattlegroundsPoolMinion"]); // dire wolf removed
 
 // patch44222();
