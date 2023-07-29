@@ -244,7 +244,9 @@ function patch44222() {
     addNewChange(build, 2030, undefined, ["isBattlegroundsPoolMinion"]); // cobalt guardian removed
 }
 
-patch44222();
+// addNewChange(47374, 985, undefined, ["isBattlegroundsPoolMinion"]); // dire wolf removed
+
+// patch44222();
 // patch43246();
 
 

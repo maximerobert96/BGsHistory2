@@ -1,4 +1,30 @@
 {
+  "985": {
+    "artist": "John Dickenson",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 985,
+    "flavor": "We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.",
+    "health": 2,
+    "id": "EX1_162",
+    "mechanics": [
+      "ADJACENT_BUFF",
+      "AURA"
+    ],
+    "name": "Dire Wolf Alpha",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "EXPERT1",
+    "text": "Adjacent minions have +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 60025
+  },
   "61912": {
     "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
