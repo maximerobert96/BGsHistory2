@@ -181,7 +181,8 @@
     "associatedTribes": [
       "PIRATE"
     ],
-    "heroPowerDbfId": 62243
+    "heroPowerDbfId": 62243,
+    "battlegroundsHero": true
   },
   "58021": {
     "artist": "Ivan Fomin",

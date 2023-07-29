@@ -250,7 +250,8 @@
     "associatedTribes": [
       "PIRATE"
     ],
-    "heroPowerDbfId": 62243
+    "heroPowerDbfId": 62243,
+    "battlegroundsHero": true
   },
   "57957": {
     "cardClass": "NEUTRAL",

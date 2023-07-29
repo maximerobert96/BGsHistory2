@@ -11,7 +11,8 @@
     "associatedTribes": [
       "PIRATE"
     ],
-    "heroPowerDbfId": 62243
+    "heroPowerDbfId": 62243,
+    "battlegroundsHero": true
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -25,8 +26,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 57962,
-    "battlegroundsHero": true
+    "heroPowerDbfId": 57962
   },
   "59707": {
     "attack": 2,
@@ -111,7 +111,11 @@
     ],
     "relatedCards": [
       62216
-    ]
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "61047": {
     "attack": 6,
@@ -209,7 +213,8 @@
     ],
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "61055": {
     "attack": 2,
@@ -340,6 +345,33 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "PIRATE"
+    ]
+  },
+  "61079": {
+    "attack": 8,
+    "cardClass": "PALADIN",
+    "cost": 8,
+    "dbfId": 61079,
+    "health": 4,
+    "id": "BGS_068",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Holy Mackerel",
+    "race": "MURLOC",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After another friendly\nminion loses <b>Divine Shield</b>,\ngain <b>Divine Shield</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "battlegroundsPremiumDbfId": 4,
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "61910": {
@@ -477,7 +509,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Can't attack.\nAfter an adjacent minion\nattacks, deal 2 damage\nto an enemy minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "62189": {
     "attack": 4,
@@ -566,7 +602,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon a random Golden minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "battlegroundsPremiumDbfId": 62218,
+    "pools": [
+      "GOLDEN_POOL"
+    ]
   },
   "62217": {
     "attack": 16,
@@ -607,7 +647,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon 2 random Golden minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "battlegroundsNormalDbfId": 62216,
+    "pools": [
+      "GOLDEN_POOL"
+    ]
   },
   "62224": {
     "attack": 12,
@@ -720,7 +764,14 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle</b>: Summon 3 random Pirates.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "62237": {
     "attack": 6,
@@ -802,7 +853,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "<b>Deathrattle</b>: Summon 6 random Pirates.",
-    "type": "MINION"
+    "type": "MINION",
+    "pools": [
+      "PIRATE_POOL"
+    ]
   },
   "62254": {
     "attack": 8,
@@ -989,7 +1043,11 @@
     "type": "MINION",
     "races": [
       "PIRATE"
-    ]
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "62460": {
     "attack": 12,
@@ -1086,6 +1144,30 @@
       89813,
       98888
     ]
+  },
+  "63782": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63782,
+    "health": 16,
+    "id": "BGS_060",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yo-Ho-Ogre",
+    "race": "PIRATE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "battlegroundsNormalDbfId": 61060
   },
   "96771": {
     "artist": "Ken Steacy",

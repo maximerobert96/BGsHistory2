@@ -260,6 +260,10 @@ function patch49534() {
     addNewChange(build, 61053, {"isBattlegroundsPoolMinion": true }); // Bloodsail Cannoneer
 
     addNewChange(build, 62232, {"associatedTribes": ["PIRATE"], "isBattlegroundsPoolMinion": true, "pools": [ "PIRATE_POOL" ] }); // Tide Razor YEP BOAT
+    addNewChange(build, 62251, {"pools": [ "PIRATE_POOL" ] }); // Golden boat
+
+    addNewChange(build, 62216, {"battlegroundsPremiumDbfId": 62218 }); // Treasure Chest
+    addNewChange(build, 62218, {"battlegroundsNormalDbfId": 62216 }); // Golden Treasure Chest
     addNewChange(build, 62216, {"pools": [ "GOLDEN_POOL" ] }, undefined, undefined, undefined, undefined, true); // Treasure Chest
 
     addNewChange(build, 61060, undefined, undefined, undefined, undefined, undefined, true); // Yo-Ho make golden
@@ -267,7 +271,7 @@ function patch49534() {
 
 }
 
-patch49534();
+// patch49534();
 
 // addNewChange(47374, 985, undefined, ["isBattlegroundsPoolMinion"]); // dire wolf removed
 

@@ -98,7 +98,8 @@
     ],
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "61919": {
     "cardClass": "NEUTRAL",

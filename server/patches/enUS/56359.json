@@ -248,7 +248,11 @@
     ],
     "relatedCards": [
       62216
-    ]
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "61913": {
     "cardClass": "NEUTRAL",

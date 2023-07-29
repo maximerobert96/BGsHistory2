@@ -201,7 +201,8 @@
     "type": "HERO",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "57956": {
     "cardClass": "NEUTRAL",
@@ -228,8 +229,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "battlegroundsHero": true
+    ]
   },
   "58021": {
     "armor": 13,
