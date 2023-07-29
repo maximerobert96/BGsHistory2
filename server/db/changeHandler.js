@@ -425,3 +425,40 @@ function patch39954() {
     addNewChange(build, 60211, undefined, ["battlegroundsHero"]); // finley - leaving
     addNewChange(build, 96796, undefined, ["isBattlegroundsPoolMinion"]); // voidwalker - removed
 }
+
+function patch42174() {
+    let build = 42174;
+
+    addNewChange(build, 61059, undefined, ["isBattlegroundsPoolMinion"]); // remove Master Demonologist
+
+    addNewChange(build, 60628, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }, undefined, undefined, undefined, undefined, true); // dragonspawn lieutenant
+    addNewChange(build, 61079, {"associatedTribes": ["MURLOC"], "isBattlegroundsPoolMinion": true }, undefined, undefined, undefined, undefined, true); // holy mack
+
+    addNewChange(build, 60559, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }); // waxrider toggwaggle
+    addNewChange(build, 60552, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }); // hangry dragon hank
+    addNewChange(build, 60498, {"associatedTribes": ["DRAGON"], "isBattlegroundsPoolMinion": true }); // herald of flame
+
+    addNewChange(build, 60558, undefined, undefined, undefined, undefined, undefined, true); // bronze warden
+    addNewChange(build, 60629, undefined, undefined, undefined, undefined, undefined, true); // nadina
+
+    addNewChange(build, 60621, {"isBattlegroundsPoolMinion": true }); // steward of time
+
+    addNewChange(build, 61077, {"battlegroundsNormalDbfId": 1808 }); // golden unstable ghoul
+
+    // removed minions
+    addNewChange(build, 2026, undefined, ["isBattlegroundsPoolMinion"]); // shielded minibot
+    addNewChange(build, 103652, undefined, ["isBattlegroundsPoolMinion"]); // annoy-o-tron
+    addNewChange(build, 60050, undefined, ["isBattlegroundsPoolMinion"]); // mounted raptor
+    addNewChange(build, 54153, undefined, ["isBattlegroundsPoolMinion"]); // phalanx commander
+    addNewChange(build, 38526, undefined, ["isBattlegroundsPoolMinion"]); // psycho tron
+    addNewChange(build, 41180, undefined, ["isBattlegroundsPoolMinion"]); // tortollan shellraiser
+    addNewChange(build, 60049, undefined, ["isBattlegroundsPoolMinion"]); // piloted sky golem
+    addNewChange(build, 47516, undefined, ["isBattlegroundsPoolMinion"]); // festeroot hulk
+    addNewChange(build, 38895, undefined, ["isBattlegroundsPoolMinion"]); // the boogeymonster
+    addNewChange(build, 41138, undefined, ["isBattlegroundsPoolMinion"]); // sated treshadon
+
+    addNewChange(39954, 57961, {"battlegroundsHero": true}); // putricide returning
+    addNewChange(build, 57961, undefined, ["battlegroundsHero"]); // putricide leaving
+    addNewChange(build, 57924, undefined, ["battlegroundsHero"], undefined, "ONLY_THIS"); // queen wagtoggle temporarily removed
+
+}
