@@ -284,15 +284,10 @@ function patch53261() {
     addNewChange(build, 61444, {"pools": [ "ADAPT_POOL" ] }, undefined, undefined, undefined, undefined, true); // Amalgadon
 
 }
-patch53261();
 
-// patch49534();
+function patch54613() {
+    let build = 54613;
 
-// addNewChange(47374, 985, undefined, ["isBattlegroundsPoolMinion"]); // dire wolf removed
-
-// patch44222();
-// patch43246();
-
-
-// patch42500();
-// patch42174();
+    addNewChange(build, 39839, undefined, ["isBattlegroundsPoolMinion"]); // zoobot removed
+    addNewChange(build, 39269, undefined, ["isBattlegroundsPoolMinion"]); // menagerie magician removed
+}

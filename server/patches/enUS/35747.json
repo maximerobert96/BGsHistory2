@@ -766,7 +766,10 @@
     "type": "MINION",
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 59510,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "39481": {
     "artist": "Matt Dixon",
@@ -822,7 +825,10 @@
     ],
     "techLevel": 2,
     "battlegroundsPremiumDbfId": 59489,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "40391": {
     "artist": "Arthur Gimaldinov",

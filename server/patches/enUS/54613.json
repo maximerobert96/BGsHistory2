@@ -1,4 +1,60 @@
 {
+  "39269": {
+    "artist": "Garrett Hanna",
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 39269,
+    "flavor": "Just between us, if things get tight the Menagerie Magician position will probably be the first to go.",
+    "health": 4,
+    "howToEarn": "Unlocked in the Menagerie, in One Night in Karazhan.",
+    "howToEarnGolden": "Crafting unlocked in the Menagerie, in One Night in Karazhan.",
+    "id": "KAR_702",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Magician",
+    "rarity": "COMMON",
+    "set": "KARA",
+    "text": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2.",
+    "type": "MINION",
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 59510,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "39839": {
+    "artist": "Matt Dixon",
+    "attack": 3,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 39839,
+    "flavor": "The Murloc is taking the picture.",
+    "health": 3,
+    "howToEarn": "Unlocked in the Menagerie, in One Night in Karazhan.",
+    "howToEarnGolden": "Crafting unlocked in the Menagerie, in One Night in Karazhan.",
+    "id": "KAR_095",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Zoobot",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "KARA",
+    "text": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +1/+1.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 59489,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "63319": {
     "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
