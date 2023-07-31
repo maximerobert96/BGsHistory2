@@ -1,0 +1,20 @@
+{
+  "61910": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 40,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ],
+    "heroPowerDbfId": 61915,
+    "battlegroundsHero": true
+  }
+}

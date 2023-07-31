@@ -271,6 +271,12 @@ function patch49534() {
 
 }
 
+function patch50000() {
+    addNewChange(49534, 61910, undefined, ["battlegroundsHero"]); // aranna not added yet
+    addNewChange(50000, 61910, {"battlegroundsHero": true}); // aranna added
+}
+
+patch50000();
 // patch49534();
 
 // addNewChange(47374, 985, undefined, ["isBattlegroundsPoolMinion"]); // dire wolf removed

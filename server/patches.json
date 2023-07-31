@@ -121,6 +121,12 @@
     "releaseDate": "June 9, 2020",
     "patchNumber": "17.4.0"
   },
+  "50000": {
+    "build": 50000,
+    "patchNotes": "https://www.hearthstonetopdecks.com/aranna-starseeker-joins-battlegrounds-as-a-new-hero/",
+    "releaseDate": "June 16, 2020",
+    "serverSide": true
+  },
   "51510": {
     "patchNotes": "https://playhearthstone.com/en-us/news/23442723/17-4-1-patch-notes",
     "build": "51510",
