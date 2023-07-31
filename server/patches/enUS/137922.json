@@ -83,6 +83,35 @@
     ],
     "associatedTribes": [
       "GENERAL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
+    ]
+  },
+  "61445": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61444,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61445,
+    "health": 12,
+    "id": "TB_BaconUps_121",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> For each different\nminion type you have among\nother minions, <b>Adapt</b>\nrandomly twice.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
     ]
   },
   "63623": {

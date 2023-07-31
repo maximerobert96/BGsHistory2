@@ -408,7 +408,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "battlegroundsHero": true
   },
   "60285": {
     "cardClass": "NEUTRAL",

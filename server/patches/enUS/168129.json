@@ -158,7 +158,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60218
+    "heroPowerDbfId": 60218,
+    "battlegroundsHero": true
   },
   "60367": {
     "artist": "J. Axer",

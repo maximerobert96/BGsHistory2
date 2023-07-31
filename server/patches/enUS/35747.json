@@ -1426,7 +1426,10 @@
     ],
     "techLevel": 6,
     "battlegroundsPremiumDbfId": 59828,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "ADAPT_POOL"
+    ]
   },
   "57110": {
     "cardClass": "NEUTRAL",
@@ -4043,7 +4046,10 @@
       "BEAST"
     ],
     "techLevel": 6,
-    "battlegroundsNormalDbfId": 56465
+    "battlegroundsNormalDbfId": 56465,
+    "pools": [
+      "ADAPT_POOL"
+    ]
   },
   "59831": {
     "cardClass": "NEUTRAL",

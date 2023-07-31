@@ -90,7 +90,8 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 60218
+    "heroPowerDbfId": 60218,
+    "battlegroundsHero": true
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -150,6 +151,9 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
     ]
   },
   "61445": {
@@ -174,6 +178,9 @@
     "type": "MINION",
     "races": [
       "ALL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
     ]
   },
   "61915": {

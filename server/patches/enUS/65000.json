@@ -419,6 +419,9 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "GENERAL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
     ]
   },
   "61445": {
@@ -442,6 +445,9 @@
     "type": "MINION",
     "races": [
       "ALL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
     ]
   },
   "62228": {

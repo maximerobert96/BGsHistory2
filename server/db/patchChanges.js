@@ -276,7 +276,16 @@ function patch50000() {
     addNewChange(50000, 61910, {"battlegroundsHero": true}); // aranna added
 }
 
-patch50000();
+function patch53261() {
+    let build = 53261;
+
+    addNewChange(build, 60214, {"battlegroundsHero": true}); // brann added
+    addNewChange(35747, 56465, {"pools": [ "ADAPT_POOL" ] }, undefined, undefined, undefined, undefined, true); // Megasaur since the start
+    addNewChange(build, 61444, {"pools": [ "ADAPT_POOL" ] }, undefined, undefined, undefined, undefined, true); // Amalgadon
+
+}
+patch53261();
+
 // patch49534();
 
 // addNewChange(47374, 985, undefined, ["isBattlegroundsPoolMinion"]); // dire wolf removed
