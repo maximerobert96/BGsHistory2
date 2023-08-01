@@ -3054,7 +3054,8 @@
     "type": "SPELL",
     "pools": [
       "MANA_X_POOL"
-    ]
+    ],
+    "isAkamSecret": true
   },
   "58505": {
     "cardClass": "PALADIN",

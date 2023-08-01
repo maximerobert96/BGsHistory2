@@ -340,4 +340,13 @@ function patch60352_and_62331() {
 
 }
 
-patch60352_and_62331();
+function patch65000() {
+    let build = 65000;
+
+    addNewChange(35747, 58503, {"isAkamSecret": true}, undefined, undefined, "RANGE", build); // effigy in secret pool
+    addNewChange(build, 58503, undefined, ["isAkamSecret"], undefined, "ONLY_THIS"); // effigy no longer in secret pool
+
+
+}
+
+patch65000();
