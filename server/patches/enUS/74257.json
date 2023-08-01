@@ -397,6 +397,32 @@
     "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Summon a\nminion from your Tavern Tier.\nAdd a copy to your hand.",
     "type": "HERO_POWER"
   },
+  "66835": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 66840,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 66835,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_205",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Elistra the Immortal",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "68130": {
     "cardClass": "NEUTRAL",
     "cost": 1,

@@ -49,6 +49,31 @@
     "text": "<b>Battlecry:</b> Give adjacent minions +2/+2 and <b>Taunt</b>.",
     "type": "MINION"
   },
+  "60048": {
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60048,
+    "health": 3,
+    "id": "BGS_023",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Piloted Shredder",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon a random 2-Cost minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58381,
+    "pools": [
+      "MANA_2_POOL"
+    ]
+  },
   "62582": {
     "artist": "Ursula Dorada",
     "attack": 3,
@@ -68,7 +93,11 @@
     "set": "THE_BARRENS",
     "techLevel": 3,
     "text": "<b>Frenzy:</b> Give your other minions +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "67357": {
     "cardClass": "NEUTRAL",

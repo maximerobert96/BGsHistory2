@@ -375,5 +375,7 @@ function patch68600() {
 
 }
 
-addNewChange(71003, 61059, {"isBattlegroundsPoolMinion": true }); // soul devourer
-addNewChange(71003, 2068, undefined, ["isBattlegroundsPoolMinion"]); // floating watcher
+// addNewChange(74257, 66835, undefined, ["isBattlegroundsPoolMinion"]); // elistra removed
+
+addNewChange(77662, 60048, undefined, ["isBattlegroundsPoolMinion"]); // piloted shredder removed
+addNewChange(77662, 62582, {"associatedTribes": ["GENERAL"], "isBattlegroundsPoolMinion": true }); // barrens blacksmith
