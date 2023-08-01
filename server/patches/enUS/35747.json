@@ -4292,7 +4292,10 @@
     "type": "MINION",
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 59969,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "59955": {
     "attack": 4,

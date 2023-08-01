@@ -377,5 +377,12 @@ function patch68600() {
 
 // addNewChange(74257, 66835, undefined, ["isBattlegroundsPoolMinion"]); // elistra removed
 
-addNewChange(77662, 60048, undefined, ["isBattlegroundsPoolMinion"]); // piloted shredder removed
-addNewChange(77662, 62582, {"associatedTribes": ["GENERAL"], "isBattlegroundsPoolMinion": true }); // barrens blacksmith
+// addNewChange(77662, 60048, undefined, ["isBattlegroundsPoolMinion"]); // piloted shredder removed
+// addNewChange(77662, 62582, {"associatedTribes": ["GENERAL"], "isBattlegroundsPoolMinion": true }); // barrens blacksmith
+
+// addNewChange(79904, 57924, {"battlegroundsHero": true}); // wagtoggle returning
+// addNewChange(35747, 59940, {"associatedTribes": ["BEAST"]}); // pack leader tribe since the start
+
+
+// addNewChange(81706, 70158, {"isBattlegroundsPoolMinion": true }); // bristleback knight
+// addNewChange(81706, 70176, {"associatedTribes": ["QUILBOAR"]}); // agamaggan pumba great boar

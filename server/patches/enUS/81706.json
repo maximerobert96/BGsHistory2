@@ -353,7 +353,8 @@
     ],
     "associatedTribes": [
       "QUILBOAR"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "70159": {
     "attack": 8,
@@ -722,7 +723,7 @@
       70136
     ],
     "associatedTribes": [
-      "BEAST"
+      "QUILBOAR"
     ]
   },
   "70177": {

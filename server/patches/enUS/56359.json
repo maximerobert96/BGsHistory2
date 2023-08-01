@@ -92,7 +92,10 @@
     "techLevel": 2,
     "text": "Whenever you summon a Beast, give it +3 Attack.",
     "type": "MINION",
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "59955": {
     "attack": 4,
