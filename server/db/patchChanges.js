@@ -313,4 +313,10 @@ function patch56359() {
 
 }
 
-patch56359();
+function patch58213() {
+    // bunch of ids that changed, and golden versions added to the db. Maybe take a look at that in the future.
+    let build = 58213;
+
+    addNewChange(build, 96760, {"associatedTribes": ["MECHANICAL"]}, undefined, undefined, "RANGE", 162867); // Micro Mummy removing dualtribe
+    addNewChange(build, 48886, undefined, ["isBattlegroundsPoolMinion"]); // mecharoo removed
+}

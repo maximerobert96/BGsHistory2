@@ -119,6 +119,30 @@ function getMinionsForPool(jsonDB, pool) {
             return getFoaFBuddies(jsonDB);
         case "FOAF_BUDDY_POOL":
             return getFoaFBuddies(jsonDB);
+        case "LEGENDARY_POOL":
+            return [];
+        case "MANA_1_POOL":
+            return [];
+        case "MANA_2_POOL":
+            return [];
+        case "MANA_3_POOL":
+            return [];
+        case "MANA_4_POOL":
+            return [];
+        case "MANA_5_POOL":
+            return [];
+        case "MANA_6_POOL":
+            return [];
+        case "MANA_7_POOL":
+            return [];
+        case "MANA_8_POOL":
+            return [];
+        case "MANA_9_POOL":
+            return [];
+        case "MANA_10_POOL":
+            return [];
+        case "ADAPT_POOL":
+            return [];
         default:
             return [];
     }
