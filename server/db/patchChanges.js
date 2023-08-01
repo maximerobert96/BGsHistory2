@@ -375,4 +375,5 @@ function patch68600() {
 
 }
 
-patch68600();
+addNewChange(71003, 61059, {"isBattlegroundsPoolMinion": true }); // soul devourer
+addNewChange(71003, 2068, undefined, ["isBattlegroundsPoolMinion"]); // floating watcher

@@ -249,7 +249,8 @@
     ],
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "61072": {
     "attack": 3,
