@@ -85,8 +85,7 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isBattlegroundsPoolMinion": true
+    ]
   },
   "59186": {
     "attack": 2,

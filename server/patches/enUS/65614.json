@@ -1,4 +1,30 @@
 {
+  "57924": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 59863
+  },
+  "58021": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58021,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_21",
+    "name": "The Great Akazamzarak",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 58022
+  },
   "64480": {
     "battlegroundsHero": true,
     "cardClass": "NEUTRAL",

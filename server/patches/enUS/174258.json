@@ -1228,7 +1228,8 @@
     ],
     "associatedTribes": [
       "NAGA"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "66197": {
     "cardClass": "NEUTRAL",

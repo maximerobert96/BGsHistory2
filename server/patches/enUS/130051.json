@@ -44,8 +44,7 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ],
-    "isBattlegroundsPoolMinion": true
+    ]
   },
   "1006": {
     "attack": 3,
@@ -180,7 +179,6 @@
   },
   "57924": {
     "battlegroundsBuddyDbfId": 77629,
-    "battlegroundsHero": true,
     "cardClass": "NEUTRAL",
     "dbfId": 57924,
     "health": 40,

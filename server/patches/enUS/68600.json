@@ -1,4 +1,76 @@
 {
+  "962": {
+    "artist": "Glenn Rane",
+    "attack": 9,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 6,
+    "dbfId": 962,
+    "elite": true,
+    "flavor": "He lives in Blackrock Mountain.  He eats Gnomes.  That's pretty much it.",
+    "health": 7,
+    "id": "EX1_577",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Beast",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "EXPERT1",
+    "text": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58394
+  },
+  "2518": {
+    "artist": "Jakub Kasper",
+    "attack": 4,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 2518,
+    "flavor": "The crowd ALWAYS yells lethal.",
+    "health": 4,
+    "id": "AT_121",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Crowd Favorite",
+    "rarity": "EPIC",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "TGT",
+    "text": "Whenever you play a card with <b>Battlecry</b>, gain +1/+1.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58383
+  },
+  "42467": {
+    "artist": "Evgeniy Dlinnov",
+    "attack": 1,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 42467,
+    "flavor": "Original name was Tubular Protector, but this seems more bodacious.",
+    "health": 1,
+    "id": "ICC_038",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Righteous Protector",
+    "rarity": "COMMON",
+    "set": "ICECROWN",
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION",
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 63774
+  },
   "57635": {
     "cardClass": "NEUTRAL",
     "dbfId": 57635,
@@ -11,6 +83,25 @@
       "GENERAL"
     ],
     "heroPowerDbfId": 57555
+  },
+  "57742": {
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57742,
+    "elite": true,
+    "health": 1,
+    "id": "BGS_029",
+    "name": "Shifter Zerus",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "text": "Each turn this is in your hand, transform it into a random minion.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 60233,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57924": {
     "cardClass": "NEUTRAL",
@@ -25,6 +116,20 @@
       "GENERAL"
     ],
     "heroPowerDbfId": 59863
+  },
+  "58021": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 58021,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_21",
+    "name": "The Great Akazamzarak",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 58022,
+    "battlegroundsHero": true
   },
   "58535": {
     "battlegroundsHero": true,
@@ -60,6 +165,20 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+1/+1.",
     "type": "HERO_POWER"
+  },
+  "60211": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 60211,
+    "health": 40,
+    "id": "TB_BaconShop_HERO_40",
+    "name": "Sir Finley Mrrgglton",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "heroPowerDbfId": 60450,
+    "battlegroundsHero": true
   },
   "60265": {
     "cardClass": "NEUTRAL",
@@ -130,7 +249,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "63622": {
     "attack": 4,
@@ -195,7 +315,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Battlecry:</b> Choose a minion\nin Bob's Tavern. Transform\ninto a plain copy of it.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "64484": {
     "artist": "Eva Widermann",
@@ -507,7 +631,8 @@
     ],
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "65661": {
     "attack": 2,
@@ -525,7 +650,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Taunt</b>\nWhenever this is attacked,\ngive adjacent minions\n+1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "65662": {
     "attack": 4,
@@ -882,7 +1011,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "66840": {
     "attack": 14,

@@ -20,7 +20,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n  gets attacked instead.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "66840": {
     "attack": 8,

@@ -349,4 +349,30 @@ function patch65000() {
 
 }
 
-patch65000();
+function patch68600() {
+    let build = 68600;
+
+    addNewChange(65614, 57924, undefined, ["battlegroundsHero"]); // wagtoggle leaving
+
+    addNewChange(65614, 58021, undefined, ["battlegroundsHero"], undefined, "ONLY_THIS"); // akazam disabled
+    addNewChange(build, 58021, {"battlegroundsHero": true}, undefined, undefined, "ONLY_THIS"); // akazam is back
+
+    addNewChange(build, 60211, {"battlegroundsHero": true}); // finley returning
+
+    addNewChange(build, 65661, {"associatedTribes": ["GENERAL"], "isBattlegroundsPoolMinion": true }); // tormented ritualist
+    addNewChange(build, 63627, {"associatedTribes": ["GENERAL"], "isBattlegroundsPoolMinion": true }); // faceless taverngoer
+    addNewChange(build, 66835, {"associatedTribes": ["GENERAL"], "isBattlegroundsPoolMinion": true }); // elistra the immortal
+
+    addNewChange(build, 65660, {"isBattlegroundsPoolMinion": true }); // warden of old
+    addNewChange(build, 63619, {"isBattlegroundsPoolMinion": true }); // qiraji harbinger
+
+    //removed
+    addNewChange(build, 42467, undefined, ["isBattlegroundsPoolMinion"]); // righteous protector
+    addNewChange(build, 962, undefined, ["isBattlegroundsPoolMinion"]); // the beast
+    addNewChange(build, 2518, undefined, ["isBattlegroundsPoolMinion"]); // crowd favorite
+    addNewChange(build, 57742, undefined, ["isBattlegroundsPoolMinion"]); // shifter zerus
+
+
+}
+
+patch68600();
