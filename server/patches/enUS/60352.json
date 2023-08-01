@@ -25,7 +25,11 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "57892": {
     "cardClass": "NEUTRAL",
@@ -159,7 +163,7 @@
     "type": "MINION",
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ]
   },
   "64038": {
@@ -711,7 +715,11 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "64300": {
     "attack": 4,

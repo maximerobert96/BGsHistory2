@@ -320,3 +320,24 @@ function patch58213() {
     addNewChange(build, 96760, {"associatedTribes": ["MECHANICAL"]}, undefined, undefined, "RANGE", 162867); // Micro Mummy removing dualtribe
     addNewChange(build, 48886, undefined, ["isBattlegroundsPoolMinion"]); // mecharoo removed
 }
+
+function patch60352_and_62331() {
+    let build = 60352;
+
+    addNewChange(build, 52902, {"associatedTribes": ["ELEMENTAL"], "isBattlegroundsPoolMinion": true }); // Whirlwind Tempest
+    addNewChange(build, 64297, {"associatedTribes": ["ELEMENTAL"], "isBattlegroundsPoolMinion": true }); // Arcane Assistant
+
+
+    build = 62331;
+
+    addNewChange(build, 58546, undefined, ["battlegroundsHero"]); // bartendotron leaving
+
+    addNewChange(35747, 59815, {"relatedCards": [ 59816 ]}, undefined, undefined, "RANGE", build); // bananarama only banana
+    addNewChange(build, 59815, {"relatedCards": [ 59816, 65230 ]}, undefined, undefined, "ONLY_THIS"); // bananarama now big banana as well
+
+    addNewChange(build, 60122, undefined, ["isBattlegroundsPoolMinion"]); // pogo-hopper removed
+    addNewChange(build, 52902, undefined, ["isBattlegroundsPoolMinion"]); // whirlwind tempest removed
+
+}
+
+patch60352_and_62331();

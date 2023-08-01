@@ -596,7 +596,7 @@
     "text": "[x]At the end of your turn, give\nyour left-most minion +1/+1.\nRepeat for each Elemental\nyou played this turn.",
     "type": "MINION",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ]
   },
   "63782": {

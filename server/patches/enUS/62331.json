@@ -1,4 +1,35 @@
 {
+  "52902": {
+    "artist": "Wayne Wu",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64457,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 8,
+    "dbfId": 52902,
+    "flavor": "And your minions with mega-windfury get... dizzy.",
+    "health": 6,
+    "id": "DAL_742",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Whirlwind Tempest",
+    "race": "ELEMENTAL",
+    "rarity": "EPIC",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "DALARAN",
+    "techLevel": 4,
+    "text": "Your minions with <b>Windfury</b> have <b>Mega-Windfury</b>.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
   "57945": {
     "cardClass": "NEUTRAL",
     "cost": 0,
@@ -46,8 +77,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "heroPowerDbfId": 57561,
-    "battlegroundsHero": true
+    "heroPowerDbfId": 57561
   },
   "59397": {
     "battlegroundsHero": true,
@@ -75,6 +105,42 @@
     "text": "[x]<b>Passive Hero Power</b>\nStart with 55 Health \ninstead of 40.",
     "type": "HERO_POWER",
     "bannedFromNguyen": true
+  },
+  "59815": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59815,
+    "id": "TB_BaconShop_HP_038",
+    "name": "Bananarama",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGet 2 Bananas.\nAt the end of your turn,\n give everyone else one.",
+    "type": "HERO_POWER",
+    "relatedCards": [
+      59816,
+      65230
+    ]
+  },
+  "60122": {
+    "attack": 1,
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 60122,
+    "health": 1,
+    "id": "BGS_028",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Pogo-Hopper",
+    "race": "MECHANICAL",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Gain +2/+2 for\neach other Pogo-Hopper\nyou played this game.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 59664
   },
   "61053": {
     "attack": 4,
@@ -212,7 +278,7 @@
     "type": "MINION",
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ]
   },
   "64056": {
@@ -350,7 +416,11 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "64303": {
     "attack": 6,

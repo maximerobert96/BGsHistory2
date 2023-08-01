@@ -24,8 +24,7 @@
     "text": "[x]<b>Hero Power</b>\nGet 2 Bananas.\nAt the end of your turn,\n give everyone else one.",
     "type": "HERO_POWER",
     "relatedCards": [
-      59816,
-      65230
+      59816
     ]
   },
   "59955": {

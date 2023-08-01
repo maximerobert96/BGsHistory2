@@ -4011,8 +4011,7 @@
     "text": "[x]<b>Passive Hero Power</b>\nWhenever you sell a\nBeast, add a Banana\nto your hand.",
     "type": "HERO_POWER",
     "relatedCards": [
-      59816,
-      65230
+      59816
     ]
   },
   "59816": {
