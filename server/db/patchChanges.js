@@ -158,7 +158,7 @@ function patch38377() {
     // minion changes
     addNewChange(build, 96773, {"techLevel": 3}, undefined, undefined, undefined, undefined, true, undefined, undefined); // seer
     addNewChange(build, 49169, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined); // mechano
-    addNewChange(build, 962, {"techLevel": 3}, undefined, undefined, undefined, undefined, true, undefined, undefined); // beast
+    addNewChange(build, 962, {"techLevel": 3}, undefined, undefined, undefined, undefined, true, undefined, undefined); // the beast
     addNewChange(build, 96780, undefined, ["isBattlegroundsPoolMinion"]); // amalgam - removed
 
     // heroes
@@ -291,3 +291,26 @@ function patch54613() {
     addNewChange(build, 39839, undefined, ["isBattlegroundsPoolMinion"]); // zoobot removed
     addNewChange(build, 39269, undefined, ["isBattlegroundsPoolMinion"]); // menagerie magician removed
 }
+
+function patch56359() {
+    let build = 56359;
+
+    addNewChange(35747, 59682, {"pools": [ "LEGENDARY_POOL" ] }, undefined, undefined, undefined, undefined, true); // Sneeds since the start
+    addNewChange(35747, 60048, {"pools": [ "MANA_2_POOL" ] }, undefined, undefined, undefined, undefined, true); // Piloted Shredder since the start
+    addNewChange(35747, 60049, {"pools": [ "MANA_4_POOL" ] }, undefined, undefined, undefined, undefined, true); // Piloted Sky Golem since the start
+    addNewChange(35747, 60050, {"pools": [ "MANA_1_POOL" ] }, undefined, undefined, undefined, undefined, true); // Mounted Raptor since the start
+    addNewChange(35747, 58503, {"pools": [ "MANA_X_POOL" ] }); // Effigy since the start
+
+    addNewChange(build, 56465, undefined, ["isBattlegroundsPoolMinion"]); // megasaur removed
+    addNewChange(build, 62188, undefined, ["isBattlegroundsPoolMinion"]); // arcane cannon removed
+
+    addNewChange(build, 60028, {"techLevel": 4}, undefined, undefined, undefined, undefined, true, undefined, undefined); // primalfin
+
+    addNewChange(build, 61046, undefined, ["relatedCards"], undefined, undefined, undefined, true); // treasure chest removed from nat pagle
+
+    addNewChange(build, 60216, {"cost": 0 }); // Reno's hp gonna be rich
+    addNewChange(build, 58040, {"cost": 0 }); // TLK's hp reborn rites
+
+}
+
+patch56359();

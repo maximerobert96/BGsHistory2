@@ -2083,7 +2083,10 @@
       "BEAST"
     ],
     "techLevel": 2,
-    "battlegroundsNormalDbfId": 60050
+    "battlegroundsNormalDbfId": 60050,
+    "pools": [
+      "MANA_1_POOL"
+    ]
   },
   "58168": {
     "attack": 4,
@@ -2370,7 +2373,10 @@
       "MECHANICAL"
     ],
     "techLevel": 3,
-    "battlegroundsNormalDbfId": 60048
+    "battlegroundsNormalDbfId": 60048,
+    "pools": [
+      "MANA_2_POOL"
+    ]
   },
   "58382": {
     "attack": 4,
@@ -2761,7 +2767,10 @@
       "MECHANICAL"
     ],
     "techLevel": 4,
-    "battlegroundsNormalDbfId": 60049
+    "battlegroundsNormalDbfId": 60049,
+    "pools": [
+      "MANA_4_POOL"
+    ]
   },
   "58412": {
     "attack": 14,
@@ -3042,7 +3051,10 @@
     "rarity": "RARE",
     "set": "BATTLEGROUNDS",
     "text": "<b>Secret:</b> When a friendly minion dies, summon a random minion with the same Cost.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "pools": [
+      "MANA_X_POOL"
+    ]
   },
   "58505": {
     "cardClass": "PALADIN",
@@ -3773,7 +3785,10 @@
     ],
     "techLevel": 6,
     "battlegroundsPremiumDbfId": 59683,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "LEGENDARY_POOL"
+    ]
   },
   "59683": {
     "attack": 10,
@@ -3796,7 +3811,10 @@
       "MECHANICAL"
     ],
     "techLevel": 6,
-    "battlegroundsNormalDbfId": 59682
+    "battlegroundsNormalDbfId": 59682,
+    "pools": [
+      "LEGENDARY_POOL"
+    ]
   },
   "59687": {
     "attack": 7,
@@ -4551,7 +4569,10 @@
     ],
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58381,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "MANA_2_POOL"
+    ]
   },
   "60049": {
     "attack": 6,
@@ -4574,7 +4595,10 @@
     ],
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 58411,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "MANA_4_POOL"
+    ]
   },
   "60050": {
     "attack": 3,
@@ -4597,7 +4621,10 @@
     ],
     "techLevel": 2,
     "battlegroundsPremiumDbfId": 58150,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "MANA_1_POOL"
+    ]
   },
   "60053": {
     "attack": 2,

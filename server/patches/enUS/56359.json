@@ -1,4 +1,32 @@
 {
+  "56465": {
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 56465,
+    "health": 4,
+    "id": "BGS_031",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Gentle Megasaur",
+    "race": "BEAST",
+    "rarity": "EPIC",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> <b>Adapt</b> your Murlocs.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 6,
+    "battlegroundsPremiumDbfId": 59828,
+    "pools": [
+      "ADAPT_POOL"
+    ]
+  },
   "57555": {
     "cardClass": "NEUTRAL",
     "cost": 1,
@@ -7,6 +35,19 @@
     "name": "Galakrond's Greed",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nReplace a minion in Bob's\nTavern with one from a higher\nTavern Tier and <b>Freeze</b> it.",
+    "type": "HERO_POWER"
+  },
+  "58040": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 58040,
+    "id": "TB_BaconShop_HP_024",
+    "name": "Reborn Rites",
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nGive a friendly minion\n<b>Reborn</b> for the next\ncombat only.",
     "type": "HERO_POWER"
   },
   "58367": {
@@ -137,7 +178,7 @@
     "race": "MURLOC",
     "rarity": "COMMON",
     "set": "BATTLEGROUNDS",
-    "techLevel": 5,
+    "techLevel": 4,
     "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> two Murlocs.",
     "type": "MINION",
     "races": [
@@ -163,7 +204,7 @@
     "race": "MURLOC",
     "rarity": "COMMON",
     "set": "BATTLEGROUNDS",
-    "techLevel": 5,
+    "techLevel": 4,
     "text": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
     "type": "MINION",
     "races": [
@@ -225,6 +266,16 @@
       "BEAST"
     ]
   },
+  "60216": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60216,
+    "id": "TB_BaconShop_HP_046",
+    "name": "Gonna Be Rich!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
+    "type": "HERO_POWER"
+  },
   "61046": {
     "attack": 8,
     "battlegroundsPremiumDbfId": 62217,
@@ -245,9 +296,6 @@
     "type": "MINION",
     "races": [
       "PIRATE"
-    ],
-    "relatedCards": [
-      62216
     ],
     "associatedTribes": [
       "PIRATE"
@@ -320,6 +368,27 @@
       "BEAST"
     ]
   },
+  "62188": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 62189,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62188,
+    "health": 2,
+    "id": "BGS_077",
+    "mechanics": [
+      "CANT_ATTACK",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Arcane Cannon",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]Can't attack.\nAfter an adjacent minion\nattacks, deal 2 damage\nto an enemy minion.",
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
   "62217": {
     "attack": 16,
     "battlegroundsNormalDbfId": 61046,
@@ -340,9 +409,6 @@
     "type": "MINION",
     "races": [
       "PIRATE"
-    ],
-    "relatedCards": [
-      62218
     ]
   },
   "62230": {

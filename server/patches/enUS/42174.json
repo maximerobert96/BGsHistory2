@@ -384,6 +384,56 @@
     "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b>\nGive your right-most\nminion <b>Reborn</b>.",
     "type": "HERO_POWER"
   },
+  "58150": {
+    "attack": 6,
+    "cardClass": "DRUID",
+    "cost": 3,
+    "dbfId": 58150,
+    "health": 4,
+    "id": "TB_BaconUps_019",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mounted Raptor",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon two random 1-Cost minions.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 2,
+    "battlegroundsNormalDbfId": 60050,
+    "pools": [
+      "MANA_1_POOL"
+    ]
+  },
+  "58411": {
+    "attack": 12,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 58411,
+    "health": 8,
+    "id": "TB_BaconUps_050",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Piloted Sky Golem",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon two random 4-Cost minions.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 4,
+    "battlegroundsNormalDbfId": 60049,
+    "pools": [
+      "MANA_4_POOL"
+    ]
+  },
   "58527": {
     "cardClass": "NEUTRAL",
     "cost": 1,
@@ -436,7 +486,10 @@
     "races": [
       "MECHANICAL"
     ],
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "pools": [
+      "LEGENDARY_POOL"
+    ]
   },
   "59683": {
     "attack": 10,
@@ -459,6 +512,9 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
+    ],
+    "pools": [
+      "LEGENDARY_POOL"
     ]
   },
   "59707": {
@@ -614,7 +670,10 @@
       "MECHANICAL"
     ],
     "techLevel": 4,
-    "battlegroundsPremiumDbfId": 58411
+    "battlegroundsPremiumDbfId": 58411,
+    "pools": [
+      "MANA_4_POOL"
+    ]
   },
   "60050": {
     "attack": 3,
@@ -636,7 +695,10 @@
       "BEAST"
     ],
     "techLevel": 2,
-    "battlegroundsPremiumDbfId": 58150
+    "battlegroundsPremiumDbfId": 58150,
+    "pools": [
+      "MANA_1_POOL"
+    ]
   },
   "60212": {
     "cardClass": "NEUTRAL",
