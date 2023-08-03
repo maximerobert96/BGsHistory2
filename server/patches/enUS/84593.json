@@ -1,4 +1,33 @@
 {
+  "54835": {
+    "artist": "James Ryman",
+    "attack": 5,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 7,
+    "dbfId": 54835,
+    "flavor": "Has a side hustle as a siegebroker.",
+    "health": 8,
+    "id": "EX1_185",
+    "mechanics": [
+      "AURA",
+      "TAUNT"
+    ],
+    "name": "Siegebreaker",
+    "race": "DEMON",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "text": "<b>Taunt</b>\nYour other Demons have +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58418,
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
   "61914": {
     "cardClass": "NEUTRAL",
     "dbfId": 61914,
@@ -137,7 +166,11 @@
     "type": "MINION",
     "races": [
       "DEMON"
-    ]
+    ],
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
   },
   "73092": {
     "attack": 6,

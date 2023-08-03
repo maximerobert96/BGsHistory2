@@ -386,3 +386,13 @@ function patch68600() {
 
 // addNewChange(81706, 70158, {"isBattlegroundsPoolMinion": true }); // bristleback knight
 // addNewChange(81706, 70176, {"associatedTribes": ["QUILBOAR"]}); // agamaggan pumba great boar
+
+
+// addNewChange(82994, 62582, undefined, ["isBattlegroundsPoolMinion"]); // barrens blacksmith removed
+
+
+// addNewChange(84593, 73072, {"associatedTribes": ["DEMON"], "isBattlegroundsPoolMinion": true }); // hexruin marauder
+// addNewChange(35747, 54835, {"associatedTribes": ["DEMON"] }); // siegebreaker
+// addNewChange(84593, 54835, undefined, ["isBattlegroundsPoolMinion"]); // siegebreaker removed
+
+

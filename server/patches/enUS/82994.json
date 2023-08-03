@@ -1,4 +1,28 @@
 {
+  "62582": {
+    "artist": "Ursula Dorada",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 71533,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 62582,
+    "flavor": "\"Maybe someday you’ll make it to Gadgetzan, kid.\"",
+    "health": 5,
+    "id": "BAR_073",
+    "mechanics": [
+      "FRENZY"
+    ],
+    "name": "Barrens Blacksmith",
+    "rarity": "EPIC",
+    "set": "THE_BARRENS",
+    "techLevel": 3,
+    "text": "<b>Frenzy:</b> Give your other minions +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "70144": {
     "attack": 1,
     "battlegroundsPremiumDbfId": 70146,
