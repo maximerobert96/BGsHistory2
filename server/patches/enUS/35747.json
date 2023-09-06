@@ -4911,6 +4911,39 @@
     "techLevel": 4,
     "battlegroundsNormalDbfId": 96812
   },
+  "63127": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63127,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_041",
+    "name": "A Tale of Kings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive Hero Power</b>\nWhenever you buy a minion of\na specific type, give it +1/+2.\nSwaps type each turn.",
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "relatedCards": [
+      59839,
+      59852,
+      59853,
+      59854
+    ]
+  },
+  "64424": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 64424,
+    "id": "TB_BaconShop_HP_087",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "DIE, INSECTS!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAt the start of next combat, deal 8 damage to two random enemy minions.",
+    "type": "HERO_POWER"
+  },
   "89724": {
     "artist": "Vladimir Kafanov",
     "attack": 3,
