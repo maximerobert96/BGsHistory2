@@ -21,10 +21,7 @@
     "name": "Burbling",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
-    "type": "HERO_POWER",
-    "relatedCards": [
-      76964
-    ]
+    "type": "HERO_POWER"
   },
   "58527": {
     "cardClass": "NEUTRAL",

@@ -167,10 +167,7 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third <b>Battlecry</b>\n triggers an extra time.",
-    "type": "HERO_POWER",
-    "relatedCards": [
-      76964
-    ]
+    "type": "HERO_POWER"
   },
   "58040": {
     "cardClass": "NEUTRAL",

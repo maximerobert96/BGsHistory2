@@ -436,304 +436,304 @@ function patch68600() {
 
 // ratKingHpChanges();
 
-function addingAndFixingCards() {
-    let goldenMaexxna = {
-        "attack": 4,
-        "battlegroundsNormalDbfId": 1791,
-        "cardClass": "NEUTRAL",
-        "cost": 6,
-        "dbfId": 63781,
-        "elite": true,
-        "health": 16,
-        "id": "TB_BaconUps_155",
-        "mechanics": [
-        "POISONOUS"
-        ],
-        "name": "Maexxna",
-        "race": "BEAST",
-        "rarity": "LEGENDARY",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 6,
-        "text": "<b>Poisonous</b>",
-        "type": "MINION",
-        "races": [
-        "BEAST"
-        ]
-        };
-    let goldenRighteous = {
-        "attack": 2,
-        "battlegroundsNormalDbfId": 42467,
-        "cardClass": "PALADIN",
-        "cost": 1,
-        "dbfId": 63774,
-        "health": 2,
-        "id": "TB_BaconUps_147",
-        "mechanics": [
-        "DIVINE_SHIELD",
-        "TAUNT"
-        ],
-        "name": "Righteous Protector",
-        "rarity": "COMMON",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 1,
-        "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
-        "type": "MINION"
-        };
-    let goldenHomunculus = {
-        "attack": 4,
-        "battlegroundsNormalDbfId": 43121,
-        "cardClass": "WARLOCK",
-        "cost": 2,
-        "dbfId": 63778,
-        "health": 8,
-        "id": "TB_BaconUps_148",
-        "mechanics": [
-        "BATTLECRY",
-        "TAUNT"
-        ],
-        "name": "Vulgar Homunculus",
-        "race": "DEMON",
-        "rarity": "COMMON",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 1,
-        "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
-        "type": "MINION",
-        "races": [
-        "DEMON"
-        ]
-        };
-    let murlocScout = {
-        "attack": 1,
-        "battlegroundsPremiumDbfId": 57339,
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 68469,
-        "health": 1,
-        "id": "VAN_EX1_506a",
-        "name": "Murloc Scout",
-        "race": "MURLOC",
-        "rarity": "COMMON",
-        "set": "VANILLA",
-        "techLevel": 1,
-        "type": "MINION",
-        "races": [
-        "MURLOC"
-        ]
-        };
-    let warleader = {
-        "artist": "Tim McBurnie",
-        "attack": 3,
-        "battlegroundsPremiumDbfId": 57403,
-        "cardClass": "NEUTRAL",
-        "collectible": true,
-        "cost": 3,
-        "dbfId": 76270,
-        "flavor": "Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!",
-        "health": 3,
-        "howToEarn": "Unlocked at level 1.",
-        "howToEarnGolden": "Unlocked after 2500 total wins.",
-        "id": "CORE_EX1_507",
-        "mechanics": [
-        "AURA"
-        ],
-        "name": "Murloc Warleader",
-        "race": "MURLOC",
-        "rarity": "EPIC",
-        "set": "CORE",
-        "techLevel": 2,
-        "text": "Your other Murlocs have +2 Attack.",
-        "type": "MINION",
-        "races": [
-        "MURLOC"
-        ]
-        };
-    let imp = {
-        "attack": 1,
-        "battlegroundsPremiumDbfId": 58373,
-        "cardClass": "WARLOCK",
-        "cost": 1,
-        "dbfId": 96788,
-        "health": 1,
-        "id": "BG_BRM_006t",
-        "name": "Imp",
-        "race": "DEMON",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 1,
-        "type": "MINION",
-        "races": [
-        "DEMON"
-        ]
-        };
-    let siegebreaker = {
-        "artist": "James Ryman",
-        "attack": 5,
-        "battlegroundsPremiumDbfId": 58418,
-        "cardClass": "WARLOCK",
-        "cost": 7,
-        "dbfId": 100720,
-        "flavor": "Has a side hustle as a siegebroker.",
-        "health": 8,
-        "id": "RLK_Prologue_EX1_185",
-        "mechanics": [
-        "AURA",
-        "TAUNT"
-        ],
-        "name": "Siegebreaker",
-        "race": "DEMON",
-        "rarity": "RARE",
-        "set": "EXPERT1",
-        "techLevel": 4,
-        "text": "<b>Taunt</b>\nYour other Demons have +1 Attack.",
-        "type": "MINION",
-        "races": [
-        "DEMON"
-        ]
-        };
-    let amalgam = {
-        "attack": 2,
-        "battlegroundsNormalDbfId": 59202,
-        "cardClass": "NEUTRAL",
-        "cost": 2,
-        "dbfId": 98699,
-        "health": 2,
-        "id": "TB_BaconShop_HP_033t_G",
-        "name": "Amalgam",
-        "race": "ALL",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 1,
-        "text": "<i>This has all minion types.</i>",
-        "type": "MINION",
-        "races": [
-        "ALL"
-        ]
-        };
-    let direwolf = {
-        "artist": "John Dickenson",
-        "attack": 2,
-        "battlegroundsPremiumDbfId": 60025,
-        "cardClass": "NEUTRAL",
-        "collectible": true,
-        "cost": 2,
-        "dbfId": 69870,
-        "flavor": "We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.",
-        "health": 2,
-        "id": "VAN_EX1_162",
-        "mechanics": [
-        "ADJACENT_BUFF",
-        "AURA"
-        ],
-        "name": "Dire Wolf Alpha",
-        "race": "BEAST",
-        "rarity": "COMMON",
-        "set": "VANILLA",
-        "techLevel": 1,
-        "text": "Adjacent minions have +1 Attack.",
-        "type": "MINION",
-        "races": [
-        "BEAST"
-        ]
-        };
-    let nightmareAmalgam = {
-        "artist": "Andrew Hou",
-        "attack": 6,
-        "battlegroundsNormalDbfId": 96780,
-        "cardClass": "NEUTRAL",
-        "cost": 3,
-        "dbfId": 91216,
-        "flavor": "Be all that you can be.",
-        "health": 8,
-        "id": "BG_GIL_681_G",
-        "name": "Nightmare Amalgam",
-        "race": "ALL",
-        "rarity": "EPIC",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 3,
-        "text": "<i>This has all minion types.</i>",
-        "type": "MINION",
-        "races": [
-        "ALL"
-        ],
-        "undeadCreationPool": 1
-        };
-    let hydra = {
-        "attack": 4,
-        "battlegroundsNormalDbfId": 96782,
-        "cardClass": "HUNTER",
-        "cost": 3,
-        "dbfId": 63794,
-        "health": 8,
-        "id": "TB_BaconUps_151",
-        "name": "Cave Hydra",
-        "race": "BEAST",
-        "rarity": "COMMON",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 4,
-        "text": "Also damages the minions next to whomever\nthis attacks.",
-        "type": "MINION",
-        "races": [
-        "BEAST"
-        ]
-        };
-    let foe =  {
-        "attack": 12,
-        "battlegroundsNormalDbfId": 96787,
-        "cardClass": "NEUTRAL",
-        "cost": 8,
-        "dbfId": 63776,
-        "elite": true,
-        "health": 18,
-        "id": "TB_BaconUps_153",
-        "name": "Foe Reaper 4000",
-        "race": "MECHANICAL",
-        "rarity": "LEGENDARY",
-        "set": "BATTLEGROUNDS",
-        "techLevel": 6,
-        "text": "Also damages the minions next to whomever it attacks.",
-        "type": "MINION",
-        "races": [
-        "MECHANICAL"
-        ]
-        };
-    let toxfin = {
-        "attack": 2,
-        "battlegroundsNormalDbfId": 96842,
-        "cardClass": "NEUTRAL",
-        "cost": 1,
-        "dbfId": 63796,
-        "health": 4,
-        "id": "TB_BaconUps_152",
-        "mechanics": [
-        "BATTLECRY"
-        ],
-        "name": "Toxfin",
-        "race": "MURLOC",
-        "rarity": "COMMON",
-        "referencedTags": [
-        "POISONOUS"
-        ],
-        "set": "BATTLEGROUNDS",
-        "techLevel": 4,
-        "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
-        "type": "MINION",
-        "races": [
-        "MURLOC"
-        ]
-        };
-    addNewChange(35747, 63781, goldenMaexxna, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 63774, goldenRighteous, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 63778, goldenHomunculus, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 68469, murlocScout, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 76270, warleader, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 58028, undefined, ["relatedCards"], undefined, "RANGE", 91040); // removed shudderling from hp
-    addNewChange(35747, 96788, imp, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 58372, {"battlegroundsNormalDbfId": 2288}, undefined, undefined, "ONLY_THIS"); // regular id imp gang boss = 2288
-    addNewChange(35747, 100720, siegebreaker, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 98699, amalgam, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 69870, direwolf, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 91216, nightmareAmalgam, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 63794, hydra, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 63776, foe, undefined, undefined, "ONLY_THIS");
-    addNewChange(35747, 63796, toxfin, undefined, undefined, "ONLY_THIS");
-}
+// function addingAndFixingCards() {
+//     let goldenMaexxna = {
+//         "attack": 4,
+//         "battlegroundsNormalDbfId": 1791,
+//         "cardClass": "NEUTRAL",
+//         "cost": 6,
+//         "dbfId": 63781,
+//         "elite": true,
+//         "health": 16,
+//         "id": "TB_BaconUps_155",
+//         "mechanics": [
+//         "POISONOUS"
+//         ],
+//         "name": "Maexxna",
+//         "race": "BEAST",
+//         "rarity": "LEGENDARY",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 6,
+//         "text": "<b>Poisonous</b>",
+//         "type": "MINION",
+//         "races": [
+//         "BEAST"
+//         ]
+//         };
+//     let goldenRighteous = {
+//         "attack": 2,
+//         "battlegroundsNormalDbfId": 42467,
+//         "cardClass": "PALADIN",
+//         "cost": 1,
+//         "dbfId": 63774,
+//         "health": 2,
+//         "id": "TB_BaconUps_147",
+//         "mechanics": [
+//         "DIVINE_SHIELD",
+//         "TAUNT"
+//         ],
+//         "name": "Righteous Protector",
+//         "rarity": "COMMON",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 1,
+//         "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+//         "type": "MINION"
+//         };
+//     let goldenHomunculus = {
+//         "attack": 4,
+//         "battlegroundsNormalDbfId": 43121,
+//         "cardClass": "WARLOCK",
+//         "cost": 2,
+//         "dbfId": 63778,
+//         "health": 8,
+//         "id": "TB_BaconUps_148",
+//         "mechanics": [
+//         "BATTLECRY",
+//         "TAUNT"
+//         ],
+//         "name": "Vulgar Homunculus",
+//         "race": "DEMON",
+//         "rarity": "COMMON",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 1,
+//         "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+//         "type": "MINION",
+//         "races": [
+//         "DEMON"
+//         ]
+//         };
+//     let murlocScout = {
+//         "attack": 1,
+//         "battlegroundsPremiumDbfId": 57339,
+//         "cardClass": "NEUTRAL",
+//         "cost": 0,
+//         "dbfId": 68469,
+//         "health": 1,
+//         "id": "VAN_EX1_506a",
+//         "name": "Murloc Scout",
+//         "race": "MURLOC",
+//         "rarity": "COMMON",
+//         "set": "VANILLA",
+//         "techLevel": 1,
+//         "type": "MINION",
+//         "races": [
+//         "MURLOC"
+//         ]
+//         };
+//     let warleader = {
+//         "artist": "Tim McBurnie",
+//         "attack": 3,
+//         "battlegroundsPremiumDbfId": 57403,
+//         "cardClass": "NEUTRAL",
+//         "collectible": true,
+//         "cost": 3,
+//         "dbfId": 76270,
+//         "flavor": "Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!",
+//         "health": 3,
+//         "howToEarn": "Unlocked at level 1.",
+//         "howToEarnGolden": "Unlocked after 2500 total wins.",
+//         "id": "CORE_EX1_507",
+//         "mechanics": [
+//         "AURA"
+//         ],
+//         "name": "Murloc Warleader",
+//         "race": "MURLOC",
+//         "rarity": "EPIC",
+//         "set": "CORE",
+//         "techLevel": 2,
+//         "text": "Your other Murlocs have +2 Attack.",
+//         "type": "MINION",
+//         "races": [
+//         "MURLOC"
+//         ]
+//         };
+//     let imp = {
+//         "attack": 1,
+//         "battlegroundsPremiumDbfId": 58373,
+//         "cardClass": "WARLOCK",
+//         "cost": 1,
+//         "dbfId": 96788,
+//         "health": 1,
+//         "id": "BG_BRM_006t",
+//         "name": "Imp",
+//         "race": "DEMON",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 1,
+//         "type": "MINION",
+//         "races": [
+//         "DEMON"
+//         ]
+//         };
+//     let siegebreaker = {
+//         "artist": "James Ryman",
+//         "attack": 5,
+//         "battlegroundsPremiumDbfId": 58418,
+//         "cardClass": "WARLOCK",
+//         "cost": 7,
+//         "dbfId": 100720,
+//         "flavor": "Has a side hustle as a siegebroker.",
+//         "health": 8,
+//         "id": "RLK_Prologue_EX1_185",
+//         "mechanics": [
+//         "AURA",
+//         "TAUNT"
+//         ],
+//         "name": "Siegebreaker",
+//         "race": "DEMON",
+//         "rarity": "RARE",
+//         "set": "EXPERT1",
+//         "techLevel": 4,
+//         "text": "<b>Taunt</b>\nYour other Demons have +1 Attack.",
+//         "type": "MINION",
+//         "races": [
+//         "DEMON"
+//         ]
+//         };
+//     let amalgam = {
+//         "attack": 2,
+//         "battlegroundsNormalDbfId": 59202,
+//         "cardClass": "NEUTRAL",
+//         "cost": 2,
+//         "dbfId": 98699,
+//         "health": 2,
+//         "id": "TB_BaconShop_HP_033t_G",
+//         "name": "Amalgam",
+//         "race": "ALL",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 1,
+//         "text": "<i>This has all minion types.</i>",
+//         "type": "MINION",
+//         "races": [
+//         "ALL"
+//         ]
+//         };
+//     let direwolf = {
+//         "artist": "John Dickenson",
+//         "attack": 2,
+//         "battlegroundsPremiumDbfId": 60025,
+//         "cardClass": "NEUTRAL",
+//         "collectible": true,
+//         "cost": 2,
+//         "dbfId": 69870,
+//         "flavor": "We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.",
+//         "health": 2,
+//         "id": "VAN_EX1_162",
+//         "mechanics": [
+//         "ADJACENT_BUFF",
+//         "AURA"
+//         ],
+//         "name": "Dire Wolf Alpha",
+//         "race": "BEAST",
+//         "rarity": "COMMON",
+//         "set": "VANILLA",
+//         "techLevel": 1,
+//         "text": "Adjacent minions have +1 Attack.",
+//         "type": "MINION",
+//         "races": [
+//         "BEAST"
+//         ]
+//         };
+//     let nightmareAmalgam = {
+//         "artist": "Andrew Hou",
+//         "attack": 6,
+//         "battlegroundsNormalDbfId": 96780,
+//         "cardClass": "NEUTRAL",
+//         "cost": 3,
+//         "dbfId": 91216,
+//         "flavor": "Be all that you can be.",
+//         "health": 8,
+//         "id": "BG_GIL_681_G",
+//         "name": "Nightmare Amalgam",
+//         "race": "ALL",
+//         "rarity": "EPIC",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 3,
+//         "text": "<i>This has all minion types.</i>",
+//         "type": "MINION",
+//         "races": [
+//         "ALL"
+//         ],
+//         "undeadCreationPool": 1
+//         };
+//     let hydra = {
+//         "attack": 4,
+//         "battlegroundsNormalDbfId": 96782,
+//         "cardClass": "HUNTER",
+//         "cost": 3,
+//         "dbfId": 63794,
+//         "health": 8,
+//         "id": "TB_BaconUps_151",
+//         "name": "Cave Hydra",
+//         "race": "BEAST",
+//         "rarity": "COMMON",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 4,
+//         "text": "Also damages the minions next to whomever\nthis attacks.",
+//         "type": "MINION",
+//         "races": [
+//         "BEAST"
+//         ]
+//         };
+//     let foe =  {
+//         "attack": 12,
+//         "battlegroundsNormalDbfId": 96787,
+//         "cardClass": "NEUTRAL",
+//         "cost": 8,
+//         "dbfId": 63776,
+//         "elite": true,
+//         "health": 18,
+//         "id": "TB_BaconUps_153",
+//         "name": "Foe Reaper 4000",
+//         "race": "MECHANICAL",
+//         "rarity": "LEGENDARY",
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 6,
+//         "text": "Also damages the minions next to whomever it attacks.",
+//         "type": "MINION",
+//         "races": [
+//         "MECHANICAL"
+//         ]
+//         };
+//     let toxfin = {
+//         "attack": 2,
+//         "battlegroundsNormalDbfId": 96842,
+//         "cardClass": "NEUTRAL",
+//         "cost": 1,
+//         "dbfId": 63796,
+//         "health": 4,
+//         "id": "TB_BaconUps_152",
+//         "mechanics": [
+//         "BATTLECRY"
+//         ],
+//         "name": "Toxfin",
+//         "race": "MURLOC",
+//         "rarity": "COMMON",
+//         "referencedTags": [
+//         "POISONOUS"
+//         ],
+//         "set": "BATTLEGROUNDS",
+//         "techLevel": 4,
+//         "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+//         "type": "MINION",
+//         "races": [
+//         "MURLOC"
+//         ]
+//         };
+//     addNewChange(35747, 63781, goldenMaexxna, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 63774, goldenRighteous, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 63778, goldenHomunculus, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 68469, murlocScout, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 76270, warleader, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 58028, undefined, ["relatedCards"], undefined, "RANGE", 91040); // removed shudderling from hp
+//     addNewChange(35747, 96788, imp, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 58372, {"battlegroundsNormalDbfId": 2288}, undefined, undefined, "ONLY_THIS"); // regular id imp gang boss = 2288
+//     addNewChange(35747, 100720, siegebreaker, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 98699, amalgam, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 69870, direwolf, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 91216, nightmareAmalgam, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 63794, hydra, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 63776, foe, undefined, undefined, "ONLY_THIS");
+//     addNewChange(35747, 63796, toxfin, undefined, undefined, "ONLY_THIS");
+// }
 
-addingAndFixingCards();
+// addingAndFixingCards();

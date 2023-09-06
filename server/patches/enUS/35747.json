@@ -94,22 +94,6 @@
     ],
     "techLevel": 1
   },
-  "96764": {
-    "attack": 2,
-    "cardClass": "NEUTRAL",
-    "cost": 1,
-    "dbfId": 96764,
-    "health": 1,
-    "id": "skele21",
-    "name": "Damaged Golem",
-    "race": "MECHANICAL",
-    "set": "EXPERT1",
-    "type": "MINION",
-    "races": [
-      "MECHANICAL"
-    ],
-    "techLevel": 1
-  },
   "475": {
     "artist": "Jaemin Kim",
     "attack": 1,
@@ -330,23 +314,6 @@
     "rarity": "RARE",
     "set": "EXPERT1",
     "text": "<b>Poisonous</b>",
-    "type": "MINION",
-    "races": [
-      "BEAST"
-    ],
-    "techLevel": 1
-  },
-  "96795": {
-    "artist": "Andrew Robinson",
-    "attack": 2,
-    "cardClass": "HUNTER",
-    "cost": 2,
-    "dbfId": 96795,
-    "health": 2,
-    "id": "EX1_534t",
-    "name": "Hyena",
-    "race": "BEAST",
-    "set": "EXPERT1",
     "type": "MINION",
     "races": [
       "BEAST"
@@ -960,23 +927,6 @@
     ],
     "techLevel": 1
   },
-  "96790": {
-    "artist": "L. Lullabi & A. Bozonnet",
-    "attack": 1,
-    "cardClass": "HUNTER",
-    "cost": 1,
-    "dbfId": 96790,
-    "health": 1,
-    "id": "CFM_316t",
-    "name": "Rat",
-    "race": "BEAST",
-    "set": "GANGS",
-    "type": "MINION",
-    "races": [
-      "BEAST"
-    ],
-    "techLevel": 1
-  },
   "42467": {
     "artist": "Evgeniy Dlinnov",
     "attack": 1,
@@ -1105,23 +1055,6 @@
     ],
     "battlegroundsPremiumDbfId": 58392,
     "isBattlegroundsPoolMinion": true
-  },
-  "96810": {
-    "artist": "Vladimir Kafanov",
-    "attack": 1,
-    "cardClass": "NEUTRAL",
-    "cost": 1,
-    "dbfId": 96810,
-    "health": 1,
-    "id": "BOT_312t",
-    "name": "Microbot",
-    "race": "MECHANICAL",
-    "set": "BOOMSDAY",
-    "type": "MINION",
-    "races": [
-      "MECHANICAL"
-    ],
-    "techLevel": 1
   },
   "48885": {
     "artist": "Eva Widermann",
@@ -1994,10 +1927,7 @@
     "name": "Burbling",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
-    "type": "HERO_POWER",
-    "relatedCards": [
-      76964
-    ]
+    "type": "HERO_POWER"
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -2237,7 +2167,7 @@
     "relatedCards": [
       58373
     ],
-    "battlegroundsNormalDbfId": 76282
+    "battlegroundsNormalDbfId": 2288
   },
   "58373": {
     "attack": 2,
@@ -4931,6 +4861,135 @@
       59854
     ]
   },
+  "63774": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 42467,
+    "cardClass": "PALADIN",
+    "cost": 1,
+    "dbfId": 63774,
+    "health": 2,
+    "id": "TB_BaconUps_147",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Righteous Protector",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION"
+  },
+  "63776": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 96787,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 63776,
+    "elite": true,
+    "health": 18,
+    "id": "TB_BaconUps_153",
+    "name": "Foe Reaper 4000",
+    "race": "MECHANICAL",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Also damages the minions next to whomever it attacks.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ]
+  },
+  "63778": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 43121,
+    "cardClass": "WARLOCK",
+    "cost": 2,
+    "dbfId": 63778,
+    "health": 8,
+    "id": "TB_BaconUps_148",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Vulgar Homunculus",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "63781": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 1791,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 63781,
+    "elite": true,
+    "health": 16,
+    "id": "TB_BaconUps_155",
+    "mechanics": [
+      "POISONOUS"
+    ],
+    "name": "Maexxna",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Poisonous</b>",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "63794": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96782,
+    "cardClass": "HUNTER",
+    "cost": 3,
+    "dbfId": 63794,
+    "health": 8,
+    "id": "TB_BaconUps_151",
+    "name": "Cave Hydra",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Also damages the minions next to whomever\nthis attacks.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "63796": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 96842,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63796,
+    "health": 4,
+    "id": "TB_BaconUps_152",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Toxfin",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
   "64424": {
     "cardClass": "NEUTRAL",
     "cost": 2,
@@ -4943,6 +5002,77 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat, deal 8 damage to two random enemy minions.",
     "type": "HERO_POWER"
+  },
+  "68469": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 57339,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 68469,
+    "health": 1,
+    "id": "VAN_EX1_506a",
+    "name": "Murloc Scout",
+    "race": "MURLOC",
+    "rarity": "COMMON",
+    "set": "VANILLA",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
+  },
+  "69870": {
+    "artist": "John Dickenson",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 60025,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 69870,
+    "flavor": "We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.",
+    "health": 2,
+    "id": "VAN_EX1_162",
+    "mechanics": [
+      "ADJACENT_BUFF",
+      "AURA"
+    ],
+    "name": "Dire Wolf Alpha",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "VANILLA",
+    "techLevel": 1,
+    "text": "Adjacent minions have +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "76270": {
+    "artist": "Tim McBurnie",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 57403,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 76270,
+    "flavor": "Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!",
+    "health": 3,
+    "howToEarn": "Unlocked at level 1.",
+    "howToEarnGolden": "Unlocked after 2500 total wins.",
+    "id": "CORE_EX1_507",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Murloc Warleader",
+    "race": "MURLOC",
+    "rarity": "EPIC",
+    "set": "CORE",
+    "techLevel": 2,
+    "text": "Your other Murlocs have +2 Attack.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ]
   },
   "89724": {
     "artist": "Vladimir Kafanov",
@@ -4976,6 +5106,28 @@
       96810
     ],
     "battlegroundsPremiumDbfId": 58376
+  },
+  "91216": {
+    "artist": "Andrew Hou",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 96780,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 91216,
+    "flavor": "Be all that you can be.",
+    "health": 8,
+    "id": "BG_GIL_681_G",
+    "name": "Nightmare Amalgam",
+    "race": "ALL",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "undeadCreationPool": 1
   },
   "96758": {
     "artist": "Anton Zemskov",
@@ -5123,6 +5275,22 @@
       96764
     ],
     "battlegroundsPremiumDbfId": 57401
+  },
+  "96764": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96764,
+    "health": 1,
+    "id": "skele21",
+    "name": "Damaged Golem",
+    "race": "MECHANICAL",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 1
   },
   "96766": {
     "artist": "Tyler West Studio",
@@ -5497,6 +5665,23 @@
     ],
     "battlegroundsPremiumDbfId": 63776
   },
+  "96788": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58373,
+    "cardClass": "WARLOCK",
+    "cost": 1,
+    "dbfId": 96788,
+    "health": 1,
+    "id": "BG_BRM_006t",
+    "name": "Imp",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
   "96789": {
     "artist": "Ozhill Studio",
     "attack": 2,
@@ -5529,6 +5714,23 @@
     ],
     "battlegroundsPremiumDbfId": 58367
   },
+  "96790": {
+    "artist": "L. Lullabi & A. Bozonnet",
+    "attack": 1,
+    "cardClass": "HUNTER",
+    "cost": 1,
+    "dbfId": 96790,
+    "health": 1,
+    "id": "CFM_316t",
+    "name": "Rat",
+    "race": "BEAST",
+    "set": "GANGS",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 1
+  },
   "96793": {
     "artist": "Milivoj Ceran",
     "attack": 6,
@@ -5560,6 +5762,23 @@
     "associatedTribes": [
       "BEAST"
     ]
+  },
+  "96795": {
+    "artist": "Andrew Robinson",
+    "attack": 2,
+    "cardClass": "HUNTER",
+    "cost": 2,
+    "dbfId": 96795,
+    "health": 2,
+    "id": "EX1_534t",
+    "name": "Hyena",
+    "race": "BEAST",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 1
   },
   "96796": {
     "artist": "Alex Horley Orlandelli",
@@ -5618,6 +5837,23 @@
     "associatedTribes": [
       "DEMON"
     ]
+  },
+  "96810": {
+    "artist": "Vladimir Kafanov",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96810,
+    "health": 1,
+    "id": "BOT_312t",
+    "name": "Microbot",
+    "race": "MECHANICAL",
+    "set": "BOOMSDAY",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 1
   },
   "96812": {
     "artist": "Matt Dixon",
@@ -5745,6 +5981,49 @@
       "MECHANICAL"
     ],
     "isBattlegroundsPoolMinion": true
+  },
+  "98699": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 59202,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 98699,
+    "health": 2,
+    "id": "TB_BaconShop_HP_033t_G",
+    "name": "Amalgam",
+    "race": "ALL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ]
+  },
+  "100720": {
+    "artist": "James Ryman",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 58418,
+    "cardClass": "WARLOCK",
+    "cost": 7,
+    "dbfId": 100720,
+    "flavor": "Has a side hustle as a siegebroker.",
+    "health": 8,
+    "id": "RLK_Prologue_EX1_185",
+    "mechanics": [
+      "AURA",
+      "TAUNT"
+    ],
+    "name": "Siegebreaker",
+    "race": "DEMON",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "techLevel": 4,
+    "text": "<b>Taunt</b>\nYour other Demons have +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
   },
   "103652": {
     "artist": "Matt Dixon",
