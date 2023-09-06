@@ -265,7 +265,6 @@ function getPreviousPatchIdOfCard(currentPatchId, cardId, mappingJson) {
         previousPatchId = patch;
     }
     return previousPatchId === undefined ? patch : previousPatchId;
-    return previousPatchId;
 }
 
 function getPreviousOrEqualPatchIdOfCard(currentPatchId, cardId, mappingJson) {

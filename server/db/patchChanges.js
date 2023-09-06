@@ -435,3 +435,30 @@ function patch68600() {
 // }
 
 // ratKingHpChanges();
+
+function addingAndFixingCards() {
+    let goldenMaexxna = {
+        "attack": 4,
+        "battlegroundsNormalDbfId": 1791,
+        "cardClass": "NEUTRAL",
+        "cost": 6,
+        "dbfId": 63781,
+        "elite": true,
+        "health": 16,
+        "id": "TB_BaconUps_155",
+        "mechanics": [
+        "POISONOUS"
+        ],
+        "name": "Maexxna",
+        "race": "BEAST",
+        "rarity": "LEGENDARY",
+        "set": "BATTLEGROUNDS",
+        "techLevel": 6,
+        "text": "<b>Poisonous</b>",
+        "type": "MINION",
+        "races": [
+        "BEAST"
+        ]
+        };
+    
+}

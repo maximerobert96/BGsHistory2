@@ -5,9 +5,10 @@
 Have a minimum viable product. Start with the very first patch, and try to make the main features work (patch changes, displaying cards, card pools, related cards, golden cards).
 
 ## Tasks
-* Verify all the main cards exist
+* ~~Verify all the main cards exist~~
 * Verify all related cards and golden cards exist
 * Implement card pools
+* Implement related cards and golden cards
 * getActiveCards should give all the info, and not only the name, ids and tiers
 * Verify tribes
 * Filter by tribes
