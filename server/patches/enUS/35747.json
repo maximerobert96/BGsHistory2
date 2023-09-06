@@ -94,11 +94,11 @@
     ],
     "techLevel": 1
   },
-  "471": {
+  "96764": {
     "attack": 2,
     "cardClass": "NEUTRAL",
     "cost": 1,
-    "dbfId": 471,
+    "dbfId": 96764,
     "health": 1,
     "id": "skele21",
     "name": "Damaged Golem",
@@ -336,12 +336,12 @@
     ],
     "techLevel": 1
   },
-  "1624": {
+  "96795": {
     "artist": "Andrew Robinson",
     "attack": 2,
     "cardClass": "HUNTER",
     "cost": 2,
-    "dbfId": 1624,
+    "dbfId": 96795,
     "health": 2,
     "id": "EX1_534t",
     "name": "Hyena",
@@ -960,12 +960,12 @@
     ],
     "techLevel": 1
   },
-  "41839": {
+  "96790": {
     "artist": "L. Lullabi & A. Bozonnet",
     "attack": 1,
     "cardClass": "HUNTER",
     "cost": 1,
-    "dbfId": 41839,
+    "dbfId": 96790,
     "health": 1,
     "id": "CFM_316t",
     "name": "Rat",
@@ -1106,12 +1106,12 @@
     "battlegroundsPremiumDbfId": 58392,
     "isBattlegroundsPoolMinion": true
   },
-  "48842": {
+  "96810": {
     "artist": "Vladimir Kafanov",
     "attack": 1,
     "cardClass": "NEUTRAL",
     "cost": 1,
-    "dbfId": 48842,
+    "dbfId": 96810,
     "health": 1,
     "id": "BOT_312t",
     "name": "Microbot",
