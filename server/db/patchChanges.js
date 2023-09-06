@@ -395,4 +395,17 @@ function patch68600() {
 // addNewChange(35747, 54835, {"associatedTribes": ["DEMON"] }); // siegebreaker
 // addNewChange(84593, 54835, undefined, ["isBattlegroundsPoolMinion"]); // siegebreaker removed
 
-
+let ragHP = {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 64424,
+    "id": "TB_BaconShop_HP_087",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "DIE, INSECTS!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Hero Power</b>\nAt the start of next combat, deal 8 damage to two random enemy minions.",
+    "type": "HERO_POWER",
+  };
+addNewChange(35747, 64424, ragHP, null, false, ONLY_THIS);
