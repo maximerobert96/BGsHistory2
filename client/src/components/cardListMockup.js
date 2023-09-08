@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const CARDS = [
     {name: "Weaver", techLevel: 1, type: "MINION", tribe: "GENERAL"},
     {name: "Honcho", techLevel: 2, type: "MINION", tribe: "MURLOC"},
@@ -26,53 +28,89 @@ function getTribes(cards) {
 }
 
 function CardList({ cards }) {
-    let tribes = getTribes(cards);
+    let availableTribes = getTribes(cards);
+    const [tribes, setTribes] = useState(availableTribes);
+
+    let cardsOfSelectedTribes = cards.filter(
+        function (card) {
+            return tribes.includes(card.tribe) || tribes.includes("DEBUG") && !card.hasOwnProperty("tribe");
+        }
+    );
+
     return( 
         <div>
-            <FilterTable tribes={tribes} />
-            <CategoryTable cards={cards} />
+            <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
+            <CategoryTable cards={cardsOfSelectedTribes} />
         </div>
     );
 
 }
 
-function FilterTable({ tribes }) {
+function FilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
     let tribeTable = [];
     for(let tribe of tribes) {
+
         tribeTable.push(
-            <button>{tribe}</button>
+            <label htmlFor={tribe} key={tribe}>
+                <input 
+                    type="checkbox" 
+                    id={tribe} 
+                    name={tribe} 
+                    value={tribe} 
+                    defaultChecked={selectedTribes.includes(tribe)} 
+                    onChange={
+                        function (e) {
+                            let newArr = [];
+                            if(selectedTribes.includes(e.target.value)) {
+                                newArr = selectedTribes.filter((name) => name !== e.target.value);
+                            } else {
+                                newArr = [...selectedTribes, e.target.value];
+                            }
+                            onSelectedTribesChange(newArr);
+                        }
+                    } />
+                {' '}
+                {tribe}
+            </label>
         );
+        
     }
-    return tribeTable;
+    return (
+        <form>
+            {tribeTable}
+        </form>
+    );
     
 }
 
 function CategoryTable({ cards }) {
+    let heroes = cards.filter((card) =>
+        card.type === "HERO" );
+    let minions = cards.filter((card) =>
+        card.type === "MINION");
     return (
         <div>
-            <Heroes cards={cards} />
-            <Minions cards={cards} />
+            <Heroes cards={heroes} />
+            <Minions cards={minions} />
         </div>
     );
 }
 
 function Heroes({ cards }) {
-    let heroes = cards.filter((card) =>
-        card.type === "HERO");
+    
     return (
         <div>
             <h1>Heroes</h1>
-            <CardRows cards={heroes} />
+            <CardRows cards={cards} />
         </div>
     );
 }
 
 function Minions({ cards }) {
-    let minions = cards.filter((card) =>
-        card.type === "MINION");
+    
     let tierTables = [];
     for(let i = 1; i <= 6; ++i ) {
-        tierTables.push(<Tier tier={i} cards={minions} />);
+        tierTables.push(<Tier tier={i} cards={cards} key={i} />);
     }
     
     return (
@@ -98,7 +136,7 @@ function Tier({ tier, cards }) {
 function CardRows({ cards }) {
     let cardRows = [];
     cards.forEach((card) => {
-        cardRows.push(<li>{card.name}</li>)
+        cardRows.push(<li key={card.name}>{card.name}</li>)
     })
     return (
         <ul>
