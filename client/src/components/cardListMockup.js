@@ -1,11 +1,10 @@
-import React, { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-
 const CARDS = [
     {name: "Weaver", techLevel: 1, type: "MINION", tribe: "GENERAL"},
     {name: "Honcho", techLevel: 2, type: "MINION", tribe: "MURLOC"},
     {name: "Cobalt", techLevel: 3, type: "MINION", tribe: "MECHANICAL"},
     {name: "Primalfin", techLevel: 4, type: "MINION", tribe: "MURLOC"},
+    {name: "Reef", techLevel: 4, type: "MINION", tribe: "GENERAL"},
+    {name: "Mechano Egg", techLevel: 4, type: "MINION", tribe: "MECHANICAL"},
     {name: "Brann", techLevel: 5, type: "MINION"},
     {name: "Zapp", techLevel: 6, type: "MINION", tribe: "GENERAL"},
     {name: "Mutanus", type: "HERO", tribe: "GENERAL"},
@@ -49,32 +48,49 @@ function FilterTable({ tribes }) {
 }
 
 function CategoryTable({ cards }) {
-    let minions = cards.filter((card) =>
-        card.type === "MINION");
+    return (
+        <div>
+            <Heroes cards={cards} />
+            <Minions cards={cards} />
+        </div>
+    );
+}
+
+function Heroes({ cards }) {
     let heroes = cards.filter((card) =>
         card.type === "HERO");
     return (
         <div>
-            <Category name="Heroes" cards={heroes} />
-            <Category name="Minions" cards={minions} />
+            <h1>Heroes</h1>
+            <CardRows cards={heroes} />
         </div>
     );
 }
 
-function Category({ name, cards }) {
+function Minions({ cards }) {
+    let minions = cards.filter((card) =>
+        card.type === "MINION");
+    let tierTables = [];
+    for(let i = 1; i <= 6; ++i ) {
+        tierTables.push(<Tier tier={i} cards={minions} />);
+    }
+    
     return (
         <div>
-            <h1>{name}</h1>
-            <CardRows cards={cards} />
+            <h1>Minions</h1>
+            {tierTables}
         </div>
     );
 }
 
-function Tier({ tier }) {
+
+function Tier({ tier, cards }) {
+    let minionsOfTier = cards.filter((card) =>
+        card.techLevel === tier);
     return(
         <div>
-            <h2>Tier {tier.number}</h2>
-            {tier.rows}
+            <h2>Tier {tier}</h2>
+            <CardRows cards={minionsOfTier} />
         </div>
     );
 }
@@ -89,14 +105,6 @@ function CardRows({ cards }) {
             {cardRows}
         </ul>
     );
-}
-
-function CardRow() {
-
-}
-
-function Filter() {
-
 }
 
 
