@@ -9,9 +9,9 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 * ~~Verify all related cards and golden cards exist~~
 * Implement card pools
 * Implement related cards and golden cards
-* getActiveCards should give all the info, and not only the name, ids and tiers
+* ~~getActiveCards should give all the info, and not only the name, ids and tiers~~
 * Verify tribes
-* Filter by tribes
+* ~~Filter by tribes~~
 * When you click on a card, have the info on the main window
 
 

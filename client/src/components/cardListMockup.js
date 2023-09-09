@@ -49,7 +49,6 @@ function CardList({ cards }) {
             } else {
                 return tribes.includes("DEBUG");
             }
-            // return tribes.includes(card.tribe) || tribes.includes("DEBUG") && !card.hasOwnProperty("tribe");
         }
     );
 

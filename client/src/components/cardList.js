@@ -2,30 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 
-function keepTavernTier ( cards, tavernTier ) {
-    return cards.filter( card =>
-        card.techLevel === tavernTier).sort((a,b) =>
-        (a.name > b.name) ? 1 : -1
-    );
-}
-
-function listCardsHtml ( cards, patchId ) {
-    if(patchId === undefined) { 
-        return cards.map( card =>
-            <li key={card.dbfId}>
-                <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
-            </li>
-        )
-    } else {
-        return cards.map( card =>
-            <li key={card.dbfId}>
-                <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link>
-            </li>
-        )
-    }
-}
-
-export default function CardList() {
+export default function MainPage() {
     const [cards, setCards] = useState([]);
     const params = useParams();
 
@@ -56,64 +33,170 @@ export default function CardList() {
         return;
     }, [cards]);
 
-    if(cards.length){
-
-        let heroes = cards.filter( card =>
-            card.type === "HERO").sort((a,b) =>
-                (a.name > b.name) ? 1 : -1
-            );
-        let tavernTier1 = keepTavernTier(cards, 1);
-        let tavernTier2 = keepTavernTier(cards, 2);
-        let tavernTier3 = keepTavernTier(cards, 3);
-        let tavernTier4 = keepTavernTier(cards, 4);
-        let tavernTier5 = keepTavernTier(cards, 5);
-        let tavernTier6 = keepTavernTier(cards, 6);
-        
-        const cardlistHeroes = listCardsHtml(heroes, patchId);
-        const cardlistTier1 = listCardsHtml(tavernTier1, patchId);
-        const cardlistTier2 = listCardsHtml(tavernTier2, patchId);
-        const cardlistTier3 = listCardsHtml(tavernTier3, patchId);
-        const cardlistTier4 = listCardsHtml(tavernTier4, patchId);
-        const cardlistTier5 = listCardsHtml(tavernTier5, patchId);
-        const cardlistTier6 = listCardsHtml(tavernTier6, patchId);
-
-        
-        return(
-            <>
-                <h1>Heroes</h1>
-                <ul>
-                    {cardlistHeroes}
-                </ul>
-                <h1>Minions</h1>
-                <h2>Tier 1</h2>
-                <ul>
-                    {cardlistTier1}
-                </ul>
-                <h2>Tier 2</h2>
-                <ul>
-                    {cardlistTier2}
-                </ul>
-                <h2>Tier 3</h2>
-                <ul>
-                    {cardlistTier3}
-                </ul>
-                <h2>Tier 4</h2>
-                <ul>
-                    {cardlistTier4}
-                </ul>
-                <h2>Tier 5</h2>
-                <ul>
-                    {cardlistTier5}
-                </ul>
-                <h2>Tier 6</h2>
-                <ul>
-                    {cardlistTier6}
-                </ul>
-            </>
-        );
+    if(cards.length) {
+        return <CardList cards={cards} patchId={patchId} />
     } else {
-        return(
-            <p>Loading</p>
-        );
+        return <p>Loading</p>;
     }
+
+    ;
+}
+
+
+function getTribes(cards) {
+    let tribes = [];
+    for(let card of cards) {
+        let cardTribes = card.associatedTribes;
+        if(cardTribes === undefined) {
+            cardTribes = ["DEBUG"];
+        }
+        for(let cardTribe of cardTribes) {
+            if(!tribes.includes(cardTribe)) {
+                tribes.push(cardTribe);
+            }
+        }
+        
+    }
+    return tribes;
+}
+
+function CardList({ cards, patchId }) {
+    let availableTribes = getTribes(cards);
+    const [tribes, setTribes] = useState(availableTribes);
+
+    let cardsOfSelectedTribes = cards.filter(
+        function (card) {
+            if(card.hasOwnProperty("associatedTribes")) {
+                let isSelectedTribe = false;
+                for(let associatedTribe of card.associatedTribes) {
+                    if(tribes.includes(associatedTribe)) {
+                        isSelectedTribe = true;
+                        break;
+                    }
+                }
+                return isSelectedTribe;
+            } else {
+                return tribes.includes("DEBUG");
+            }
+        }
+    );
+
+    return( 
+        <div>
+            <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
+            <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
+        </div>
+    );
+
+}
+
+function FilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
+    let tribeTable = [];
+    for(let tribe of tribes) {
+
+        tribeTable.push(
+            <label htmlFor={tribe} key={tribe}>
+                <input 
+                    type="checkbox" 
+                    id={tribe} 
+                    name={tribe} 
+                    value={tribe} 
+                    defaultChecked={selectedTribes.includes(tribe)} 
+                    onChange={
+                        function (e) {
+                            let newArr = [];
+                            if(selectedTribes.includes(e.target.value)) {
+                                newArr = selectedTribes.filter((name) => name !== e.target.value);
+                            } else {
+                                newArr = [...selectedTribes, e.target.value];
+                            }
+                            onSelectedTribesChange(newArr);
+                        }
+                    } />
+                {' '}
+                {tribe}
+            </label>
+        );
+        
+    }
+    return (
+        <form>
+            {tribeTable}
+        </form>
+    );
+    
+}
+
+function CategoryTable({ cards, patchId }) {
+    let heroes = cards.filter((card) =>
+        card.type === "HERO" );
+    let minions = cards.filter((card) =>
+        card.type === "MINION");
+    return (
+        <div>
+            <Heroes cards={heroes} patchId={patchId} />
+            <Minions cards={minions} patchId={patchId} />
+        </div>
+    );
+}
+
+function Heroes({ cards, patchId }) {
+    
+    return (
+        <div>
+            <h1>Heroes</h1>
+            <CardRows cards={cards} patchId={patchId} />
+        </div>
+    );
+}
+
+function Minions({ cards, patchId }) {
+    
+    let tierTables = [];
+    for(let i = 1; i <= 6; ++i ) {
+        tierTables.push(<Tier tier={i} cards={cards} key={i} patchId={patchId} />);
+    }
+    
+    return (
+        <div>
+            <h1>Minions</h1>
+            {tierTables}
+        </div>
+    );
+}
+
+
+function Tier({ tier, cards, patchId }) {
+    let minionsOfTier = cards.filter((card) =>
+        card.techLevel === tier);
+    return(
+        <div>
+            <h2>Tier {tier}</h2>
+            <CardRows cards={minionsOfTier} patchId={patchId} />
+        </div>
+    );
+}
+
+function CardRows({ cards, patchId }) {
+
+
+    let cardRows = [];
+    cards.forEach((card) => {
+        let cardRow;
+        if(patchId === undefined) {
+            cardRow = <li key={card.dbfId}>
+                    <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
+                </li>;
+        } else {
+            cardRow = <li key={card.dbfId}>
+                         <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link>
+                     </li>;
+        }
+        cardRows.push(cardRow);
+    })
+    return (
+        <ul>
+            {cardRows}
+        </ul>
+    );
 }
