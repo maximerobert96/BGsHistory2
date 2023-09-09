@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router";
 
 const CARDS = [
     {name: "Weaver", techLevel: 1, type: "MINION", tribe: "GENERAL"},
@@ -16,13 +17,16 @@ const CARDS = [
 function getTribes(cards) {
     let tribes = [];
     for(let card of cards) {
-        let cardTribe = card.tribe;
-        if(cardTribe === undefined) {
-            cardTribe = "DEBUG";
+        let cardTribes = card.associatedTribes;
+        if(cardTribes === undefined) {
+            cardTribes = ["DEBUG"];
         }
-        if(!tribes.includes(cardTribe)) {
-            tribes.push(cardTribe);
+        for(let cardTribe of cardTribes) {
+            if(!tribes.includes(cardTribe)) {
+                tribes.push(cardTribe);
+            }
         }
+        
     }
     return tribes;
 }
@@ -33,7 +37,19 @@ function CardList({ cards }) {
 
     let cardsOfSelectedTribes = cards.filter(
         function (card) {
-            return tribes.includes(card.tribe) || tribes.includes("DEBUG") && !card.hasOwnProperty("tribe");
+            if(card.hasOwnProperty("associatedTribes")) {
+                let isSelectedTribe = false;
+                for(let associatedTribe of card.associatedTribes) {
+                    if(tribes.includes(associatedTribe)) {
+                        isSelectedTribe = true;
+                        break;
+                    }
+                }
+                return isSelectedTribe;
+            } else {
+                return tribes.includes("DEBUG");
+            }
+            // return tribes.includes(card.tribe) || tribes.includes("DEBUG") && !card.hasOwnProperty("tribe");
         }
     );
 
@@ -136,7 +152,7 @@ function Tier({ tier, cards }) {
 function CardRows({ cards }) {
     let cardRows = [];
     cards.forEach((card) => {
-        cardRows.push(<li key={card.name}>{card.name}</li>)
+        cardRows.push(<li key={card.id}>{card.name}</li>)
     })
     return (
         <ul>
@@ -147,6 +163,43 @@ function CardRows({ cards }) {
 
 
 export default function Mockup() {
-    return <CardList cards={CARDS} />;
+    const [cards, setCards] = useState([]);
+    const params = useParams();
+
+    let patchId;
+    if(params.patchId !== undefined) {
+        patchId = params.patchId.toString();
+    }
+
+    useEffect(() => {
+        async function getCards(){
+            let response;
+            // if(params.patchId !== undefined) {
+            //     let patchId = params.patchId.toString();
+            //     response = await fetch(`http://localhost:5000/${patchId}/cards/`);
+            // } else {
+            //     response = await fetch(`http://localhost:5000/cards/`);
+            // }
+            response = await fetch(`http://localhost:5000/35747/cards/`);
+            if(!response.ok){
+                const message = `an error has occurred: ${response.statusText}`;
+                window.alert(message);
+                return;
+            }
+            const cards = await response.json();
+            setCards(cards);
+        }
+        
+        getCards();
+        return;
+    }, [cards]);
+
+    if(cards.length) {
+        return <CardList cards={cards} />
+    } else {
+        return <p>Loading</p>;
+    }
+
+    ;
   }
   
