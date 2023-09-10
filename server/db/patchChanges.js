@@ -770,4 +770,9 @@ function updatingTribesFirstPatch() {
 
 }
 
-updatingTribesFirstPatch();
+// updatingTribesFirstPatch();
+
+// addNewChange(35747, 57947, {"associatedTribes": ["GENERAL"]}, undefined, undefined, "RANGE", 49534); // patches
+// addNewChange(35747, 59814, {"associatedTribes": ["BEAST"]}, undefined, undefined, "RANGE", 53261); // mukla
+// addNewChange(35747, 96778, {"associatedTribes": ["BEAST"]}); // houndmaster
+// addNewChange(35747, 59660, {"associatedTribes": ["DEMON"]}); // soul juggler

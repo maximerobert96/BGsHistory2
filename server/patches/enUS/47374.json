@@ -23,7 +23,10 @@
       "BEAST"
     ],
     "techLevel": 1,
-    "battlegroundsPremiumDbfId": 60025
+    "battlegroundsPremiumDbfId": 60025,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "61912": {
     "battlegroundsHero": true,

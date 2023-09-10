@@ -21,7 +21,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "PIRATE"
+      "GENERAL"
     ],
     "heroPowerDbfId": 58527
   },

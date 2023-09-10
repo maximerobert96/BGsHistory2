@@ -118,7 +118,10 @@
     ],
     "techLevel": 1,
     "battlegroundsPremiumDbfId": 58138,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "736": {
     "artist": "Dan Scott",
@@ -206,7 +209,10 @@
     ],
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 58394,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "976": {
     "artist": "Dan Scott",
@@ -263,7 +269,10 @@
     ],
     "techLevel": 1,
     "battlegroundsPremiumDbfId": 60025,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "1006": {
     "attack": 3,
@@ -380,7 +389,10 @@
     ],
     "techLevel": 5,
     "battlegroundsPremiumDbfId": 58428,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "2023": {
     "artist": "Jesper Ejsing",
@@ -527,7 +539,10 @@
     ],
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 58402,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "2288": {
     "artist": "Steve Prescott",
@@ -555,7 +570,10 @@
     ],
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58372,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "2518": {
     "artist": "Jakub Kasper",
@@ -580,7 +598,10 @@
     "type": "MINION",
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58383,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "2779": {
     "attack": 1,
@@ -652,7 +673,10 @@
     ],
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58365,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "38735": {
     "artist": "Luca Zontini",
@@ -692,7 +716,10 @@
     "type": "MINION",
     "techLevel": 5,
     "battlegroundsPremiumDbfId": 58425,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "39161": {
     "artist": "Matt Dixon",
@@ -764,7 +791,10 @@
     ],
     "techLevel": 2,
     "battlegroundsPremiumDbfId": 57340,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "39839": {
     "artist": "Matt Dixon",
@@ -817,7 +847,10 @@
     "type": "MINION",
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 59504,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "40641": {
     "artist": "Dany Orizio",
@@ -846,7 +879,10 @@
     "type": "MINION",
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 59512,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "41067": {
     "artist": "Zoltan Boros",
@@ -885,7 +921,10 @@
     ],
     "techLevel": 5,
     "battlegroundsPremiumDbfId": 58413,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "41180": {
     "artist": "Garrett Hanna",
@@ -908,7 +947,10 @@
     "type": "MINION",
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58374,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "41523": {
     "artist": "Jakub Kasper",
@@ -948,7 +990,10 @@
     "type": "MINION",
     "techLevel": 1,
     "battlegroundsPremiumDbfId": 63774,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "43121": {
     "artist": "Steve Prescott",
@@ -975,7 +1020,10 @@
     ],
     "techLevel": 1,
     "battlegroundsPremiumDbfId": 63778,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "45392": {
     "artist": "Tooth",
@@ -999,7 +1047,10 @@
     "type": "MINION",
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 58405,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "47516": {
     "artist": "Evgeniy Dlinnov",
@@ -1022,7 +1073,10 @@
     "techLevel": 4,
     "undeadCreationPool": 1,
     "battlegroundsPremiumDbfId": 58378,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "48100": {
     "artist": "Adam Byrne",
@@ -1054,7 +1108,10 @@
       49278
     ],
     "battlegroundsPremiumDbfId": 58392,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "48885": {
     "artist": "Eva Widermann",
@@ -1100,7 +1157,10 @@
       48885
     ],
     "battlegroundsPremiumDbfId": 57336,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "49168": {
     "artist": "Hideaki Takamura",
@@ -1199,7 +1259,10 @@
       50359
     ],
     "battlegroundsPremiumDbfId": 58412,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "50359": {
     "artist": "Luca Zontini",
@@ -1303,7 +1366,10 @@
     "type": "MINION",
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58385,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "54835": {
     "artist": "James Ryman",
@@ -1371,6 +1437,9 @@
     "isBattlegroundsPoolMinion": true,
     "pools": [
       "ADAPT_POOL"
+    ],
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "57110": {
@@ -1791,7 +1860,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "PIRATE"
+      "GENERAL"
     ],
     "heroPowerDbfId": 58527,
     "battlegroundsHero": true
@@ -3617,7 +3686,7 @@
     "isBattlegroundsPoolMinion": true,
     "battlegroundsPremiumDbfId": 59661,
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ]
   },
   "59661": {
@@ -3725,6 +3794,9 @@
     "isBattlegroundsPoolMinion": true,
     "pools": [
       "LEGENDARY_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "59683": {
@@ -3930,7 +4002,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "heroPowerDbfId": 59815,
     "battlegroundsHero": true
@@ -4511,6 +4583,9 @@
     "isBattlegroundsPoolMinion": true,
     "pools": [
       "MANA_2_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "60049": {
@@ -4537,6 +4612,9 @@
     "isBattlegroundsPoolMinion": true,
     "pools": [
       "MANA_4_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "60050": {
@@ -4563,6 +4641,9 @@
     "isBattlegroundsPoolMinion": true,
     "pools": [
       "MANA_1_POOL"
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "60053": {
@@ -4628,7 +4709,10 @@
     ],
     "techLevel": 1,
     "battlegroundsPremiumDbfId": 60056,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "60056": {
     "attack": 2,
@@ -4673,7 +4757,10 @@
     ],
     "techLevel": 2,
     "battlegroundsPremiumDbfId": 59664,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "60211": {
     "cardClass": "NEUTRAL",
@@ -5497,7 +5584,7 @@
     "isBattlegroundsPoolMinion": true,
     "battlegroundsPremiumDbfId": 59499,
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ]
   },
   "96779": {
@@ -5809,7 +5896,10 @@
     ],
     "techLevel": 1,
     "battlegroundsPremiumDbfId": 57299,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "96797": {
     "artist": "Jerry Mascho",

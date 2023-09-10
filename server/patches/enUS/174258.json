@@ -185,7 +185,7 @@
     "text": "After a friendly Demon dies, deal 3 damage to a random enemy minion.",
     "type": "MINION",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ]
   },
   "59670": {

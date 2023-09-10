@@ -44,6 +44,9 @@
     "type": "MINION",
     "races": [
       "BEAST"
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "1006": {

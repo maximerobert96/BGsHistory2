@@ -25,7 +25,10 @@
     "relatedCards": [
       48885
     ],
-    "battlegroundsPremiumDbfId": 57336
+    "battlegroundsPremiumDbfId": 57336,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "59940": {
     "attack": 2,

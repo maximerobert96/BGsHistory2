@@ -140,7 +140,10 @@
       "MECHANICAL"
     ],
     "techLevel": 2,
-    "battlegroundsPremiumDbfId": 59664
+    "battlegroundsPremiumDbfId": 59664,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "61053": {
     "attack": 4,

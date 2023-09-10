@@ -8,7 +8,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "PIRATE"
+      "GENERAL"
     ],
     "heroPowerDbfId": 58527,
     "battlegroundsHero": true
@@ -62,7 +62,7 @@
     "isBattlegroundsPoolMinion": true,
     "battlegroundsPremiumDbfId": 59661,
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ]
   },
   "59661": {

@@ -2525,6 +2525,9 @@
     "type": "MINION",
     "races": [
       "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
     ]
   },
   "96810": {

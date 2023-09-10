@@ -44,6 +44,9 @@
     "type": "MINION",
     "relatedCards": [
       48885
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "49168": {

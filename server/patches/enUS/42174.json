@@ -154,7 +154,10 @@
     "text": "Whenever this attacks and kills a minion, gain +2/+2.",
     "type": "MINION",
     "techLevel": 4,
-    "battlegroundsPremiumDbfId": 58425
+    "battlegroundsPremiumDbfId": 58425,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "41138": {
     "artist": "James Ryman",
@@ -179,7 +182,10 @@
       "BEAST"
     ],
     "techLevel": 5,
-    "battlegroundsPremiumDbfId": 58413
+    "battlegroundsPremiumDbfId": 58413,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "41180": {
     "artist": "Garrett Hanna",
@@ -201,7 +207,10 @@
     "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Give a random\n friendly minion +1/+1.",
     "type": "MINION",
     "techLevel": 3,
-    "battlegroundsPremiumDbfId": 58374
+    "battlegroundsPremiumDbfId": 58374,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "42442": {
     "artist": "Jim Nelson",
@@ -252,7 +261,10 @@
     "type": "MINION",
     "techLevel": 4,
     "undeadCreationPool": 1,
-    "battlegroundsPremiumDbfId": 58378
+    "battlegroundsPremiumDbfId": 58378,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "54153": {
     "artist": "Anton Zemskov",
@@ -276,7 +288,10 @@
     "text": "Your <b>Taunt</b> minions\nhave +2 Attack.",
     "type": "MINION",
     "techLevel": 3,
-    "battlegroundsPremiumDbfId": 58385
+    "battlegroundsPremiumDbfId": 58385,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57555": {
     "cardClass": "NEUTRAL",
@@ -489,6 +504,9 @@
     "isBattlegroundsPoolMinion": true,
     "pools": [
       "LEGENDARY_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "59683": {
@@ -673,6 +691,9 @@
     "battlegroundsPremiumDbfId": 58411,
     "pools": [
       "MANA_4_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "60050": {
@@ -698,6 +719,9 @@
     "battlegroundsPremiumDbfId": 58150,
     "pools": [
       "MANA_1_POOL"
+    ],
+    "associatedTribes": [
+      "BEAST"
     ]
   },
   "60212": {

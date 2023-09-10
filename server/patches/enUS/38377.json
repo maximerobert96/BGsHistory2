@@ -24,7 +24,10 @@
     ],
     "techLevel": 3,
     "battlegroundsPremiumDbfId": 58394,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "38895": {
     "artist": "Alex Horley Orlandelli",
@@ -47,7 +50,10 @@
     "type": "MINION",
     "techLevel": 4,
     "battlegroundsPremiumDbfId": 58425,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "49169": {
     "artist": "Hideaki Takamura",

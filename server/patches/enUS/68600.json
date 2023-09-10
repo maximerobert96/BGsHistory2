@@ -23,7 +23,10 @@
       "BEAST"
     ],
     "techLevel": 3,
-    "battlegroundsPremiumDbfId": 58394
+    "battlegroundsPremiumDbfId": 58394,
+    "associatedTribes": [
+      "BEAST"
+    ]
   },
   "2518": {
     "artist": "Jakub Kasper",
@@ -47,7 +50,10 @@
     "text": "Whenever you play a card with <b>Battlecry</b>, gain +1/+1.",
     "type": "MINION",
     "techLevel": 3,
-    "battlegroundsPremiumDbfId": 58383
+    "battlegroundsPremiumDbfId": 58383,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "42467": {
     "artist": "Evgeniy Dlinnov",
@@ -69,7 +75,10 @@
     "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
     "type": "MINION",
     "techLevel": 1,
-    "battlegroundsPremiumDbfId": 63774
+    "battlegroundsPremiumDbfId": 63774,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "57635": {
     "cardClass": "NEUTRAL",

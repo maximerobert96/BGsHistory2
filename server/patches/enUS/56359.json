@@ -25,6 +25,9 @@
     "battlegroundsPremiumDbfId": 59828,
     "pools": [
       "ADAPT_POOL"
+    ],
+    "associatedTribes": [
+      "MURLOC"
     ]
   },
   "57555": {

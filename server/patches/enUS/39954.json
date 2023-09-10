@@ -303,6 +303,9 @@
       "DEMON"
     ],
     "techLevel": 1,
-    "battlegroundsPremiumDbfId": 57299
+    "battlegroundsPremiumDbfId": 57299,
+    "associatedTribes": [
+      "DEMON"
+    ]
   }
 }

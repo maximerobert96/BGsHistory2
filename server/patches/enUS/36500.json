@@ -23,7 +23,10 @@
     ],
     "techLevel": 5,
     "battlegroundsPremiumDbfId": 58402,
-    "isBattlegroundsPoolMinion": true
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "57946": {
     "cardClass": "NEUTRAL",
@@ -157,7 +160,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "heroPowerDbfId": 59815
   },

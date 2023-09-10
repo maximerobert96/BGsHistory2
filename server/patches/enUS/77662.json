@@ -72,6 +72,9 @@
     "battlegroundsPremiumDbfId": 58381,
     "pools": [
       "MANA_2_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "62582": {
