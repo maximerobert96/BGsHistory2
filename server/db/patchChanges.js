@@ -737,3 +737,37 @@ function patch68600() {
 // }
 
 // addingAndFixingCards();
+
+function addingTribeToManyCards(build, cardIds, tribe) {
+    cardIds.forEach((cardId) => addingSingleTribeToCard(build, cardId, tribe));
+}
+
+function addingSingleTribeToCard(build, cardId, tribe) {
+    addNewChange(build, cardId, {"associatedTribes": [tribe]});
+}
+
+function updatingTribesFirstPatch() {
+    let build = 35747;
+
+    const MECH = "MECHANICAL";
+    const MURLOC = "MURLOC";
+    const GENERAL = "GENERAL";
+    const BEAST = "BEAST";
+    const DEMON = "DEMON";
+
+    let mechIds = [48886, 60055, 60122, 60048, 2074, 60049, 48100, 59682];
+    let murlocIds = [475, 56465];
+    let generalIds = [42467, 2518, 54153, 41180, 45392, 47516, 38895];
+    let beastIds = [985, 39481, 60050, 38734, 962, 40641, 49973, 41138];
+    let demonIds = [96796, 43121, 40391, 2288, 1986];
+
+    addingTribeToManyCards(build, mechIds, MECH);
+    addingTribeToManyCards(build, murlocIds, MURLOC);
+    addingTribeToManyCards(build, generalIds, GENERAL);
+    addingTribeToManyCards(build, beastIds, BEAST);
+    addingTribeToManyCards(build, demonIds, DEMON);
+
+
+}
+
+updatingTribesFirstPatch();

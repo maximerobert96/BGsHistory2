@@ -4,7 +4,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import MainPage from "./components/cardList";
 import CardInfo from './components/cardInfo';
-import Mockup from './components/cardListMockup';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Route path="/cards/:id" element={<CardInfo />} />
         <Route path="/:patchId/cards/" element={<MainPage  />} />
         <Route path="/:patchId/cards/:id" element={<CardInfo />} />
-        <Route path="/temp" element={<Mockup />} />
       </Routes>
     </div>
   );

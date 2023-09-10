@@ -1815,7 +1815,10 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "heroPowerDbfId": 57957,
-    "battlegroundsHero": true
+    "battlegroundsHero": true,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "57957": {
     "cardClass": "NEUTRAL",

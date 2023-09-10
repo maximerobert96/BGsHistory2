@@ -214,7 +214,10 @@
     "name": "Giantfin",
     "rarity": "FREE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "57961": {
     "cardClass": "NEUTRAL",

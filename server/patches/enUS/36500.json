@@ -46,7 +46,10 @@
     "name": "Giantfin",
     "set": "BATTLEGROUNDS",
     "type": "HERO",
-    "heroPowerDbfId": 57957
+    "heroPowerDbfId": 57957,
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "58044": {
     "cardClass": "NEUTRAL",
