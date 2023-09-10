@@ -181,7 +181,8 @@ function CardRows({ cards, patchId }) {
 
 
     let cardRows = [];
-    cards.forEach((card) => {
+    cards.sort((a,b) => a.name > b.name ? 1 : -1 )
+        .forEach((card) => {
         let cardRow;
         if(patchId === undefined) {
             cardRow = <li key={card.dbfId}>
