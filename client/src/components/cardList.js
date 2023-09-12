@@ -177,7 +177,7 @@ function Tier({ tier, cards, patchId }) {
     );
 }
 
-function CardRows({ cards, patchId }) {
+export function CardRows({ cards, patchId }) {
 
 
     let cardRows = [];
@@ -201,3 +201,4 @@ function CardRows({ cards, patchId }) {
         </ul>
     );
 }
+

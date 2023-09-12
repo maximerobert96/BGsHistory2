@@ -89,7 +89,7 @@ function getCardById( cardId, patch ) {
     if(!currentCard) {
         throw new Error(`The card with the id ${cardId} doesn't exist.`);
     }
-    currentCard = formatFields(currentCard, jsonDB);
+    // currentCard = formatFields(currentCard, jsonDB);
 
     return currentCard;
 }
@@ -97,19 +97,21 @@ function getCardById( cardId, patch ) {
 function formatFields(card, jsonDB) {
     if(card.battlegroundsBuddyDbfId) {
         let buddyId = card.battlegroundsBuddyDbfId;
-        let buddyName = jsonDB[buddyId].name;
-        card.buddy = { name: buddyName, id: buddyId}
-        delete card.battlegroundsBuddyDbfId;
+        // let buddyName = jsonDB[buddyId].name;
+        card.buddy = jsonDB[buddyId];
+        // card.buddy = { name: buddyName, id: buddyId}
+        // delete card.battlegroundsBuddyDbfId;
     }
     if(card.heroPowerDbfId) {
         let hpId = card.heroPowerDbfId;
         let hpObj = jsonDB[hpId];
-        if(hpObj.hideCost && hpObj.hideCost == true){
-            card.heroPower = { name: hpObj.name, id: hpId, text: hpObj.text }
-        } else {
-            card.heroPower = { name: hpObj.name, id: hpId, cost: hpObj.cost, text: hpObj.text }
-        }
-        delete card.heroPowerDbfId;
+        card.heroPower = hpObj;
+        // if(hpObj.hideCost && hpObj.hideCost == true){
+        //     card.heroPower = { name: hpObj.name, id: hpId, text: hpObj.text }
+        // } else {
+        //     card.heroPower = { name: hpObj.name, id: hpId, cost: hpObj.cost, text: hpObj.text }
+        // }
+        // delete card.heroPowerDbfId;
     }
     if(card.relatedCards) {
         let relatedCardIds = card.relatedCards;
@@ -121,8 +123,8 @@ function formatFields(card, jsonDB) {
         card.relatedCards = relatedCards;
     }
 
-    card.id = card.dbfId;
-    delete card.dbfId;
+    // card.id = card.dbfId;
+    // delete card.dbfId;
 
     return card;
 }
@@ -147,6 +149,7 @@ function tempGetCardPoolNames(){
 // console.log(tempGetCardPoolNames());
 
 function getCardsOfPool(cards, pool) {
+    // let cards = 
     let cardsInPool = poolManager.getMinionsForPool(cards, pool);
     let cardsInPoolFormatted = [];
     for (let card of cardsInPool) {

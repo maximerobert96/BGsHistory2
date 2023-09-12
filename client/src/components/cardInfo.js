@@ -33,36 +33,27 @@ export default function CardInfo() {
     if(card){
         switch (card.type){
             case "MINION":
-                return(
-                    <ul>
-                        <li>Name: {card.name}</li>
-                        <li>Tier: {card.techLevel}</li>
-                        <li>Attack: {card.attack}</li>
-                        <li>Health: {card.health}</li>
-                        <li>Text: {card.text}</li>
-                    </ul>
-                );
+                return (<MinionInfo card={card} />);
                 case "HERO":
-                    if(card.heroPower.cost) {
-                        return(
-                            <ul>
-                                <li>Name: {card.name}</li>
-                                <li>Armor: {card.armor}</li>
-                                <li>HP Name: {card.heroPower.name}</li>
-                                <li>HP Cost: {card.heroPower.cost}</li>
-                                <li>HP Text: {card.heroPower.text}</li>
-                            </ul>
-                        );
-                    } else {
-                        return(
-                            <ul>
-                                <li>Name: {card.name}</li>
-                                <li>Armor: {card.armor}</li>
-                                <li>HP Name: {card.heroPower.name}</li>
-                                <li>HP Text: {card.heroPower.text}</li>
-                            </ul>
-                        );
-                    }
+                    return (<HeroInfo card={card} />);
+                    // if(card.heroPower.cost) {
+                    //     return(
+                    //         <ul>
+                    //             <li>Name: {card.name}</li>
+                    //             <li>HP Name: {card.heroPower.name}</li>
+                    //             <li>HP Cost: {card.heroPower.cost}</li>
+                    //             <li>HP Text: {card.heroPower.text}</li>
+                    //         </ul>
+                    //     );
+                    // } else {
+                    //     return(
+                    //         <ul>
+                    //             <li>Name: {card.name}</li>
+                    //             <li>HP Name: {card.heroPower.name}</li>
+                    //             <li>HP Text: {card.heroPower.text}</li>
+                    //         </ul>
+                    //     );
+                    // }
                 default: 
                     return(<p>help</p>);
 
@@ -70,28 +61,26 @@ export default function CardInfo() {
     } else {
         return(<p>Loading</p>);
     }
-    // return(
-    //     <div>
-    //         <table>
-    //             <thead>
-    //             <tr>
-    //                     <th>Name</th>
-    //                     <th>Tier</th>
-    //                     <th>Attack</th>
-    //                     <th>Health</th>
-    //                     <th>Text</th>
-    //                 </tr>
-    //             </thead>
-    //             <tbody>
-    //                 <tr>
-    //                     <td>{minion.name}</td>
-    //                     <td>{minion.tavern_tier}</td>
-    //                     <td>{minion.attack}</td>
-    //                     <td>{minion.health}</td>
-    //                     <td>{minion.text}</td>
-    //                 </tr>
-    //             </tbody>
-    //         </table>
-    //     </div>
-    // );
+    
+}
+
+function MinionInfo({ card }) {
+    const regularFields = {name: "Name", techLevel: "Tier", attack: "Attack", health: "Health", text: "Card text"};
+    let fieldList = [];
+    for(let field in regularFields) {
+        if(card.hasOwnProperty(field)) {
+            fieldList.push(<li key={field}>{regularFields[field]}: {card[field]}</li>);
+        }
+    }
+    
+        
+   
+    return (
+    <ul>
+        {fieldList}
+    </ul>);
+}
+
+function HeroInfo({ card }) {
+
 }
