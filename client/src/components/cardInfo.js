@@ -76,6 +76,10 @@ function MinionInfo({ card, patch }) {
     //     }
     // }
     let cardText;
+    let golden;
+    if(card.hasOwnProperty("battlegroundsNormalDbfId")) {
+        golden = "Golden";
+    }
     if(card.hasOwnProperty("text")) {
         cardText = parse(card.text);
     }
@@ -83,8 +87,8 @@ function MinionInfo({ card, patch }) {
    
     return (
     <div>
-        <h2>{card.name}</h2>
-        <body>{card.attack}/{card.health} minion on tier {card.techLevel}.<br />{cardText}</body>
+        <h2>{golden} {card.name}</h2>
+        <p>{card.attack}/{card.health} minion on tier {card.techLevel}.<br />{cardText}</p>
         <RelatedCards card={card} patch={patch}/>
         <CardPools card={card}/>
         <OtherVersion card={card} patch={patch} />
@@ -104,12 +108,30 @@ function RelatedCards({ card, patch }) {
         relatedCardsList.push(<li key={rc}><Link to={`/${patch}/cards/${rc}`}>{rc}</Link></li>);
     });
     return(
-        <ul>{relatedCardsList}</ul>
+        <div>
+            <h3>Related cards</h3>
+            <ul>{relatedCardsList}</ul>
+        </div>
     );
 }
 
 function CardPools({card, patch}) {
-
+    if(!card.hasOwnProperty("pools")){
+        return;
+    }
+    let cardPoolList = [];
+    card.pools.forEach((pool) => {
+        cardPoolList.push(<li key={pool}>{pool}</li>);
+    });
+    
+    return (
+    <div>
+        <h3>{cardPoolList.length == 1 ? "Card Pool" : "Card Pools"}</h3>
+        <ul>
+            {cardPoolList}
+        </ul>
+    </div>
+    );
 }
 
 function OtherVersion({card, patch}) {

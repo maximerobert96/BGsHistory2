@@ -7,7 +7,7 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 ## Tasks
 * ~~Verify all the main cards exist~~
 * ~~Verify all related cards and golden cards exist~~
-* Implement related cards and golden cards in front end
+* ~~Implement related cards and golden cards in front end~~
 * ~~getActiveCards should give all the info, and not only the name, ids and tiers~~
 * ~~Verify tribes~~
 * ~~Filter by tribes~~
@@ -16,9 +16,10 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 
 ### Low priority tasks
 * Show a picture when you hover a card (it will be a placeholder pic for now)
-* Add golden in front of golden cards' name
+* ~~Add golden in front of golden cards' name~~
 * ~~Remove armor field for heroes in front end~~
 * Select/unselect all tribes
+* ~~Card pool placeholder section~~
 
 
 ### Later
