@@ -68,34 +68,79 @@ export default function CardInfo() {
 }
 
 function MinionInfo({ card, patch }) {
-    // const regularFields = {name: "Name", techLevel: "Tier", attack: "Attack", health: "Health", text: "Card text"};
-    // let fieldList = [];
-    // for(let field in regularFields) {
-    //     if(card.hasOwnProperty(field)) {
-    //         fieldList.push(<li key={field}>{regularFields[field]}: {card[field]}</li>);
-    //     }
-    // }
     let cardText;
     let golden;
     if(card.hasOwnProperty("battlegroundsNormalDbfId")) {
-        golden = "Golden";
+        golden = "Golden ";
     }
     if(card.hasOwnProperty("text")) {
-        cardText = parse(card.text);
+        cardText = <><br />{parse(card.text)}</>;
     }
         
-   
     return (
     <div>
-        <h2>{golden} {card.name}</h2>
-        <p>{card.attack}/{card.health} minion on tier {card.techLevel}.<br />{cardText}</p>
+        <h2>{golden}{card.name}</h2>
+        <p>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}</p>
         <RelatedCards card={card} patch={patch}/>
-        <CardPools card={card}/>
+        <CardPools card={card} patch={patch}/>
         <OtherVersion card={card} patch={patch} />
     </div>);
 }
 
 function HeroInfo({ card, patch }) {
+    return (
+        <div>
+            <h2>{card.name}</h2>
+            <HeroPowerInfo card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+        </div>);
+}
+
+function HeroPowerInfo({ card, patch }) {
+    const [hp, setHp] = useState(null);
+
+    useEffect(() => {
+        fetch(`http://localhost:5000/${patch}/cards/${card.heroPowerDbfId}`)
+        .then(response => {
+            if(!response.ok) {
+                throw new Error(`an error has occurred: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            setHp(data);
+        })
+        .catch(error => {
+            window.alert(error);
+        });
+    }, []);
+    
+    let hpHtml = (<p>Loading</p>);
+    if(hp) {
+        hpHtml = (
+            <>
+                <h3>{hp.name}</h3>
+                <p>
+                {hp.hasOwnProperty("hideCost") ? (
+                    "Passive hero power"
+                    ) : (
+                        `${hp.cost} cost hero power`
+                    )
+                }
+                <br />
+                {parse(hp.text)}
+                </p>
+                <RelatedCards card={hp} patch={patch}/>
+                <CardPools card={hp} patch={patch}/>
+            </>
+        );
+    }
+    
+    return (
+        <div>
+            {hpHtml}
+        </div>
+    );
 
 }
 
