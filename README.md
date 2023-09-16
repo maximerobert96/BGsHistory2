@@ -21,7 +21,7 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 * ~~Remove armor field for heroes in front end~~
 * Select/unselect all tribes
 * ~~Card pool placeholder section~~
-* Add minion types to front end
+* ~~Add minion types to front end~~
 * Update AFKay's pools
 * Add field hideCost to all passive hero powers
 * Add related card to Giantfin

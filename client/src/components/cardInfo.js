@@ -67,6 +67,16 @@ export default function CardInfo() {
     
 }
 
+function getElementsOfProperty(card, property) {
+    let elementsOfProperty = [];
+    if(card.hasOwnProperty(property)) {
+        card[property].forEach((p) => {
+            elementsOfProperty.push(p);
+        });
+    }
+    return elementsOfProperty;
+}
+
 function MinionInfo({ card, patch }) {
     let cardText;
     let golden;
@@ -76,11 +86,30 @@ function MinionInfo({ card, patch }) {
     if(card.hasOwnProperty("text")) {
         cardText = <><br />{parse(card.text)}</>;
     }
+    let races = getElementsOfProperty(card, "races");
+    let tribes = getElementsOfProperty(card, "associatedTribes");
+    
+    let racesHtml;
+    if(races.length === 1) {
+        racesHtml = <><br />Race: {races}</>
+    } else if (races.length > 1) {
+        racesHtml = <><br />Races: {races}</>
+    }
+
+    let tribesHtml;
+    if(tribes.length === 1) {
+        tribesHtml = <><br />Tribe: {tribes}</>
+    } else if (tribes.length > 1) {
+        tribesHtml = <><br />Tribes: {tribes}</>
+    }
+    
+
+    let basicInfo = <>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
         
     return (
     <div>
         <h2>{golden}{card.name}</h2>
-        <p>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}</p>
+        <p>{basicInfo}</p>
         <RelatedCards card={card} patch={patch}/>
         <CardPools card={card} patch={patch}/>
         <OtherVersion card={card} patch={patch} />
@@ -113,7 +142,7 @@ function HeroPowerInfo({ card, patch }) {
         .catch(error => {
             window.alert(error);
         });
-    }, []);
+    }, [card, patch]);
     
     let hpHtml = (<p>Loading</p>);
     if(hp) {
@@ -171,7 +200,7 @@ function CardPools({card, patch}) {
     
     return (
     <div>
-        <h3>{cardPoolList.length == 1 ? "Card Pool" : "Card Pools"}</h3>
+        <h3>{cardPoolList.length === 1 ? "Card Pool" : "Card Pools"}</h3>
         <ul>
             {cardPoolList}
         </ul>

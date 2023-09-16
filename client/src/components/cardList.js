@@ -31,7 +31,7 @@ export default function MainPage() {
         
         getCards();
         return;
-    }, [cards]);
+    }, [cards, params.patchId]);
 
     if(cards.length) {
         return <CardList cards={cards} patchId={patchId} />
