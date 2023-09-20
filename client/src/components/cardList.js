@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useParams } from "react-router";
 
 export default function MainPage() {
@@ -31,7 +31,7 @@ export default function MainPage() {
         
         getCards();
         return;
-    }, [cards, params.patchId]);
+    }, []);
 
     if(cards.length) {
         return <CardList cards={cards} patchId={patchId} />
@@ -85,6 +85,7 @@ function CardList({ cards, patchId }) {
         <div>
             <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
+            <Outlet />
         </div>
     );
 
@@ -190,7 +191,8 @@ export function CardRows({ cards, patchId }) {
                 </li>;
         } else {
             cardRow = <li key={card.dbfId}>
-                         <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link>
+                         <Link to={`${card.dbfId}`}>{card.name}</Link>
+                         {/* <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link> */}
                      </li>;
         }
         cardRows.push(cardRow);

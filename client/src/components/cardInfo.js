@@ -31,7 +31,7 @@ export default function CardInfo() {
         
         getCard();
         return;
-    });
+    }, [params.id.toString()]);
 
     if(card){
         switch (card.type){

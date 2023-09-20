@@ -11,8 +11,9 @@ function App() {
       <Routes>
         <Route exact path="/" element={<MainPage />} />
         <Route path="/cards/:id" element={<CardInfo />} />
-        <Route path="/:patchId/cards/" element={<MainPage  />} />
-        <Route path="/:patchId/cards/:id" element={<CardInfo />} />
+        <Route path="/:patchId/cards/" element={<MainPage  />}>
+          <Route path="/:patchId/cards/:id" element={<CardInfo />} />
+        </Route>
       </Routes>
     </div>
   );
