@@ -11,7 +11,7 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 * ~~getActiveCards should give all the info, and not only the name, ids and tiers~~
 * ~~Verify tribes~~
 * ~~Filter by tribes~~
-* When you click on a card, have the info on the main window
+* ~~When you click on a card, have the info on the main window~~
 
 
 
@@ -25,7 +25,7 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 * Update AFKay's pools
 * Add field hideCost to all passive hero powers
 * Add related card to Giantfin
-* Continue veryfing cards
+* Continue verifying cards
 
 
 ### Later

@@ -34,7 +34,12 @@ export default function MainPage() {
     }, []);
 
     if(cards.length) {
-        return <CardList cards={cards} patchId={patchId} />
+        return (
+        <>
+            <Outlet />
+            <CardList cards={cards} patchId={patchId} />
+        </>
+        );
     } else {
         return <p>Loading</p>;
     }
@@ -85,7 +90,6 @@ function CardList({ cards, patchId }) {
         <div>
             <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
-            <Outlet />
         </div>
     );
 
