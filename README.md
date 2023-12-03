@@ -16,7 +16,6 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 
 
 ### Low priority tasks
-* Show a picture when you hover a card (it will be a placeholder pic for now)
 * ~~Add golden in front of golden cards' name~~
 * ~~Remove armor field for heroes in front end~~
 * Select/unselect all tribes
@@ -26,9 +25,9 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 * Add field hideCost to all passive hero powers
 * Add related card to Giantfin
 * Continue verifying cards
-
+* Add adapt options to the database
 
 ### Later
 * Generate placeholder images for cards using name, tier level, stats (could be its own branch)
 * Implement card pools in front end (probably will be implemented alongside a db overhaul for optimization)
-* Add adapt options to the database
+* Show a picture when you hover a card (it will be a placeholder pic for now)
