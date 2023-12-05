@@ -1,5 +1,5 @@
 require('dotenv').config();
-const axios = require('axios');
+const axios = require('axios').default;
 const fs = require("fs");
 
 /**
@@ -65,8 +65,46 @@ async function getAccessToken() {
   return token;
 }
 
+function getApiResponse(apiUrl, accessToken){
+  return axios.get(apiUrl, {
+    headers: {
+      'Authorization': `Bearer ${accessToken}`,
+    },
+  })
+    .then(response => {
+      return response.data;
+    })
+    .catch(error => {
+      // console.error('Error:', error.message);
+      throw new Error(`error: ${error.message}`);
+    });
+}
+
+function getCardApiUrl(cardId, locale){
+  let website = "https://us.api.blizzard.com";
+  let route = "/hearthstone/cards/";
+  let gameMode = "gameMode=battlegrounds";
+  let localeOption = locale === undefined ? "" : `&locale=${locale}`;
+  return `${website}${route}${cardId}?${gameMode}${localeOption}`;
+}
+
 async function main() {
   let token = await getAccessToken();
+  let apiUrl = getCardApiUrl("g", "en_US");
+  console.log(apiUrl);
+
+  try {
+    let response = await getApiResponse(apiUrl, token);
+    console.log(response);
+  } catch (error) {
+    console.error(error.message);
+  }
+  
+
+
+
+  
+  
   
 }
 
