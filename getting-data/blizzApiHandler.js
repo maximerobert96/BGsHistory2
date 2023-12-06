@@ -88,9 +88,17 @@ function getCardApiUrl(cardId, locale){
   return `${website}${route}${cardId}?${gameMode}${localeOption}`;
 }
 
+async function downloadImage(url, filename) {
+  const response = await axios.get(url, { responseType: 'arraybuffer' });
+
+  fs.writeFile(filename, response.data, (err) => {
+    if (err) throw err;
+  });
+}
+
 async function main() {
   let token = await getAccessToken();
-  let apiUrl = getCardApiUrl("g", "en_US");
+  let apiUrl = getCardApiUrl(80769, "en_US");
   console.log(apiUrl);
 
   try {
@@ -99,8 +107,6 @@ async function main() {
   } catch (error) {
     console.error(error.message);
   }
-  
-
 
 
   
