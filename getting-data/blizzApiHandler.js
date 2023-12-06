@@ -97,6 +97,8 @@ async function downloadImage(url, filename) {
 }
 
 async function main() {
+  
+
   let token = await getAccessToken();
   let apiUrl = getCardApiUrl(80769, "en_US");
   console.log(apiUrl);
@@ -109,7 +111,12 @@ async function main() {
   }
 
 
-  
+  // most recent patch = 190416
+
+  // for each card in mapping json, search for it in the api
+    // if I get an error, add the dbfid of the card in a text file
+  // find the first patch for that card in the mapping file. If the card has battlegroundsNormalDbfId, download the golden picture instead of the regular one
+  // save the pictures with the format ./[LOCALE]/[CARD_DBFID]_[PATCH].png
   
   
 }
