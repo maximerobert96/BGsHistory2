@@ -92,25 +92,13 @@ function getCardApiUrl(cardId, locale){
 }
 
 async function downloadImage(url, filename) {
-  await axios.get(url, {responseType: "arraybuffer"})
-  .then((response) => {
+  const response = await axios.get(url, {responseType: "arraybuffer"});
+  return new Promise((resolve, reject) => {
     fs.writeFile(absolutePath(filename), response.data, (err) => {
-      if (err) throw err;
+      if (err) reject(err);
+      else resolve();
     });
-  });
-//   if(response.status === 404){
-//     console.error(`Image not found at URL ${url}`);
-//     return;
-//   }
-
-//   fs.writeFile(absolutePath(filename), response.data, (err) => {
-//     if (err) throw err;
-//   });
-  
-//  } catch (error) {
-//   console.error(`Error downloading image from ${url}: ${error.message}`);
-//  }
-  
+  })
 }
   
 
@@ -201,36 +189,38 @@ function makeHsJsonArtUrl(hsJsonLocale, hsJsonId){
 
 async function downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId) {
   const localesStrings = getLocalesStrings();
+  
   for(let locale in localesStrings) {
     let hsJsonLocale = localesStrings[locale];
     let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
+    
     try {
-      downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`);
+      await downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`);
     } catch (error) {
-      console.error("test");
+      console.error(`Not finding ${url}`);
+      throw error;
     }
     
     
   }
 }
 
-function getRemainingImagesFromHSJson(){
+async function getRemainingImagesFromHSJson(){
   let patchId = 190416; // most recent patch
   let remainingCards = getJsonFromFile("./couldntbefound.json");
   let fails = {};
 
   for(let dbfId in remainingCards) {
     let hsJsonId = remainingCards[dbfId];
-      try {
-        downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId);
-      } catch (error) {
-        fails[dbfId] = hsJsonId;
-      } 
+    try {
+      await downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId);
+    } catch (error) {
+      fails[dbfId] = hsJsonId;
+    } 
   
-
-    break;
   }
-  console.log(fails);
+  // console.log(fails);
+  saveJsonToFile("./stillcouldntbefound.json", fails);
   
 }
 
