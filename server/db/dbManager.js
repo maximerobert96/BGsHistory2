@@ -1,6 +1,7 @@
 const fs = require('fs');
 const poolManager = require("./poolManager");
 const { saveJsonToFile } = require('./dbUpdater');
+const path = require('path');
 
 
 function isActiveCard( currentCard ) {
@@ -32,14 +33,14 @@ function findMostRecentVersionLowerThanRef(referencePatch, patchesOfCardChange) 
 }
 
 function getActiveCardsOfPatch(patchId, tribes) {
-    let mappingJson = getJsonFromFile("./mapping.json");
+    let mappingJson = getJsonFromFile("../mapping.json");
     let cards = mappingJson.cards;
     let activeCards = [];
     for(let cardId in cards) {
         let patchesOfCardChange = cards[cardId];
         if(patchId >= patchesOfCardChange[0]) {
             let highestPatch = findMostRecentVersionLowerThanRef(patchId, patchesOfCardChange);
-            let jsonHighestPatch = getJsonFromFile(`./patches/enUS/${highestPatch}.json`);
+            let jsonHighestPatch = getJsonFromFile(`../patches/enUS/${highestPatch}.json`);
             if(tribes) {
                 jsonHighestPatch = keepCardsFromTribes(jsonHighestPatch, tribes);
             }
@@ -55,7 +56,7 @@ function getActiveCardsOfPatch(patchId, tribes) {
 }
 
 function getJsonFromFile(file) {
-    return JSON.parse(fs.readFileSync(file));
+    return JSON.parse(fs.readFileSync(absolutePath(file)));
 }
 
 function keepSpecificFields( cardObj ) {
@@ -191,20 +192,23 @@ function isCardValidForTribes(card, tribes) {
 }
 
 function getJsonMappingFile() {
-    return getJsonFromFile("./mapping.json");
+    return getJsonFromFile("../mapping.json");
 }
 
 function getJsonDBOfPatch(patchId) {
-    return getJsonFromFile(`./patches/enUS/${patchId}.json`);
+    return getJsonFromFile(`../patches/enUS/${patchId}.json`);
 }
 
+function absolutePath(relativePath){
+    return path.resolve(__dirname, relativePath);
+}
 
 
 function getChangesOfPatch(patchId) {
     let mappingJson = getJsonMappingFile();
     let idsChangesOfPatch = mappingJson.patches[patchId];
     let currentPatchJson = getJsonDBOfPatch(patchId);
-    let patchInfo = getJsonFromFile("./patches.json")[patchId];
+    let patchInfo = getJsonFromFile("../patches.json")[patchId];
     let cardsChanged = {"patchInfo": patchInfo, "cardChanges": []};
 
     for(let id of idsChangesOfPatch) {
@@ -308,6 +312,7 @@ function addServerPatchToPatchesFile(build) {
     patches[build] = {build: build, patchNotes: "", releaseDate: "", serverSide: true};
     saveJsonToFile("./patches.json", patches);
 }
+
 
 module.exports = { 
     getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile
