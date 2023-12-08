@@ -119,20 +119,24 @@ function downloadImages(images, dbfId, patchId){
   }
 }
 
+function saveJsonToFile(filename, jsonObj) {
+  fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
+}
+
 async function main() {
   // most recent patch = 190416
   let patchId = 190416;
   let dbfIdList = getListAllCardsDb();
-  let i = 0;
+  // let i = 0;
   let token = await getAccessToken();
   let fails = {}; // keys are dbfIds, values are ids
 
   for(let dbfId of dbfIdList){
-    if(i > 0){
-      break;
-    }
-    ++i;
-    dbfId = 70150; // debug purposes
+    // if(i > 0){
+    //   break;
+    // }
+    // ++i;
+    // dbfId = 70150; // debug purposes
     let currentCard = getCardById(dbfId);
     let isGolden = currentCard.hasOwnProperty("battlegroundsNormalDbfId");
     let apiUrl = getCardApiUrl(dbfId);
@@ -152,12 +156,12 @@ async function main() {
       fails[dbfId] = currentCard.id;
     }
     
-    
+    saveJsonToFile("./couldntbefound.json", fails);
     // console.log(getCardById(dbfId).id);
     
   }
 
-  console.log(fails);
+  // console.log(fails);
 
   // temp();
 
