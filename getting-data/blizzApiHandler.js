@@ -123,20 +123,14 @@ function saveJsonToFile(filename, jsonObj) {
   fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
 }
 
-async function main() {
-  // most recent patch = 190416
-  let patchId = 190416;
+async function getAllImagesFromBlizzAPI() {
+  let patchId = 190416; // most recent patch
   let dbfIdList = getListAllCardsDb();
-  // let i = 0;
+
   let token = await getAccessToken();
   let fails = {}; // keys are dbfIds, values are ids
 
   for(let dbfId of dbfIdList){
-    // if(i > 0){
-    //   break;
-    // }
-    // ++i;
-    // dbfId = 70150; // debug purposes
     let currentCard = getCardById(dbfId);
     let isGolden = currentCard.hasOwnProperty("battlegroundsNormalDbfId");
     let apiUrl = getCardApiUrl(dbfId);
@@ -150,48 +144,19 @@ async function main() {
         images = response.battlegrounds.image;
       }
       downloadImages(images, dbfId, patchId);
-      // console.log(response);
     } catch (error) {
       console.error(error.message);
       fails[dbfId] = currentCard.id;
     }
     
     saveJsonToFile("./couldntbefound.json", fails);
-    // console.log(getCardById(dbfId).id);
     
   }
-
-  // console.log(fails);
-
-  // temp();
-
-  // let token = await getAccessToken();
-  // let apiUrl = getCardApiUrl(80769, "en_US");
-  // console.log(apiUrl);
-
-  // try {
-  //   let response = await getApiResponse(apiUrl, token);
-  //   console.log(response);
-  // } catch (error) {
-  //   console.error(error.message);
-  // }
-
-
-
-  // most recent patch = 190416
-
-  
-
-
-  // for each card in mapping json, search for it in the api
-    // if I get an error, add the dbfid of the card in a text file
-  // find the first patch for that card in the mapping file. If the card has battlegroundsNormalDbfId, download the golden picture instead of the regular one
-  // save the pictures with the format ./[LOCALE]/[CARD_DBFID]_[PATCH].png
-  
-  
 }
 
-main();
+function getRemainingImagesFromHSJson(){
+  
+}
 
 
 
