@@ -92,12 +92,29 @@ function getCardApiUrl(cardId, locale){
 }
 
 async function downloadImage(url, filename) {
-  const response = await axios.get(url, { responseType: 'arraybuffer' });
-
-  fs.writeFile(absolutePath(filename), response.data, (err) => {
-    if (err) throw err;
+  await axios.get(url, {responseType: "arraybuffer"})
+  .then((response) => {
+    fs.writeFile(absolutePath(filename), response.data, (err) => {
+      if (err) throw err;
+    });
   });
+//   if(response.status === 404){
+//     console.error(`Image not found at URL ${url}`);
+//     return;
+//   }
+
+//   fs.writeFile(absolutePath(filename), response.data, (err) => {
+//     if (err) throw err;
+//   });
+  
+//  } catch (error) {
+//   console.error(`Error downloading image from ${url}: ${error.message}`);
+//  }
+  
 }
+  
+
+  
 
 function absolutePath(relativePath){
   return path.resolve(__dirname, relativePath);
@@ -108,7 +125,7 @@ function getListAllCardsDb(){
   return Object.keys(mappingJson.cards);
 }
 
-function downloadImages(images, dbfId, patchId){
+function downloadImagesFromBlizzAPI(images, dbfId, patchId){
   if(Object.keys(images).length === 0){
     throw new Error(`error: no images`);
   }
@@ -123,7 +140,11 @@ function saveJsonToFile(filename, jsonObj) {
   fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
 }
 
-async function getAllImagesFromBlizzAPI() {
+function getJsonFromFile(file){
+  return JSON.parse(fs.readFileSync(absolutePath(file)));
+}
+
+async function downloadAllImagesFromBlizzAPI() {
   let patchId = 190416; // most recent patch
   let dbfIdList = getListAllCardsDb();
 
@@ -143,7 +164,7 @@ async function getAllImagesFromBlizzAPI() {
       } else {
         images = response.battlegrounds.image;
       }
-      downloadImages(images, dbfId, patchId);
+      downloadImagesFromBlizzAPI(images, dbfId, patchId);
     } catch (error) {
       console.error(error.message);
       fails[dbfId] = currentCard.id;
@@ -154,9 +175,75 @@ async function getAllImagesFromBlizzAPI() {
   }
 }
 
+function getLocalesStrings(){
+  let localesStrings = {
+    de_DE: "deDE",
+    en_US: "enUS",
+    es_ES: "esES",
+    es_MX: "esMX",
+    fr_FR: "frFR",
+    it_IT: "itIT",
+    ja_JP: "jaJP",
+    ko_KR: "koKR",
+    pl_PL: "plPL",
+    pt_BR: "ptBR",
+    ru_RU: "ruRU",
+    th_TH: "thTH",
+    zh_CN: "zhCN",
+    zh_TW: "zhTW"
+  }
+  return localesStrings;
+}
+
+function makeHsJsonArtUrl(hsJsonLocale, hsJsonId){
+  return `https://art.hearthstonejson.com/v1/bgs/latest/${hsJsonLocale}/512x/${hsJsonId}.png`;
+}
+
+async function downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId) {
+  const localesStrings = getLocalesStrings();
+  for(let locale in localesStrings) {
+    let hsJsonLocale = localesStrings[locale];
+    let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
+    try {
+      downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`);
+    } catch (error) {
+      console.error("test");
+    }
+    
+    
+  }
+}
+
 function getRemainingImagesFromHSJson(){
+  let patchId = 190416; // most recent patch
+  let remainingCards = getJsonFromFile("./couldntbefound.json");
+  let fails = {};
+
+  for(let dbfId in remainingCards) {
+    let hsJsonId = remainingCards[dbfId];
+      try {
+        downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId);
+      } catch (error) {
+        fails[dbfId] = hsJsonId;
+      } 
+  
+
+    break;
+  }
+  console.log(fails);
   
 }
 
+getRemainingImagesFromHSJson();
 
+// temp();
+// function temp(){
+//   let patchId = 190416;
+//   let dbfId = 1;
+//   let hsJsonId = "GVG_058_G";
+//   let locale = "en_US";
+//   let hsJsonLocale = "enUS";
+//   let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
+//   downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`)
 
+// }
