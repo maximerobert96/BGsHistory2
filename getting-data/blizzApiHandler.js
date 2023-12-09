@@ -205,6 +205,23 @@ async function downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId) {
   }
 }
 
+async function downloadImageOfOneCardFromHSJson(dbfId, hsJsonId, patchId, locale) {
+  const localesStrings = getLocalesStrings();
+  
+  let hsJsonLocale = localesStrings[locale];
+  let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
+  
+  try {
+    await downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`);
+  } catch (error) {
+    console.error(`Not finding ${url}`);
+    throw error;
+  }
+    
+    
+  
+}
+
 async function getRemainingImagesFromHSJson(){
   let patchId = 190416; // most recent patch
   let remainingCards = getJsonFromFile("./couldntbefound.json");
@@ -224,7 +241,26 @@ async function getRemainingImagesFromHSJson(){
   
 }
 
-getRemainingImagesFromHSJson();
+async function getRemainingImagesOnlyForUS(){
+  let patchId = 190416;
+  let remainingCards = getJsonFromFile("./stillcouldntbefound.json");
+
+
+  for(let dbfId in remainingCards) {
+    let hsJsonId = remainingCards[dbfId];
+    try {
+      await downloadImageOfOneCardFromHSJson(dbfId, hsJsonId, patchId, "en_US").then( () => {
+        console.log(`Successfully gotten the english image for ${hsJsonId}: ${dbfId} $`);
+      });
+    } catch (error) {
+
+    } 
+  
+  }
+
+}
+
+// getRemainingImagesFromHSJson();
 
 // temp();
 // function temp(){
