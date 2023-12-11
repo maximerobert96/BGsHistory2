@@ -236,7 +236,6 @@ async function getRemainingImagesFromHSJson(){
     } 
   
   }
-  // console.log(fails);
   saveJsonToFile("./stillcouldntbefound.json", fails);
   
 }
@@ -260,16 +259,4 @@ async function getRemainingImagesOnlyForUS(){
 
 }
 
-// getRemainingImagesFromHSJson();
-
-// temp();
-// function temp(){
-//   let patchId = 190416;
-//   let dbfId = 1;
-//   let hsJsonId = "GVG_058_G";
-//   let locale = "en_US";
-//   let hsJsonLocale = "enUS";
-//   let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
-//   downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`)
-
-// }
+//
