@@ -15,7 +15,7 @@ Automatically fetch the new changes from the official Blizzard API, and/or the h
 * ~~Figure out a folder tree system, or card names.~~
 * ~~Download the images of all the ids I have, and keep track of the images I couldn't find.~~
 * The following are stuff I should already have done, and that I'll have to update / reimplement.
-* * Download the patches since the last one, and update the patches.json file.
-* * Keep the BG cards, and the cards that exist in my mapping file (because some might escape the BG filters).
-* * Compare the cards, add changes to the mapping file, save the new versions in their patch files.
-* * Download the images of the cards that didn't exist back in the last patch I have on record.
+  * Download the patches since the last one, and update the patches.json file.
+  * Keep the BG cards, and the cards that exist in my mapping file (because some might escape the BG filters).
+  * Compare the cards, add changes to the mapping file, save the new versions in their patch files. For new cards, generally the tribe is equal to the race, and if no race, it's general.
+  * Download the images of the cards that didn't exist back in the last patch I have on record.
