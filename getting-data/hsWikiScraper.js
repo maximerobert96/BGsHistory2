@@ -1,6 +1,7 @@
 const { JSDOM } = require("jsdom");
+const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
 
-async function getNewPatches() {
+async function getNewPatches(lastPatch) {
     
     return JSDOM.fromURL("https://hearthstone.wiki.gg/wiki/Category:Patches")
     .then(async (dom) => {
@@ -14,7 +15,7 @@ async function getNewPatches() {
                 if(textOfElement.includes("Patch ") && textOfElement.indexOf(".") != -1) {
                     let indexLastPeriod = textOfElement.lastIndexOf(".");
                     let buildNumber = textOfElement.substring(indexLastPeriod + 1);
-                    if(buildNumber >= 189017) { // arbitrary patch number for testing
+                    if(buildNumber > lastPatch) {
                         let urlOfElem = `https://hearthstone.wiki.gg${element.getAttribute("href")}`;
                         
                         
@@ -80,53 +81,37 @@ async function getPatchFromUrl(patchUrl) {
 
         let patchObj = { patchNotes: patchNotesUrl, build: build, releaseDate: releaseDate, patchNumber: patchNumber };
         return patchObj;
-        console.log(JSON.stringify(patchObj));
-        // resolve(patchObj);
-
-        // console.log(releaseDate, patchNumber, build, patchNotesUrl);
     });
     
 
 
 }
-// getPatchFromUrl("https://hearthstone.wiki.gg/wiki/Patch_23.6.2.144772");
-// getPatchFromUrl("https://hearthstone.wiki.gg/wiki/Patch_28.0.0.189017");
 
-let test = {
-    '1': {
-      patchNotes: 'https://hearthstone.blizzard.com/en-us/news/24008693/28-0-patch-notes',
-      build: '189017',
-      releaseDate: 'November 7, 2023',
-      patchNumber: '28.0.0'
-    },
-    '2': {
-      patchNotes: 'https://hearthstone.blizzard.com/en-us/news/24008693/28-0-patch-notes',
-      build: '189384',
-      releaseDate: 'November 10, 2023',
-      patchNumber: '28.0.0'
-    },
-    '3': {
-      patchNotes: 'https://hearthstone.blizzard.com/en-us/news/24033781',
-      build: '190145',
-      releaseDate: 'November 28, 2023',
-      patchNumber: '28.0.3'
-    },
-    '4': {
-      patchNotes: 'https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes',
-      build: '190416',
-      releaseDate: 'December 5, 2023',
-      patchNumber: '28.2.0'
-    },
-    '5': {
-      patchNotes: 'https://hearthstone.blizzard.com/en-us/news/24008698/28-2-1-patch-notes',
-      build: '190920',
-      releaseDate: 'December 8, 2023',
-      patchNumber: '28.2.1'
-    }
-  };
-
-getNewPatches().then( (o) => {
-    console.log({...test, ...o});
-});
     
+function getLastPatch(patches){
+    let buildNumbersS = Object.keys(patches);
+    // convert strings to numbers
+    let buildNumbers = buildNumbersS.map(Number);
+    return Math.max(...buildNumbers);
+}
 
+function saveNewPatches(oldPatches, newPatches){
+    let updatedPatches = {...oldPatches, newPatches};
+    saveJsonToFile("../server/patches.json", updatedPatches);
+}
+
+function main(){
+    let patches = getJsonFromFile("../server/patches.json");
+    let lastPatch = getLastPatch(patches);
+    getNewPatches(lastPatch).then( newPatches => {
+        // for each new build, compare to the previous one
+
+
+        
+        // at the end, save the new patches to the patches.json
+        // saveNewPatches(patches, newPatches);
+    });
+
+}
+
+main();

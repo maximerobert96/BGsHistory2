@@ -259,4 +259,6 @@ async function getRemainingImagesOnlyForUS(){
 
 }
 
+module.exports = { getJsonFromFile, saveJsonToFile }
+
 //
