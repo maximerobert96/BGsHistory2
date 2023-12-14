@@ -1,5 +1,7 @@
 const { JSDOM } = require("jsdom");
 const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
+const axios = require('axios').default;
+const { getJsonMappingFile } = require('../server/db/dbManager');
 
 async function getNewPatches(lastPatch) {
     
@@ -97,21 +99,66 @@ function getLastPatch(patches){
 
 function saveNewPatches(oldPatches, newPatches){
     let updatedPatches = {...oldPatches, newPatches};
-    saveJsonToFile("../server/patches.json", updatedPatches);
+    saveJsonToFile("../server/patches2.json", updatedPatches);
+}
+
+function keepBgCards(json){
+    let mappingJson = getJsonMappingFile();
+    let cardsInMapping = mappingJson.cards;
+    return json.filter(card => isValidBgCard(card, cardsInMapping));
+}
+
+function isValidBgCard(card, cardsInMapping){
+    return cardsInMapping.hasOwnProperty(card.dbfId) || ((card.techLevel || card.set === "BATTLEGROUNDS") && card.type !== "ENCHANTMENT");
+}
+
+function getPatch(buildNumber) {
+    return getJsonFromUrl(`https://api.hearthstonejson.com/v1/${buildNumber}/enUS/cards.json`)
+        .then(json => {
+            let formattedJson = keepBgCards(json);
+            return formattedJson;
+        });
+}
+
+function getJsonFromUrl(url){
+    return axios.get(url, {responseType: "json"}).then((response) => {
+        let json = response.data;
+        return json;
+    });
 }
 
 function main(){
-    let patches = getJsonFromFile("../server/patches.json");
+    let patchesObj = getJsonFromFile("../server/patches.json");
     let lastPatch = getLastPatch(patches);
-    getNewPatches(lastPatch).then( newPatches => {
+    getNewPatches(lastPatch).then( newPatchesObj => {
         // for each new build, compare to the previous one
-
+        let previousPatch = getPatch(lastPatch);
+        let newPatches = Object.keys(newPatchesObj)
+            .sort((a,b) => a - b);
+        for(let patch of newPatches){
+            let currentPatch = getPatch(patch);
+            comparePatches(currentPatch, previousPatch);
+            previousPatch = currentPatch;
+        }
 
         
         // at the end, save the new patches to the patches.json
-        // saveNewPatches(patches, newPatches);
+        // saveNewPatches(patchesObj, newPatchesObj);
     });
 
 }
 
-main();
+// main();
+
+
+
+// getPatch(190920).then( bgCards => {
+//     let i = 0;
+//     for(let card of bgCards){
+//         if(i > 10)
+//             break;
+//         console.log(card);
+//         i++;
+
+//     }
+// });
