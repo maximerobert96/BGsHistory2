@@ -115,8 +115,8 @@ function isValidBgCard(card, cardsInMapping){
 function getPatch(buildNumber) {
     return getJsonFromUrl(`https://api.hearthstonejson.com/v1/${buildNumber}/enUS/cards.json`)
         .then(json => {
-            let formattedJson = keepBgCards(json);
-            return formattedJson;
+            let bgCards = keepBgCards(json);
+            return bgCards;
         });
 }
 
@@ -137,7 +137,7 @@ function main(){
             .sort((a,b) => a - b);
         for(let patch of newPatches){
             let currentPatch = getPatch(patch);
-            comparePatches(currentPatch, previousPatch);
+            comparePatches(previousPatch, currentPatch);
             previousPatch = currentPatch;
         }
 
