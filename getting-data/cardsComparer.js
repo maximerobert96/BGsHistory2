@@ -1,4 +1,4 @@
-const { getJsonMappingFile } = require('../server/db/dbManager');
+const { getJsonMappingFile, getCardById } = require('../server/db/dbManager');
 const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
 
 // compare a card to itself from the previous patch
@@ -60,18 +60,48 @@ function addCustomFields(card, cardsInPatch){
     let cardsArray = Object.values(cardsInPatch);
 
     if(mapping.cards.hasOwnProperty(card.dbfId)){
-        // import custom fields from the last version we have
-        let oldVersion = {}; // TODO: find the previous version in my db
+        let oldVersion = getCardById(card.dbfId); // should give the last version of the card since no patch is specified
         let newVersion = card;
         cardWithCustomFields = {...oldVersion, ...newVersion}; // keeps the custom fields of the old ones, and adds new values to existing ones
 
     } else {
-        // create associatedTribes field
-        // create relatedCards field (by getting tokens) (this will use cardsArray)
+        cardWithCustomFields = addTribes(cardWithCustomFields);
+        cardWithCustomFields = addTokens(cardWithCustomFields, cardsArray);
     }
 
-
     return cardWithCustomFields;
+}
+
+function addTribes(card) {
+
+    // ignore cards that are not active
+    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero"))){
+        return card;
+    }
+
+    // ALL becomes GENERAL, others with card types keep them as tribes, and the
+    // rest become GENERAL
+    if (card.hasOwnProperty(races) && card.races.toString() === ["ALL"].toString()) {
+        card.associatedTribes = ["GENERAL"];
+    } else if (card.hasOwnProperty(races)) {
+        card.associatedTribes = races;
+    } else {
+        card.associatedTribes = ["GENERAL"];
+    }
+
+    return card;
+}
+
+function addTokens(card, cardsArray) {
+
+    let token = cardsArray.find( c =>
+        c.id === card.id + "t");
+
+    if(token !== undefined){
+        card.relatedCards = [ token ];
+    } 
+
+    return card;
 }
 
 function formatCards(cardsArray){
@@ -115,9 +145,3 @@ function bothVersionsFieldExistAndHaveSameValue(currentVersion, previousVersion,
 function onlyOneVersionExists(currentVersion, previousVersion, field) {
     return (!currentVersion[field] && previousVersion[field]) || (currentVersion[field] && !previousVersion[field]);
 }
-
-let oldVersionWithCustomFields = { attack: 1, health: 2, customField1: "field"};
-let newestVersion = {attack: 5, health: 2};
-
-let newestVersionWithCustomFields = { ...oldVersionWithCustomFields, ...newestVersion};
-console.log(JSON.stringify(newestVersionWithCustomFields, null, 2));
