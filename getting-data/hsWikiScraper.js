@@ -2,6 +2,7 @@ const { JSDOM } = require("jsdom");
 const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
 const axios = require('axios').default;
 const { getJsonMappingFile } = require('../server/db/dbManager');
+const { comparePatches } = require("./cardsComparer");
 
 async function getNewPatches(lastPatch) {
     
@@ -99,7 +100,8 @@ function getLastPatch(patches){
 
 function saveNewPatches(oldPatches, newPatches){
     let updatedPatches = {...oldPatches, newPatches};
-    saveJsonToFile("../server/patches2.json", updatedPatches);
+    saveJsonToFile("../temp/patches2.json", updatedPatches); // TODO update to real path
+    // saveJsonToFile("../server/patches2.json", updatedPatches);
 }
 
 function keepBgCards(json){
@@ -112,12 +114,15 @@ function isValidBgCard(card, cardsInMapping){
     return cardsInMapping.hasOwnProperty(card.dbfId) || ((card.techLevel || card.set === "BATTLEGROUNDS") && card.type !== "ENCHANTMENT");
 }
 
-function getPatch(buildNumber) {
-    return getJsonFromUrl(`https://api.hearthstonejson.com/v1/${buildNumber}/enUS/cards.json`)
-        .then(json => {
-            let bgCards = keepBgCards(json);
-            return bgCards;
-        });
+async function getPatch(buildNumber) {
+    try {
+        let json = await getJsonFromUrl(`https://api.hearthstonejson.com/v1/${buildNumber}/enUS/cards.json`);
+        let bgCards = keepBgCards(json);
+        return bgCards
+    } catch (error) {
+        console.error(`Error fetching patch ${buildNumber}: ${error.message}`);
+        throw error;
+    }
 }
 
 function getJsonFromUrl(url){
@@ -127,28 +132,44 @@ function getJsonFromUrl(url){
     });
 }
 
-function main(){
+async function main() {
     let patchesObj = getJsonFromFile("../server/patches.json");
-    let lastPatch = getLastPatch(patches);
-    getNewPatches(lastPatch).then( newPatchesObj => {
-        // for each new build, compare to the previous one
-        let previousPatch = getPatch(lastPatch);
+    let lastPatch = getLastPatch(patchesObj);
+    try {
+        let newPatchesObj = await getNewPatches(lastPatch);
+        let previousPatch = await getPatch(lastPatch);
         let newPatches = Object.keys(newPatchesObj)
             .sort((a,b) => a - b);
-        for(let patch of newPatches){
-            let currentPatch = getPatch(patch);
-            comparePatches(previousPatch, currentPatch);
+        
+        for(let patch of newPatches) {
+            let currentPatch = await getPatch(patch);
+            comparePatches(previousPatch, currentPatch, patch);
             previousPatch = currentPatch;
         }
+        saveNewPatches(patchesObj, newPatchesObj);
+    } catch (error) {
+        console.error('Error: ', error.message);
+    }
+
+    // getNewPatches(lastPatch).then( newPatchesObj => {
+    //     // for each new build, compare to the previous one
+    //     let previousPatch = getPatch(lastPatch);
+    //     let newPatches = Object.keys(newPatchesObj)
+    //         .sort((a,b) => a - b);
+    //     for(let patch of newPatches){
+    //         let currentPatch = getPatch(patch);
+    //         comparePatches(previousPatch, currentPatch, patch);
+    //         previousPatch = currentPatch;
+    //     }
 
         
-        // at the end, save the new patches to the patches.json
-        // saveNewPatches(patchesObj, newPatchesObj);
-    });
+    //     // at the end, save the new patches to the patches.json
+    //     saveNewPatches(patchesObj, newPatchesObj);
+    // });
 
 }
 
-// main();
+main();
 
 
 

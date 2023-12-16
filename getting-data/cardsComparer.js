@@ -62,7 +62,8 @@ function addCustomFields(card, cardsInPatch){
     if(mapping.cards.hasOwnProperty(card.dbfId)){
         let oldVersion = getCardById(card.dbfId); // should give the last version of the card since no patch is specified
         let newVersion = card;
-        cardWithCustomFields = {...oldVersion, ...newVersion}; // keeps the custom fields of the old ones, and adds new values to existing ones
+        cardWithCustomFields = {...oldVersion, ...newVersion}; // keeps the custom fields of the old ones, and adds new values to existing ones.
+        // FIXME: the problem is that it'll always add isBattlegroundsMinion (and other similar fields) instead of tracking the removal of that field.
 
     } else {
         cardWithCustomFields = addTribes(cardWithCustomFields);
@@ -145,3 +146,5 @@ function bothVersionsFieldExistAndHaveSameValue(currentVersion, previousVersion,
 function onlyOneVersionExists(currentVersion, previousVersion, field) {
     return (!currentVersion[field] && previousVersion[field]) || (currentVersion[field] && !previousVersion[field]);
 }
+
+module.exports = { comparePatches }
