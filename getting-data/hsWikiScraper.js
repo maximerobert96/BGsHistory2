@@ -142,6 +142,7 @@ async function main() {
             .sort((a,b) => a - b);
         
         for(let patch of newPatches) {
+            console.log(`Currently on patch: ${patch}`);
             let currentPatch = await getPatch(patch);
             comparePatches(previousPatch, currentPatch, patch);
             previousPatch = currentPatch;
