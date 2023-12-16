@@ -132,6 +132,31 @@ function getJsonFromFile(file){
   return JSON.parse(fs.readFileSync(absolutePath(file)));
 }
 
+async function downloadImagesFromBlizzAPIForCardId(dbfId, patchId, isGolden) {
+  let token = await getAccessToken();
+  let fails = {};
+
+    let apiUrl = getCardApiUrl(dbfId);
+    
+    try {
+      let response = await getApiResponse(apiUrl, token);
+      let images;
+      if(isGolden){
+        images = response.battlegrounds.imageGold;
+      } else {
+        images = response.battlegrounds.image;
+      }
+      downloadImagesFromBlizzAPI(images, dbfId, patchId);
+    } catch (error) {
+      console.error(error.message);
+      fails[dbfId] = currentCard.id;
+    }
+    
+    saveJsonToFile("./temp/fails.json", fails);
+    
+
+}
+
 async function downloadAllImagesFromBlizzAPI() {
   let patchId = 190416; // most recent patch
   let dbfIdList = getListAllCardsDb();
@@ -259,6 +284,6 @@ async function getRemainingImagesOnlyForUS(){
 
 }
 
-module.exports = { getJsonFromFile, saveJsonToFile }
+module.exports = { getJsonFromFile, saveJsonToFile, downloadImagesFromBlizzAPIForCardId }
 
 //

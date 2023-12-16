@@ -99,7 +99,7 @@ function getLastPatch(patches){
 }
 
 function saveNewPatches(oldPatches, newPatches){
-    let updatedPatches = {...oldPatches, newPatches};
+    let updatedPatches = {...oldPatches, ...newPatches};
     saveJsonToFile("../temp/patches2.json", updatedPatches); // TODO update to real path
     // saveJsonToFile("../server/patches2.json", updatedPatches);
 }

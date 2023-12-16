@@ -1,5 +1,5 @@
 const { getJsonMappingFile, getCardById } = require('../server/db/dbManager');
-const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
+const { getJsonFromFile, saveJsonToFile, downloadImagesFromBlizzAPIForCardId } = require('./blizzApiHandler');
 
 // compare a card to itself from the previous patch
 //      if it didn't exist, add the change
@@ -16,8 +16,8 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
     let previousPatch = formatCards(bgCardsOfPrevious);
     let currentPatch = formatCards(bgCardsOfCurrent);
 
-    let directoryMapping = "./temp/"; //TODO update to real one later when everything works
-    let directoryPatches = "./temp/patches/"; //TODO update to real one later when everything works
+    let directoryMapping = "../server/";
+    let directoryPatches = "../server/patches/enUS";
     let mapping = getJsonFromFile(`${directoryMapping}mapping.json`); 
     mapping.patches[currentPatchId] = [];
 
@@ -42,19 +42,25 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
             }
 
         } else {
+            // temporary, usually it should be outside the else, and I should download the pictures for the latest patch
+            let currentVersion = currentPatch[id];
+            let isGolden = currentVersion.hasOwnProperty("battlegroundsNormalDbfId");
+            downloadImagesFromBlizzAPIForCardId(id, 190416, isGolden);
+            
+
             mapping.cards[id] = [ currentPatchId ];
             mapping.patches[currentPatchId].push(id);
         }
     }
 
-    // TODO think about downloading images
+    // TODO downloading images only for current one
 
     saveJsonToFile(`${directoryMapping}mapping.json`, mapping); // save mapping file
     saveJsonToFile(`${directoryPatches}${currentPatchId}.json`, newVersionsInPatch); // save newVersions file
 }
 
 function addCustomFields(card, cardsInPatch){
-    let directory = "./temp/"; //TODO update to real one later when everything works
+    let directory = "../server/"; //TODO update to real one later when everything works
     let mapping = getJsonFromFile(`${directory}mapping.json`); 
     let cardWithCustomFields = card;
     let cardsArray = Object.values(cardsInPatch);
