@@ -62,8 +62,8 @@ function addCustomFields(card, cardsInPatch){
     if(mapping.cards.hasOwnProperty(card.dbfId)){
         let oldVersion = getCardById(card.dbfId); // should give the last version of the card since no patch is specified
         let newVersion = card;
-        cardWithCustomFields = {...oldVersion, ...newVersion}; // keeps the custom fields of the old ones, and adds new values to existing ones.
-        // FIXME: the problem is that it'll always add isBattlegroundsMinion (and other similar fields) instead of tracking the removal of that field.
+        cardWithCustomFields = combineVersions(oldVersion, newVersion);
+        // cardWithCustomFields = {...oldVersion, ...newVersion}; // keeps the custom fields of the old ones, and adds new values to existing ones.
 
     } else {
         cardWithCustomFields = addTribes(cardWithCustomFields);
@@ -71,6 +71,19 @@ function addCustomFields(card, cardsInPatch){
     }
 
     return cardWithCustomFields;
+}
+
+function combineVersions(oldVersion, newVersion) {
+    let combined = {...oldVersion, newVersion};
+    let fieldsToTrackRemoval = ["isBattlegroundsPoolMinion", "battlegroundsHero"];
+
+    for(let field of fieldsToTrackRemoval) {
+        if(oldVersion.hasOwnProperty(field) && !newVersion.hasOwnProperty(field)){
+            delete combined[field];
+        }
+    }
+
+    return combined;
 }
 
 function addTribes(card) {
@@ -146,5 +159,22 @@ function bothVersionsFieldExistAndHaveSameValue(currentVersion, previousVersion,
 function onlyOneVersionExists(currentVersion, previousVersion, field) {
     return (!currentVersion[field] && previousVersion[field]) || (currentVersion[field] && !previousVersion[field]);
 }
+
+
+// let obj1 = { a: 1, b: 2, c: 3};
+// let obj2 = {a:2, d:4};
+// let resultThatIWant = {a:2, c:3, d:4}; // we track the removal of field b
+
+function temp1(obj1, obj2) {
+    let fieldToTrackChange = "b";
+    let result = {...obj1, ...obj2};
+    if(obj1.hasOwnProperty(fieldToTrackChange) && !obj2.hasOwnProperty(fieldToTrackChange)){
+        delete result[fieldToTrackChange];
+    }
+    return result;
+}
+
+// let realResult = temp1(obj1, obj2);
+// console.log(JSON.stringify(realResult));
 
 module.exports = { comparePatches }
