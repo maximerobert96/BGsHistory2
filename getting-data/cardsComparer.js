@@ -17,7 +17,7 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
     let currentPatch = formatCards(bgCardsOfCurrent);
 
     let directoryMapping = "../server/";
-    let directoryPatches = "../server/patches/enUS";
+    let directoryPatches = "../server/patches/enUS/";
     let mapping = getJsonFromFile(`${directoryMapping}mapping.json`); 
     mapping.patches[currentPatchId] = [];
 
@@ -66,7 +66,13 @@ function addCustomFields(card, cardsInPatch){
     let cardsArray = Object.values(cardsInPatch);
 
     if(mapping.cards.hasOwnProperty(card.dbfId)){
-        let oldVersion = getCardById(card.dbfId); // should give the last version of the card since no patch is specified
+        let oldVersion = {};
+        try {
+            oldVersion = getCardById(card.dbfId); // should give the last version of the card since no patch is specified
+        } catch (error) {
+            console.error(error.message);
+        }
+        
         let newVersion = card;
         cardWithCustomFields = combineVersions(oldVersion, newVersion);
 

@@ -4,6 +4,15 @@ const fs = require("fs");
 const fsExtra = require("fs-extra");
 const { getCardById, getJsonMappingFile } = require('../server/db/dbManager');
 const path = require('path');
+const Bottleneck = require('bottleneck');
+
+const limiter = new Bottleneck({
+  maxConcurrent: 1,
+  minTime: 1000 / 50,
+  reservoir: 18000,
+  reservoirRefreshAmount: 18000,
+  reservoirRefreshInterval: 60*60*1000
+});
 
 /**
  * Saves the access token and the expiry date to a file.
@@ -115,12 +124,12 @@ function getListAllCardsDb(){
 
 function downloadImagesFromBlizzAPI(images, dbfId, patchId){
   if(Object.keys(images).length === 0){
-    throw new Error(`error: no images`);
+    throw new Error(`error: no images for ${dbfId}`);
   }
   for(let locale in images){
     let imageUrl = images[locale];
     fsExtra.ensureDir(absolutePath(`./images/${locale}/${patchId}`));
-    downloadImage(imageUrl, `./images/${locale}/${patchId}/${dbfId}.png`)
+    downloadImage(imageUrl, `./images/${locale}/${patchId}/${dbfId}.png`);
   }
 }
 
@@ -134,8 +143,8 @@ function getJsonFromFile(file){
 
 async function downloadImagesFromBlizzAPIForCardId(dbfId, patchId, isGolden) {
   let token = await getAccessToken();
-  let fails = {};
 
+  return limiter.schedule(async () => {
     let apiUrl = getCardApiUrl(dbfId);
     
     try {
@@ -148,11 +157,12 @@ async function downloadImagesFromBlizzAPIForCardId(dbfId, patchId, isGolden) {
       }
       downloadImagesFromBlizzAPI(images, dbfId, patchId);
     } catch (error) {
-      console.error(error.message);
-      fails[dbfId] = currentCard.id;
+      console.error(`Card ${dbfId} failed to be downloaded. ${error.message}`);
+      
     }
+  });
     
-    saveJsonToFile("./temp/fails.json", fails);
+    
     
 
 }
