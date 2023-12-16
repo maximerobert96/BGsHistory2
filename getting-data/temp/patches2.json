@@ -1,0 +1,730 @@
+{
+  "35747": {
+    "patchNotes": "https://playhearthstone.com/en-us/blog/23190446/hearthstone-update-november-5-preparing-for-descent-of-dragons",
+    "build": "35747",
+    "releaseDate": "November 5, 2019",
+    "patchNumber": "15.6.0"
+  },
+  "36393": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/updating-to-15-6-2-and-battlegrounds-performance/17675",
+    "build": "36393",
+    "releaseDate": "November 11, 2019",
+    "patchNumber": "15.6.2"
+  },
+  "36500": {
+    "build": 36500,
+    "patchNotes": "https://playhearthstone.com/en-us/news/23231583/hearthstone-battlegrounds-update-november-19?q=hearthstone%20battlegrounds%20update",
+    "releaseDate": "November 19, 2019",
+    "serverSide": true
+  },
+  "37060": {
+    "patchNotes": "https://playhearthstone.com/en-us/blog/23239986/hearthstone-update-december-5-descent-of-dragons",
+    "build": "37060",
+    "releaseDate": "December 5, 2019",
+    "patchNumber": "16.0.0"
+  },
+  "38203": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/16-0-3-update-december-12/20356",
+    "build": "38203",
+    "releaseDate": "December 12, 2019",
+    "patchNumber": "16.0.3",
+    "serverSide": true
+  },
+  "38377": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/16-0-5-balance-update-december-19/20934",
+    "build": "38377",
+    "releaseDate": "December 19, 2019",
+    "patchNumber": "16.0.5"
+  },
+  "39282": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/1608-balance-update-coming-this-week/22295",
+    "build": "39282",
+    "releaseDate": "January 9, 2020",
+    "patchNumber": "16.0.8"
+  },
+  "39954": {
+    "patchNotes": "https://playhearthstone.com/en-us/blog/23239995/",
+    "build": "39954",
+    "releaseDate": "January 21, 2020",
+    "patchNumber": "16.2.0"
+  },
+  "40734": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_16.2.3.40734",
+    "build": "40734",
+    "releaseDate": "February 13, 2020",
+    "patchNumber": "16.2.3",
+    "serverSide": true
+  },
+  "42174": {
+    "patchNotes": "https://playhearthstone.com/en-us/blog/23312587/",
+    "build": "42174",
+    "releaseDate": "February 26, 2020",
+    "patchNumber": "16.4.0"
+  },
+  "42500": {
+    "build": 42500,
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/1641-update-live-now/25541",
+    "releaseDate": "March 5, 2020",
+    "serverSide": true
+  },
+  "43246": {
+    "patchNotes": "https://playhearthstone.com/en-us/blog/23319440/",
+    "build": "43246",
+    "releaseDate": "March 17, 2020",
+    "patchNumber": "16.6.0"
+  },
+  "44222": {
+    "patchNotes": "https://playhearthstone.com/en-us/blog/23357896/ashes-of-outland-17-0-patch-notes-march-26",
+    "build": "44222",
+    "releaseDate": "March 26, 2020",
+    "patchNumber": "17.0.0"
+  },
+  "44582": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/170-hotfix-update/27437",
+    "build": "44582",
+    "releaseDate": "March 30, 2020",
+    "patchNumber": "17.0.0"
+  },
+  "45310": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/an-update-on-demon-hunter/29091",
+    "build": "45310",
+    "releaseDate": "April 9, 2020",
+    "patchNumber": "17.0.0"
+  },
+  "45932": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/1702-balance-patch/30521",
+    "build": "45932",
+    "releaseDate": "April 20, 2020",
+    "patchNumber": "17.0.2"
+  },
+  "47374": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23418923/hearthstone-updates-may-12-patch-17-2",
+    "build": "47374",
+    "releaseDate": "May 12, 2020",
+    "patchNumber": "17.2.0"
+  },
+  "48313": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23426180/17-2-1-patch-notes",
+    "build": "48313",
+    "releaseDate": "May 18, 2020",
+    "patchNumber": "17.2.1"
+  },
+  "48705": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/1722-client-patch/33946",
+    "build": "48705",
+    "releaseDate": "May 21, 2020",
+    "patchNumber": "17.2.2"
+  },
+  "49534": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23440114/17-4-patch-notes",
+    "build": "49534",
+    "releaseDate": "June 9, 2020",
+    "patchNumber": "17.4.0"
+  },
+  "50000": {
+    "build": 50000,
+    "patchNotes": "https://www.hearthstonetopdecks.com/aranna-starseeker-joins-battlegrounds-as-a-new-hero/",
+    "releaseDate": "June 16, 2020",
+    "serverSide": true
+  },
+  "51510": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23442723/17-4-1-patch-notes",
+    "build": "51510",
+    "releaseDate": "June 18, 2020",
+    "patchNumber": "17.4.1"
+  },
+  "53261": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23469099/hearthstone-17-6-patch-notes",
+    "build": "53261",
+    "releaseDate": "July 14, 2020",
+    "patchNumber": "17.6.0"
+  },
+  "54613": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23463127/18-0-patch-notes",
+    "build": "54613",
+    "releaseDate": "July 30, 2020",
+    "patchNumber": "18.0.0"
+  },
+  "56359": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23494815/18-0-2-patch-notes",
+    "build": "56359",
+    "releaseDate": "August 18, 2020",
+    "patchNumber": "18.0.2"
+  },
+  "58213": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23509390/18-2-patch-notes",
+    "build": "58213",
+    "releaseDate": "September 8, 2020",
+    "patchNumber": "18.2.0"
+  },
+  "58638": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/micro-mummy-hotfix-freezing-trap-bug/40963",
+    "build": "58638",
+    "releaseDate": "September 9, 2020",
+    "patchNumber": "18.2.0"
+  },
+  "60352": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23523062/18-4-patch-notes",
+    "build": "60352",
+    "releaseDate": "September 29, 2020",
+    "patchNumber": "18.4.0"
+  },
+  "62331": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23537436/18-4-2-patch-notes",
+    "build": "62331",
+    "releaseDate": "October 15, 2020",
+    "patchNumber": "18.4.2"
+  },
+  "63160": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23534413/18-6-patch-notes",
+    "build": "63160",
+    "releaseDate": "October 22, 2020",
+    "patchNumber": "18.6.0"
+  },
+  "65000": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23554838/18-6-1-patch-notes",
+    "build": "65000",
+    "releaseDate": "November 5, 2020",
+    "patchNumber": "18.6.1"
+  },
+  "65614": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23557139/19-0-patch-notes",
+    "build": "65614",
+    "releaseDate": "November 12, 2020",
+    "patchNumber": "19.0.0"
+  },
+  "68600": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23584141/19-2-patch-notes",
+    "build": "68600",
+    "releaseDate": "December 15, 2020",
+    "patchNumber": "19.2.0"
+  },
+  "70828": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23607342",
+    "build": "70828",
+    "releaseDate": "January 8, 2021",
+    "patchNumber": "19.2.1"
+  },
+  "71003": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23591149",
+    "build": "71003",
+    "releaseDate": "January 21, 2021",
+    "patchNumber": "19.4.0"
+  },
+  "71603": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_19.4.0.71603",
+    "build": "71603",
+    "releaseDate": "January 21, 2021",
+    "patchNumber": "19.4.0"
+  },
+  "72661": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23617532",
+    "build": "72661",
+    "releaseDate": "January 28, 2021",
+    "patchNumber": "19.4.1"
+  },
+  "74257": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23624689",
+    "build": "74257",
+    "releaseDate": "February 19, 2021",
+    "patchNumber": "19.6.0"
+  },
+  "77662": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23642550",
+    "build": "77662",
+    "releaseDate": "March 25, 2021",
+    "patchNumber": "20.0.0"
+  },
+  "79904": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23658923",
+    "build": "79904",
+    "releaseDate": "April 13, 2021",
+    "patchNumber": "20.0.2"
+  },
+  "81706": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23665634",
+    "build": "81706",
+    "releaseDate": "May 4, 2021",
+    "patchNumber": "20.2.0"
+  },
+  "82994": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23671132",
+    "build": "82994",
+    "releaseDate": "May 12, 2021",
+    "patchNumber": "20.2.2"
+  },
+  "84593": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23676205",
+    "build": "84593",
+    "releaseDate": "June 3, 2021",
+    "patchNumber": "20.4.0"
+  },
+  "86314": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23684161/20-4-2-patch-notes",
+    "build": "86314",
+    "releaseDate": "June 16, 2021",
+    "patchNumber": "20.4.2"
+  },
+  "86601": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23686109/20-8-patch-notes",
+    "build": "86601",
+    "releaseDate": "July 2, 2021",
+    "patchNumber": "20.8.0"
+  },
+  "88605": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23686112/20-8-2-patch-notes",
+    "build": "88605",
+    "releaseDate": "July 15, 2021",
+    "patchNumber": "20.8.2"
+  },
+  "88998": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23663246/21-0-patch-notes",
+    "build": "88998",
+    "releaseDate": "July 27, 2021",
+    "patchNumber": "21.0.0"
+  },
+  "91040": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23708686/21-0-3-patch-notes",
+    "build": "91040",
+    "releaseDate": "August 17, 2021",
+    "patchNumber": "21.0.3"
+  },
+  "91456": {
+    "patchNotes": "https://playhearthstone.com/news/23712592",
+    "build": "91456",
+    "releaseDate": "August 31, 2021",
+    "patchNumber": "21.2.0"
+  },
+  "93227": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_21.2.0.93227",
+    "build": "93227",
+    "releaseDate": "September 16, 2021",
+    "patchNumber": "21.2.0"
+  },
+  "93849": {
+    "patchNotes": "https://playhearthstone.com/news/23724327",
+    "build": "93849",
+    "releaseDate": "September 21, 2021",
+    "patchNumber": "21.3.0"
+  },
+  "94969": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_21.4.0.94969",
+    "build": "94969",
+    "releaseDate": "October 1, 2021",
+    "patchNumber": "21.4.0"
+  },
+  "95431": {
+    "patchNotes": "https://playhearthstone.com/news/23732808",
+    "build": "95431",
+    "releaseDate": "October 12, 2021",
+    "patchNumber": "21.4.0"
+  },
+  "121569": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23737186",
+    "build": "121569",
+    "releaseDate": "October 21, 2021",
+    "patchNumber": "21.4.4"
+  },
+  "124497": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23739023",
+    "build": "124497",
+    "releaseDate": "November 2, 2021",
+    "patchNumber": "21.6.0"
+  },
+  "126451": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23746636",
+    "build": "126451",
+    "releaseDate": "November 16, 2021",
+    "patchNumber": "21.8.0"
+  },
+  "126807": {
+    "patchNotes": "https://playhearthstone.com/en-us/news/23746636",
+    "build": "126807",
+    "releaseDate": "November 30, 2021",
+    "patchNumber": "22.0.0"
+  },
+  "127581": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_22.0.0.127581",
+    "build": "127581",
+    "releaseDate": "December 6, 2021",
+    "patchNumber": "22.0.0"
+  },
+  "128654": {
+    "patchNotes": "https://playhearthstone.com/news/23758614",
+    "build": "128654",
+    "releaseDate": "December 20, 2021",
+    "patchNumber": "22.0.2"
+  },
+  "130051": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_22.2.0.130051",
+    "build": "130051",
+    "releaseDate": "January 25, 2022",
+    "patchNumber": "22.2.0"
+  },
+  "131337": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_22.2.2.131337",
+    "build": "131337",
+    "releaseDate": "February 8, 2022",
+    "patchNumber": "22.2.2"
+  },
+  "131660": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_22.4.0.131660",
+    "build": "131660",
+    "releaseDate": "February 15, 2022",
+    "patchNumber": "22.4.0"
+  },
+  "133122": {
+    "patchNotes": "https://playhearthstone.com/news/23765274",
+    "build": "133122",
+    "releaseDate": "March 3, 2022",
+    "patchNumber": "22.4.3"
+  },
+  "133923": {
+    "patchNotes": "https://playhearthstone.com/news/23765275",
+    "build": "133923",
+    "releaseDate": "March 17, 2022",
+    "patchNumber": "22.6.0"
+  },
+  "134558": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_22.6.0.134558",
+    "build": "134558",
+    "releaseDate": "March 22, 2022",
+    "patchNumber": "22.6.0"
+  },
+  "135540": {
+    "patchNotes": "https://playhearthstone.com/news/23784368",
+    "build": "135540",
+    "releaseDate": "April 5, 2022",
+    "patchNumber": "23.0.0"
+  },
+  "137436": {
+    "patchNotes": "https://playhearthstone.com/news/23797160",
+    "build": "137436",
+    "releaseDate": "April 26, 2022",
+    "patchNumber": "23.0.3"
+  },
+  "137922": {
+    "patchNotes": "https://playhearthstone.com/news/23784375",
+    "build": "137922",
+    "releaseDate": "May 10, 2022",
+    "patchNumber": "23.2.0"
+  },
+  "138759": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_23.2.0.138759",
+    "build": "138759",
+    "releaseDate": "May 11, 2022",
+    "patchNumber": "23.2.0"
+  },
+  "139522": {
+    "patchNotes": "https://playhearthstone.com/news/23797162",
+    "build": "139522",
+    "releaseDate": "May 19, 2022",
+    "patchNumber": "23.2.2"
+  },
+  "139719": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_23.2.2.139719",
+    "build": "139719",
+    "releaseDate": "May 20, 2022",
+    "patchNumber": "23.2.2"
+  },
+  "139963": {
+    "patchNotes": "https://playhearthstone.com/news/23797164",
+    "build": "139963",
+    "releaseDate": "June 1, 2022",
+    "patchNumber": "23.4.0"
+  },
+  "141643": {
+    "patchNotes": "https://playhearthstone.com/news/23817872",
+    "build": "141643",
+    "releaseDate": "June 16, 2022",
+    "patchNumber": "23.4.3"
+  },
+  "142295": {
+    "patchNotes": "https://playhearthstone.com/news/23817873",
+    "build": "142295",
+    "releaseDate": "June 27, 2022",
+    "patchNumber": "23.6.0"
+  },
+  "143410": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_23.6.2.143410",
+    "build": "143410",
+    "releaseDate": "July 11, 2022",
+    "patchNumber": "23.6.2"
+  },
+  "144666": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_23.6.2.144666",
+    "build": "144666",
+    "releaseDate": "July 15, 2022",
+    "patchNumber": "23.6.2"
+  },
+  "144772": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_23.6.2.144772",
+    "build": "144772",
+    "releaseDate": "July 15, 2022",
+    "patchNumber": "23.6.2"
+  },
+  "145077": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23831405",
+    "build": "145077",
+    "releaseDate": "July 26, 2022",
+    "patchNumber": "24.0.0"
+  },
+  "147348": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23840665/24-0-3-patch-notes",
+    "build": "147348",
+    "releaseDate": "August 16, 2022",
+    "patchNumber": "24.0.3"
+  },
+  "148211": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23831411/24-2-patch-notes",
+    "build": "148211",
+    "releaseDate": "August 30, 2022",
+    "patchNumber": "24.2.0"
+  },
+  "148526": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/patch-2421-patch-notes/94192",
+    "build": "148526",
+    "releaseDate": "September 2, 2022",
+    "patchNumber": "24.2.0"
+  },
+  "149417": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23852686/24-2-2-patch-notes",
+    "build": "149417",
+    "releaseDate": "September 9, 2022",
+    "patchNumber": "24.2.2"
+  },
+  "150659": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23852687",
+    "build": "150659",
+    "releaseDate": "September 27, 2022",
+    "patchNumber": "24.4.0"
+  },
+  "152904": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_24.4.3.152904",
+    "build": "152904",
+    "releaseDate": "October 13, 2022",
+    "patchNumber": "24.4.3"
+  },
+  "154203": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23852694/24-6-patch-notes",
+    "build": "154203",
+    "releaseDate": "November 1, 2022",
+    "patchNumber": "24.6.0"
+  },
+  "154818": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_24.6.0.154818",
+    "build": "154818",
+    "releaseDate": "November 2, 2022",
+    "patchNumber": "24.6.0"
+  },
+  "155409": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23874319/24-6-2-patch-notes",
+    "build": "155409",
+    "releaseDate": "November 10, 2022",
+    "patchNumber": "24.6.2"
+  },
+  "158725": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23882860",
+    "build": "158725",
+    "releaseDate": "November 29, 2022",
+    "patchNumber": "25.0.0"
+  },
+  "159202": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_25.0.0.159202",
+    "build": "159202",
+    "releaseDate": "November 30, 2022",
+    "patchNumber": "25.0.0"
+  },
+  "160183": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23892222/25-0-3-patch-notes",
+    "build": "160183",
+    "releaseDate": "December 9, 2022",
+    "patchNumber": "25.0.3"
+  },
+  "160910": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23892223/25-0-4-patch-notes",
+    "build": "160910",
+    "releaseDate": "December 19, 2022",
+    "patchNumber": "25.0.4"
+  },
+  "162171": {
+    "patchNotes": "https://hearthstone.fandom.com/wiki/Patch_25.0.4.162171",
+    "build": "162171",
+    "releaseDate": "January 5, 2023",
+    "patchNumber": "25.0.4"
+  },
+  "162867": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23892225",
+    "build": "162867",
+    "releaseDate": "January 18, 2023",
+    "patchNumber": "25.2.0"
+  },
+  "163976": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23892228",
+    "build": "163976",
+    "releaseDate": "January 26, 2023",
+    "patchNumber": "25.2.2"
+  },
+  "165029": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23913671/25-4-patch-notes",
+    "build": "165029",
+    "releaseDate": "February 14, 2023",
+    "patchNumber": "25.4.0"
+  },
+  "168129": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23921492",
+    "build": "168129",
+    "releaseDate": "March 3, 2023",
+    "patchNumber": "25.4.3"
+  },
+  "168788": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23921496",
+    "build": "168788",
+    "releaseDate": "March 14, 2023",
+    "patchNumber": "25.6.0"
+  },
+  "170126": {
+    "patchNotes": "https://hearthstone.blizzard.com/news/23921500",
+    "build": "170126",
+    "releaseDate": "March 24, 2023",
+    "patchNumber": "25.6.2"
+  },
+  "170824": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23934449/26-0-patch-notes",
+    "build": "170824",
+    "releaseDate": "April 4, 2023",
+    "patchNumber": "26.0.0"
+  },
+  "172421": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23935319/26-0-2-patch-notes",
+    "build": "172421",
+    "releaseDate": "April 14, 2023",
+    "patchNumber": "26.0.2"
+  },
+  "173781": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23935323/26-0-4-patch-notes",
+    "build": "173781",
+    "releaseDate": "April 27, 2023",
+    "patchNumber": "26.0.4"
+  },
+  "174258": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23935322/26-2-patch-notes",
+    "build": "174258",
+    "releaseDate": "May 9, 2023",
+    "patchNumber": "26.2.0"
+  },
+  "175913": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23957168",
+    "build": "175913",
+    "releaseDate": "May 31, 2023",
+    "patchNumber": "26.4.0"
+  },
+  "176014": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23957164/26-2-2-patch-notes",
+    "build": "176014",
+    "releaseDate": "May 19, 2023",
+    "patchNumber": "26.2.2"
+  },
+  "178555": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23968055/26-4-3-patch-notes",
+    "build": "178555",
+    "releaseDate": "June 15, 2023",
+    "patchNumber": "26.4.3"
+  },
+  "179020": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23973115/26-6-patch-notes",
+    "build": "179020",
+    "releaseDate": "June 27, 2023",
+    "patchNumber": "26.6.0"
+  },
+  "180614": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23973117/26-6-2-patch-notes",
+    "build": "180614",
+    "releaseDate": "July 6, 2023",
+    "patchNumber": "26.6.2"
+  },
+  "181554": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23973121/",
+    "build": "181554",
+    "releaseDate": "July 25, 2023",
+    "patchNumber": "27.0.0"
+  },
+  "182995": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23987541/27-0-3-patch-notes",
+    "build": "182995",
+    "releaseDate": "August 8, 2023",
+    "patchNumber": "27.0.3"
+  },
+  "183433": {
+    "patchNotes": "https://hearthstone.wiki.gg/wiki/Patch_27.0.3.183433",
+    "build": "183433",
+    "releaseDate": "August 10, 2023",
+    "patchNumber": "27.0.3"
+  },
+  "183876": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23987537",
+    "build": "183876",
+    "releaseDate": "August 22, 2023",
+    "patchNumber": "27.2.0"
+  },
+  "184727": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23987539/27-2-2-patch-notes",
+    "build": "184727",
+    "releaseDate": "August 30, 2023",
+    "patchNumber": "27.2.2"
+  },
+  "185054": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/2723-patch-notes/113008",
+    "build": "185054",
+    "releaseDate": "September 6, 2023",
+    "patchNumber": "27.2.2"
+  },
+  "185749": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23999071/27-4-patch-notes",
+    "build": "185749",
+    "releaseDate": "September 19, 2023",
+    "patchNumber": "27.4.0"
+  },
+  "186852": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/23999072/27-4-2-patch-notes",
+    "build": "186852",
+    "releaseDate": "September 28, 2023",
+    "patchNumber": "27.4.2"
+  },
+  "187190": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-gb/news/23989479/27-6-patch-notes",
+    "build": "187190",
+    "releaseDate": "October 17, 2023",
+    "patchNumber": "27.6.0"
+  },
+  "188645": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/2762-patch-notes/115062",
+    "build": "188645",
+    "releaseDate": "October 26, 2023",
+    "patchNumber": "27.6.2"
+  },
+  "189017": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24008693/28-0-patch-notes",
+    "build": "189017",
+    "releaseDate": "November 7, 2023",
+    "patchNumber": "28.0.0"
+  },
+  "190145": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24033781",
+    "build": "190145",
+    "releaseDate": "November 28, 2023",
+    "patchNumber": "28.0.3"
+  },
+  "190416": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes",
+    "build": "190416",
+    "releaseDate": "December 5, 2023",
+    "patchNumber": "28.2.0"
+  },
+  "190920": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24008698/28-2-1-patch-notes",
+    "build": "190920",
+    "releaseDate": "December 8, 2023",
+    "patchNumber": "28.2.1"
+  }
+}

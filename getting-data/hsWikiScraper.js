@@ -100,7 +100,7 @@ function getLastPatch(patches){
 
 function saveNewPatches(oldPatches, newPatches){
     let updatedPatches = {...oldPatches, ...newPatches};
-    saveJsonToFile("../temp/patches2.json", updatedPatches); // TODO update to real path
+    saveJsonToFile("./temp/patches2.json", updatedPatches); // TODO update to real path
     // saveJsonToFile("../server/patches2.json", updatedPatches);
 }
 
@@ -143,10 +143,18 @@ async function main() {
         
         for(let patch of newPatches) {
             console.log(`Currently on patch: ${patch}`);
-            let currentPatch = await getPatch(patch);
-            comparePatches(previousPatch, currentPatch, patch);
-            previousPatch = currentPatch;
+
+            // TODO: try catch around that, if I can't get the patch, skip the patch, don't even put it in the patch file. Continue to next iteration
+            try {
+                let currentPatch = await getPatch(patch);
+                comparePatches(previousPatch, currentPatch, patch);
+                previousPatch = currentPatch;
+            } catch (error) {
+                console.error(`Error with patch ${patch}, skipping to the next one. ${error.message}`);
+            }
+            
         }
+        // TODO save the patch file after I'm done with a patch, instead of waiting that I'm done with everything (so inside the loop instead of outside)
         saveNewPatches(patchesObj, newPatchesObj);
     } catch (error) {
         console.error('Error: ', error.message);
@@ -157,11 +165,7 @@ async function main() {
 
 main();
 
-// FOR THE FUTURE ME THAT'S WONDERING WHAT'S THE ISSUE
 
-// my code is (probably) fine, but when I update the cards and it tries to find a previous version using the mapping file, it's using the newly updated mapping file that says it's in a new patch, but that new patch is not in the directory that getCardById is looking at, so it gives an error "no such file or directory" for server/patches/enUS/undefined.json. It's basically because I'm using a new mapping file that I'm updating, but it can't find the card in the old mapping file (which is the one getCardById is using).
-
-// temp();
 
 async function temp() {
     let patchId = 184727;

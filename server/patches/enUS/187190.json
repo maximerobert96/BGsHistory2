@@ -1,0 +1,861 @@
+{
+  "41138": {
+    "artist": "James Ryman",
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 7,
+    "dbfId": 41138,
+    "flavor": "Bet you can't eat just one murloc!",
+    "health": 8,
+    "id": "UNG_010",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Sated Threshadon",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "UNGORO",
+    "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon three 1/1 Murlocs.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 5,
+    "battlegroundsPremiumDbfId": 58413,
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "41180": {
+    "artist": "Garrett Hanna",
+    "attack": 2,
+    "cardClass": "PRIEST",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 41180,
+    "flavor": "A hero... In a half-shell.",
+    "health": 5,
+    "id": "UNG_037",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Tortollan Shellraiser",
+    "rarity": "COMMON",
+    "set": "UNGORO",
+    "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Give a random\n friendly minion +1/+1.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58374,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "57559": {
+    "cardClass": "ROGUE",
+    "collectionText": "[x]<b>Passive</b>\nAfter you sell a minion,\ngain 1 Gold next turn.\n<i>({0} Gold saved.)</i>",
+    "cost": 1,
+    "dbfId": 57559,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_008",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Smart Savings",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you sell a minion,\ngain 1 Gold next turn.",
+    "type": "HERO_POWER"
+  },
+  "57562": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 57562,
+    "id": "TB_BaconShop_HP_010",
+    "name": "Boon of Light",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion\n<b>Divine Shield</b>.",
+    "type": "HERO_POWER"
+  },
+  "57742": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 60233,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57742,
+    "elite": true,
+    "health": 1,
+    "id": "BGS_029",
+    "name": "Shifter Zerus",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Each turn this is in your\nhand, transform it into a\nrandom minion. It keeps\nenchantments.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "58374": {
+    "attack": 4,
+    "cardClass": "PRIEST",
+    "cost": 3,
+    "dbfId": 58374,
+    "health": 10,
+    "id": "TB_BaconUps_031",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Tortollan Shellraiser",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Give a random\n friendly minion +2/+2.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsNormalDbfId": 41180
+  },
+  "59935": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 59976,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59935,
+    "health": 6,
+    "id": "BGS_012",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Summon\nyour first 2 Mechs that died this combat.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "59955": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 59956,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59955,
+    "elite": true,
+    "health": 3,
+    "id": "BGS_018",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Goldrinn, the Great Wolf",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +3/+3.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "59956": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 59955,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59956,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconUps_085",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Goldrinn, the Great Wolf",
+    "race": "BEAST",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +6/+6.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "59976": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 59935,
+    "cardClass": "NEUTRAL",
+    "cost": 9,
+    "dbfId": 59976,
+    "health": 12,
+    "id": "TB_BaconUps_087",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kangor's Apprentice",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Summon\nyour first 4 Mechs that died this combat.",
+    "type": "MINION",
+    "techLevel": 5
+  },
+  "60233": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 57742,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60233,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconUps_095",
+    "name": "Shifter Zerus",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Each turn this is in your\nhand, transform it into a\n random Golden minion.\n   It keeps enchantments.",
+    "type": "MINION"
+  },
+  "60448": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60448,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_056",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gone Fishing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After you sell 5\nminions, get a random\nMurloc. <i>(5 left!)</i>",
+    "type": "HERO_POWER",
+    "pools": [
+      "MURLOC_POOL"
+    ]
+  },
+  "63607": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63607,
+    "id": "TB_BaconShop_HP_084",
+    "name": "Swap, Lock, & Shop It",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
+    "type": "HERO_POWER"
+  },
+  "71914": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 71914,
+    "id": "BG20_HERO_301p",
+    "name": "Devour",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Remove a friendly minion.\nSpit its stats onto another.\nGain 1 Gold.",
+    "type": "HERO_POWER"
+  },
+  "72043": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 74902,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72043,
+    "health": 5,
+    "id": "BG21_001",
+    "mechanics": [
+      "AVENGE",
+      "DEATHRATTLE"
+    ],
+    "name": "Palescale Crocolisk",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Avenge (2) and Deathrattle:</b> Give another friendly Beast +6/+6.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "72045": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 72825,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72045,
+    "health": 3,
+    "id": "BG21_003",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Reanimating Rattler",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "referencedTags": [
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, give another friendly Beast <b>Reborn</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "72065": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 72832,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 72065,
+    "health": 2,
+    "id": "BG21_008",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Saltscale Honcho",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After you play a Murloc, give two friendly Murlocs +1 Health.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "72388": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 74906,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72388,
+    "health": 3,
+    "id": "BG21_023",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Mechano-Tank",
+    "race": "MECHANICAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (2):</b> Deal 5 damage to the highest Health enemy minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "76185": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 76187,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76185,
+    "health": 5,
+    "id": "BG21_038",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Witchwing Nestmatron",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (3):</b> Get a random <b>Battlecry</b> minion.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "77874": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77875,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77874,
+    "health": 4,
+    "id": "BG21_HERO_030_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Piloted Whirl-O-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Copy <b>Deathrattles</b>.",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Copy all other minions' <b>Deathrattles</b> <i>(except Piloted Whirl-O-Tron)</i>.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "77875": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77874,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77875,
+    "health": 8,
+    "id": "BG21_HERO_030_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Piloted Whirl-O-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Copy <b>Deathrattles</b> twice.",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Copy all other minions' <b>Deathrattles</b>, twice <i>(except Piloted Whirl-O-Tron)</i>.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "80741": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 80759,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 80741,
+    "health": 7,
+    "id": "BG23_003",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Critter Wrangler",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever you cast a <b>Spellcraft</b> spell on a minion, give it +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ]
+  },
+  "92408": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 92438,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92408,
+    "elite": true,
+    "health": 6,
+    "id": "BG24_020",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "92871": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 92874,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92871,
+    "health": 2,
+    "id": "BG23_352",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tavern Tipper",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]If you have any unspent\nGold at the end of\n  your turn, gain +1/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "95469": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 95471,
+    "cost": 6,
+    "dbfId": 95469,
+    "elite": true,
+    "health": 15,
+    "id": "BG25_807",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mecha-Jaraxxus",
+    "race": "DEMON",
+    "races": [
+      "MECHANICAL",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Get a random Mecha-Demon.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DEMON"
+    ],
+    "relatedCards": [
+      96922,
+      96924,
+      96925
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "96773": {
+    "artist": "Arthur Gimaldinov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 59491,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 96773,
+    "flavor": "The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.",
+    "health": 3,
+    "id": "BG_EX1_103",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Coldlight Seer",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +2 Health.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "96776": {
+    "artist": "Andrew Hou",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 61934,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 96776,
+    "flavor": "Return my fishes to me, and I myself shall carry you to the gates of Mrrhalla!",
+    "health": 4,
+    "id": "BG_BT_010",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felfin Navigator",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "rarity": "COMMON",
+    "set": "BLACK_TEMPLE",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "96780": {
+    "artist": "Andrew Hou",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 91216,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 96780,
+    "flavor": "Be all that you can be.",
+    "health": 4,
+    "id": "BG_GIL_681",
+    "name": "Nightmare Amalgam",
+    "race": "ALL",
+    "rarity": "EPIC",
+    "set": "GILNEAS",
+    "techLevel": 3,
+    "text": "<i>This has all minion types.</i>",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "undeadCreationPool": 1,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "97270": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 97279,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 97270,
+    "elite": true,
+    "health": 7,
+    "id": "BG24_708",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Vanessa VanCleef",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever this attacks, give your Pirates +2/+1 permanently.",
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "97555": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 97556,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 97555,
+    "health": 7,
+    "id": "BG25_042",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Felstomper",
+    "race": "DEMON",
+    "races": [
+      "DEMON",
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you summon a\n minion in combat, give\n   your minions +3 Attack.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON",
+      "BEAST"
+    ]
+  },
+  "98728": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 98728,
+    "id": "BG25_HERO_103p",
+    "name": "Rapid Reanimation",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Destroy it.\nWhen you have space,\n   resummon an exact copy.",
+    "type": "HERO_POWER"
+  },
+  "98926": {
+    "artist": "Tanamaes Leejierasaes",
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 98929,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98926,
+    "health": 3,
+    "id": "BG26_350",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Bassgill",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Summon the highest Health minion\nfrom your hand for this combat only.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "98929": {
+    "artist": "Tanamaes Leejierasaes",
+    "attack": 16,
+    "battlegroundsNormalDbfId": 98926,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98929,
+    "health": 6,
+    "id": "BG26_350_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Bassgill",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Summon the\n2 highest Health minions\nfrom your hand for this combat only.",
+    "type": "MINION"
+  },
+  "99199": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 99220,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 99199,
+    "elite": true,
+    "health": 3,
+    "id": "BG26_524",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Malchezaar, Prince of Dance",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "2 <b>Refreshes</b> each turn cost Health instead of Gold.\n<i>(2 left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "99220": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 99199,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 99220,
+    "elite": true,
+    "health": 6,
+    "id": "BG26_524_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Malchezaar, Prince of Dance",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "4 <b>Refreshes</b> each turn cost Health instead of Gold.\n<i>(4 left!)</i>",
+    "type": "MINION"
+  },
+  "101418": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 101421,
+    "cardClass": "NEUTRAL",
+    "collectionText": "After you play a Tier 6 minion, give your\nminions +1/+2.",
+    "cost": 6,
+    "dbfId": 101418,
+    "elite": true,
+    "health": 8,
+    "id": "BG26_176",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "The Boogie Monster",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "After you play a Tier {0} minion, progress to the\nnext Tier and give your minions +1/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "102982": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102982,
+    "id": "BG27_Anomaly_803",
+    "name": "Anomalous Evidence",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of your turn, choose from 2 new Quest Rewards.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "103396": {
+    "artist": "Raymond Swanland",
+    "attack": 3,
+    "battlegroundsNormalDbfId": 103397,
+    "battlegroundsPremiumDbfId": 103397,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103396,
+    "flavor": "The Faceless Ones are servants of Yogg-Saron, and they feed on fear. Right now they are feeding on your fear of accidentally disenchanting all your good cards.",
+    "health": 3,
+    "id": "BG_EX1_564",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Manipulator",
+    "rarity": "EPIC",
+    "set": "EXPERT1",
+    "targetingArrowText": "Become a copy of a minion.",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Choose a minion and become a copy of it.",
+    "type": "MINION"
+  },
+  "103397": {
+    "artist": "Raymond Swanland",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 103396,
+    "battlegroundsPremiumDbfId": 103396,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103397,
+    "flavor": "The Faceless Ones are servants of Yogg-Saron, and they feed on fear. Right now they are feeding on your fear of accidentally disenchanting all your good cards.",
+    "health": 6,
+    "id": "BG_EX1_564_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Manipulator",
+    "rarity": "EPIC",
+    "set": "EXPERT1",
+    "targetingArrowText": "Become a copy of a minion.",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Choose a minion and become a copy of it.",
+    "type": "MINION"
+  },
+  "106474": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 106474,
+    "id": "BG27_Anomaly_803t",
+    "name": "Anomalous Evidence Activation [DNT]",
+    "set": "BATTLEGROUNDS",
+    "text": "Trigger Anomalous Evidence - Choose from 2 Quest Rewards. [DNT]",
+    "type": "SPELL"
+  }
+}

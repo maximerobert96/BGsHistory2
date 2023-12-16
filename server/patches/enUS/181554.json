@@ -1,0 +1,4945 @@
+{
+  "57555": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57555,
+    "id": "TB_BaconShop_HP_011",
+    "name": "Galakrond's Greed",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Choose a minion in the\nTavern. <b>Discover</b> a higher\nTier minion to replace it.",
+    "type": "HERO_POWER",
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "57561": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57561,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_009",
+    "name": "Skilled Bartender",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nReduce the Cost of\nupgrading the\nTavern by (1).",
+    "type": "HERO_POWER"
+  },
+  "57891": {
+    "armor": 8,
+    "artist": "Mike Sass",
+    "battlegroundsBuddyDbfId": 77847,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57891,
+    "health": 30,
+    "heroPowerDbfId": 57559,
+    "id": "TB_BaconShop_HERO_10",
+    "name": "Trade Prince Gallywix",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "57924": {
+    "armor": 13,
+    "artist": "L. Lullabi & K. Turovec",
+    "battlegroundsBuddyDbfId": 77629,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 30,
+    "heroPowerDbfId": 59863,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "57945": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 57945,
+    "id": "TB_BaconShop_HP_014",
+    "name": "Stay Frosty",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Freeze</b> a minion in the\nTavern. <b>Passive:</b> At the\nend of your turn, <b>Frozen</b>\nminions get +2/+1.",
+    "type": "HERO_POWER",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ]
+  },
+  "58537": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 58537,
+    "id": "TB_BaconShop_HP_028",
+    "name": "Temporal Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Refresh</b> the Tavern.\n Include two minions from\na Tier higher than yours.",
+    "type": "HERO_POWER"
+  },
+  "59559": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59559,
+    "id": "TB_BaconShop_8p_Reroll_Button",
+    "name": "Refresh",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace the Tavern with new minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59560": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59560,
+    "faction": "ALLIANCE",
+    "id": "TB_BaconShopLockAll_Button",
+    "name": "Freeze",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Freeze</b> / <b>Unfreeze</b> the minions in the Tavern.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59561": {
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 59561,
+    "id": "TB_BaconShopTechUp02_Button",
+    "name": "Tavern Tier 2",
+    "set": "BATTLEGROUNDS",
+    "text": "The Tavern offers higher Tier minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59562": {
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 59562,
+    "id": "TB_BaconShopTechUp03_Button",
+    "name": "Tavern Tier 3",
+    "set": "BATTLEGROUNDS",
+    "text": "The Tavern offers higher Tier minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59563": {
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59563,
+    "id": "TB_BaconShopTechUp04_Button",
+    "name": "Tavern Tier 4",
+    "set": "BATTLEGROUNDS",
+    "text": "The Tavern offers higher Tier minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59564": {
+    "cardClass": "NEUTRAL",
+    "cost": 11,
+    "dbfId": 59564,
+    "id": "TB_BaconShopTechUp05_Button",
+    "name": "Tavern Tier 5",
+    "set": "BATTLEGROUNDS",
+    "text": "The Tavern offers higher Tier minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59565": {
+    "cardClass": "NEUTRAL",
+    "cost": 10,
+    "dbfId": 59565,
+    "id": "TB_BaconShopTechUp06_Button",
+    "name": "Tavern Tier 6",
+    "set": "BATTLEGROUNDS",
+    "text": "The Tavern offers higher Tier minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "59604": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59604,
+    "id": "TB_BaconShop_Triples_01",
+    "name": "Triple Reward",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tier 0</b>.",
+    "type": "SPELL",
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "59707": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 59711,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59707,
+    "health": 4,
+    "id": "BGS_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a friendly minion\nof each type +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "59711": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 59707,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 59711,
+    "health": 8,
+    "id": "TB_BaconUps_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lightfang Enforcer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]At the end of your turn,\ngive a friendly minion\nof each type +4/+4.",
+    "type": "MINION"
+  },
+  "59808": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59808,
+    "id": "TB_BaconShop_HP_036",
+    "name": "Bloodfury",
+    "set": "BATTLEGROUNDS",
+    "text": "Choose a friendly Demon. It consumes a minion in the Tavern to gain its stats.",
+    "type": "HERO_POWER"
+  },
+  "59826": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 59826,
+    "id": "TB_BaconShop_HP_039",
+    "name": "Puzzle Box",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Steal a random minion\nfrom the Tavern.\nGive it +1/+1.",
+    "type": "HERO_POWER"
+  },
+  "59863": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59863,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_037a",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wax Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> <b>Start of Combat:</b>\nGive a friendly minion of\neach type stats equal\nto its Tier.",
+    "type": "HERO_POWER"
+  },
+  "59891": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 59891,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_044",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Procrastinate",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nSkip your first two turns.\nStart with two minions\nfrom Tier 3.",
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_3_POOL"
+    ],
+    "bannedFromNguyen": true
+  },
+  "59920": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 59920,
+    "id": "TB_BaconShop_1p_Reroll_Button",
+    "name": "Refresh",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace the Tavern with new minions.",
+    "type": "GAME_MODE_BUTTON"
+  },
+  "60217": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60217,
+    "id": "TB_BaconShop_HP_047",
+    "name": "Lead Explorer",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Discover</b> a minion\nfrom your Tier. Costs (1)\nmore after each use.",
+    "type": "HERO_POWER",
+    "relatedCards": [
+      60265
+    ],
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "60218": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, get\n'Brann Bronzebeard'.\n<i>({0} left!)</i>",
+    "cost": 0,
+    "dbfId": 60218,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_048",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Battle Brand",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, get\n'Brann Bronzebeard'.\n<i>(Once per game.)</i>",
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      96786
+    ]
+  },
+  "60265": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60265,
+    "id": "TB_BaconShop_HP_047t",
+    "name": "Recruitment Map",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tier 0</b>.",
+    "type": "SPELL",
+    "pools": [
+      "TIER_X_POOL"
+    ],
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "60285": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60285,
+    "id": "TB_BaconShop_HP_049",
+    "name": "Graveyard Shift",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Steal a minion from the\n Tavern. Take damage\nequal to its Tier.",
+    "type": "HERO_POWER"
+  },
+  "60376": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60376,
+    "id": "TB_BaconShop_HP_051",
+    "name": "Honorable Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give your minions with\nno type +1/+1.",
+    "type": "HERO_POWER"
+  },
+  "60378": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60378,
+    "id": "TB_BaconShop_HP_052",
+    "name": "Arcane Alteration",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Replace a minion with a\n random one of the same\nTier. <i>(Twice per turn.)</i>",
+    "type": "HERO_POWER"
+  },
+  "60381": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 60381,
+    "id": "TB_BaconShop_HP_053",
+    "name": "I'll Take That!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Next combat, get a\nplain copy of the\nfirst minion you kill.",
+    "type": "HERO_POWER"
+  },
+  "60405": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 60405,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_054",
+    "name": "Manastorm",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> Minions and\n<b>Refreshes</b> cost 2 Gold.\nUpgrading the Tavern\ncosts (1) more.",
+    "type": "HERO_POWER"
+  },
+  "60561": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60649,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60561,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_036",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Razorgore, the Untamed",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "At the end of your turn, gain +1/+1 for each Dragon you control.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "60621": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 60663,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60621,
+    "health": 3,
+    "id": "BGS_037",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this, give all minions in the Tavern +2/+1.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "60649": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 60561,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60649,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconUps_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Razorgore, the Untamed",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of your turn, gain +2/+2 for each Dragon you control.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "techLevel": 5
+  },
+  "60663": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 60621,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 60663,
+    "health": 6,
+    "id": "TB_BaconUps_107",
+    "name": "Steward of Time",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "text": "When you sell this, give all minions in the Tavern +4/+2.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "techLevel": 2
+  },
+  "61046": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 62217,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 61046,
+    "elite": true,
+    "health": 5,
+    "id": "BGS_046",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nat Pagle, Extreme Angler",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]When this attacks\nand kills a minion,\nget a random minion.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "61055": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 62186,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 61055,
+    "health": 2,
+    "id": "BGS_055",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Deck Swabbie",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Reduce\nthe Cost of upgrading\nthe Tavern by (1).",
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "61408": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61408,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_062",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Dream Portal",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nThe Tavern offers an\nextra Dragon whenever\nit is <b>Refreshed</b>.",
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
+  },
+  "61444": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61445,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61444,
+    "health": 6,
+    "id": "BGS_069",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Battlecry:</b> For each\ndifferent type you control\namong other minions,\n<b>Adapt</b> randomly.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
+    ]
+  },
+  "61445": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 61444,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 61445,
+    "health": 12,
+    "id": "TB_BaconUps_121",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> For each\ndifferent type you control\namong other minions,\n<b>   Adapt</b> randomly, twice.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
+    ],
+    "techLevel": 6
+  },
+  "61517": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 61517,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_064",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Queen of Dragons",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you upgrade the\nTavern to Tier 5, <b>Discover</b>\n  two Dragons of any Tier.",
+    "type": "HERO_POWER",
+    "pools": [
+      "DRAGON_POOL"
+    ]
+  },
+  "61918": {
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 61918,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_067",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Electricity",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you upgrade the\nTavern, replace its minions\n   with ones of a higher Tier.",
+    "type": "HERO_POWER"
+  },
+  "61919": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 61919,
+    "id": "TB_BaconShop_HP_068",
+    "name": "Imprison",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Make a minion in the\nTavern <b>Dormant</b>. After 3\n  turns, get it with +2/+2.",
+    "type": "HERO_POWER"
+  },
+  "62186": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 61055,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 62186,
+    "health": 4,
+    "id": "TB_BaconUps_126",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Deck Swabbie",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Reduce\nthe Cost of upgrading\nthe Tavern by (2).",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62217": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 61046,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62217,
+    "elite": true,
+    "health": 10,
+    "id": "TB_BaconUps_132",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nat Pagle, Extreme Angler",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]When this attacks\nand kills a minion,\n  get 2 random minions.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "62267": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 62267,
+    "id": "TB_BaconShop_HP_075",
+    "name": "Trash for Treasure",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Remove a friendly minion.\nChoose one of two from\na Tier lower to keep.",
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
+  },
+  "63162": {
+    "cardClass": "ROGUE",
+    "cost": 1,
+    "dbfId": 63162,
+    "id": "TB_BaconShop_HP_077",
+    "name": "Bob's Burgles",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Refresh</b> the Tavern with\nplain copies of your last\n opponent's warband.",
+    "type": "HERO_POWER"
+  },
+  "63435": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 63489,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 63435,
+    "health": 2,
+    "id": "BGS_082",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Mug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Give 3\nfriendly minions of\n  different types +1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "63487": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 63492,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 63487,
+    "health": 3,
+    "id": "BGS_083",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Jug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Give 3\nfriendly minions of\n  different types +2/+2.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "63489": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 63435,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 63489,
+    "health": 4,
+    "id": "TB_BaconUps_144",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Mug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Give 3\nfriendly minions of\n  different types +2/+2.",
+    "type": "MINION"
+  },
+  "63492": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 63487,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 63492,
+    "health": 6,
+    "id": "TB_BaconUps_145",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Menagerie Jug",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry:</b> Give 3\nfriendly minions of\n  different types +4/+4.",
+    "type": "MINION"
+  },
+  "63602": {
+    "armor": 10,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 77511,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63602,
+    "health": 30,
+    "heroPowerDbfId": 63600,
+    "id": "TB_BaconShop_HERO_72",
+    "name": "Lord Barov",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "63605": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63605,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_082",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Everbloom",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you upgrade the\nTavern, gain 2 Gold.",
+    "type": "HERO_POWER"
+  },
+  "63607": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 63607,
+    "id": "TB_BaconShop_HP_084",
+    "name": "Swap, Lock, & Shop It",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Swap a friendly non-Golden\nminion with a random one\nin the Tavern.",
+    "type": "HERO_POWER"
+  },
+  "63624": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64076,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63624,
+    "elite": true,
+    "health": 6,
+    "id": "BGS_100",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you play an\nElemental, give a friendly\nminion stats equal to the\nElemental's Tier.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "63626": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64185,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 63626,
+    "elite": true,
+    "health": 4,
+    "id": "BGS_104",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nomi, Kitchen Nightmare",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you play an Elemental,\nElementals in the Tavern\nhave +1/+1 for the rest\nof the game.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "63627": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 66597,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 63627,
+    "health": 4,
+    "id": "BGS_113",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Taverngoer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Choose a minion\nin the Tavern. Transform\ninto a plain copy of it.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "64038": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 64041,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64038,
+    "health": 2,
+    "id": "BGS_115",
+    "name": "Sellemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]When you sell this,\nget a 2/2 Elemental.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "relatedCards": [
+      64040
+    ]
+  },
+  "64041": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 64038,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64041,
+    "health": 4,
+    "id": "TB_BaconUps_156",
+    "name": "Sellemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]When you sell this,\nget two 2/2 Elementals.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64062": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64064,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64062,
+    "health": 5,
+    "id": "BGS_121",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get\na random Elemental.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "64064": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64062,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64064,
+    "health": 10,
+    "id": "TB_BaconUps_165",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get\n2 random Elementals.",
+    "type": "MINION"
+  },
+  "64069": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64073,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64069,
+    "health": 4,
+    "id": "BGS_122",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Stasis Elemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Add a random Elemental to the Tavern and <b>Freeze</b> it.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "64073": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64069,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64073,
+    "health": 8,
+    "id": "TB_BaconUps_161",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Stasis Elemental",
+    "race": "ELEMENTAL",
+    "referencedTags": [
+      "FREEZE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Add two random Elementals to the Tavern and <b>Freeze</b> them.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ]
+  },
+  "64076": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 63624,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64076,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconUps_200",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lil' Rag",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you play an\nElemental, give a friendly\nminion stats equal to the\n   Elemental's Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "techLevel": 5
+  },
+  "64077": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64079,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 64077,
+    "health": 4,
+    "id": "BGS_123",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Tavern Tempest",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> Get a\nrandom Elemental.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
+  },
+  "64079": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64077,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 64079,
+    "health": 8,
+    "id": "TB_BaconUps_162",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Tavern Tempest",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> Get 2\nrandom Elementals.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
+  },
+  "64081": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 64085,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64081,
+    "elite": true,
+    "health": 8,
+    "id": "BGS_124",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health for each Elemental you control.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "64085": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 64081,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 64085,
+    "elite": true,
+    "health": 16,
+    "id": "TB_BaconUps_163",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lieutenant Garr",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Taunt</b>. After you play an Elemental, gain +2 Health for each Elemental you control.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "techLevel": 6
+  },
+  "64185": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63626,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 64185,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconUps_201",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nomi, Kitchen Nightmare",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you play an Elemental,\nElementals in the Tavern\nhave +2/+2 for the rest\nof the game.",
+    "type": "MINION"
+  },
+  "64401": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 64401,
+    "id": "TB_BaconShop_HP_085",
+    "name": "Tavern Lighting",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion stats\nequal to your Tier.",
+    "type": "HERO_POWER"
+  },
+  "64475": {
+    "armor": 15,
+    "artist": "James Ryman",
+    "battlegroundsBuddyDbfId": 77780,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64475,
+    "health": 30,
+    "heroPowerDbfId": 64476,
+    "id": "TB_BaconShop_HERO_78",
+    "name": "Chenvaala",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "64476": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64476,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_088",
+    "name": "Avalanche",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nAfter you play 3 Elementals,\nreduce the Cost of upgrading\nthe Tavern by (3).",
+    "type": "HERO_POWER"
+  },
+  "64481": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64481,
+    "hideCost": true,
+    "id": "TB_BaconShop_HP_101",
+    "name": "Come One, Come All!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> Darkmoon\nTickets are in the Tavern!\nGet 3 to <b>Discover</b> a\nminion of your Tier.",
+    "type": "HERO_POWER",
+    "bannedFromNguyen": true,
+    "relatedCards": [
+      64484
+    ],
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "64484": {
+    "artist": "Eva Widermann",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 64484,
+    "id": "TB_BaconShop_HP_101t2",
+    "name": "Prize",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tier 0</b>.",
+    "type": "SPELL",
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "65232": {
+    "cardClass": "ROGUE",
+    "cost": 0,
+    "dbfId": 65232,
+    "id": "BGS_Treasures_001",
+    "name": "Pocket Change",
+    "set": "BATTLEGROUNDS",
+    "text": "Get 2 Gold Coins.",
+    "type": "SPELL",
+    "relatedCards": [
+      58596
+    ],
+    "battlegroundsDarkmoonPrizeTurn": 1
+  },
+  "65235": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65235,
+    "id": "BGS_Treasures_003",
+    "name": "Regular Discount",
+    "set": "BATTLEGROUNDS",
+    "text": "Reduce the Cost of upgrading the Tavern by (3).",
+    "type": "SPELL"
+  },
+  "65236": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65236,
+    "id": "BGS_Treasures_004",
+    "name": "Gacha Gift",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tier 1</b>.",
+    "type": "SPELL",
+    "battlegroundsDarkmoonPrizeTurn": 1
+  },
+  "65238": {
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 65238,
+    "id": "BGS_Treasures_006",
+    "name": "Evolving Tavern",
+    "set": "BATTLEGROUNDS",
+    "text": "Replace all minions in the Tavern with ones of a Tier higher.",
+    "type": "SPELL",
+    "battlegroundsDarkmoonPrizeTurn": 2
+  },
+  "65250": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65250,
+    "id": "BGS_Treasures_012",
+    "name": "On the House",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion from your current <b>Tier</b>.",
+    "type": "SPELL",
+    "battlegroundsDarkmoonPrizeTurn": 2
+  },
+  "65254": {
+    "battlegroundsDarkmoonPrizeTurn": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65254,
+    "id": "BGS_Treasures_013",
+    "name": "The Good Stuff",
+    "set": "BATTLEGROUNDS",
+    "text": "Give minions in the Tavern +1 Attack for the rest of the game.",
+    "type": "SPELL"
+  },
+  "65265": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65265,
+    "id": "BGS_Treasures_020",
+    "name": "Top Shelf",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a minion\nfrom <b>Tier 6</b>.",
+    "type": "SPELL",
+    "battlegroundsDarkmoonPrizeTurn": 3
+  },
+  "65270": {
+    "battlegroundsDarkmoonPrizeTurn": 4,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65270,
+    "id": "BGS_Treasures_022",
+    "name": "Friends and Family Discount",
+    "set": "BATTLEGROUNDS",
+    "text": "For the rest of the game, minions in the Tavern cost (1) less.",
+    "type": "SPELL"
+  },
+  "65660": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 65665,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65660,
+    "health": 3,
+    "id": "BGS_200",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Warden of Old",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Deathrattle:</b> Get\na Gold Coin.",
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ]
+  },
+  "65665": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 65660,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 65665,
+    "health": 6,
+    "id": "TB_BaconUps_256",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Warden of Old",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Deathrattle:</b> Get\n2 Gold Coins.",
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ],
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "techLevel": 3
+  },
+  "66197": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 66197,
+    "id": "TB_BaconShop_HP_103",
+    "name": "Embrace Your Rage",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:\n</b>Summon and get\na minion of your Tier.",
+    "type": "HERO_POWER"
+  },
+  "66463": {
+    "cost": 0,
+    "dbfId": 66463,
+    "id": "BGS_Treasures_033",
+    "name": "New Recruit",
+    "set": "BATTLEGROUNDS",
+    "text": "Add a minion to the Tavern for the rest of the game.",
+    "type": "SPELL",
+    "battlegroundsDarkmoonPrizeTurn": 1
+  },
+  "66545": {
+    "battlegroundsDarkmoonPrizeTurn": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66545,
+    "id": "BGS_Treasures_036",
+    "name": "Great Deal",
+    "set": "BATTLEGROUNDS",
+    "text": "Reduce the Cost of upgrading the Tavern by (5).",
+    "type": "SPELL"
+  },
+  "66597": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 63627,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 66597,
+    "health": 8,
+    "id": "TB_BaconUps_305",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Taverngoer",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Choose a minion\nin the Tavern. Transform\ninto a Golden copy of it.",
+    "type": "MINION",
+    "techLevel": 5
+  },
+  "66947": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 66947,
+    "id": "BGS_Treasures_037",
+    "name": "All That Glitters",
+    "set": "BATTLEGROUNDS",
+    "text": "Make a random minion in the Tavern Golden.",
+    "type": "SPELL",
+    "battlegroundsDarkmoonPrizeTurn": 3
+  },
+  "68130": {
+    "cardClass": "DRUID",
+    "cost": 2,
+    "dbfId": 68130,
+    "id": "BG20_HERO_242p",
+    "name": "Natural Balance",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a friendly minion of\neach Tier +2/+2.",
+    "type": "HERO_POWER"
+  },
+  "70158": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 70159,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70158,
+    "health": 9,
+    "id": "BG20_204",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TRIGGER_VISUAL",
+      "WINDFURY"
+    ],
+    "name": "Bristleback Knight",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Windfury</b>. <b>Divine Shield</b>.</b>\nThe first time this\nsurvives damage, gain <b>Divine Shield.</b>",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
+  },
+  "70159": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 70158,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 70159,
+    "health": 18,
+    "id": "BG20_204_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TRIGGER_VISUAL",
+      "WINDFURY"
+    ],
+    "name": "Bristleback Knight",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Windfury</b>. <b>Divine Shield</b>.</b>\nThe first two times this\nsurvives damage, gain <b>Divine Shield.</b>",
+    "type": "MINION"
+  },
+  "70163": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 70164,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70163,
+    "elite": true,
+    "health": 6,
+    "id": "BG20_302",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Aggem Thorncurse",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After a <b>Blood Gem</b> is\nplayed on this, give a friendly minion of each type +1/+1.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
+  },
+  "70164": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 70163,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 70164,
+    "elite": true,
+    "health": 12,
+    "id": "BG20_302_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Aggem Thorncurse",
+    "race": "QUILBOAR",
+    "set": "BATTLEGROUNDS",
+    "text": "After a <b>Blood Gem</b> is\nplayed on this, give a friendly minion of each type +2/+2.",
+    "type": "MINION",
+    "races": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ],
+    "techLevel": 5
+  },
+  "70957": {
+    "cardClass": "PRIEST",
+    "cost": 2,
+    "dbfId": 70957,
+    "id": "BG20_HERO_101p",
+    "name": "See the Light",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Choose a minion in\nthe Tavern to add to your\nhand. Set its stats to 2.",
+    "type": "HERO_POWER"
+  },
+  "72053": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 73504,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72053,
+    "health": 8,
+    "id": "BG21_019",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nosy Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]Every two turns, get a\nrandom Golden minion.\n<i>(2 turns left!)</i>",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "72060": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 72821,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 72060,
+    "health": 6,
+    "id": "BG21_004",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Insatiable Ur'zul",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b><b>Taunt</b>.</b> After you play a\nDemon, consume a minion\nin the Tavern to gain\nits stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "72061": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 74899,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 72061,
+    "health": 4,
+    "id": "BG21_018",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Defiant Shipwright",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]After you upgrade the\nTavern, add a random\nPirate to it.",
+    "type": "MINION"
+  },
+  "72066": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73474,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 72066,
+    "health": 6,
+    "id": "BG21_007",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Impatient Doomsayer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (4):</b> Get a\nrandom Demon.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "72067": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 72824,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72067,
+    "health": 5,
+    "id": "BG21_005",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Famished Felbat",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\nyour other Demons consume\na minion in the Tavern\nto gain its stats.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "72068": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 74938,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72068,
+    "health": 5,
+    "id": "BG21_020",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Dazzling Lightspawn",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Avenge (2):</b> Elementals in\nthe Tavern have +1/+1\n  for the rest of the game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "72069": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 74898,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 72069,
+    "health": 3,
+    "id": "BG21_021",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Smogger",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give a friendly Elemental stats equal to your Tier.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "targetingArrowText": "Give an Elemental stats equal to your Tier."
+  },
+  "72071": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 73951,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72071,
+    "health": 4,
+    "id": "BG21_017",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Briny Bootlegger",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the end of your turn, if\nyou control another Pirate,\nget a Gold Coin.",
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "72230": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 72231,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72230,
+    "elite": true,
+    "health": 4,
+    "id": "BG20_304",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Archdruid Hamuul",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> <b>Refresh</b> the Tavern with minions of your most common type.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "72231": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 72230,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72231,
+    "elite": true,
+    "health": 8,
+    "id": "BG20_304_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Archdruid Hamuul",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Battlecry:</b> <b>Refresh</b> the Tavern with minions of your most common type.",
+    "type": "MINION",
+    "techLevel": 6
+  },
+  "72821": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 72060,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 72821,
+    "health": 12,
+    "id": "BG21_004_G",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Insatiable Ur'zul",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b><b>Taunt</b>.</b> After you play a\nDemon, consume a minion\nin the Tavern to gain\ndouble its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 5
+  },
+  "72824": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 72067,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 72824,
+    "flavor": "Peckish Felbat didn't quite have the same ring to it.",
+    "health": 10,
+    "id": "BG21_005_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Famished Felbat",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\nyour other Demons consume\na minion in the Tavern\n   to gain double its stats.",
+    "type": "MINION"
+  },
+  "73474": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72066,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 73474,
+    "health": 12,
+    "id": "BG21_007_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Impatient Doomsayer",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Avenge (4):</b> Get 2\nrandom Demons.",
+    "type": "MINION",
+    "techLevel": 4
+  },
+  "73504": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 72053,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 73504,
+    "health": 16,
+    "id": "BG21_019_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nosy Looter",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the start of your turn, get\na random Golden minion.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ]
+  },
+  "73940": {
+    "armor": 6,
+    "artist": "Ursula Dorada",
+    "battlegroundsBuddyDbfId": 77778,
+    "battlegroundsHero": true,
+    "cardClass": "PALADIN",
+    "dbfId": 73940,
+    "health": 30,
+    "heroPowerDbfId": 73941,
+    "id": "BG21_HERO_000",
+    "name": "Cariel Roame",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "73951": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 72071,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73951,
+    "health": 8,
+    "id": "BG21_017_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Briny Bootlegger",
+    "race": "PIRATE",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn, if\nyou control another Pirate,\nget 2 Gold Coins.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "relatedCards": [
+      58596
+    ],
+    "techLevel": 3
+  },
+  "74659": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 74661,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74659,
+    "health": 4,
+    "id": "BG21_027",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After you upgrade the\nTavern, gain +1 Attack\n  for each friendly Dragon.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "74661": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 74659,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74661,
+    "health": 8,
+    "id": "BG21_027_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evolving Chromawing",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After you upgrade the\nTavern, gain +2 Attack\n  for each friendly Dragon.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ]
+  },
+  "74898": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 72069,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 74898,
+    "health": 6,
+    "id": "BG21_021_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Smogger",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Battlecry:</b> Give a friendly\nElemental stats equal to\n your Tier twice.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "targetingArrowText": "Give an Elemental stats equal to your Tier twice.",
+    "techLevel": 3
+  },
+  "74899": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 72061,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 74899,
+    "health": 8,
+    "id": "BG21_018_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Defiant Shipwright",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you upgrade the\nTavern, add two random\nPirates to it.",
+    "type": "MINION",
+    "techLevel": 2
+  },
+  "74938": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72068,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 74938,
+    "health": 10,
+    "id": "BG21_020_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Dazzling Lightspawn",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Avenge (2):</b> Elementals in\nthe Tavern have +2/+2\n  for the rest of the game.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "techLevel": 4
+  },
+  "75706": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 75706,
+    "hideCost": true,
+    "id": "BG20_HERO_283p_t3",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eastern Plaguelands",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> In 3 turns,\n<b>Discover</b> a minion of\nyour Tier. <i>(3 left!)</i>",
+    "type": "HERO_POWER",
+    "pools": [
+      "TIER_X_POOL"
+    ]
+  },
+  "76185": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 76187,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76185,
+    "health": 5,
+    "id": "BG21_038",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Witchwing Nestmatron",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Avenge (3):</b> Get a random <b>Battlecry</b> minion.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "76187": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 76185,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 76187,
+    "health": 10,
+    "id": "BG21_038_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Witchwing Nestmatron",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Avenge (3):</b> Get 2 random <b>Battlecry</b> minions.",
+    "type": "MINION",
+    "techLevel": 4
+  },
+  "76520": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 76520,
+    "id": "BG21_HERO_030p",
+    "name": "Sneed's Replicator",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon\na random minion from\na Tier lower.\"",
+    "type": "HERO_POWER"
+  },
+  "77434": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 77434,
+    "id": "BG21_HERO_020p",
+    "name": "Stir the Pot",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Throw a minion in your pot.\nWhen you've gathered 3,\n<b>Discover</b> from their types.\n<i>(3 left!)</i>",
+    "type": "HERO_POWER",
+    "pools": [
+      "TYPE_X_POOL"
+    ],
+    "bannedFromNguyen": true,
+    "referencedTags": [
+      "DISCOVER"
+    ]
+  },
+  "77448": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77533,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77448,
+    "elite": true,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_56_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Vaelastrasz",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Get a random Dragon of your Tier.",
+    "type": "MINION"
+  },
+  "77493": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 77541,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77493,
+    "health": 7,
+    "id": "TB_BaconShop_HERO_74_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evergreen Botani",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "At the end of your turn,\nget a random minion\nof your Tier.",
+    "type": "MINION"
+  },
+  "77494": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 77730,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 77494,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_02_Buddy",
+    "isBattlegroundsBuddy": true,
+    "name": "Apostle of Galakrond",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Replace\nminions in the Tavern with\nones from a Tier higher.",
+    "type": "MINION"
+  },
+  "77507": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77603,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77507,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_28_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Clockwork Assistant",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> <b>Discover</b> a minion from a Tier\nhigher than yours.",
+    "type": "MINION"
+  },
+  "77512": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 77549,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77512,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_57_Buddy",
+    "isBattlegroundsBuddy": true,
+    "name": "Chromie",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]Minions in the Tavern\nhave +1/+1 for each time it\nwas <b>Refreshed</b> this turn.",
+    "type": "MINION"
+  },
+  "77533": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77448,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77533,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_56_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Vaelastrasz",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Get two random Dragons of your Tier.",
+    "type": "MINION"
+  },
+  "77541": {
+    "attack": 18,
+    "battlegroundsNormalDbfId": 77493,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77541,
+    "health": 14,
+    "id": "TB_BaconShop_HERO_74_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Evergreen Botani",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "At the end of your turn,\nget two random minions\nof your Tier.",
+    "type": "MINION"
+  },
+  "77549": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 77512,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77549,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconShop_HERO_57_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "name": "Chromie",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]Minions in the Tavern\nhave +2/+2 for each time it\nwas <b>Refreshed</b> this turn.",
+    "type": "MINION"
+  },
+  "77603": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77507,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77603,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_28_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Clockwork Assistant",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> <b>Discover</b> two minions from a Tier\nhigher than yours.",
+    "type": "MINION"
+  },
+  "77723": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 77802,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77723,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_58_Buddy",
+    "isBattlegroundsBuddy": true,
+    "name": "Nexus Lord",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]'Arcane Alteration'\nreplaces with a minion\none Tier higher.",
+    "type": "MINION",
+    "bannedFromFoaF": true
+  },
+  "77724": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77725,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77724,
+    "health": 7,
+    "id": "TB_BaconShop_HERO_27_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Thawed Champion",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the end of your turn, get\na random <b>Frozen</b> minion\nfrom the Tavern.",
+    "type": "MINION"
+  },
+  "77725": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77724,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77725,
+    "health": 14,
+    "id": "TB_BaconShop_HERO_27_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Thawed Champion",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the end of your turn, get\n2 random <b>Frozen</b> minions\nfrom the Tavern.",
+    "type": "MINION"
+  },
+  "77730": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 77494,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 77730,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_02_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "name": "Apostle of Galakrond",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Replace\nminions in the Tavern with\n ones from 2 Tiers higher.",
+    "type": "MINION"
+  },
+  "77774": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77775,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77774,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_16_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snack Vendor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, give your Tier 3\nminions +1/+2.",
+    "type": "MINION"
+  },
+  "77775": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77774,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77775,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_16_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snack Vendor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the end of your turn, give your Tier 3\nminions +2/+4.",
+    "type": "MINION"
+  },
+  "77776": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77777,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 77776,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_67_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Raging Contender",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you use 'Trash for\n Treasure', gain Gold\nequal to the removed\nminion's Tier.",
+    "type": "MINION",
+    "bannedFromFoaF": true
+  },
+  "77777": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77776,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 77777,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_67_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Raging Contender",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you use 'Trash for\n Treasure', gain Gold\nequal to the removed\nminion's Tier twice.",
+    "type": "MINION"
+  },
+  "77778": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 77779,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77778,
+    "elite": true,
+    "health": 5,
+    "id": "BG21_HERO_000_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
+    "name": "Captain Fairmount",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Choose One</b> - For the rest\n of the game, 'Conviction'\ngives an additional\n  +2 Attack; or +2 Health.",
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      101567
+    ]
+  },
+  "77780": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77781,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77780,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_78_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snow Elemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]The Tavern offers an extra\n<b>Frozen</b> Elemental\n whenever it is <b>Refreshed</b>.",
+    "type": "MINION"
+  },
+  "77781": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77780,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77781,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_78_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Snow Elemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]The Tavern offers 2 extra\n<b>Frozen</b> Elementals\n whenever it is <b>Refreshed</b>.",
+    "type": "MINION"
+  },
+  "77784": {
+    "attack": 0,
+    "battlegroundsPremiumDbfId": 77785,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77784,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_43_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Brann's Epic Egg",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon\nand get a random\n<b>Battlecry</b> minion.",
+    "type": "MINION"
+  },
+  "77785": {
+    "attack": 0,
+    "battlegroundsNormalDbfId": 77784,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77785,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_43_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Brann's Epic Egg",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon\nand get 2 random\n<b>Battlecry</b> minions.",
+    "type": "MINION"
+  },
+  "77786": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77787,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77786,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_55_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Sparkfin Soothsayer",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Transform\nminions in the Tavern into\n Murlocs of the same Tier.",
+    "type": "MINION"
+  },
+  "77787": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77786,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77787,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_55_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Sparkfin Soothsayer",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Transform\nminions in the Tavern into\n  Murlocs of a Tier higher.",
+    "type": "MINION"
+  },
+  "77790": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77791,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77790,
+    "health": 6,
+    "id": "BG20_HERO_242_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Baby Kodo",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry: Refresh</b> the Tavern with a minion of each Tier.",
+    "type": "MINION"
+  },
+  "77791": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77790,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77791,
+    "health": 12,
+    "id": "BG20_HERO_242_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Baby Kodo",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry: Refresh</b> the Tavern with a minion of each Tier.",
+    "type": "MINION"
+  },
+  "77792": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77793,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77792,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_71_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Jandice's Apprentice",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After you swap minions, give them stats equal to your Tier.",
+    "type": "MINION",
+    "bannedFromFoaF": true
+  },
+  "77793": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77792,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77793,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_71_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Jandice's Apprentice",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After you swap minions, give them stats equal to your Tier twice.",
+    "type": "MINION"
+  },
+  "77796": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 77797,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 77796,
+    "health": 4,
+    "id": "BG20_HERO_280_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Living Nightmare",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After you buy a minion,\nminions in the Tavern\nhave +2/+1 this turn.",
+    "type": "MINION"
+  },
+  "77797": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 77796,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 77797,
+    "health": 8,
+    "id": "BG20_HERO_280_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Living Nightmare",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After you buy a minion,\nminions in the Tavern\nhave +4/+2 this turn.",
+    "type": "MINION"
+  },
+  "77798": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77799,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77798,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_37_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Kil'rek",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Get a\nrandom Demon.",
+    "type": "MINION"
+  },
+  "77799": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77798,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77799,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconShop_HERO_37_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Kil'rek",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Get 2\nrandom Demons.",
+    "type": "MINION"
+  },
+  "77802": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 77723,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77802,
+    "health": 12,
+    "id": "TB_BaconShop_HERO_58_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "name": "Nexus Lord",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]'Arcane Alteration'\nreplaces with a minion\n two Tiers higher.",
+    "type": "MINION"
+  },
+  "77803": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77804,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77803,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_49_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Magnus Manastorm",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you buy a minion,\nadd one of the same Tier\nto the Tavern.",
+    "type": "MINION"
+  },
+  "77804": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77803,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77804,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_49_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Magnus Manastorm",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you buy a minion,\nadd two of the same Tier\nto the Tavern.",
+    "type": "MINION"
+  },
+  "77823": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77824,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77823,
+    "health": 5,
+    "id": "TB_BaconShop_HERO_75_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lantern Tender",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\ngive a random friendly\nminion stats equal to\nyour Tier.",
+    "type": "MINION"
+  },
+  "77824": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77823,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77824,
+    "health": 10,
+    "id": "TB_BaconShop_HERO_75_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lantern Tender",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\ngive a random friendly\nminion stats equal to\nyour Tier twice.",
+    "type": "MINION"
+  },
+  "77827": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77828,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77827,
+    "health": 5,
+    "id": "TB_BaconShop_HERO_23_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Muckslinger",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After you play a minion,\nadd a <b>Battlecry</b> minion\nto the Tavern.\nGive it +2/+2.",
+    "type": "MINION"
+  },
+  "77828": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77827,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77828,
+    "health": 10,
+    "id": "TB_BaconShop_HERO_23_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Muckslinger",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]After you play a minion,\nadd a <b>Battlecry</b> minion\nto the Tavern.\nGive it +4/+4.",
+    "type": "MINION"
+  },
+  "77831": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 77832,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77831,
+    "elite": true,
+    "health": 1,
+    "id": "TB_BaconShop_HERO_40_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Maxwell, Mighty Steed",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Get the Buddy\nof your Hero Power.",
+    "type": "MINION"
+  },
+  "77832": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 77831,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77832,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconShop_HERO_40_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Maxwell, Mighty Steed",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry:</b> Get 2 Buddies\nof your Hero Power.",
+    "type": "MINION"
+  },
+  "77835": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77836,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77835,
+    "health": 3,
+    "id": "TB_BaconShop_HERO_50_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hunter of Old",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the start of your turn,\nget your last opponent's Buddy.",
+    "type": "MINION"
+  },
+  "77836": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77835,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77836,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_50_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hunter of Old",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the start of your turn,\nget 2 of your last opponent's Buddy.",
+    "type": "MINION"
+  },
+  "77843": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77844,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 77843,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_12_Buddy",
+    "isBattlegroundsBuddy": true,
+    "name": "Pigeon Lord",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]Your <b>Refreshes</b> cost (0)\nwhile the Tavern doesn't\nhave the minion type of\nyour Hero Power.",
+    "type": "MINION",
+    "bannedFromFoaF": true
+  },
+  "77844": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77843,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 77844,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_12_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "name": "Pigeon Lord",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]Your <b>Refreshes</b> cost (0)\nwhile the Tavern doesn't\nhave the minion type of\nyour Hero Power.",
+    "type": "MINION"
+  },
+  "77855": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 77856,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77855,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_53_Buddy",
+    "isBattlegroundsBuddy": true,
+    "name": "Valithria Dreamwalker",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Dragons in the Tavern have +3/+3.",
+    "type": "MINION"
+  },
+  "77856": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 77855,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77856,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_53_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "name": "Valithria Dreamwalker",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Dragons in the Tavern have +6/+6.",
+    "type": "MINION"
+  },
+  "77857": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 77858,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77857,
+    "elite": true,
+    "health": 6,
+    "id": "TB_BaconShop_HERO_92_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Baby Y'Shaarj",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever you summon\na minion of your Tier,\ngive it +4/+4.",
+    "type": "MINION"
+  },
+  "77858": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 77857,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77858,
+    "elite": true,
+    "health": 12,
+    "id": "TB_BaconShop_HERO_92_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Baby Y'Shaarj",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever you summon\na minion of your Tier,\ngive it +8/+8.",
+    "type": "MINION"
+  },
+  "77870": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 77871,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77870,
+    "elite": true,
+    "health": 6,
+    "id": "BG21_HERO_010_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Warden Thelwater",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the start of your turn,\nget your next opponent's Buddy.",
+    "type": "MINION"
+  },
+  "77871": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 77870,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77871,
+    "elite": true,
+    "health": 12,
+    "id": "BG21_HERO_010_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Warden Thelwater",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "At the start of your turn,\nget 2 of your next opponent's Buddy.",
+    "type": "MINION"
+  },
+  "77884": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 77885,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77884,
+    "health": 4,
+    "id": "BG22_HERO_002_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Frostwolf Lieutenant",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Avenge (2):</b> Minions in the Tavern have +1 Attack for the rest of the game.",
+    "type": "MINION"
+  },
+  "77885": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 77884,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77885,
+    "health": 8,
+    "id": "BG22_HERO_002_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Frostwolf Lieutenant",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Avenge (2):</b> Minions in the Tavern have +2 Attack for the rest of the game.",
+    "type": "MINION"
+  },
+  "77886": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77887,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77886,
+    "health": 7,
+    "id": "BG22_HERO_003_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Stormpike Lieutenant",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Avenge (2):</b> Minions in the Tavern have +1 Health for the rest of the game.",
+    "type": "MINION"
+  },
+  "77887": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77886,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77887,
+    "health": 14,
+    "id": "BG22_HERO_003_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Stormpike Lieutenant",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Avenge (2):</b> Minions in the Tavern have +2 Health for the rest of the game.",
+    "type": "MINION"
+  },
+  "77888": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77889,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77888,
+    "health": 6,
+    "id": "BG22_HERO_004_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]'Twice as Nice' also\ngives both minions stats\nequal to your Tier.",
+    "type": "MINION",
+    "bannedFromFoaF": true
+  },
+  "77889": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77888,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77889,
+    "health": 12,
+    "id": "BG22_HERO_004_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Varden's Aquarrior",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]'Twice as Nice' also\ngives both minions stats\n  equal to your Tier twice.",
+    "type": "MINION"
+  },
+  "80434": {
+    "artist": "Akkapoj T.",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80434,
+    "id": "TB_BaconShop_HERO_35_Buddy_t2",
+    "name": "Hand of Fate",
+    "set": "BATTLEGROUNDS",
+    "text": "Get 2 random\nDarkmoon Prizes.",
+    "type": "SPELL"
+  },
+  "80436": {
+    "artist": "Kagi",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80436,
+    "id": "TB_BaconShop_HERO_35_Buddy_t4",
+    "name": "Mindflayer Goggles",
+    "set": "BATTLEGROUNDS",
+    "text": "Steal all minions from the Tavern, then <b>Refresh</b> it.",
+    "type": "SPELL"
+  },
+  "80437": {
+    "artist": "Akkapoj T.",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80437,
+    "id": "TB_BaconShop_HERO_35_Buddy_t5",
+    "name": "Devouring Hunger",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Consume all minions in\nthe Tavern and give their\nstats to your minions.\nThen <b>Refresh</b> it.",
+    "type": "SPELL"
+  },
+  "80539": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80539,
+    "hideCost": true,
+    "id": "BG22_HERO_004p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Twice as Nice",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After the\nTavern is <b>Refreshed</b>, copy\nits highest Tier minion\n and <b>Freeze</b> them both.",
+    "type": "HERO_POWER"
+  },
+  "80740": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 82646,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 80740,
+    "health": 1,
+    "id": "BG23_002",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shell Collector",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Get a Gold Coin.",
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      58596
+    ]
+  },
+  "80754": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 80772,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80754,
+    "health": 3,
+    "id": "BG23_016",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reef Explorer",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry: Discover</b> a minion of a type you don't control.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "80772": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 80754,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80772,
+    "health": 6,
+    "id": "BG23_016_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Reef Explorer",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Battlecry: Discover</b> 2 minions of a type you don't control.",
+    "type": "MINION"
+  },
+  "82604": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 82606,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 82604,
+    "health": 3,
+    "id": "BG22_HERO_201_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Submersible Chef",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> Get a random minion each from\nTiers 1, 3, and 5.",
+    "type": "MINION"
+  },
+  "82606": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 82604,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 82606,
+    "health": 6,
+    "id": "BG22_HERO_201_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Submersible Chef",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> Get 2 random minions each from\nTiers 1, 3, and 5.",
+    "type": "MINION"
+  },
+  "82646": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80740,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 82646,
+    "health": 2,
+    "id": "BG23_002_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shell Collector",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Battlecry:</b> Get\n2 Gold Coins.",
+    "type": "MINION",
+    "relatedCards": [
+      58596
+    ]
+  },
+  "86292": {
+    "cardClass": "NEUTRAL",
+    "cost": 10,
+    "dbfId": 86292,
+    "id": "BG23_HERO_305p",
+    "name": "The Perfect Crime",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Steal all minions from\nthe Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
+    "type": "HERO_POWER"
+  },
+  "87060": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 87062,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 87060,
+    "elite": true,
+    "health": 2,
+    "id": "BG22_202",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Tad",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this,\nget a random Murloc.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "pools": [
+      "MURLOC_POOL"
+    ]
+  },
+  "87062": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 87060,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 87062,
+    "elite": true,
+    "health": 4,
+    "id": "BG22_202_G",
+    "name": "Tad",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "When you sell this,\nget 2 random Murlocs.",
+    "type": "MINION",
+    "pools": [
+      "MURLOC_POOL"
+    ]
+  },
+  "89641": {
+    "cost": 0,
+    "dbfId": 89641,
+    "hideCost": true,
+    "id": "BG24_Quest_112",
+    "mechanics": [
+      "QUEST"
+    ],
+    "name": "Track the Footprints",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Quest:</b> Have the Tavern <b>Refreshed</b> {0} times.",
+    "type": "SPELL",
+    "cardClass": "NEUTRAL"
+  },
+  "89645": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89645,
+    "hideCost": true,
+    "id": "BG24_Reward_305",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Anima Bribe",
+    "set": "BATTLEGROUNDS",
+    "text": "After you sell a minion, give its stats to a minion in the Tavern.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90435": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90435,
+    "hideCost": true,
+    "id": "BG24_Reward_308",
+    "name": "Teal Tiger Sapphire",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Minions in the Tavern\nhave +1/+1 for each time\nit was <b>Refreshed</b> this turn.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90437": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 90437,
+    "hideCost": true,
+    "id": "BG24_Reward_309",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Devils in the Details",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\nyour left and right-most\nminions consume a\nminion in the Tavern.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90914": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90914,
+    "hideCost": true,
+    "id": "BG24_Reward_128",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mirror Shield",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+4/+4 and <b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "90917": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90917,
+    "hideCost": true,
+    "id": "BG24_Reward_130",
+    "name": "Ghastly Mask",
+    "set": "BATTLEGROUNDS",
+    "text": "Get '{0}'. Your end of turn effects trigger an extra time.",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "pools": [
+      "END_OF_TURN_POOL"
+    ]
+  },
+  "91992": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 91992,
+    "hideCost": true,
+    "id": "BG24_Reward_311",
+    "mechanics": [
+      "DISCOVER",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Another Hidden Body",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Discover</b> a minion\nof your Tier. <i>(Can be\nearned endlessly!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "92305": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 92309,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92305,
+    "elite": true,
+    "health": 5,
+    "id": "BG23_350",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yrel",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After this attacks, give a friendly minion of each type +1/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "92309": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 92305,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92309,
+    "elite": true,
+    "health": 10,
+    "id": "BG23_350_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Yrel",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "After this attacks, give a friendly minion of each type +2/+4.",
+    "type": "MINION"
+  },
+  "92336": {
+    "artist": "Kagi",
+    "battlegroundsDarkmoonPrizeTurn": 3,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92336,
+    "id": "BGS_Treasures_039",
+    "name": "Mindflayer Goggles",
+    "set": "BATTLEGROUNDS",
+    "text": "Steal all minions from the Tavern, then <b>Refresh</b> it.",
+    "type": "SPELL"
+  },
+  "92337": {
+    "battlegroundsDarkmoonPrizeTurn": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92337,
+    "id": "BGS_Treasures_040",
+    "name": "Banana Bunch",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Get 2 Bananas.",
+    "type": "SPELL"
+  },
+  "92400": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 92427,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92400,
+    "health": 1,
+    "id": "BG24_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Picky Eater",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]<b>Battlecry:</b> Consume a\nrandom minion in the\nTavern to gain its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "92408": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 92438,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92408,
+    "elite": true,
+    "health": 6,
+    "id": "BG24_020",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "92410": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 92440,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92410,
+    "elite": true,
+    "health": 5,
+    "id": "BG24_022",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rendle the Mistermind",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\nsteal the highest Tier\n  minion from the Tavern.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "92427": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 92400,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92427,
+    "health": 2,
+    "id": "BG24_009_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Picky Eater",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Battlecry:</b> Consume a random minion in the Tavern to gain double its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "92438": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 92408,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92438,
+    "elite": true,
+    "health": 12,
+    "id": "BG24_020_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tea Master Theotar",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +4/+4.",
+    "type": "MINION"
+  },
+  "92440": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 92410,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 92440,
+    "elite": true,
+    "health": 10,
+    "id": "BG24_022_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Rendle the Mistermind",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\nsteal the 2 highest Tier\n  minions from the Tavern.",
+    "type": "MINION"
+  },
+  "93321": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 93323,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93321,
+    "health": 2,
+    "id": "BG23_357",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mind Muck",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Choose a hungry Demon.",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\nminion in the Tavern\nto gain its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "93323": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 93321,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93323,
+    "health": 4,
+    "id": "BG23_357_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mind Muck",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Choose a hungry Demon.",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\n minion in the Tavern\n   to gain double its stats.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ]
+  },
+  "93382": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 93385,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93382,
+    "health": 2,
+    "id": "BG23_361",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Legion Overseer",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Minions in the Tavern have +2/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "93385": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 93382,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93385,
+    "health": 4,
+    "id": "BG23_361_G",
+    "name": "Legion Overseer",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "Minions in the Tavern have +4/+2.",
+    "type": "MINION"
+  },
+  "93390": {
+    "artist": "Kagi",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93390,
+    "id": "TB_BaconShop_HERO_35_Buddy_t7",
+    "name": "Mysterybox",
+    "set": "BATTLEGROUNDS",
+    "text": "Make a random minion in the Tavern Golden.",
+    "type": "SPELL"
+  },
+  "93391": {
+    "artist": "Kagi",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 93391,
+    "id": "TB_BaconShop_HERO_35_Buddy_t8",
+    "name": "Mindflayer Goggles",
+    "set": "BATTLEGROUNDS",
+    "text": "Give minions in the Tavern +3/+3 for the rest of the game.",
+    "type": "SPELL"
+  },
+  "95149": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95149,
+    "hideCost": true,
+    "id": "BG24_Reward_321",
+    "name": "Alter Ego",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Even-Tier minions in\nthe Tavern have +7/+7.\n<i>(Swaps to Odd next turn!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      96137
+    ]
+  },
+  "95249": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 95250,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95249,
+    "health": 5,
+    "id": "BG25_002",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Ghoul of the Feast",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Avenge (2):</b> Give a\nfriendly minion of each\ntype +3 Attack.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "95250": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 95249,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95250,
+    "health": 10,
+    "id": "BG25_002_G",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Ghoul of the Feast",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Avenge (2):</b> Give a\nfriendly minion of each\ntype +6 Attack.",
+    "type": "MINION"
+  },
+  "95469": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 95471,
+    "cost": 6,
+    "dbfId": 95469,
+    "elite": true,
+    "health": 15,
+    "id": "BG25_807",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mecha-Jaraxxus",
+    "race": "DEMON",
+    "races": [
+      "MECHANICAL",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Get a random Mecha-Demon.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DEMON"
+    ],
+    "relatedCards": [
+      96922,
+      96924,
+      96925
+    ]
+  },
+  "95471": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 95469,
+    "cost": 6,
+    "dbfId": 95471,
+    "elite": true,
+    "health": 30,
+    "id": "BG25_807_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Mecha-Jaraxxus",
+    "race": "DEMON",
+    "races": [
+      "MECHANICAL",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Battlecry:</b> Get 2 random Mecha-Demons.",
+    "type": "MINION",
+    "relatedCards": [
+      96922,
+      96924,
+      96925
+    ]
+  },
+  "95631": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 95631,
+    "hideCost": true,
+    "id": "BG24_Reward_331",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Menagerie Mayhem",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive your minions\n+1 Attack for each\ntype you control.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "95790": {
+    "artist": "Grace Liu",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 95794,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95790,
+    "health": 1,
+    "id": "BG25_399",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Radio Star",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Deathrattle:</b> Get a plain\ncopy of the minion that\n  killed this.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "95794": {
+    "artist": "Grace Liu",
+    "attack": 2,
+    "battlegroundsNormalDbfId": 95790,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 95794,
+    "health": 2,
+    "id": "BG25_399_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Radio Star",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Deathrattle:</b> Get 2 plain\ncopies of the minion that\n  killed this.",
+    "type": "MINION"
+  },
+  "96137": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96137,
+    "hideCost": true,
+    "id": "BG24_Reward_321t",
+    "name": "Alter Ego",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Odd-Tier minions in\nthe Tavern have +7/+7.\n<i>(Swaps to Even next turn!)</i>",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "96167": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 96174,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 96167,
+    "elite": true,
+    "health": 8,
+    "id": "BG25_309",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "General Drakkisath",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Get a 2/1\nSmolderwing with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "relatedCards": [
+      96170
+    ]
+  },
+  "96174": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 96167,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 96174,
+    "elite": true,
+    "health": 16,
+    "id": "BG25_309_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "General Drakkisath",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Get two 2/1\nSmolderwings with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
+    "type": "MINION",
+    "relatedCards": [
+      96173
+    ]
+  },
+  "96872": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 96872,
+    "hideCost": true,
+    "id": "BG24_HERO_204p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Enhancification",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive.</b> After each <b>Refresh</b>,\ngive a minion in the\nTavern <b>Taunt</b>, <b>Windfury</b>,\n <b>Reborn</b>, or <b>Divine Shield</b>.",
+    "type": "HERO_POWER"
+  },
+  "97452": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97452,
+    "hideCost": true,
+    "id": "BG24_Reward_712",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sinfall Medallion",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +2/+2.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "97481": {
+    "artist": "BOSi Studio",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 78747,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 97481,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconShop_HP_105t_SKIN_A_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Cattlecarp of N'Zoth",
+    "race": "BEAST",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "After a friendly <b>Deathrattle</b> minion dies, gain its <b>Deathrattle</b> twice.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ]
+  },
+  "97553": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 97554,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 97553,
+    "health": 1,
+    "id": "BG25_041",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Minions in\nthe Tavern have +1/+1\n  for the rest of the game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "DEMON"
+    ]
+  },
+  "97554": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 97553,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 97554,
+    "health": 2,
+    "id": "BG25_041_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Minions in\nthe Tavern have +2/+2\n  for the rest of the game.",
+    "type": "MINION"
+  },
+  "97957": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 97958,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97957,
+    "health": 4,
+    "id": "BG24_719",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Disciple",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Transform into a Tier higher.",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Transform\na minion into one\nfrom a Tier higher.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "97958": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 97957,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97958,
+    "health": 8,
+    "id": "BG24_719_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Faceless Disciple",
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Transform into 2 Tiers higher.",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Transform\na minion into one\nfrom 2 Tiers higher.",
+    "type": "MINION"
+  },
+  "97966": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97966,
+    "hideCost": true,
+    "id": "BG24_Reward_718",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Kidnap Sack",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Spellcraft:</b> Choose a non-Golden minion to move to your hand.",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "relatedCards": [
+      97967
+    ]
+  },
+  "97967": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97967,
+    "id": "BG24_Reward_718t",
+    "name": "Kidnap Sack",
+    "set": "BATTLEGROUNDS",
+    "text": "Choose a non-Golden minion to move to your hand.",
+    "type": "SPELL"
+  },
+  "98650": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 98651,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98650,
+    "elite": true,
+    "health": 5,
+    "id": "BG23_HERO_305_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Waxadred, the Drippy",
+    "race": "DRAGON",
+    "races": [
+      "ELEMENTAL",
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry: Refresh</b> the\nTavern with the highest\nTier minion from each\nopponent's warband.",
+    "type": "MINION"
+  },
+  "98651": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 98650,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98651,
+    "elite": true,
+    "health": 10,
+    "id": "BG23_HERO_305_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Waxadred, the Drippy",
+    "race": "DRAGON",
+    "races": [
+      "ELEMENTAL",
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry: Refresh</b> the\nTavern with the highest\nTier minion from each\nopponent's warband.",
+    "type": "MINION"
+  },
+  "98681": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 98682,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98681,
+    "elite": true,
+    "health": 6,
+    "id": "BG25_104",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Chronormu",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "While this is in the Tavern, gain the stats of any minions sold.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "98682": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 98681,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98682,
+    "elite": true,
+    "health": 12,
+    "id": "BG25_104_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Chronormu",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]While this is in the\nTavern, gain twice the stats\nof any minions sold.",
+    "type": "MINION"
+  },
+  "98880": {
+    "artist": "Grafit",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 98882,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 98880,
+    "health": 2,
+    "id": "BG26_501",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Reef Riffer",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Spellcraft:</b> Give a minion stats equal to your Tier until next turn.",
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      98881
+    ]
+  },
+  "98881": {
+    "artist": "Grafit",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 98881,
+    "id": "BG26_501t",
+    "name": "Sick Riffs",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion stats equal to your Tier\nuntil next turn.",
+    "type": "SPELL"
+  },
+  "98882": {
+    "artist": "Grafit",
+    "attack": 2,
+    "battlegroundsNormalDbfId": 98880,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 98882,
+    "health": 4,
+    "id": "BG26_501_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Reef Riffer",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Spellcraft:</b> Give a minion\nstats equal to twice your\n Tier until next turn.",
+    "type": "MINION",
+    "relatedCards": [
+      98885
+    ]
+  },
+  "98885": {
+    "artist": "Grafit",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 98885,
+    "id": "BG26_501_Gt",
+    "name": "Sick Riffs",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion stats equal to twice your Tier until next turn.",
+    "type": "SPELL"
+  },
+  "99054": {
+    "artist": "Kleston Marques",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 99066,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 99054,
+    "health": 4,
+    "id": "BG26_505",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Zesty Shaker",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Once per turn, after you\ncast a <b>Spellcraft</b> spell on\n this, get a new copy of it.",
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ]
+  },
+  "99066": {
+    "artist": "Kleston Marques",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 99054,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 99066,
+    "health": 8,
+    "id": "BG26_505_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Zesty Shaker",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Once per turn, after you\ncast a <b>Spellcraft</b> spell on\n this, get 2 new copies of it.",
+    "type": "MINION"
+  },
+  "99523": {
+    "artist": "Edgar Hidalgo",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 99734,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 99523,
+    "health": 2,
+    "id": "BG26_162",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Dancing Barnstormer",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Deathrattle:</b> Elementals in\nthe Tavern have +3/+2\n  for the rest of the game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "99734": {
+    "artist": "Edgar Hidalgo",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 99523,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 99734,
+    "health": 4,
+    "id": "BG26_162_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Dancing Barnstormer",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Deathrattle:</b> Elementals in\nthe Tavern have +6/+4\n  for the rest of the game.",
+    "type": "MINION"
+  },
+  "100707": {
+    "artist": "BOSi Studio",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 100708,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 100707,
+    "health": 7,
+    "id": "BG26_534",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gusty Trumpeter",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you sell 5 Elementals,\nget a random Elemental.\n<i>(5 left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
+  },
+  "100708": {
+    "artist": "BOSi Studio",
+    "attack": 12,
+    "battlegroundsNormalDbfId": 100707,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 100708,
+    "health": 14,
+    "id": "BG26_534_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gusty Trumpeter",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you sell 5 Elementals,\nget 2 random Elementals.\n<i>(5 left!)</i>",
+    "type": "MINION",
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
+  },
+  "101114": {
+    "artist": "Ramzy Kamen",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 101115,
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]At the end of every 3 turns,\nget a random Dragon.\n<i>(End of this turn!)</i>",
+    "cost": 1,
+    "dbfId": 101114,
+    "health": 1,
+    "id": "BG26_529",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Upbeat Frontdrake",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]At the end of every 3 turns,\nget a random Dragon.\n<i>({0} turns left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "pools": [
+      "DRAGON_POOL"
+    ]
+  },
+  "101115": {
+    "artist": "Ramzy Kamen",
+    "attack": 2,
+    "battlegroundsNormalDbfId": 101114,
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]At the end of every 3 turns,\nget 2 random Dragons.\n<i>(End of this turn!)</i>",
+    "cost": 1,
+    "dbfId": 101115,
+    "health": 2,
+    "id": "BG26_529_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Upbeat Frontdrake",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]At the end of every 3 turns,\nget 2 random Dragons.\n<i>({0} turns left!)</i>",
+    "type": "MINION",
+    "pools": [
+      "DRAGON_POOL"
+    ]
+  },
+  "101122": {
+    "artist": "Sergey Tsvelykh",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 101123,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 101122,
+    "elite": true,
+    "health": 6,
+    "id": "BG26_766",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fleet Admiral Tethys",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you spend 9 Gold,\nget a random Pirate.\n<i>(9 Gold left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "pools": [
+      "PIRATE_POOL"
+    ]
+  },
+  "101123": {
+    "artist": "Sergey Tsvelykh",
+    "attack": 10,
+    "battlegroundsNormalDbfId": 101122,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 101123,
+    "elite": true,
+    "health": 12,
+    "id": "BG26_766_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fleet Admiral Tethys",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you spend 9 Gold,\nget 2 random Pirates.\n<i>(9 Gold left!)</i>",
+    "type": "MINION",
+    "pools": [
+      "PIRATE_POOL"
+    ]
+  },
+  "101458": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 101463,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 101458,
+    "health": 2,
+    "id": "BG23_HERO_304_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Coilfang Elite",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After a <b>Spellcraft</b> minion\nappears in the Tavern,\nget a copy of its spell.",
+    "type": "MINION"
+  },
+  "101463": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 101458,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 101463,
+    "health": 4,
+    "id": "BG23_HERO_304_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Coilfang Elite",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]After a <b>Spellcraft</b> minion\nappears in the Tavern,\n  get 2 copies of its spell.",
+    "type": "MINION"
+  },
+  "101584": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 101591,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 101584,
+    "health": 3,
+    "id": "BG25_806",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Sly Raptor",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Summon a random Beast. Set its stats to 7/7.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "pools": [
+      "BEAST_POOL"
+    ]
+  },
+  "101591": {
+    "attack": 2,
+    "battlegroundsNormalDbfId": 101584,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 101591,
+    "health": 6,
+    "id": "BG25_806_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Sly Raptor",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Summon a random Beast. Set its stats to 14/14.",
+    "type": "MINION",
+    "pools": [
+      "BEAST_POOL"
+    ]
+  },
+  "101973": {
+    "artist": "Anton Zemskov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 101974,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 101973,
+    "health": 2,
+    "id": "BG24_HERO_204_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Enhance-o Medico",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]Minions in the Tavern\nwith <b>Taunt</b>, <b>Reborn</b>, \n<b>Windfury</b>, or <b>Divine Shield</b>\nhave +2/+2 for each.",
+    "type": "MINION"
+  },
+  "101974": {
+    "artist": "Anton Zemskov",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 101973,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 101974,
+    "health": 4,
+    "id": "BG24_HERO_204_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Enhance-o Medico",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]Minions in the Tavern\nwith <b>Taunt</b>, <b>Reborn</b>, \n<b>Windfury</b>, or <b>Divine Shield</b>\nhave +4/+4  for each.",
+    "type": "MINION"
+  },
+  "103501": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103501,
+    "id": "BG26_HERO_102p",
+    "name": "Major Hymn",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion Attack\nequal to your Tier. <i>(Swaps\nto Health next turn!)</i>",
+    "type": "HERO_POWER"
+  },
+  "103503": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103503,
+    "id": "BG26_HERO_102p2",
+    "name": "Minor Hymn",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Give a minion Health\nequal to your Tier. <i>(Swaps\nto Attack next turn!)</i>",
+    "type": "HERO_POWER"
+  },
+  "104724": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104724,
+    "hideCost": true,
+    "id": "BG27_Reward_504",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Timeline Acceleration",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of your turn, get two Accelerators that transform a minion into one from a Tier higher.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "104725": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104725,
+    "id": "BG27_Reward_504t",
+    "name": "Accelerator",
+    "set": "BATTLEGROUNDS",
+    "text": "Transform a minion into one from a Tier higher.",
+    "type": "SPELL"
+  },
+  "104818": {
+    "artist": "Christopher Hayes",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104818,
+    "hideCost": true,
+    "id": "BG27_Reward_811",
+    "name": "Bloodsoaked Tome",
+    "set": "BATTLEGROUNDS",
+    "text": "Minions in the Tavern cost 2 Gold.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "104821": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104821,
+    "hideCost": true,
+    "id": "BG27_Reward_812",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Scepter of Guidance",
+    "set": "BATTLEGROUNDS",
+    "text": "The Tavern always offers 2 {0} when <b>Refreshed</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  }
+}
