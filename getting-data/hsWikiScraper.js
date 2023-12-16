@@ -152,35 +152,21 @@ async function main() {
         console.error('Error: ', error.message);
     }
 
-    // getNewPatches(lastPatch).then( newPatchesObj => {
-    //     // for each new build, compare to the previous one
-    //     let previousPatch = getPatch(lastPatch);
-    //     let newPatches = Object.keys(newPatchesObj)
-    //         .sort((a,b) => a - b);
-    //     for(let patch of newPatches){
-    //         let currentPatch = getPatch(patch);
-    //         comparePatches(previousPatch, currentPatch, patch);
-    //         previousPatch = currentPatch;
-    //     }
-
-        
-    //     // at the end, save the new patches to the patches.json
-    //     saveNewPatches(patchesObj, newPatchesObj);
-    // });
 
 }
 
 main();
 
+// FOR THE FUTURE ME THAT'S WONDERING WHAT'S THE ISSUE
 
+// my code is (probably) fine, but when I update the cards and it tries to find a previous version using the mapping file, it's using the newly updated mapping file that says it's in a new patch, but that new patch is not in the directory that getCardById is looking at, so it gives an error "no such file or directory" for server/patches/enUS/undefined.json. It's basically because I'm using a new mapping file that I'm updating, but it can't find the card in the old mapping file (which is the one getCardById is using).
 
-// getPatch(190920).then( bgCards => {
-//     let i = 0;
-//     for(let card of bgCards){
-//         if(i > 10)
-//             break;
-//         console.log(card);
-//         i++;
+// temp();
 
-//     }
-// });
+async function temp() {
+    let patchId = 184727;
+    let currentPatch = await getPatch(patchId);
+    let previousPatch = await getPatch(183876);
+    comparePatches(previousPatch, currentPatch, patchId);
+
+}
