@@ -1,0 +1,377 @@
+{
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ],
+    "battlegroundsHero": true
+  },
+  "77839": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 77840,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77839,
+    "health": 5,
+    "id": "TB_BaconShop_HERO_21_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Street Magician",
+    "referencedTags": [
+      "SECRET"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "At the end of your turn, cast a random <b>Secret</b>.",
+    "type": "MINION",
+    "pools": [
+      "SECRET_POOL"
+    ]
+  },
+  "77840": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 77839,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77840,
+    "health": 10,
+    "id": "TB_BaconShop_HERO_21_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Street Magician",
+    "referencedTags": [
+      "SECRET"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "At the end of your turn, cast 2 random <b>Secrets</b>.",
+    "type": "MINION",
+    "pools": [
+      "SECRET_POOL"
+    ]
+  },
+  "77874": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77875,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77874,
+    "health": 4,
+    "id": "BG21_HERO_030_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Piloted Whirl-O-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Copy <b>Deathrattles</b>.",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Copy all other minions' <b>Deathrattles</b> <i>(except Piloted Whirl-o-Tron)</i>.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "77875": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77874,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77875,
+    "health": 8,
+    "id": "BG21_HERO_030_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Piloted Whirl-O-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Copy <b>Deathrattles</b> twice.",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Copy all other minions' <b>Deathrattles</b>, twice <i>(except Piloted Whirl-o-Tron)</i>.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "79618": {
+    "armor": 13,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ],
+    "battlegroundsHero": true
+  },
+  "97553": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 97554,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 97553,
+    "health": 1,
+    "id": "BG25_041",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felemental",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Minions in\nthe Tavern have +1/+1\n  for the rest of the game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "DEMON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "99197": {
+    "artist": "Grafit",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 99198,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 99197,
+    "health": 1,
+    "id": "BG26_522",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Keyboard Igniter",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> If you've taken damage since last turn, give your other Demons +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "99232": {
+    "artist": "Grace Liu",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 99233,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 99232,
+    "health": 4,
+    "id": "BG26_525",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Imposing Percussionist",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry: Discover</b>\na Demon. Deal damage\nto your hero equal\nto its Tier. ",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "pools": [
+      "DEMON_POOL"
+    ]
+  },
+  "99233": {
+    "artist": "Grace Liu",
+    "attack": 8,
+    "battlegroundsNormalDbfId": 99232,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 99233,
+    "health": 8,
+    "id": "BG26_525_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Imposing Percussionist",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Battlecry: Discover</b>\n2 Demons. Deal damage\nto your hero equal to\ntheir Tiers. ",
+    "type": "MINION",
+    "pools": [
+      "DEMON_POOL"
+    ]
+  },
+  "101435": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 101441,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 101435,
+    "health": 3,
+    "id": "BG24_HERO_100_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Shady Aristocrat",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> <b>Discover</b> a <b>Quest</b>.\nComplete it to get an\n8-Gold Coin Pouch.",
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      101579
+    ]
+  },
+  "101441": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 101435,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 101441,
+    "health": 6,
+    "id": "BG24_HERO_100_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ],
+    "name": "Shady Aristocrat",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> <b>Discover</b> a <b>Quest</b>.\nComplete it to get a\n16-Gold Coin Pouch.",
+    "type": "MINION",
+    "relatedCards": [
+      101580
+    ]
+  },
+  "102094": {
+    "artist": "Eva Widermann",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102094,
+    "id": "BG27_Anomaly_755t",
+    "name": "Triple Reward",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Discover</b> a Tier 0 Darkmoon Prize.",
+    "type": "SPELL"
+  },
+  "102412": {
+    "artist": "Tanamaes Leejierasaes",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102412,
+    "id": "BG27_Anomaly_714",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Everything's on Fire!",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of the game,\ntake 25 damage.\nAfter another hero dies,\nregain 5 Health.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102976": {
+    "artist": "Kevin Sidharta",
+    "cost": 0,
+    "dbfId": 102976,
+    "id": "BG27_Anomaly_503",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "The Yogg-iseum",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of each turn, spin the SAME Wheel of the Yogg-Saron.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102986": {
+    "artist": "Matt Dixon",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102986,
+    "id": "BG27_Anomaly_100",
+    "name": "Big League",
+    "set": "BATTLEGROUNDS",
+    "text": "Only Tavern Tiers\n3, 4, 5, and 6 exist.\nStart with 10 extra Armor.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "103704": {
+    "artist": "Kevin Sidharta",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 103705,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103704,
+    "health": 2,
+    "id": "BG27_019",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Spark-ling",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give all other minions +1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  }
+}

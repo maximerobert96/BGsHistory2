@@ -1,0 +1,542 @@
+{
+  "57957": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 57957,
+    "id": "TB_BaconShop_HP_017",
+    "name": "Murloc King",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
+    "type": "HERO_POWER"
+  },
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
+  },
+  "63600": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 63600,
+    "id": "TB_BaconShop_HP_081",
+    "name": "Friendly Wager",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Guess which player will\nwin their next combat.\nIf you're correct,\nget 3 Gold Coins.",
+    "type": "HERO_POWER"
+  },
+  "70136": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 70136,
+    "id": "BG20_GEM",
+    "name": "Blood Gem",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +{0}/+{1}.",
+    "type": "SPELL",
+    "relatedCards": [
+      72652
+    ]
+  },
+  "77778": {
+    "attack": 7,
+    "battlegroundsPremiumDbfId": 77779,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77778,
+    "elite": true,
+    "health": 5,
+    "id": "BG21_HERO_000_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
+    "name": "Captain Fairmount",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Choose One</b> - For the rest\n of the game, 'Conviction'\n gives an additional\n  +2 Attack; or +2 Health.",
+    "type": "MINION",
+    "bannedFromFoaF": true,
+    "relatedCards": [
+      101567
+    ]
+  },
+  "77779": {
+    "attack": 14,
+    "battlegroundsNormalDbfId": 77778,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 77779,
+    "elite": true,
+    "health": 10,
+    "id": "BG21_HERO_000_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
+    "name": "Captain Fairmount",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Choose One</b> - For the rest\n of the game, 'Conviction'\n gives an additional\n  +4 Attack; or +4 Health.",
+    "type": "MINION",
+    "relatedCards": [
+      101576
+    ]
+  },
+  "77803": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 77804,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77803,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconShop_HERO_49_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Magnus Manastorm",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you buy a minion,\nadd one of the same Tier\n to the Tavern.",
+    "type": "MINION"
+  },
+  "77804": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 77803,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 77804,
+    "elite": true,
+    "health": 8,
+    "id": "TB_BaconShop_HERO_49_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Magnus Manastorm",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you buy a minion,\nadd two of the same Tier\n to the Tavern.",
+    "type": "MINION"
+  },
+  "79618": {
+    "armor": 13,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
+  },
+  "99054": {
+    "artist": "Kleston Marques",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 99066,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 99054,
+    "health": 4,
+    "id": "BG26_505",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Zesty Shaker",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Once per turn, when a\n<b>Spellcraft</b> spell is played on\n this, get a new copy of it.",
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ]
+  },
+  "99066": {
+    "artist": "Kleston Marques",
+    "attack": 6,
+    "battlegroundsNormalDbfId": 99054,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 99066,
+    "health": 8,
+    "id": "BG26_505_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Zesty Shaker",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Once per turn, when a\n<b>Spellcraft</b> spell is played on\n this, get 2 new copies of it.",
+    "type": "MINION"
+  },
+  "101994": {
+    "artist": "Joseph Weston",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 101994,
+    "id": "BG27_Anomaly_006",
+    "name": "Curse of Aggramar",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Start at 5 Health and 5\nGold. Your hero can only\ntake 1 damage at a time.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102005": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102005,
+    "id": "BG27_Anomaly_900",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Golganneth's Tempest",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Minions cost 2 Gold.\nYou cannot <b>Refresh</b> the\nTavern. It <b>Refreshes</b> itself\nafter you buy a minion.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102008": {
+    "artist": "Todd Harris",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102008,
+    "id": "BG27_Anomaly_300",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Eonar's Overgrown Arena",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of your turn,\ngive minions in the\nTavern +1/+1 for\nthe rest of the game.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102093": {
+    "artist": "Eva Widermann",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102093,
+    "id": "BG27_Anomaly_755",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "A Faire Reward",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.\n<i>(Improves in {0} turns!)</i>4Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.",
+    "type": "BATTLEGROUND_ANOMALY",
+    "relatedCards": [
+      {
+        "artist": "Eva Widermann",
+        "cardClass": "NEUTRAL",
+        "cost": 0,
+        "dbfId": 102094,
+        "id": "BG27_Anomaly_755t",
+        "name": "Triple Reward",
+        "referencedTags": [
+          "DISCOVER"
+        ],
+        "set": "BATTLEGROUNDS",
+        "text": "<b>Discover</b> a\nDarkmoon Prize.",
+        "type": "SPELL"
+      }
+    ]
+  },
+  "102455": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102455,
+    "id": "BG27_Anomaly_715",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gladiator's Spoils",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you win a combat,\n<b>Discover</b> a minion of your\nTier. Otherwise, get a\nrandom one of a Tier lower.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102459": {
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]After you upgrade the\nTavern, <b>Discover</b> a <b>Tier {1}</b>\nDarkmoon Prize.",
+    "cost": 0,
+    "dbfId": 102459,
+    "id": "BG27_Anomaly_716",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Up-Prizing",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you upgrade the\nTavern, <b>Discover</b> a <b>Tier {1}</b>\nDarkmoon Prize.\n<i>(Improves in {0} turns!)</i>",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102855": {
+    "artist": "Joseph Weston",
+    "cost": 0,
+    "dbfId": 102855,
+    "id": "BG27_Anomaly_724",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Shackles of the Primus",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After each combat,\nremove your warband.\nAt the start of your turn,\ntriple your Gold.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102875": {
+    "artist": "Jonboy Meyers",
+    "cost": 0,
+    "dbfId": 102875,
+    "id": "BG27_Anomaly_723",
+    "name": "Summoning of Champions",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the start of the game,\nall players <b>Discover</b> a\nTier 6 minion from\nthe same choices.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102908": {
+    "artist": "Steve Ellis",
+    "cost": 0,
+    "dbfId": 102908,
+    "id": "BG27_Anomaly_726",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Blessed or Blighted",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "REBORN"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Start of Combat:</b> Give\nyour left-most minion\n<b>Divine Shield</b> and your\nright-most minion <b>Reborn</b>.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102976": {
+    "artist": "Kevin Sidharta",
+    "cost": 0,
+    "dbfId": 102976,
+    "id": "BG27_Anomaly_503",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "The Yogg-iseum",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of each turn, spin the Wheel of the Yogg-Saron.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102989": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102989,
+    "id": "BG27_Anomaly_805",
+    "name": "Match Fixing",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Guess which player will\nwin your next combat.\nIf you're correct,\nget 3 Gold Coins.",
+    "type": "BATTLEGROUND_ANOMALY",
+    "relatedCards": [
+      {
+        "cardClass": "NEUTRAL",
+        "cost": 0,
+        "dbfId": 108849,
+        "id": "BG27_Anomaly_805t",
+        "name": "Match Fixing",
+        "set": "BATTLEGROUNDS",
+        "text": "Guess which player will win your next combat.",
+        "type": "BATTLEGROUND_QUEST_REWARD"
+      }
+    ]
+  },
+  "102991": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102991,
+    "id": "BG27_Anomaly_103",
+    "name": "Tavern Special",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]All minion types are\nin the Tavern. It always\nhas 7 minions.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "103198": {
+    "cost": 0,
+    "dbfId": 103198,
+    "id": "BG27_Anomaly_505",
+    "name": "Reckless Enhancement",
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Minions in the Tavern\neach randomly gain\n<b>Taunt</b>, <b>Windfury</b>, <b>Divine\nShield</b>, or <b>Reborn</b>.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "104414": {
+    "armor": 15,
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 97186,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104414,
+    "health": 30,
+    "heroPowerDbfId": 97185,
+    "id": "TB_BaconShop_HERO_702_SKIN_A",
+    "name": "Kabal Jailer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "104415": {
+    "battlegroundsSkinParentId": 57961,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104415,
+    "health": 30,
+    "heroPowerDbfId": 57962,
+    "id": "TB_BaconShop_HERO_20_SKIN_A",
+    "name": "Poughkipsee Putricide",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "104416": {
+    "armor": 13,
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 79618,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104416,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007_SKIN_B",
+    "name": "Majordomo Azshara",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "relatedCards": [
+      {
+        "artist": "G. Beauchêne & Mooncolony",
+        "battlegroundsSkinParentId": 89992,
+        "cardClass": "NEUTRAL",
+        "dbfId": 104417,
+        "health": 30,
+        "heroPowerDbfId": 80007,
+        "id": "BG22_HERO_007_SKIN_Bt",
+        "name": "Molten Queen Azshara",
+        "rarity": "EPIC",
+        "set": "BATTLEGROUNDS",
+        "type": "HERO"
+      }
+    ]
+  },
+  "104417": {
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 89992,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104417,
+    "health": 30,
+    "heroPowerDbfId": 80007,
+    "id": "BG22_HERO_007_SKIN_Bt",
+    "name": "Molten Queen Azshara",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "104418": {
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 58535,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104418,
+    "health": 30,
+    "heroPowerDbfId": 66246,
+    "id": "TB_BaconShop_HERO_29_SKIN_E",
+    "name": "C'Thun Over Ahn'Qiraj",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "104419": {
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 89293,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104419,
+    "health": 30,
+    "heroPowerDbfId": 89294,
+    "id": "TB_BaconShop_HERO_44_SKIN_A",
+    "name": "Ivory Queen Sylvanas",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "104420": {
+    "armor": 15,
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 86291,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104420,
+    "health": 30,
+    "heroPowerDbfId": 86292,
+    "id": "BG23_HERO_305_SKIN_C",
+    "name": "Togwaggle, Archlich",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "104479": {
+    "artist": "G. Beauchêne & Mooncolony",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104479,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_AD",
+    "name": "Bartender Roberta",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "108849": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 108849,
+    "id": "BG27_Anomaly_805t",
+    "name": "Match Fixing",
+    "set": "BATTLEGROUNDS",
+    "text": "Guess which player will win your next combat.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  }
+}

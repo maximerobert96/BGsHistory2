@@ -150,7 +150,7 @@ async function main() {
                 comparePatches(previousPatch, currentPatch, patch);
                 previousPatch = currentPatch;
             } catch (error) {
-                console.error(`Error with patch ${patch}, skipping to the next one. ${error.message}`);
+                console.error(`Error with patch ${patch}, skipping to the next one. ${error}`);
             }
             
         }

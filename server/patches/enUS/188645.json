@@ -1,0 +1,289 @@
+{
+  "61444": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 61445,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 61444,
+    "health": 6,
+    "id": "BGS_069",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Amalgadon",
+    "race": "ALL",
+    "referencedTags": [
+      "ADAPT"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 7,
+    "text": "[x]<b>Battlecry:</b> For each\ndifferent minion type you\n control, randomly <b>Adapt</b>.",
+    "type": "MINION",
+    "races": [
+      "ALL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "pools": [
+      "ADAPT_POOL"
+    ]
+  },
+  "64062": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 64064,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64062,
+    "health": 5,
+    "id": "BGS_121",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get\na random Elemental.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "64064": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 64062,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64064,
+    "health": 10,
+    "id": "TB_BaconUps_165",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "name": "Gentle Djinni",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get\n2 random Elementals.",
+    "type": "MINION"
+  },
+  "77874": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 77875,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77874,
+    "health": 4,
+    "id": "BG21_HERO_030_Buddy",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Piloted Whirl-O-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Copy <b>Deathrattles</b>.",
+    "techLevel": 5,
+    "text": "[x]<b>Start of Combat:</b> Copy all\nother friendly minions'\n<b>Deathrattles</b> <i>(except\n  Piloted Whirl-O-Tron)</i>.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "77875": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 77874,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 77875,
+    "health": 8,
+    "id": "BG21_HERO_030_Buddy_G",
+    "isBattlegroundsBuddy": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Piloted Whirl-O-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "targetingArrowText": "Copy <b>Deathrattles</b> twice.",
+    "techLevel": 5,
+    "text": "[x]<b>Start of Combat:</b> Copy all\nother friendly minions'\n<b>Deathrattles</b> twice <i>(except\n  Piloted Whirl-O-Tron)</i>.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "100707": {
+    "artist": "BOSi Studio",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 100708,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 100707,
+    "health": 7,
+    "id": "BG26_534",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Gusty Trumpeter",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After you sell 5 Elementals,\nget a random Elemental.\n<i>(5 left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "pools": [
+      "ELEMENTAL_POOL"
+    ]
+  },
+  "102965": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 102968,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102965,
+    "elite": true,
+    "health": 10,
+    "id": "BG27_507",
+    "mechanics": [
+      "TRIGGER_VISUAL",
+      "VENOMOUS"
+    ],
+    "name": "Mannoroth",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD",
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Venomous.</b> After this kills a minion and survives, gain its maximum stats. <i>(Once per combat.)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "DEMON"
+    ]
+  },
+  "103686": {
+    "artist": "Vlad Botos",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 103687,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103686,
+    "health": 4,
+    "id": "BG27_010",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "AVENGE",
+      "VENOMOUS"
+    ],
+    "name": "Relentless Mur'ghoul",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD",
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Venomous</b>\n<b>Avenge (5):</b> Gain <b>Reborn</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "MURLOC"
+    ]
+  },
+  "103687": {
+    "artist": "Vlad Botos",
+    "attack": 10,
+    "battlegroundsNormalDbfId": 103686,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103687,
+    "health": 8,
+    "id": "BG27_010_G",
+    "mechanics": [
+      "AVENGE",
+      "VENOMOUS"
+    ],
+    "name": "Relentless Mur'ghoul",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD",
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Venomous</b>\n<b>Avenge (5):</b> Gain <b>Reborn</b>.",
+    "type": "MINION"
+  },
+  "106852": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 106854,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 106852,
+    "elite": true,
+    "health": 7,
+    "id": "BG27_555",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Admiral Eliza Goreblade",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever a friendly Pirate attacks, give all friendly minions +3/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "106854": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 106852,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 106854,
+    "elite": true,
+    "health": 14,
+    "id": "BG27_555_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Admiral Eliza Goreblade",
+    "race": "PIRATE",
+    "races": [
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever a friendly Pirate attacks, give all friendly minions +6/+2.",
+    "type": "MINION"
+  }
+}

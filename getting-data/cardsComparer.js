@@ -101,23 +101,23 @@ function combineVersions(oldVersion, newVersion) {
 }
 
 function addTribes(card) {
-
-    // ignore cards that are not active
+        // ignore cards that are not active
     if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero"))){
         return card;
     }
 
     // ALL becomes GENERAL, others with card types keep them as tribes, and the
     // rest become GENERAL
-    if (card.hasOwnProperty(races) && card.races.toString() === ["ALL"].toString()) {
+    if (card.hasOwnProperty("races") && card.races.toString() === ["ALL"].toString()) {
         card.associatedTribes = ["GENERAL"];
-    } else if (card.hasOwnProperty(races)) {
+    } else if (card.hasOwnProperty("races")) {
         card.associatedTribes = card.races;
     } else {
         card.associatedTribes = ["GENERAL"];
     }
 
     return card;
+    
 }
 
 function addTokens(card, cardsArray) {
