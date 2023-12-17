@@ -100,8 +100,7 @@ function getLastPatch(patches){
 
 function saveNewPatches(oldPatches, newPatches){
     let updatedPatches = {...oldPatches, ...newPatches};
-    saveJsonToFile("./temp/patches2.json", updatedPatches); // TODO update to real path
-    // saveJsonToFile("../server/patches2.json", updatedPatches);
+    saveJsonToFile("../server/patches.json", updatedPatches);
 }
 
 function keepBgCards(json){
@@ -163,14 +162,3 @@ async function main() {
 
 }
 
-main();
-
-
-
-async function temp() {
-    let patchId = 184727;
-    let currentPatch = await getPatch(patchId);
-    let previousPatch = await getPatch(183876);
-    comparePatches(previousPatch, currentPatch, patchId);
-
-}
