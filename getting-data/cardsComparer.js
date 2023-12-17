@@ -39,17 +39,20 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
                 mapping.patches[currentPatchId].push(id);
 
                 newVersionsInPatch[id] = addCustomFields(currentPatch[id], currentPatch);
+                // TODO also download images if the card was changed
             }
 
         } else {
             // temporary, usually it should be outside the else, and I should download the pictures for the latest patch
             let currentVersion = currentPatch[id];
             let isGolden = currentVersion.hasOwnProperty("battlegroundsNormalDbfId");
-            downloadImagesFromBlizzAPIForCardId(id, 190416, isGolden);
+            // downloadImagesFromBlizzAPIForCardId(id, 190416, isGolden);
             
 
             mapping.cards[id] = [ currentPatchId ];
             mapping.patches[currentPatchId].push(id);
+
+            newVersionsInPatch[id] = addCustomFields(currentPatch[id], currentPatch);
         }
     }
 
@@ -109,7 +112,7 @@ function addTribes(card) {
     if (card.hasOwnProperty(races) && card.races.toString() === ["ALL"].toString()) {
         card.associatedTribes = ["GENERAL"];
     } else if (card.hasOwnProperty(races)) {
-        card.associatedTribes = races;
+        card.associatedTribes = card.races;
     } else {
         card.associatedTribes = ["GENERAL"];
     }
