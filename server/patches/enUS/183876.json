@@ -3144,20 +3144,7 @@
     "text": "Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.\n<i>(Upgrades in {0} turns!)</i>3Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "artist": "Eva Widermann",
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 102094,
-        "id": "BG27_Anomaly_755t",
-        "name": "Triple Reward",
-        "referencedTags": [
-          "DISCOVER"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "<b>Discover</b> a\nDarkmoon Prize.",
-        "type": "SPELL"
-      }
+      102094
     ]
   },
   "102094": {
@@ -3490,16 +3477,7 @@
     "text": "At the start of your turn, choose from 2 new Quest Rewards.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 106474,
-        "id": "BG27_Anomaly_803t",
-        "name": "Transient Treasures Activation [DNT]",
-        "set": "BATTLEGROUNDS",
-        "text": "Trigger Transient Treasures - Choose from 2 Quest Rewards. [DNT]",
-        "type": "SPELL"
-      }
+      106474
     ]
   },
   "102986": {
@@ -3683,17 +3661,7 @@
       "NAGA"
     ],
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 103071,
-        "elite": true,
-        "id": "BG27_514t",
-        "name": "Siren's Song",
-        "set": "BATTLEGROUNDS",
-        "text": "Choose a minion in the Tavern to get a copy of\n<i>(except Sea Witch Zar'jira).</i>",
-        "type": "SPELL"
-      }
+      103071
     ]
   },
   "103071": {
@@ -4230,20 +4198,7 @@
       "GENERAL"
     ],
     "relatedCards": [
-      {
-        "artist": "Zoltan Boros",
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105863,
-        "id": "BG27_002t",
-        "name": "Slimy Shield",
-        "referencedTags": [
-          "TAUNT"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "Give a minion +1/+1 and <b>Taunt</b>.",
-        "type": "SPELL"
-      }
+      105863
     ]
   },
   "103671": {
@@ -4298,19 +4253,7 @@
       "BEAST"
     ],
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105949,
-        "id": "BG27_004t",
-        "name": "Crab Mount",
-        "referencedTags": [
-          "DEATHRATTLE"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon a\n2/2 Crab\" until next turn.",
-        "type": "SPELL"
-      }
+      105949
     ]
   },
   "103675": {
@@ -4339,19 +4282,7 @@
     "text": "[x]<b>Spellcraft:</b> Give a minion\n\"<b>Deathrattle:</b> Summon a\n 4/4 Crab\"until next turn.",
     "type": "MINION",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105950,
-        "id": "BG27_004_Gt",
-        "name": "Crab Mount",
-        "referencedTags": [
-          "DEATHRATTLE"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon a\n4/4 Crab\" until next turn.",
-        "type": "SPELL"
-      }
+      105950
     ]
   },
   "103678": {
@@ -4435,29 +4366,7 @@
       "BEAST"
     ],
     "relatedCards": [
-      {
-        "artist": "Grafit Studio",
-        "attack": 2,
-        "battlegroundsPremiumDbfId": 105957,
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105955,
-        "health": 2,
-        "id": "BG27_008t",
-        "mechanics": [
-          "DEATHRATTLE"
-        ],
-        "name": "Mechorse",
-        "race": "BEAST",
-        "races": [
-          "MECHANICAL",
-          "BEAST"
-        ],
-        "set": "BATTLEGROUNDS",
-        "techLevel": 1,
-        "text": "<b>Deathrattle:</b> Summon a 1/1 Mechapony.",
-        "type": "MINION"
-      }
+      105955
     ]
   },
   "103683": {
@@ -4483,29 +4392,7 @@
     "text": "[x]<b>Deathrattle:</b> Summon two\n4/4 Mechorses with\n\"<b>Deathrattle:</b> Summon a\n2/2 Mechapony.\"",
     "type": "MINION",
     "relatedCards": [
-      {
-        "artist": "Grafit Studio",
-        "attack": 4,
-        "battlegroundsNormalDbfId": 105955,
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105957,
-        "health": 4,
-        "id": "BG27_008_Gt",
-        "mechanics": [
-          "DEATHRATTLE"
-        ],
-        "name": "Mechorse",
-        "race": "BEAST",
-        "races": [
-          "MECHANICAL",
-          "BEAST"
-        ],
-        "set": "BATTLEGROUNDS",
-        "techLevel": 1,
-        "text": "<b>Deathrattle:</b> Summon a 2/2 Mechapony.",
-        "type": "MINION"
-      }
+      105957
     ]
   },
   "103684": {
@@ -4693,17 +4580,7 @@
       "NAGA"
     ],
     "relatedCards": [
-      {
-        "artist": "Todd Harris",
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105947,
-        "id": "BG27_012t",
-        "name": "Sea Summoning",
-        "set": "BATTLEGROUNDS",
-        "text": "Choose a minion.\nAdd a minion of its type to the Tavern.",
-        "type": "SPELL"
-      }
+      105947
     ]
   },
   "103691": {
@@ -4729,17 +4606,7 @@
     "text": "[x]<b>Spellcraft:</b> Choose a\nminion. Add two minions\n  of its type to the Tavern.",
     "type": "MINION",
     "relatedCards": [
-      {
-        "artist": "Todd Harris",
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105948,
-        "id": "BG27_012_Gt",
-        "name": "Sea Summoning",
-        "set": "BATTLEGROUNDS",
-        "text": "Choose a minion.\nAdd two minions of its type to the Tavern.",
-        "type": "SPELL"
-      }
+      105948
     ]
   },
   "103692": {

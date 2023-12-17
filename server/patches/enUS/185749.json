@@ -257,20 +257,7 @@
     "text": "Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.\n<i>(Improves in {0} turns!)</i>4Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "artist": "Eva Widermann",
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 102094,
-        "id": "BG27_Anomaly_755t",
-        "name": "Triple Reward",
-        "referencedTags": [
-          "DISCOVER"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "<b>Discover</b> a\nDarkmoon Prize.",
-        "type": "SPELL"
-      }
+      102094
     ]
   },
   "102455": {
@@ -372,16 +359,7 @@
     "text": "[x]Guess which player will\nwin your next combat.\nIf you're correct,\nget 3 Gold Coins.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 108849,
-        "id": "BG27_Anomaly_805t",
-        "name": "Match Fixing",
-        "set": "BATTLEGROUNDS",
-        "text": "Guess which player will win your next combat.",
-        "type": "BATTLEGROUND_QUEST_REWARD"
-      }
+      108849
     ]
   },
   "102991": {
@@ -448,19 +426,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "relatedCards": [
-      {
-        "artist": "G. Beauchêne & Mooncolony",
-        "battlegroundsSkinParentId": 89992,
-        "cardClass": "NEUTRAL",
-        "dbfId": 104417,
-        "health": 30,
-        "heroPowerDbfId": 80007,
-        "id": "BG22_HERO_007_SKIN_Bt",
-        "name": "Molten Queen Azshara",
-        "rarity": "EPIC",
-        "set": "BATTLEGROUNDS",
-        "type": "HERO"
-      }
+      104417
     ]
   },
   "104417": {

@@ -126,7 +126,7 @@ function addTokens(card, cardsArray) {
         c.id === card.id + "t");
 
     if(token !== undefined){
-        card.relatedCards = [ token ];
+        card.relatedCards = [ token.dbfId ];
     } 
 
     return card;

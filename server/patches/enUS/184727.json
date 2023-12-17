@@ -1139,19 +1139,7 @@
       "BEAST"
     ],
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105949,
-        "id": "BG27_004t",
-        "name": "Crab Mount",
-        "referencedTags": [
-          "DEATHRATTLE"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon a\n2/2 Crab\" until next turn.",
-        "type": "SPELL"
-      }
+      105949
     ]
   },
   "103675": {
@@ -1180,19 +1168,7 @@
     "text": "[x]<b>Spellcraft:</b> Give a minion\n\"<b>Deathrattle:</b> Summon a\n 6/4 Crab\"until next turn.",
     "type": "MINION",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105950,
-        "id": "BG27_004_Gt",
-        "name": "Crab Mount",
-        "referencedTags": [
-          "DEATHRATTLE"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon a\n4/4 Crab\" until next turn.",
-        "type": "SPELL"
-      }
+      105950
     ]
   },
   "103700": {

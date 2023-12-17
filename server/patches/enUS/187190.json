@@ -852,16 +852,7 @@
     "text": "[x]Start with two upgrading\n'Piggy Banks'. Break\nthem open to gain Gold!",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 102077,
-        "id": "BG27_Anomaly_302t",
-        "name": "Piggy Bank",
-        "set": "BATTLEGROUNDS",
-        "text": "Gain 1 Gold.\n<i>(Upgrades each turn!)</i>",
-        "type": "SPELL"
-      }
+      102077
     ]
   },
   "102077": {
@@ -907,16 +898,7 @@
     "text": "At the start of your turn, choose from 2 new Quest Rewards.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 106474,
-        "id": "BG27_Anomaly_803t",
-        "name": "Transient Treasures Activation [DNT]",
-        "set": "BATTLEGROUNDS",
-        "text": "Trigger Transient Treasures - Choose from 2 Quest Rewards. [DNT]",
-        "type": "SPELL"
-      }
+      106474
     ]
   },
   "102987": {
@@ -933,19 +915,7 @@
     "text": "[x]Only Tavern Tiers 1, 3,\nand 5 exist. Triple\nRewards <b>Discover</b> a\nminion of your Tier.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 103188,
-        "id": "BG27_Anomaly_101t",
-        "name": "Triple Reward",
-        "referencedTags": [
-          "DISCOVER"
-        ],
-        "set": "BATTLEGROUNDS",
-        "text": "<b>Discover</b> a minion\nfrom <b>Tier 0</b>.",
-        "type": "SPELL"
-      }
+      103188
     ]
   },
   "102988": {
@@ -1101,16 +1071,7 @@
     "text": "Each turn, look at 2 minions. Guess which one your next opponent had last combat for a Coin.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 106440,
-        "id": "BG27_Anomaly_555t",
-        "name": "No Place Like Holmes",
-        "set": "BATTLEGROUNDS",
-        "text": "Guess which minion your next opponent had last combat.",
-        "type": "BATTLEGROUND_QUEST_REWARD"
-      }
+      106440
     ]
   },
   "106440": {
@@ -1561,19 +1522,7 @@
     "text": "[x]The first time your hero\ntakes fatal damage,\nprevent it and gain 11 Gold\nnext turn instead.",
     "type": "BATTLEGROUND_ANOMALY",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 106634,
-        "id": "BG27_Anomaly_575t",
-        "mechanics": [
-          "SECRET"
-        ],
-        "name": "Eleventh Hour",
-        "set": "BATTLEGROUNDS",
-        "text": "[x]<b>Secret: </b>The first time your\nhero takes fatal damage,\nprevent it and gain 11 Gold\nnext turn instead.",
-        "type": "SPELL"
-      }
+      106634
     ]
   },
   "106634": {
@@ -1789,16 +1738,7 @@
       "BEAST"
     ],
     "relatedCards": [
-      {
-        "cost": 0,
-        "dbfId": 108911,
-        "id": "BG27_084t",
-        "name": "Sprightly Sprucing",
-        "set": "BATTLEGROUNDS",
-        "targetingArrowText": "Give a Beast +1/+1\nand <b>Reborn</b>.",
-        "text": "Give a Beast +1/+1\nand <b>Reborn</b>.",
-        "type": "SPELL"
-      }
+      108911
     ]
   },
   "108910": {
@@ -1826,16 +1766,7 @@
     "text": "<b>Choose One -</b> Give a Beast +2/+2 and <b>Reborn</b>; or +8/+8 and <b>Taunt</b>.",
     "type": "MINION",
     "relatedCards": [
-      {
-        "cost": 0,
-        "dbfId": 108913,
-        "id": "BG27_084_Gt",
-        "name": "Sprightly Sprucing",
-        "set": "BATTLEGROUNDS",
-        "targetingArrowText": "Give a Beast +2/+2\nand <b>Reborn</b>.",
-        "text": "Give a Beast +2/+2\nand <b>Reborn</b>.",
-        "type": "SPELL"
-      }
+      108913
     ]
   },
   "108911": {

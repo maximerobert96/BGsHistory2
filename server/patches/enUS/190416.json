@@ -2314,17 +2314,7 @@
       "NAGA"
     ],
     "relatedCards": [
-      {
-        "artist": "Todd Harris",
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105947,
-        "id": "BG27_012t",
-        "name": "Sea Summoning",
-        "set": "BATTLEGROUNDS",
-        "text": "Choose a minion.\nAdd a minion of its type to the Tavern.",
-        "type": "SPELL"
-      }
+      105947
     ]
   },
   "103714": {
@@ -2668,19 +2658,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "relatedCards": [
-      {
-        "artist": "G. Beauchêne & Mooncolony",
-        "battlegroundsSkinParentId": 89992,
-        "cardClass": "NEUTRAL",
-        "dbfId": 104417,
-        "health": 30,
-        "heroPowerDbfId": 80007,
-        "id": "BG22_HERO_007_SKIN_Bt",
-        "name": "Molten Queen Azshara",
-        "rarity": "EPIC",
-        "set": "BATTLEGROUNDS",
-        "type": "HERO"
-      }
+      104417
     ]
   },
   "104420": {
@@ -4320,20 +4298,7 @@
       "NAGA"
     ],
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105678,
-        "elite": true,
-        "id": "BG28_405t",
-        "mechanics": [
-          "DISCOVER"
-        ],
-        "name": "Sunken Spells",
-        "set": "BATTLEGROUNDS",
-        "text": "<b>Discover</b> a Tavern spell.",
-        "type": "SPELL"
-      }
+      105678
     ]
   },
   "105677": {
@@ -4361,20 +4326,7 @@
     "text": "<b>Spellcraft: Discover</b> 2 Tavern spells.",
     "type": "MINION",
     "relatedCards": [
-      {
-        "cardClass": "NEUTRAL",
-        "cost": 0,
-        "dbfId": 105679,
-        "elite": true,
-        "id": "BG28_405_Gt",
-        "mechanics": [
-          "DISCOVER"
-        ],
-        "name": "Sunken Spells",
-        "set": "BATTLEGROUNDS",
-        "text": "<b>Discover</b> 2 Tavern spells.",
-        "type": "SPELL"
-      }
+      105679
     ]
   },
   "105678": {
