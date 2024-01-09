@@ -131,7 +131,7 @@ function getJsonFromUrl(url){
     });
 }
 
-async function main() {
+async function downloadManyNewestPatches() {
     let patchesObj = getJsonFromFile("../server/patches.json");
     let lastPatch = getLastPatch(patchesObj);
     try {
@@ -162,4 +162,8 @@ async function main() {
 
 }
 
-main();
+downloadManyNewestPatches();
+
+// function downloadLatestPatch() {
+
+// }

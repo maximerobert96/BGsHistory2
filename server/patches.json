@@ -726,5 +726,11 @@
     "build": "190920",
     "releaseDate": "December 8, 2023",
     "patchNumber": "28.2.1"
+  },
+  "191554": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes",
+    "build": "191554",
+    "releaseDate": "December 19, 2023",
+    "patchNumber": "28.2.3"
   }
 }
