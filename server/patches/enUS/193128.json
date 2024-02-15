@@ -1,0 +1,553 @@
+{
+  "98930": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 98934,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 98930,
+    "health": 3,
+    "id": "BG26_159",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Moon-Bacon Jazzer",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
+  },
+  "98934": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 98930,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 98934,
+    "health": 6,
+    "id": "BG26_159_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Moon-Bacon Jazzer",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+2 Health this game.",
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
+  },
+  "98946": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 98947,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 98946,
+    "health": 1,
+    "id": "BG26_160",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Prickly Piper",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Deathrattle:</b> Your <b>Blood\nGems</b> give an extra\n+1 Attack this game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ]
+  },
+  "98947": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 10,
+    "battlegroundsNormalDbfId": 98946,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 98947,
+    "health": 2,
+    "id": "BG26_160_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Prickly Piper",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Deathrattle:</b> Your <b>Blood\nGems</b> give an extra\n+2 Attack this game.",
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ]
+  },
+  "104472": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 104472,
+    "id": "BG28_845",
+    "name": "Natural Blessing",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "targetingArrowText": "Give minions of this type +2/+2.",
+    "techLevel": 3,
+    "text": "Choose a minion. Give all minions that share a type with it +2/+2.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "104496": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 104497,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 104496,
+    "health": 1,
+    "id": "BG28_900",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mystic Sporebat",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Get a random Tavern spell.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "104497": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 104496,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 104497,
+    "health": 2,
+    "id": "BG28_900_G",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Mystic Sporebat",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Deathrattle:</b> Get 2 random Tavern spells.",
+    "type": "MINION"
+  },
+  "104532": {
+    "artist": "A. J. Nazzaro",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 104533,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 104532,
+    "flavor": "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
+    "health": 5,
+    "id": "BG28_556",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Land Lubber",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "The Tavern offers an extra Tavern spell after each <b>Refresh</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "PIRATE"
+    ]
+  },
+  "104533": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 104532,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 104533,
+    "health": 10,
+    "id": "BG28_556_G",
+    "name": "Land Lubber",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "The Tavern offers 2 extra Tavern spells after each <b>Refresh</b>.",
+    "type": "MINION"
+  },
+  "104612": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 104613,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 104612,
+    "elite": true,
+    "health": 1,
+    "id": "BG28_304",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "REBORN"
+    ],
+    "name": "Moroes, Steward of Death",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +1/+5.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "104613": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 104612,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 104613,
+    "elite": true,
+    "health": 2,
+    "id": "BG28_304_G",
+    "mechanics": [
+      "DEATHRATTLE",
+      "REBORN"
+    ],
+    "name": "Moroes, Steward of Death",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+10.",
+    "type": "MINION"
+  },
+  "104766": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 104767,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 104766,
+    "elite": true,
+    "health": 6,
+    "id": "BG28_583",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Geomagus Roogug",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay a <b>Blood Gem</b> on a\n  different friendly minion.",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
+  },
+  "104767": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 104766,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 104767,
+    "elite": true,
+    "health": 12,
+    "id": "BG28_583_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Geomagus Roogug",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay 2 <b>Blood Gem</b> on a\n  different friendly minion.",
+    "type": "MINION"
+  },
+  "104768": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 104769,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 104768,
+    "health": 3,
+    "id": "BG28_584",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Paint Smudger",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever you cast a Tavern\nspell, play a <b>Blood Gem</b> on\nanother friendly Quilboar.",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
+  },
+  "104769": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 104768,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 104769,
+    "health": 6,
+    "id": "BG28_584_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Paint Smudger",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever you cast a Tavern\nspell, play 2 <b>Blood Gems</b> on\nanother friendly Quilboar.",
+    "type": "MINION"
+  },
+  "105266": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 105266,
+    "id": "BG28_883",
+    "name": "Dreamer's Embrace",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "targetingArrowText": "Trigger a <b>Battlecry</b>.",
+    "techLevel": 4,
+    "text": "Trigger a friendly minion's <b>Battlecry</b>.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "105267": {
+    "artist": "Valeria Styajkina",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 105267,
+    "id": "BG28_884",
+    "name": "Overconfidence",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 3,
+    "text": "If you win your next combat, gain 3 Gold.\nIf you tie, gain 1.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "105276": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 105276,
+    "id": "BG28_886",
+    "name": "Staff of Enrichment",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 3,
+    "text": "[x]Minions in the Tavern\nhave +1/+2 this game.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "105518": {
+    "attack": 10,
+    "battlegroundsPremiumDbfId": 105520,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 105518,
+    "elite": true,
+    "health": 8,
+    "id": "BG28_308",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Archlich Kel'Thuzad",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\ndestroy the Undead to the\nleft of this and resummon\nan exact copy.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "105520": {
+    "attack": 20,
+    "battlegroundsNormalDbfId": 105518,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 105520,
+    "elite": true,
+    "health": 16,
+    "id": "BG28_308_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Archlich Kel'Thuzad",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\ndestroy adjacent Undead\nand resummon exact\ncopies.",
+    "type": "MINION"
+  },
+  "105665": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 105665,
+    "id": "BG28_519",
+    "name": "Fleeting Vigor",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "targetingArrowText": "Give +7/+7 until next turn.",
+    "techLevel": 3,
+    "text": "Give a minion +7/+7 until next turn.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "105669": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 105669,
+    "id": "BG28_521",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Planar Telescope",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 3,
+    "text": "[x]<b>Discover</b> a minion of\nyour most common type.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "105905": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 105905,
+    "id": "BG28_955",
+    "name": "Primal Staff",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Your end of turn effects trigger twice this turn.",
+    "type": "BATTLEGROUND_SPELL"
+  },
+  "106484": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 106485,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 106484,
+    "health": 2,
+    "id": "BG27_079",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hawkstrider Herald",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Start of Combat:</b> Trigger\nall friendly <b>Deathrattles</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "106485": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 106484,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 106485,
+    "health": 4,
+    "id": "BG27_079_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hawkstrider Herald",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Start of Combat:</b> Trigger\nall friendly <b>Deathrattles</b>\ntwice.",
+    "type": "MINION",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ]
+  },
+  "109230": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 109230,
+    "id": "BG28_168",
+    "name": "Shiny Ring",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 2,
+    "text": "Give your minions +1/+1.",
+    "type": "BATTLEGROUND_SPELL"
+  }
+}

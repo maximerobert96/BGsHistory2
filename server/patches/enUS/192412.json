@@ -1,0 +1,157 @@
+{
+  "58534": {
+    "armor": 13,
+    "artist": "Adam Byrne",
+    "battlegroundsBuddyDbfId": 77507,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58534,
+    "health": 30,
+    "heroPowerDbfId": 58537,
+    "id": "TB_BaconShop_HERO_28",
+    "name": "Infinite Toki",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ]
+  },
+  "79618": {
+    "armor": 13,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ]
+  },
+  "105702": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 105697,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 105702,
+    "health": 8,
+    "id": "BG28_905_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bazaar Dealer",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "2 Tavern spells each turn cost Health instead of\nGold to buy. <i>(2 left!)</i>",
+    "type": "MINION"
+  },
+  "111060": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 77516,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111060,
+    "health": 30,
+    "heroPowerDbfId": 77434,
+    "id": "BG21_HERO_020_SKIN_D",
+    "name": "Dumpling Chef Cookie",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111061": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 58021,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111061,
+    "health": 30,
+    "heroPowerDbfId": 58022,
+    "id": "TB_BaconShop_HERO_21_SKIN_C",
+    "name": "Firecracker Akazamzarak",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111062": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 101345,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111062,
+    "health": 30,
+    "heroPowerDbfId": 101346,
+    "id": "BG25_HERO_105_SKIN_C",
+    "name": "E.T.C., Dragon Dancer",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111063": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 71458,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111063,
+    "health": 30,
+    "heroPowerDbfId": 71459,
+    "id": "TB_BaconShop_HERO_103_SKIN_D",
+    "name": "Hong Bao Blackthorn",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111064": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 57892,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111064,
+    "health": 30,
+    "heroPowerDbfId": 64424,
+    "id": "TB_BaconShop_HERO_11_SKIN_E",
+    "name": "Nian Shou Ragnaros",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111065": {
+    "artist": "Grafit",
+    "battlegroundsSkinParentId": 75702,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111065,
+    "health": 30,
+    "heroPowerDbfId": 75703,
+    "id": "BG20_HERO_283_SKIN_E",
+    "name": "Lantern Stringer Galewing",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

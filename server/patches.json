@@ -732,5 +732,29 @@
     "build": "191554",
     "releaseDate": "December 19, 2023",
     "patchNumber": "28.2.3"
+  },
+  "192412": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24046221/28-4-patch-notes",
+    "build": "192412",
+    "releaseDate": "January 18, 2024",
+    "patchNumber": "28.4.0"
+  },
+  "192896": {
+    "patchNotes": "https://hearthstone.wiki.gg/wiki/Patch_28.4.0.192896",
+    "build": "192896",
+    "releaseDate": "January 24, 2024",
+    "patchNumber": "28.4.0"
+  },
+  "193128": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24046220/",
+    "build": "193128",
+    "releaseDate": "January 29, 2024",
+    "patchNumber": "28.4.1"
+  },
+  "193541": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24056184/28-6-patch-notes",
+    "build": "193541",
+    "releaseDate": "February 13, 2024",
+    "patchNumber": "28.6.0"
   }
 }
