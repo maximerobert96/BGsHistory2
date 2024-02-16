@@ -36,10 +36,11 @@ function getActiveCardsOfPatch(patchId, tribes) {
     let mappingJson = getJsonFromFile("../mapping.json");
     let cards = mappingJson.cards;
     let activeCards = [];
+    let patchIdNum = parseInt(patchId);
     for(let cardId in cards) {
         let patchesOfCardChange = cards[cardId];
-        if(patchId >= patchesOfCardChange[0]) {
-            let highestPatch = findMostRecentVersionLowerThanRef(patchId, patchesOfCardChange);
+        if(patchIdNum >= patchesOfCardChange[0]) {
+            let highestPatch = findMostRecentVersionLowerThanRef(patchIdNum, patchesOfCardChange);
             let jsonHighestPatch = getJsonFromFile(`../patches/enUS/${highestPatch}.json`);
             if(tribes) {
                 jsonHighestPatch = keepCardsFromTribes(jsonHighestPatch, tribes);
