@@ -40,10 +40,11 @@ export default function Practice() {
 }
 
 function DisplayCards({cards}){
-    // TODO: if the card doesn't have an icon for it, use placeholder icon.
     let listOfImages = [];
+    let placeholderIcon = "icons/placeholder.png";
     cards.forEach(card => {
-        listOfImages.push(<img src={`icons/${card.dbfId}.png`} className="card-icons" alt={card.name} />)
+        let srcOfIcon = `icons/${card.dbfId}.png`;
+        listOfImages.push(<img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} className="card-icons" alt={card.name} />)
     });
     return <>{listOfImages}</>;
 }
