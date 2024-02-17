@@ -31,7 +31,7 @@ export default function MainPage() {
         
         getCards();
         return;
-    }, []);
+    }, [params.patchId]);
 
     if(cards.length) {
         return (
@@ -186,25 +186,20 @@ export function CardRows({ cards, patchId }) {
 
 
     let cardRows = [];
+    let placeholderIcon = "/icons/placeholder.png";
     cards.sort((a,b) => a.name > b.name ? 1 : -1 )
         .forEach((card) => {
-        let cardRow;
-        if(patchId === undefined) {
-            cardRow = <li key={card.dbfId}>
-                    <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
-                </li>;
-        } else {
-            cardRow = <li key={card.dbfId}>
-                         <Link to={`${card.dbfId}`}>{card.name}</Link>
-                         {/* <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link> */}
-                     </li>;
-        }
-        cardRows.push(cardRow);
+            let srcOfIcon = `/icons/${card.dbfId}.png`;
+            let cardRow;
+            cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
+                    <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} className="card-icons" alt={card.name} />
+                </Link>;
+            cardRows.push(cardRow);
     })
     return (
-        <ul>
+        <div>
             {cardRows}
-        </ul>
+        </div>
     );
 }
 
