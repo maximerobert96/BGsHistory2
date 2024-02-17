@@ -10,6 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(require("./routes/card"));
 app.use(require("./routes/patch"));
+app.use(require("./routes/practice"));
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
