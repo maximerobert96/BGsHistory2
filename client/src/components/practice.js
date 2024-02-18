@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import './practice.css';
 
 // import { Link, Outlet } from "react-router-dom";
@@ -29,7 +29,8 @@ export default function Practice() {
     if(cards.length) {
         return (
         <>
-            <DisplayCards cards={cards}/>
+            <DisplayCards2 cards={cards}/>
+            {/* <HoverImage></HoverImage> */}
         </>
         );
     } else {
@@ -39,12 +40,56 @@ export default function Practice() {
     ;
 }
 
-function DisplayCards({cards}){
+// function DisplayCards({cards}){
+//     let listOfImages = [];
+//     let placeholderIcon = "/icons/placeholder.png";
+//     cards.forEach(card => {
+//         let srcOfIcon = `/icons/${card.dbfId}.png`;
+//         listOfImages.push(<img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} className="card-icons" alt={card.name} />)
+//     });
+//     return <>{listOfImages}</>;
+// }
+
+function DisplayCards2({cards}){
     let listOfImages = [];
-    let placeholderIcon = "icons/placeholder.png";
+    
     cards.forEach(card => {
-        let srcOfIcon = `icons/${card.dbfId}.png`;
-        listOfImages.push(<img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} className="card-icons" alt={card.name} />)
+        
+        // listOfImages.push(<img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} className="card-icons" alt={card.name} />)
+        listOfImages.push(<HoverImage card={card} key={card.dbfId}/>)
     });
-    return <>{listOfImages}</>;
+    return <div className="hover-container-wrapper">{listOfImages}</div>;
 }
+
+function HoverImage({card}) {
+    const [isHovered, setIsHovered] = useState(false);
+    const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
+
+    let placeholderIcon = "/icons/placeholder.png";
+    let srcOfIcon = `/icons/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+
+    const handleMouseMove = (e) => {
+        setHoverPosition( {x: e.clientX, y: e.clientY });
+    }
+
+    return (
+      <div
+        className="hover-container"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onMouseMove={handleMouseMove}
+      >
+        <div className="main-image-container">
+          <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" />
+        </div>
+        {isHovered && (
+          <div className="hover-image-container"
+            style={{ top: hoverPosition.y, left: hoverPosition.x }}
+          >
+            <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt="Hover" className="hover-image" />
+          </div>
+        )}
+      </div>
+    );
+  }
