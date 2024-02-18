@@ -16,3 +16,25 @@ code {
   padding-left: 1px;
   padding-right: 1px;
 }
+
+
+.hover-container-wrapper {
+  display: flex;
+}
+
+.hover-container {
+  position: relative;
+  width: fit-content; /* Adjust as needed */
+}
+
+.hover-image-container {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.hover-image {
+  /* Style for the hover image */
+  max-width: 300px;
+}

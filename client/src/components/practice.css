@@ -3,32 +3,4 @@
     padding-left: 1px;
     padding-right: 1px;
 } */
-.hover-container-wrapper {
-    display: flex;
-}
 
-.hover-container {
-    position: relative;
-    width: fit-content; /* Adjust as needed */
-  }
-  
-  .main-image-container {
-    /* Style for the main image container */
-  }
-  
-  .main-image {
-    /* Style for the main image */
-    max-width: 65px;
-  }
-  
-  .hover-image-container {
-    position: fixed;
-    z-index: 9999;
-    pointer-events: none;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  }
-  
-  .hover-image {
-    /* Style for the hover image */
-    max-width: 300px;
-  }

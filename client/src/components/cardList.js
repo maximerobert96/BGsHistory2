@@ -186,20 +186,50 @@ export function CardRows({ cards, patchId }) {
 
 
     let cardRows = [];
-    let placeholderIcon = "/icons/placeholder.png";
     cards.sort((a,b) => a.name > b.name ? 1 : -1 )
         .forEach((card) => {
-            let srcOfIcon = `/icons/${card.dbfId}.png`;
             let cardRow;
             cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
-                    <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} className="card-icons" alt={card.name} />
+                    <HoverImage card={card} key={card.dbfId}/>
                 </Link>;
             cardRows.push(cardRow);
     })
     return (
-        <div>
+        <div className="hover-container-wrapper">
             {cardRows}
         </div>
     );
 }
 
+function HoverImage({card}) {
+    const [isHovered, setIsHovered] = useState(false);
+    const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
+
+    let placeholderIcon = "/icons/placeholder.png";
+    let srcOfIcon = `/icons/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+
+    const handleMouseMove = (e) => {
+        setHoverPosition( {x: e.clientX, y: e.clientY });
+    }
+
+    return (
+      <div
+        className="hover-container"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onMouseMove={handleMouseMove}
+      >
+        <div className="main-image-container">
+          <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" />
+        </div>
+        {isHovered && (
+          <div className="hover-image-container"
+            style={{ top: hoverPosition.y, left: hoverPosition.x }}
+          >
+            <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt="Hover" className="hover-image" />
+          </div>
+        )}
+      </div>
+    );
+  }
