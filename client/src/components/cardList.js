@@ -210,7 +210,21 @@ function HoverImage({card}) {
     let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
 
     const handleMouseMove = (e) => {
-        setHoverPosition( {x: e.clientX, y: e.clientY });
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+        const hoverWidth = 300;
+        const hoverHeight = 400;
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        let adjustedX = mouseX;
+        let adjustedY = mouseY;
+        if(mouseX + hoverWidth > viewportWidth)
+            adjustedX = mouseX - hoverWidth;
+        if(mouseY + hoverHeight > viewportHeight)
+            adjustedY = mouseY - hoverHeight;
+
+        setHoverPosition( {x: adjustedX, y: adjustedY });
     }
 
     return (
