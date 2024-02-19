@@ -5,6 +5,7 @@ import { useParams } from "react-router";
 export default function MainPage() {
     const [cards, setCards] = useState([]);
     const params = useParams();
+    const [activeCard, setActiveCard] = useState(null);
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -33,10 +34,23 @@ export default function MainPage() {
         return;
     }, [params.patchId]);
 
+    useEffect(() => {
+        async function getActiveId(){
+            if(params.id !== undefined) {
+                setActiveCard(params.id);
+            } else {
+                setActiveCard(null);
+            }
+        }
+        getActiveId();
+
+    }, [params.id]);
+
     if(cards.length) {
         return (
         <>
-            <Outlet />
+            { activeCard &&
+            (<DisplayCardInfo />)}
             <CardList cards={cards} patchId={patchId} />
         </>
         );
@@ -47,6 +61,19 @@ export default function MainPage() {
     ;
 }
 
+function DisplayCardInfo(){
+    // TODO: full page is semi-transparent
+    // TODO: Outlet is on top, and it's white or whatever
+    // TODO: if you click on the semi-transparent part, we go back to the main page.
+    return (
+    <div className="outlet-background">
+        <div className="outlet-foreground">
+            <Outlet />
+        </div>
+    </div>
+    );
+
+}
 
 function getTribes(cards) {
     let tribes = [];

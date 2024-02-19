@@ -19,6 +19,7 @@ code {
 
 .hover-container-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .hover-container {
@@ -30,10 +31,32 @@ code {
   position: fixed;
   z-index: 9999;
   pointer-events: none;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
 }
 
 .hover-image {
   /* Style for the hover image */
   max-width: 300px;
+}
+
+.outlet-background {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.outlet-foreground {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: fit-content;
+  z-index: 2;
+  background-color: white;
 }
