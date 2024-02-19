@@ -239,7 +239,7 @@ function HoverImage({card}) {
 
     let placeholderIcon = "/icons/placeholder.png";
     let srcOfIcon = `/icons/${card.dbfId}.png`;
-    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
 
     const handleMouseMove = (e) => {
         const mouseX = e.clientX;

@@ -47,6 +47,7 @@ function getActiveCardsOfPatch(patchId, tribes) {
             }
             let mostRecentVersionCard = jsonHighestPatch[cardId];
             if(mostRecentVersionCard && isActiveCard(mostRecentVersionCard)){
+                mostRecentVersionCard["version"] = highestPatch;
                 activeCards.push(mostRecentVersionCard);
             }
 
@@ -92,6 +93,7 @@ function getCardById( cardId, patch ) {
         throw new Error(`The card with the id ${cardId} doesn't exist.`);
     }
     // currentCard = formatFields(currentCard, jsonDB);
+    currentCard["version"] = patchOfCurrentVersion;
 
     return currentCard;
 }
@@ -282,7 +284,7 @@ function getPreviousOrEqualPatchIdOfCard(currentPatchId, cardId, mappingJson) {
     let cardVersions = mappingJson.cards[cardId];
     let previousPatchId;
     for(let patch of cardVersions) {
-        if(patch > currentPatchId) {
+        if(parseInt(patch) > parseInt(currentPatchId)) {
             break;
         }
         previousPatchId = patch;
@@ -313,7 +315,6 @@ function addServerPatchToPatchesFile(build) {
     patches[build] = {build: build, patchNotes: "", releaseDate: "", serverSide: true};
     saveJsonToFile("./patches.json", patches);
 }
-
 
 module.exports = { 
     getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile

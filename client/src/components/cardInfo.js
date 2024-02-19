@@ -87,7 +87,7 @@ function MinionInfo({ card, patch }) {
         tribesHtml = <><br />Tribes: {tribes}</>
     }
 
-    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
     let placeholderIcon = "/icons/placeholder.png";
     
 
@@ -109,7 +109,7 @@ function MinionInfo({ card, patch }) {
 }
 
 function HeroInfo({ card, patch }) {
-    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
     let placeholderIcon = "/icons/placeholder.png";
 
     return (
@@ -127,7 +127,7 @@ function HeroInfo({ card, patch }) {
 }
 
 function HeroPowerInfo({card, patch}) {
-    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
     let placeholderIcon = "/icons/placeholder.png";
 
     return (<>
