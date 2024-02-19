@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
     const params = useParams();
+    const [activeCard, setActiveCard] = useState(null);
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -31,12 +32,25 @@ export default function MainPage() {
         
         getCards();
         return;
-    }, []);
+    }, [params.patchId]);
+
+    useEffect(() => {
+        async function getActiveId(){
+            if(params.id !== undefined) {
+                setActiveCard(params.id);
+            } else {
+                setActiveCard(null);
+            }
+        }
+        getActiveId();
+
+    }, [params.id]);
 
     if(cards.length) {
         return (
         <>
-            <Outlet />
+            { activeCard &&
+            (<DisplayCardInfo patchId={patchId} />)}
             <CardList cards={cards} patchId={patchId} />
         </>
         );
@@ -47,6 +61,24 @@ export default function MainPage() {
     ;
 }
 
+function DisplayCardInfo({ patchId }){
+    const navigate = useNavigate();
+    
+    const closeOutlet = (event) => {
+        if(event.target.classList.contains('outlet-background')){
+            navigate(`/${patchId}/cards`);
+        }
+    };
+
+    return (
+    <div className="outlet-background" onClick={closeOutlet}>
+        <div className="outlet-foreground">
+            <Outlet />
+        </div>
+    </div>
+    );
+
+}
 
 function getTribes(cards) {
     let tribes = [];
@@ -188,23 +220,62 @@ export function CardRows({ cards, patchId }) {
     let cardRows = [];
     cards.sort((a,b) => a.name > b.name ? 1 : -1 )
         .forEach((card) => {
-        let cardRow;
-        if(patchId === undefined) {
-            cardRow = <li key={card.dbfId}>
-                    <Link to={`/cards/${card.dbfId}`}>{card.name}</Link>
-                </li>;
-        } else {
-            cardRow = <li key={card.dbfId}>
-                         <Link to={`${card.dbfId}`}>{card.name}</Link>
-                         {/* <Link to={`/${patchId}/cards/${card.dbfId}`}>{card.name}</Link> */}
-                     </li>;
-        }
-        cardRows.push(cardRow);
+            let cardRow;
+            cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
+                    <HoverImage card={card} key={card.dbfId}/>
+                </Link>;
+            cardRows.push(cardRow);
     })
     return (
-        <ul>
+        <div className="hover-container-wrapper">
             {cardRows}
-        </ul>
+        </div>
     );
 }
 
+function HoverImage({card}) {
+    const [isHovered, setIsHovered] = useState(false);
+    const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
+
+    let placeholderIcon = "/icons/placeholder.png";
+    let srcOfIcon = `/icons/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+
+    const handleMouseMove = (e) => {
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+        const hoverWidth = 300;
+        const hoverHeight = 400;
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        let adjustedX = mouseX;
+        let adjustedY = mouseY;
+        if(mouseX + hoverWidth > viewportWidth)
+            adjustedX = mouseX - hoverWidth;
+        if(mouseY + hoverHeight > viewportHeight)
+            adjustedY = mouseY - hoverHeight;
+
+        setHoverPosition( {x: adjustedX, y: adjustedY });
+    }
+
+    return (
+      <div
+        className="hover-container"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onMouseMove={handleMouseMove}
+      >
+        <div className="main-image-container">
+          <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" />
+        </div>
+        {isHovered && (
+          <div className="hover-image-container"
+            style={{ top: hoverPosition.y, left: hoverPosition.x }}
+          >
+            <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt="Hover" className="hover-image" />
+          </div>
+        )}
+      </div>
+    );
+  }
