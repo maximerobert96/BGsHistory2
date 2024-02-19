@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 
 export default function MainPage() {
@@ -50,7 +50,7 @@ export default function MainPage() {
         return (
         <>
             { activeCard &&
-            (<DisplayCardInfo />)}
+            (<DisplayCardInfo patchId={patchId} />)}
             <CardList cards={cards} patchId={patchId} />
         </>
         );
@@ -61,12 +61,20 @@ export default function MainPage() {
     ;
 }
 
-function DisplayCardInfo(){
+function DisplayCardInfo({ patchId }){
     // TODO: full page is semi-transparent
     // TODO: Outlet is on top, and it's white or whatever
     // TODO: if you click on the semi-transparent part, we go back to the main page.
+    const navigate = useNavigate();
+    
+    const closeOutlet = (event) => {
+        if(event.target.classList.contains('outlet-background')){
+            navigate(`/${patchId}/cards`);
+        }
+    };
+
     return (
-    <div className="outlet-background">
+    <div className="outlet-background" onClick={closeOutlet}>
         <div className="outlet-foreground">
             <Outlet />
         </div>
