@@ -57,13 +57,14 @@ code {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: fit-content;
+  /* width: fit-content; */
+  width: max-content;
   z-index: 2;
   background-color: white;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto minmax(0, 1fr);
   column-gap: 5%;
 }

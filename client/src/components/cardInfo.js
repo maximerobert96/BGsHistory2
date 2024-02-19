@@ -37,10 +37,12 @@ export default function CardInfo() {
         switch (card.type){
             case "MINION":
                 return (<MinionInfo card={card} patch={patchId} />);
-                case "HERO":
-                    return (<HeroInfo card={card} patch={patchId} />);
-                default: 
-                    return(<p>help</p>);
+            case "HERO":
+                return (<HeroInfo card={card} patch={patchId} />);
+            case "HERO_POWER":
+                return (<HeroPowerInfo card={card} patch={patchId} />)
+            default: 
+                return(<p>help</p>);
 
         }
     } else {
@@ -113,17 +115,43 @@ function HeroInfo({ card, patch }) {
     return (
         <div className="grid-container">
             <div className="card-info-image">
+                <h2>{card.name}</h2>
                 <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
             </div>
             <div className="card-info-text">
-                <h2>{card.name}</h2>
-                <HeroPowerInfo card={card} patch={patch}/>
+                
+                <HeroPowerOfHeroInfo card={card} patch={patch}/>
                 <CardPools card={card} patch={patch}/>
             </div>
         </div>);
 }
 
-function HeroPowerInfo({ card, patch }) {
+function HeroPowerInfo({card, patch}) {
+    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+
+    return (<>
+                <h3>{card.name}</h3>
+                <div className="card-info-image">
+                    <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+                </div>
+                
+                <p>
+                {card.hasOwnProperty("hideCost") ? (
+                    "Passive hero power"
+                    ) : (
+                        `${card.cost} cost hero power`
+                    )
+                }
+                <br />
+                {parse(card.text)}
+                </p>
+                <RelatedCards card={card} patch={patch}/>
+                <CardPools card={card} patch={patch}/>
+            </>);
+}
+
+function HeroPowerOfHeroInfo({ card, patch }) {
     const [hp, setHp] = useState(null);
 
     useEffect(() => {
@@ -144,27 +172,8 @@ function HeroPowerInfo({ card, patch }) {
     
     let hpHtml = (<p>Loading</p>);
     if(hp) {
-        let srcOfCard = `/cards/en_US/35747/${hp.dbfId}.png`;
-        let placeholderIcon = "/icons/placeholder.png";
         hpHtml = (
-            <>
-                <div className="card-info-image">
-                    <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
-                </div>
-                <h3>{hp.name}</h3>
-                <p>
-                {hp.hasOwnProperty("hideCost") ? (
-                    "Passive hero power"
-                    ) : (
-                        `${hp.cost} cost hero power`
-                    )
-                }
-                <br />
-                {parse(hp.text)}
-                </p>
-                <RelatedCards card={hp} patch={patch}/>
-                <CardPools card={hp} patch={patch}/>
-            </>
+            <HeroPowerInfo card={hp} patch={patch} />
         );
     }
     
