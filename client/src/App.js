@@ -5,7 +5,6 @@ import { Route, Routes } from "react-router-dom";
 import MainPage from "./components/cardList";
 import CardInfo from './components/cardInfo';
 import Practice from './components/practice';
-import CardInfo2 from './components/cardInfo 2';
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
         <Route exact path="/" element={<Practice />} />
         <Route path="/cards/:id" element={<CardInfo />} />
         <Route path="/:patchId/cards/" element={<MainPage  />}>
-          <Route path="/:patchId/cards/:id" element={<CardInfo2 />} />
+          <Route path="/:patchId/cards/:id" element={<CardInfo />} />
         </Route>
       </Routes>
     </div>
