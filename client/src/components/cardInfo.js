@@ -31,7 +31,7 @@ export default function CardInfo() {
         
         getCard();
         return;
-    }, [params.id.toString()]);
+    }, [params.id, params.patchId]);
 
     if(card){
         switch (card.type){
@@ -39,24 +39,6 @@ export default function CardInfo() {
                 return (<MinionInfo card={card} patch={patchId} />);
                 case "HERO":
                     return (<HeroInfo card={card} patch={patchId} />);
-                    // if(card.heroPower.cost) {
-                    //     return(
-                    //         <ul>
-                    //             <li>Name: {card.name}</li>
-                    //             <li>HP Name: {card.heroPower.name}</li>
-                    //             <li>HP Cost: {card.heroPower.cost}</li>
-                    //             <li>HP Text: {card.heroPower.text}</li>
-                    //         </ul>
-                    //     );
-                    // } else {
-                    //     return(
-                    //         <ul>
-                    //             <li>Name: {card.name}</li>
-                    //             <li>HP Name: {card.heroPower.name}</li>
-                    //             <li>HP Text: {card.heroPower.text}</li>
-                    //         </ul>
-                    //     );
-                    // }
                 default: 
                     return(<p>help</p>);
 
@@ -102,26 +84,42 @@ function MinionInfo({ card, patch }) {
     } else if (tribes.length > 1) {
         tribesHtml = <><br />Tribes: {tribes}</>
     }
+
+    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
     
 
     let basicInfo = <>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
         
     return (
-    <div>
-        <h2>{golden}{card.name}</h2>
-        <p>{basicInfo}</p>
-        <RelatedCards card={card} patch={patch}/>
-        <CardPools card={card} patch={patch}/>
-        <OtherVersion card={card} patch={patch} />
+    <div className="grid-container">
+        <div className="card-info-image">
+            <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+        </div>
+        <div className="card-info-text">
+            <h2>{golden}{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
     </div>);
 }
 
 function HeroInfo({ card, patch }) {
+    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+
     return (
-        <div>
-            <h2>{card.name}</h2>
-            <HeroPowerInfo card={card} patch={patch}/>
-            <CardPools card={card} patch={patch}/>
+        <div className="grid-container">
+            <div className="card-info-image">
+                <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+            </div>
+            <div className="card-info-text">
+                <h2>{card.name}</h2>
+                <HeroPowerInfo card={card} patch={patch}/>
+                <CardPools card={card} patch={patch}/>
+            </div>
         </div>);
 }
 
@@ -146,8 +144,13 @@ function HeroPowerInfo({ card, patch }) {
     
     let hpHtml = (<p>Loading</p>);
     if(hp) {
+        let srcOfCard = `/cards/en_US/35747/${hp.dbfId}.png`;
+        let placeholderIcon = "/icons/placeholder.png";
         hpHtml = (
             <>
+                <div className="card-info-image">
+                    <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+                </div>
                 <h3>{hp.name}</h3>
                 <p>
                 {hp.hasOwnProperty("hideCost") ? (

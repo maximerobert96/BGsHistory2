@@ -62,9 +62,6 @@ export default function MainPage() {
 }
 
 function DisplayCardInfo({ patchId }){
-    // TODO: full page is semi-transparent
-    // TODO: Outlet is on top, and it's white or whatever
-    // TODO: if you click on the semi-transparent part, we go back to the main page.
     const navigate = useNavigate();
     
     const closeOutlet = (event) => {
