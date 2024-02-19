@@ -1,10 +1,22 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+// import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useParams } from "react-router";
+import { CardProvider, useCardContext } from "./CardContext";
+import CardInfo2 from "./cardInfo 2";
 
-export default function MainPage() {
+export default function MainPage(){
+    return(
+        <CardProvider>
+            <MainPage2 />
+        </CardProvider>
+    )
+}
+
+function MainPage2() {
     const [cards, setCards] = useState([]);
     const params = useParams();
+    const { selectedCard } = useCardContext();
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -31,20 +43,23 @@ export default function MainPage() {
         
         getCards();
         return;
-    }, [params.patchId]);
+    }, [params.patchId, selectedCard]);
 
     if(cards.length) {
         return (
         <>
-            <Outlet />
+        
             <CardList cards={cards} patchId={patchId} />
+            {selectedCard && (
+                <CardInfo2 dbfId={selectedCard.dbfId} patchId={patchId} />
+            )}
+        
         </>
         );
     } else {
         return <p>Loading</p>;
     }
 
-    ;
 }
 
 
@@ -183,14 +198,14 @@ function Tier({ tier, cards, patchId }) {
 }
 
 export function CardRows({ cards, patchId }) {
-
+    const { handleCardClick } = useCardContext();
 
     let cardRows = [];
     cards.sort((a,b) => a.name > b.name ? 1 : -1 )
         .forEach((card) => {
             let cardRow;
-            cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
-                    <HoverImage card={card} key={card.dbfId}/>
+            cardRow = <Link to={`${card.dbfId}`} key={card.dbfId} onClick={() => handleCardClick(card)}>
+                    <HoverImage card={card} patchId={patchId} key={card.dbfId}/>
                 </Link>;
             cardRows.push(cardRow);
     })
@@ -201,13 +216,13 @@ export function CardRows({ cards, patchId }) {
     );
 }
 
-function HoverImage({card}) {
+function HoverImage({card, patchId}) {
     const [isHovered, setIsHovered] = useState(false);
     const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
 
     let placeholderIcon = "/icons/placeholder.png";
     let srcOfIcon = `/icons/${card.dbfId}.png`;
-    let srcOfCard = `/cards/en_US/35747/${card.dbfId}.png`;
+    let srcOfCard = `/cards/en_US/${patchId}/${card.dbfId}.png`;
 
     const handleMouseMove = (e) => {
         const mouseX = e.clientX;

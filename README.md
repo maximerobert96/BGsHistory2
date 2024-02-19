@@ -9,9 +9,9 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 
 ## Tasks
 * ~~Add English images for all the main cards in the first patch~~
-* Create icons for all images (active cards, not tokens and hero powers)
+* ~~Create icons for all images (active cards, not tokens and hero powers)~~
 * Route for patch changes
-* Display icons in front end
+* ~~Display icons in front end~~
 
 
 
@@ -26,4 +26,4 @@ Have a minimum viable product. Start with the very first patch, and try to make 
 ### Later
 * Generate placeholder images for cards using name, tier level, stats (could be its own branch)
 * Implement card pools in front end (probably will be implemented alongside a db overhaul for optimization)
-* Show a picture when you hover a card (it will be a placeholder pic for now)
+* ~~Show a picture when you hover a card (it will be a placeholder pic for now)~~
