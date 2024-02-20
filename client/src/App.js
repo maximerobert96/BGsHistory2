@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import MainPage from "./components/cardList";
 import CardInfo from './components/cardInfo';
 import Practice from './components/practice';
+import PatchChanges from './components/PatchChanges';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/:patchId/cards/" element={<MainPage  />}>
           <Route path="/:patchId/cards/:id" element={<CardInfo />} />
         </Route>
+        <Route path="/patch-changes/:patchId" element={<PatchChanges />} />
       </Routes>
     </div>
   );
