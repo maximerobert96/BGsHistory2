@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
+import PatchInfo from "./PatchInfo";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
@@ -120,6 +121,7 @@ function CardList({ cards, patchId }) {
 
     return( 
         <div>
+            <PatchInfo patchId={patchId}/>
             <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
         </div>
