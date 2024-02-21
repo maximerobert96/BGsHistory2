@@ -3,7 +3,7 @@ import './App.css';
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import MainPage from "./components/cardList";
-import CardInfo from './components/cardInfo';
+import DisplayCardInfo from './components/cardInfo';
 import Practice from './components/practice';
 import PatchChanges from './components/PatchChanges';
 
@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<Practice />} />
-        <Route path="/cards/:id" element={<CardInfo />} />
+        <Route path="/cards/:id" element={<DisplayCardInfo />} />
         <Route path="/:patchId/cards/" element={<MainPage  />}>
-          <Route path="/:patchId/cards/:id" element={<CardInfo />} />
+          <Route path="/:patchId/cards/:id" element={<DisplayCardInfo />} />
         </Route>
         <Route path="/patch-changes/:patchId" element={<PatchChanges />} />
       </Routes>

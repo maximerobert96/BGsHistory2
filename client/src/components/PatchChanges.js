@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+// import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 import PatchInfo from "./PatchInfo";
+import { CardInfo } from "./cardInfo";
+
 
 export default function PatchChanges(){
     let [changes, setChanges] = useState([]);
@@ -27,5 +29,22 @@ export default function PatchChanges(){
         return;
     }, [patchId]); 
 
-    return (<PatchInfo patchId={patchId} />);
+    return (
+    <>
+        <PatchInfo patchId={patchId} />
+        <CardChanges changes={changes} />
+    </>);
 }
+
+function CardChanges({ changes }){
+    if(changes.length === 0){
+        return <p>Loading</p>;
+    }
+    let cardList = [];
+    changes.forEach(element => {
+        let change = Object.values(element)[0];
+        cardList.push(<CardInfo card={change.new} patch={36393} />);
+    });
+    return <>{cardList}</>
+}
+

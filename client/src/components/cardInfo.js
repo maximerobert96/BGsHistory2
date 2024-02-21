@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import parse from 'html-react-parser';
 import { Link } from "react-router-dom";
 
-export default function CardInfo() {
+export default function DisplayCardInfo() {
     const [card, setCard] = useState();
     const params = useParams();
     let patchId = params.patchId.toString();
@@ -33,22 +33,24 @@ export default function CardInfo() {
         return;
     }, [params.id, params.patchId]);
 
-    if(card){
-        switch (card.type){
-            case "MINION":
-                return (<MinionInfo card={card} patch={patchId} />);
-            case "HERO":
-                return (<HeroInfo card={card} patch={patchId} />);
-            case "HERO_POWER":
-                return (<HeroPowerInfo card={card} patch={patchId} />)
-            default: 
-                return(<p>help</p>);
+    return <CardInfo card={card} patch={patchId} />   
+}
 
-        }
-    } else {
-        return(<p>Loading</p>);
+export function CardInfo({ card, patch }) {
+    if(card === undefined) {
+        return <p>Loading</p>;
     }
-    
+    switch (card.type){
+        case "MINION":
+            return (<MinionInfo card={card} patch={patch} />);
+        case "HERO":
+            return (<HeroInfo card={card} patch={patch} />);
+        case "HERO_POWER":
+            return (<HeroPowerInfo card={card} patch={patch} />)
+        default: 
+            return(<p>help</p>);
+
+    }
 }
 
 function getElementsOfProperty(card, property) {
