@@ -160,7 +160,7 @@ function HeroPowerOfHeroInfo({ card, patch }) {
         fetch(`http://localhost:5000/${patch}/cards/${card.heroPowerDbfId}`)
         .then(response => {
             if(!response.ok) {
-                throw new Error(`an error has occurred: ${response.statusText}`);
+                throw new Error(`an error has occurred: ${response.statusText}. Current card: ${card.dbfId}. Hero power: ${card.heroPowerDbfId}`);
             }
             return response.json();
         })
@@ -194,6 +194,7 @@ function RelatedCards({ card, patch }) {
     let relatedCardsList = [];
     card.relatedCards.forEach((rc) => {
         relatedCardsList.push(<li key={rc}><Link to={`/${patch}/cards/${rc}`}>{rc}</Link></li>);
+        // relatedCardsList.push(<li key={rc}><Link to={`../${rc}`}>{rc}</Link></li>);
     });
     return(
         <div>

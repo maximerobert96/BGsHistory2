@@ -226,6 +226,8 @@ function getChangesOfPatch(patchId) {
             oldVersion = getJsonDBOfPatch(previousPatchId)[id];
         }
         currentChange[id].changes = getChangesBetweenVersions(newVersion, oldVersion);
+        newVersion.version = patchId;
+        oldVersion.version = previousPatchId;
         
         currentChange[id].new = newVersion;
         currentChange[id].old = oldVersion;

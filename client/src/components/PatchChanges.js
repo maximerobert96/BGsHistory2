@@ -43,8 +43,16 @@ function CardChanges({ changes }){
     let cardList = [];
     changes.forEach(element => {
         let change = Object.values(element)[0];
-        cardList.push(<CardInfo card={change.new} patch={36393} />);
+        let key = Object.keys(element)[0];
+        cardList.push(<CardChangeLong key={key} change={change} />);
     });
     return <>{cardList}</>
 }
 
+function CardChangeLong({ change }) {
+    return (
+    <div>
+        <CardInfo card={change.old} patch={change.old.version} />
+        <CardInfo card={change.new} patch={change.new.version} />
+    </div>);
+}
