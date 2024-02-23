@@ -1,6 +1,5 @@
 const fs = require("fs");
 const dbManager = require('../db/dbManager');
-const { exit } = require("process");
 
 function addField(cardIds, field, value){
     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));
@@ -127,9 +126,7 @@ function updatePatchesJson() {
     fs.writeFileSync(`./patches.json`, JSON.stringify(newPatchesJson, null , 2));
 }
 
-function saveJsonToFile(filename, jsonObj) {
-    fs.writeFileSync(filename, JSON.stringify(jsonObj, null , 2));
-}
+
 
 function updateOldCardsWithNormalAndGolden() {
     addCustomFieldsToAllVersions(["battlegroundsPremiumDbfId", "battlegroundsNormalDbfId"]);
@@ -246,4 +243,65 @@ function saveJsonDBOfPatch(obj, patchId) {
 // addField(PUTRI_POOL_1, "undeadCreationPool", 1);
 // addField(PUTRI_POOL_2, "undeadCreationPool", 2);
 
-module.exports = { saveJsonToFile, saveJsonDBOfPatch }
+function deleteCardFromDb(dbfId) {
+    // delete it from mapping file
+        // find the card, find the associated patches. Delete the card, and delete the card from the associated patches
+    // delete the pictures for each associated patches if they can be found
+    // delete the data from each [patch].json files
+
+    // for each patch of the card, deleteCardFromPatch(dbfId, currentPatch)
+
+    let mappingJson = dbManager.getJsonMappingFile();
+    let patchesOfCard = mappingJson.cards[dbfId];
+    patchesOfCard.forEach(patch => {
+        deleteCardFromPatch(dbfId, patch);
+    });
+}
+
+function deleteCardFromPatch(dbfId, patchId){
+    let mappingJson = dbManager.getJsonMappingFile();
+    let patchesOfCard = mappingJson.cards[dbfId];
+    let cardsInPatch = mappingJson.patches[patchId];
+    patchesOfCard = patchesOfCard.filter(element => parseInt(element) != parseInt(patchId) );
+    cardsInPatch = cardsInPatch.filter(element => parseInt(element) != parseInt(dbfId) );
+
+    if(patchesOfCard.length === 0) {
+        delete mappingJson.cards[dbfId];
+    } else {
+        mappingJson.cards[dbfId] = patchesOfCard;
+    }
+    mappingJson.patches[patchId] = cardsInPatch;
+
+    dbManager.saveJsonToFile("../mapping.json", mappingJson);
+    patchJson = dbManager.getJsonDBOfPatch(patchId);
+    delete patchJson[dbfId];
+    dbManager.saveJsonToFile(`../patches/enUS/${patchId}.json`);
+
+    try {
+        fs.unlinkSync(dbManager.absolutePath(`../../client/public/cards/en-US/${patchId}/${dbfId}.png`));
+    } catch (error) {
+        console.log(error.message);
+    }
+    
+    
+    // TODO delete the picture
+}
+
+
+
+function updateDbfId(oldDbfId, newDbfId) {
+    // update in the mapping file
+    // update in every patch file (gotta go through all of them, because it can be referenced in hpDbfId, premiumDbfId, etc. I need to update in all of these fields)
+    // rename the pictures
+}
+
+
+deleteCardFromPatch(56298, 168788);
+
+// cards to delete:
+// 56298
+// 57110
+// 59194
+
+
+module.exports = { saveJsonDBOfPatch }

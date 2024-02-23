@@ -1,6 +1,5 @@
 const fs = require('fs');
 const poolManager = require("./poolManager");
-const { saveJsonToFile } = require('./dbUpdater');
 const path = require('path');
 
 
@@ -318,6 +317,10 @@ function addServerPatchToPatchesFile(build) {
     saveJsonToFile("./patches.json", patches);
 }
 
+function saveJsonToFile(filename, jsonObj) {
+    fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
+}
+
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath
 }
