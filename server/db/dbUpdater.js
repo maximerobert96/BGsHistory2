@@ -259,6 +259,7 @@ function deleteCardFromDb(dbfId) {
 }
 
 function deleteCardFromPatch(dbfId, patchId){
+    // update mapping file
     let mappingJson = dbManager.getJsonMappingFile();
     let patchesOfCard = mappingJson.cards[dbfId];
     let cardsInPatch = mappingJson.patches[patchId];
@@ -273,18 +274,19 @@ function deleteCardFromPatch(dbfId, patchId){
     mappingJson.patches[patchId] = cardsInPatch;
 
     dbManager.saveJsonToFile("../mapping.json", mappingJson);
-    patchJson = dbManager.getJsonDBOfPatch(patchId);
+    
+    // update [patch].json
+    let patchJson = dbManager.getJsonDBOfPatch(patchId);
     delete patchJson[dbfId];
-    dbManager.saveJsonToFile(`../patches/enUS/${patchId}.json`);
+    dbManager.saveJsonToFile(`../patches/enUS/${patchId}.json`, patchJson);
 
+    // delete the pictures
     try {
         fs.unlinkSync(dbManager.absolutePath(`../../client/public/cards/en-US/${patchId}/${dbfId}.png`));
     } catch (error) {
         console.log(error.message);
     }
     
-    
-    // TODO delete the picture
 }
 
 
@@ -296,12 +298,10 @@ function updateDbfId(oldDbfId, newDbfId) {
 }
 
 
-deleteCardFromPatch(56298, 168788);
+// deleteCardFromDb(56298);
+// deleteCardFromDb(57110);
+// deleteCardFromDb(59194);
 
-// cards to delete:
-// 56298
-// 57110
-// 59194
 
 
 module.exports = { saveJsonDBOfPatch }

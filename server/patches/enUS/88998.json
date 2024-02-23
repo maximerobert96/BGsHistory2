@@ -1,14 +1,4 @@
 {
-  "57110": {
-    "cardClass": "NEUTRAL",
-    "dbfId": 57110,
-    "health": 60,
-    "hideStats": true,
-    "id": "TB_BaconShopBob",
-    "name": "Bartender Bob",
-    "set": "BATTLEGROUNDS",
-    "type": "HERO"
-  },
   "57559": {
     "cardClass": "ROGUE",
     "collectionText": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>({0} Gold saved.)</i>",

@@ -1401,15 +1401,6 @@
       "DEMON"
     ]
   },
-  "56298": {
-    "cardClass": "NEUTRAL",
-    "dbfId": 56298,
-    "health": 40,
-    "id": "TB_BaconShop_HERO_PH",
-    "name": "BaconPHhero",
-    "set": "BATTLEGROUNDS",
-    "type": "HERO"
-  },
   "56465": {
     "attack": 5,
     "cardClass": "NEUTRAL",
@@ -1441,16 +1432,6 @@
     "associatedTribes": [
       "MURLOC"
     ]
-  },
-  "57110": {
-    "cardClass": "NEUTRAL",
-    "dbfId": 57110,
-    "health": 60,
-    "hideStats": true,
-    "id": "TB_BaconShopBob",
-    "name": "Bob's Tavern",
-    "set": "BATTLEGROUNDS",
-    "type": "HERO"
   },
   "57299": {
     "attack": 2,
@@ -3246,18 +3227,6 @@
     "associatedTribes": [
       "DEMON"
     ]
-  },
-  "59194": {
-    "cardClass": "NEUTRAL",
-    "dbfId": 59194,
-    "health": 0,
-    "id": "TB_BaconShop_HERO_KelThuzad",
-    "mechanics": [
-      "CANT_BE_DESTROYED"
-    ],
-    "name": "Kel'Thuzad",
-    "set": "BATTLEGROUNDS",
-    "type": "HERO"
   },
   "59201": {
     "cardClass": "NEUTRAL",

@@ -1,13 +1,4 @@
 {
-  "56298": {
-    "cardClass": "NEUTRAL",
-    "dbfId": 56298,
-    "health": 30,
-    "id": "TB_BaconShop_HERO_PH",
-    "name": "BaconPHhero",
-    "set": "BATTLEGROUNDS",
-    "type": "HERO"
-  },
   "57633": {
     "armor": 17,
     "artist": "Efrem Palacios",
