@@ -40,19 +40,91 @@ function CardChanges({ changes }){
     if(changes.length === 0){
         return <p>Loading</p>;
     }
-    let cardList = [];
-    changes.forEach(element => {
-        let change = Object.values(element)[0];
-        let key = Object.keys(element)[0];
-        cardList.push(<CardChangeLong key={key} change={change} />);
+    let newCardsList = [];
+    let removedCardsList = [];
+    let changesList = [];
+
+    // TODO: move the logic in the back-end / create a file for patch changes and types
+
+
+    let newCards = changes.filter((e) => {
+        let card = Object.values(e)[0];
+
+        let olderVersionExists = parseInt(card.old.version) != parseInt(card.new.version);
+        let itIsNowAnActiveMinion = (card.changes.hasOwnProperty("isBattlegroundsPoolMinion") && card.changes.isBattlegroundsPoolMinion.hasOwnProperty("new"));
+        let itIsNowAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.hasOwnProperty("new"));
+
+        return !olderVersionExists || itIsNowAnActiveMinion || itIsNowAnActiveHero;
     });
-    return <>{cardList}</>
+
+    let removedCards = changes.filter((e) => {
+        let card = Object.values(e)[0];
+
+        let itIsNoLongerAnActiveMinion = (card.changes.hasOwnProperty("isBattlegroundsPoolMinion") && card.changes.isBattlegroundsPoolMinion.hasOwnProperty("old"));
+        let itIsNoLongerAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.hasOwnProperty("old"));
+
+        return itIsNoLongerAnActiveMinion || itIsNoLongerAnActiveHero;
+    });
+
+    let cardChanges = changes.filter((e) => {
+        let card = Object.values(e)[0];
+
+        let olderVersionExists = parseInt(card.old.version) != parseInt(card.new.version);
+        let allChangesAreNew = true;
+        for(let field in card.changes){
+            if(card.changes[field].hasOwnProperty("old")) {
+                allChangesAreNew = false;
+                break;
+            }
+        }
+
+        let allChangesAreOld = true;
+        for(let field in card.changes){
+            if(card.changes[field].hasOwnProperty("new")) {
+                allChangesAreOld = false;
+                break;
+            }
+        }
+
+        return olderVersionExists && !allChangesAreNew && !allChangesAreOld;
+    });
+
+    newCards.forEach(element => {
+        let card = Object.values(element)[0];
+        let key = Object.keys(element)[0];
+        newCardsList.push(<CardInfo key={key} card={card.new} patch={card.new.version} />);
+    });
+
+    removedCards.forEach(element => {
+        let card = Object.values(element)[0];
+        let key = Object.keys(element)[0];
+        removedCardsList.push(<CardInfo key={key} card={card.old} patch={card.old.version} />);
+    });
+
+    cardChanges.forEach(element => {
+        let card = Object.values(element)[0];
+        let key = Object.keys(element)[0];
+        changesList.push(<CardChangeLong key={key} card={card} />);
+    });
+
+    return (
+        <div>
+            {newCardsList.length !==0 && (<h1>New and returning cards</h1>)}
+            {newCardsList}
+            {removedCardsList.length !==0 && (<h1>Removed cards</h1>)}
+            {removedCardsList}
+            {changesList.length !==0 && (<h1>Changes</h1>)}
+            {changesList}
+        </div>
+    );
+
+    // return (<>{cardList}</>);
 }
 
-function CardChangeLong({ change }) {
+function CardChangeLong({ card }) {
     return (
     <div>
-        <CardInfo card={change.old} patch={change.old.version} />
-        <CardInfo card={change.new} patch={change.new.version} />
+        <CardInfo card={card.old} patch={card.old.version} />
+        <CardInfo card={card.new} patch={card.new.version} />
     </div>);
 }
