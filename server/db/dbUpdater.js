@@ -266,6 +266,7 @@ function deleteCardFromPatch(dbfId, patchId){
     patchesOfCard = patchesOfCard.filter(element => parseInt(element) != parseInt(patchId) );
     cardsInPatch = cardsInPatch.filter(element => parseInt(element) != parseInt(dbfId) );
 
+    //   delete the card field if there are no longer any associated patches for it
     if(patchesOfCard.length === 0) {
         delete mappingJson.cards[dbfId];
     } else {
@@ -280,7 +281,7 @@ function deleteCardFromPatch(dbfId, patchId){
     delete patchJson[dbfId];
     dbManager.saveJsonToFile(`../patches/enUS/${patchId}.json`, patchJson);
 
-    // delete the pictures
+    // delete the picture
     try {
         fs.unlinkSync(dbManager.absolutePath(`../../client/public/cards/en-US/${patchId}/${dbfId}.png`));
     } catch (error) {
@@ -292,15 +293,19 @@ function deleteCardFromPatch(dbfId, patchId){
 
 
 function updateDbfId(oldDbfId, newDbfId) {
-    // update in the mapping file
-    // update in every patch file (gotta go through all of them, because it can be referenced in hpDbfId, premiumDbfId, etc. I need to update in all of these fields)
-    // rename the pictures
+    // TODO update in the mapping file
+    // TODO update in every patch file (gotta go through all of them, because it can be referenced in hpDbfId, premiumDbfId, etc. I need to update in all of these fields)
+    // TODO rename the pictures
+
+
+    // siegebreaker: 100720 -> 54835. That card already exists.
+    // golden minibot and other stuff. These cards don't exist for the right id
+    // some other duplicates like Brann, Cave Hydra
 }
 
-
-// deleteCardFromDb(56298);
-// deleteCardFromDb(57110);
-// deleteCardFromDb(59194);
+function addHeroDbfIdToHPs(){
+    // TODO
+}
 
 
 
