@@ -52,6 +52,7 @@ export default function MainPage() {
         <>
             { activeCard &&
             (<DisplayCardInfo patchId={patchId} />)}
+            <PatchInfo patchId={patchId}/>
             <CardList cards={cards} patchId={patchId} />
         </>
         );
@@ -98,7 +99,7 @@ function getTribes(cards) {
     return tribes;
 }
 
-function CardList({ cards, patchId }) {
+export function CardList({ cards, patchId }) {
     let availableTribes = getTribes(cards);
     const [tribes, setTribes] = useState(availableTribes);
 
@@ -121,7 +122,6 @@ function CardList({ cards, patchId }) {
 
     return( 
         <div>
-            <PatchInfo patchId={patchId}/>
             <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
         </div>

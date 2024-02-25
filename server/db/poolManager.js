@@ -41,7 +41,7 @@ const special = {
  * @param {*} pool name of the pool to use
  * @returns 
  */
-function getMinionsForPool(jsonDB, pool) {
+function getCardsForPool(jsonDB, pool) {
     switch (pool) {
         case "TIER_1_POOL":
             return getMinionsOfTier(jsonDB, 1);
@@ -163,7 +163,7 @@ function getMinionsOfType(jsonDB, type) {
     let cards = Object.values(jsonDB);
     let minionsOfType = [];
     for (let card of cards) {
-        if(card.isBattlegroundsPoolMinion && card.races && card.races.includes(type)) {
+        if(card.isBattlegroundsPoolMinion && card.races && (card.races.includes(type) || card.races.includes("ALL"))) {
             minionsOfType.push(card);
         }
     }
@@ -304,5 +304,5 @@ function getFoaFBuddies(jsonDB) {
 }
 
 module.exports = {
-    getMinionsForPool
+    getCardsForPool
 }

@@ -151,14 +151,9 @@ function tempGetCardPoolNames(){
 
 // console.log(tempGetCardPoolNames());
 
-function getCardsOfPool(cards, pool) {
-    // let cards = 
-    let cardsInPool = poolManager.getMinionsForPool(cards, pool);
-    let cardsInPoolFormatted = [];
-    for (let card of cardsInPool) {
-        cardsInPoolFormatted.push(card);
-    }
-    return cardsInPoolFormatted;
+function getCardsOfPool(patchId, pool) {
+    let tempJson = getActiveCardsOfPatch(patchId);
+    return poolManager.getCardsForPool(tempJson, pool);
 }
 
 function keepCardsFromTribes(jsonDB, tribes) {
@@ -320,6 +315,10 @@ function addServerPatchToPatchesFile(build) {
 function saveJsonToFile(filename, jsonObj) {
     fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
 }
+
+
+
+
 
 module.exports = { 
     getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath
