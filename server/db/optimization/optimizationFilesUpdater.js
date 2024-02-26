@@ -1,20 +1,5 @@
 const dbManager = require('../dbManager');
 
-function optimizeActiveCardsFirstPatch() {
-    let activeCards = dbManager.getActiveCardsOfPatch("35747");
-    let optimized = {};
-    let currentVersion;
-    activeCards.forEach((card) => {
-        currentVersion = parseInt(card.version);
-        if(optimized.hasOwnProperty(currentVersion)){
-            optimized[currentVersion].push(card.dbfId);
-        } else {
-            optimized[currentVersion] = [card.dbfId];
-        }
-    });
-    console.log(optimized);
-}
-
 /**
  * Gives an object of the format 
  * {
@@ -41,17 +26,18 @@ function getOptimizedActiveCardsOfPatch(patchId) {
 }
 
 function getOptimizedActiveCardsForAllPatches(){
-    // TODO: for each patch
     let activeCardsForAll = {};
-    activeCardsForAll["35747"] = getOptimizedActiveCardsOfPatch(35747);
-    activeCardsForAll["144772"] = getOptimizedActiveCardsOfPatch(144772);
+    let patchesJson = dbManager.getJsonFromFile("../patches.json");
+    for(let patchId in patchesJson){
+        activeCardsForAll[patchId] = getOptimizedActiveCardsOfPatch(patchId);
+    }
+
     return activeCardsForAll;
 }
 
-// right now this operation overwrites the file
-function updateActiveCardsFile(){
+// takes several minutes to run
+function createFullActiveCardsFile(){
     let jsonObj = getOptimizedActiveCardsForAllPatches();
     dbManager.saveJsonToFile("./optimization/active-cards.json", jsonObj);
 }
 
-// updateActiveCardsFile();

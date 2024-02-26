@@ -1,5 +1,4 @@
 const dbManager = require('../dbManager');
-const path = require('path');
 
 
 function getActiveCardsMappingJson(){
@@ -21,8 +20,6 @@ function getActiveCardsOfPatch(patchId){
         }
     }
     return activeCards;
-
-    // return dbManager.getJsonDBOfPatch("35747");
 }
 
 module.exports = {
