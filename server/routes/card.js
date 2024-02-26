@@ -1,5 +1,6 @@
 const express = require("express");
 const dbManager = require('../db/dbManager');
+const optimizerFunctions = require("../db/optimization/optimizationFilesFunctions");
 
 const cardRoutes = express.Router();
 
@@ -8,6 +9,7 @@ cardRoutes.route("/cards").get(function(req,res) {
 
     res.json(activeCards);
 });
+
 
 cardRoutes.route("/cards/:id").get(function(req, res) {
     try {
@@ -23,6 +25,12 @@ cardRoutes.route("/cards/:id").get(function(req, res) {
 cardRoutes.route("/:patchId/cards").get(function(req, res) {
     let patchId = req.params.patchId;
     let activeCards = dbManager.getActiveCardsOfPatch(patchId);
+    res.json(activeCards);
+});
+
+cardRoutes.route("/:patchId/cards2").get(function(req, res) {
+    let patchId = req.params.patchId;
+    let activeCards = optimizerFunctions.getActiveCardsOfPatch(patchId);
     res.json(activeCards);
 });
 

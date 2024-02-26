@@ -1,5 +1,5 @@
 const fs = require("fs");
-const dbManager = require('../db/dbManager');
+const dbManager = require('./dbManager');
 
 function addField(cardIds, field, value){
     let jsonDB = JSON.parse(fs.readFileSync("./db/currentDb.json"));

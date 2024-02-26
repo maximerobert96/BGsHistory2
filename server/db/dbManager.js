@@ -321,5 +321,5 @@ function saveJsonToFile(filename, jsonObj) {
 
 
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile
 }
