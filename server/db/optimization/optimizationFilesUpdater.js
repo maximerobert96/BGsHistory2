@@ -41,3 +41,64 @@ function createFullActiveCardsFile(){
     dbManager.saveJsonToFile("./optimization/active-cards.json", jsonObj);
 }
 
+
+function createFullCardChangesFile(){
+
+}
+
+function getCardChangesForSecondPatch(){
+    let changesSecondPatch = dbManager.getChangesOfPatch(36393);
+    console.log(changesSecondPatch);
+}
+
+getCardChangesForSecondPatch();
+
+// how the card changes file could look:
+// {
+//     "36393": {
+        // "208": [
+        //     {
+        //         "comment": "Leapfrogger got added",
+        //         "changeType": "new",
+        //         "changes": { ... },
+        //         "oldVersion": 35747,
+        //         "newVersion": 36393
+        //     },
+//             {
+//                 "comment": "Leapfrogger got temporarily disabled due to crashes",
+//                 "changeType": "disabled",
+//                 "changes": { ... },
+//                 "oldVersion": 35747,
+//                 "newVersion": 36393
+//             },
+//         ]
+//     }
+// }
+
+// change types: new, returning, removal, buff, nerf, change, disable, hidden, bugfix, related
+// related: if a card got changed because of a related card that got changed, could just point to that card.
+// for example, Zephrys buddy got nerfed, so Zephrys got nerfed. Mukla's hero power got nerfed, so Mukla got nerfed.
+// "103": [
+//     {
+//         "comment": "Mukla's hero power got changed",
+//         "changeType": "related",
+//         "heroPowerDbfId": 104
+//     }
+// ],
+// "104": [
+//     {
+//         "comment": "Nerf to Bananarama",
+//         "changeType": "nerfed",
+//         "changes": { ... },
+//         "oldVersion": 35747,
+//         "newVersion": 36393
+//     }
+// ],
+// "108": [
+//     {
+//         "comment": "Zephrys' buddy got nerfed",
+//         "changeType": "related",
+//         "buddyDbfId": 110
+//     }
+// ]
+ 
