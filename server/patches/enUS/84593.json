@@ -111,7 +111,8 @@
     "name": "Natural Balance",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion of\neach Tavern Tier +2/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "68129"
   },
   "71914": {
     "cardClass": "NEUTRAL",
@@ -121,7 +122,8 @@
     "name": "Devour",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nSpit its stats onto another.\nGet 1 Gold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "71916"
   },
   "71916": {
     "battlegroundsHero": true,

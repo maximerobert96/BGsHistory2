@@ -82,7 +82,8 @@
     "name": "Verdant Spheres",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nEvery third minion you\nbuy gains +2/+2.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61912"
   },
   "61918": {
     "cardClass": "SHAMAN",
@@ -96,7 +97,8 @@
     "name": "Evolving Electricity",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you upgrade Bob's\nTavern, replace his minions\n   with ones of a higher Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61913"
   },
   "61919": {
     "cardClass": "NEUTRAL",
@@ -106,7 +108,8 @@
     "name": "Imprison",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nMake a minion in Bob's\nTavern <b>Dormant</b>. After 2\n  turns, get it with +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61914"
   },
   "62162": {
     "attack": 3,

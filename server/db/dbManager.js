@@ -316,10 +316,15 @@ function saveJsonToFile(filename, jsonObj) {
     fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
 }
 
-
+function saveJsonDBOfPatch(jsonObj, patch, locale) {
+    if(locale === undefined){
+        locale = "enUS";
+    }
+    saveJsonToFile(`../patches/${locale}/${patch}.json`, jsonObj);
+}
 
 
 
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch
 }

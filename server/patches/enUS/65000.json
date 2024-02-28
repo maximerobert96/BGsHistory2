@@ -7,7 +7,8 @@
     "name": "Galakrond's Greed",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nReplace a minion in Bob's\nTavern with one from a\nhigher Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57635"
   },
   "57562": {
     "cardClass": "NEUTRAL",
@@ -20,7 +21,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a friendly minion <b>Divine Shield</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57929"
   },
   "58022": {
     "cardClass": "NEUTRAL",
@@ -36,7 +38,8 @@
     "type": "HERO_POWER",
     "pools": [
       "SECRET_POOL"
-    ]
+    ],
+    "heroDbfId": "58021"
   },
   "58503": {
     "cardClass": "MAGE",
@@ -82,7 +85,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       59202
-    ]
+    ],
+    "heroDbfId": "59203"
   },
   "59202": {
     "attack": 1,
@@ -255,7 +259,8 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+2/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924"
   },
   "60265": {
     "cardClass": "NEUTRAL",
@@ -408,7 +413,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "60370"
   },
   "61444": {
     "attack": 6,
@@ -540,7 +546,8 @@
     "type": "HERO_POWER",
     "pools": [
       "TIER_X_POOL"
-    ]
+    ],
+    "heroDbfId": "62266"
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -603,7 +610,8 @@
       71081,
       89813,
       98888
-    ]
+    ],
+    "heroDbfId": "57893"
   },
   "63162": {
     "cardClass": "ROGUE",
@@ -613,7 +621,8 @@
     "name": "Bob's Burgles",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern\nwith your last opponent's\nwarband.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60367"
   },
   "63624": {
     "attack": 4,
@@ -784,7 +793,8 @@
     "name": "Tavern Lighting",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion stats\nequal to your Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64400"
   },
   "97423": {
     "artist": "Brian Despain",

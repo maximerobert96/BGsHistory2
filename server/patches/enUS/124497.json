@@ -30,7 +30,8 @@
     "pools": [
       "DIABLO_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "72470"
   },
   "76520": {
     "cardClass": "NEUTRAL",
@@ -43,7 +44,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion:\n\"<b>Deathrattle</b>: Summon\na random minion of the\nsame Tavern Tier.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "76521"
   },
   "76521": {
     "battlegroundsHero": true,
@@ -172,7 +174,8 @@
     "pools": [
       "TYPE_X_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "77516"
   },
   "77435": {
     "cardClass": "WARRIOR",

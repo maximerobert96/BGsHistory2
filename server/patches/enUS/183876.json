@@ -391,7 +391,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       94063
-    ]
+    ],
+    "heroDbfId": "63319"
   },
   "63600": {
     "cardClass": "NEUTRAL",
@@ -401,7 +402,8 @@
     "name": "Friendly Wager",
     "set": "BATTLEGROUNDS",
     "text": "[x]Guess which player will\nwin their next combat. If\nyou're right, get 3 Coins.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63602"
   },
   "63619": {
     "attack": 5,
@@ -883,7 +885,8 @@
     "name": "See the Light",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a minion in the\nTavern. Set its stats to 2\nand add it to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "70956"
   },
   "72062": {
     "attack": 4,
@@ -1199,7 +1202,8 @@
     "type": "MINION",
     "referencedTags": [
       "DEATHRATTLE"
-    ]
+    ],
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 8,
@@ -5663,7 +5667,8 @@
     "name": "Choose Your Champion",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> At the start of the\ngame, <b>Discover</b> a Tier 7\nminion to get after you\n  spend 65 Gold. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "103477"
   },
   "104724": {
     "cardClass": "NEUTRAL",
@@ -5720,7 +5725,8 @@
     "name": "Glaive Ricochet",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Once per turn,\nafter you buy 3 minions,\nget a plain copy of one\nof them. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74631"
   },
   "105108": {
     "artist": "Andrew Hou",

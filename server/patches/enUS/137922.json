@@ -7,7 +7,8 @@
     "name": "Rage Potion",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n+10 Attack until\nnext turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57961"
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -20,7 +21,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n<b>Reborn</b> until next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58024"
   },
   "59564": {
     "cardClass": "NEUTRAL",
@@ -470,7 +472,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After a different friendly minion gains stats, gain +1/+1 until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58535"
   },
   "77518": {
     "cardClass": "WARRIOR",
@@ -563,7 +566,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> When your\nwarband reaches 30 total\nAttack, begin your Naga\nConquest.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "79618"
   },
   "80007": {
     "cardClass": "NEUTRAL",
@@ -579,7 +583,8 @@
     "type": "HERO_POWER",
     "pools": [
       "NAGA_POOL"
-    ]
+    ],
+    "heroDbfId": "89992"
   },
   "80244": {
     "cardClass": "NEUTRAL",
@@ -589,7 +594,8 @@
     "name": "Lead the Frostwolves",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\nIt copies the Attack of your\nhighest Attack minion\nuntil next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80239"
   },
   "80248": {
     "cardClass": "NEUTRAL",
@@ -599,7 +605,8 @@
     "name": "Lead the Stormpikes",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\nIt copies the Health of your\nhighest Health minion\nuntil next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80247"
   },
   "80738": {
     "attack": 1,

@@ -108,7 +108,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon\na random minion from\na Tavern Tier lower.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "76521"
   },
   "80747": {
     "attack": 2,
@@ -164,7 +165,8 @@
     "name": "The Perfect Crime",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal all minions in\nBob's Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "86291"
   },
   "90437": {
     "cardClass": "NEUTRAL",

@@ -8,6 +8,7 @@
     "name": "Manastorm",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive Hero Power</b>\nMinions cost 2 Gold\n<b>Refresh</b> costs 2 Gold.\n Tavern Tiers cost (1) more.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60366"
   }
 }

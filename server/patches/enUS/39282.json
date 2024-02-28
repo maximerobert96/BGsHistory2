@@ -21,7 +21,8 @@
     "name": "Burbling",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58027"
   },
   "58527": {
     "cardClass": "NEUTRAL",
@@ -41,7 +42,8 @@
     "name": "Temporal Tavern",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern.\nInclude a minion from\na higher <b>Tavern Tier</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58534"
   },
   "59660": {
     "attack": 3,
@@ -106,7 +108,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a random friendly minion +3 Health.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -116,6 +119,7 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a random friendly\nMech, Demon, Murloc \nand Beast +2 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924"
   }
 }

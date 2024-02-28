@@ -52,7 +52,8 @@
     "name": "Honorable Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive your minions with\nno minion type\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60364"
   },
   "61028": {
     "attack": 6,
@@ -118,7 +119,8 @@
     "name": "Wingmen",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\n<b>Start of Combat:</b> Your left\nand right-most minions\nattack immediately.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57634"
   },
   "61930": {
     "attack": 3,

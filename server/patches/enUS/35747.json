@@ -1674,7 +1674,8 @@
     "name": "Smart Savings",
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nAdd a Gold Coin\nto your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57891"
   },
   "57561": {
     "cardClass": "NEUTRAL",
@@ -1684,7 +1685,8 @@
     "name": "Skilled Bartender",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nReduce the Cost of\nTavern Tiers by (1).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58546"
   },
   "57562": {
     "cardClass": "NEUTRAL",
@@ -1699,7 +1701,8 @@
     },
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a friendly minion <b>Divine Shield</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57929"
   },
   "57742": {
     "attack": 1,
@@ -1816,7 +1819,8 @@
     "name": "Stay Frosty",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAt the end of your turn,\n<b>Frozen</b> minions get\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58435"
   },
   "57946": {
     "cardClass": "NEUTRAL",
@@ -1854,7 +1858,8 @@
     "name": "Tinker",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57946"
   },
   "57956": {
     "cardClass": "NEUTRAL",
@@ -1878,7 +1883,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -1902,7 +1908,8 @@
     "name": "Rage Potion",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ngive your left-most minion\n+10 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57961"
   },
   "58017": {
     "cardClass": "NEUTRAL",
@@ -1942,7 +1949,8 @@
     "type": "HERO_POWER",
     "pools": [
       "SECRET_POOL"
-    ]
+    ],
+    "heroDbfId": "58021"
   },
   "58024": {
     "cardClass": "NEUTRAL",
@@ -1980,7 +1988,8 @@
     "name": "Burbling",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nYour next <b>Battlecry</b> this\nturn triggers twice.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58027"
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -1990,7 +1999,8 @@
     "name": "Reborn Rites",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ngive your right-most\nminion <b>Reborn</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58024"
   },
   "58044": {
     "cardClass": "NEUTRAL",
@@ -3170,7 +3180,8 @@
     "name": "Temporal Tavern",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern.\nThe last minion will be\n   from a higher <b>Tavern Tier</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58534"
   },
   "58546": {
     "cardClass": "NEUTRAL",
@@ -3240,7 +3251,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       59202
-    ]
+    ],
+    "heroDbfId": "59203"
   },
   "59202": {
     "attack": 1,
@@ -3297,7 +3309,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart with 60 Health \ninstead of 40.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59397"
   },
   "59485": {
     "attack": 4,
@@ -3960,7 +3973,8 @@
     "name": "Bloodfury",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive your Demons\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59807"
   },
   "59814": {
     "cardClass": "NEUTRAL",
@@ -3990,7 +4004,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       59816
-    ]
+    ],
+    "heroDbfId": "59814"
   },
   "59816": {
     "cardClass": "NEUTRAL",
@@ -4022,7 +4037,8 @@
     },
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nHire a random minion in Bob's Tavern and give it +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59805"
   },
   "59828": {
     "attack": 10,
@@ -4075,7 +4091,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a random friendly minion +2 Health.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -4152,7 +4169,8 @@
     "name": "Hat Trick",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you sell a minion,\nrandomly give two minions\n  in Bob's Tavern +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59806"
   },
   "59862": {
     "cardClass": "NEUTRAL",
@@ -4162,7 +4180,8 @@
     "name": "Nefarious Fire",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ndeal 1 damage to all\nenemy minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58536"
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -4172,7 +4191,8 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a random friendly\nMech, Demon, Murloc \nand Beast +1 Health.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924"
   },
   "59891": {
     "cardClass": "NEUTRAL",
@@ -4189,7 +4209,8 @@
     "pools": [
       "TIER_3_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "57944"
   },
   "59894": {
     "cardClass": "NEUTRAL",
@@ -4798,7 +4819,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       60265
-    ]
+    ],
+    "heroDbfId": "60213"
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -4815,7 +4837,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       96786
-    ]
+    ],
+    "heroDbfId": "60214"
   },
   "60232": {
     "attack": 10,
@@ -4874,7 +4897,8 @@
     },
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nTake $3 damage and add\na Gold Coin to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60327": {
     "attack": 4,
@@ -4918,7 +4942,8 @@
       59852,
       59853,
       59854
-    ]
+    ],
+    "heroDbfId": "57893"
   },
   "63774": {
     "attack": 2,
@@ -5060,7 +5085,8 @@
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat, deal 8 damage to two random enemy minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57892"
   },
   "68469": {
     "attack": 1,

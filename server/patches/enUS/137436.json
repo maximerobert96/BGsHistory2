@@ -94,7 +94,8 @@
     "races": [
       "ELEMENTAL"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "79615"
   },
   "77889": {
     "attack": 6,
@@ -135,7 +136,8 @@
     "pools": [
       "MECH_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "80832"
   },
   "82600": {
     "attack": 4,
@@ -157,7 +159,8 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
-    ]
+    ],
+    "heroDbfId": "80832"
   },
   "82603": {
     "attack": 8,

@@ -419,7 +419,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal a minion\nin Bob's Tavern.\nTake damage equal\nto its Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60366": {
     "armor": 8,
@@ -754,7 +755,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "61488"
   },
   "61912": {
     "armor": 15,
@@ -1239,7 +1241,8 @@
     "name": "Embrace Your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b> Summon\nand get a random minion\nfrom your Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "66227": {
     "attack": 6,
@@ -2149,7 +2152,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get a random\n<b>Battlecry</b> minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60214"
   },
   "77785": {
     "attack": 0,
@@ -2188,7 +2192,8 @@
       77992,
       77993,
       77994
-    ]
+    ],
+    "heroDbfId": "77987"
   },
   "80239": {
     "armor": 16,
@@ -2574,7 +2579,8 @@
     "type": "HERO_POWER",
     "pools": [
       "SPELLCRAFT_POOL"
-    ]
+    ],
+    "heroDbfId": "85125"
   },
   "86013": {
     "armor": 15,
@@ -3412,7 +3418,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +{1}/+{1}.\nUpgrades after nine\n friendly minions die.\n <i>({0} left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "97186"
   },
   "97270": {
     "attack": 3,
@@ -4992,7 +4999,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> At the end of every 3\n turns, get a plain copy of the\nleft-most card in your hand.\n<i>({0} turns left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "99033"
   },
   "99035": {
     "attack": 3,

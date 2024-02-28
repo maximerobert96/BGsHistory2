@@ -297,7 +297,8 @@
     ],
     "relatedCards": [
       70136
-    ]
+    ],
+    "heroDbfId": "71458"
   },
   "77536": {
     "attack": 6,
@@ -584,7 +585,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After each <b>Refresh</b>,\ngive a minion in Bob's\nTavern <b>Taunt</b>, <b>Windfury</b>,\n <b>Reborn</b>, or <b>Divine Shield</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "96870"
   },
   "97658": {
     "cardClass": "NEUTRAL",

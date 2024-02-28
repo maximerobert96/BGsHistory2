@@ -7,7 +7,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "72068": {
     "attack": 2,
@@ -110,7 +111,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion:\n\"<b>Deathrattle</b>: Summon\na random minion of the\nsame Tavern Tier.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "76521"
   },
   "77911": {
     "cardClass": "WARLOCK",
@@ -120,6 +122,7 @@
     "name": "Fragrant Phylactery",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\nto all your others.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74646"
   }
 }

@@ -32,7 +32,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       64426
-    ]
+    ],
+    "heroDbfId": "57892"
   },
   "64476": {
     "cardClass": "NEUTRAL",
@@ -43,7 +44,8 @@
     "name": "Avalanche",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you play 3 Elementals,\nreduce the cost of upgrading\nBob's Tavern by (3).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64475"
   },
   "70136": {
     "cardClass": "NEUTRAL",
@@ -953,7 +955,8 @@
     "name": "See the Light",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nChoose a minion in\nBob's Tavern to add to your\nhand. Set its stats to 2.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "70956"
   },
   "71081": {
     "cardClass": "NEUTRAL",
@@ -1000,7 +1003,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       70136
-    ]
+    ],
+    "heroDbfId": "71458"
   },
   "71463": {
     "battlegroundsHero": true,
@@ -1024,7 +1028,8 @@
     "name": "Spirit Swap",
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nChoose two minions. Swap their stats.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "71463"
   },
   "71644": {
     "cardClass": "NEUTRAL",

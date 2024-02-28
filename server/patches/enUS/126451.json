@@ -7,7 +7,8 @@
     "name": "Sharpen Blades",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n+2/+1 for each minion\n you've bought this turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57633"
   },
   "57957": {
     "cardClass": "NEUTRAL",
@@ -17,7 +18,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "61048": {
     "attack": 4,
@@ -711,7 +713,8 @@
     "name": "Fragrant Phylactery",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its Health\nto all your others.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74646"
   },
   "78109": {
     "attack": 5,

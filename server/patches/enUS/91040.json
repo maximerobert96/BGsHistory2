@@ -14,7 +14,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       76964
-    ]
+    ],
+    "heroDbfId": "58027"
   },
   "59860": {
     "cardClass": "NEUTRAL",
@@ -28,7 +29,8 @@
     "name": "Hat Trick",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After you sell a\nminion, randomly give a\nminion in Bob's Tavern\n+1/+1 three times.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59806"
   },
   "60378": {
     "cardClass": "NEUTRAL",
@@ -38,7 +40,8 @@
     "name": "Arcane Alteration",
     "set": "BATTLEGROUNDS",
     "text": "Replace a minion with a random one of the same Tavern Tier.\n<i>(Twice per turn.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61490"
   },
   "60448": {
     "cardClass": "NEUTRAL",
@@ -55,7 +58,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "61919": {
     "cardClass": "NEUTRAL",
@@ -65,7 +69,8 @@
     "name": "Imprison",
     "set": "BATTLEGROUNDS",
     "text": "[x]Make a minion in Bob's\nTavern <b>Dormant</b>. After 3\n  turns, get it with +2/+2.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61914"
   },
   "76964": {
     "artist": "Matt Dixon",

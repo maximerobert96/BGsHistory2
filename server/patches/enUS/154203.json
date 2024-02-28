@@ -7,7 +7,8 @@
     "name": "Temporal Tavern",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Refresh</b> Bob's Tavern.\nInclude two minions from\na Tavern Tier higher.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58534"
   },
   "58596": {
     "cardClass": "NEUTRAL",
@@ -92,7 +93,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Take $4 damage.\nGain 2 Gold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60922": {
     "cardClass": "NEUTRAL",
@@ -213,7 +215,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Gain 1 Gold.\nIncreases each turn.\n<i>(Once per game.)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "62268"
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -257,7 +260,8 @@
       71081,
       89813,
       98888
-    ]
+    ],
+    "heroDbfId": "57893"
   },
   "63435": {
     "attack": 2,
@@ -292,7 +296,8 @@
     "name": "Everbloom",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you upgrade Bob's\nTavern, gain 2 Gold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63604"
   },
   "64220": {
     "cardClass": "NEUTRAL",
@@ -340,7 +345,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]At end of turn, give a\nfriendly minion +1/+1.\n  Repeat 0 times.\n<i>  (Upgrades each turn!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "58535"
   },
   "66545": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -740,7 +746,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       70136
-    ]
+    ],
+    "heroDbfId": "71458"
   },
   "72053": {
     "attack": 9,
@@ -894,7 +901,8 @@
     ],
     "relatedCards": [
       70136
-    ]
+    ],
+    "heroDbfId": "71458"
   },
   "77511": {
     "attack": 5,
@@ -916,7 +924,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       58596
-    ]
+    ],
+    "heroDbfId": "63602"
   },
   "77536": {
     "attack": 6,
@@ -982,7 +991,8 @@
     "techLevel": 3,
     "text": "[x]After you buy a minion\nwith a Darkmoon Ticket,\ngain 1 Gold.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "64480"
   },
   "77830": {
     "attack": 6,
@@ -1540,7 +1550,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +{0}/+{0}.\nUpgrades after nine\n friendly minions die.\n <i>({1} left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "97186"
   },
   "97186": {
     "artist": "Alex Horley Orlandelli",

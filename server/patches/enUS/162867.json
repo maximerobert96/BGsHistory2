@@ -127,7 +127,8 @@
     "name": "Tinker",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nWhenever you summon a\nMech, give it +2 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57946"
   },
   "58387": {
     "attack": 0,
@@ -213,7 +214,8 @@
     "name": "Bloodfury",
     "set": "BATTLEGROUNDS",
     "text": "Choose a friendly Demon. It consumes a minion in Bob's Tavern to gain its stats.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59807"
   },
   "59814": {
     "artist": "Sean McNally",
@@ -241,7 +243,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +1 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "59937": {
     "attack": 2,
@@ -1043,7 +1046,8 @@
       75704,
       75705,
       75706
-    ]
+    ],
+    "heroDbfId": "75702"
   },
   "75704": {
     "cardClass": "NEUTRAL",
@@ -3142,7 +3146,8 @@
     ],
     "relatedCards": [
       97817
-    ]
+    ],
+    "heroDbfId": "97813"
   },
   "97817": {
     "attack": 1,

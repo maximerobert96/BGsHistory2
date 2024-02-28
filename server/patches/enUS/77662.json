@@ -121,7 +121,8 @@
     "pools": [
       "DARKMOON_PRIZE_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "67356"
   },
   "69960": {
     "artist": "Jaemin Kim",
@@ -171,7 +172,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive +1 Attack to the next\nminion you buy this turn.\n<i>(Upgrades each turn!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "71454"
   },
   "71533": {
     "artist": "Ursula Dorada",

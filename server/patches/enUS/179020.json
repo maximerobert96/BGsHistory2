@@ -10,7 +10,8 @@
     "name": "Sharpen Blades",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +{1}/+{1}.\nUpgrades after you\nbuy 4 minions. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57633"
   },
   "57633": {
     "armor": 11,
@@ -135,7 +136,8 @@
     "relatedCards": [
       59816,
       65230
-    ]
+    ],
+    "heroDbfId": "59814"
   },
   "59860": {
     "cardClass": "NEUTRAL",
@@ -148,7 +150,8 @@
     "name": "Hat Trick",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> When you buy a\nminion, give it a +1/+1 hat\n that passes to a friendly\nminion when sold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59806"
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -162,7 +165,8 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> <b>Start of Combat:</b>\nGive a friendly minion of\neach type stats equal\nto their Tavern Tiers.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924"
   },
   "59935": {
     "attack": 3,
@@ -288,7 +292,8 @@
     "name": "ALL Will Burn!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\n<b>Start of Combat:</b> Give\nALL minions +2 Attack\npermanently.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60369"
   },
   "61851": {
     "cardClass": "DEMONHUNTER",
@@ -302,7 +307,8 @@
     "name": "Wingmen",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> <b>Start of Combat:</b>\nYour left and right-most\nminions gain +2/+1\n  and attack immediately.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57634"
   },
   "63619": {
     "attack": 5,
@@ -378,7 +384,8 @@
     "name": "Tavern Lighting",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion stats\nequal to your\nTavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64400"
   },
   "65666": {
     "attack": 6,
@@ -482,7 +489,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion in\nthe Tavern +{1}/+{2}.\n<i>(Doubles every {0} turns!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "71454"
   },
   "71458": {
     "armor": 10,
@@ -513,7 +521,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       70136
-    ]
+    ],
+    "heroDbfId": "71458"
   },
   "72042": {
     "attack": 3,
@@ -686,7 +695,8 @@
     "name": "Conviction",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give {2} friendly minions\n+{0}/+{1}. <i>(After you\nupgrade the Tavern,\n  choose an improvement!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "73940"
   },
   "74631": {
     "armor": 10,
@@ -871,7 +881,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101567
-    ]
+    ],
+    "heroDbfId": "73940"
   },
   "77779": {
     "attack": 14,
@@ -909,7 +920,8 @@
     "techLevel": 3,
     "text": "When you 'Devour' this, spit its stats onto 1 extra minion.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "71916"
   },
   "77911": {
     "cardClass": "WARLOCK",
@@ -919,7 +931,8 @@
     "name": "Fragrant Phylactery",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to your other minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74646"
   },
   "77987": {
     "armor": 12,
@@ -958,7 +971,8 @@
       77992,
       77993,
       77994
-    ]
+    ],
+    "heroDbfId": "77987"
   },
   "77991": {
     "cardClass": "NEUTRAL",
@@ -1050,7 +1064,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> When your\nwarband reaches 25 total\nAttack, begin your Naga\nConquest.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "79618"
   },
   "80239": {
     "armor": 10,
@@ -1082,7 +1097,8 @@
     "name": "Lead the Frostwolves",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\n<b>Avenge (2):</b> Give your minions +1 Attack permanently.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80239"
   },
   "80739": {
     "attack": 5,
@@ -1147,7 +1163,8 @@
     "pools": [
       "MECH_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "80832"
   },
   "82110": {
     "armor": 10,
@@ -1182,7 +1199,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       82117
-    ]
+    ],
+    "heroDbfId": "82110"
   },
   "86612": {
     "attack": 6,
@@ -2197,7 +2215,8 @@
     "name": "Glaive Ricochet",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Once per turn,\nafter you buy 4 minions,\n<b>Discover</b> a plain copy\nof one of them. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74631"
   },
   "104877": {
     "attack": 4,

@@ -14,7 +14,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "80739": {
     "attack": 4,

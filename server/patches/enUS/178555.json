@@ -101,7 +101,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       59202
-    ]
+    ],
+    "heroDbfId": "59203"
   },
   "59202": {
     "attack": 1,
@@ -429,7 +430,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After 16 friendly\nminions attack, the first\nminion you buy each\nturn is free. <i>(16 left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61910"
   },
   "62035": {
     "cardClass": "DEMONHUNTER",
@@ -441,7 +443,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\nThe first minion you buy each turn is free.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61911"
   },
   "62242": {
     "armor": 18,
@@ -2144,7 +2147,8 @@
     "targetingArrowText": "Make a Buddy Golden.",
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Make a Buddy Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "101345"
   },
   "101350": {
     "attack": 8,

@@ -66,7 +66,8 @@
     "name": "Smart Savings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a minion,\ngain 1 Gold next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57891"
   },
   "57562": {
     "cardClass": "NEUTRAL",
@@ -79,7 +80,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a minion\n<b>Divine Shield</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57929"
   },
   "57742": {
     "attack": 1,
@@ -238,7 +240,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "63607": {
     "cardClass": "NEUTRAL",
@@ -248,7 +251,8 @@
     "name": "Swap, Lock, & Shop It",
     "set": "BATTLEGROUNDS",
     "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63601"
   },
   "71914": {
     "cardClass": "NEUTRAL",
@@ -258,7 +262,8 @@
     "name": "Devour",
     "set": "BATTLEGROUNDS",
     "text": "[x]Remove a friendly minion.\nSpit its stats onto another.\nGain 1 Gold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "71916"
   },
   "72043": {
     "attack": 4,
@@ -407,7 +412,8 @@
     "type": "MINION",
     "referencedTags": [
       "DEATHRATTLE"
-    ]
+    ],
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 10,
@@ -674,7 +680,8 @@
     "name": "Rapid Reanimation",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Destroy it.\nWhen you have space,\n   resummon an exact copy.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "98726"
   },
   "98926": {
     "artist": "Tanamaes Leejierasaes",

@@ -76,7 +76,8 @@
     "name": "Puzzle Box",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAdd a random minion in\nBob's Tavern to your hand.\nGive it +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59805"
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -86,7 +87,8 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+2 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924"
   },
   "61046": {
     "attack": 8,
@@ -413,7 +415,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 7 times,\nBob always has 7 minions.\n<i>(",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61910"
   },
   "61989": {
     "attack": 6,
@@ -451,7 +454,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nBob's Tavern refreshes\nwith 7 minions.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61911"
   },
   "62186": {
     "attack": 4,
@@ -820,7 +824,8 @@
     "type": "HERO_POWER",
     "pools": [
       "PIRATE_POOL"
-    ]
+    ],
+    "heroDbfId": "57947"
   },
   "62250": {
     "cardClass": "NEUTRAL",
@@ -835,7 +840,8 @@
     "pools": [
       "GOLDEN_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "62242"
   },
   "62251": {
     "attack": 12,
@@ -974,7 +980,8 @@
     "type": "HERO_POWER",
     "pools": [
       "TIER_X_POOL"
-    ]
+    ],
+    "heroDbfId": "62266"
   },
   "62268": {
     "battlegroundsHero": true,
@@ -1001,7 +1008,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGain",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "62268"
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -1142,7 +1150,8 @@
       71081,
       89813,
       98888
-    ]
+    ],
+    "heroDbfId": "57893"
   },
   "63782": {
     "attack": 4,

@@ -25,7 +25,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       59816
-    ]
+    ],
+    "heroDbfId": "59814"
   },
   "59955": {
     "attack": 4,
@@ -107,7 +108,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       96786
-    ]
+    ],
+    "heroDbfId": "60214"
   },
   "60367": {
     "battlegroundsHero": true,
@@ -192,7 +194,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAfter you <b>Refresh</b> 5 times,\nBob always has 7 minions.\n<i>(5 left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61910"
   },
   "62267": {
     "cardClass": "NEUTRAL",
@@ -208,7 +211,8 @@
     "type": "HERO_POWER",
     "pools": [
       "TIER_X_POOL"
-    ]
+    ],
+    "heroDbfId": "62266"
   },
   "63162": {
     "cardClass": "ROGUE",
@@ -218,6 +222,7 @@
     "name": "Bob's Burgles",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRefresh Bob's Tavern with\nminions from your last\nopponent's warband.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60367"
   }
 }

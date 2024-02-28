@@ -7,7 +7,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "77484": {
     "attack": 4,
@@ -26,7 +27,8 @@
     "techLevel": 3,
     "text": "[x]At the start of your turn,\nget a 'Recruitment Map.'\nYour Maps cost (1).",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "60213"
   },
   "77510": {
     "attack": 3,
@@ -45,7 +47,8 @@
     "techLevel": 3,
     "text": "[x]Whenever your hero takes\ndamage, this minion\ngains +3/+3 instead.\n<i>(2 left this turn.)</i>",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "58044"
   },
   "77511": {
     "attack": 5,
@@ -67,7 +70,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       58596
-    ]
+    ],
+    "heroDbfId": "63602"
   },
   "77540": {
     "attack": 8,
@@ -144,7 +148,8 @@
     "techLevel": 3,
     "text": "[x]Whenever you play a minion\nof a type you don't control,\ntrigger your Hero Power.\n<i>(2 left this turn.)</i>",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "57924"
   },
   "77732": {
     "attack": 10,
@@ -181,7 +186,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "At the start of your turn,\nadd your last opponent's Buddy to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60367"
   },
   "77836": {
     "attack": 10,
@@ -218,7 +224,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of your turn,\nthe minion to the left\nof this copies this\nminion's Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "71463"
   },
   "77850": {
     "attack": 12,
@@ -255,7 +262,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After a friendly minion dies, gain its Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "74646"
   },
   "77879": {
     "attack": 0,
@@ -294,7 +302,8 @@
     "techLevel": 3,
     "text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon\nthose Elements.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "79719"
   },
   "77883": {
     "attack": 6,
@@ -323,6 +332,7 @@
     "name": "Fragrant Phylactery",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to four friendly minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74646"
   }
 }

@@ -30,7 +30,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +2 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "65660": {
     "attack": 3,
@@ -94,7 +95,8 @@
     "name": "Fragrant Phylactery",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to five friendly minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74646"
   },
   "80741": {
     "attack": 5,
@@ -385,7 +387,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       82117
-    ]
+    ],
+    "heroDbfId": "82110"
   },
   "82117": {
     "artist": "Mauricio Herrera",
@@ -449,7 +452,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       86227
-    ]
+    ],
+    "heroDbfId": "86013"
   },
   "90531": {
     "attack": 10,

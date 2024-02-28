@@ -14,7 +14,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "60370"
   },
   "63622": {
     "attack": 4,
@@ -221,7 +222,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       72671
-    ]
+    ],
+    "heroDbfId": "71908"
   },
   "72042": {
     "attack": 3,
@@ -1271,7 +1273,8 @@
     "name": "Conviction (Rank 1)",
     "set": "BATTLEGROUNDS",
     "text": "Give a random friendly minion +1/+1. <i>(Upgrades at Tavern Tier 3.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "73940"
   },
   "73943": {
     "cardClass": "PALADIN",

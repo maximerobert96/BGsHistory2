@@ -172,7 +172,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal a card from the\n Tavern. Take damage\nequal to its Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60372": {
     "armor": 16,
@@ -1724,7 +1725,8 @@
     "name": "Reliquary Research",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third Tavern spell\nyou buy costs (1) less.\n<i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "105431"
   },
   "105518": {
     "attack": 10,

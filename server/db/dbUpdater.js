@@ -303,10 +303,60 @@ function updateDbfId(oldDbfId, newDbfId) {
     // some other duplicates like Brann, Cave Hydra
 }
 
-function addHeroDbfIdToHPs(){
-    // TODO
+function addHeroDbfIdToHPsAndBuddies(){
+    // for each card in the database, find the most recent version.
+    // if it's a hero card, add a heroDbfId field to its buddy and hero power in every version of them
+
+    let mappingJson = dbManager.getJsonMappingFile();
+    let cardsFromMapping = mappingJson.cards;
+    for(let dbfIdMapping in cardsFromMapping) {
+        let versionsOfCard = cardsFromMapping[dbfIdMapping];
+        let mostRecentVersion = versionsOfCard[versionsOfCard.length - 1];
+        let cardMostRecent = dbManager.getJsonDBOfPatch(mostRecentVersion)[dbfIdMapping];
+        
+        if(isAHero(cardMostRecent)) {
+            if(cardMostRecent.hasOwnProperty("heroPowerDbfId")){
+                let hpDbfId = cardMostRecent.heroPowerDbfId;
+                addParentHeroToAllVersions(hpDbfId, dbfIdMapping, cardsFromMapping[hpDbfId]);
+            }
+            if(cardMostRecent.hasOwnProperty("battlegroundsBuddyDbfId")){
+                let buddyDbfId = cardMostRecent.battlegroundsBuddyDbfId;
+                addParentHeroToAllVersions(buddyDbfId, dbfIdMapping, cardsFromMapping[buddyDbfId]);
+            }
+
+        }
+
+
+        
+    }
 }
 
+function addParentHeroToAllVersions(dbfId, heroDbfId, patches){
+    try {
+        for(let patch of patches) {
+            let patchJson = dbManager.getJsonDBOfPatch(patch);
+            let cardToUpdate = patchJson[dbfId];
+            if(!cardToUpdate.hasOwnProperty("heroDbfId")) {
+                cardToUpdate.heroDbfId = heroDbfId;
+                patchJson[dbfId] = cardToUpdate;
+                dbManager.saveJsonDBOfPatch(patchJson, patch);
+            }
+        }
+    } catch (error) {
+        console.error(`error. DbfId: ${dbfId}, heroDbfId: ${heroDbfId}, patches: ${patches}`);
+        console.error(error.message);
+    }
+    
+}
+
+function isAHero(card) {
+    return card.hasOwnProperty("type") && card.type === "HERO" && !card.hasOwnProperty("battlegroundsSkinParentId");
+}
+
+
+
+
+addHeroDbfIdToHPsAndBuddies();
 
 
 module.exports = { saveJsonDBOfPatch }

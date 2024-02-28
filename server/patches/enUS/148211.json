@@ -66,7 +66,8 @@
     "name": "Smart Savings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57891"
   },
   "57742": {
     "attack": 1,
@@ -138,7 +139,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nStart with 60 Health \ninstead of 40.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59397"
   },
   "59937": {
     "attack": 2,
@@ -181,7 +183,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "60621": {
     "attack": 3,
@@ -314,7 +317,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBob's Tavern always\nhas 7 minions.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61911"
   },
   "64401": {
     "cardClass": "NEUTRAL",
@@ -324,7 +328,8 @@
     "name": "Tavern Lighting",
     "set": "BATTLEGROUNDS",
     "text": "Give a minion stats equal to its Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64400"
   },
   "65662": {
     "attack": 4,
@@ -622,7 +627,8 @@
     "name": "Lead the Frostwolves",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\n<b>Avenge (3):</b> Give your minions +1 Attack permanently.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80239"
   },
   "80248": {
     "cardClass": "NEUTRAL",
@@ -636,7 +642,8 @@
     "name": "Lead the Stormpikes",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\n<b>Avenge (2):</b> Give your minions +1 Health permanently.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80247"
   },
   "80434": {
     "artist": "Akkapoj T.",
@@ -987,7 +994,8 @@
     "name": "Detective for Hire",
     "set": "BATTLEGROUNDS",
     "text": "[x]Look at 2 minions.\nGuess which one your\nnext opponent had\nlast combat for a Coin.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "84867"
   },
   "90435": {
     "cardClass": "NEUTRAL",
@@ -1536,7 +1544,8 @@
       "QUEST_POOL",
       "REWARD_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "92960"
   },
   "92966": {
     "cardClass": "NEUTRAL",

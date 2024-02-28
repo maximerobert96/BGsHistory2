@@ -102,7 +102,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       59202
-    ]
+    ],
+    "heroDbfId": "59203"
   },
   "59202": {
     "attack": 2,
@@ -230,7 +231,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After 14 friendly\nminions attack, the first\nminion you buy each\nturn is free. <i>(14 left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61910"
   },
   "62266": {
     "armor": 13,
@@ -455,7 +457,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101567
-    ]
+    ],
+    "heroDbfId": "73940"
   },
   "77987": {
     "armor": 15,
