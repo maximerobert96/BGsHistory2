@@ -46,12 +46,87 @@ function createFullCardChangesFile(){
 
 }
 
-function getCardChangesForSecondPatch(){
-    let changesSecondPatch = dbManager.getChangesOfPatch(36393);
-    console.log(changesSecondPatch);
+function getCardChangesForAPatch(){
+    let changesSecondPatch = dbManager.getChangesOfPatch(190416).cardChanges;
+    let changesJson = {};
+    for(let change of changesSecondPatch) {
+        let cardDbfId = Object.keys(change)[0];
+        let changesArray = convertToChangesArray(change);
+        
+        changesJson[cardDbfId] = changesArray;
+    }
+    dbManager.saveJsonToFile(`./optimization/temp.json`, changesJson);
+
+    // return changesJson;
 }
 
-getCardChangesForSecondPatch();
+/**
+ * Types of change that can automatically be determined: change, new, returning, removal
+ * @param {*} card 
+ * @returns 
+ */
+function convertToChangesArray(change){
+    let cardDbfId = Object.keys(change)[0];
+    let card = change[cardDbfId];
+    let changesArray = [];
+    let olderVersionExists = parseInt(card.old.version) !== parseInt(card.new.version);
+    let itIsNowAnActiveMinion = (card.changes.hasOwnProperty("isBattlegroundsPoolMinion") && card.changes.isBattlegroundsPoolMinion.new !== undefined);
+    let itIsNowAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.new !== undefined);
+    let itIsNoLongerAnActiveMinion = (card.changes.hasOwnProperty("isBattlegroundsPoolMinion") && card.changes.isBattlegroundsPoolMinion.old !== undefined);
+    let itIsNoLongerAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.old !== undefined);
+    let allChangesAreNew = true;
+    for(let field in card.changes){
+        if(card.changes[field].old !== undefined) {
+            allChangesAreNew = false;
+            break;
+        }
+    }
+
+    let allChangesAreOld = true;
+    for(let field in card.changes){
+        if(card.changes[field].new !== undefined) {
+            allChangesAreOld = false;
+            break;
+        }
+    }
+
+    // new
+    if(!olderVersionExists) {
+        let changeType = "new";
+        let newVersion = card.new.version;
+        changesArray.push({changeType, newVersion});
+    }
+
+    // returning
+    if(olderVersionExists && (itIsNowAnActiveMinion || itIsNowAnActiveHero)) {
+        let changeType = "returning";
+        let newVersion = card.new.version;
+        changesArray.push({changeType, newVersion});
+    }
+
+    // removal
+    if(itIsNoLongerAnActiveHero || itIsNoLongerAnActiveMinion) {
+        let changeType = "removal";
+        let oldVersion = card.old.version;
+        
+        changesArray.push({changeType, oldVersion});
+    }
+
+    // change
+    if((olderVersionExists && !allChangesAreNew && !allChangesAreOld) || changesArray.length === 0){
+        let changeType = "change";
+        let changes = card.changes;
+        let oldVersion = card.old.version;
+        let newVersion = card.new.version;
+        changesArray.push({changeType, changes, oldVersion, newVersion});
+    }
+
+    return changesArray;
+}
+
+getCardChangesForAPatch();
+
+
 
 // how the card changes file could look:
 // {
@@ -75,7 +150,7 @@ getCardChangesForSecondPatch();
 //     }
 // }
 
-// change types: new, returning, removal, buff, nerf, change, disable, hidden, bugfix, related
+// change types: new, returning, removal, buff, nerf, change, disable, hidden, enable, bugfix, related
 // related: if a card got changed because of a related card that got changed, could just point to that card.
 // for example, Zephrys buddy got nerfed, so Zephrys got nerfed. Mukla's hero power got nerfed, so Mukla got nerfed.
 // "103": [

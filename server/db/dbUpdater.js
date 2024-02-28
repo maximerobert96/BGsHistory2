@@ -185,9 +185,6 @@ function isActiveCard( currentCard ) {
     return currentCard["battlegroundsHero"] || currentCard["isBattlegroundsPoolMinion"];
 }
 
-function saveJsonDBOfPatch(obj, patchId) {
-    saveJsonToFile(`./patches/enUS/${patchId}.json`, obj);
-}
 
 // addingTribes();
 // removingAssociatedTribesFromSkins();
@@ -355,8 +352,3 @@ function isAHero(card) {
 
 
 
-
-addHeroDbfIdToHPsAndBuddies();
-
-
-module.exports = { saveJsonDBOfPatch }
