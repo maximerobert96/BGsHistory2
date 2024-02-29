@@ -7,7 +7,7 @@ export default function PatchInfo({ patchId }){
 
     useEffect(() => {
         async function getInfo(){
-            let response = await fetch(`http://localhost:5000/patch/${patchId}`);
+            let response = await fetch(`http://localhost:5000/patch-info/${patchId}`);
 
             if(!response.ok){
                 const message = `an error has occurred: ${response.statusText}`;
@@ -15,7 +15,7 @@ export default function PatchInfo({ patchId }){
                 return;
             }
             const patch = await response.json();
-            const info = patch.patchInfo;
+            const info = patch;
             setPatchInfo(info);
         }
         

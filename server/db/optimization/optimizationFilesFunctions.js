@@ -5,6 +5,10 @@ function getActiveCardsMappingJson(){
     return dbManager.getJsonFromFile("./optimization/active-cards.json");    
 }
 
+function getChangesMappingJson(){
+    return dbManager.getJsonFromFile("./optimization/card-changes.json");    
+}
+
 function getActiveCardsOfPatch(patchId){
     let activeCardsMappingJson = getActiveCardsMappingJson();
     let mappingActiveCardsOfPatch = activeCardsMappingJson[patchId];
@@ -22,6 +26,11 @@ function getActiveCardsOfPatch(patchId){
     return activeCards;
 }
 
+function getChangesOfPatch(patchId) {
+    let changesMappingJson = getChangesMappingJson();
+    return changesMappingJson[patchId];
+}
+
 module.exports = {
-    getActiveCardsOfPatch
+    getActiveCardsOfPatch, getChangesOfPatch
 }
