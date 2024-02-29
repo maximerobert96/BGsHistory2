@@ -43,21 +43,36 @@ function createFullActiveCardsFile(){
 
 
 function createFullCardChangesFile(){
-
+    let changesForAll = {};
+    let patchesJson = dbManager.getJsonFromFile("../patches.json");
+    for(let patchId in patchesJson){
+        try {
+            changesForAll[patchId] = getCardChangesForAPatch(patchId);
+        } catch (error) {
+            console.error(error.message);
+        }
+        
+    }
+    dbManager.saveJsonToFile(`./optimization/card-changes.json`, changesForAll);
 }
 
-function getCardChangesForAPatch(){
-    let changesSecondPatch = dbManager.getChangesOfPatch(190416).cardChanges;
+function getCardChangesForAPatch(patchId){
+    let changesSecondPatch = dbManager.getChangesOfPatch(patchId).cardChanges;
     let changesJson = {};
     for(let change of changesSecondPatch) {
-        let cardDbfId = Object.keys(change)[0];
-        let changesArray = convertToChangesArray(change);
+        try {
+            let cardDbfId = Object.keys(change)[0];
+            let changesArray = convertToChangesArray(change);
         
-        changesJson[cardDbfId] = changesArray;
+            changesJson[cardDbfId] = changesArray;
+        } catch (error) {
+            console.error(error.message);
+        }
+        
     }
-    dbManager.saveJsonToFile(`./optimization/temp.json`, changesJson);
+    
 
-    // return changesJson;
+    return changesJson;
 }
 
 /**
@@ -124,8 +139,9 @@ function convertToChangesArray(change){
     return changesArray;
 }
 
-getCardChangesForAPatch();
+// getCardChangesForAPatch();
 
+// createFullCardChangesFile();
 
 
 // how the card changes file could look:
