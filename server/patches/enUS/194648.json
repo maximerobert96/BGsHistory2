@@ -1,0 +1,972 @@
+{
+  "56298": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 56298,
+    "health": 30,
+    "id": "TB_BaconShop_HERO_PH",
+    "name": "BaconPHhero",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "57110": {
+    "artist": "Dan Scott",
+    "cardClass": "NEUTRAL",
+    "dbfId": 57110,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob",
+    "name": "Bartender Bob",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "57892": {
+    "armor": 16,
+    "artist": "Greg Staples",
+    "battlegroundsBuddyDbfId": 77821,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57892,
+    "health": 30,
+    "heroPowerDbfId": 64424,
+    "id": "TB_BaconShop_HERO_11",
+    "name": "Ragnaros the Firelord",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true,
+    "version": "191554"
+  },
+  "58044": {
+    "armor": 18,
+    "artist": "Dave Allsop",
+    "battlegroundsBuddyDbfId": 77510,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58044,
+    "health": 30,
+    "heroPowerDbfId": 60285,
+    "id": "TB_BaconShop_HERO_25",
+    "name": "Lich Baz'hial",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "191554"
+  },
+  "58534": {
+    "armor": 13,
+    "artist": "Adam Byrne",
+    "battlegroundsBuddyDbfId": 77507,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58534,
+    "health": 30,
+    "heroPowerDbfId": 58537,
+    "id": "TB_BaconShop_HERO_28",
+    "name": "Infinite Toki",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "192412",
+    "battlegroundsHero": true
+  },
+  "59194": {
+    "cardClass": "NEUTRAL",
+    "dbfId": 59194,
+    "health": 0,
+    "id": "TB_BaconShop_HERO_KelThuzad",
+    "mechanics": [
+      "CANT_BE_DESTROYED"
+    ],
+    "name": "Kel'Thuzad",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "59831": {
+    "armor": 16,
+    "artist": "Anton Zemskov",
+    "battlegroundsBuddyDbfId": 77819,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59831,
+    "health": 30,
+    "heroPowerDbfId": 59832,
+    "id": "TB_BaconShop_HERO_39",
+    "name": "Pyramad",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true,
+    "version": "182995"
+  },
+  "60040": {
+    "attack": 11,
+    "battlegroundsPremiumDbfId": 60041,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60040,
+    "elite": true,
+    "health": 22,
+    "id": "BGS_022",
+    "name": "Zapp Slywick",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "190416",
+    "isBattlegroundsPoolMinion": true
+  },
+  "60041": {
+    "attack": 22,
+    "battlegroundsNormalDbfId": 60040,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 60041,
+    "elite": true,
+    "health": 44,
+    "id": "TB_BaconUps_091",
+    "mechanics": [
+      "WINDFURY"
+    ],
+    "name": "Zapp Slywick",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
+    "type": "MINION",
+    "version": 175913
+  },
+  "60213": {
+    "armor": 15,
+    "artist": "Luke Mancini",
+    "battlegroundsBuddyDbfId": 77484,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60213,
+    "health": 30,
+    "heroPowerDbfId": 60217,
+    "id": "TB_BaconShop_HERO_42",
+    "name": "Elise Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true,
+    "version": 178555
+  },
+  "60366": {
+    "armor": 7,
+    "artist": "Jim Nelson",
+    "battlegroundsBuddyDbfId": 77803,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60366,
+    "health": 30,
+    "heroPowerDbfId": 60405,
+    "id": "TB_BaconShop_HERO_49",
+    "name": "Millhouse Manastorm",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": 178555
+  },
+  "60372": {
+    "armor": 13,
+    "artist": "Arthur Bozonnet",
+    "battlegroundsBuddyDbfId": 77786,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60372,
+    "health": 30,
+    "heroPowerDbfId": 60448,
+    "id": "TB_BaconShop_HERO_55",
+    "name": "Fungalmancer Flurgl",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "version": "191554"
+  },
+  "61488": {
+    "armor": 13,
+    "artist": "Raymond Swanland",
+    "battlegroundsBuddyDbfId": 77448,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61488,
+    "health": 30,
+    "heroPowerDbfId": 61517,
+    "id": "TB_BaconShop_HERO_56",
+    "name": "Alexstrasza",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "version": 178555
+  },
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ],
+    "version": "192412",
+    "battlegroundsHero": true
+  },
+  "63601": {
+    "armor": 15,
+    "artist": "Arthur Gimaldinov",
+    "battlegroundsBuddyDbfId": 77792,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63601,
+    "health": 30,
+    "heroPowerDbfId": 63607,
+    "id": "TB_BaconShop_HERO_71",
+    "name": "Jandice Barov",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "184727"
+  },
+  "64054": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 64055,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64054,
+    "health": 1,
+    "id": "BGS_119",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "WINDFURY"
+    ],
+    "name": "Crackling Cyclone",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Divine Shield</b>\n<b>Windfury</b>",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "version": "193541"
+  },
+  "64055": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 64054,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64055,
+    "health": 2,
+    "id": "TB_BaconUps_159",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "WINDFURY"
+    ],
+    "name": "Crackling Cyclone",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "<b>Divine Shield</b>\n<b>Windfury</b>",
+    "type": "MINION",
+    "version": 174258
+  },
+  "64189": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 64190,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64189,
+    "health": 3,
+    "id": "BGS_126",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wildfire Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "After this attacks and\nkills a minion, deal\nexcess damage to an adjacent minion.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "version": "183876"
+  },
+  "64190": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 64189,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 64190,
+    "health": 6,
+    "id": "TB_BaconUps_166",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wildfire Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "After this attacks and kills\na minion, deal excess damage to both adjacent minions.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "version": 79904,
+    "techLevel": 3
+  },
+  "66196": {
+    "armor": 16,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 77857,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 66196,
+    "health": 30,
+    "heroPowerDbfId": 66197,
+    "id": "TB_BaconShop_HERO_92",
+    "name": "Y'Shaarj",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "67553": {
+    "armor": 13,
+    "artist": "Steven Prescott",
+    "battlegroundsBuddyDbfId": 77502,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 67553,
+    "health": 30,
+    "heroPowerDbfId": 67554,
+    "id": "TB_BaconShop_HERO_95",
+    "name": "Greybough",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": 168788
+  },
+  "71458": {
+    "armor": 10,
+    "artist": "Samwise Didier",
+    "battlegroundsBuddyDbfId": 77478,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71458,
+    "health": 30,
+    "heroPowerDbfId": 71459,
+    "id": "BG20_HERO_103",
+    "name": "Death Speaker Blackthorn",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "version": "191554"
+  },
+  "71916": {
+    "armor": 13,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 77809,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71916,
+    "health": 30,
+    "heroPowerDbfId": 71914,
+    "id": "BG20_HERO_301",
+    "name": "Mutanus the Devourer",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "73940": {
+    "armor": 14,
+    "artist": "Ursula Dorada",
+    "battlegroundsBuddyDbfId": 77778,
+    "battlegroundsHero": true,
+    "cardClass": "PALADIN",
+    "dbfId": 73940,
+    "health": 30,
+    "heroPowerDbfId": 73941,
+    "id": "BG21_HERO_000",
+    "name": "Cariel Roame",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "183876"
+  },
+  "79618": {
+    "armor": 13,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ],
+    "version": "192412",
+    "battlegroundsHero": true
+  },
+  "81569": {
+    "armor": 14,
+    "artist": "Anton Zemskov",
+    "battlegroundsBuddyDbfId": 82604,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 81569,
+    "health": 30,
+    "heroPowerDbfId": 81570,
+    "id": "BG22_HERO_201",
+    "name": "Ambassador Faelin",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "191554"
+  },
+  "86291": {
+    "armor": 14,
+    "artist": "Ludo Lullabi & Konstantin Turovec",
+    "battlegroundsBuddyDbfId": 98650,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 86291,
+    "health": 30,
+    "heroPowerDbfId": 86292,
+    "id": "BG23_HERO_305",
+    "name": "Heistbaron Togwaggle",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "191554"
+  },
+  "89483": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 89483,
+    "hideCost": true,
+    "id": "BG24_Reward_113",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ritual Dagger",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +5/+5 permanently.",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "version": 148211
+  },
+  "90914": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 90914,
+    "hideCost": true,
+    "id": "BG24_Reward_128",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mirror Shield",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+6/+6 and <b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "version": "181554"
+  },
+  "96776": {
+    "artist": "Andrew Hou",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 61934,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 96776,
+    "flavor": "Return my fishes to me, and I myself shall carry you to the gates of Mrrhalla!",
+    "health": 4,
+    "id": "BG_BT_010",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Felfin Navigator",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "rarity": "COMMON",
+    "set": "BLACK_TEMPLE",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Murlocs +1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "version": "191554",
+    "isBattlegroundsPoolMinion": true
+  },
+  "98930": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 98934,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 98930,
+    "health": 5,
+    "id": "BG26_159",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Moon-Bacon Jazzer",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ],
+    "version": "193128"
+  },
+  "98934": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 98930,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 98934,
+    "health": 10,
+    "id": "BG26_159_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Moon-Bacon Jazzer",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+2 Health this game.",
+    "type": "MINION",
+    "relatedCards": [
+      70136
+    ],
+    "version": "193128"
+  },
+  "99033": {
+    "armor": 12,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 99033,
+    "health": 30,
+    "heroPowerDbfId": 99034,
+    "id": "BG26_HERO_104",
+    "name": "Rock Master Voone",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "100104": {
+    "attack": 10,
+    "battlegroundsPremiumDbfId": 100105,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 100104,
+    "health": 20,
+    "id": "BG26_921",
+    "mechanics": [
+      "WINDFURY"
+    ],
+    "name": "Worgen Vigilante",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Windfury</b>\nThis minion always attacks\nan enemy minion that it\ncan kill <i>(if possible).</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "190416"
+  },
+  "101345": {
+    "armor": 8,
+    "artist": "Edgar Hidalgo",
+    "battlegroundsBuddyDbfId": 101349,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 101345,
+    "flavor": "I Am Murloc... but they're not in this lobby.",
+    "health": 30,
+    "heroPowerDbfId": 101346,
+    "id": "BG25_HERO_105",
+    "name": "E.T.C., Band Manager",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": 180614
+  },
+  "103500": {
+    "armor": 11,
+    "artist": "Rafael Zanchetin",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 103500,
+    "health": 30,
+    "heroPowerDbfId": 103501,
+    "id": "BG26_HERO_102",
+    "name": "Inge, the Iron Hymn",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "rarity": "FREE",
+    "version": "184727"
+  },
+  "103692": {
+    "artist": "Konstantin Porubov",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 103693,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103692,
+    "health": 4,
+    "id": "BG27_013",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Transmuted Bramblewitch",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]When this attacks, set\nthe defender's stats to\n  3/3. <i>(Once per combat.)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "QUILBOAR"
+    ],
+    "version": "193541",
+    "isBattlegroundsPoolMinion": true
+  },
+  "104532": {
+    "artist": "A. J. Nazzaro",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 104533,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 104532,
+    "flavor": "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
+    "health": 5,
+    "id": "BG28_556",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Land Lubber",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "The Tavern offers an extra Tavern spell after each <b>Refresh</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL",
+      "PIRATE"
+    ],
+    "version": "193128"
+  },
+  "104533": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 104532,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 104533,
+    "health": 10,
+    "id": "BG28_556_G",
+    "name": "Land Lubber",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "The Tavern offers 2 extra Tavern spells after each <b>Refresh</b>.",
+    "type": "MINION",
+    "version": "193128"
+  },
+  "104700": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104700,
+    "hideCost": true,
+    "id": "BG27_Reward_809",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Divine Armor",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "[x]At the end of your turn,\ngive the left-most minion\nin your hand +8/+8 and\n<b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "version": 179020
+  },
+  "105431": {
+    "armor": 16,
+    "artist": "Forrest Imel",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 105431,
+    "health": 30,
+    "heroPowerDbfId": 105432,
+    "id": "BG28_HERO_800",
+    "name": "Tae'thelan Bloodwatcher",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "190416"
+  },
+  "106506": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 106511,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 106506,
+    "health": 5,
+    "id": "BG27_082",
+    "name": "Heedless Hoarder",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "When you sell this,\ngive a friendly Murloc\nthis minion's stats.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "version": "191554"
+  },
+  "110400": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 110400,
+    "id": "BG28_601",
+    "name": "Cloning Conch",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Get a copy of a non-Golden Murloc in your hand.",
+    "type": "BATTLEGROUND_SPELL",
+    "version": "193541"
+  },
+  "110406": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 110406,
+    "id": "BG28_606",
+    "name": "Spitescale Special",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 4,
+    "text": "Get 3 random <b>Spellcraft</b> spells.",
+    "type": "BATTLEGROUND_SPELL",
+    "version": "193541"
+  },
+  "110411": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 110411,
+    "id": "BG28_605",
+    "name": "Suspicious Stimulant",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 3,
+    "text": "Choose a minion in the Tavern. Lock it in your hand for 1 turn and double its stats.",
+    "type": "BATTLEGROUND_SPELL",
+    "version": "193541",
+    "targetingArrowText": "Lock it in your hand for 1 turn and double its stats."
+  },
+  "110471": {
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 110471,
+    "id": "BG28_609",
+    "name": "Plunder Seeker",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 4,
+    "text": "Steal a random card from the Tavern. Repeat for each friendly Pirate.",
+    "type": "BATTLEGROUND_SPELL",
+    "version": "193541"
+  },
+  "110631": {
+    "artist": "Chris Seaman",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 110631,
+    "id": "BG28_612",
+    "name": "Fluidity",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
+    "type": "BATTLEGROUND_SPELL",
+    "version": "193541"
+  },
+  "110664": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 110665,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 110664,
+    "health": 8,
+    "id": "BG28_633",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Felboar",
+    "race": "QUILBOAR",
+    "races": [
+      "DEMON",
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain its stats.\n<i>(2 left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON",
+      "QUILBOAR"
+    ],
+    "version": "193541"
+  },
+  "110665": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 110664,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 110665,
+    "health": 16,
+    "id": "BG28_633_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Felboar",
+    "race": "QUILBOAR",
+    "races": [
+      "DEMON",
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(2 left!)</i>",
+    "type": "MINION",
+    "version": "193541"
+  }
+}
