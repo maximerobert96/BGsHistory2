@@ -59,26 +59,26 @@ function CardChanges({ changes }){
             changeOfCard.dbfId = dbfId;
             switch (changeOfCard.changeType) {
                 case "new":
-                    newCardsItems.push(<CardChange change={changeOfCard} />);
+                    newCardsItems.push(<CardChange key={dbfId} change={changeOfCard} />);
                     break;
                 case "returning":
-                    returningCardsItems.push(<CardChange change={changeOfCard} />);
+                    returningCardsItems.push(<CardChange key={dbfId} change={changeOfCard} />);
                     // returningCardsList.push(changeOfCard);
                     break;
                 case "removal":
-                    removedCardsItems.push(<CardChange change={changeOfCard} />);
+                    removedCardsItems.push(<CardChange key={dbfId} change={changeOfCard} />);
                     // removedCardsList.push(changeOfCard);
                     break;
                 case "change":
-                    changesItems.push(<CardChange change={changeOfCard} />);
+                    changesItems.push(<CardChange key={dbfId} change={changeOfCard} />);
                     // changesList.push(changeOfCard);
                     break;
                 case "nerf":
-                    nerfsItems.push(<CardChange change={changeOfCard} />);
+                    nerfsItems.push(<CardChange key={dbfId} change={changeOfCard} />);
                     // nerfsList.push(changeOfCard);
                     break;
                 case "buff":
-                    buffsItems.push(<CardChange change={changeOfCard} />);
+                    buffsItems.push(<CardChange key={dbfId} change={changeOfCard} />);
                     // buffsList.push(changeOfCard);
                     break;
                 default:

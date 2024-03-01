@@ -40,7 +40,8 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
 
                 newVersionsInPatch[id] = addCustomFields(currentPatch[id], currentPatch);
                 let isGolden = currentVersion.hasOwnProperty("battlegroundsNormalDbfId");
-                downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden);
+                let jsonId = currentVersion.id;
+                downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden, jsonId);
                 // TODO also download images if the card was changed
             }
 
@@ -48,7 +49,8 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
             // temporary, usually it should be outside the else, and I should download the pictures for the latest patch
             let currentVersion = currentPatch[id];
             let isGolden = currentVersion.hasOwnProperty("battlegroundsNormalDbfId");
-            downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden);
+            let jsonId = currentVersion.id;
+            downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden, jsonId);
             
 
             mapping.cards[id] = [ currentPatchId ];
