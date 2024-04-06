@@ -36,6 +36,70 @@ function drawTextWithScaling(ctx, text, x, y, maxWidth, fontSize, fontName) {
     ctx.fillText(text, x, y);
 }
 
+function drawRaces(ctx, races, x, y){
+    ctx.fillStyle = 'black';
+    ctx.textAlign = 'center';
+    ctx.font = '20px Sans';
+
+    if(races.length === 1){
+        ctx.fillText(races[0], x, y);
+
+    } else if (races.length === 2) {
+        const lineHeight = 10;
+        const centerY = y - lineHeight / 2;
+        ctx.fillText(races[0], x, centerY - lineHeight);
+        ctx.fillText(races[1], x, centerY + lineHeight);
+    }
+    
+
+    
+}
+
+// Function to wrap text
+function wrapText(ctx, text, maxWidth) {
+    const words = text.split(' ');
+    let line = '';
+    let lines = [];
+
+    words.forEach(word => {
+        const testLine = line + word + ' ';
+        const metrics = ctx.measureText(testLine);
+        const testWidth = metrics.width;
+        if (testWidth > maxWidth) {
+            lines.push(line);
+            line = word + ' ';
+        } else {
+            line = testLine;
+        }
+    });
+
+    lines.push(line);
+    console.log("lines:", lines)
+    return lines;
+}
+
+function drawCardText(ctx, text, x, y){
+    ctx.fillStyle = 'black';
+    ctx.font = '20px Sans';
+    ctx.textAlign = 'center';
+
+    const maxWidth = 300; // Maximum width for text on the card
+    const lines = wrapText(ctx, text, maxWidth);
+
+    const lineHeight = 25;
+
+    // Calculate total height occupied by text
+    const totalHeight = lines.length * lineHeight;
+
+    // Calculate starting Y position for vertically centering
+    const startY = y - totalHeight / 2;
+
+    // Draw lines
+    lines.forEach((line, index) => {
+        ctx.fillText(line, x, startY + index * lineHeight);
+    });
+}
+
 async function generateHearthstoneCard(cardData) {
     const canvas = createCanvas(400, 560);
     const ctx = canvas.getContext('2d');
@@ -61,36 +125,41 @@ async function generateHearthstoneCard(cardData) {
 
 
     // Draw card text
-    ctx.fillStyle = 'black';
-    ctx.font = '20px Sans';
-    ctx.textAlign = 'center';
+    drawCardText(ctx, cardData.text, canvas.width / 2, 430);
 
-    const maxWidth = 300; // Maximum width for text on the card
-    let words = cardData.text.split(' ');
-    let line = '';
-    let lines = [];
+    // ctx.fillStyle = 'black';
+    // ctx.font = '20px Sans';
+    // ctx.textAlign = 'center';
 
-    words.forEach(word => {
-        let testLine = line + word + ' ';
-        let metrics = ctx.measureText(testLine);
-        let testWidth = metrics.width;
-        if (testWidth > maxWidth) {
-            lines.push(line);
-            line = word + ' ';
-        } else {
-            line = testLine;
-        }
-    });
-    lines.push(line);
+    // const maxWidth = 300; // Maximum width for text on the card
+    // let words = cardData.text.split(' ');
+    // let line = '';
+    // let lines = [];
 
-    // Draw lines
-    const lineHeight = 25;
-    const startY = 375;
-    lines.forEach((line, index) => {
-        ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
-    });
+    // words.forEach(word => {
+    //     let testLine = line + word + ' ';
+    //     let metrics = ctx.measureText(testLine);
+    //     let testWidth = metrics.width;
+    //     if (testWidth > maxWidth) {
+    //         lines.push(line);
+    //         line = word + ' ';
+    //     } else {
+    //         line = testLine;
+    //     }
+    // });
+    // lines.push(line);
 
-    
+    // // Draw lines
+    // const lineHeight = 25;
+    // const startY = 375;
+    // lines.forEach((line, index) => {
+    //     ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
+    // });
+
+    // Draw races
+    if (cardData.races && cardData.races.length > 0) {
+        drawRaces(ctx, cardData.races, canvas.width / 2, 520);
+    }
     
     // Save the image to a file
     const buffer = canvas.toBuffer('image/png');
@@ -99,12 +168,12 @@ async function generateHearthstoneCard(cardData) {
 
 // Example card data
 const cardData = {
-    name: 'Slitherspear, Lord of Gains',
-    tier: 6,
-    text: "At the end of your turn, give your other Naga +1/+1 for each different spell you've cast this turn.",
-    attack: 5,
-    health: 5,
-    races: ["naga"]
+    name: 'Cogwork Copter',
+    tier: 2,
+    text: "Divine Shield",
+    attack: 1,
+    health: 1,
+    races: ["Mech"]
 };
 
 generateHearthstoneCard(cardData);
