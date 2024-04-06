@@ -19,6 +19,23 @@ function drawNumber(ctx, number, x, y){
 
 }
 
+function drawName(ctx, name, x, y) {
+    ctx.fillStyle = 'black';
+    ctx.textAlign = 'center';
+    let fontSize = 30;
+    let maxWidth = 300; // Maximum width for card name
+    let fontName = "Sans";
+    drawTextWithScaling(ctx, name, x, y, maxWidth, fontSize, fontName);
+}
+
+function drawTextWithScaling(ctx, text, x, y, maxWidth, fontSize, fontName) {
+    while (ctx.measureText(text).width > maxWidth && fontSize > 10) {
+        fontSize--;
+        ctx.font = `${fontSize}px ${fontName}`;
+    }
+    ctx.fillText(text, x, y);
+}
+
 async function generateHearthstoneCard(cardData) {
     const canvas = createCanvas(400, 560);
     const ctx = canvas.getContext('2d');
@@ -32,28 +49,21 @@ async function generateHearthstoneCard(cardData) {
 
     // attack
     drawNumber(ctx, cardData.attack, 58, 520);
-    // ctx.fillStyle = 'black';
-    // ctx.font = '24px Sans';
-    // ctx.fillText(`${cardData.attack}`, 55, 520);
+
 
     // health
     drawNumber(ctx, cardData.health, 358, 520);
-    // ctx.fillStyle = 'black';
-    // ctx.font = '24px Sans';
-    // ctx.fillText(`${cardData.health}`, 355, 520);
+
 
 
     // Draw card name
-    ctx.fillStyle = 'black';
-    ctx.font = '30px Sans';
-    ctx.textAlign = 'center';
-    ctx.fillText(cardData.name, canvas.width / 2, 320);
+    drawName(ctx, cardData.name, canvas.width / 2, 320);
+
 
     // Draw card text
     ctx.fillStyle = 'black';
     ctx.font = '20px Sans';
     ctx.textAlign = 'center';
-    
 
     const maxWidth = 300; // Maximum width for text on the card
     let words = cardData.text.split(' ');
@@ -89,12 +99,12 @@ async function generateHearthstoneCard(cardData) {
 
 // Example card data
 const cardData = {
-    name: 'Mantid Queen',
+    name: 'Slitherspear, Lord of Gains',
     tier: 6,
-    text: 'Venomous. Start of Combat: For each of your minion types gain +5/+5, Windfury, Reborn, or Taunt.',
+    text: "At the end of your turn, give your other Naga +1/+1 for each different spell you've cast this turn.",
     attack: 5,
     health: 5,
-    races: ["murloc", "quilboar"]
+    races: ["naga"]
 };
 
 generateHearthstoneCard(cardData);
