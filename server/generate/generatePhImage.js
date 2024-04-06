@@ -4,6 +4,21 @@ const fs = require('fs');
 // Load a custom font
 // registerFont('path/to/your/font.ttf', { family: 'YourFontName' });
 
+function drawNumber(ctx, number, x, y){
+    ctx.strokeStyle = 'black'; // Set outline color
+    ctx.lineWidth = 5; // Set outline thickness
+    ctx.fillStyle = 'white'; // Set fill color
+    ctx.font = '35px Sans';
+    ctx.textAlign = 'center';
+
+    // Draw black outline
+    ctx.strokeText(number, x, y);
+
+    // Draw white fill
+    ctx.fillText(number, x, y);
+
+}
+
 async function generateHearthstoneCard(cardData) {
     const canvas = createCanvas(400, 560);
     const ctx = canvas.getContext('2d');
@@ -12,10 +27,21 @@ async function generateHearthstoneCard(cardData) {
     const template = await loadImage("./generate/placeholder minion.png");
     ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
 
-    // Draw tavern tier
-    ctx.fillStyle = 'black';
-    ctx.font = '24px Sans';
-    ctx.fillText(`${cardData.tier}`, 60, 75);
+    // tier
+    drawNumber(ctx, cardData.tier, 65, 75);
+
+    // attack
+    drawNumber(ctx, cardData.attack, 58, 520);
+    // ctx.fillStyle = 'black';
+    // ctx.font = '24px Sans';
+    // ctx.fillText(`${cardData.attack}`, 55, 520);
+
+    // health
+    drawNumber(ctx, cardData.health, 358, 520);
+    // ctx.fillStyle = 'black';
+    // ctx.font = '24px Sans';
+    // ctx.fillText(`${cardData.health}`, 355, 520);
+
 
     // Draw card name
     ctx.fillStyle = 'black';
@@ -27,10 +53,7 @@ async function generateHearthstoneCard(cardData) {
     ctx.fillStyle = 'black';
     ctx.font = '20px Sans';
     ctx.textAlign = 'center';
-    // const lines = cardData.text.match(/.{1,28}/g); // Split text into lines
-    // lines.forEach((line, index) => {
-    //     ctx.fillText(line, canvas.width / 2, 370 + index * 25);
-    // });
+    
 
     const maxWidth = 300; // Maximum width for text on the card
     let words = cardData.text.split(' ');
@@ -57,15 +80,7 @@ async function generateHearthstoneCard(cardData) {
         ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
     });
 
-    // Draw attack
-    ctx.fillStyle = 'black';
-    ctx.font = '24px Sans';
-    ctx.fillText(`${cardData.attack}`, 55, 520);
-
-    // Draw health
-    ctx.fillStyle = 'black';
-    ctx.font = '24px Sans';
-    ctx.fillText(`${cardData.health}`, 355, 520);
+    
     
     // Save the image to a file
     const buffer = canvas.toBuffer('image/png');
@@ -74,11 +89,11 @@ async function generateHearthstoneCard(cardData) {
 
 // Example card data
 const cardData = {
-    name: 'Placeholder Card',
-    tier: 5,
-    text: 'This is a placeholder card for Hearthstone. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    attack: 1,
-    health: 6,
+    name: 'Mantid Queen',
+    tier: 6,
+    text: 'Venomous. Start of Combat: For each of your minion types gain +5/+5, Windfury, Reborn, or Taunt.',
+    attack: 5,
+    health: 5,
     races: ["murloc", "quilboar"]
 };
 
