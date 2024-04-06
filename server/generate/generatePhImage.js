@@ -19,12 +19,16 @@ function drawNumber(ctx, number, x, y){
 
 }
 
-function drawName(ctx, name, x, y) {
+function drawName(ctx, name, x, y, fontSize, fontName, maxWidth) {
+    if(fontSize === undefined)
+        fontSize = 30;
+    if(fontName === undefined)
+        fontName = "Sans";
+    if(maxWidth === undefined)
+        maxWidth = 300;
+    // console.log(fontSize, fontName, maxWidth);
     ctx.fillStyle = 'black';
     ctx.textAlign = 'center';
-    let fontSize = 30;
-    let maxWidth = 300; // Maximum width for card name
-    let fontName = "Sans";
     drawTextWithScaling(ctx, name, x, y, maxWidth, fontSize, fontName);
 }
 
@@ -74,16 +78,18 @@ function wrapText(ctx, text, maxWidth) {
     });
 
     lines.push(line);
-    console.log("lines:", lines)
     return lines;
 }
 
-function drawCardText(ctx, text, x, y){
+function drawCardText(ctx, text, x, y, maxWidth){
+    if(maxWidth === undefined)
+        maxWidth = 300;
+    
     ctx.fillStyle = 'black';
     ctx.font = '20px Sans';
     ctx.textAlign = 'center';
 
-    const maxWidth = 300; // Maximum width for text on the card
+    // const maxWidth = 300; // Maximum width for text on the card
     const lines = wrapText(ctx, text, maxWidth);
 
     const lineHeight = 25;
@@ -100,7 +106,7 @@ function drawCardText(ctx, text, x, y){
     });
 }
 
-async function generateHearthstoneCard(cardData) {
+async function generateBGsMinion(cardData) {
     const canvas = createCanvas(400, 560);
     const ctx = canvas.getContext('2d');
 
@@ -121,40 +127,12 @@ async function generateHearthstoneCard(cardData) {
 
 
     // Draw card name
+    ctx.font = "30px Sans";
     drawName(ctx, cardData.name, canvas.width / 2, 320);
 
 
     // Draw card text
     drawCardText(ctx, cardData.text, canvas.width / 2, 430);
-
-    // ctx.fillStyle = 'black';
-    // ctx.font = '20px Sans';
-    // ctx.textAlign = 'center';
-
-    // const maxWidth = 300; // Maximum width for text on the card
-    // let words = cardData.text.split(' ');
-    // let line = '';
-    // let lines = [];
-
-    // words.forEach(word => {
-    //     let testLine = line + word + ' ';
-    //     let metrics = ctx.measureText(testLine);
-    //     let testWidth = metrics.width;
-    //     if (testWidth > maxWidth) {
-    //         lines.push(line);
-    //         line = word + ' ';
-    //     } else {
-    //         line = testLine;
-    //     }
-    // });
-    // lines.push(line);
-
-    // // Draw lines
-    // const lineHeight = 25;
-    // const startY = 375;
-    // lines.forEach((line, index) => {
-    //     ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
-    // });
 
     // Draw races
     if (cardData.races && cardData.races.length > 0) {
@@ -166,8 +144,31 @@ async function generateHearthstoneCard(cardData) {
     fs.writeFileSync('placeholder_card.png', buffer);
 }
 
+
+async function generateBGsHP(cardData) {
+    const canvas = createCanvas(339, 506);
+    const ctx = canvas.getContext('2d');
+
+    const template = await loadImage("./generate/placeholder hero power.png");
+    ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
+
+    
+
+    drawNumber(ctx, cardData.cost, canvas.width / 2, 60);
+
+    ctx.font = '30px Sans';
+    drawName(ctx, cardData.name, canvas.width / 2, 260, 30, "Sans", 250);
+
+    ctx.font = '20px Sans';
+    drawCardText(ctx, cardData.text, canvas.width / 2, 390, 230);
+
+    const buffer = canvas.toBuffer('image/png');
+    fs.writeFileSync('placeholder_hp.png', buffer);
+}
+
+
 // Example card data
-const cardData = {
+const minionData = {
     name: 'Cogwork Copter',
     tier: 2,
     text: "Divine Shield",
@@ -176,6 +177,16 @@ const cardData = {
     races: ["Mech"]
 };
 
-generateHearthstoneCard(cardData);
+const hpData = {
+    name: 'Adventure!',
+    cost: 0,
+    hideCost: true,
+    text: "Passive At the start of the game, Discover a Hero Power.",
+};
+
+// generateBGsMinion(minionData);
+generateBGsHP(hpData);
+
+
 
 
