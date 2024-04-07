@@ -177,6 +177,55 @@ async function generateBGsHP(cardData) {
     fs.writeFileSync('placeholder_hp.png', buffer);
 }
 
+async function generateBGsSpell(cardData) {
+    const canvas = createCanvas(400, 560);
+    const ctx = canvas.getContext('2d');
+
+    // load template
+    const template = await loadImage("./generate/placeholder regular spell.png");
+    ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
+
+    // Draw card name
+    ctx.font = "30px Sans";
+    drawName(ctx, cardData.name, canvas.width / 2, 320);
+
+
+    // Draw card text
+    drawCardText(ctx, cardData.text, canvas.width / 2, 430);
+
+    
+    // Save the image to a file
+    const buffer = canvas.toBuffer('image/png');
+    fs.writeFileSync('placeholder_spell.png', buffer);
+}
+
+async function generateBGsTavernSpell(cardData) {
+    const canvas = createCanvas(400, 560);
+    const ctx = canvas.getContext('2d');
+
+    // load template
+    const template = await loadImage("./generate/placeholder tavern spell.png");
+    ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
+
+    // tier
+    drawNumber(ctx, cardData.tier, 65, 75);
+
+    // cost
+    drawNumber(ctx, cardData.cost, 58, 195);
+
+
+    // Draw card name
+    ctx.font = "30px Sans";
+    drawName(ctx, cardData.name, canvas.width / 2, 320);
+
+
+    // Draw card text
+    drawCardText(ctx, cardData.text, canvas.width / 2, 430);
+    
+    // Save the image to a file
+    const buffer = canvas.toBuffer('image/png');
+    fs.writeFileSync('placeholder_t_spell.png', buffer);
+}
 
 // Example card data
 const minionData = {
@@ -195,8 +244,22 @@ const hpData = {
     text: "Passive\nAt the start of the game, Discover a Hero Power.",
 };
 
+const spellData = {
+    name: 'Slimy Shield',
+    text: "Give a minion +1/+1 and Taunt."
+};
+
+const tavernSpellData = {
+    name: 'Butchering',
+    tier: 4,
+    cost: 2,
+    text: "Destroy a friendly Undead. Your Undead have extra Attack equal to its Tier this game."
+};
+
 // generateBGsMinion(minionData);
-generateBGsHP(hpData);
+// generateBGsHP(hpData);
+// generateBGsSpell(spellData);
+// generateBGsTavernSpell(tavernSpellData);
 
 
 
