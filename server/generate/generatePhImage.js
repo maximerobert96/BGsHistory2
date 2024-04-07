@@ -61,23 +61,34 @@ function drawRaces(ctx, races, x, y){
 
 // Function to wrap text
 function wrapText(ctx, text, maxWidth) {
-    const words = text.split(' ');
-    let line = '';
     let lines = [];
+    let currentLine = '';
 
-    words.forEach(word => {
-        const testLine = line + word + ' ';
-        const metrics = ctx.measureText(testLine);
-        const testWidth = metrics.width;
-        if (testWidth > maxWidth) {
-            lines.push(line);
-            line = word + ' ';
-        } else {
-            line = testLine;
-        }
+    // Split text into lines by newline characters
+    const textLines = text.split('\n');
+    textLines.forEach((line, lineIndex) => {
+        const words = line.split(/\s+/); // Split words within each line
+        words.forEach((word, wordIndex) => {
+            const testLine = currentLine + word + ' ';
+            const metrics = ctx.measureText(testLine.trim());
+            const testWidth = metrics.width;
+            if (testWidth > maxWidth && currentLine !== '') {
+                // Push the current line to the lines array
+                lines.push(currentLine.trim());
+                currentLine = word + ' '; // Start a new line with the current word
+            } else {
+                currentLine = testLine; // Continue building the current line
+            }
+
+            // If it's the last word of a line or the last line
+            if (wordIndex === words.length - 1 && (lineIndex !== textLines.length - 1 || line.trim() !== '')) {
+                // Push the current line to the lines array
+                lines.push(currentLine.trim());
+                currentLine = ''; // Start a new line
+            }
+        });
     });
 
-    lines.push(line);
     return lines;
 }
 
@@ -181,7 +192,7 @@ const hpData = {
     name: 'Adventure!',
     cost: 0,
     hideCost: true,
-    text: "Passive At the start of the game, Discover a Hero Power.",
+    text: "Passive\nAt the start of the game, Discover a Hero Power.",
 };
 
 // generateBGsMinion(minionData);
