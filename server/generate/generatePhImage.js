@@ -117,12 +117,14 @@ function drawCardText(ctx, text, x, y, maxWidth){
     });
 }
 
-async function generateBGsMinion(cardData) {
+async function generateBGsMinion(cardData, isGolden) {
     const canvas = createCanvas(400, 560);
     const ctx = canvas.getContext('2d');
 
+    let templatePath = isGolden ? "./generate/placeholder golden minion.png" : "./generate/placeholder minion.png";
+
     // load template
-    const template = await loadImage("./generate/placeholder minion.png");
+    const template = await loadImage(templatePath);
     ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
 
     // tier
@@ -229,12 +231,12 @@ async function generateBGsTavernSpell(cardData) {
 
 // Example card data
 const minionData = {
-    name: 'Cogwork Copter',
-    tier: 2,
-    text: "Divine Shield",
-    attack: 1,
-    health: 1,
-    races: ["Mech"]
+    name: 'Felboar',
+    tier: 5,
+    text: "After you cast 2 spells, consume a minion in the Tavern to gain its stats.\n(2 left!)",
+    attack: 2,
+    health: 6,
+    races: ["Demon", "Quilboar"]
 };
 
 const hpData = {
