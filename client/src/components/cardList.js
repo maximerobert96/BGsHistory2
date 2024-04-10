@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 import PatchInfo from "./PatchInfo";
+import CardImage from "./cardImage";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
@@ -276,9 +277,24 @@ function HoverImage({card}) {
           <div className="hover-image-container"
             style={{ top: hoverPosition.y, left: hoverPosition.x }}
           >
-            <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt="Hover" className="hover-image" />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt="Hover" className="hover-image" /> */}
+            <CardImage card={card} />
           </div>
         )}
       </div>
     );
   }
+
+// function getCardImageSrc(card) {
+//     const cardImagePath = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+//     const placeholderImagePath = `/placeholders/en_US/${card.version}/${card.dbfId}.png`;
+
+//     if(existsSync(cardImagePath)) {
+//         return cardImagePath;
+//     } else if (existsSync(placeholderImagePath)) {
+//         return placeholderImagePath;
+//     } else {
+//         // TODO generate placeholder image
+//         return placeholderImagePath;
+//     }
+// }

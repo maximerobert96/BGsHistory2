@@ -7,7 +7,6 @@ import DisplayCardInfo from './components/cardInfo';
 import Practice from './components/practice';
 import PatchChanges from './components/PatchChanges';
 import CardPool from './components/cardPoolPage';
-import MainPage2 from './components/cardList2';
 import PatchChanges2 from './components/PatchChanges2';
 
 function App() {
@@ -22,9 +21,6 @@ function App() {
         <Route path="/patch-changes/:patchId" element={<PatchChanges />} />
         <Route path="/patch-changes2/:patchId" element={<PatchChanges2 />} />
         <Route path="/:patchId/card-pool/:poolId" element={<CardPool />} />
-        <Route path="/:patchId/cards2/" element={<MainPage2  />}>
-          <Route path="/:patchId/cards2/:id" element={<DisplayCardInfo />} />
-        </Route>
       </Routes>
     </div>
   );
