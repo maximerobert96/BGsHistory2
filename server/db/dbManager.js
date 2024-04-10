@@ -338,5 +338,5 @@ function generatePlaceholder(dbfId, version, locale){
 }
 
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch, generatePlaceholder
 }

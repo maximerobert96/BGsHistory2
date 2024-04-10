@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import parse from 'html-react-parser';
 import { Link } from "react-router-dom";
+import CardImage from "./cardImage";
 
 export default function DisplayCardInfo() {
     const [card, setCard] = useState();
@@ -98,7 +99,8 @@ function MinionInfo({ card, patch }) {
     return (
     <div className="grid-container">
         <div className="card-info-image">
-            <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
         </div>
         <div className="card-info-text">
             <h2>{golden}{card.name}</h2>
@@ -118,7 +120,8 @@ function HeroInfo({ card, patch }) {
         <div className="grid-container">
             <div className="card-info-image">
                 <h2>{card.name}</h2>
-                <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+                <CardImage card={card} />
+                {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
             </div>
             <div className="card-info-text">
                 
@@ -135,7 +138,8 @@ function HeroPowerInfo({card, patch}) {
     return (<>
                 <h3>{card.name}</h3>
                 <div className="card-info-image">
-                    <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" />
+                    <CardImage card={card} />
+                    {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
                 </div>
                 
                 <p>

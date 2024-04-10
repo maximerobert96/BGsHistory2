@@ -3,16 +3,40 @@ import React, { useState, useEffect } from 'react';
 const CardImage = ({ card }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
-  const generatePlaceholderImage = (card) => {
+  const generatePlaceholderImage = async (card) => {
     console.log("Generating new placeholder.");
 
+    let infoForBody = { version: card.version, dbfId: card.dbfId };
+
+    try {
+      const response = await fetch('http://localhost:5000/generate-placeholder', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(infoForBody)
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to generate placeholder image');
+      }
+  
+      // Handle response data if necessary
+      const data = await response.json();
+      console.log('Placeholder image generated:', data);
+
+      setImageSrc(`/placeholder/enUS/${card.version}/${card.dbfId}.png`);
+    } catch (error) {
+      console.error('Error generating placeholder image:', error);
+    }
+
     // const placeholderImageSrc = path;
-    // setImageSrc(path);
+    
   };
 
   useEffect(() => {
     const cardSrc = `/cards/en_US/${card.version}/${card.dbfId}.png`;
-    const placeholderSrc = `/placeholder/en_US/${card.version}/${card.dbfId}.png`;
+    const placeholderSrc = `/placeholder/enUS/${card.version}/${card.dbfId}.png`;
     fetch(cardSrc)
         .then(response => {
             if(response.ok && response.headers.get('Content-Type').startsWith('image/')) {
@@ -39,7 +63,7 @@ const CardImage = ({ card }) => {
     <img
       src={imageSrc}
       onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
-      alt="Hover"
+      alt={card.name}
       className="hover-image"
     />
   );
