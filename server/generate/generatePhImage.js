@@ -128,7 +128,7 @@ async function generateBGsMinion(cardData, isGolden) {
     ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
 
     // tier
-    drawNumber(ctx, cardData.tier, 65, 75);
+    drawNumber(ctx, cardData.techLevel, 65, 75);
 
     // attack
     drawNumber(ctx, cardData.attack, 58, 520);
@@ -154,7 +154,8 @@ async function generateBGsMinion(cardData, isGolden) {
     
     // Save the image to a file
     const buffer = canvas.toBuffer('image/png');
-    fs.writeFileSync('placeholder_card.png', buffer);
+    // fs.writeFileSync('placeholder_card.png', buffer);
+    return buffer;
 }
 
 
@@ -176,7 +177,8 @@ async function generateBGsHP(cardData) {
     drawCardText(ctx, cardData.text, canvas.width / 2, 390, 230);
 
     const buffer = canvas.toBuffer('image/png');
-    fs.writeFileSync('placeholder_hp.png', buffer);
+    // fs.writeFileSync('placeholder_hp.png', buffer);
+    return buffer;
 }
 
 async function generateBGsSpell(cardData) {
@@ -198,7 +200,8 @@ async function generateBGsSpell(cardData) {
     
     // Save the image to a file
     const buffer = canvas.toBuffer('image/png');
-    fs.writeFileSync('placeholder_spell.png', buffer);
+    // fs.writeFileSync('placeholder_spell.png', buffer);
+    return buffer;
 }
 
 async function generateBGsTavernSpell(cardData) {
@@ -210,7 +213,7 @@ async function generateBGsTavernSpell(cardData) {
     ctx.drawImage(template, 0, 0, canvas.width, canvas.height);
 
     // tier
-    drawNumber(ctx, cardData.tier, 65, 75);
+    drawNumber(ctx, cardData.techLevel, 65, 75);
 
     // cost
     drawNumber(ctx, cardData.cost, 58, 195);
@@ -226,43 +229,59 @@ async function generateBGsTavernSpell(cardData) {
     
     // Save the image to a file
     const buffer = canvas.toBuffer('image/png');
-    fs.writeFileSync('placeholder_t_spell.png', buffer);
+    // fs.writeFileSync('placeholder_t_spell.png', buffer);
+    return buffer;
 }
 
-// Example card data
-const minionData = {
-    name: 'Felboar',
-    tier: 5,
-    text: "After you cast 2 spells, consume a minion in the Tavern to gain its stats.\n(2 left!)",
-    attack: 2,
-    health: 6,
-    races: ["Demon", "Quilboar"]
-};
-
-const hpData = {
-    name: 'Adventure!',
-    cost: 0,
-    hideCost: true,
-    text: "Passive\nAt the start of the game, Discover a Hero Power.",
-};
-
-const spellData = {
-    name: 'Slimy Shield',
-    text: "Give a minion +1/+1 and Taunt."
-};
-
-const tavernSpellData = {
-    name: 'Butchering',
-    tier: 4,
-    cost: 2,
-    text: "Destroy a friendly Undead. Your Undead have extra Attack equal to its Tier this game."
-};
-
-// generateBGsMinion(minionData);
-// generateBGsHP(hpData);
-// generateBGsSpell(spellData);
-// generateBGsTavernSpell(tavernSpellData);
 
 
+async function generateCard(card){
+    if(!card.hasOwnProperty("type")){
+        return;
+    }
+    let buffer;
 
+    switch (card.type) {
+        case "BATTLEGROUND_SPELL":
+            buffer = await generateBGsTavernSpell(card);
+            break;
+        case "MINION":
+            if(card.hasOwnProperty("battlegroundsNormalDbfId")){
+                // golden minion
+                buffer = await generateBGsMinion(card, true);
+            } else {
+                // regular minion
+                buffer = await generateBGsMinion(card, false);
+            }
+            break;
+        case "HERO_POWER":
+            buffer = await generateBGsHP(card);
+            break;
+        case "SPELL":
+            buffer = await generateBGsSpell(card);
+            break;
+        default:
+            break;
+    }
 
+    return buffer;
+}
+
+function temp() {
+    const tavernSpell = {
+        name: 'Butchering',
+        techLevel: 4,
+        cost: 2,
+        text: "Destroy a friendly Undead. Your Undead have extra Attack equal to its Tier this game.",
+        type: "BATTLEGROUND_SPELL"
+    };
+
+    generateCard(tavernSpell).then(res => {
+        fs.writeFileSync('placeholder_temp.png', res);
+    })
+
+}
+
+// temp();
+
+module.exports = { generateCard }

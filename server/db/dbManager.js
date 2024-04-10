@@ -1,6 +1,7 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const poolManager = require("./poolManager");
 const path = require('path');
+const { generateCard } = require('../generate/generatePhImage');
 
 
 function isActiveCard( currentCard ) {
@@ -323,7 +324,18 @@ function saveJsonDBOfPatch(jsonObj, patch, locale) {
     saveJsonToFile(`../patches/${locale}/${patch}.json`, jsonObj);
 }
 
-
+function generatePlaceholder(dbfId, version, locale){
+    if(locale === undefined){
+        locale = "enUS";
+    }
+    let card = getCardById(dbfId, version);
+    generateCard(card).then((res) => {
+        if(res !== undefined){
+            fs.ensureDirSync(absolutePath(`../../client/public/placeholder/${locale}/${version}`));
+            fs.writeFileSync(absolutePath(`../../client/public/placeholder/${locale}/${version}/${dbfId}.png`), res);
+        }
+    })
+}
 
 module.exports = { 
     getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch
