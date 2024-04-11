@@ -124,7 +124,7 @@ export function CardList({ cards, patchId }) {
 
     return( 
         <div>
-            <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
+            {/* <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} /> */}
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
         </div>
     );
@@ -243,7 +243,6 @@ function HoverImage({card}) {
 
     let placeholderIcon = "/icons/placeholder.png";
     let srcOfIcon = `/icons/${card.dbfId}.png`;
-    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
 
     const handleMouseMove = (e) => {
         const mouseX = e.clientX;
@@ -277,7 +276,6 @@ function HoverImage({card}) {
           <div className="hover-image-container"
             style={{ top: hoverPosition.y, left: hoverPosition.x }}
           >
-            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt="Hover" className="hover-image" /> */}
             <CardImage card={card} />
           </div>
         )}
