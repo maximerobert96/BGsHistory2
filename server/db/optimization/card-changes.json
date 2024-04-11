@@ -68822,5 +68822,1705 @@
         "newVersion": "193541"
       }
     ]
+  },
+  "194648": {
+    "56298": [
+      {
+        "changeType": "new",
+        "newVersion": "194648"
+      }
+    ],
+    "57110": [
+      {
+        "changeType": "new",
+        "newVersion": "194648"
+      }
+    ],
+    "57892": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 20
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "58044": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 15
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "58534": [
+      {
+        "changeType": "returning",
+        "newVersion": "194648"
+      }
+    ],
+    "59194": [
+      {
+        "changeType": "new",
+        "newVersion": "194648"
+      }
+    ],
+    "59831": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 14
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "194648"
+      }
+    ],
+    "60040": [
+      {
+        "changeType": "returning",
+        "newVersion": "194648"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 11,
+            "old": 8
+          },
+          "health": {
+            "new": 22,
+            "old": 16
+          },
+          "version": {
+            "new": "190416"
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": "194648"
+      }
+    ],
+    "60041": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 22,
+            "old": 16
+          },
+          "health": {
+            "new": 44,
+            "old": 32
+          },
+          "version": {
+            "new": 175913
+          }
+        },
+        "oldVersion": 175913,
+        "newVersion": "194648"
+      }
+    ],
+    "60213": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 13
+          },
+          "version": {
+            "new": 178555
+          }
+        },
+        "oldVersion": 178555,
+        "newVersion": "194648"
+      }
+    ],
+    "60366": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 7,
+            "old": 5
+          },
+          "version": {
+            "new": 178555
+          }
+        },
+        "oldVersion": 178555,
+        "newVersion": "194648"
+      }
+    ],
+    "60372": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 16
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "61488": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 17
+          },
+          "version": {
+            "new": 178555
+          }
+        },
+        "oldVersion": 178555,
+        "newVersion": "194648"
+      }
+    ],
+    "61910": [
+      {
+        "changeType": "returning",
+        "newVersion": "194648"
+      }
+    ],
+    "63601": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 18
+          },
+          "version": {
+            "new": "184727"
+          }
+        },
+        "oldVersion": "184727",
+        "newVersion": "194648"
+      }
+    ],
+    "64054": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 3
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "64055": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 3
+          },
+          "version": {
+            "new": 174258
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": "194648"
+      }
+    ],
+    "64189": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 7
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          },
+          "version": {
+            "new": "183876"
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": "194648"
+      }
+    ],
+    "64190": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 12,
+            "old": 14
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "version": {
+            "new": 79904
+          },
+          "techLevel": {
+            "new": 3
+          }
+        },
+        "oldVersion": 79904,
+        "newVersion": "194648"
+      }
+    ],
+    "66196": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 14
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "194648"
+      }
+    ],
+    "67553": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 16
+          },
+          "version": {
+            "new": 168788
+          }
+        },
+        "oldVersion": 168788,
+        "newVersion": "194648"
+      }
+    ],
+    "71458": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 15
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "71916": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 11
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "194648"
+      }
+    ],
+    "73940": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 10
+          },
+          "version": {
+            "new": "183876"
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": "194648"
+      }
+    ],
+    "79618": [
+      {
+        "changeType": "returning",
+        "newVersion": "194648"
+      }
+    ],
+    "81569": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 18
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "86291": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 8
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "89483": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +5/+5 permanently.",
+            "old": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +4/+4 permanently."
+          },
+          "version": {
+            "new": 148211
+          }
+        },
+        "oldVersion": 148211,
+        "newVersion": "194648"
+      }
+    ],
+    "90914": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+6/+6 and <b>Divine Shield</b>.",
+            "old": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+4/+4 and <b>Divine Shield</b>."
+          },
+          "version": {
+            "new": "181554"
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": "194648"
+      }
+    ],
+    "96776": [
+      {
+        "changeType": "returning",
+        "newVersion": "194648"
+      }
+    ],
+    "98930": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 5,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 2
+          },
+          "version": {
+            "new": "193128"
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": "194648"
+      }
+    ],
+    "98934": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 10,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 2
+          },
+          "version": {
+            "new": "193128"
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": "194648"
+      }
+    ],
+    "99033": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 12,
+            "old": 10
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "194648"
+      }
+    ],
+    "100104": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "version": {
+            "new": "190416"
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": "194648"
+      }
+    ],
+    "101345": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 8,
+            "old": 5
+          },
+          "version": {
+            "new": 180614
+          }
+        },
+        "oldVersion": 180614,
+        "newVersion": "194648"
+      }
+    ],
+    "103500": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 11,
+            "old": 8
+          },
+          "version": {
+            "new": "184727"
+          }
+        },
+        "oldVersion": "184727",
+        "newVersion": "194648"
+      }
+    ],
+    "103692": [
+      {
+        "changeType": "returning",
+        "newVersion": "194648"
+      }
+    ],
+    "104532": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          },
+          "version": {
+            "new": "193128"
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": "194648"
+      }
+    ],
+    "104533": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          },
+          "version": {
+            "new": "193128"
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": "194648"
+      }
+    ],
+    "104700": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]At the end of your turn,\ngive the left-most minion\nin your hand +8/+8 and\n<b>Divine Shield</b>.",
+            "old": "[x]At the end of your turn,\ngive the left-most minion\nin your hand +6/+6 and\n<b>Divine Shield</b>."
+          },
+          "version": {
+            "new": 179020
+          }
+        },
+        "oldVersion": 179020,
+        "newVersion": "194648"
+      }
+    ],
+    "105431": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 12
+          },
+          "version": {
+            "new": "190416"
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": "194648"
+      }
+    ],
+    "106506": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "version": {
+            "new": "191554"
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "194648"
+      }
+    ],
+    "110400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 5
+          },
+          "text": {
+            "new": "Get a copy of a non-Golden Murloc in your hand.",
+            "old": "Get a copy of a Murloc in your hand."
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "110406": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "110411": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          },
+          "text": {
+            "new": "Choose a minion in the Tavern. Lock it in your hand for 1 turn and double its stats.",
+            "old": "[x]<b>Freeze</b> a minion in the\nTavern. If it's <b>Frozen</b>\n at the end of this turn,\ndouble its stats."
+          },
+          "version": {
+            "new": "193541"
+          },
+          "targetingArrowText": {
+            "new": "Lock it in your hand for 1 turn and double its stats."
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "110471": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 6
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "110631": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 5,
+            "old": 3
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "110664": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 1
+          },
+          "health": {
+            "new": 8,
+            "old": 4
+          },
+          "text": {
+            "new": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain its stats.\n<i>(2 left!)</i>",
+            "old": "[x]After you cast 3 spells,\nconsume a minion in the\nTavern to gain its stats.\n<i>(3 left!)</i>"
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ],
+    "110665": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 2
+          },
+          "health": {
+            "new": 16,
+            "old": 8
+          },
+          "text": {
+            "new": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(2 left!)</i>",
+            "old": "[x]After you cast 3 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(3 left!)</i>"
+          },
+          "version": {
+            "new": "193541"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": "194648"
+      }
+    ]
+  },
+  "195316": {
+    "57892": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 16
+          },
+          "version": {
+            "new": "194648",
+            "old": "191554"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "195316"
+      }
+    ],
+    "57929": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 17,
+            "old": 15
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "57946": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 10
+          },
+          "version": {
+            "new": 180614
+          }
+        },
+        "oldVersion": 180614,
+        "newVersion": "195316"
+      }
+    ],
+    "57947": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 10
+          },
+          "version": {
+            "new": 175913
+          }
+        },
+        "oldVersion": 175913,
+        "newVersion": "195316"
+      }
+    ],
+    "58044": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 18
+          },
+          "version": {
+            "new": "194648",
+            "old": "191554"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "195316"
+      }
+    ],
+    "59806": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 7
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "60369": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 12,
+            "old": 10
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "61914": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 15
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "64400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 17,
+            "old": 15
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "64475": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 15
+          },
+          "version": {
+            "new": "181554"
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": "195316"
+      }
+    ],
+    "66483": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 12
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "71458": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 12,
+            "old": 10
+          },
+          "version": {
+            "new": "194648",
+            "old": "191554"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "195316"
+      }
+    ],
+    "73940": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 14
+          },
+          "version": {
+            "new": "194648",
+            "old": "183876"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "195316"
+      }
+    ],
+    "74631": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 15
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "195316"
+      }
+    ],
+    "75702": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 8
+          },
+          "version": {
+            "new": 174258
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": "195316"
+      }
+    ],
+    "76521": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 20
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "195316"
+      }
+    ],
+    "79615": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 13
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "96870": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 13
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "195316"
+      }
+    ],
+    "98726": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 12
+          },
+          "version": {
+            "new": 174258
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": "195316"
+      }
+    ]
+  },
+  "195635": {
+    "61910": [
+      {
+        "changeType": "removal",
+        "oldVersion": "194648"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "version": {
+            "new": "194648",
+            "old": "192412"
+          },
+          "battlegroundsHero": {
+            "old": true
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "195635"
+      }
+    ],
+    "79618": [
+      {
+        "changeType": "removal",
+        "oldVersion": "194648"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "version": {
+            "new": "194648",
+            "old": "192412"
+          },
+          "battlegroundsHero": {
+            "old": true
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "195635"
+      }
+    ],
+    "96865": [
+      {
+        "changeType": "returning",
+        "newVersion": "195635"
+      }
+    ]
+  },
+  "197064": {
+    "57891": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 5,
+            "old": 6
+          },
+          "version": {
+            "new": "183876"
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": "197064"
+      }
+    ],
+    "57946": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 14
+          },
+          "version": {
+            "new": "195316",
+            "old": 180614
+          }
+        },
+        "oldVersion": "195316",
+        "newVersion": "197064"
+      }
+    ],
+    "58535": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 19,
+            "old": 18
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "197064"
+      }
+    ],
+    "60214": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 16
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "197064"
+      }
+    ],
+    "60372": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 13
+          },
+          "version": {
+            "new": "194648",
+            "old": "191554"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "197064"
+      }
+    ],
+    "62268": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 12
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "197064"
+      }
+    ],
+    "64189": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "cost": {
+            "new": 4,
+            "old": 6
+          },
+          "health": {
+            "new": 4,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          },
+          "version": {
+            "new": "194648",
+            "old": "183876"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "197064"
+      }
+    ],
+    "64190": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 16,
+            "old": 12
+          },
+          "cost": {
+            "new": 4,
+            "old": 6
+          },
+          "health": {
+            "new": 8,
+            "old": 6
+          },
+          "version": {
+            "new": "194648",
+            "old": 79904
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "197064"
+      }
+    ],
+    "70838": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 12
+          },
+          "version": {
+            "new": "182995"
+          }
+        },
+        "oldVersion": "182995",
+        "newVersion": "197064"
+      }
+    ],
+    "71454": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 19,
+            "old": 17
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "197064"
+      }
+    ],
+    "71458": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 12
+          },
+          "version": {
+            "new": "195316",
+            "old": "194648"
+          }
+        },
+        "oldVersion": "195316",
+        "newVersion": "197064"
+      }
+    ],
+    "79719": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 13,
+            "old": 15
+          },
+          "version": {
+            "new": "184727"
+          }
+        },
+        "oldVersion": "184727",
+        "newVersion": "197064"
+      }
+    ],
+    "84867": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 8
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "197064"
+      }
+    ],
+    "97452": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +4/+4.",
+            "old": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +2/+2."
+          },
+          "version": {
+            "new": "181554"
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": "197064"
+      }
+    ],
+    "97813": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 18
+          },
+          "version": {
+            "new": "191554"
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": "197064"
+      }
+    ],
+    "98509": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 5
+          },
+          "health": {
+            "new": 6,
+            "old": 5
+          },
+          "text": {
+            "new": "While this is in your hand, after you play a Murloc, gain +2/+2.",
+            "old": "While this is in your hand, after you play a Murloc, gain +3/+3."
+          },
+          "version": {
+            "new": 180614
+          }
+        },
+        "oldVersion": 180614,
+        "newVersion": "197064"
+      }
+    ],
+    "98513": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 12,
+            "old": 10
+          },
+          "health": {
+            "new": 12,
+            "old": 10
+          },
+          "text": {
+            "new": "While this is in your hand, after you play a Murloc, gain +4/+4.",
+            "old": "While this is in your hand, after you play a Murloc, gain +6/+6."
+          },
+          "version": {
+            "new": 180614
+          }
+        },
+        "oldVersion": 180614,
+        "newVersion": "197064"
+      }
+    ],
+    "99228": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          },
+          "text": {
+            "new": "After your hero takes damage, give your Demons +1/+1.",
+            "old": "After your hero takes damage, give your other Demons +1/+1."
+          },
+          "version": {
+            "new": 174258
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": "197064"
+      }
+    ],
+    "99229": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 8
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "text": {
+            "new": "After your hero takes damage, give your Demons +2/+2.",
+            "old": "After your hero takes damage, give your other Demons +2/+2."
+          },
+          "version": {
+            "new": 174258
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": "197064"
+      }
+    ],
+    "104612": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 2,
+            "old": 1
+          },
+          "text": {
+            "new": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+5.",
+            "old": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +1/+5."
+          },
+          "version": {
+            "new": "193128"
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": "197064"
+      }
+    ],
+    "104613": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 4,
+            "old": 2
+          },
+          "text": {
+            "new": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +4/+10.",
+            "old": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+10."
+          },
+          "version": {
+            "new": "193128"
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": "197064"
+      }
+    ],
+    "105431": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 16
+          },
+          "version": {
+            "new": "194648",
+            "old": "190416"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "197064"
+      }
+    ],
+    "105434": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 10,
+            "old": 8
+          },
+          "version": {
+            "new": "190416"
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": "197064"
+      }
+    ],
+    "107939": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 4
+          },
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          },
+          "version": {
+            "new": "190416"
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": "197064"
+      }
+    ],
+    "107940": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 8
+          },
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          },
+          "version": {
+            "new": "190416"
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": "197064"
+      }
+    ],
+    "110664": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 3
+          },
+          "cost": {
+            "new": 5,
+            "old": 6
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          },
+          "version": {
+            "new": "194648",
+            "old": "193541"
+          },
+          "artist": {
+            "new": "Joseph Weston"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "197064"
+      }
+    ],
+    "110665": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 6
+          },
+          "cost": {
+            "new": 5,
+            "old": 6
+          },
+          "health": {
+            "new": 12,
+            "old": 16
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          },
+          "version": {
+            "new": "194648",
+            "old": "193541"
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": "197064"
+      }
+    ]
   }
 }

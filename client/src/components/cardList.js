@@ -124,7 +124,7 @@ export function CardList({ cards, patchId }) {
 
     return( 
         <div>
-            {/* <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} /> */}
+            <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
         </div>
     );

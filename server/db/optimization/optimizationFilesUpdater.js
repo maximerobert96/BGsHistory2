@@ -193,3 +193,6 @@ function convertToChangesArray(change){
 //     }
 // ]
  
+
+// createFullActiveCardsFile();
+// createFullCardChangesFile();
