@@ -1,5 +1,4 @@
 const dbManager = require('../db/dbManager');
-const { saveJsonToFile, saveJsonDBOfPatch } = require('./dbUpdater');
 
 /**
  * 
@@ -60,7 +59,8 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
     if(modifyGolden) {
         mappingFile.cards[goldenId] = patchesOfChangeForGolden;
     } 
-    saveJsonToFile("./mapping.json", mappingFile);
+    dbManager.saveJsonToFile("../mapping.json", mappingFile);
+    
     
     /*
     Do the changes. Verify the cards. Remove unnecessary changes.
@@ -171,7 +171,7 @@ function updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedField
     }
     currentDb[cardId] = currentVersionObj;
 
-    saveJsonDBOfPatch(currentDb, currentPatch);
+    dbManager.saveJsonDBOfPatch(currentDb, currentPatch);
 
     // let newVersion = {[currentPatch]: [currentVersionObj, goldenVersionObj]};
     // console.log(JSON.stringify(newVersion));

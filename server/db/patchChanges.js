@@ -776,3 +776,39 @@ function updatingTribesFirstPatch() {
 // addNewChange(35747, 59814, {"associatedTribes": ["BEAST"]}, undefined, undefined, "RANGE", 53261); // mukla
 // addNewChange(35747, 96778, {"associatedTribes": ["BEAST"]}); // houndmaster
 // addNewChange(35747, 59660, {"associatedTribes": ["DEMON"]}); // soul juggler
+
+function removingOldCardsFrom197064(){
+    let build = 197064;
+
+    // removing cards
+    addNewChange(build, 60628, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 60055, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 475, undefined, ["isBattlegroundsPoolMinion"]);
+    addNewChange(build, 43121, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 39481, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 59940, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 65661, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 60559, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 64297, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 101727, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 40391, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 60552, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 2288, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 38734, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 97423, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 61059, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 45392, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 60498, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 73072, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 48100, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 76312, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 49973, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 2074, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 62458, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 59682, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 96842, undefined, ["isBattlegroundsPoolMinion"]); 
+    addNewChange(build, 62232, undefined, ["isBattlegroundsPoolMinion"]); 
+}
+
+// removingOldCardsFrom197064();
+// addNewChange(197064, 56112, undefined, ["isBattlegroundsPoolMinion"]); 

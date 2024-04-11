@@ -194,5 +194,5 @@ function convertToChangesArray(change){
 // ]
  
 
-// createFullActiveCardsFile();
-// createFullCardChangesFile();
+createFullActiveCardsFile();
+createFullCardChangesFile();
