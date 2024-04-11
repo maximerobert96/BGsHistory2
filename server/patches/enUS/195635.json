@@ -1,0 +1,75 @@
+{
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ],
+    "version": "194648"
+  },
+  "79618": {
+    "armor": 13,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ],
+    "version": "194648"
+  },
+  "96865": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 96868,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 96865,
+    "elite": true,
+    "health": 9,
+    "id": "BG25_044",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Greta Gold-Gun",
+    "race": "NAGA",
+    "races": [
+      "NAGA",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]<b>Spellcraft:</b> Make a different\nfriendly Pirate or Naga\nGolden until next turn.",
+    "type": "MINION",
+    "relatedCards": [
+      96866
+    ],
+    "associatedTribes": [
+      "NAGA",
+      "PIRATE"
+    ],
+    "version": 174258,
+    "isBattlegroundsPoolMinion": true
+  }
+}

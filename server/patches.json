@@ -762,5 +762,23 @@
     "build": "194648",
     "releaseDate": "February 22, 2024",
     "patchNumber": "28.6.2"
+  },
+  "195316": {
+    "patchNotes": "https://twitter.com/RidiculousHat/status/1763677218176397359",
+    "build": "195316",
+    "releaseDate": "March 2, 2024",
+    "patchNumber": "28.6.3"
+  },
+  "195635": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24064735/29-0-patch-notes",
+    "build": "195635",
+    "releaseDate": "March 11, 2024",
+    "patchNumber": "29.0.0"
+  },
+  "197064": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24064739/29-0-3-patch-notes",
+    "build": "197064",
+    "releaseDate": "March 28, 2024",
+    "patchNumber": "29.0.3"
   }
 }

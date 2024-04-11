@@ -1,0 +1,365 @@
+{
+  "57892": {
+    "armor": 18,
+    "artist": "Greg Staples",
+    "battlegroundsBuddyDbfId": 77821,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57892,
+    "health": 30,
+    "heroPowerDbfId": 64424,
+    "id": "TB_BaconShop_HERO_11",
+    "name": "Ragnaros the Firelord",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true,
+    "version": "194648"
+  },
+  "57929": {
+    "armor": 17,
+    "artist": "J. Axer",
+    "battlegroundsBuddyDbfId": 77495,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57929,
+    "health": 30,
+    "heroPowerDbfId": 57562,
+    "id": "TB_BaconShop_HERO_15",
+    "name": "George the Fallen",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "57946": {
+    "armor": 14,
+    "artist": "Aaron Su",
+    "battlegroundsBuddyDbfId": 77805,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57946,
+    "health": 30,
+    "heroPowerDbfId": 57949,
+    "id": "TB_BaconShop_HERO_17",
+    "name": "Millificent Manastorm",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "version": 180614
+  },
+  "57947": {
+    "armor": 13,
+    "artist": "James Ryman",
+    "battlegroundsBuddyDbfId": 77815,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57947,
+    "health": 30,
+    "heroPowerDbfId": 62243,
+    "id": "TB_BaconShop_HERO_18",
+    "name": "Patches the Pirate",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "battlegroundsHero": true,
+    "version": 175913
+  },
+  "58044": {
+    "armor": 16,
+    "artist": "Dave Allsop",
+    "battlegroundsBuddyDbfId": 77510,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58044,
+    "health": 30,
+    "heroPowerDbfId": 60285,
+    "id": "TB_BaconShop_HERO_25",
+    "name": "Lich Baz'hial",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "194648"
+  },
+  "59806": {
+    "armor": 10,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 77477,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59806,
+    "health": 30,
+    "heroPowerDbfId": 59860,
+    "id": "TB_BaconShop_HERO_36",
+    "name": "Dancin' Deryl",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "60369": {
+    "armor": 12,
+    "artist": "Ludo Lullabi",
+    "battlegroundsBuddyDbfId": 77782,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60369,
+    "health": 30,
+    "heroPowerDbfId": 61406,
+    "id": "TB_BaconShop_HERO_52",
+    "name": "Deathwing",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "61914": {
+    "armor": 13,
+    "artist": "James Ryman",
+    "battlegroundsBuddyDbfId": 77800,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61914,
+    "health": 30,
+    "heroPowerDbfId": 61919,
+    "id": "TB_BaconShop_HERO_62",
+    "name": "Maiev Shadowsong",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "64400": {
+    "armor": 17,
+    "artist": "Konstantin Turovec",
+    "battlegroundsBuddyDbfId": 77823,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64400,
+    "health": 30,
+    "heroPowerDbfId": 64401,
+    "id": "TB_BaconShop_HERO_75",
+    "name": "Rakanishu",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "64475": {
+    "armor": 13,
+    "artist": "James Ryman",
+    "battlegroundsBuddyDbfId": 77780,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64475,
+    "health": 30,
+    "heroPowerDbfId": 64476,
+    "id": "TB_BaconShop_HERO_78",
+    "name": "Chenvaala",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "version": "181554"
+  },
+  "66483": {
+    "armor": 10,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 77811,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 66483,
+    "health": 30,
+    "heroPowerDbfId": 66484,
+    "id": "TB_BaconShop_HERO_93",
+    "name": "N'Zoth",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "71458": {
+    "armor": 12,
+    "artist": "Samwise Didier",
+    "battlegroundsBuddyDbfId": 77478,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71458,
+    "health": 30,
+    "heroPowerDbfId": 71459,
+    "id": "BG20_HERO_103",
+    "name": "Death Speaker Blackthorn",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "version": "194648"
+  },
+  "73940": {
+    "armor": 16,
+    "artist": "Ursula Dorada",
+    "battlegroundsBuddyDbfId": 77778,
+    "battlegroundsHero": true,
+    "cardClass": "PALADIN",
+    "dbfId": 73940,
+    "health": 30,
+    "heroPowerDbfId": 73941,
+    "id": "BG21_HERO_000",
+    "name": "Cariel Roame",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "194648"
+  },
+  "74631": {
+    "armor": 13,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 77796,
+    "battlegroundsHero": true,
+    "cardClass": "DEMONHUNTER",
+    "dbfId": 74631,
+    "health": 30,
+    "heroPowerDbfId": 104875,
+    "id": "BG20_HERO_280",
+    "name": "Kurtrus Ashfallen",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "191554"
+  },
+  "75702": {
+    "armor": 10,
+    "artist": "Chris Bjors",
+    "battlegroundsBuddyDbfId": 77788,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75702,
+    "health": 30,
+    "heroPowerDbfId": 75703,
+    "id": "BG20_HERO_283",
+    "name": "Galewing",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": 174258
+  },
+  "76521": {
+    "armor": 18,
+    "artist": "Vladimir Kafanov",
+    "battlegroundsBuddyDbfId": 77874,
+    "battlegroundsHero": true,
+    "cardClass": "WARRIOR",
+    "dbfId": 76521,
+    "health": 30,
+    "heroPowerDbfId": 76520,
+    "id": "BG21_HERO_030",
+    "name": "Sneed",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "191554"
+  },
+  "79615": {
+    "armor": 15,
+    "artist": "Arthur Bozonnet",
+    "battlegroundsBuddyDbfId": 77888,
+    "battlegroundsHero": true,
+    "cardClass": "MAGE",
+    "dbfId": 79615,
+    "health": 30,
+    "heroPowerDbfId": 80539,
+    "id": "BG22_HERO_004",
+    "name": "Varden Dawngrasp",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "96870": {
+    "armor": 15,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 101973,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 96870,
+    "health": 30,
+    "heroPowerDbfId": 96872,
+    "id": "BG24_HERO_204",
+    "name": "Enhance-o Mechano",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "version": "182995"
+  },
+  "98726": {
+    "armor": 10,
+    "artist": "Paul Mafayon",
+    "battlegroundsBuddyDbfId": 101459,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 98726,
+    "flavor": "Catch him Teron up the Battlegrounds.",
+    "health": 30,
+    "heroPowerDbfId": 98728,
+    "id": "BG25_HERO_103",
+    "name": "Teron Gorefiend",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD",
+      "BEAST"
+    ],
+    "version": 174258
+  }
+}
