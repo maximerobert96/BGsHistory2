@@ -337,6 +337,39 @@ function generatePlaceholder(dbfId, version, locale){
     })
 }
 
+/**
+ * Gets an array of patchIds in a range. [oldest, ..., newest]
+ * 
+ * @param {*} oldestPatchId first id being included
+ * @param {*} newestPatchId last id being included. If no newest id is there, newest is the most current one
+ * 
+ * @returns 
+ */
+function getPatchIdsInRange(oldestPatchId, newestPatchId){
+    if(oldestPatchId === undefined){
+        throw Error("getPatchIdsInRange should have at least one argument.");
+    }
+    let mappingJson = getJsonMappingFile();
+    let patchesOfMapping = Object.keys(mappingJson.patches);
+
+    if(newestPatchId === undefined){
+        newestPatchId = patchesOfMapping[patchesOfMapping.length - 1];
+    }
+
+    let oldestPatchNum = parseInt(oldestPatchId);
+    let newestPatchNum = parseInt(newestPatchId);
+    let range = [];
+
+    for(let patch of patchesOfMapping){
+        let patchNum = parseInt(patch);
+        if(patchNum >= oldestPatchNum && patchNum <= newestPatchNum ){
+            range.push(patchNum);
+        }
+    }
+
+    return range;
+}
+
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch, generatePlaceholder
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch, generatePlaceholder, getPatchIdsInRange
 }

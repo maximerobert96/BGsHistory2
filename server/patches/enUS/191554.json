@@ -1299,7 +1299,8 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Set your Armor to 5.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "103796": {
     "cardClass": "NEUTRAL",
@@ -1315,7 +1316,8 @@
     "targetingArrowText": "Give <b>Divine Shield</b>.",
     "techLevel": 6,
     "text": "Give a minion\n<b>Divine Shield</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "104440": {
     "cardClass": "NEUTRAL",
@@ -1328,7 +1330,8 @@
     "targetingArrowText": "Give \"At the end of your turn, gain +2/+2.\"",
     "techLevel": 3,
     "text": "Give a friendly minion \"At the end of your turn, gain +2/+2.\"",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "104496": {
     "attack": 5,
@@ -1389,7 +1392,8 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "<b>Discover</b> a Buddy.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "104607": {
     "attack": 4,
@@ -1638,7 +1642,8 @@
     "targetingArrowText": "Give a minion stats equal to your Tier.",
     "techLevel": 2,
     "text": "Give a minion stats equal to your Tier.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -1650,7 +1655,8 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +1/+2 this game.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "105314": {
     "armor": 6,
@@ -1835,7 +1841,8 @@
     "targetingArrowText": "Give +6/+6 until next turn.",
     "techLevel": 4,
     "text": "Give a minion +6/+6 until next turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "isActiveTavernSpell": true
   },
   "105697": {
     "attack": 2,
