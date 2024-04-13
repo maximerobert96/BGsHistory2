@@ -351,4 +351,23 @@ function isAHero(card) {
 }
 
 
+function deleteVersionFieldFromPatches(patches){
+    try {
+        for (let patch of patches){
+            let patchJson = dbManager.getJsonDBOfPatch(patch);
+            for(let cardId in patchJson){
+                let card = patchJson[cardId];
+                if(card.hasOwnProperty("version")){
+                    delete card.version;
+                }
+            }
+            dbManager.saveJsonDBOfPatch(patchJson, patch);
+        }
+    } catch (error) {  
+        console.error(error.message);  
+    }
+    
+}
 
+// let patches = [194648, 195316, 195635, 197064];
+// deleteVersionFieldFromPatches(patches);

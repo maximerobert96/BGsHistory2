@@ -15,8 +15,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "battlegroundsHero": true,
-    "version": "194648"
+    "battlegroundsHero": true
   },
   "57929": {
     "armor": 17,
@@ -34,8 +33,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "57946": {
     "armor": 14,
@@ -53,8 +51,7 @@
     "type": "HERO",
     "associatedTribes": [
       "MECHANICAL"
-    ],
-    "version": 180614
+    ]
   },
   "57947": {
     "armor": 13,
@@ -72,8 +69,7 @@
     "associatedTribes": [
       "PIRATE"
     ],
-    "battlegroundsHero": true,
-    "version": 175913
+    "battlegroundsHero": true
   },
   "58044": {
     "armor": 16,
@@ -91,8 +87,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "194648"
+    ]
   },
   "59806": {
     "armor": 10,
@@ -110,8 +105,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "60369": {
     "armor": 12,
@@ -129,8 +123,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "61914": {
     "armor": 13,
@@ -148,8 +141,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "64400": {
     "armor": 17,
@@ -167,8 +159,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "64475": {
     "armor": 13,
@@ -186,8 +177,7 @@
     "type": "HERO",
     "associatedTribes": [
       "ELEMENTAL"
-    ],
-    "version": "181554"
+    ]
   },
   "66483": {
     "armor": 10,
@@ -205,8 +195,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "71458": {
     "armor": 12,
@@ -224,8 +213,7 @@
     "type": "HERO",
     "associatedTribes": [
       "QUILBOAR"
-    ],
-    "version": "194648"
+    ]
   },
   "73940": {
     "armor": 16,
@@ -243,8 +231,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "194648"
+    ]
   },
   "74631": {
     "armor": 13,
@@ -262,8 +249,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "75702": {
     "armor": 10,
@@ -281,8 +267,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": 174258
+    ]
   },
   "76521": {
     "armor": 18,
@@ -300,8 +285,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "79615": {
     "armor": 15,
@@ -319,8 +303,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "96870": {
     "armor": 15,
@@ -338,8 +321,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "98726": {
     "armor": 10,
@@ -359,7 +341,6 @@
     "associatedTribes": [
       "UNDEAD",
       "BEAST"
-    ],
-    "version": 174258
+    ]
   }
 }

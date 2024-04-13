@@ -328,8 +328,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "battlegroundsHero": true,
-    "version": "183876"
+    "battlegroundsHero": true
   },
   "57946": {
     "armor": 16,
@@ -347,8 +346,7 @@
     "type": "HERO",
     "associatedTribes": [
       "MECHANICAL"
-    ],
-    "version": "195316"
+    ]
   },
   "58535": {
     "armor": 19,
@@ -366,8 +364,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "59682": {
     "attack": 5,
@@ -460,8 +457,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "battlegroundsHero": true,
-    "version": "191554"
+    "battlegroundsHero": true
   },
   "60372": {
     "armor": 10,
@@ -479,8 +475,7 @@
     "type": "HERO",
     "associatedTribes": [
       "MURLOC"
-    ],
-    "version": "194648"
+    ]
   },
   "60498": {
     "attack": 6,
@@ -638,8 +633,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "62458": {
     "attack": 6,
@@ -691,8 +685,7 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "ELEMENTAL"
-    ],
-    "version": "194648"
+    ]
   },
   "64190": {
     "attack": 16,
@@ -713,7 +706,6 @@
     "races": [
       "ELEMENTAL"
     ],
-    "version": "194648",
     "techLevel": 4
   },
   "64297": {
@@ -777,8 +769,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "71454": {
     "armor": 19,
@@ -795,8 +786,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "71458": {
     "armor": 15,
@@ -814,8 +804,7 @@
     "type": "HERO",
     "associatedTribes": [
       "QUILBOAR"
-    ],
-    "version": "195316"
+    ]
   },
   "73072": {
     "attack": 3,
@@ -887,8 +876,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "184727"
+    ]
   },
   "84867": {
     "armor": 10,
@@ -906,8 +894,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "96842": {
     "artist": "Anton Zemskov",
@@ -979,8 +966,7 @@
     "name": "Sinfall Medallion",
     "set": "BATTLEGROUNDS",
     "text": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +4/+4.",
-    "type": "BATTLEGROUND_QUEST_REWARD",
-    "version": "181554"
+    "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "97813": {
     "armor": 16,
@@ -998,8 +984,7 @@
     "type": "HERO",
     "associatedTribes": [
       "UNDEAD"
-    ],
-    "version": "191554"
+    ]
   },
   "98509": {
     "artist": "Sam Nielson",
@@ -1022,8 +1007,7 @@
     "type": "MINION",
     "associatedTribes": [
       "MURLOC"
-    ],
-    "version": 180614
+    ]
   },
   "98513": {
     "artist": "Sam Nielson",
@@ -1042,8 +1026,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "While this is in your hand, after you play a Murloc, gain +4/+4.",
-    "type": "MINION",
-    "version": 180614
+    "type": "MINION"
   },
   "99228": {
     "attack": 3,
@@ -1069,8 +1052,7 @@
     "type": "MINION",
     "associatedTribes": [
       "DEMON"
-    ],
-    "version": 174258
+    ]
   },
   "99229": {
     "attack": 6,
@@ -1092,8 +1074,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After your hero takes damage, give your Demons +2/+2.",
-    "type": "MINION",
-    "version": 174258
+    "type": "MINION"
   },
   "101727": {
     "artist": "Brian Despain",
@@ -1139,8 +1120,7 @@
     "type": "MINION",
     "associatedTribes": [
       "UNDEAD"
-    ],
-    "version": "193128"
+    ]
   },
   "104613": {
     "attack": 10,
@@ -1163,8 +1143,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +4/+10.",
-    "type": "MINION",
-    "version": "193128"
+    "type": "MINION"
   },
   "105431": {
     "armor": 18,
@@ -1181,8 +1160,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "194648"
+    ]
   },
   "105434": {
     "armor": 10,
@@ -1199,8 +1177,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "190416"
+    ]
   },
   "107939": {
     "attack": 3,
@@ -1225,8 +1202,7 @@
     "type": "MINION",
     "associatedTribes": [
       "ELEMENTAL"
-    ],
-    "version": "190416"
+    ]
   },
   "107940": {
     "attack": 6,
@@ -1247,8 +1223,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]Whenever you cast a\nTavern spell, Elementals\nin the Tavern have +2/+2\nthis game.",
-    "type": "MINION",
-    "version": "190416"
+    "type": "MINION"
   },
   "110664": {
     "attack": 2,
@@ -1276,7 +1251,6 @@
       "DEMON",
       "QUILBOAR"
     ],
-    "version": "194648",
     "artist": "Joseph Weston"
   },
   "110665": {
@@ -1299,7 +1273,6 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(2 left!)</i>",
-    "type": "MINION",
-    "version": "194648"
+    "type": "MINION"
   }
 }

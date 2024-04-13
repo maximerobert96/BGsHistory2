@@ -36,8 +36,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "battlegroundsHero": true,
-    "version": "191554"
+    "battlegroundsHero": true
   },
   "58044": {
     "armor": 18,
@@ -55,8 +54,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "58534": {
     "armor": 13,
@@ -74,7 +72,6 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "version": "192412",
     "battlegroundsHero": true
   },
   "59194": {
@@ -105,8 +102,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "battlegroundsHero": true,
-    "version": "182995"
+    "battlegroundsHero": true
   },
   "60040": {
     "attack": 11,
@@ -128,7 +124,6 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "version": "190416",
     "isBattlegroundsPoolMinion": true
   },
   "60041": {
@@ -147,8 +142,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]<b>Windfury</b>\nThis minion always attacks\nthe enemy minion with\nthe lowest Attack.",
-    "type": "MINION",
-    "version": 175913
+    "type": "MINION"
   },
   "60213": {
     "armor": 15,
@@ -166,8 +160,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "battlegroundsHero": true,
-    "version": 178555
+    "battlegroundsHero": true
   },
   "60366": {
     "armor": 7,
@@ -185,8 +178,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": 178555
+    ]
   },
   "60372": {
     "armor": 13,
@@ -204,8 +196,7 @@
     "type": "HERO",
     "associatedTribes": [
       "MURLOC"
-    ],
-    "version": "191554"
+    ]
   },
   "61488": {
     "armor": 13,
@@ -223,8 +214,7 @@
     "type": "HERO",
     "associatedTribes": [
       "DRAGON"
-    ],
-    "version": 178555
+    ]
   },
   "61910": {
     "armor": 12,
@@ -244,7 +234,6 @@
     "relatedCards": [
       61911
     ],
-    "version": "192412",
     "battlegroundsHero": true
   },
   "63601": {
@@ -263,8 +252,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "184727"
+    ]
   },
   "64054": {
     "attack": 3,
@@ -290,8 +278,7 @@
     "associatedTribes": [
       "ELEMENTAL"
     ],
-    "isBattlegroundsPoolMinion": true,
-    "version": "193541"
+    "isBattlegroundsPoolMinion": true
   },
   "64055": {
     "attack": 6,
@@ -313,8 +300,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Divine Shield</b>\n<b>Windfury</b>",
-    "type": "MINION",
-    "version": 174258
+    "type": "MINION"
   },
   "64189": {
     "attack": 6,
@@ -339,8 +325,7 @@
     "isBattlegroundsPoolMinion": true,
     "associatedTribes": [
       "ELEMENTAL"
-    ],
-    "version": "183876"
+    ]
   },
   "64190": {
     "attack": 12,
@@ -361,7 +346,6 @@
     "races": [
       "ELEMENTAL"
     ],
-    "version": 79904,
     "techLevel": 3
   },
   "66196": {
@@ -380,8 +364,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "67553": {
     "armor": 13,
@@ -399,8 +382,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": 168788
+    ]
   },
   "71458": {
     "armor": 10,
@@ -418,8 +400,7 @@
     "type": "HERO",
     "associatedTribes": [
       "QUILBOAR"
-    ],
-    "version": "191554"
+    ]
   },
   "71916": {
     "armor": 13,
@@ -437,8 +418,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "73940": {
     "armor": 14,
@@ -456,8 +436,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "183876"
+    ]
   },
   "79618": {
     "armor": 13,
@@ -478,7 +457,6 @@
     "relatedCards": [
       89992
     ],
-    "version": "192412",
     "battlegroundsHero": true
   },
   "81569": {
@@ -497,8 +475,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "86291": {
     "armor": 14,
@@ -516,8 +493,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "191554"
+    ]
   },
   "89483": {
     "cardClass": "NEUTRAL",
@@ -534,8 +510,7 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +5/+5 permanently.",
-    "type": "BATTLEGROUND_QUEST_REWARD",
-    "version": 148211
+    "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "90914": {
     "cardClass": "NEUTRAL",
@@ -552,8 +527,7 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+6/+6 and <b>Divine Shield</b>.",
-    "type": "BATTLEGROUND_QUEST_REWARD",
-    "version": "181554"
+    "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "96776": {
     "artist": "Andrew Hou",
@@ -581,7 +555,6 @@
     "associatedTribes": [
       "MURLOC"
     ],
-    "version": "191554",
     "isBattlegroundsPoolMinion": true
   },
   "98930": {
@@ -611,8 +584,7 @@
     ],
     "relatedCards": [
       70136
-    ],
-    "version": "193128"
+    ]
   },
   "98934": {
     "artist": "Anton Zemskov & Timur Shevtsov",
@@ -637,8 +609,7 @@
     "type": "MINION",
     "relatedCards": [
       70136
-    ],
-    "version": "193128"
+    ]
   },
   "99033": {
     "armor": 12,
@@ -655,8 +626,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "182995"
+    ]
   },
   "100104": {
     "attack": 10,
@@ -676,8 +646,7 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "190416"
+    ]
   },
   "101345": {
     "armor": 8,
@@ -696,8 +665,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": 180614
+    ]
   },
   "103500": {
     "armor": 11,
@@ -714,8 +682,7 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "rarity": "FREE",
-    "version": "184727"
+    "rarity": "FREE"
   },
   "103692": {
     "artist": "Konstantin Porubov",
@@ -743,7 +710,6 @@
       "ELEMENTAL",
       "QUILBOAR"
     ],
-    "version": "193541",
     "isBattlegroundsPoolMinion": true
   },
   "104532": {
@@ -770,8 +736,7 @@
     "associatedTribes": [
       "ELEMENTAL",
       "PIRATE"
-    ],
-    "version": "193128"
+    ]
   },
   "104533": {
     "attack": 8,
@@ -790,8 +755,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "The Tavern offers 2 extra Tavern spells after each <b>Refresh</b>.",
-    "type": "MINION",
-    "version": "193128"
+    "type": "MINION"
   },
   "104700": {
     "cardClass": "NEUTRAL",
@@ -808,8 +772,7 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]At the end of your turn,\ngive the left-most minion\nin your hand +8/+8 and\n<b>Divine Shield</b>.",
-    "type": "BATTLEGROUND_QUEST_REWARD",
-    "version": 179020
+    "type": "BATTLEGROUND_QUEST_REWARD"
   },
   "105431": {
     "armor": 16,
@@ -826,8 +789,7 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "version": "190416"
+    ]
   },
   "106506": {
     "attack": 4,
@@ -848,8 +810,7 @@
     "type": "MINION",
     "associatedTribes": [
       "MURLOC"
-    ],
-    "version": "191554"
+    ]
   },
   "110400": {
     "cardClass": "NEUTRAL",
@@ -861,8 +822,7 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Get a copy of a non-Golden Murloc in your hand.",
-    "type": "BATTLEGROUND_SPELL",
-    "version": "193541"
+    "type": "BATTLEGROUND_SPELL"
   },
   "110406": {
     "cardClass": "NEUTRAL",
@@ -874,8 +834,7 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Get 3 random <b>Spellcraft</b> spells.",
-    "type": "BATTLEGROUND_SPELL",
-    "version": "193541"
+    "type": "BATTLEGROUND_SPELL"
   },
   "110411": {
     "cardClass": "NEUTRAL",
@@ -888,7 +847,6 @@
     "techLevel": 3,
     "text": "Choose a minion in the Tavern. Lock it in your hand for 1 turn and double its stats.",
     "type": "BATTLEGROUND_SPELL",
-    "version": "193541",
     "targetingArrowText": "Lock it in your hand for 1 turn and double its stats."
   },
   "110471": {
@@ -901,8 +859,7 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Steal a random card from the Tavern. Repeat for each friendly Pirate.",
-    "type": "BATTLEGROUND_SPELL",
-    "version": "193541"
+    "type": "BATTLEGROUND_SPELL"
   },
   "110631": {
     "artist": "Chris Seaman",
@@ -915,8 +872,7 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
-    "type": "BATTLEGROUND_SPELL",
-    "version": "193541"
+    "type": "BATTLEGROUND_SPELL"
   },
   "110664": {
     "attack": 3,
@@ -943,8 +899,7 @@
     "associatedTribes": [
       "DEMON",
       "QUILBOAR"
-    ],
-    "version": "193541"
+    ]
   },
   "110665": {
     "attack": 6,
@@ -966,7 +921,6 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(2 left!)</i>",
-    "type": "MINION",
-    "version": "193541"
+    "type": "MINION"
   }
 }

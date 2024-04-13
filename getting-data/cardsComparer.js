@@ -93,6 +93,9 @@ function addCustomFields(card, cardsInPatch){
 
 function combineVersions(oldVersion, newVersion) {
     let combined = {...oldVersion, ...newVersion};
+    if(combined.hasOwnProperty("version")){
+        delete combined.version;
+    }
     let fieldsToTrackRemoval = ["isBattlegroundsPoolMinion", "battlegroundsHero"];
 
     for(let field of fieldsToTrackRemoval) {

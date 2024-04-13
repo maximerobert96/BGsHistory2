@@ -16,8 +16,7 @@
     ],
     "relatedCards": [
       61911
-    ],
-    "version": "194648"
+    ]
   },
   "79618": {
     "armor": 13,
@@ -37,8 +36,7 @@
     ],
     "relatedCards": [
       89992
-    ],
-    "version": "194648"
+    ]
   },
   "96865": {
     "attack": 2,
@@ -69,7 +67,6 @@
       "NAGA",
       "PIRATE"
     ],
-    "version": 174258,
     "isBattlegroundsPoolMinion": true
   }
 }
