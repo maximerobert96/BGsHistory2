@@ -812,3 +812,5 @@ function removingOldCardsFrom197064(){
 
 // removingOldCardsFrom197064();
 // addNewChange(197064, 56112, undefined, ["isBattlegroundsPoolMinion"]); 
+
+// addNewChange(197064, 103652, {"isBattlegroundsPoolMinion": true}); // annoy-o-tron added

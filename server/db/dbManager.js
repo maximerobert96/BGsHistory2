@@ -5,8 +5,9 @@ const { generateCard } = require('../generate/generatePhImage');
 
 
 function isActiveCard( currentCard ) {
-    return (currentCard["battlegroundsHero"] && currentCard["battlegroundsHero"] == true)
-    || (currentCard["isBattlegroundsPoolMinion"] && currentCard["isBattlegroundsPoolMinion"] == true);
+    return (currentCard.hasOwnProperty("battlegroundsHero") && currentCard["battlegroundsHero"] == true)
+    || (currentCard.hasOwnProperty("isBattlegroundsPoolMinion") && currentCard["isBattlegroundsPoolMinion"] == true)
+    || (currentCard.hasOwnProperty("isActiveTavernSpell") && currentCard["isActiveTavernSpell"] == true);
 }
 
 function getMostRecentPatch() {

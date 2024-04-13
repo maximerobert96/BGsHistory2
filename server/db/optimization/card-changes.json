@@ -68843,9 +68843,6 @@
           "armor": {
             "new": 16,
             "old": 20
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -68859,9 +68856,6 @@
           "armor": {
             "new": 18,
             "old": 15
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -68887,9 +68881,6 @@
           "armor": {
             "new": 16,
             "old": 14
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -68912,9 +68903,6 @@
             "new": 22,
             "old": 16
           },
-          "version": {
-            "new": "190416"
-          },
           "isBattlegroundsPoolMinion": {
             "new": true
           }
@@ -68934,9 +68922,6 @@
           "health": {
             "new": 44,
             "old": 32
-          },
-          "version": {
-            "new": 175913
           }
         },
         "oldVersion": 175913,
@@ -68950,9 +68935,6 @@
           "armor": {
             "new": 15,
             "old": 13
-          },
-          "version": {
-            "new": 178555
           }
         },
         "oldVersion": 178555,
@@ -68966,9 +68948,6 @@
           "armor": {
             "new": 7,
             "old": 5
-          },
-          "version": {
-            "new": 178555
           }
         },
         "oldVersion": 178555,
@@ -68982,9 +68961,6 @@
           "armor": {
             "new": 13,
             "old": 16
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -68998,9 +68974,6 @@
           "armor": {
             "new": 13,
             "old": 17
-          },
-          "version": {
-            "new": 178555
           }
         },
         "oldVersion": 178555,
@@ -69020,9 +68993,6 @@
           "armor": {
             "new": 15,
             "old": 18
-          },
-          "version": {
-            "new": "184727"
           }
         },
         "oldVersion": "184727",
@@ -69040,9 +69010,6 @@
           "techLevel": {
             "new": 2,
             "old": 3
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69060,9 +69027,6 @@
           "techLevel": {
             "new": 2,
             "old": 3
-          },
-          "version": {
-            "new": 174258
           }
         },
         "oldVersion": 174258,
@@ -69084,9 +69048,6 @@
           "techLevel": {
             "new": 3,
             "old": 4
-          },
-          "version": {
-            "new": "183876"
           }
         },
         "oldVersion": "183876",
@@ -69105,9 +69066,6 @@
             "new": 6,
             "old": 8
           },
-          "version": {
-            "new": 79904
-          },
           "techLevel": {
             "new": 3
           }
@@ -69123,9 +69081,6 @@
           "armor": {
             "new": 16,
             "old": 14
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69139,9 +69094,6 @@
           "armor": {
             "new": 13,
             "old": 16
-          },
-          "version": {
-            "new": 168788
           }
         },
         "oldVersion": 168788,
@@ -69155,9 +69107,6 @@
           "armor": {
             "new": 10,
             "old": 15
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -69171,9 +69120,6 @@
           "armor": {
             "new": 13,
             "old": 11
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69187,9 +69133,6 @@
           "armor": {
             "new": 14,
             "old": 10
-          },
-          "version": {
-            "new": "183876"
           }
         },
         "oldVersion": "183876",
@@ -69209,9 +69152,6 @@
           "armor": {
             "new": 14,
             "old": 18
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -69225,9 +69165,6 @@
           "armor": {
             "new": 14,
             "old": 8
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -69241,9 +69178,6 @@
           "text": {
             "new": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +5/+5 permanently.",
             "old": "[x]After a friendly\n<b>Deathrattle</b> minion dies,\ngive it +4/+4 permanently."
-          },
-          "version": {
-            "new": 148211
           }
         },
         "oldVersion": 148211,
@@ -69257,9 +69191,6 @@
           "text": {
             "new": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+6/+6 and <b>Divine Shield</b>.",
             "old": "[x]After each <b>Refresh</b>, give\na minion in the Tavern\n+4/+4 and <b>Divine Shield</b>."
-          },
-          "version": {
-            "new": "181554"
           }
         },
         "oldVersion": "181554",
@@ -69283,9 +69214,6 @@
           "techLevel": {
             "new": 3,
             "old": 2
-          },
-          "version": {
-            "new": "193128"
           }
         },
         "oldVersion": "193128",
@@ -69303,9 +69231,6 @@
           "techLevel": {
             "new": 3,
             "old": 2
-          },
-          "version": {
-            "new": "193128"
           }
         },
         "oldVersion": "193128",
@@ -69319,9 +69244,6 @@
           "armor": {
             "new": 12,
             "old": 10
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69332,19 +69254,6 @@
       {
         "changeType": "removal",
         "oldVersion": "190416"
-      },
-      {
-        "changeType": "change",
-        "changes": {
-          "version": {
-            "new": "190416"
-          },
-          "isBattlegroundsPoolMinion": {
-            "old": true
-          }
-        },
-        "oldVersion": "190416",
-        "newVersion": "194648"
       }
     ],
     "101345": [
@@ -69354,9 +69263,6 @@
           "armor": {
             "new": 8,
             "old": 5
-          },
-          "version": {
-            "new": 180614
           }
         },
         "oldVersion": 180614,
@@ -69370,9 +69276,6 @@
           "armor": {
             "new": 11,
             "old": 8
-          },
-          "version": {
-            "new": "184727"
           }
         },
         "oldVersion": "184727",
@@ -69392,9 +69295,6 @@
           "techLevel": {
             "new": 4,
             "old": 3
-          },
-          "version": {
-            "new": "193128"
           }
         },
         "oldVersion": "193128",
@@ -69408,9 +69308,6 @@
           "techLevel": {
             "new": 4,
             "old": 3
-          },
-          "version": {
-            "new": "193128"
           }
         },
         "oldVersion": "193128",
@@ -69424,9 +69321,6 @@
           "text": {
             "new": "[x]At the end of your turn,\ngive the left-most minion\nin your hand +8/+8 and\n<b>Divine Shield</b>.",
             "old": "[x]At the end of your turn,\ngive the left-most minion\nin your hand +6/+6 and\n<b>Divine Shield</b>."
-          },
-          "version": {
-            "new": 179020
           }
         },
         "oldVersion": 179020,
@@ -69440,9 +69334,6 @@
           "armor": {
             "new": 16,
             "old": 12
-          },
-          "version": {
-            "new": "190416"
           }
         },
         "oldVersion": "190416",
@@ -69453,19 +69344,6 @@
       {
         "changeType": "removal",
         "oldVersion": "191554"
-      },
-      {
-        "changeType": "change",
-        "changes": {
-          "version": {
-            "new": "191554"
-          },
-          "isBattlegroundsPoolMinion": {
-            "old": true
-          }
-        },
-        "oldVersion": "191554",
-        "newVersion": "194648"
       }
     ],
     "110400": [
@@ -69479,9 +69357,6 @@
           "text": {
             "new": "Get a copy of a non-Golden Murloc in your hand.",
             "old": "Get a copy of a Murloc in your hand."
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69495,9 +69370,6 @@
           "techLevel": {
             "new": 4,
             "old": 3
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69516,9 +69388,6 @@
             "new": "Choose a minion in the Tavern. Lock it in your hand for 1 turn and double its stats.",
             "old": "[x]<b>Freeze</b> a minion in the\nTavern. If it's <b>Frozen</b>\n at the end of this turn,\ndouble its stats."
           },
-          "version": {
-            "new": "193541"
-          },
           "targetingArrowText": {
             "new": "Lock it in your hand for 1 turn and double its stats."
           }
@@ -69534,9 +69403,6 @@
           "cost": {
             "new": 7,
             "old": 6
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69550,9 +69416,6 @@
           "techLevel": {
             "new": 5,
             "old": 3
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69574,9 +69437,6 @@
           "text": {
             "new": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain its stats.\n<i>(2 left!)</i>",
             "old": "[x]After you cast 3 spells,\nconsume a minion in the\nTavern to gain its stats.\n<i>(3 left!)</i>"
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69598,9 +69458,6 @@
           "text": {
             "new": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(2 left!)</i>",
             "old": "[x]After you cast 3 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(3 left!)</i>"
-          },
-          "version": {
-            "new": "193541"
           }
         },
         "oldVersion": "193541",
@@ -69616,10 +69473,6 @@
           "armor": {
             "new": 18,
             "old": 16
-          },
-          "version": {
-            "new": "194648",
-            "old": "191554"
           }
         },
         "oldVersion": "194648",
@@ -69633,9 +69486,6 @@
           "armor": {
             "new": 17,
             "old": 15
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69649,9 +69499,6 @@
           "armor": {
             "new": 14,
             "old": 10
-          },
-          "version": {
-            "new": 180614
           }
         },
         "oldVersion": 180614,
@@ -69665,9 +69512,6 @@
           "armor": {
             "new": 13,
             "old": 10
-          },
-          "version": {
-            "new": 175913
           }
         },
         "oldVersion": 175913,
@@ -69681,10 +69525,6 @@
           "armor": {
             "new": 16,
             "old": 18
-          },
-          "version": {
-            "new": "194648",
-            "old": "191554"
           }
         },
         "oldVersion": "194648",
@@ -69698,9 +69538,6 @@
           "armor": {
             "new": 10,
             "old": 7
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69714,9 +69551,6 @@
           "armor": {
             "new": 12,
             "old": 10
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69730,9 +69564,6 @@
           "armor": {
             "new": 13,
             "old": 15
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69746,9 +69577,6 @@
           "armor": {
             "new": 17,
             "old": 15
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69762,9 +69590,6 @@
           "armor": {
             "new": 13,
             "old": 15
-          },
-          "version": {
-            "new": "181554"
           }
         },
         "oldVersion": "181554",
@@ -69778,9 +69603,6 @@
           "armor": {
             "new": 10,
             "old": 12
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69794,10 +69616,6 @@
           "armor": {
             "new": 12,
             "old": 10
-          },
-          "version": {
-            "new": "194648",
-            "old": "191554"
           }
         },
         "oldVersion": "194648",
@@ -69811,10 +69629,6 @@
           "armor": {
             "new": 16,
             "old": 14
-          },
-          "version": {
-            "new": "194648",
-            "old": "183876"
           }
         },
         "oldVersion": "194648",
@@ -69828,9 +69642,6 @@
           "armor": {
             "new": 13,
             "old": 15
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -69844,9 +69655,6 @@
           "armor": {
             "new": 10,
             "old": 8
-          },
-          "version": {
-            "new": 174258
           }
         },
         "oldVersion": 174258,
@@ -69860,9 +69668,6 @@
           "armor": {
             "new": 18,
             "old": 20
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -69876,9 +69681,6 @@
           "armor": {
             "new": 15,
             "old": 13
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69892,9 +69694,6 @@
           "armor": {
             "new": 15,
             "old": 13
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -69908,9 +69707,6 @@
           "armor": {
             "new": 10,
             "old": 12
-          },
-          "version": {
-            "new": 174258
           }
         },
         "oldVersion": 174258,
@@ -69923,40 +69719,12 @@
       {
         "changeType": "removal",
         "oldVersion": "194648"
-      },
-      {
-        "changeType": "change",
-        "changes": {
-          "version": {
-            "new": "194648",
-            "old": "192412"
-          },
-          "battlegroundsHero": {
-            "old": true
-          }
-        },
-        "oldVersion": "194648",
-        "newVersion": "195635"
       }
     ],
     "79618": [
       {
         "changeType": "removal",
         "oldVersion": "194648"
-      },
-      {
-        "changeType": "change",
-        "changes": {
-          "version": {
-            "new": "194648",
-            "old": "192412"
-          },
-          "battlegroundsHero": {
-            "old": true
-          }
-        },
-        "oldVersion": "194648",
-        "newVersion": "195635"
       }
     ],
     "96865": [
@@ -70040,9 +69808,6 @@
           "armor": {
             "new": 5,
             "old": 6
-          },
-          "version": {
-            "new": "183876"
           }
         },
         "oldVersion": "183876",
@@ -70056,10 +69821,6 @@
           "armor": {
             "new": 16,
             "old": 14
-          },
-          "version": {
-            "new": "195316",
-            "old": 180614
           }
         },
         "oldVersion": "195316",
@@ -70073,9 +69834,6 @@
           "armor": {
             "new": 19,
             "old": 18
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -70107,9 +69865,6 @@
           "armor": {
             "new": 14,
             "old": 16
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -70123,10 +69878,6 @@
           "armor": {
             "new": 10,
             "old": 13
-          },
-          "version": {
-            "new": "194648",
-            "old": "191554"
           }
         },
         "oldVersion": "194648",
@@ -70176,9 +69927,6 @@
           "armor": {
             "new": 14,
             "old": 12
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -70210,10 +69958,6 @@
           "techLevel": {
             "new": 4,
             "old": 3
-          },
-          "version": {
-            "new": "194648",
-            "old": "183876"
           }
         },
         "oldVersion": "194648",
@@ -70235,10 +69979,6 @@
           "health": {
             "new": 8,
             "old": 6
-          },
-          "version": {
-            "new": "194648",
-            "old": 79904
           },
           "techLevel": {
             "new": 4,
@@ -70268,9 +70008,6 @@
           "armor": {
             "new": 14,
             "old": 12
-          },
-          "version": {
-            "new": "182995"
           }
         },
         "oldVersion": "182995",
@@ -70284,9 +70021,6 @@
           "armor": {
             "new": 19,
             "old": 17
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -70300,10 +70034,6 @@
           "armor": {
             "new": 15,
             "old": 12
-          },
-          "version": {
-            "new": "195316",
-            "old": "194648"
           }
         },
         "oldVersion": "195316",
@@ -70329,9 +70059,6 @@
           "armor": {
             "new": 13,
             "old": 15
-          },
-          "version": {
-            "new": "184727"
           }
         },
         "oldVersion": "184727",
@@ -70345,9 +70072,6 @@
           "armor": {
             "new": 10,
             "old": 8
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -70373,9 +70097,6 @@
           "text": {
             "new": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +4/+4.",
             "old": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +2/+2."
-          },
-          "version": {
-            "new": "181554"
           }
         },
         "oldVersion": "181554",
@@ -70389,9 +70110,6 @@
           "armor": {
             "new": 16,
             "old": 18
-          },
-          "version": {
-            "new": "191554"
           }
         },
         "oldVersion": "191554",
@@ -70413,9 +70131,6 @@
           "text": {
             "new": "While this is in your hand, after you play a Murloc, gain +2/+2.",
             "old": "While this is in your hand, after you play a Murloc, gain +3/+3."
-          },
-          "version": {
-            "new": 180614
           }
         },
         "oldVersion": 180614,
@@ -70437,9 +70152,6 @@
           "text": {
             "new": "While this is in your hand, after you play a Murloc, gain +4/+4.",
             "old": "While this is in your hand, after you play a Murloc, gain +6/+6."
-          },
-          "version": {
-            "new": 180614
           }
         },
         "oldVersion": 180614,
@@ -70461,9 +70173,6 @@
           "text": {
             "new": "After your hero takes damage, give your Demons +1/+1.",
             "old": "After your hero takes damage, give your other Demons +1/+1."
-          },
-          "version": {
-            "new": 174258
           }
         },
         "oldVersion": 174258,
@@ -70485,9 +70194,6 @@
           "text": {
             "new": "After your hero takes damage, give your Demons +2/+2.",
             "old": "After your hero takes damage, give your other Demons +2/+2."
-          },
-          "version": {
-            "new": 174258
           }
         },
         "oldVersion": 174258,
@@ -70498,6 +70204,12 @@
       {
         "changeType": "removal",
         "oldVersion": 168788
+      }
+    ],
+    "103652": [
+      {
+        "changeType": "returning",
+        "newVersion": "197064"
       }
     ],
     "104612": [
@@ -70511,9 +70223,6 @@
           "text": {
             "new": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+5.",
             "old": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +1/+5."
-          },
-          "version": {
-            "new": "193128"
           }
         },
         "oldVersion": "193128",
@@ -70531,9 +70240,6 @@
           "text": {
             "new": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +4/+10.",
             "old": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+10."
-          },
-          "version": {
-            "new": "193128"
           }
         },
         "oldVersion": "193128",
@@ -70547,10 +70253,6 @@
           "armor": {
             "new": 18,
             "old": 16
-          },
-          "version": {
-            "new": "194648",
-            "old": "190416"
           }
         },
         "oldVersion": "194648",
@@ -70564,9 +70266,6 @@
           "armor": {
             "new": 10,
             "old": 8
-          },
-          "version": {
-            "new": "190416"
           }
         },
         "oldVersion": "190416",
@@ -70592,9 +70291,6 @@
           "techLevel": {
             "new": 3,
             "old": 4
-          },
-          "version": {
-            "new": "190416"
           }
         },
         "oldVersion": "190416",
@@ -70620,9 +70316,6 @@
           "techLevel": {
             "new": 3,
             "old": 4
-          },
-          "version": {
-            "new": "190416"
           }
         },
         "oldVersion": "190416",
@@ -70648,10 +70341,6 @@
           "techLevel": {
             "new": 5,
             "old": 6
-          },
-          "version": {
-            "new": "194648",
-            "old": "193541"
           },
           "artist": {
             "new": "Joseph Weston"
@@ -70680,10 +70369,6 @@
           "techLevel": {
             "new": 5,
             "old": 6
-          },
-          "version": {
-            "new": "194648",
-            "old": "193541"
           }
         },
         "oldVersion": "194648",
