@@ -1348,7 +1348,7 @@
     "text": "Get a copy of a non-Golden Murloc in your hand.",
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ]
   },
   "110664": {

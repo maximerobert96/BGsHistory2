@@ -828,4 +828,20 @@ function removingSomeTavernSpells() {
     
 }
 
-removingSomeTavernSpells();
+// removingSomeTavernSpells();
+
+function addingTribeSpecificTSpells() {
+    let build = 193541;
+    addingSingleTribeToCard(build, 110411, "ELEMENTAL");
+    addingSingleTribeToCard(build, 110401, "BEAST");
+    addingSingleTribeToCard(build, 110412, "UNDEAD");
+    addingSingleTribeToCard(build, 110642, "QUILBOAR");
+    addingSingleTribeToCard(build, 110409, "DRAGON");
+    addingSingleTribeToCard(build, 110471, "PIRATE");
+    addingSingleTribeToCard(build, 110383, "MECHANICAL");
+    addingSingleTribeToCard(build, 110406, "NAGA");
+    addingSingleTribeToCard(build, 110407, "DEMON");
+    addingSingleTribeToCard(build, 110400, "MURLOC");
+}
+
+addingTribeSpecificTSpells();

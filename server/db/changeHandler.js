@@ -110,7 +110,12 @@ function updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFiel
         if(currentPatch < build) {
             continue;
         }
-        updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
+        try {
+            updateFieldsToCurrentCard(currentPatch, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
+        } catch (error) {
+            console.error(`card id: ${cardId}, current patch: ${currentPatch}`);
+        }
+        
 
     }
 }

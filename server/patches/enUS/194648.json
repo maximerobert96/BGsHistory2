@@ -825,7 +825,7 @@
     "type": "BATTLEGROUND_SPELL",
     "isActiveTavernSpell": true,
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ]
   },
   "110406": {
@@ -841,7 +841,7 @@
     "type": "BATTLEGROUND_SPELL",
     "isActiveTavernSpell": true,
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ]
   },
   "110411": {
@@ -858,7 +858,7 @@
     "targetingArrowText": "Lock it in your hand for 1 turn and double its stats.",
     "isActiveTavernSpell": true,
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ]
   },
   "110471": {
@@ -874,7 +874,7 @@
     "type": "BATTLEGROUND_SPELL",
     "isActiveTavernSpell": true,
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ]
   },
   "110631": {
