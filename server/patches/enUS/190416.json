@@ -2011,7 +2011,10 @@
     "techLevel": 1,
     "text": "Give a minion\n+4 Attack.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "100910": {
     "cardClass": "NEUTRAL",
@@ -2027,7 +2030,10 @@
     "techLevel": 5,
     "text": "<b>Discover</b> a new\nHero Power.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "100911": {
     "artist": "Susan Aniorte",
@@ -2042,7 +2048,10 @@
     "techLevel": 6,
     "text": "[x]Choose a minion.\n<b>Refresh</b> the Tavern\nwith minions of its type.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101028": {
     "artist": "Hideaki Takamura",
@@ -2479,7 +2488,10 @@
     "techLevel": 2,
     "text": "Gain 2 Gold next turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103785": {
     "cardClass": "NEUTRAL",
@@ -2492,7 +2504,10 @@
     "techLevel": 5,
     "text": "Set your Armor to 5.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103791": {
     "cardClass": "NEUTRAL",
@@ -2509,7 +2524,10 @@
     "techLevel": 1,
     "text": "Give a minion\n+3 Health and <b>Taunt</b>.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103793": {
     "artist": "Kleston Marques",
@@ -2523,7 +2541,10 @@
     "techLevel": 1,
     "text": "[x]Get a random\nTier 1 minion.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103796": {
     "cardClass": "NEUTRAL",
@@ -2540,7 +2561,10 @@
     "techLevel": 6,
     "text": "Give a minion\n<b>Divine Shield</b>.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103800": {
     "armor": 15,
@@ -2642,7 +2666,10 @@
     "techLevel": 4,
     "text": "Your <b>Battlecries</b> trigger twice until next turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104029": {
     "cardClass": "NEUTRAL",
@@ -2655,7 +2682,10 @@
     "techLevel": 2,
     "text": "Increase your maximum Gold by 1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104414": {
     "armor": 15,
@@ -2713,7 +2743,10 @@
     "techLevel": 1,
     "text": "Gain 1 Gold.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104438": {
     "cardClass": "NEUTRAL",
@@ -2726,7 +2759,10 @@
     "techLevel": 4,
     "text": "Replace all cards in\nthe Tavern with ones\nof a Tier higher.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104440": {
     "cardClass": "NEUTRAL",
@@ -2740,7 +2776,10 @@
     "techLevel": 3,
     "text": "Give a friendly minion \"At the end of your turn, gain +2/+2.\"",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104445": {
     "cardClass": "NEUTRAL",
@@ -2757,7 +2796,10 @@
     "techLevel": 4,
     "text": "Give a friendly minion +8/+8 and <b>Taunt</b>.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104446": {
     "cardClass": "NEUTRAL",
@@ -2770,7 +2812,10 @@
     "techLevel": 2,
     "text": "Your next three\n<b>Refreshes</b> cost (0).",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104448": {
     "cardClass": "NEUTRAL",
@@ -2783,7 +2828,10 @@
     "techLevel": 5,
     "text": "Make a random minion in the Tavern Golden.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104461": {
     "artist": "Gabriel Lopes",
@@ -2799,7 +2847,10 @@
     "techLevel": 4,
     "text": "Your <b>Deathrattles</b> trigger twice until\nnext turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104466": {
     "attack": 3,
@@ -2897,7 +2948,10 @@
     "techLevel": 3,
     "text": "Choose a minion. Give all minions that share a type with it +3/+2.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104494": {
     "artist": "Marta Vives Poch",
@@ -2911,7 +2965,10 @@
     "techLevel": 6,
     "text": "<b>Refresh</b> the Tavern\nwith Tavern spells.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104496": {
     "attack": 4,
@@ -2971,7 +3028,10 @@
     "techLevel": 1,
     "text": "Steal a random minion from the Tavern.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104504": {
     "attack": 2,
@@ -3061,7 +3121,10 @@
     "techLevel": 5,
     "text": "Spin the Wheel of Yogg-Saron.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104535": {
     "cardClass": "NEUTRAL",
@@ -3077,7 +3140,10 @@
     "techLevel": 5,
     "text": "<b>Discover</b> a Buddy.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104551": {
     "attack": 0,
@@ -3137,7 +3203,10 @@
     "techLevel": 2,
     "text": "Gain 1 Gold.\nThis costs Health to\nbuy instead of Gold.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104560": {
     "artist": "Kleston Marques",
@@ -3151,7 +3220,10 @@
     "techLevel": 5,
     "text": "<b>Start of Combat:</b> Set\na random enemy minion's Health to 1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104601": {
     "cardClass": "NEUTRAL",
@@ -3165,7 +3237,10 @@
     "techLevel": 6,
     "text": "Set a minion's stats to 20/20.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104607": {
     "attack": 3,
@@ -3648,7 +3723,10 @@
     "techLevel": 4,
     "text": "<b>Discover</b> a\n<b>Battlecry</b> minion.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105265": {
     "artist": "Vika Yarova",
@@ -3668,7 +3746,10 @@
     "techLevel": 4,
     "text": "<b>Discover</b> a\n<b>Deathrattle</b> minion.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105266": {
     "cardClass": "NEUTRAL",
@@ -3685,7 +3766,10 @@
     "techLevel": 5,
     "text": "Trigger a friendly minion's <b>Battlecry</b>.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105267": {
     "artist": "Valeria Styajkina",
@@ -3699,7 +3783,10 @@
     "techLevel": 2,
     "text": "If you win your next combat, gain 3 Gold.\nIf you tie, gain 1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105269": {
     "cardClass": "NEUTRAL",
@@ -3713,7 +3800,10 @@
     "techLevel": 2,
     "text": "Give a minion stats equal to your Tier.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105271": {
     "artist": "Inès (Ourka) Rotzinger",
@@ -3727,7 +3817,10 @@
     "techLevel": 4,
     "text": "Give a friendly minion of each type +3/+3.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -3740,7 +3833,10 @@
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +2/+2 this game.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105314": {
     "armor": 10,
@@ -4140,7 +4236,10 @@
     "techLevel": 3,
     "text": "Gain 3 Gold.\nNext turn, lose 2 Gold.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105664": {
     "cardClass": "NEUTRAL",
@@ -4154,7 +4253,10 @@
     "techLevel": 2,
     "text": "Choose a minion.\nGet a different minion of the same type.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105665": {
     "cardClass": "NEUTRAL",
@@ -4168,7 +4270,10 @@
     "techLevel": 3,
     "text": "Give a minion +5/+5 until next turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105667": {
     "cardClass": "NEUTRAL",
@@ -4185,7 +4290,10 @@
     "techLevel": 3,
     "text": "Give a minion +1/+2 and <b>Taunt</b>. If it already has <b>Taunt</b>, remove it.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105668": {
     "attack": 4,
@@ -4222,7 +4330,10 @@
     "techLevel": 4,
     "text": "[x]<b>Discover</b> a minion of\nyour most common type.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105671": {
     "attack": 8,
@@ -4526,7 +4637,10 @@
     "techLevel": 1,
     "text": "Give a minion +2/+2.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105852": {
     "attack": 2,
@@ -4605,7 +4719,10 @@
     "techLevel": 1,
     "text": "Give minions in the Tavern +1/+3.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105905": {
     "cardClass": "NEUTRAL",
@@ -4618,7 +4735,10 @@
     "techLevel": 4,
     "text": "Your end of turn effects trigger twice this turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "106195": {
     "attack": 0,
@@ -5071,7 +5191,10 @@
     "techLevel": 3,
     "text": "Give your minions +1/+1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "109232": {
     "artist": "Anzka Nguyen",
@@ -5085,7 +5208,10 @@
     "techLevel": 6,
     "text": "Give your minions +4/+4.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "109317": {
     "attack": 0,

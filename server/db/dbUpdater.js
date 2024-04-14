@@ -382,6 +382,7 @@ function addIsActiveTSpellField(){
                 let card = patchJson[cardId];
                 if(card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL"){
                     card.isActiveTavernSpell = true;
+                    card.associatedTribes = ["GENERAL"];
                 }
             }
             dbManager.saveJsonDBOfPatch(patchJson, patch);
@@ -390,5 +391,6 @@ function addIsActiveTSpellField(){
         console.error(error.message);  
     }
 }
+
 
 // addIsActiveTSpellField();

@@ -119,7 +119,10 @@
     "techLevel": 3,
     "text": "Choose a minion. Give all minions that share a type with it +2/+2.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104496": {
     "attack": 3,
@@ -373,7 +376,10 @@
     "techLevel": 4,
     "text": "Trigger a friendly minion's <b>Battlecry</b>.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105267": {
     "artist": "Valeria Styajkina",
@@ -387,7 +393,10 @@
     "techLevel": 3,
     "text": "If you win your next combat, gain 3 Gold.\nIf you tie, gain 1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -400,7 +409,10 @@
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +1/+2 this game.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105518": {
     "attack": 10,
@@ -462,7 +474,10 @@
     "techLevel": 3,
     "text": "Give a minion +7/+7 until next turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105669": {
     "cardClass": "NEUTRAL",
@@ -478,7 +493,10 @@
     "techLevel": 3,
     "text": "[x]<b>Discover</b> a minion of\nyour most common type.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105905": {
     "cardClass": "NEUTRAL",
@@ -491,7 +509,10 @@
     "techLevel": 5,
     "text": "Your end of turn effects trigger twice this turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "106484": {
     "attack": 6,
@@ -556,6 +577,9 @@
     "techLevel": 2,
     "text": "Give your minions +1/+1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   }
 }

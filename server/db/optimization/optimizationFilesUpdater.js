@@ -194,5 +194,13 @@ function convertToChangesArray(change){
 // ]
  
 
-createFullActiveCardsFile();
-createFullCardChangesFile();
+// createFullActiveCardsFile();
+// createFullCardChangesFile();
+
+function updateActiveCardsForPatch(patch) {
+    let activeCardsJson = dbManager.getJsonFromFile("./optimization/active-cards.json");
+    activeCardsJson[patch] = getOptimizedActiveCardsOfPatch(patch);
+    dbManager.saveJsonToFile("./optimization/active-cards.json", activeCardsJson);
+}
+
+updateActiveCardsForPatch(197064);

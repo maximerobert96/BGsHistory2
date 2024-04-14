@@ -1300,7 +1300,10 @@
     "techLevel": 5,
     "text": "Set your Armor to 5.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "103796": {
     "cardClass": "NEUTRAL",
@@ -1317,7 +1320,10 @@
     "techLevel": 6,
     "text": "Give a minion\n<b>Divine Shield</b>.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104440": {
     "cardClass": "NEUTRAL",
@@ -1331,7 +1337,10 @@
     "techLevel": 3,
     "text": "Give a friendly minion \"At the end of your turn, gain +2/+2.\"",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104496": {
     "attack": 5,
@@ -1393,7 +1402,10 @@
     "techLevel": 5,
     "text": "<b>Discover</b> a Buddy.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "104607": {
     "attack": 4,
@@ -1643,7 +1655,10 @@
     "techLevel": 2,
     "text": "Give a minion stats equal to your Tier.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -1656,7 +1671,10 @@
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +1/+2 this game.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105314": {
     "armor": 6,
@@ -1842,7 +1860,10 @@
     "techLevel": 4,
     "text": "Give a minion +6/+6 until next turn.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true
+    "isActiveTavernSpell": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105697": {
     "attack": 2,

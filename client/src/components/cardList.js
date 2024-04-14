@@ -171,27 +171,27 @@ function FilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
 function CategoryTable({ cards, patchId }) {
     let heroes = cards.filter((card) =>
         card.type === "HERO" );
-    let minions = cards.filter((card) =>
-        card.type === "MINION");
+    let minionsOrTSpells = cards.filter((card) =>
+        card.type === "MINION" || card.type === "BATTLEGROUND_SPELL");
     return (
         <div>
             <Heroes cards={heroes} patchId={patchId} />
-            <Minions cards={minions} patchId={patchId} />
+            <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} />
         </div>
     );
 }
 
 function Heroes({ cards, patchId }) {
-    
+    let alphSortedCards = cards.sort((a,b) => a.name > b.name ? 1 : -1 );
     return (
         <div>
             <h1>Heroes</h1>
-            <CardRows cards={cards} patchId={patchId} />
+            <CardRows cards={alphSortedCards} patchId={patchId} />
         </div>
     );
 }
 
-function Minions({ cards, patchId }) {
+function MinionsOrTSpells({ cards, patchId }) {
     
     let tierTables = [];
     for(let i = 1; i <= 6; ++i ) {
@@ -200,7 +200,6 @@ function Minions({ cards, patchId }) {
     
     return (
         <div>
-            <h1>Minions</h1>
             {tierTables}
         </div>
     );
@@ -208,12 +207,19 @@ function Minions({ cards, patchId }) {
 
 
 function Tier({ tier, cards, patchId }) {
-    let minionsOfTier = cards.filter((card) =>
+    let cardsOfTier = cards.filter((card) =>
         card.techLevel === tier);
+    let minions = cardsOfTier.filter((card) => card.type === "MINION").sort((a,b) => 
+        a.name > b.name ? 1 : -1);
+    let tSpells = cardsOfTier.filter((card) => card.type === "BATTLEGROUND_SPELL").sort((a,b) => 
+        a.name > b.name ? 1 : -1);
+    
+    let minionsAndSpellsOfTier = minions.concat(tSpells);
+        
     return(
         <div>
-            <h2>Tier {tier}</h2>
-            <CardRows cards={minionsOfTier} patchId={patchId} />
+            <h1>Tier {tier}</h1>
+            <CardRows cards={minionsAndSpellsOfTier} patchId={patchId} />
         </div>
     );
 }
@@ -222,8 +228,7 @@ export function CardRows({ cards, patchId }) {
 
 
     let cardRows = [];
-    cards.sort((a,b) => a.name > b.name ? 1 : -1 )
-        .forEach((card) => {
+    cards.forEach((card) => {
             let cardRow;
             cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
                     <HoverImage card={card} key={card.dbfId}/>

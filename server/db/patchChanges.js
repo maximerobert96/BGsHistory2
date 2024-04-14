@@ -814,3 +814,18 @@ function removingOldCardsFrom197064(){
 // addNewChange(197064, 56112, undefined, ["isBattlegroundsPoolMinion"]); 
 
 // addNewChange(197064, 103652, {"isBattlegroundsPoolMinion": true}); // annoy-o-tron added
+
+function removingSomeTavernSpells() {
+    let build = 197064;
+
+    // removing cards
+    addNewChange(build, 104534, undefined, ["isActiveTavernSpell"]); 
+    addNewChange(build, 110400, undefined, ["isActiveTavernSpell"]); 
+    addNewChange(build, 104535, undefined, ["isActiveTavernSpell"]); 
+    addNewChange(build, 104461, undefined, ["isActiveTavernSpell"]); 
+    addNewChange(build, 105635, undefined, ["isActiveTavernSpell"]); 
+    addNewChange(build, 104446, undefined, ["isActiveTavernSpell"]); 
+    
+}
+
+removingSomeTavernSpells();

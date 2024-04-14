@@ -1125,6 +1125,72 @@
     ],
     "isBattlegroundsPoolMinion": true
   },
+  "104446": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 104446,
+    "id": "BG28_827",
+    "name": "Leaf Through the Pages",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 2,
+    "text": "Your next three\n<b>Refreshes</b> cost (0).",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104461": {
+    "artist": "Gabriel Lopes",
+    "cost": 3,
+    "dbfId": 104461,
+    "id": "BG28_843",
+    "name": "Titus' Tribute",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 4,
+    "text": "Your <b>Deathrattles</b> trigger twice until\nnext turn.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104534": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 104534,
+    "id": "BG28_870",
+    "name": "Jaws of Fate",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Spin the Wheel of Yogg-Saron.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104535": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 104535,
+    "id": "BG28_871",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Buddy Up",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "<b>Discover</b> a Buddy.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "104612": {
     "attack": 5,
     "battlegroundsPremiumDbfId": 104613,
@@ -1209,6 +1275,21 @@
       "GENERAL"
     ]
   },
+  "105635": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 105635,
+    "id": "BG28_513",
+    "name": "Reckless Investment",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 3,
+    "text": "Gain 3 Gold.\nNext turn, lose 2 Gold.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "107939": {
     "attack": 3,
     "battlegroundsPremiumDbfId": 107940,
@@ -1254,6 +1335,21 @@
     "techLevel": 3,
     "text": "[x]Whenever you cast a\nTavern spell, Elementals\nin the Tavern have +2/+2\nthis game.",
     "type": "MINION"
+  },
+  "110400": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 110400,
+    "id": "BG28_601",
+    "name": "Cloning Conch",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Get a copy of a non-Golden Murloc in your hand.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "110664": {
     "attack": 2,
