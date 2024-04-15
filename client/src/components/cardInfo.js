@@ -47,7 +47,11 @@ export function CardInfo({ card, patch }) {
         case "HERO":
             return (<HeroInfo card={card} patch={patch} />);
         case "HERO_POWER":
-            return (<HeroPowerInfo card={card} patch={patch} />)
+            return (<HeroPowerInfo card={card} patch={patch} />);
+        case "SPELL":
+            return (<SpellInfo card={card} patch={patch} />);
+        case "BATTLEGROUND_SPELL":
+            return (<TavernSpellInfo card={card} patch={patch} />);
         default: 
             return(<p>help</p>);
 
@@ -155,6 +159,80 @@ function HeroPowerInfo({card, patch}) {
                 <RelatedCards card={card} patch={patch}/>
                 <CardPools card={card} patch={patch}/>
             </>);
+}
+
+function TavernSpellInfo({ card, patch }) {
+    let cardText;
+
+    if(card.hasOwnProperty("text")) {
+        cardText = <><br />{parse(card.text)}</>;
+    }
+    let races = getElementsOfProperty(card, "races");
+    let tribes = getElementsOfProperty(card, "associatedTribes");
+    
+    let racesHtml;
+    if(races.length === 1) {
+        racesHtml = <><br />Race: {races}</>
+    } else if (races.length > 1) {
+        racesHtml = <><br />Races: {races}</>
+    }
+
+    let tribesHtml;
+    if(tribes.length === 1) {
+        tribesHtml = <><br />Tribe: {tribes}</>
+    } else if (tribes.length > 1) {
+        tribesHtml = <><br />Tribes: {tribes}</>
+    }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+    
+
+    let basicInfo = <>{card.cost} cost tavern spell on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
+        
+    return (
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
+    </div>);
+}
+
+function SpellInfo({ card, patch }) {
+    let cardText;
+
+    if(card.hasOwnProperty("text")) {
+        cardText = <><br />{parse(card.text)}</>;
+    }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+    
+
+    let basicInfo = <>{cardText}</>;
+        
+    return (
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
+    </div>);
 }
 
 function HeroPowerOfHeroInfo({ card, patch }) {

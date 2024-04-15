@@ -72,6 +72,7 @@ function addCustomFields(card, cardsInPatch){
     let cardWithCustomFields = card;
     let cardsArray = Object.values(cardsInPatch);
 
+    // if an old version of the card exists
     if(mapping.cards.hasOwnProperty(card.dbfId)){
         let oldVersion = {};
         try {
@@ -109,12 +110,12 @@ function combineVersions(oldVersion, newVersion) {
 
 function addTribes(card) {
         // ignore cards that are not active
-    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero"))){
+    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero") || (card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL"))){
         return card;
     }
 
     // ALL becomes GENERAL, others with card types keep them as tribes, and the
-    // rest become GENERAL
+    // rest becomes GENERAL
     if (card.hasOwnProperty("races") && card.races.toString() === ["ALL"].toString()) {
         card.associatedTribes = ["GENERAL"];
     } else if (card.hasOwnProperty("races")) {
