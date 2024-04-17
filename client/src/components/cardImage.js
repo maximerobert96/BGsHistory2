@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 const CardImage = ({ card }) => {
-  const [imageSrc, setImageSrc] = useState(`/cards/en_US/${card.version}/${card.dbfId}.png`);
+  const [imageSrc, setImageSrc] = useState(null);
+
+  useEffect( () => {
+    setImageSrc(`/cards/en_US/${card.version}/${card.dbfId}.png`);
+  }, [card]);
 
   // const generatePlaceholderImage = async (card) => {
 

@@ -52,6 +52,7 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
             let jsonId = currentVersion.id;
             downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden, jsonId);
             
+            
 
             mapping.cards[id] = [ currentPatchId ];
             mapping.patches[currentPatchId].push(id);
@@ -86,10 +87,18 @@ function addCustomFields(card, cardsInPatch){
 
     } else {
         cardWithCustomFields = addTribes(cardWithCustomFields);
+        cardWithCustomFields = addMisc(cardWithCustomFields);
         cardWithCustomFields = addTokens(cardWithCustomFields, cardsArray);
     }
 
     return cardWithCustomFields;
+}
+
+function addMisc(card) {
+    if((card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL")) {
+        card.isActiveTavernSpell = true;
+    }
+    return card;
 }
 
 function combineVersions(oldVersion, newVersion) {
