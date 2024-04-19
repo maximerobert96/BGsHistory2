@@ -70375,5 +70375,3399 @@
         "newVersion": "197064"
       }
     ]
+  },
+  "198037": {
+    "57340": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          },
+          "set": {
+            "new": "KARA",
+            "old": "BATTLEGROUNDS"
+          },
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "battlegroundsNormalDbfId": {
+            "new": 108851,
+            "old": 39481
+          }
+        },
+        "oldVersion": 35747,
+        "newVersion": 198037
+      }
+    ],
+    "58022": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 0,
+            "old": 1
+          },
+          "referencedTags": {
+            "new": [
+              "SECRET"
+            ],
+            "old": [
+              "DISCOVER"
+            ]
+          },
+          "text": {
+            "new": "Choose a <b>Secret</b>.\nPut it into the battlefield.",
+            "old": "<b>Discover</b> a <b>Secret</b>.\nPut it into the battlefield."
+          }
+        },
+        "oldVersion": 86601,
+        "newVersion": 198037
+      }
+    ],
+    "59399": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Passive.</b> Start with\n30 extra Health.",
+            "old": "[x]<b>Passive</b>\nStart with 60 Health \ninstead of 30."
+          }
+        },
+        "oldVersion": 168788,
+        "newVersion": 198037
+      }
+    ],
+    "59661": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cardClass": {
+            "new": "NEUTRAL",
+            "old": "WARLOCK"
+          },
+          "text": {
+            "new": "After a friendly Demon dies, deal 3 damage to a random enemy minion, twice.",
+            "old": "After a friendly Demon dies, deal 3 damage to a random enemy minion twice."
+          },
+          "techLevel": {
+            "new": 3
+          }
+        },
+        "oldVersion": 86601,
+        "newVersion": 198037
+      }
+    ],
+    "59664": [
+      {
+        "changeType": "change",
+        "changes": {
+          "races": {
+            "new": [
+              "MECHANICAL",
+              "BEAST"
+            ],
+            "old": [
+              "MECHANICAL"
+            ]
+          }
+        },
+        "oldVersion": 35747,
+        "newVersion": 198037
+      }
+    ],
+    "59679": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]After you play a Demon,\ndeal 1 damage to your hero\nand gain +2/+1, twice.",
+            "old": "After you play a Demon, deal 1 damage to your hero and gain +4/+2."
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "59891": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Passive</b>\nSkip your first two turns,\nthen <b>Discover</b> two minions\nfrom Tier 3.",
+            "old": "[x]<b>Passive</b>\nSkip your first two turns.\nStart with two minions\nfrom Tier 3."
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "59935": [
+      {
+        "changeType": "removal",
+        "oldVersion": "187190"
+      }
+    ],
+    "59937": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "59955": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 3,
+            "old": 2
+          },
+          "text": {
+            "new": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +3/+3.",
+            "old": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +3/+2."
+          }
+        },
+        "oldVersion": "190145",
+        "newVersion": 198037
+      }
+    ],
+    "59956": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +6/+6.",
+            "old": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +6/+4."
+          }
+        },
+        "oldVersion": "190145",
+        "newVersion": 198037
+      }
+    ],
+    "59968": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Start of Combat:</b> Deal 1\ndamage for each friendly\nDragon to a random\nenemy minion.",
+            "old": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion."
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "60036": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190145"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 3
+          },
+          "cost": {
+            "new": 5,
+            "old": 8
+          },
+          "health": {
+            "new": 4,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          },
+          "text": {
+            "new": "Whenever you summon a Beast, give it +4/+4.",
+            "old": "Whenever you summon a Beast, give it +3/+3."
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "190145",
+        "newVersion": 198037
+      }
+    ],
+    "60038": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "cost": {
+            "new": 5,
+            "old": 6
+          },
+          "health": {
+            "new": 8,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          },
+          "text": {
+            "new": "Whenever you summon a Beast, give it +8/+8.",
+            "old": "Whenever you summon a Beast, give it +6/+6."
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "60122": [
+      {
+        "changeType": "change",
+        "changes": {
+          "races": {
+            "new": [
+              "MECHANICAL",
+              "BEAST"
+            ],
+            "old": [
+              "MECHANICAL"
+            ]
+          }
+        },
+        "oldVersion": 62331,
+        "newVersion": 198037
+      }
+    ],
+    "60218": [
+      {
+        "changeType": "change",
+        "changes": {
+          "collectionText": {
+            "new": "[x]<b>Passive.</b> After you buy\n4 <b>Battlecry</b> minions, get\n'Brann Bronzebeard'.\n<i>({0} left!)</i>",
+            "old": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, get\n'Brann Bronzebeard'.\n<i>({0} left!)</i>"
+          },
+          "text": {
+            "new": "[x]<b>Passive.</b> After you buy\n4 <b>Battlecry</b> minions, get\n'Brann Bronzebeard'.\n<i>(Once per game.)</i>",
+            "old": "[x]<b>Passive.</b> After you buy\n5 <b>Battlecry</b> minions, get\n'Brann Bronzebeard'.\n<i>(Once per game.)</i>"
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "60378": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Replace a card with a\n random one of the same\nTier. <i>(Twice per turn.)</i>",
+            "old": "[x]Replace a minion with a\n random one of the same\nTier. <i>(Twice per turn.)</i>"
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "60561": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "60626": [
+      {
+        "changeType": "removal",
+        "oldVersion": 152904
+      }
+    ],
+    "60642": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Start of Combat:</b> Deal 1\ndamage for each friendly\nDragon to a random\nenemy minion, twice.",
+            "old": "[x]<b>Start of Combat:</b> Deal\n1 damage per friendly\nDragon to one random\nenemy minion twice."
+          }
+        },
+        "oldVersion": 145077,
+        "newVersion": 198037
+      }
+    ],
+    "60669": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Battlecry:</b> Get a plain\ncopy of a minion from\nyour last opponent's\nwarband, twice.",
+            "old": "[x]<b>Battlecry:</b> Get a plain\ncopy of a minion from\nyour last opponent's\nwarband twice."
+          }
+        },
+        "oldVersion": 179020,
+        "newVersion": 198037
+      }
+    ],
+    "60671": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Deathrattle:</b> Give this\nminion's Attack to a random\nfriendly minion, twice.",
+            "old": "[x]<b>Deathrattle:</b> Give this\nminion's Attack to a random\nfriendly minion twice."
+          }
+        },
+        "oldVersion": 39954,
+        "newVersion": 198037
+      }
+    ],
+    "61029": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cardClass": {
+            "new": "NEUTRAL",
+            "old": "MAGE"
+          },
+          "cost": {
+            "new": 1,
+            "old": 3
+          }
+        },
+        "oldVersion": 162867,
+        "newVersion": 198037
+      }
+    ],
+    "61032": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 3
+          }
+        },
+        "oldVersion": 162867,
+        "newVersion": 198037
+      }
+    ],
+    "61053": [
+      {
+        "changeType": "removal",
+        "oldVersion": 174258
+      }
+    ],
+    "61055": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "61060": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 1,
+            "old": 3
+          },
+          "health": {
+            "new": 7,
+            "old": 6
+          },
+          "text": {
+            "new": "<b>Taunt</b>\nAfter this survives damage, your left-most minion attacks immediately.",
+            "old": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately."
+          }
+        },
+        "oldVersion": 162867,
+        "newVersion": 198037
+      }
+    ],
+    "61488": [
+      {
+        "changeType": "removal",
+        "oldVersion": "194648"
+      }
+    ],
+    "61989": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 6,
+            "old": 5
+          },
+          "artist": {
+            "new": "Rafael Zanchetin"
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "62189": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Can't attack.\nAfter an adjacent minion\nattacks, deal 2 damage to\n   an enemy minion, twice.",
+            "old": "[x]Can't attack.\nAfter an adjacent minion\nattacks, deal 2 damage to\n   an enemy minion twice."
+          }
+        },
+        "oldVersion": 49534,
+        "newVersion": 198037
+      }
+    ],
+    "62224": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 6,
+            "old": 5
+          },
+          "artist": {
+            "new": "Rafael Zanchetin"
+          }
+        },
+        "oldVersion": 154203,
+        "newVersion": 198037
+      }
+    ],
+    "62230": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 5
+          },
+          "text": {
+            "new": "After this attacks, trigger your left-most <b>Deathrattle</b>.",
+            "old": "[x]After this attacks,\ntrigger another friendly\nminion's <b>Deathrattle</b>."
+          }
+        },
+        "oldVersion": 93849,
+        "newVersion": 198037
+      }
+    ],
+    "62231": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 10
+          },
+          "text": {
+            "new": "After this attacks, trigger your left-most <b>Deathrattle</b> twice.",
+            "old": "[x]After this attacks, trigger\nanother friendly minion's\n<b>Deathrattle</b> twice."
+          },
+          "techLevel": {
+            "new": 3
+          }
+        },
+        "oldVersion": 93849,
+        "newVersion": 198037
+      }
+    ],
+    "62267": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Remove a friendly\nminion. <b>Discover</b> one\nfrom a Tier lower to get.",
+            "old": "[x]Remove a friendly minion.\nChoose one of two from\na Tier lower to keep."
+          },
+          "referencedTags": {
+            "new": [
+              "DISCOVER"
+            ]
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "63487": [
+      {
+        "changeType": "removal",
+        "oldVersion": "181554"
+      }
+    ],
+    "63782": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 6
+          },
+          "health": {
+            "new": 14,
+            "old": 12
+          },
+          "text": {
+            "new": "<b>Taunt</b>\nAfter this survives damage, your left-most minion attacks immediately.",
+            "old": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately."
+          }
+        },
+        "oldVersion": 149417,
+        "newVersion": 198037
+      }
+    ],
+    "64038": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 2
+          },
+          "cost": {
+            "new": 2,
+            "old": 3
+          },
+          "health": {
+            "new": 3,
+            "old": 2
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 1
+          },
+          "text": {
+            "new": "[x]When you sell this,\nget a 3/3 Elemental.",
+            "old": "[x]When you sell this,\nget a 2/2 Elemental."
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "64040": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 2
+          },
+          "cost": {
+            "new": 1,
+            "old": 3
+          },
+          "health": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": 60352,
+        "newVersion": 198037
+      }
+    ],
+    "64041": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 4
+          },
+          "cost": {
+            "new": 2,
+            "old": 3
+          },
+          "health": {
+            "new": 6,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 1
+          },
+          "text": {
+            "new": "[x]When you sell this,\nget two 3/3 Elementals.",
+            "old": "[x]When you sell this,\nget two 2/2 Elementals."
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "64054": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": 198037
+      }
+    ],
+    "64055": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "194648",
+        "newVersion": 198037
+      }
+    ],
+    "64056": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 2
+          },
+          "cost": {
+            "new": 2,
+            "old": 3
+          },
+          "health": {
+            "new": 2,
+            "old": 5
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 3
+          },
+          "text": {
+            "new": "After you play an Elemental, give a friendly Elemental other than it +1/+1.",
+            "old": "After you play an Elemental, give a friendly Elemental other than it +1/+2."
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "64058": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 4
+          },
+          "health": {
+            "new": 4,
+            "old": 10
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 3
+          },
+          "text": {
+            "new": "After you play an Elemental, give a friendly Elemental other than it +2/+2.",
+            "old": "After you play an Elemental, give a friendly Elemental other than it +2/+4."
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "64296": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 1,
+            "old": 4
+          },
+          "mechanics": {
+            "new": [
+              "TRIGGER_VISUAL"
+            ],
+            "old": [
+              "TAUNT",
+              "TRIGGER_VISUAL"
+            ]
+          },
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "text": {
+            "new": "After you play an Elemental, gain +1 Health.",
+            "old": "<b>Taunt</b>. After you play an Elemental, gain +1 Health."
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "64300": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 2,
+            "old": 8
+          },
+          "mechanics": {
+            "new": [
+              "TRIGGER_VISUAL"
+            ],
+            "old": [
+              "TAUNT",
+              "TRIGGER_VISUAL"
+            ]
+          },
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "text": {
+            "new": "After you play an Elemental, gain +2 Health.",
+            "old": "<b>Taunt</b>. After you play an Elemental, gain +2 Health."
+          }
+        },
+        "oldVersion": 175913,
+        "newVersion": 198037
+      }
+    ],
+    "67493": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 7
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "70158": [
+      {
+        "changeType": "removal",
+        "oldVersion": "181554"
+      }
+    ],
+    "70790": [
+      {
+        "changeType": "removal",
+        "oldVersion": 91456
+      }
+    ],
+    "72061": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 3
+          },
+          "cost": {
+            "new": 2,
+            "old": 1
+          },
+          "text": {
+            "new": "Whenever this gains Attack, gain +1 Health.",
+            "old": "[x]After you upgrade the\nTavern, add a random\nPirate to it."
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          },
+          "race": {
+            "new": "PIRATE"
+          },
+          "races": {
+            "new": [
+              "PIRATE"
+            ]
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "72062": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "72073": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 5,
+            "old": 3
+          },
+          "cost": {
+            "new": 5,
+            "old": 4
+          },
+          "health": {
+            "new": 4,
+            "old": 3
+          },
+          "text": {
+            "new": "<b>Start of Combat:</b> Give your other Dragons +3/+3.",
+            "old": "[x]<b>Start of Combat:</b> Give\nadjacent minions +1/+1\n  for each friendly Dragon."
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "72389": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 6
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "72391": [
+      {
+        "changeType": "removal",
+        "oldVersion": "184727"
+      }
+    ],
+    "72922": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\nto another friendly minion,\ntwice.",
+            "old": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\nto another friendly minion\ntwice."
+          }
+        },
+        "oldVersion": 148211,
+        "newVersion": 198037
+      }
+    ],
+    "73452": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 10,
+            "old": 6
+          },
+          "health": {
+            "new": 8,
+            "old": 6
+          },
+          "text": {
+            "new": "<b>Start of Combat:</b> Give your other Dragons +6/+6.",
+            "old": "[x]<b>Start of Combat:</b> Give\nadjacent minions +2/+2\n  for each friendly Dragon."
+          },
+          "techLevel": {
+            "new": 4
+          }
+        },
+        "oldVersion": 128654,
+        "newVersion": 198037
+      }
+    ],
+    "73940": [
+      {
+        "changeType": "removal",
+        "oldVersion": "195316"
+      }
+    ],
+    "74899": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 6
+          },
+          "cost": {
+            "new": 2,
+            "old": 1
+          },
+          "text": {
+            "new": "Whenever this gains Attack, gain +2 Health.",
+            "old": "[x]After you upgrade the\nTavern, add two random\nPirates to it."
+          },
+          "race": {
+            "new": "PIRATE"
+          },
+          "races": {
+            "new": [
+              "PIRATE"
+            ]
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "74906": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Avenge (2):</b> Deal 5 damage\nto the highest Health\nenemy minion, twice.",
+            "old": "[x]<b>Avenge (2):</b> Deal 5 damage\nto the highest Health\nenemy minion twice."
+          },
+          "techLevel": {
+            "new": 4
+          }
+        },
+        "oldVersion": 126451,
+        "newVersion": 198037
+      }
+    ],
+    "75141": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 6
+          }
+        },
+        "oldVersion": 179020,
+        "newVersion": 198037
+      }
+    ],
+    "75180": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "78112": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]After you buy a card,\nyour next two\n<b>Refreshes</b> cost (0).",
+            "old": "[x]After you buy a card,\nyour next two\n<b>Refreshes</b> costs (0)."
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "80738": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "80740": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 2
+          },
+          "health": {
+            "new": 3,
+            "old": 1
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "80741": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      }
+    ],
+    "80742": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]<b>Spellcraft:</b> Give a minion\n+2 Health and <b>Taunt</b>\nuntil next turn.",
+            "old": "[x]<b>Spellcraft:</b> Give a minion\n+4 Health and <b>Taunt</b>\nuntil next turn."
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "80752": [
+      {
+        "changeType": "removal",
+        "oldVersion": 137922
+      }
+    ],
+    "80754": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "80760": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]<b>Spellcraft:</b> Give a minion\n+4 Health and <b>Taunt</b>\nuntil next turn.",
+            "old": "[x]<b>Spellcraft:</b> Give a minion\n+8 Health and <b>Taunt</b>\nuntil next turn."
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "80774": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]After you spend 5 Gold,\nplay a <b>Blood Gem</b> on four\nfriendly Quilboar, twice.\n<i>(5 Gold left!)</i>",
+            "old": "[x]After you spend 5 Gold,\nplay a <b>Blood Gem</b> on four\nfriendly Quilboar twice.\n<i>(5 Gold left!)</i>"
+          }
+        },
+        "oldVersion": 139522,
+        "newVersion": 198037
+      }
+    ],
+    "82646": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 4
+          },
+          "health": {
+            "new": 6,
+            "old": 2
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 198037
+      }
+    ],
+    "83988": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Give a minion +2 Health and <b>Taunt</b> until next turn.",
+            "old": "Give a minion +4 Health and <b>Taunt</b> until next turn."
+          },
+          "spellSchool": {
+            "new": "SPELLCRAFT"
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "83991": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Give a minion +4 Health and <b>Taunt</b> until next turn.",
+            "old": "Give a minion +8 Health and <b>Taunt</b> until next turn."
+          },
+          "spellSchool": {
+            "new": "SPELLCRAFT"
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "86783": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      }
+    ],
+    "90425": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "92305": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      }
+    ],
+    "92397": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "92399": [
+      {
+        "changeType": "removal",
+        "oldVersion": 180614
+      }
+    ],
+    "92410": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      }
+    ],
+    "92413": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "92960": [
+      {
+        "changeType": "removal",
+        "oldVersion": "182995"
+      }
+    ],
+    "93382": [
+      {
+        "changeType": "removal",
+        "oldVersion": "181554"
+      }
+    ],
+    "95293": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "96703": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "96760": [
+      {
+        "changeType": "removal",
+        "oldVersion": 162867
+      }
+    ],
+    "96776": [
+      {
+        "changeType": "removal",
+        "oldVersion": "194648"
+      }
+    ],
+    "96865": [
+      {
+        "changeType": "removal",
+        "oldVersion": "195635"
+      }
+    ],
+    "97422": [
+      {
+        "changeType": "removal",
+        "oldVersion": 133923
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "id": {
+            "new": "BG_ICC_807",
+            "old": "ICC_807"
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": 133923,
+        "newVersion": 198037
+      }
+    ],
+    "97444": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 7
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "97490": [
+      {
+        "changeType": "removal",
+        "oldVersion": 154203
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "cardClass": {
+            "new": "NEUTRAL"
+          },
+          "elite": {
+            "new": true
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": 154203,
+        "newVersion": 198037
+      }
+    ],
+    "97537": [
+      {
+        "changeType": "removal",
+        "oldVersion": 162867
+      }
+    ],
+    "97553": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "97580": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 4
+          },
+          "cost": {
+            "new": 1,
+            "old": 3
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": 150659,
+        "newVersion": 198037
+      }
+    ],
+    "98501": [
+      {
+        "changeType": "removal",
+        "oldVersion": 174258
+      }
+    ],
+    "98816": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 10,
+            "old": 12
+          },
+          "cost": {
+            "new": 5,
+            "old": 6
+          },
+          "health": {
+            "new": 12,
+            "old": 14
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "98824": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      }
+    ],
+    "98829": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": 178555,
+        "newVersion": 198037
+      }
+    ],
+    "98830": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": 178555,
+        "newVersion": 198037
+      }
+    ],
+    "98831": [
+      {
+        "changeType": "removal",
+        "oldVersion": 174258
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "referencedTags": {
+            "new": [
+              "TAUNT"
+            ]
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "98869": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 5,
+            "old": 6
+          },
+          "cost": {
+            "new": 5,
+            "old": 6
+          },
+          "health": {
+            "new": 6,
+            "old": 7
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "98939": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "99011": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "99012": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "99199": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 6
+          },
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "187190",
+        "newVersion": 198037
+      }
+    ],
+    "99220": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 12
+          },
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "187190",
+        "newVersion": 198037
+      }
+    ],
+    "99523": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      }
+    ],
+    "100026": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 3
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Give your\nother Dragons +3/+1.",
+            "old": "<b>Battlecry:</b> Give your\nother Dragons +2/+1."
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "100029": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Give your\nother Dragons +6/+2.",
+            "old": "<b>Battlecry:</b> Give your\nother Dragons +4/+2."
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "100138": [
+      {
+        "changeType": "removal",
+        "oldVersion": 174258
+      }
+    ],
+    "100601": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "100930": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "101103": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 4,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "101104": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 8,
+            "old": 12
+          },
+          "techLevel": {
+            "new": 1,
+            "old": 2
+          },
+          "text": {
+            "new": "At the start of your turn, deal 1 damage\nto your hero twice.",
+            "old": "At the start of your turn, deal 1 damage\nto your hero."
+          }
+        },
+        "oldVersion": 174258,
+        "newVersion": 198037
+      }
+    ],
+    "101114": [
+      {
+        "changeType": "removal",
+        "oldVersion": "181554"
+      }
+    ],
+    "101234": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "101235": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "101345": [
+      {
+        "changeType": "removal",
+        "oldVersion": "194648"
+      }
+    ],
+    "101594": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 3
+          },
+          "cost": {
+            "new": 5,
+            "old": 4
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Play 2\n<b>Blood Gems</b> on all your other minions.",
+            "old": "<b>Battlecry:</b> Play a <b>Blood Gem</b> on all your other Quilboar."
+          },
+          "isBattlegroundsPoolMinion": {
+            "new": true
+          }
+        },
+        "oldVersion": 179020,
+        "newVersion": 198037
+      }
+    ],
+    "101595": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "cost": {
+            "new": 5,
+            "old": 4
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Play 4\n<b>Blood Gems</b> on all your other minions.",
+            "old": "<b>Battlecry:</b> Play 2 <b>Blood Gems</b> on all your other Quilboar."
+          }
+        },
+        "oldVersion": 168788,
+        "newVersion": 198037
+      }
+    ],
+    "103592": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Whenever this attacks, deal damage equal to its Attack to another random enemy minion, twice.",
+            "old": "Whenever this attacks, deal damage equal to its Attack to another random enemy minion twice."
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": 198037
+      }
+    ],
+    "103619": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "103620": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "103668": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "103674": [
+      {
+        "changeType": "removal",
+        "oldVersion": "184727"
+      }
+    ],
+    "103676": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "103677": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "103684": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Battlecry: Consume</b> 3 minions in the Tavern.",
+            "old": "<b>Battlecry:</b> Consume 3 minions in the Tavern to gain their stats."
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 198037
+      }
+    ],
+    "103688": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "103694": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "103702": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "103712": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "103714": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 8,
+            "old": 5
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "103715": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 16,
+            "old": 10
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "103722": [
+      {
+        "changeType": "removal",
+        "oldVersion": "183876"
+      }
+    ],
+    "103726": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "104465": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104496": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193128"
+      }
+    ],
+    "104538": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104539": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104540": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104541": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104543": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104545": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104549": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104550": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104552": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104561": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104562": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104563": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104567": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104569": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104593": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104607": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "104610": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 4,
+            "old": 3
+          },
+          "targetingArrowText": {
+            "new": "Destroy a friendly Undead.",
+            "old": "Destroy an Undead."
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Destroy a friendly Undead to get\na plain copy of it.",
+            "old": "<b>Battlecry:</b> Destroy a friendly Undead to gain\n3 Gold."
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "104611": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 8,
+            "old": 6
+          },
+          "targetingArrowText": {
+            "new": "Destroy a friendly Undead.",
+            "old": "Destroy an Undead."
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Destroy a friendly Undead to get\n2 plain copies of it.",
+            "old": "<b>Battlecry:</b> Destroy a friendly Undead to gain\n6 Gold."
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
+    "104626": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104627": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104671": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104672": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104766": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay a <b>Blood Gem</b> on a\n  different friendly minion.",
+            "old": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay a <b>Blood Gem</b> on a\n  different friendly minion."
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": 198037
+      }
+    ],
+    "104767": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay 2 <b>Blood Gems</b> on a\n  different friendly minion.",
+            "old": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay 2 <b>Blood Gem</b> on a\n  different friendly minion."
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": 198037
+      }
+    ],
+    "104768": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193128"
+      }
+    ],
+    "104877": [
+      {
+        "changeType": "removal",
+        "oldVersion": 180614
+      }
+    ],
+    "104957": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104958": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104959": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104962": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104981": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104982": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104983": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "104985": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105250": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105251": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105254": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105428": [
+      {
+        "changeType": "removal",
+        "oldVersion": "187190"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "battlegroundsPremiumDbfId": {
+            "new": 105429
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "187190",
+        "newVersion": 198037
+      }
+    ],
+    "105440": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "105523": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "105533": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "105550": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "105646": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105649": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105665": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Start of Combat:</b> Give your minions +2/+1.",
+            "old": "Give a minion +7/+7 until next turn."
+          },
+          "isBattlegroundsPoolSpell": {
+            "new": true
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": 198037
+      }
+    ],
+    "105668": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "105674": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "105680": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "105714": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105715": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105799": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105807": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105808": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105835": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105836": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105837": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105838": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "105852": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "105946": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106240": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Deathrattle:</b> Deal 4 damage\nto the lowest Health\nenemy minion, twice.",
+            "old": "[x]<b>Deathrattle:</b> Deal 4 damage\nto the lowest Health\nenemy minion twice."
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": 198037
+      }
+    ],
+    "106241": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Deathrattle:</b> Deal 8 damage\nto the lowest Health\nenemy minion, twice.",
+            "old": "[x]<b>Deathrattle:</b> Deal 8 damage\nto the lowest Health\nenemy minion twice."
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": 198037
+      }
+    ],
+    "106320": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106441": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106448": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106464": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106466": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106471": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "106484": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193128"
+      }
+    ],
+    "106487": [
+      {
+        "changeType": "removal",
+        "oldVersion": "191554"
+      }
+    ],
+    "106506": [
+      {
+        "changeType": "returning",
+        "newVersion": 198037
+      }
+    ],
+    "106544": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107183": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107184": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107861": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107864": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107865": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107879": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107883": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107887": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107897": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107904": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107909": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107910": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107911": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107912": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107918": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107930": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107934": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107937": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107938": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107943": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107944": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107945": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107947": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "107950": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108113": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108114": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108115": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108116": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108143": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108279": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108280": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108283": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108351": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108352": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108376": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108377": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108393": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108394": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108397": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108400": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108413": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108432": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108435": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108439": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108455": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108463": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108464": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108491": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108493": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108520": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108521": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108522": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108524": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108525": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108542": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108543": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108547": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108548": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108549": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108550": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108715": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108716": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108737": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108738": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108739": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108743": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108851": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108852": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108873": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108875": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108931": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "108992": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": 198037
+      }
+    ],
+    "109003": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "191554",
+        "newVersion": 198037
+      }
+    ],
+    "109317": [
+      {
+        "changeType": "removal",
+        "oldVersion": "190416"
+      }
+    ],
+    "109413": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109414": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109418": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109419": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109442": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109447": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109744": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109745": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109798": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109799": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109802": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109806": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109807": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109811": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109877": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109878": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109879": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109881": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109884": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "109885": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110042": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110043": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110044": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110045": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110088": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110089": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110099": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110100": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110101": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110102": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110321": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110322": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "110401": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          },
+          "text": {
+            "new": "[x]When you have space\nduring combat, summon\na 3/3 Beetle. <i>(3 left!)</i>",
+            "old": "[x]<b>Start of Combat:</b>\nGive your minions\n\"<b>Deathrattle:</b> Summon a\n2/2 Beetle.\""
+          },
+          "isBattlegroundsPoolSpell": {
+            "new": true
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110402": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 2
+          },
+          "health": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110412": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          },
+          "isBattlegroundsPoolSpell": {
+            "new": true
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110555": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "artist": {
+            "new": "Guilherme Freitas",
+            "old": "A. J. Nazzaro"
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110660": [
+      {
+        "changeType": "removal",
+        "oldVersion": "193541"
+      },
+      {
+        "changeType": "change",
+        "changes": {
+          "artist": {
+            "new": "Marta Vives Poch"
+          },
+          "isBattlegroundsPoolMinion": {
+            "old": true
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110668": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 5,
+            "old": 2
+          },
+          "artist": {
+            "new": "Kevin Sidharta"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110669": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 10,
+            "old": 4
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "111293": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "111294": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "111295": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "111296": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "111297": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "111302": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112468": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112469": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112470": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112471": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112472": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112473": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112474": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112475": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112476": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112477": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112478": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112479": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112480": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112481": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112482": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112483": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112484": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112485": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112882": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "112883": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113332": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113346": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113347": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113405": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113406": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113407": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113408": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ],
+    "113420": [
+      {
+        "changeType": "new",
+        "newVersion": 198037
+      }
+    ]
   }
 }

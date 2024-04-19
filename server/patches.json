@@ -780,5 +780,11 @@
     "build": "197064",
     "releaseDate": "March 28, 2024",
     "patchNumber": "29.0.3"
+  },
+  "198037": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24077473/29-2-patch-notes",
+    "build": "198037",
+    "releaseDate": "April 16, 2024",
+    "patchNumber": "29.2.0"
   }
 }
