@@ -243,48 +243,60 @@ export function CardRows({ cards, patchId }) {
 }
 
 function HoverImage({card}) {
-    const [isHovered, setIsHovered] = useState(false);
-    const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
+    // const [isHovered, setIsHovered] = useState(false);
+    // const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
 
-    let placeholderIcon = "/icons/placeholder.png";
-    let srcOfIcon = `/icons/${card.dbfId}.png`;
+    // let placeholderIcon = "/icons/placeholder.png";
+    // let srcOfIcon = `/icons/${card.dbfId}.png`;
 
-    const handleMouseMove = (e) => {
-        const mouseX = e.clientX;
-        const mouseY = e.clientY;
-        const hoverWidth = 300;
-        const hoverHeight = 400;
-        const viewportWidth = window.innerWidth;
-        const viewportHeight = window.innerHeight;
+    let className;
 
-        let adjustedX = mouseX;
-        let adjustedY = mouseY;
-        if(mouseX + hoverWidth > viewportWidth)
-            adjustedX = mouseX - hoverWidth;
-        if(mouseY + hoverHeight > viewportHeight)
-            adjustedY = mouseY - hoverHeight;
-
-        setHoverPosition( {x: adjustedX, y: adjustedY });
+    if(card.type === "HERO"){
+        className = "small-hero-container";
+    } else {
+        className = "small-minion-container";
     }
 
+    // const handleMouseMove = (e) => {
+    //     const mouseX = e.clientX;
+    //     const mouseY = e.clientY;
+    //     const hoverWidth = 300;
+    //     const hoverHeight = 400;
+    //     const viewportWidth = window.innerWidth;
+    //     const viewportHeight = window.innerHeight;
+
+    //     let adjustedX = mouseX;
+    //     let adjustedY = mouseY;
+    //     if(mouseX + hoverWidth > viewportWidth)
+    //         adjustedX = mouseX - hoverWidth;
+    //     if(mouseY + hoverHeight > viewportHeight)
+    //         adjustedY = mouseY - hoverHeight;
+
+    //     setHoverPosition( {x: adjustedX, y: adjustedY });
+    // }
+
     return (
-      <div
-        className="hover-container"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-        onMouseMove={handleMouseMove}
-      >
+    //   <div
+    //     className="hover-container"
+    //     onMouseEnter={() => setIsHovered(true)}
+    //     onMouseLeave={() => setIsHovered(false)}
+    //     onMouseMove={handleMouseMove}
+    //   >
         <div className="main-image-container">
-          <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" />
+          {/* <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" /> */}
+            {/* <CardImage card={card}  className="smaller-card-images"/> */}
+            <div className={className}>
+                <CardImage card={card}/>
+            </div>
         </div>
-        {isHovered && (
-          <div className="hover-image-container"
-            style={{ top: hoverPosition.y, left: hoverPosition.x }}
-          >
-            <CardImage card={card} />
-          </div>
-        )}
-      </div>
+    //     {isHovered && (
+    //       <div className="hover-image-container"
+    //         style={{ top: hoverPosition.y, left: hoverPosition.x }}
+    //       >
+    //         <CardImage card={card} className="hover-image" />
+    //       </div>
+    //     )}
+    //   </div>
     );
   }
 

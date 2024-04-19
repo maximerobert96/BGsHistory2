@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const CardImage = ({ card }) => {
+const CardImage = ({ card, className }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
   useEffect( () => {
@@ -68,7 +68,7 @@ const CardImage = ({ card }) => {
       src={imageSrc}
       onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
       alt={card.name}
-      className="hover-image"
+      className={className}
     />
   );
 };

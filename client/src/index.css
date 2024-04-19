@@ -16,6 +16,29 @@ code {
   padding-right: 1px;
 }
 
+.smaller-card-images {
+  width: 75px;
+  height: auto;
+}
+
+.small-hero-container img {
+  width: 75px;
+  height: auto;
+}
+
+.small-minion-container {
+  width: 150px;
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+  margin-right: -20%; 
+}
+
+.small-minion-container img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
 
 .hover-container-wrapper {
   display: flex;
