@@ -823,10 +823,10 @@
     "techLevel": 5,
     "text": "Get a copy of a non-Golden Murloc in your hand.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110406": {
     "cardClass": "NEUTRAL",
@@ -839,10 +839,10 @@
     "techLevel": 4,
     "text": "Get 3 random <b>Spellcraft</b> spells.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "NAGA"
-    ]
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110411": {
     "cardClass": "NEUTRAL",
@@ -856,10 +856,10 @@
     "text": "Choose a minion in the Tavern. Lock it in your hand for 1 turn and double its stats.",
     "type": "BATTLEGROUND_SPELL",
     "targetingArrowText": "Lock it in your hand for 1 turn and double its stats.",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "ELEMENTAL"
-    ]
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110471": {
     "cardClass": "NEUTRAL",
@@ -872,10 +872,10 @@
     "techLevel": 4,
     "text": "Steal a random card from the Tavern. Repeat for each friendly Pirate.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110631": {
     "artist": "Chris Seaman",
@@ -889,10 +889,10 @@
     "techLevel": 5,
     "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110664": {
     "attack": 3,

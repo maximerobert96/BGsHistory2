@@ -372,17 +372,37 @@ function deleteVersionFieldFromPatches(patches){
 // let patches = [194648, 195316, 195635, 197064];
 // deleteVersionFieldFromPatches(patches);
 
-function addIsActiveTSpellField(){
-    let patches = dbManager.getPatchIdsInRange(190416);
+// function addIsActiveTSpellField(){
+//     let patches = dbManager.getPatchIdsInRange(190416);
     
+//     try {
+//         for (let patch of patches){
+//             let patchJson = dbManager.getJsonDBOfPatch(patch);
+//             for(let cardId in patchJson){
+//                 let card = patchJson[cardId];
+//                 if(card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL"){
+//                     card.isActiveTavernSpell = true;
+//                     card.associatedTribes = ["GENERAL"];
+//                 }
+//             }
+//             dbManager.saveJsonDBOfPatch(patchJson, patch);
+//         }
+//     } catch (error) {  
+//         console.error(error.message);  
+//     }
+// }
+
+function changeFieldNameOfActiveTSpell() {
+    let patches = dbManager.getPatchIdsInRange(190416);
+
     try {
         for (let patch of patches){
             let patchJson = dbManager.getJsonDBOfPatch(patch);
             for(let cardId in patchJson){
                 let card = patchJson[cardId];
-                if(card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL"){
-                    card.isActiveTavernSpell = true;
-                    card.associatedTribes = ["GENERAL"];
+                if(card.hasOwnProperty("isActiveTavernSpell")){
+                    card.isBattlegroundsPoolSpell = card.isActiveTavernSpell;
+                    delete card.isActiveTavernSpell;
                 }
             }
             dbManager.saveJsonDBOfPatch(patchJson, patch);
@@ -390,7 +410,9 @@ function addIsActiveTSpellField(){
     } catch (error) {  
         console.error(error.message);  
     }
+
 }
 
+changeFieldNameOfActiveTSpell();
 
 // addIsActiveTSpellField();

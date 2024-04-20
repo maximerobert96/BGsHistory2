@@ -175,7 +175,7 @@ function CategoryTable({ cards, patchId }) {
         card.type === "MINION" || card.type === "BATTLEGROUND_SPELL");
     return (
         <div>
-            <Heroes cards={heroes} patchId={patchId} />
+            {/* <Heroes cards={heroes} patchId={patchId} /> */}
             <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} />
         </div>
     );
@@ -282,13 +282,13 @@ function HoverImage({card}) {
     //     onMouseLeave={() => setIsHovered(false)}
     //     onMouseMove={handleMouseMove}
     //   >
-        <div className="main-image-container">
-          {/* <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" /> */}
-            {/* <CardImage card={card}  className="smaller-card-images"/> */}
+        // <div className="main-image-container">
+        //   {/* <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" /> */}
+            // {/* <CardImage card={card}  className="smaller-card-images"/> */}
             <div className={className}>
                 <CardImage card={card}/>
             </div>
-        </div>
+        // </div>
     //     {isHovered && (
     //       <div className="hover-image-container"
     //         style={{ top: hoverPosition.y, left: hoverPosition.x }}

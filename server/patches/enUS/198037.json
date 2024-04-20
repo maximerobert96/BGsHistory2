@@ -2529,8 +2529,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isActiveTavernSpell": true
+    ]
   },
   "100930": {
     "artist": "Tanamaes Leejierasaes",
@@ -3174,8 +3173,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isActiveTavernSpell": true
+    ]
   },
   "104496": {
     "attack": 3,
@@ -3910,8 +3908,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isActiveTavernSpell": true
+    ]
   },
   "105251": {
     "attack": 2,
@@ -4135,7 +4132,6 @@
     "techLevel": 3,
     "text": "<b>Start of Combat:</b> Give your minions +2/+1.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "GENERAL"
     ],
@@ -4963,8 +4959,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isActiveTavernSpell": true
+    ]
   },
   "107930": {
     "attack": 6,
@@ -5074,8 +5069,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isActiveTavernSpell": true
+    ]
   },
   "107944": {
     "attack": 1,
@@ -7078,7 +7072,6 @@
     "relatedCards": [
       110402
     ],
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "BEAST"
     ],
@@ -7113,7 +7106,6 @@
     "techLevel": 5,
     "text": "[x]Destroy a friendly\nUndead. Your Undead\nhave extra Attack equal\nto its Tier this game.",
     "type": "BATTLEGROUND_SPELL",
-    "isActiveTavernSpell": true,
     "associatedTribes": [
       "UNDEAD"
     ],
