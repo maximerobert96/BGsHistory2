@@ -844,4 +844,5 @@ function addingTribeSpecificTSpells() {
     addingSingleTribeToCard(build, 110400, "MURLOC");
 }
 
-addingTribeSpecificTSpells();
+// addingTribeSpecificTSpells();
+

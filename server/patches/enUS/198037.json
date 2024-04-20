@@ -2794,7 +2794,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "103620": {
     "attack": 8,
@@ -2812,7 +2813,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "2 <b>Passes</b> each turn\nare free. <i>(2 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "103668": {
     "artist": "Ramzy Kamen",
@@ -3218,7 +3220,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104539": {
     "attack": 6,
@@ -3235,7 +3238,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Your teammate gets 2 Gold Coins.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104540": {
     "attack": 5,
@@ -3261,7 +3265,8 @@
     "type": "MINION",
     "associatedTribes": [
       "BEAST"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104541": {
     "attack": 10,
@@ -3283,7 +3288,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Deathrattle:</b> Summon copies of\n2 minions from your teammate's\nwarband. Set their Health to 1\n<i>   (except Magnanimoose).</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104543": {
     "cardClass": "NEUTRAL",
@@ -3293,7 +3299,8 @@
     "name": "Plunder Pal Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives you 1 Gold.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "104545": {
     "attack": 4,
@@ -3318,7 +3325,8 @@
     "type": "MINION",
     "associatedTribes": [
       "DRAGON"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104549": {
     "attack": 8,
@@ -3339,7 +3347,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the end of your turn, give your teammate's minions +2 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104550": {
     "attack": 4,
@@ -3367,7 +3376,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104552": {
     "attack": 8,
@@ -3391,7 +3401,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "When you buy or <b>Discover</b> this, get 2 extra copies\nand <b>Pass</b> them.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104561": {
     "attack": 4,
@@ -3419,7 +3430,8 @@
     "type": "MINION",
     "associatedTribes": [
       "MECHANICAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104562": {
     "cardClass": "NEUTRAL",
@@ -3429,7 +3441,8 @@
     "name": "Support System Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives a friendly minion <b>Divine Shield</b>. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "104563": {
     "attack": 8,
@@ -3453,7 +3466,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]At the end of your turn,\ngive 2 minions in your\nteammate's warband\n<b>Divine Shield</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104567": {
     "armor": 12,
@@ -3471,7 +3485,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104569": {
     "cardClass": "NEUTRAL",
@@ -3484,7 +3499,8 @@
     "name": "[x]",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive. Start of Game:</b>\nCopy your teammate's\nHero Power.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "isDuoCard": true
   },
   "104593": {
     "attack": 6,
@@ -3509,7 +3525,8 @@
     "type": "MINION",
     "associatedTribes": [
       "ELEMENTAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104607": {
     "attack": 4,
@@ -3583,7 +3600,8 @@
     "name": "Feisty Freshwater Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Makes your next 2 <b>Refreshes</b> cost (0). [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "104627": {
     "attack": 12,
@@ -3604,7 +3622,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Deathrattle:</b> You and your\nteammate each gain four\n  <b>Refreshes</b> that cost (0).",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104671": {
     "armor": 15,
@@ -3622,7 +3641,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104672": {
     "artist": "Arthur Bozonnet",
@@ -3633,7 +3653,8 @@
     "name": "Glorious Gloop",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Transform\nit into your teammate's\nhighest Tier minion.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "isDuoCard": true
   },
   "104766": {
     "attack": 4,
@@ -3756,7 +3777,8 @@
     "type": "MINION",
     "associatedTribes": [
       "QUILBOAR"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104958": {
     "attack": 4,
@@ -3777,7 +3799,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> You and your teammate each get 2 <b>Blood Gems</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104959": {
     "attack": 2,
@@ -3802,7 +3825,8 @@
     "type": "MINION",
     "associatedTribes": [
       "UNDEAD"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104962": {
     "attack": 4,
@@ -3823,7 +3847,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Avenge (3):</b> Your teammate\ngets 2 random minions of\n their most common type.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "104981": {
     "armor": 6,
@@ -3844,7 +3869,8 @@
     ],
     "relatedCards": [
       113332
-    ]
+    ],
+    "isDuoCard": true
   },
   "104982": {
     "armor": 6,
@@ -3862,7 +3888,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "104983": {
     "artist": "James Ryman",
@@ -3877,7 +3904,8 @@
     "name": "Double Trouble",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Whenever you\nplay a Golden minion,\nboth you and Gall get a\nTriple Reward. <i>(3 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "isDuoCard": true
   },
   "104985": {
     "artist": "James Ryman",
@@ -3892,7 +3920,8 @@
     "name": "Double Trouble",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Whenever you\nplay a Golden minion,\nboth you and Cho get a\nTriple Reward. <i>(3 left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "isDuoCard": true
   },
   "105250": {
     "cardClass": "NEUTRAL",
@@ -3908,7 +3937,8 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "105251": {
     "attack": 2,
@@ -3929,7 +3959,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "105254": {
     "attack": 4,
@@ -3946,7 +3977,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "The first time your team <b>Passes</b> each turn,\ngain +4/+4.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "105428": {
     "artist": "Peter Stapleton",
@@ -4097,7 +4129,8 @@
     "type": "MINION",
     "associatedTribes": [
       "MURLOC"
-    ]
+    ],
+    "isDuoCard": true
   },
   "105649": {
     "attack": 6,
@@ -4118,7 +4151,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After this is <b>Passed</b>,\ngain +6/+6.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "105665": {
     "cardClass": "NEUTRAL",
@@ -4230,7 +4264,8 @@
     "type": "MINION",
     "associatedTribes": [
       "PIRATE"
-    ]
+    ],
+    "isDuoCard": true
   },
   "105715": {
     "attack": 4,
@@ -4251,7 +4286,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the start of your turn, you and your teammate each gain 2 Gold.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "105799": {
     "attack": 2,
@@ -4273,7 +4309,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "105807": {
     "cardClass": "NEUTRAL",
@@ -4283,7 +4320,8 @@
     "name": "Orc-estra Conductor Teammate Trigger [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Increments your Orc-estra Conductor player ench. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "105808": {
     "attack": 4,
@@ -4301,7 +4339,8 @@
     "targetingArrowText": "Give a minion stats.",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Give a minion\n+{0}/+{1}. Improve your\nteam's future Orc-estra\nConductors.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "105835": {
     "attack": 6,
@@ -4325,7 +4364,8 @@
     ],
     "relatedCards": [
       105836
-    ]
+    ],
+    "isDuoCard": true
   },
   "105836": {
     "cardClass": "NEUTRAL",
@@ -4336,7 +4376,8 @@
     "set": "BATTLEGROUNDS",
     "spellSchool": "SPELLCRAFT",
     "text": "<b>Pass</b> a non-Golden minion <i>(except Well Wisher)</i>.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "105837": {
     "attack": 12,
@@ -4356,7 +4397,8 @@
     "type": "MINION",
     "relatedCards": [
       105838
-    ]
+    ],
+    "isDuoCard": true
   },
   "105838": {
     "cardClass": "NEUTRAL",
@@ -4367,7 +4409,8 @@
     "set": "BATTLEGROUNDS",
     "spellSchool": "SPELLCRAFT",
     "text": "<b>Pass</b> a non-Golden minion <i>(except Well Wisher)</i>.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "105852": {
     "attack": 8,
@@ -4473,7 +4516,8 @@
     "type": "MINION",
     "associatedTribes": [
       "DEMON"
-    ]
+    ],
+    "isDuoCard": true
   },
   "106441": {
     "cardClass": "NEUTRAL",
@@ -4483,7 +4527,8 @@
     "name": "Doting Dracthyr Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives your minions +2 Attack. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "106448": {
     "cardClass": "NEUTRAL",
@@ -4493,7 +4538,8 @@
     "name": "Doting Dracthyr Golden Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives your minions +4 Attack. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "106464": {
     "cardClass": "NEUTRAL",
@@ -4503,7 +4549,8 @@
     "name": "Plunder Pal Golden Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives you 2 Gold.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "106466": {
     "cardClass": "NEUTRAL",
@@ -4513,7 +4560,8 @@
     "name": "Feisty Freshwater Golden Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Makes your next 4 <b>Refreshes</b> cost (0). [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "106471": {
     "cardClass": "NEUTRAL",
@@ -4523,7 +4571,8 @@
     "name": "Support System Golden Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives 2 friendly minions <b>Divine Shield</b>. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "106484": {
     "attack": 6,
@@ -4618,7 +4667,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Minions in\nyour team's Taverns have +4/+2 this game.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "107183": {
     "armor": 8,
@@ -4636,7 +4686,8 @@
     "type": "HERO",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "107184": {
     "cardClass": "NEUTRAL",
@@ -4646,7 +4697,8 @@
     "name": "Efficient Exchange",
     "set": "BATTLEGROUNDS",
     "text": "<b>Pass</b> a non-Golden minion.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "isDuoCard": true
   },
   "107861": {
     "attack": 1,
@@ -4748,7 +4800,8 @@
     "type": "MINION",
     "associatedTribes": [
       "NAGA"
-    ]
+    ],
+    "isDuoCard": true
   },
   "107883": {
     "attack": 10,
@@ -4769,7 +4822,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "Once per turn, after you <b>Pass</b> a Tavern spell, get 2 new copies of it.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "107887": {
     "attack": 4,
@@ -4959,7 +5013,8 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "107930": {
     "attack": 6,
@@ -5069,7 +5124,8 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "107944": {
     "attack": 1,
@@ -5091,7 +5147,8 @@
     "type": "MINION",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isDuoCard": true
   },
   "107945": {
     "attack": 2,
@@ -5109,7 +5166,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 7,
     "text": "[x]<b>Start of Combat:</b>\nTransform into a Golden\ncopy of your teammate's\n   highest Health minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "isDuoCard": true
   },
   "107947": {
     "attack": 4,
@@ -6330,7 +6388,8 @@
     "name": "Man'ari Messenger Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives Tavern minions +2/+1. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "109414": {
     "cardClass": "NEUTRAL",
@@ -6340,7 +6399,8 @@
     "name": "Man'ari Messenger Golden Spell [DNT]",
     "set": "BATTLEGROUNDS",
     "text": "Gives Tavern minions +4/+2. [DNT]",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "109418": {
     "attack": 3,
@@ -7303,7 +7363,8 @@
     "name": "Corruptor Gall",
     "rarity": "RARE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "isDuoCard": true
   },
   "112469": {
     "battlegroundsSkinParentId": 104981,
@@ -7315,7 +7376,8 @@
     "name": "Corruptor Cho",
     "rarity": "RARE",
     "set": "BATTLEGROUNDS",
-    "type": "HERO"
+    "type": "HERO",
+    "isDuoCard": true
   },
   "112470": {
     "artist": "I. Fomin & Mooncolony",
@@ -7584,7 +7646,8 @@
     "name": "[DNT] Cho Gall HP Decrement",
     "set": "BATTLEGROUNDS",
     "text": "Decrement Double Trouble for teammate.",
-    "type": "SPELL"
+    "type": "SPELL",
+    "isDuoCard": true
   },
   "113346": {
     "attack": 1,

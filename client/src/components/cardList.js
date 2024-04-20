@@ -30,6 +30,12 @@ export default function MainPage() {
             }
             const cards = await response.json();
             setCards(cards);
+
+            // let onlyDuos = cards.filter( card => {
+            //     return card.hasOwnProperty("isDuoCard");
+            // })
+            // setCards(onlyDuos);
+            
         }
         
         getCards();
@@ -175,7 +181,7 @@ function CategoryTable({ cards, patchId }) {
         card.type === "MINION" || card.type === "BATTLEGROUND_SPELL");
     return (
         <div>
-            {/* <Heroes cards={heroes} patchId={patchId} /> */}
+            <Heroes cards={heroes} patchId={patchId} />
             <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} />
         </div>
     );

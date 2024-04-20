@@ -413,6 +413,20 @@ function changeFieldNameOfActiveTSpell() {
 
 }
 
-changeFieldNameOfActiveTSpell();
+// changeFieldNameOfActiveTSpell();
 
-// addIsActiveTSpellField();
+function addDuoSpecificField() {
+    let patch = 198037;
+    let patchJson = dbManager.getJsonDBOfPatch(patch);
+    
+    for(let cardId in patchJson){
+        let card = patchJson[cardId];
+        if(card.hasOwnProperty("id") && card.id.includes("BGDUO")){
+            card.isDuoCard = true;
+        }
+    }
+    dbManager.saveJsonDBOfPatch(patchJson, patch);
+        
+}
+
+// addDuoSpecificField();
