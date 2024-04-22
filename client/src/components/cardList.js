@@ -6,8 +6,9 @@ import CardImage from "./cardImage";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
+    const [activeCards, setActiveCards] = useState([]);
     const params = useParams();
-    const [activeCard, setActiveCard] = useState(null);
+    const [selectedCard, setSelectedCard] = useState(null);
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -29,12 +30,13 @@ export default function MainPage() {
                 return;
             }
             const cards = await response.json();
-            setCards(cards);
+            setActiveCards(cards);
+            setCards(c => cards);
+            // applyFilter(setCards, withoutDuosFilter);
+            applyFilter(setCards, onlyDuosFilter);
+            // applyFilter(setCards, faelinFilter);
 
-            // let onlyDuos = cards.filter( card => {
-            //     return card.hasOwnProperty("isDuoCard");
-            // })
-            // setCards(onlyDuos);
+
             
         }
         
@@ -43,21 +45,21 @@ export default function MainPage() {
     }, [params.patchId]);
 
     useEffect(() => {
-        async function getActiveId(){
+        async function getSelectedId(){
             if(params.id !== undefined) {
-                setActiveCard(params.id);
+                setSelectedCard(params.id);
             } else {
-                setActiveCard(null);
+                setSelectedCard(null);
             }
         }
-        getActiveId();
+        getSelectedId();
 
     }, [params.id]);
 
     if(cards.length) {
         return (
         <>
-            { activeCard &&
+            { selectedCard &&
             (<DisplayCardInfo patchId={patchId} />)}
             <PatchInfo patchId={patchId}/>
             <CardList cards={cards} patchId={patchId} />
@@ -130,14 +132,14 @@ export function CardList({ cards, patchId }) {
 
     return( 
         <div>
-            <FilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
+            <TribesFilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
         </div>
     );
 
 }
 
-function FilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
+function TribesFilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
     let tribeTable = [];
     for(let tribe of tribes) {
 
@@ -188,7 +190,14 @@ function CategoryTable({ cards, patchId }) {
 }
 
 function Heroes({ cards, patchId }) {
+    // no heroes
+    if(cards.length === 0){
+        return;
+    }
+
+    // alphabetically ordering heroes
     let alphSortedCards = cards.sort((a,b) => a.name > b.name ? 1 : -1 );
+
     return (
         <div>
             <h1>Heroes</h1>
@@ -221,6 +230,10 @@ function Tier({ tier, cards, patchId }) {
         a.name > b.name ? 1 : -1);
     
     let minionsAndSpellsOfTier = minions.concat(tSpells);
+
+    if(cardsOfTier.length === 0){
+        return;
+    }
         
     return(
         <div>
@@ -319,3 +332,25 @@ function HoverImage({card}) {
 //         return placeholderImagePath;
 //     }
 // }
+
+
+function applyFilter(setCards, filterBool){
+    // let filteredCards = filter(cards);
+    
+    setCards(cards => cards.filter( (card) => filterBool(card)));
+
+}
+
+function faelinFilter(card) {
+    return (card.techLevel === 2 || card.techLevel === 4 || card.techLevel === 6) && card.hasOwnProperty("type") && card.type === "MINION";
+    // return cards.filter((card) => 
+    // (card.techLevel === 2 || card.techLevel === 4 || card.techLevel === 6) && card.hasOwnProperty("type") && card.type === "MINION");
+}
+
+function withoutDuosFilter(card) {
+    return !card.hasOwnProperty("isDuoCard");
+}
+
+function onlyDuosFilter(card) {
+   return card.hasOwnProperty("isDuoCard");
+}
