@@ -429,7 +429,7 @@ function addDuoSpecificField() {
         
 }
 
-function addEndOfTurnToCards() {
+function addStartOfCombatToCards() {
     const dbfIds = [66246,
         86292,
         99034,
@@ -480,5 +480,38 @@ function getAllPatchesOfId(dbfId){
     return mappingJson.cards[dbfId];
 }
 
+function addStartOfCombatToCards() {
+    const dbfIds = [64402,
+        79720,
+        61406,
+        104672,
+        61851,
+        86014,
+        59863,
+        77911,
+        77990,
+        98728,
+        108873,
+        110042,
+        98582,
+        108116,
+        95006,
+        108922,
+        72073,
+        105665,
+        110679,
+        80750,
+        108113,
+        104560,
+        98948,
+        108549,
+        108542,
+        107944
+    ];
+
+        dbfIds.forEach(dbfId => addMechanicToCard(dbfId, "START_OF_COMBAT"));
+
+}
+
 // console.log(getAllPatchesOfId(66246));
-// addEndOfTurnToCards();
+// addStartOfCombatToCards();

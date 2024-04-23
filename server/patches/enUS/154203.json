@@ -1237,7 +1237,8 @@
     "id": "BG24_500",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Amber Guardian",
     "race": "DRAGON",

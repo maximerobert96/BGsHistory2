@@ -478,7 +478,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "105669": {
     "cardClass": "NEUTRAL",

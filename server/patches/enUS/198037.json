@@ -1124,7 +1124,8 @@
     "health": 4,
     "id": "BG21_014",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Prized Promo-Drake",
     "race": "DRAGON",
@@ -3678,7 +3679,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Transform\nit into your teammate's\nhighest Tier minion.",
     "type": "HERO_POWER",
-    "isDuoCard": true
+    "isDuoCard": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "104766": {
     "attack": 4,
@@ -4193,7 +4197,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "105668": {
     "attack": 4,
@@ -5177,7 +5184,8 @@
     "id": "BGDUO_125",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Sandy",
     "set": "BATTLEGROUNDS",
@@ -5271,7 +5279,8 @@
     "id": "BG29_811",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Yu'lon, Fortune Granter",
     "race": "DRAGON",
@@ -5344,7 +5353,8 @@
     "id": "BG29_810",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Thousandth Paper Drake",
     "race": "DRAGON",
@@ -5955,7 +5965,8 @@
     "id": "BG29_875",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "The Uninvited Guest",
     "race": "UNDEAD",
@@ -6062,7 +6073,8 @@
     "id": "BG29_872",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Hoarding Hatespawn",
     "race": "DRAGON",
@@ -6286,7 +6298,8 @@
     "id": "BG29_814",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Misfit Dragonling",
     "race": "DRAGON",
@@ -6873,7 +6886,8 @@
     "id": "BG29_990",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Irate Rooster",
     "race": "BEAST",

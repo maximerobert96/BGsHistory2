@@ -4845,7 +4845,10 @@
       77993,
       77994
     ],
-    "heroDbfId": "77987"
+    "heroDbfId": "77987",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "77991": {
     "cardClass": "NEUTRAL",
@@ -4960,7 +4963,10 @@
       79723,
       79724
     ],
-    "heroDbfId": "79719"
+    "heroDbfId": "79719",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "79721": {
     "cardClass": "NEUTRAL",

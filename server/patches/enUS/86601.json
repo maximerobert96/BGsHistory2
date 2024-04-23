@@ -497,7 +497,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\nof each minion type\n+1/+1.",
     "type": "HERO_POWER",
-    "heroDbfId": "57924"
+    "heroDbfId": "57924",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "59891": {
     "cardClass": "NEUTRAL",
@@ -827,7 +830,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_061",
     "mechanics": [
-      "AURA"
+      "AURA",
+      "START_OF_COMBAT"
     ],
     "name": "ALL Will Burn!",
     "set": "BATTLEGROUNDS",
@@ -891,7 +895,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_069",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Wingmen",
     "set": "BATTLEGROUNDS",
@@ -1325,7 +1330,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_086",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Swatting Insects",
     "referencedTags": [

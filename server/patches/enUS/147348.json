@@ -31,7 +31,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_061",
     "mechanics": [
-      "AURA"
+      "AURA",
+      "START_OF_COMBAT"
     ],
     "name": "ALL Will Burn!",
     "set": "BATTLEGROUNDS",

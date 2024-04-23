@@ -714,7 +714,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its Health\nto all your others.",
     "type": "HERO_POWER",
-    "heroDbfId": "74646"
+    "heroDbfId": "74646",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "78109": {
     "attack": 5,

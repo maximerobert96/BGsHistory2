@@ -120,6 +120,9 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a random friendly\nMech, Demon, Murloc \nand Beast +2 Attack.",
     "type": "HERO_POWER",
-    "heroDbfId": "57924"
+    "heroDbfId": "57924",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   }
 }

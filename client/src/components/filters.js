@@ -7,6 +7,7 @@ function FilterDropdown({ cardPool, setActiveCards }) {
         {battlecry: {fc: mechanicFilter, name: "Battlecry", extraArgs: ["BATTLECRY"]}}, 
         {deathrattle: {fc: mechanicFilter, name: "Deathrattle", extraArgs: ["DEATHRATTLE"]}}, 
         {endOfTurn: {fc: mechanicFilter, name: "End of turn", extraArgs: ["END_OF_TURN"]}}, 
+        {startOfCombat: {fc: mechanicFilter, name: "Start of combat", extraArgs: ["START_OF_COMBAT"]}}, 
         {tavernSpells: {fc: cardTypeFilter, name: "Tavern Spell", extraArgs: ["BATTLEGROUND_SPELL"]}},
         {discover: {fc: discoverFilter, name: "Discover"}},
         {avenge: {fc: mechanicFilter, name: "Avenge", extraArgs: ["AVENGE"]}}

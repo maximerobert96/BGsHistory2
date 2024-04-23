@@ -1931,7 +1931,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "110680": {
     "attack": 1,

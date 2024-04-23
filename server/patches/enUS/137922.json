@@ -949,7 +949,8 @@
     "id": "BG23_012",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Corrupted Myrmidon",
     "race": "NAGA",

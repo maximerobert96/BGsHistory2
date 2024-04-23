@@ -175,7 +175,8 @@
     "hideCost": true,
     "id": "BG23_HERO_201p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Tentacular",
     "referencedTags": [

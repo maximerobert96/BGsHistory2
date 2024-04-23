@@ -799,7 +799,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_086",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Swatting Insects",
     "referencedTags": [

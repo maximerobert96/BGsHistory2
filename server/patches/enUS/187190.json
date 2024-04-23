@@ -681,7 +681,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Destroy it.\nWhen you have space,\n   resummon an exact copy.",
     "type": "HERO_POWER",
-    "heroDbfId": "98726"
+    "heroDbfId": "98726",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "98926": {
     "artist": "Tanamaes Leejierasaes",
@@ -1834,7 +1837,8 @@
     "id": "BG27_556",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Diremuck Forager",
     "race": "MURLOC",

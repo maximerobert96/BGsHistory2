@@ -174,7 +174,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+1/+1.",
     "type": "HERO_POWER",
-    "heroDbfId": "57924"
+    "heroDbfId": "57924",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "60211": {
     "cardClass": "NEUTRAL",

@@ -160,7 +160,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_037a",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
@@ -287,7 +288,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_061",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "ALL Will Burn!",
     "set": "BATTLEGROUNDS",
@@ -302,7 +304,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_069",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Wingmen",
     "set": "BATTLEGROUNDS",
@@ -932,7 +935,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to your other minions.",
     "type": "HERO_POWER",
-    "heroDbfId": "74646"
+    "heroDbfId": "74646",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "77987": {
     "armor": 12,
@@ -959,7 +965,8 @@
     "dbfId": 77990,
     "id": "BG22_HERO_000p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Deadeye",
     "set": "BATTLEGROUNDS",

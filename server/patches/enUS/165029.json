@@ -234,7 +234,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a friendly minion.\n<b>Start of Combat:</b> Destroy it.\nOnce you have space,\n   resummon an exact copy.",
     "type": "HERO_POWER",
-    "heroDbfId": "98726"
+    "heroDbfId": "98726",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "99059": {
     "artist": "Ramzy Kamen",

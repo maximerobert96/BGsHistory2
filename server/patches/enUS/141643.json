@@ -96,7 +96,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to five friendly minions.",
     "type": "HERO_POWER",
-    "heroDbfId": "74646"
+    "heroDbfId": "74646",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "80741": {
     "attack": 5,
@@ -216,7 +219,8 @@
     "id": "BG23_012",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Corrupted Myrmidon",
     "race": "NAGA",
@@ -441,7 +445,8 @@
     "hideCost": true,
     "id": "BG23_HERO_201p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Tentacular",
     "referencedTags": [

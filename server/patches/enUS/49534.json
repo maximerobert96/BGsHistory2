@@ -88,7 +88,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+2 Attack.",
     "type": "HERO_POWER",
-    "heroDbfId": "57924"
+    "heroDbfId": "57924",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "61046": {
     "attack": 8,

@@ -262,7 +262,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_037a",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",

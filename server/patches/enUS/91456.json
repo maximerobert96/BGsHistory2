@@ -751,7 +751,8 @@
     "health": 5,
     "id": "BG21_014",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Prized Promo-Drake",
     "race": "DRAGON",

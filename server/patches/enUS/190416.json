@@ -3229,7 +3229,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "104601": {
     "cardClass": "NEUTRAL",
@@ -4280,7 +4283,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "105667": {
     "cardClass": "NEUTRAL",

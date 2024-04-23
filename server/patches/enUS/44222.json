@@ -114,7 +114,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_069",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Wingmen",
     "set": "BATTLEGROUNDS",

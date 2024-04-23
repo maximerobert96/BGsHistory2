@@ -2195,7 +2195,10 @@
       77993,
       77994
     ],
-    "heroDbfId": "77987"
+    "heroDbfId": "77987",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "80239": {
     "armor": 16,
@@ -3838,7 +3841,8 @@
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
       "MAGNETIC",
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Lullabot",
     "race": "MECHANICAL",
@@ -4840,7 +4844,8 @@
     "id": "BG26_354",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Choral Mrrrglr",
     "race": "MURLOC",
