@@ -3,6 +3,7 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 import PatchInfo from "./PatchInfo";
 import CardImage from "./cardImage";
+import FilterDropdown from "./filters";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
@@ -33,7 +34,7 @@ export default function MainPage() {
             setActiveCards(cards);
             setCards(c => cards);
             // applyFilter(setCards, withoutDuosFilter);
-            applyFilter(setCards, onlyDuosFilter);
+            // applyFilter(setCards, onlyDuosFilter);
             // applyFilter(setCards, faelinFilter);
 
 
@@ -56,20 +57,17 @@ export default function MainPage() {
 
     }, [params.id]);
 
-    if(cards.length) {
+
         return (
         <>
             { selectedCard &&
             (<DisplayCardInfo patchId={patchId} />)}
             <PatchInfo patchId={patchId}/>
-            <CardList cards={cards} patchId={patchId} />
+            {cards.length && 
+            (<CardList cards={cards} patchId={patchId} />)}
+           
         </>
         );
-    } else {
-        return <p>Loading</p>;
-    }
-
-    ;
 }
 
 function DisplayCardInfo({ patchId }){
@@ -112,8 +110,10 @@ function getTribes(cards) {
 export function CardList({ cards, patchId }) {
     let availableTribes = getTribes(cards);
     const [tribes, setTribes] = useState(availableTribes);
+    // const [activeFilter, setActiveFilter] = useState();
+    const [activeCards, setActiveCards] = useState(cards);
 
-    let cardsOfSelectedTribes = cards.filter(
+    let cardsOfSelectedTribes = activeCards.filter(
         function (card) {
             if(card.hasOwnProperty("associatedTribes")) {
                 let isSelectedTribe = false;
@@ -133,6 +133,7 @@ export function CardList({ cards, patchId }) {
     return( 
         <div>
             <TribesFilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
+            <FilterDropdown cardPool={cards} setActiveCards={setActiveCards} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
         </div>
     );
@@ -141,6 +142,9 @@ export function CardList({ cards, patchId }) {
 
 function TribesFilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
     let tribeTable = [];
+    
+    sortTribes(tribes);
+    
     for(let tribe of tribes) {
 
         tribeTable.push(
@@ -176,6 +180,22 @@ function TribesFilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
     
 }
 
+/**
+ * Alphabetically sorts tribes, with the General tribe as the first one
+ * @param {*} tribesArray 
+ */
+function sortTribes(tribesArray) {
+    tribesArray.sort((a,b) => {
+        if(b === "GENERAL"){
+            return 1;
+        } else if(a === "GENERAL"){
+            return -1;
+        } else {
+            return a > b ? 1 : -1;
+        }
+    });
+}
+
 function CategoryTable({ cards, patchId }) {
     let heroes = cards.filter((card) =>
         card.type === "HERO" );
@@ -209,7 +229,7 @@ function Heroes({ cards, patchId }) {
 function MinionsOrTSpells({ cards, patchId }) {
     
     let tierTables = [];
-    for(let i = 1; i <= 6; ++i ) {
+    for(let i = 1; i <= 7; ++i ) {
         tierTables.push(<Tier tier={i} cards={cards} key={i} patchId={patchId} />);
     }
     
@@ -334,23 +354,3 @@ function HoverImage({card}) {
 // }
 
 
-function applyFilter(setCards, filterBool){
-    // let filteredCards = filter(cards);
-    
-    setCards(cards => cards.filter( (card) => filterBool(card)));
-
-}
-
-function faelinFilter(card) {
-    return (card.techLevel === 2 || card.techLevel === 4 || card.techLevel === 6) && card.hasOwnProperty("type") && card.type === "MINION";
-    // return cards.filter((card) => 
-    // (card.techLevel === 2 || card.techLevel === 4 || card.techLevel === 6) && card.hasOwnProperty("type") && card.type === "MINION");
-}
-
-function withoutDuosFilter(card) {
-    return !card.hasOwnProperty("isDuoCard");
-}
-
-function onlyDuosFilter(card) {
-   return card.hasOwnProperty("isDuoCard");
-}
