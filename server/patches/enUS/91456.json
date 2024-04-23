@@ -465,7 +465,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]After you upgrade your\nTavern Tier, add a random\nPirate to Bob's Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "72062": {
     "attack": 4,

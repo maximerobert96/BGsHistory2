@@ -846,3 +846,8 @@ function addingTribeSpecificTSpells() {
 
 // addingTribeSpecificTSpells();
 
+// addNewChange(91456, 72061, {"associatedTribes": ["PIRATE"]}); // adding tribe to defiant shipwright
+
+// addNewChange(198037, 104027, undefined, ["isBattlegroundsPoolSpell"]); 
+// addNewChange(198037, 110631, undefined, ["isBattlegroundsPoolSpell"]); 
+// addNewChange(198037, 105905, undefined, ["isBattlegroundsPoolSpell"]);

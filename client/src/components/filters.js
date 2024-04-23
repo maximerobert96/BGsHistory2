@@ -3,10 +3,12 @@ import React, { useState, useEffect } from 'react';
 function FilterDropdown({ cardPool, setActiveCards }) {
     const commonFilters = [
         {none: {fc: activeCardsFilter, name: "None"}},
+        {duosOnly: {fc: onlyDuosFilter, name: "Duo specific"}},
         {battlecry: {fc: mechanicFilter, name: "Battlecry", extraArgs: ["BATTLECRY"]}}, 
         {deathrattle: {fc: mechanicFilter, name: "Deathrattle", extraArgs: ["DEATHRATTLE"]}}, 
-        {tavernSpells: {fc: cardTypeFilter, name: "Tavern Spell", extraArgs: ["BATTLEGROUND_SPELL"]}}, 
-        {duosOnly: {fc: onlyDuosFilter, name: "Duo specific"}}
+        {tavernSpells: {fc: cardTypeFilter, name: "Tavern Spell", extraArgs: ["BATTLEGROUND_SPELL"]}},
+        {discover: {fc: discoverFilter, name: "Discover"}},
+        {avenge: {fc: mechanicFilter, name: "Avenge", extraArgs: ["AVENGE"]}}
     ];
 
 
@@ -57,10 +59,8 @@ function mechanicFilter(card, mechanic){
     return card.hasOwnProperty("mechanics") && card.mechanics.includes(mechanic);
 }
 
-function faelinFilter(card) {
-    return (card.techLevel === 2 || card.techLevel === 4 || card.techLevel === 6) && card.hasOwnProperty("type") && card.type === "MINION";
-    // return cards.filter((card) => 
-    // (card.techLevel === 2 || card.techLevel === 4 || card.techLevel === 6) && card.hasOwnProperty("type") && card.type === "MINION");
+function discoverFilter(card){
+    return mechanicFilter(card, "DISCOVER") || (card.hasOwnProperty("referencedTags") && card.referencedTags.includes("DISCOVER"));
 }
 
 function activeCardsFilter(card) {

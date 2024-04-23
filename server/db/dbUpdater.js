@@ -429,4 +429,55 @@ function addDuoSpecificField() {
         
 }
 
-// addDuoSpecificField();
+function addEndOfTurnToCards() {
+    const dbfIds = [66246,
+        86292,
+        99034,
+        62269,
+        97604,
+        104545,
+        108115,
+        70144,
+        98588,
+        104440,
+        110409,
+        110383,
+        100580,
+        96703,
+        104561,
+        105518,
+        70165,
+        72067,
+        112882,
+        106512,
+        87084,
+        64424,
+        64426];
+
+        dbfIds.forEach(dbfId => addEndOfTurnToCard(dbfId));
+
+}
+
+function addEndOfTurnToCard(dbfId) {
+    let patches = getAllPatchesOfId(dbfId);
+    patches.forEach(patch => {
+        let patchJson = dbManager.getJsonDBOfPatch(patch);
+        let card = patchJson[dbfId];
+
+        if(card.hasOwnProperty("mechanics")){
+            card.mechanics.push("END_OF_TURN");
+        } else {
+            card.mechanics = ["END_OF_TURN"];
+        }
+
+        patchJson[dbfId] = card;
+        dbManager.saveJsonDBOfPatch(patchJson, patch);
+    })
+}
+
+function getAllPatchesOfId(dbfId){
+    const mappingJson = dbManager.getJsonMappingFile();
+    return mappingJson.cards[dbfId];
+}
+
+console.log(getAllPatchesOfId(66246));

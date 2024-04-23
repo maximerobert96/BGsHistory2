@@ -72244,6 +72244,18 @@
         "oldVersion": "191554"
       }
     ],
+    "104027": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 198037
+      }
+    ],
     "104465": [
       {
         "changeType": "new",
@@ -72600,9 +72612,6 @@
           "text": {
             "new": "<b>Start of Combat:</b> Give your minions +2/+1.",
             "old": "Give a minion +7/+7 until next turn."
-          },
-          "isBattlegroundsPoolSpell": {
-            "new": true
           }
         },
         "oldVersion": "193128",
@@ -72685,6 +72694,18 @@
       {
         "changeType": "removal",
         "oldVersion": "191554"
+      }
+    ],
+    "105905": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "193128",
+        "newVersion": 198037
       }
     ],
     "105946": [
@@ -73455,9 +73476,6 @@
           "text": {
             "new": "[x]When you have space\nduring combat, summon\na 3/3 Beetle. <i>(3 left!)</i>",
             "old": "[x]<b>Start of Combat:</b>\nGive your minions\n\"<b>Deathrattle:</b> Summon a\n2/2 Beetle.\""
-          },
-          "isBattlegroundsPoolSpell": {
-            "new": true
           }
         },
         "oldVersion": "193541",
@@ -73488,9 +73506,6 @@
           "techLevel": {
             "new": 5,
             "old": 4
-          },
-          "isBattlegroundsPoolSpell": {
-            "new": true
           }
         },
         "oldVersion": "193541",
@@ -73514,6 +73529,18 @@
           }
         },
         "oldVersion": "193541",
+        "newVersion": 198037
+      }
+    ],
+    "110631": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "194648",
         "newVersion": 198037
       }
     ],

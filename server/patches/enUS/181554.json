@@ -1675,7 +1675,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]After you upgrade the\nTavern, add a random\nPirate to it.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "72066": {
     "attack": 2,

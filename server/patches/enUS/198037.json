@@ -1084,6 +1084,9 @@
     "race": "PIRATE",
     "races": [
       "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
     ]
   },
   "72062": {
@@ -3158,6 +3161,24 @@
       "UNDEAD"
     ]
   },
+  "104027": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 104027,
+    "id": "BG28_509",
+    "name": "Brann's Blessing",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 4,
+    "text": "Your <b>Battlecries</b> trigger twice until next turn.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "104465": {
     "cardClass": "NEUTRAL",
     "cost": 5,
@@ -4434,6 +4455,21 @@
     "type": "MINION",
     "associatedTribes": [
       "DRAGON"
+    ]
+  },
+  "105905": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 105905,
+    "id": "BG28_955",
+    "name": "Primal Staff",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Your end of turn effects trigger twice this turn.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "105946": {
@@ -7189,6 +7225,22 @@
     "techLevel": 4,
     "text": "[x]<b>Taunt</b>\nWhenever you cast a\nTavern spell, give another\n   friendly minion +3/+3.",
     "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "110631": {
+    "artist": "Chris Seaman",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 110631,
+    "id": "BG28_612",
+    "name": "Fluidity",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
+    "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
     ]
