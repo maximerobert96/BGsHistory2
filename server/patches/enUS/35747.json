@@ -5080,7 +5080,8 @@
     "dbfId": 64424,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",

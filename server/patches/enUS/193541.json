@@ -543,7 +543,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -1351,7 +1352,8 @@
     "dbfId": 110383,
     "id": "BG28_600",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Scavenge for Parts",
     "referencedTags": [
@@ -1463,7 +1465,8 @@
     "dbfId": 110409,
     "id": "BG28_602",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Guzzle the Goop",
     "set": "BATTLEGROUNDS",

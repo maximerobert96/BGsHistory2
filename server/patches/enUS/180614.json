@@ -297,7 +297,8 @@
     "health": 3,
     "id": "BG20_201",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bannerboar",
     "race": "QUILBOAR",
@@ -861,7 +862,8 @@
     "id": "BG24_715",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Patient Scout",
     "referencedTags": [
@@ -1109,7 +1111,8 @@
     "id": "BG26_531",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bongo Bopper",
     "race": "QUILBOAR",

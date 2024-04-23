@@ -1857,7 +1857,8 @@
     "health": 1,
     "id": "BG25_046",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Magmaloc",
     "race": "MURLOC",
@@ -3333,7 +3334,8 @@
     "id": "BGDUO_107",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Doting Dracthyr",
     "race": "DRAGON",
@@ -3435,7 +3437,8 @@
     "id": "BGDUO_109",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Support System",
     "race": "MECHANICAL",
@@ -5315,7 +5318,8 @@
     "id": "BG29_140",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "False Implicator",
     "race": "DEMON",
@@ -7653,7 +7657,8 @@
     "id": "BG29_708",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Pokey Thornmantle",
     "race": "QUILBOAR",

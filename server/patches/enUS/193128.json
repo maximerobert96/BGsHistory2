@@ -425,7 +425,8 @@
     "id": "BG28_308",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Archlich Kel'Thuzad",
     "race": "UNDEAD",

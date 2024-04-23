@@ -197,7 +197,10 @@
     "text": "[x]<b>Hero Power</b>\nGain 1 Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "62268"
+    "heroDbfId": "62268",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "96762": {
     "artist": "Jim Nelson",

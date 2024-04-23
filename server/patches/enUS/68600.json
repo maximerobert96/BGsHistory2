@@ -881,7 +881,10 @@
     "text": "[x]<b>Hero Power</b>\nAt end of turn, give a friendly\nminion +1/+1. Repeat 0 times.\n<i>(Upgrades after each use!)</i>",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "58535"
+    "heroDbfId": "58535",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "66424": {
     "cardClass": "NEUTRAL",

@@ -601,7 +601,8 @@
     "health": 5,
     "id": "BG21_005",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Famished Felbat",
     "race": "DEMON",

@@ -1009,7 +1009,10 @@
     "text": "[x]<b>Hero Power</b>\nGain",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "62268"
+    "heroDbfId": "62268",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "62277": {
     "cardClass": "NEUTRAL",

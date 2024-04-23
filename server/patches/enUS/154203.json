@@ -216,7 +216,10 @@
     "text": "[x]Gain 1 Gold.\nIncreases each turn.\n<i>(Once per game.)</i>",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "62268"
+    "heroDbfId": "62268",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -346,7 +349,10 @@
     "text": "[x]At end of turn, give a\nfriendly minion +1/+1.\n  Repeat 0 times.\n<i>  (Upgrades each turn!)</i>",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "58535"
+    "heroDbfId": "58535",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "66545": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -1798,7 +1804,8 @@
     "id": "BG24_715",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Patient Scout",
     "referencedTags": [

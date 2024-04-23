@@ -834,7 +834,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
@@ -853,7 +854,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087t",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Sulfuras",
     "set": "BATTLEGROUNDS",

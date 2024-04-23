@@ -1469,7 +1469,8 @@
     "id": "BG27_083",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Slitherspear, Lord of Gains",
     "race": "NAGA",

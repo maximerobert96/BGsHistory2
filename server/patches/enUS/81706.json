@@ -23,7 +23,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
@@ -97,7 +98,8 @@
     "health": 5,
     "id": "BG20_201",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bannerboar",
     "race": "QUILBOAR",
@@ -497,7 +499,8 @@
     "health": 7,
     "id": "BG20_303",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Charlga",
     "race": "QUILBOAR",

@@ -699,7 +699,8 @@
     "health": 5,
     "id": "BG20_201",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bannerboar",
     "race": "QUILBOAR",
@@ -1597,7 +1598,8 @@
     "id": "BG22_403",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Young Murk-Eye",
     "race": "MURLOC",
@@ -2165,7 +2167,8 @@
     "health": 1,
     "id": "BG25_046",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Magmaloc",
     "race": "MURLOC",

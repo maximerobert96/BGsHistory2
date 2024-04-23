@@ -1478,7 +1478,8 @@
     "health": 1,
     "id": "BG24_715",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Patient Scout",
     "referencedTags": [

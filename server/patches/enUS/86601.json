@@ -1081,7 +1081,10 @@
     "text": "[x]Gain 1 Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "62268"
+    "heroDbfId": "62268",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -1342,7 +1345,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
@@ -1361,7 +1365,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087t",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Sulfuras",
     "set": "BATTLEGROUNDS",
@@ -1506,7 +1511,10 @@
     "text": "[x]At end of turn, give a\nfriendly minion +1/+1.\n  Repeat 0 times.\n<i>  (Upgrades after each use!)</i>",
     "type": "HERO_POWER",
     "bannedFromNguyen": true,
-    "heroDbfId": "58535"
+    "heroDbfId": "58535",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "66484": {
     "cardClass": "NEUTRAL",
@@ -1641,7 +1649,8 @@
     "health": 4,
     "id": "BG20_303",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Charlga",
     "race": "QUILBOAR",

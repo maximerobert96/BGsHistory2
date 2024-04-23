@@ -1710,7 +1710,8 @@
     "id": "BG21_005",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Famished Felbat",
     "race": "DEMON",
@@ -3509,7 +3510,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal all minions from\nthe Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
     "type": "HERO_POWER",
-    "heroDbfId": "86291"
+    "heroDbfId": "86291",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "87060": {
     "attack": 2,

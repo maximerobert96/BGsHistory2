@@ -399,7 +399,8 @@
     "id": "BG20_201",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bannerboar",
     "race": "QUILBOAR",

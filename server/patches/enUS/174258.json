@@ -1419,7 +1419,8 @@
     "id": "BG20_303",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Charlga",
     "race": "QUILBOAR",
@@ -1864,7 +1865,8 @@
     "id": "BG21_005",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Famished Felbat",
     "race": "DEMON",
@@ -2709,7 +2711,8 @@
     "id": "BG22_403",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Young Murk-Eye",
     "race": "MURLOC",
@@ -3884,7 +3887,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -4993,7 +4997,8 @@
     "dbfId": 99034,
     "id": "BG26_HERO_104p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Upbeat Harmony",
     "set": "BATTLEGROUNDS",
@@ -5717,7 +5722,8 @@
     "id": "BG26_531",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bongo Bopper",
     "race": "QUILBOAR",

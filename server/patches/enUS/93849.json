@@ -244,7 +244,8 @@
     "health": 4,
     "id": "BG20_303",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Charlga",
     "race": "QUILBOAR",

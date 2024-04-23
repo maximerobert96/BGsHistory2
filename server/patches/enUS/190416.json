@@ -1206,7 +1206,10 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal all cards from\nthe Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
     "type": "HERO_POWER",
-    "heroDbfId": "86291"
+    "heroDbfId": "86291",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "90425": {
     "attack": 6,
@@ -2779,7 +2782,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "104445": {
     "cardClass": "NEUTRAL",
@@ -4032,7 +4038,8 @@
     "id": "BG28_308",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Archlich Kel'Thuzad",
     "race": "UNDEAD",
@@ -4843,7 +4850,8 @@
     "id": "BG27_083",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Slitherspear, Lord of Gains",
     "race": "NAGA",

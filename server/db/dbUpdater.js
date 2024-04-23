@@ -454,20 +454,20 @@ function addEndOfTurnToCards() {
         64424,
         64426];
 
-        dbfIds.forEach(dbfId => addEndOfTurnToCard(dbfId));
+        dbfIds.forEach(dbfId => addMechanicToCard(dbfId, "END_OF_TURN"));
 
 }
 
-function addEndOfTurnToCard(dbfId) {
+function addMechanicToCard(dbfId, mechanic) {
     let patches = getAllPatchesOfId(dbfId);
     patches.forEach(patch => {
         let patchJson = dbManager.getJsonDBOfPatch(patch);
         let card = patchJson[dbfId];
 
         if(card.hasOwnProperty("mechanics")){
-            card.mechanics.push("END_OF_TURN");
+            card.mechanics.push(mechanic);
         } else {
-            card.mechanics = ["END_OF_TURN"];
+            card.mechanics = [mechanic];
         }
 
         patchJson[dbfId] = card;
@@ -480,4 +480,5 @@ function getAllPatchesOfId(dbfId){
     return mappingJson.cards[dbfId];
 }
 
-console.log(getAllPatchesOfId(66246));
+// console.log(getAllPatchesOfId(66246));
+// addEndOfTurnToCards();

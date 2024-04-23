@@ -781,7 +781,8 @@
     "id": "BG22_403",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Young Murk-Eye",
     "race": "MURLOC",
@@ -1240,7 +1241,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -1765,7 +1767,8 @@
     "id": "BG26_531",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bongo Bopper",
     "race": "QUILBOAR",

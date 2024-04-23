@@ -900,7 +900,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -1340,7 +1341,10 @@
     "associatedTribes": [
       "GENERAL"
     ],
-    "isBattlegroundsPoolSpell": true
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "104496": {
     "attack": 5,
@@ -1763,7 +1767,8 @@
     "id": "BG28_308",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Archlich Kel'Thuzad",
     "race": "UNDEAD",
