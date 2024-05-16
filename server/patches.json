@@ -786,5 +786,23 @@
     "build": "198037",
     "releaseDate": "April 16, 2024",
     "patchNumber": "29.2.0"
+  },
+  "198608": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24087317/29-2-2-patch-notes",
+    "build": "198608",
+    "releaseDate": "April 25, 2024",
+    "patchNumber": "29.2.2"
+  },
+  "198711": {
+    "patchNotes": "https://hearthstone.wiki.gg/wiki/Patch_29.2.2.198711",
+    "build": "198711",
+    "releaseDate": "April 26, 2024",
+    "patchNumber": "29.2.2"
+  },
+  "198933": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24077479/29-4-patch-notes",
+    "build": "198933",
+    "releaseDate": "May 14, 2024",
+    "patchNumber": "29.4.0"
   }
 }

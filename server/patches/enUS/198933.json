@@ -1,0 +1,229 @@
+{
+  "92960": {
+    "armor": 11,
+    "artist": "James Ryman",
+    "battlegroundsBuddyDbfId": 101435,
+    "cardClass": "NEUTRAL",
+    "dbfId": 92960,
+    "health": 30,
+    "heroPowerDbfId": 92961,
+    "id": "BG24_HERO_100",
+    "name": "Sire Denathrius",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "104567": {
+    "armor": 10,
+    "artist": "Arthur Gimaldinov",
+    "battlegroundsHero": true,
+    "cardClass": "PRIEST",
+    "dbfId": 104567,
+    "flavor": "Being called The Nameless One is actually a paradox because that is, in fact, their name.",
+    "health": 30,
+    "heroPowerDbfId": 104569,
+    "id": "BGDUO_HERO_100",
+    "name": "The Nameless One",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isDuoCard": true
+  },
+  "104671": {
+    "armor": 13,
+    "artist": "Max Grecke",
+    "battlegroundsHero": true,
+    "cardClass": "DRUID",
+    "dbfId": 104671,
+    "flavor": "Fashioning farcical folly, Flobbidinous Floop frequently flabbergasts fawning fanatics.",
+    "health": 30,
+    "heroPowerDbfId": 104672,
+    "id": "BGDUO_HERO_101",
+    "name": "Flobbidinous Floop",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isDuoCard": true
+  },
+  "104981": {
+    "armor": 12,
+    "artist": "Anton Zemskov",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104981,
+    "flavor": "Will you be his Gall?",
+    "health": 30,
+    "heroPowerDbfId": 104983,
+    "id": "BGDUO_HERO_222",
+    "name": "Cho",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      113332
+    ],
+    "isDuoCard": true
+  },
+  "104982": {
+    "armor": 12,
+    "artist": "Anton Zemskov",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 104982,
+    "flavor": "He always got'Cho back.",
+    "health": 30,
+    "heroPowerDbfId": 104985,
+    "id": "BGDUO_HERO_223",
+    "name": "Gall",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isDuoCard": true
+  },
+  "105434": {
+    "armor": 8,
+    "artist": "Juan Calle",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 105434,
+    "health": 30,
+    "heroPowerDbfId": 110472,
+    "id": "BG28_HERO_801",
+    "name": "Doctor Holli'dae",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "107183": {
+    "armor": 5,
+    "artist": "Jakub Kasper",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 107183,
+    "flavor": "Madam Goya is distrustful of others by nature, so consider it an honor to be paired with her in Duos.",
+    "health": 30,
+    "heroPowerDbfId": 107184,
+    "id": "BGDUO_HERO_104",
+    "name": "Madam Goya",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isDuoCard": true
+  },
+  "111657": {
+    "artist": "N. Saviori & Mooncolony",
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111657,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_AK",
+    "name": "Bulldog Bob",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111658": {
+    "artist": "N. Saviori & I. Campelo da Silva",
+    "battlegroundsSkinParentId": 71463,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111658,
+    "health": 30,
+    "heroPowerDbfId": 71464,
+    "id": "TB_BaconShop_HERO_201_SKIN_F",
+    "name": "Elekk Vol'jin",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111659": {
+    "artist": "N. Saviori & I. Campelo da Silva",
+    "battlegroundsSkinParentId": 57891,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111659,
+    "health": 30,
+    "heroPowerDbfId": 57559,
+    "id": "TB_BaconShop_HERO_10_SKIN_E",
+    "name": "Gallywix Frog",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111660": {
+    "artist": "N. Saviori & Mooncolony",
+    "battlegroundsSkinParentId": 105314,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111660,
+    "elite": true,
+    "health": 30,
+    "heroPowerDbfId": 105315,
+    "id": "BG28_HERO_400_SKIN_A",
+    "name": "Snake Eyes Snake",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111661": {
+    "artist": "N. Saviori & Mooncolony",
+    "battlegroundsSkinParentId": 92960,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111661,
+    "elite": true,
+    "health": 30,
+    "heroPowerDbfId": 92961,
+    "id": "BG24_HERO_100_SKIN_D",
+    "name": "Sire Denathrius Bat",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111662": {
+    "artist": "N. Saviori & Mooncolony",
+    "battlegroundsSkinParentId": 71454,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111662,
+    "health": 30,
+    "heroPowerDbfId": 71455,
+    "id": "TB_BaconShop_HERO_102_SKIN_H",
+    "name": "Turtle Saurfang",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "111663": {
+    "artist": "N. Saviori & Mooncolony",
+    "battlegroundsSkinParentId": 57633,
+    "cardClass": "NEUTRAL",
+    "dbfId": 111663,
+    "elite": true,
+    "health": 30,
+    "heroPowerDbfId": 57567,
+    "hideCost": true,
+    "id": "TB_BaconShop_HERO_01_SKIN_E",
+    "name": "Edwin the Fox",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}

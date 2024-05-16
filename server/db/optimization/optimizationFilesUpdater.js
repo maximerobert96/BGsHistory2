@@ -209,5 +209,10 @@ function updateCardChangesForPatch(patch) {
     dbManager.saveJsonToFile("./optimization/card-changes.json", cardChangesJson);
 }
 
-updateActiveCardsForPatch(198037);
-updateCardChangesForPatch(198037);
+let patches = [198608, 198711, 198933];
+
+for(let patch of patches){
+    updateActiveCardsForPatch(patch);
+    updateCardChangesForPatch(patch);
+}
+
