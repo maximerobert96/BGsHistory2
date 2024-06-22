@@ -110,7 +110,7 @@ function getTribes(cards) {
 export function CardList({ cards, patchId }) {
     let availableTribes = getTribes(cards);
     const [tribes, setTribes] = useState(availableTribes);
-    // const [activeFilter, setActiveFilter] = useState();
+    const [cardPoolFilter, setCardPoolFilter] = useState();
     const [activeCards, setActiveCards] = useState(cards);
 
     let cardsOfSelectedTribes = activeCards.filter(
