@@ -834,5 +834,23 @@
     "build": "202360",
     "releaseDate": "June 27, 2024",
     "patchNumber": "29.6.2"
+  },
+  "203120": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24115553",
+    "build": "203120",
+    "releaseDate": "July 16, 2024",
+    "patchNumber": "30.0.0"
+  },
+  "205031": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24125212/30-0-3-patch-notes",
+    "build": "205031",
+    "releaseDate": "August 8, 2024",
+    "patchNumber": "30.0.3"
+  },
+  "205267": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes",
+    "build": "205267",
+    "releaseDate": "August 20, 2024",
+    "patchNumber": "30.2.0"
   }
 }

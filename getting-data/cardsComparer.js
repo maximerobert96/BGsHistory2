@@ -119,7 +119,7 @@ function combineVersions(oldVersion, newVersion) {
 
 function addTribes(card) {
         // ignore cards that are not active
-    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero") || (card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL"))){
+    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero") || (card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL") || (card.hasOwnProperty("type") && card.type === "BATTLEGROUND_TRINKET"))){
         return card;
     }
 
