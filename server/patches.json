@@ -828,5 +828,11 @@
     "build": "201392",
     "releaseDate": "June 18, 2024",
     "patchNumber": "29.6.0"
+  },
+  "202360": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24108515/29-6-2-patch-notes",
+    "build": "202360",
+    "releaseDate": "June 27, 2024",
+    "patchNumber": "29.6.2"
   }
 }
