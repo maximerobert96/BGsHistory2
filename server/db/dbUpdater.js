@@ -513,5 +513,21 @@ function addStartOfCombatToCards() {
 
 }
 
+
+function addTrinketSpecificField() {
+    let patch = 205267;
+    let patchJson = dbManager.getJsonDBOfPatch(patch);
+    
+    for(let cardId in patchJson){
+        let card = patchJson[cardId];
+        if((card.hasOwnProperty("type") && card.type === "BATTLEGROUND_TRINKET")){
+            card.isBattlegroundsTrinket = true;
+        }
+    }
+    dbManager.saveJsonDBOfPatch(patchJson, patch);    
+}
+
 // console.log(getAllPatchesOfId(66246));
 // addStartOfCombatToCards();
+
+addTrinketSpecificField();

@@ -7,7 +7,8 @@ const { generateCard } = require('../generate/generatePhImage');
 function isActiveCard( currentCard ) {
     return (currentCard.hasOwnProperty("battlegroundsHero") && currentCard["battlegroundsHero"] == true)
     || (currentCard.hasOwnProperty("isBattlegroundsPoolMinion") && currentCard["isBattlegroundsPoolMinion"] == true)
-    || (currentCard.hasOwnProperty("isBattlegroundsPoolSpell") && currentCard["isBattlegroundsPoolSpell"] == true);
+    || (currentCard.hasOwnProperty("isBattlegroundsPoolSpell") && currentCard["isBattlegroundsPoolSpell"] == true)
+    || (currentCard.hasOwnProperty("isBattlegroundsTrinket") && currentCard["isBattlegroundsTrinket"] == true);
 }
 
 function getMostRecentPatch() {

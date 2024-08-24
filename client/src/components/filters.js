@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 function FilterDropdown({ cardPool, setActiveCards }) {
     const commonFilters = [
         {none: {fc: activeCardsFilter, name: "None"}},
+        {withoutDuos: {fc: withoutDuosFilter, name: "Without duo specific cards"}},
         {duosOnly: {fc: onlyDuosFilter, name: "Duo specific"}},
         {battlecry: {fc: mechanicFilter, name: "Battlecry", extraArgs: ["BATTLECRY"]}}, 
         {deathrattle: {fc: mechanicFilter, name: "Deathrattle", extraArgs: ["DEATHRATTLE"]}}, 

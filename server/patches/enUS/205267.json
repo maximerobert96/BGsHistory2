@@ -3992,7 +3992,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110966": {
     "cardClass": "NEUTRAL",
@@ -4012,7 +4013,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110967": {
     "cardClass": "NEUTRAL",
@@ -4033,7 +4035,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110972": {
     "artist": "Grafit",
@@ -4051,7 +4054,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110975": {
     "cardClass": "NEUTRAL",
@@ -4069,7 +4073,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110985": {
     "artist": "Gabriel Lopes",
@@ -4090,7 +4095,8 @@
     ],
     "relatedCards": [
       115223
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110991": {
     "artist": "Tanamaes Leejierasaes",
@@ -4111,7 +4117,8 @@
     ],
     "relatedCards": [
       115237
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "110993": {
     "artist": "Vika Yarova",
@@ -4132,7 +4139,8 @@
     ],
     "relatedCards": [
       115245
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111041": {
     "cardClass": "NEUTRAL",
@@ -4145,7 +4153,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111046": {
     "cardClass": "NEUTRAL",
@@ -4165,7 +4174,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111092": {
     "cardClass": "NEUTRAL",
@@ -4185,7 +4195,8 @@
     ],
     "relatedCards": [
       115234
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111211": {
     "cardClass": "NEUTRAL",
@@ -4205,7 +4216,8 @@
     ],
     "relatedCards": [
       111250
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111250": {
     "cardClass": "NEUTRAL",
@@ -4222,7 +4234,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111253": {
     "artist": "Vika Yarova",
@@ -4240,7 +4253,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111255": {
     "cardClass": "NEUTRAL",
@@ -4258,7 +4272,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111384": {
     "artist": "Marta Vives Poch",
@@ -4280,7 +4295,8 @@
     ],
     "relatedCards": [
       115236
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111388": {
     "cardClass": "NEUTRAL",
@@ -4301,7 +4317,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111400": {
     "cardClass": "NEUTRAL",
@@ -4319,7 +4336,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111401": {
     "cardClass": "NEUTRAL",
@@ -4339,7 +4357,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111403": {
     "cardClass": "NEUTRAL",
@@ -4356,7 +4375,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111404": {
     "cardClass": "NEUTRAL",
@@ -4374,7 +4394,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111406": {
     "artist": "Vlad Botos",
@@ -4392,7 +4413,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111408": {
     "artist": "Vlad Botos",
@@ -4410,7 +4432,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111417": {
     "cardClass": "NEUTRAL",
@@ -4427,7 +4450,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111448": {
     "artist": "Gabriel Lopes",
@@ -4445,7 +4469,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111476": {
     "cardClass": "NEUTRAL",
@@ -4462,7 +4487,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111488": {
     "artist": "Ivo Campelo da Silva",
@@ -4480,7 +4506,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111499": {
     "artist": "Ramzy Kamen",
@@ -4498,7 +4525,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111500": {
     "cardClass": "NEUTRAL",
@@ -4518,7 +4546,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111502": {
     "cardClass": "NEUTRAL",
@@ -4538,7 +4567,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111505": {
     "cardClass": "NEUTRAL",
@@ -4555,7 +4585,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111512": {
     "artist": "Grafit",
@@ -4573,7 +4604,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111514": {
     "artist": "Inès (Ourka) Rotzinger",
@@ -4594,7 +4626,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111529": {
     "artist": "Gabriel Lopes",
@@ -4616,7 +4649,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111533": {
     "artist": "Ivo Campelo da Silva",
@@ -4637,7 +4671,8 @@
     ],
     "relatedCards": [
       115221
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111556": {
     "artist": "Grafit",
@@ -4658,7 +4693,8 @@
     ],
     "relatedCards": [
       112813
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111557": {
     "artist": "Marta Vives Poch",
@@ -4679,7 +4715,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111607": {
     "cardClass": "NEUTRAL",
@@ -4700,7 +4737,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111608": {
     "artist": "Inès (Ourka) Rotzinger",
@@ -4718,7 +4756,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111609": {
     "cardClass": "NEUTRAL",
@@ -4741,7 +4780,8 @@
     ],
     "relatedCards": [
       115230
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111664": {
     "artist": "Marta Vives Poch",
@@ -4762,7 +4802,8 @@
     ],
     "relatedCards": [
       117416
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111920": {
     "cardClass": "NEUTRAL",
@@ -4782,7 +4823,8 @@
     ],
     "relatedCards": [
       115219
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111921": {
     "cardClass": "NEUTRAL",
@@ -4800,7 +4842,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111922": {
     "artist": "Valeria Styajkina",
@@ -4818,7 +4861,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111976": {
     "artist": "Kevin Sidharta",
@@ -4839,7 +4883,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111977": {
     "artist": "Grafit",
@@ -4857,7 +4902,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "111999": {
     "artist": "Tanamaes Leejierasaes",
@@ -4875,7 +4921,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112001": {
     "artist": "Tanamaes Leejierasaes",
@@ -4896,7 +4943,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112002": {
     "artist": "Vlad Botos",
@@ -4917,7 +4965,8 @@
     ],
     "relatedCards": [
       115250
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112004": {
     "artist": "Grafit",
@@ -4938,7 +4987,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112005": {
     "cardClass": "NEUTRAL",
@@ -4961,7 +5011,8 @@
     ],
     "relatedCards": [
       115258
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112009": {
     "artist": "Vika Yarova",
@@ -4979,7 +5030,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112011": {
     "cardClass": "NEUTRAL",
@@ -4996,7 +5048,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112013": {
     "cardClass": "NEUTRAL",
@@ -5016,7 +5069,8 @@
     ],
     "relatedCards": [
       115225
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112014": {
     "artist": "Marta Vives Poch",
@@ -5037,7 +5091,8 @@
     ],
     "relatedCards": [
       117157
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112054": {
     "cardClass": "NEUTRAL",
@@ -5055,7 +5110,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112055": {
     "artist": "Vika Yarova",
@@ -5077,7 +5133,8 @@
     ],
     "relatedCards": [
       115218
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112073": {
     "artist": "Joseph Weston",
@@ -5098,7 +5155,8 @@
     ],
     "relatedCards": [
       115231
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112078": {
     "artist": "Kevin Sidharta",
@@ -5119,7 +5177,8 @@
     ],
     "relatedCards": [
       112401
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112079": {
     "artist": "Tanamaes Leejierasaes",
@@ -5140,7 +5199,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112080": {
     "cardClass": "NEUTRAL",
@@ -5160,7 +5220,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112082": {
     "cardClass": "NEUTRAL",
@@ -5177,7 +5238,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112083": {
     "artist": "Vlad Botos",
@@ -5198,7 +5260,8 @@
     ],
     "relatedCards": [
       115248
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112102": {
     "cardClass": "NEUTRAL",
@@ -5218,7 +5281,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112364": {
     "artist": "Guillaume Beauchêne",
@@ -5302,7 +5366,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112382": {
     "artist": "Vika Yarova",
@@ -5321,7 +5386,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112383": {
     "artist": "Vika Yarova",
@@ -5339,7 +5405,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112385": {
     "cardClass": "NEUTRAL",
@@ -5356,7 +5423,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112392": {
     "cardClass": "NEUTRAL",
@@ -5376,7 +5444,8 @@
     ],
     "relatedCards": [
       115235
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112397": {
     "artist": "Vlad Botos",
@@ -5397,7 +5466,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112398": {
     "cardClass": "NEUTRAL",
@@ -5414,7 +5484,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112399": {
     "artist": "Kleston Marques",
@@ -5435,7 +5506,8 @@
     ],
     "relatedCards": [
       115226
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112400": {
     "cardClass": "NEUTRAL",
@@ -5453,7 +5525,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112401": {
     "artist": "Kevin Sidharta",
@@ -5488,7 +5561,8 @@
     ],
     "relatedCards": [
       115240
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112408": {
     "artist": "Vlad Botos",
@@ -5509,7 +5583,8 @@
     ],
     "relatedCards": [
       115228
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112411": {
     "artist": "Kati Singhasaneh",
@@ -5527,7 +5602,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112464": {
     "cardClass": "NEUTRAL",
@@ -5544,7 +5620,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112813": {
     "artist": "Grafit",
@@ -5574,7 +5651,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112855": {
     "artist": "Joseph Weston",
@@ -5592,7 +5670,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112884": {
     "cardClass": "NEUTRAL",
@@ -5625,7 +5704,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112988": {
     "artist": "Grafit",
@@ -5640,7 +5720,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112990": {
     "artist": "Kevin Sidharta",
@@ -5658,7 +5739,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "112991": {
     "artist": "Vika Yarova",
@@ -5677,7 +5759,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113095": {
     "cardClass": "NEUTRAL",
@@ -5694,7 +5777,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113096": {
     "cardClass": "NEUTRAL",
@@ -5715,7 +5799,8 @@
     ],
     "relatedCards": [
       113097
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113097": {
     "attack": 1,
@@ -5759,7 +5844,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113101": {
     "artist": "Grafit",
@@ -5777,7 +5863,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113102": {
     "cardClass": "NEUTRAL",
@@ -5794,7 +5881,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113103": {
     "artist": "Tanamaes Leejierasaes",
@@ -5812,7 +5900,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113104": {
     "cardClass": "NEUTRAL",
@@ -5829,7 +5918,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113122": {
     "attack": 4,
@@ -6649,7 +6739,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "113305": {
     "attack": 2,
@@ -7013,7 +7104,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "114212": {
     "cardClass": "NEUTRAL",
@@ -7031,7 +7123,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "114364": {
     "cardClass": "NEUTRAL",
@@ -7317,7 +7410,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115219": {
     "artist": "Grafit",
@@ -7335,7 +7429,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115221": {
     "artist": "Ivo Campelo da Silva",
@@ -7353,7 +7448,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115223": {
     "artist": "Gabriel Lopes",
@@ -7371,7 +7467,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115225": {
     "cardClass": "NEUTRAL",
@@ -7388,7 +7485,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115226": {
     "artist": "Kevin Sidharta",
@@ -7406,7 +7504,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115228": {
     "artist": "Vlad Botos",
@@ -7424,7 +7523,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115230": {
     "artist": "Isabela Zolik",
@@ -7445,7 +7545,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115231": {
     "cardClass": "NEUTRAL",
@@ -7462,7 +7563,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115234": {
     "cardClass": "NEUTRAL",
@@ -7479,7 +7581,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115235": {
     "cardClass": "NEUTRAL",
@@ -7496,7 +7599,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115236": {
     "cardClass": "NEUTRAL",
@@ -7514,7 +7618,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115237": {
     "cardClass": "NEUTRAL",
@@ -7531,7 +7636,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115240": {
     "cardClass": "NEUTRAL",
@@ -7551,7 +7657,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115245": {
     "cardClass": "NEUTRAL",
@@ -7568,7 +7675,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115247": {
     "cardClass": "NEUTRAL",
@@ -7585,7 +7693,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115248": {
     "cardClass": "NEUTRAL",
@@ -7602,7 +7711,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115250": {
     "cardClass": "NEUTRAL",
@@ -7619,7 +7729,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115251": {
     "cardClass": "NEUTRAL",
@@ -7636,7 +7747,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115253": {
     "cardClass": "NEUTRAL",
@@ -7653,7 +7765,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115258": {
     "cardClass": "NEUTRAL",
@@ -7673,7 +7786,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115369": {
     "artist": "Grafit",
@@ -8073,7 +8187,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "115595": {
     "artist": "Kevin Sidharta",
@@ -8135,7 +8250,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "116614": {
     "cardClass": "NEUTRAL",
@@ -8150,7 +8266,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "117157": {
     "cardClass": "NEUTRAL",
@@ -8167,7 +8284,8 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   },
   "117416": {
     "cardClass": "NEUTRAL",
@@ -8184,6 +8302,7 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ]
+    ],
+    "isBattlegroundsTrinket": true
   }
 }
