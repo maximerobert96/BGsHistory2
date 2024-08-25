@@ -3991,7 +3991,7 @@
     "text": "[x]Get a 'Kaboom Bot'.\nYour Kaboom Bots'\n<b>Deathrattles</b> deal\n8 extra damage.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4012,7 +4012,9 @@
     "text": "[x]<b>Start of Combat:</b> Summon\na Fish of N'Zoth that\ncopies <b>Deathrattles</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST",
+      "MECHANICAL",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4034,7 +4036,7 @@
     "text": "[x]Whenever you summon\na minion, give it <b>Divine\nShield</b>. <i>(4 times per\ncombat.)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4053,7 +4055,7 @@
     "text": "[x]<b>Avenge (3):</b> Give\nyour minions +3/+3\npermanently and deal\n1 damage to them.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4072,7 +4074,7 @@
     "text": "[x]Get a 'Soul Rewinder'\nand a 'Wrath Weaver'.\nYour Soul Rewinders\nalso gain Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4091,7 +4093,7 @@
     "text": "Whenever you play a card, give a friendly Dragon +3 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "relatedCards": [
       115223
@@ -4113,7 +4115,7 @@
     "text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +3/+3.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "relatedCards": [
       115237
@@ -4135,7 +4137,7 @@
     "text": "Whenever you spend Gold, give a friendly Pirate +1/+2.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "relatedCards": [
       115245
@@ -4173,7 +4175,9 @@
     "text": "[x]<b>Start of Combat:</b> Summon\na Golden Fish of N'Zoth\nthat copies <b>Deathrattles</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST",
+      "MECHANICAL",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4191,7 +4195,8 @@
     "text": "Minions in the Tavern have +3/+3.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "MECHANICAL"
     ],
     "relatedCards": [
       115234
@@ -4212,7 +4217,8 @@
     "text": "Your minions have +2/+1.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST",
+      "UNDEAD"
     ],
     "relatedCards": [
       111250
@@ -4233,7 +4239,8 @@
     "text": "Your minions have +5/+3.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4252,7 +4259,8 @@
     "text": "[x]Get a 'Dreamer's\nEmbrace'. At the start of\neach turn, get another.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON",
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4271,7 +4279,7 @@
     "text": "Get a 'Whelp Smuggler'. Your Whelp Smugglers are Dragons.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4291,7 +4299,8 @@
     "text": "Minions in the Tavern have +{1}/+{1}. Upgrades every 3 times you <b>Refresh</b>. <i>({0} left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "ELEMENTAL"
     ],
     "relatedCards": [
       115236
@@ -4316,7 +4325,7 @@
     "text": "[x]Get an 'Eternal Knight'.\n<b>Start of Combat:</b> Give your\nEternal Knights <b>Taunt</b>\nand <b>Reborn</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4335,7 +4344,7 @@
     "text": "Get a 'Spitescale Special'. Your <b>Spellcraft</b> spells cast twice.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4356,7 +4365,7 @@
     "text": "[x]<b>Start of Combat:</b> Give\nyour left and right-most\nminions <b>Divine Shield</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4374,7 +4383,7 @@
     "text": "[x]Get an 'Ancestral\nAutomaton'. <b>Start of\nCombat:</b> Summon an\n'Ancestral Automaton'.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4393,7 +4402,8 @@
     "text": "Get a 'Slimy Felblood'. Your Fiery and Slimy Felbloods give Attack <i>and</i> Health.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4412,7 +4422,7 @@
     "text": "[x]Each combat, after 3\nfriendly Pirates attack,\ngain 1 Gold next turn.\n<i>(3 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4431,7 +4441,7 @@
     "text": "After 6 friendly minions die, get a random Beast. <i>(6 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4449,7 +4459,7 @@
     "text": "[x]<b>Start of Combat:</b> Double\nthe stats of your two\nlowest-Attack minions.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4486,7 +4496,7 @@
     "text": "[x]Get a 'Snarling Conductor'.\nWhenever you discard a\ncard, play a <b>Blood Gem</b>\non all your minions.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4524,7 +4534,7 @@
     "text": "After you sell 4 minions, get a random Elemental. <i>(4 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4545,7 +4555,7 @@
     "text": "[x]<b>Start of Combat:</b> Give 2\nfriendly Elementals\n\"<b>Deathrattle:</b> Summon a\nFlourishing Frostling\".",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4566,7 +4576,7 @@
     "text": "[x]Get a 'Butchering' and a\nrandom Undead with\n<b>Deathrattle</b>. At the start of\neach turn, repeat this.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4584,7 +4594,7 @@
     "text": "[x]<b>Start of Combat:</b> Get\nand summon a random\nPirate. It attacks\nimmediately.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4603,7 +4613,7 @@
     "text": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +1/+1 this game.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4625,7 +4635,7 @@
     "text": "[x]<b>Start of Combat:</b>\nGive your Quilboar\n\"<b>Deathrattle:</b> Get a\n<b>Blood Gem</b>.\"",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4648,7 +4658,7 @@
     "text": "[x]After a friendly Mech\nloses <b>Divine Shield</b>, give\nit <b>Divine Shield</b>. <i>(3 times\nper combat.)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4667,7 +4677,8 @@
     "text": "After you buy a card, give a random friendly minion +2/+1.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL",
+      "PIRATE"
     ],
     "relatedCards": [
       115221
@@ -4714,7 +4725,7 @@
     "text": "[x]<b>Start of Combat:</b> Give your\nNaga \"<b>Deathrattle:</b> Get a\nrandom <b>Spellcraft</b> spell.\"",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4736,7 +4747,8 @@
     "text": "Get a 'Brann Bronzebeard'. Your Brann Bronzebeards are both Murlocs and Dragons.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON",
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4798,7 +4810,8 @@
     "text": "Whenever you cast a spell on a minion, give it +2/+2.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA",
+      "QUILBOAR"
     ],
     "relatedCards": [
       117416
@@ -4819,7 +4832,7 @@
     "text": "<b>Start of Combat:</b> Give your minions +2/+2.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "relatedCards": [
       115219
@@ -4882,7 +4895,7 @@
     "text": "[x]After you summon a Mech\nin combat, give a friendly\nMech <b>Divine Shield</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4901,7 +4914,7 @@
     "text": "[x]After you play an\nElemental, your next\nTavern spell costs\n(1) less.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -4986,7 +4999,9 @@
     "text": "[x]After you buy 2 <b>Battlecry</b>\nminions, get a random\n<b>Battlecry</b> minion. <i>(2 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON",
+      "ELEMENTAL",
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5007,7 +5022,7 @@
     "text": "[x]At the end of each turn,\ngive your minions with\n<b>Divine Shield</b> +4 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "relatedCards": [
       115258
@@ -5047,7 +5062,7 @@
     "text": "[x]Get a 'Lovesick\nBalladist'. At the start of\neach turn, get another.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5065,7 +5080,7 @@
     "text": "Your <b>Blood Gems</b> give an extra +3 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "relatedCards": [
       115225
@@ -5087,7 +5102,7 @@
     "text": "Your Undead have\n+3 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "relatedCards": [
       117157
@@ -5109,7 +5124,7 @@
     "text": "[x]Get a 'Famished\nFelbat'. The Tavern\nalways has 7 cards.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5129,7 +5144,8 @@
     "text": "Minions in the Tavern have +1/+1 for each minion you've sold this turn.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "ELEMENTAL"
     ],
     "relatedCards": [
       115218
@@ -5151,7 +5167,7 @@
     "text": "[x]Whenever a friendly minion\ntakes damage, give a\nrandom friendly minion\n+2 Attack permanently.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "relatedCards": [
       115231
@@ -5173,7 +5189,8 @@
     "text": "[x]<b>Spellcraft:</b> Choose a\nfriendly minion. It consumes\na random minion in the\nTavern to gain its stats.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "ELEMENTAL"
     ],
     "relatedCards": [
       112401
@@ -5198,7 +5215,8 @@
     "text": "At the end of each turn, get a random <b>Battlecry</b> minion.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON",
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5219,7 +5237,7 @@
     "text": "<b>Avenge (5):</b> Give a random friendly minion <b>Reborn</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5256,7 +5274,7 @@
     "text": "[x]The first time a friendly\nminion dies each combat,\ngive its maximum stats to\na random friendly minion.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "relatedCards": [
       115248
@@ -5280,7 +5298,8 @@
     "text": "[x]Get a 'Titus Rivendare'.\n<b>Start of Combat:</b> Give\nyour Titus Rivendares\n<b>Stealth</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5365,7 +5384,7 @@
     "text": "After you summon a Beast in combat, double its stats.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5385,7 +5404,7 @@
     "text": "Minions in the Tavern have +{1}/+{1}. Upgrades every 4 times your hero takes damage. <i>({0} left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5404,7 +5423,7 @@
     "text": "[x]<b>Start of Combat:</b> Set your\nDragons' Attack to the\nhighest in your warband.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5440,7 +5459,7 @@
     "text": "[x]After you play an\nElemental, Elementals in\nthe Tavern have +1/+1\nthis game.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "relatedCards": [
       115235
@@ -5465,7 +5484,7 @@
     "text": "[x]<b>Avenge (3):</b> Get a random\n<b>Magnetic</b> minion.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5483,7 +5502,7 @@
     "text": "[x]Each combat, after 2\nfriendly minions attack,\nplay a <b>Blood Gem</b> on all\nyour Quilboar. <i>(2 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5502,7 +5521,7 @@
     "text": "[x]After you cast a Tavern\nspell, your Undead have\n+1 Attack this game\n<i>(wherever they are)</i>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "relatedCards": [
       115226
@@ -5524,7 +5543,7 @@
     "text": "[x]Get a 'Living Azerite'.\nYour Living Azerites\nalso give stats to\nfriendly Elementals.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5557,7 +5576,7 @@
     "text": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+5/+5 permanently.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "relatedCards": [
       115240
@@ -5579,7 +5598,8 @@
     "text": "Your left-most minion has +8 Attack in combat.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE",
+      "UNDEAD"
     ],
     "relatedCards": [
       115228
@@ -5601,7 +5621,8 @@
     "text": "[x]<b>Start of Combat:</b> Set each\nof your minions' Attack\nand Health to the higher\nof the two.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5619,7 +5640,7 @@
     "text": "Get a 'Glowscale'.\nYour first <b>Spellcraft</b> enchantment each turn is permanent.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5669,7 +5690,8 @@
     "text": "Your first spell each turn casts twice.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA",
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5738,7 +5760,7 @@
     "text": "You only need 2 copies of a Pirate to make it Golden.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5776,7 +5798,7 @@
     "text": "[x]When you have space,\nsummon an exact copy\nof your first Mech that\ndied each combat.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5795,7 +5817,7 @@
     "text": "[x]Whenever a friendly Quilboar\ndies, summon a Golem with\nstats equal to its <b>Blood Gems</b>.\n<i>(3 times per combat.)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "relatedCards": [
       113097
@@ -5843,7 +5865,7 @@
     "text": "[x]<b>Start of Combat:</b> Your\nleft-most minion gains the\nstats of the highest Health\nminion in your hand.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -5880,7 +5902,7 @@
     "text": "After you spend 7 Gold, get a random Tavern spell. <i>(7 Gold left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -6738,7 +6760,7 @@
     "text": "[x]Whenever you would\nsummon a minion that\ndoesn't fit in your warband,\ngive your minions +4 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7103,7 +7125,8 @@
     "text": "[x]When you have space,\nsummon a copy of the\nfirst minion you summon\neach combat.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7122,7 +7145,7 @@
     "text": "[x]Get a 'Zesty Shaker'. Your\nZesty Shakers give an\nextra copy of the spell.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7409,7 +7432,8 @@
     "text": "Minions in the Tavern have +2/+2 for each minion you've sold this turn.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7428,7 +7452,7 @@
     "text": "<b>Start of Combat:</b> Give your minions +5/+5.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7447,7 +7471,8 @@
     "text": "After you buy a card, give a random friendly minion +4/+4.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL",
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7466,7 +7491,7 @@
     "text": "Whenever you play a card, give a friendly Dragon +6 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7484,7 +7509,7 @@
     "text": "Your <b>Blood Gems</b> give an extra +4/+4.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7503,7 +7528,7 @@
     "text": "[x]After you cast a Tavern\nspell, your Undead have\n+2 Attack this game\n<i>(wherever they are)</i>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7522,7 +7547,8 @@
     "text": "Your left-most minion has +20 Attack in combat.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7562,7 +7588,7 @@
     "text": "[x]Whenever a friendly minion\ntakes damage, give a\nrandom friendly minion\n+4 Attack permanently.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7580,7 +7606,8 @@
     "text": "Minions in the Tavern have +7/+7.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7598,7 +7625,7 @@
     "text": "[x]After you play an\nElemental, Elementals in\nthe Tavern have +2/+2\nthis game.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7617,7 +7644,8 @@
     "text": "Minions in the Tavern have +{1}/+{1}. Upgrades every 3 times you <b>Refresh</b>. <i>({0} left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON",
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7635,7 +7663,7 @@
     "text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +6/+6.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7656,7 +7684,7 @@
     "text": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+15/+15 permanently.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7674,7 +7702,7 @@
     "text": "Whenever you spend Gold, give a friendly Pirate +2/+4.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7692,7 +7720,8 @@
     "text": "[x]When you have space,\nsummon 2 copies of the\nfirst minion you summon\neach combat.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7710,7 +7739,7 @@
     "text": "[x]The first time a friendly\nminion dies each combat,\ngive its maximum stats to\n2 random friendly minions.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7746,7 +7775,8 @@
     "text": "Your minions from Tier 3 or lower have +6/+4.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7764,7 +7794,7 @@
     "text": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +2/+2 this game.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -7785,7 +7815,7 @@
     "text": "[x]At the end of each turn,\ngive your minions with\n<b>Divine Shield</b> +7 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -8186,7 +8216,8 @@
     "text": "Whenever a friendly minion attacks, give it +4 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE",
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -8283,7 +8314,7 @@
     "text": "Your Undead have\n+7 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -8301,7 +8332,8 @@
     "text": "Whenever you cast a spell on a minion, give it +5/+5.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA",
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   }

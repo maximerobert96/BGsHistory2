@@ -201,10 +201,13 @@ function CategoryTable({ cards, patchId }) {
         card.type === "HERO" );
     let minionsOrTSpells = cards.filter((card) =>
         card.type === "MINION" || card.type === "BATTLEGROUND_SPELL");
+    let trinkets = cards.filter((card) =>
+        card.type === "BATTLEGROUND_TRINKET");
     return (
         <div>
             <Heroes cards={heroes} patchId={patchId} />
             <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} />
+            <Trinkets cards={trinkets} patchId={patchId} />
         </div>
     );
 }
@@ -236,6 +239,23 @@ function MinionsOrTSpells({ cards, patchId }) {
     return (
         <div>
             {tierTables}
+        </div>
+    );
+}
+
+function Trinkets({ cards, patchId }) {
+
+    let lesserTrinkets = cards.filter((card) => card.spellSchool === "LESSER_TRINKET").sort((a,b) => 
+        a.name > b.name ? 1 : -1);
+    let greaterTrinkets = cards.filter((card) => card.spellSchool === "GREATER_TRINKET").sort((a,b) => 
+        a.name > b.name ? 1 : -1);
+        
+    return (
+        <div>
+            <h1>Lesser Trinkets</h1>
+            <CardRows cards={lesserTrinkets} patchId={patchId} />
+            <h1>Greater Trinkets</h1>
+            <CardRows cards={greaterTrinkets} patchId={patchId} />
         </div>
     );
 }

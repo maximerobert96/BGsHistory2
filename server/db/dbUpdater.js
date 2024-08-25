@@ -530,4 +530,46 @@ function addTrinketSpecificField() {
 // console.log(getAllPatchesOfId(66246));
 // addStartOfCombatToCards();
 
-addTrinketSpecificField();
+// addTrinketSpecificField();
+
+function addingTribesToAllTrinkets() {
+    let patch = 205267;
+    let patchJson = dbManager.getJsonDBOfPatch(patch);
+
+    
+    let beast = [111211, 111250, 112073, 115231, 111046, 110966, 111408, 112102, 112381, 110972, 115251];
+    let demon = [112054, 112382, 110975, 111404, 111092, 115234, 111384, 115236, 112055, 115218, 112078];
+    let dragon = [111607, 111253, 112383, 112411, 112004, 111255, 112079, 111401, 115248, 112083, 111417, 115219, 111920, 111920, 115223, 110985];
+    let elemental = [112400, 111500, 112004, 115235, 112392, 111404, 111977, 111384, 115236, 111499, 111533, 115221, 115218, 112055, 112078];
+    let mech = [111529, 113095, 112397, 110956, 111046, 110966, 111403, 111092, 115234, 111976, 112005, 115258];
+    let murloc = [111607, 111253, 113099, 112004, 115240, 112402, 112079, 114208, 115247, 115237, 110991];
+    let naga = [112855, 111400, 112464, 117416, 114212, 111664, 111557, 112855];
+    let pirate = [111505, 115464, 115228, 112408, 115245, 110993, 115221, 111533, 112011, 111406, 112990, 113102];
+    let quilboar = [111476, 113096, 112398, 111512, 115253, 111514, 111664, 117416, 112855, 115225, 112013];
+    let undead = [115251, 111388, 115226, 112399, 112080, 115247, 114208, 111046, 110966, 115464, 117157, 112014, 111250, 111211, 115228, 112408, 111502, 113302, 112411, 112102, 110967];
+    
+    beast.forEach((card) => addSingleTribeToTrinket("BEAST", card, patchJson));
+    demon.forEach((card) => addSingleTribeToTrinket("DEMON", card, patchJson));
+    dragon.forEach((card) => addSingleTribeToTrinket("DRAGON", card, patchJson));
+    elemental.forEach((card) => addSingleTribeToTrinket("ELEMENTAL", card, patchJson));
+    mech.forEach((card) => addSingleTribeToTrinket("MECHANICAL", card, patchJson));
+    murloc.forEach((card) => addSingleTribeToTrinket("MURLOC", card, patchJson));
+    naga.forEach((card) => addSingleTribeToTrinket("NAGA", card, patchJson));
+    pirate.forEach((card) => addSingleTribeToTrinket("PIRATE", card, patchJson));
+    quilboar.forEach((card) => addSingleTribeToTrinket("QUILBOAR", card, patchJson));
+    undead.forEach((card) => addSingleTribeToTrinket("UNDEAD", card, patchJson));
+
+    dbManager.saveJsonDBOfPatch(patchJson, patch); 
+
+}
+
+function addSingleTribeToTrinket(tribe, cardId, patchJson) {
+    let card = patchJson[cardId];
+    if(!card.hasOwnProperty("associatedTribes") ||(card.hasOwnProperty("associatedTribes") && card.associatedTribes.includes("GENERAL"))){
+        card.associatedTribes = [tribe];
+    } else if (card.hasOwnProperty("associatedTribes") && card.associatedTribes.length > 0 && !card.associatedTribes.includes(tribe)) {
+        card.associatedTribes.push(tribe);
+    }
+}
+
+// addingTribesToAllTrinkets();

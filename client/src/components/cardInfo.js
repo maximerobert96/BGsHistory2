@@ -52,6 +52,8 @@ export function CardInfo({ card, patch }) {
             return (<SpellInfo card={card} patch={patch} />);
         case "BATTLEGROUND_SPELL":
             return (<TavernSpellInfo card={card} patch={patch} />);
+        case "BATTLEGROUND_TRINKET":
+            return (<TrinketInfo card={card} patch={patch} />);
         default: 
             return(<p>help</p>);
 
@@ -167,15 +169,8 @@ function TavernSpellInfo({ card, patch }) {
     if(card.hasOwnProperty("text")) {
         cardText = <><br />{parse(card.text)}</>;
     }
-    let races = getElementsOfProperty(card, "races");
     let tribes = getElementsOfProperty(card, "associatedTribes");
     
-    let racesHtml;
-    if(races.length === 1) {
-        racesHtml = <><br />Race: {races}</>
-    } else if (races.length > 1) {
-        racesHtml = <><br />Races: {races}</>
-    }
 
     let tribesHtml;
     if(tribes.length === 1) {
@@ -188,7 +183,45 @@ function TavernSpellInfo({ card, patch }) {
     let placeholderIcon = "/icons/placeholder.png";
     
 
-    let basicInfo = <>{card.cost} cost tavern spell on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
+    let basicInfo = <>{card.cost} cost tavern spell on tier {card.techLevel}.{cardText}{tribesHtml}</>;
+        
+    return (
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
+    </div>);
+}
+
+function TrinketInfo({ card, patch }) {
+    let cardText;
+
+    if(card.hasOwnProperty("text")) {
+        cardText = <><br />{parse(card.text)}</>;
+    }
+    let tribes = getElementsOfProperty(card, "associatedTribes");
+    
+
+    let tribesHtml;
+    if(tribes.length === 1) {
+        tribesHtml = <><br />Tribe: {tribes}</>
+    } else if (tribes.length > 1) {
+        tribesHtml = <><br />Tribes: {tribes}</>
+    }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+    
+
+    let basicInfo = <>{card.cost} cost trinket.{cardText}{tribesHtml}</>;
         
     return (
     <div className="grid-container">
