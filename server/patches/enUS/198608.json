@@ -1749,6 +1749,25 @@
     "text": "<b>Divine Shield</b>\nWhenever you cast a spell, gain +2 Attack.",
     "type": "MINION"
   },
+  "103796": {
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 103796,
+    "id": "BG28_507",
+    "name": "Sacred Gift",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "targetingArrowText": "Give <b>Divine Shield</b>.",
+    "techLevel": 6,
+    "text": "Give a minion\n<b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "104468": {
     "attack": 5,
     "battlegroundsPremiumDbfId": 104471,

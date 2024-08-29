@@ -68,7 +68,7 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
 }
 
 function addCustomFields(card, cardsInPatch){
-    let directory = "../server/"; //TODO update to real one later when everything works
+    let directory = "../server/";
     let mapping = getJsonFromFile(`${directory}mapping.json`); 
     let cardWithCustomFields = card;
     let cardsArray = Object.values(cardsInPatch);

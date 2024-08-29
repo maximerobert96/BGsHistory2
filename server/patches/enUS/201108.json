@@ -1451,6 +1451,24 @@
     ],
     "isBattlegroundsPoolMinion": true
   },
+  "100910": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 100910,
+    "id": "EBG_Spell_037",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Unmasked Identity",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "<b>Discover</b> a new\nHero Power.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
   "101130": {
     "armor": 10,
     "artist": "Rafael Zanchetin",

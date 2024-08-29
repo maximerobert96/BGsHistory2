@@ -691,7 +691,6 @@
   },
   "70144": {
     "attack": 3,
-    "battlegroundsNormalDbfId": 70146,
     "battlegroundsPremiumDbfId": 70146,
     "cardClass": "NEUTRAL",
     "cost": 3,

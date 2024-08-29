@@ -212,7 +212,8 @@ function updateCardChangesForPatch(patch) {
 
 
 
-let patches = [203120, 205031, 205267];
+// let patches = [183876, 190416, 198608, 201108];
+let patches = [205267];
 
 for(let patch of patches){
     updateActiveCardsForPatch(patch);

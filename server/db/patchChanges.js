@@ -851,3 +851,6 @@ function addingTribeSpecificTSpells() {
 // addNewChange(198037, 104027, undefined, ["isBattlegroundsPoolSpell"]); 
 // addNewChange(198037, 110631, undefined, ["isBattlegroundsPoolSpell"]); 
 // addNewChange(198037, 105905, undefined, ["isBattlegroundsPoolSpell"]);
+
+addNewChange(201108, 100910, undefined, ["isBattlegroundsPoolSpell"]); // removing unmasked identity
+addNewChange(198608, 103796, undefined, ["isBattlegroundsPoolSpell"]); // removing sacred gift
