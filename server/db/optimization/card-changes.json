@@ -84462,5 +84462,1453 @@
         "newVersion": 205267
       }
     ]
+  },
+  "206433": {
+    "57633": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 20,
+            "old": 17
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "57947": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 13
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "59707": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "text": {
+            "new": "[x]At the end of your turn,\ngive a friendly minion\nof each type +4/+3.",
+            "old": "[x]At the end of your turn,\ngive a friendly minion\nof each type +3/+3."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "59711": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 16,
+            "old": 12
+          },
+          "text": {
+            "new": "[x]At the end of your turn,\ngive a friendly minion\nof each type +8/+6.",
+            "old": "[x]At the end of your turn,\ngive a friendly minion\nof each type +6/+6."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "60214": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 14,
+            "old": 18
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "60362": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 12,
+            "old": 15
+          }
+        },
+        "oldVersion": "198608",
+        "newVersion": 206433
+      }
+    ],
+    "60370": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 17,
+            "old": 10
+          }
+        },
+        "oldVersion": "198608",
+        "newVersion": 206433
+      }
+    ],
+    "61912": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 10
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "63319": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 19,
+            "old": 16
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "67356": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 12
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "67553": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 16,
+            "old": 13
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "68130": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Passive</b>\nAfter you buy 25 Tiers'\nworth of cards, get a Triple\nReward. <i>(25 left!)</i>",
+            "old": "[x]<b>Passive</b>\nAfter you buy 30 Tiers'\nworth of cards, get a Triple\nReward. <i>(30 left!)</i>"
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "74631": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 17,
+            "old": 13
+          }
+        },
+        "oldVersion": "195316",
+        "newVersion": 206433
+      }
+    ],
+    "75702": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 8,
+            "old": 10
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "80247": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 15,
+            "old": 10
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "80739": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "80750": [
+      {
+        "changeType": "returning",
+        "newVersion": 206433
+      }
+    ],
+    "80758": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 6
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "86013": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 12
+          }
+        },
+        "oldVersion": "205031",
+        "newVersion": 206433
+      }
+    ],
+    "95286": [
+      {
+        "changeType": "returning",
+        "newVersion": 206433
+      }
+    ],
+    "95293": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 5,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "202360",
+        "newVersion": 206433
+      }
+    ],
+    "95294": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 10,
+            "old": 12
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 206433
+      }
+    ],
+    "99054": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 5
+          },
+          "health": {
+            "new": 6,
+            "old": 4
+          },
+          "text": {
+            "new": "[x]Once per turn, when a\n<b>Spellcraft</b> spell is played on\n this, get a new copy of it.",
+            "old": "[x]Once per turn, when a\nspell is played on this,\nget a new copy of it."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "99066": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 12,
+            "old": 10
+          },
+          "health": {
+            "new": 12,
+            "old": 8
+          },
+          "text": {
+            "new": "[x]Once per turn, when a\n<b>Spellcraft</b> spell is played on\n this, get 2 new copies of it.",
+            "old": "[x]Once per turn, when a\nspell is played on this,\nget 2 new copies of it."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "100899": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          },
+          "artist": {
+            "new": "Marta Vives Poch"
+          }
+        },
+        "oldVersion": "193541",
+        "newVersion": 206433
+      }
+    ],
+    "101114": [
+      {
+        "changeType": "returning",
+        "newVersion": 206433
+      }
+    ],
+    "105431": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 18,
+            "old": 10
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "105434": [
+      {
+        "changeType": "change",
+        "changes": {
+          "armor": {
+            "new": 8,
+            "old": 10
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "108432": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Has +2/+1 for each other\nAncestral Automaton you've\nsummoned this game\n<i>(wherever this is)</i>.",
+            "old": "[x]Has +3/+2 for each other\nAncestral Automaton you've\nsummoned this game\n<i>(wherever this is)</i>."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "108435": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Has +4/+2 for each other\nAncestral Automaton you've\nsummoned this game\n<i>(wherever this is)</i>.",
+            "old": "[x]Has +6/+4 for each other\nAncestral Automaton you've\nsummoned this game\n<i>(wherever this is)</i>."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "110966": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "110975": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111092": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111211": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111250": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 3
+          },
+          "text": {
+            "new": "Your minions have +6/+4.",
+            "old": "Your minions have +5/+3."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111384": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111388": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 6
+          },
+          "text": {
+            "new": "Get a 'Spitescale Special'. Your first two <b>Spellcraft</b> spells each turn cast twice. <i>(2 left!)</i>",
+            "old": "Get a 'Spitescale Special'. Your <b>Spellcraft</b> spells cast twice."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111403": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111406": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Each combat, after 2\nfriendly Pirates attack,\ngain 1 Gold next turn.\n<i>(2 left!)</i>",
+            "old": "[x]Each combat, after 3\nfriendly Pirates attack,\ngain 1 Gold next turn.\n<i>(3 left!)</i>"
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111408": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111476": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Get a 'Snarling Conductor'.\nWhenever you discard a\ncard, play a <b>Blood Gem</b>\non 5 friendly minions.",
+            "old": "[x]Get a 'Snarling Conductor'.\nWhenever you discard a\ncard, play a <b>Blood Gem</b>\non all your minions."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111499": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111502": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111505": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111512": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Avenge (5):</b> Your <b>Blood Gems</b> give an extra +1 Health this game.",
+            "old": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +1/+1 this game."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111609": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111921": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 6
+          },
+          "spellSchool": {
+            "new": "GREATER_TRINKET",
+            "old": "LESSER_TRINKET"
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111922": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 5
+          },
+          "text": {
+            "new": "<b>Start of Combat:</b> Summon a copy of your 2 left-most minions.",
+            "old": "<b>Start of Combat:</b> Summon a copy of each of your minions."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111977": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "111999": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112001": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112002": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112004": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112005": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112011": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112054": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 9,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112073": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112079": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          },
+          "text": {
+            "new": "[x]Get a random <b>Battlecry</b>\nminion. At the start of\neach turn get another.",
+            "old": "At the end of each turn, get a random <b>Battlecry</b> minion."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112083": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112102": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]Get a 'Titus Rivendare'.\n<b>Start of Combat:</b> Double\nthe Health of your\nTitus Rivendares.",
+            "old": "[x]Get a 'Titus Rivendare'.\n<b>Start of Combat:</b> Give\nyour Titus Rivendares\n<b>Stealth</b>."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112383": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112392": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112397": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112399": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112464": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112855": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112895": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "112990": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113095": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113096": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Whenever a friendly Quilboar\ndies, summon a Golem with\nstats equal to its <b>Blood Gems</b>.\n<i>(2 times per combat.)</i>",
+            "old": "[x]Whenever a friendly Quilboar\ndies, summon a Golem with\nstats equal to its <b>Blood Gems</b>.\n<i>(3 times per combat.)</i>"
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113104": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113140": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 9,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113141": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 18,
+            "old": 10
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113150": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 8
+          },
+          "health": {
+            "new": 2,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113151": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 16
+          },
+          "health": {
+            "new": 4,
+            "old": 16
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 6
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113156": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]Whenever you summon a\nminion in combat, give it\n+3/+2. If there's no space,\n       gain +3/+2 permanently.    ",
+            "old": "[x]Whenever you summon a\nminion in combat, give it\n+2/+2. If there's no space,\n       gain +2/+2 permanently.    "
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113157": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 4
+          },
+          "text": {
+            "new": "[x]Whenever you summon a\nminion in combat, give it\n+6/+4. If there's no space,\n       gain +6/+4 permanently.    ",
+            "old": "[x]Whenever you summon a\nminion in combat, give it\n+4/+4. If there's no space,\n       gain +4/+4 permanently.    "
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113302": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 3
+          },
+          "text": {
+            "new": "[x]Whenever you would\nsummon a minion that\ndoesn't fit in your warband,\ngive your minions +5 Attack.",
+            "old": "[x]Whenever you would\nsummon a minion that\ndoesn't fit in your warband,\ngive your minions +4 Attack."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "113405": [
+      {
+        "changeType": "removal",
+        "oldVersion": "205031"
+      }
+    ],
+    "113764": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 5
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Give your other Pirates +4 Health.",
+            "old": "<b>Battlecry:</b> Give your other Pirates +3 Health."
+          }
+        },
+        "oldVersion": "201108",
+        "newVersion": 206433
+      }
+    ],
+    "113765": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 10
+          },
+          "text": {
+            "new": "<b>Battlecry:</b> Give your other Pirates +8 Health.",
+            "old": "<b>Battlecry:</b> Give your other Pirates +6 Health."
+          }
+        },
+        "oldVersion": "201108",
+        "newVersion": 206433
+      }
+    ],
+    "115218": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115219": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Start of Combat:</b> Give your minions +6/+6.",
+            "old": "<b>Start of Combat:</b> Give your minions +5/+5."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115221": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 0,
+            "old": 2
+          },
+          "text": {
+            "new": "After you buy a card, give a random friendly minion +5/+5.",
+            "old": "After you buy a card, give a random friendly minion +4/+4."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115223": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Whenever you play a card, give a friendly Dragon +8 Attack.",
+            "old": "Whenever you play a card, give a friendly Dragon +6 Attack."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115226": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115231": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115234": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          },
+          "text": {
+            "new": "Minions in the Tavern have +8/+8.",
+            "old": "Minions in the Tavern have +7/+7."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115235": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115236": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115237": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115245": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Whenever you spend Gold, give a friendly Pirate +3/+4.",
+            "old": "Whenever you spend Gold, give a friendly Pirate +2/+4."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115247": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115251": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Your minions from Tier 3 or lower have +7/+5.",
+            "old": "Your minions from Tier 3 or lower have +6/+4."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115253": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115438": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 4
+          },
+          "health": {
+            "new": 2,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115439": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 8
+          },
+          "health": {
+            "new": 4,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115464": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115595": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 7,
+            "old": 6
+          },
+          "text": {
+            "new": "[x]<b>Deathrattle:</b> For the rest\nof this combat, after you\nsummon a Pirate, give it\n+5 Attack.",
+            "old": "[x]<b>Deathrattle:</b> For the rest\nof this combat, after you\nsummon a Pirate, give it\n+4 Attack."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "115596": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 14,
+            "old": 12
+          },
+          "text": {
+            "new": "[x]<b>Deathrattle:</b> For the rest\nof this combat, after you\nsummon a Pirate, give it\n+10 Attack.",
+            "old": "[x]<b>Deathrattle:</b> For the rest\nof this combat, after you\nsummon a Pirate, give it\n+8 Attack."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ],
+    "117157": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 5
+          },
+          "text": {
+            "new": "Your Undead have\n+8 Attack.",
+            "old": "Your Undead have\n+7 Attack."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 206433
+      }
+    ]
   }
 }

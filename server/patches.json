@@ -852,5 +852,11 @@
     "build": "205267",
     "releaseDate": "August 20, 2024",
     "patchNumber": "30.2.0"
+  },
+  "206433": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24134638/30-2-2-patch-notes",
+    "build": "206433",
+    "releaseDate": "August 29, 2024",
+    "patchNumber": "30.2.2"
   }
 }
