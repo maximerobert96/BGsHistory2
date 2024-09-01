@@ -211,7 +211,8 @@ function updateCardChangesForPatch(patch) {
 
 
 function createPutriFile(){
-    // get all the cards in my id list
+    // putri file would look like
+        // [ patchWherePoolChanged: { pool1: [], pool2: [] } ]
 
     const PUTRI_POOL_1 = [
 85651, 99117, 100775, 85152, 99116,
@@ -234,21 +235,29 @@ const PUTRI_POOL_2 = [
 98868
 ];
 
+    let putriObj = [];
+    let patch = 205267;
+    putriObj.push({[patch]: { pool1: PUTRI_POOL_1, pool2: PUTRI_POOL_2}
+    });
+
+    dbManager.saveJsonToFile("./optimization/putricide_pools.json", putriObj);
+
 
 }
 
+createPutriFile();
 
 
 //162867
 
 
 // let patches = [183876, 190416, 198608, 201108];
-let patches = [206433];
+// let patches = [206433];
 
-for(let patch of patches){
-    updateActiveCardsForPatch(patch);
-    updateCardChangesForPatch(patch);
-}
+// for(let patch of patches){
+//     updateActiveCardsForPatch(patch);
+//     updateCardChangesForPatch(patch);
+// }
 
 
 
