@@ -2,7 +2,7 @@
 import './App.css';
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./components/cardList";
+import MainPage, { PutriPage } from "./components/cardList";
 import DisplayCardInfo from './components/cardInfo';
 import Practice from './components/practice';
 import PatchChanges from './components/PatchChanges';
@@ -17,6 +17,9 @@ function App() {
         <Route path="/cards/:id" element={<DisplayCardInfo />} />
         <Route path="/:patchId/cards/" element={<MainPage  />}>
           <Route path="/:patchId/cards/:id" element={<DisplayCardInfo />} />
+        </Route>
+        <Route path="/:patchId/putricide-pool/" element={<PutriPage  />}>
+          <Route path="/:patchId/putricide-pool/:id" element={<DisplayCardInfo />} />
         </Route>
         <Route path="/patch-changes/:patchId" element={<PatchChanges />} />
         <Route path="/patch-changes2/:patchId" element={<PatchChanges2 />} />

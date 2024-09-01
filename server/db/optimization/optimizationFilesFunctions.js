@@ -51,14 +51,14 @@ function getPutricideCards(patchId) {
     let recentPool1 = Object.values(mostRecentPools)[0].pool1;
     let recentPool2 = Object.values(mostRecentPools)[0].pool2;
 
-    let currentCardsInPool1 = {};
-    let currentCardsInPool2 = {};
+    let currentCardsInPool1 = [];
+    let currentCardsInPool2 = [];
 
     for(let cardId of recentPool1) {
-        currentCardsInPool1[cardId] = dbManager.getCardById(cardId);
+        currentCardsInPool1.push(dbManager.getCardById(cardId));
     }
     for(let cardId of recentPool2) {
-        currentCardsInPool2[cardId] = dbManager.getCardById(cardId);
+        currentCardsInPool2.push(dbManager.getCardById(cardId));
     }
 
     return {pool1: currentCardsInPool1, pool2: currentCardsInPool2};
@@ -71,7 +71,7 @@ function getPutricideCards(patchId) {
 
 }
 
-getPutricideCards(205267);
+// getPutricideCards(205267);
 
 module.exports = {
     getActiveCardsOfPatch, getChangesOfPatch, getPutricideCards

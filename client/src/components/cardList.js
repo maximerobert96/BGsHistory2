@@ -70,6 +70,74 @@ export default function MainPage() {
         );
 }
 
+export function PutriPage() {
+    // const [cards, setCards] = useState([]);
+    // const [activeCards, setActiveCards] = useState([]);
+    const [pool1, setPool1] = useState([]);
+    const [pool2, setPool2] = useState([]);
+    const params = useParams();
+    const [selectedCard, setSelectedCard] = useState(null);
+
+    let patchId;
+    if(params.patchId !== undefined) {
+        patchId = params.patchId.toString();
+    }
+
+    useEffect(() => {
+        async function getCards(){
+            let response;
+            if(params.patchId !== undefined) {
+                let patchId = params.patchId.toString();
+                response = await fetch(`http://localhost:5000/${patchId}/putricide-pool/`);
+            }
+            if(!response.ok){
+                const message = `an error has occurred: ${response.statusText}`;
+                window.alert(message);
+                return;
+            }
+            const cards = await response.json();
+            setPool1(cards.pool1);
+            setPool2(cards.pool2);
+            // setCards(c => cards);
+            // applyFilter(setCards, withoutDuosFilter);
+            // applyFilter(setCards, onlyDuosFilter);
+            // applyFilter(setCards, faelinFilter);
+
+
+            
+        }
+        
+        getCards();
+        return;
+    }, [params.patchId]);
+
+    useEffect(() => {
+        async function getSelectedId(){
+            if(params.id !== undefined) {
+                setSelectedCard(params.id);
+            } else {
+                setSelectedCard(null);
+            }
+        }
+        getSelectedId();
+
+    }, [params.id]);
+
+
+        return (
+        <>
+            { selectedCard &&
+            (<DisplayCardInfo patchId={patchId} />)}
+            <PatchInfo patchId={patchId}/>
+            {pool1.length && 
+            (<CardList cards={pool1} patchId={patchId} />)}
+            {pool2.length && 
+            (<CardList cards={pool2} patchId={patchId} />)}
+           
+        </>
+        );
+}
+
 function DisplayCardInfo({ patchId }){
     const navigate = useNavigate();
     
@@ -244,6 +312,10 @@ function MinionsOrTSpells({ cards, patchId }) {
 }
 
 function Trinkets({ cards, patchId }) {
+    // no trinket
+    if(cards.length === 0){
+        return;
+    }
 
     let lesserTrinkets = cards.filter((card) => card.spellSchool === "LESSER_TRINKET").sort((a,b) => 
         a.name > b.name ? 1 : -1);
