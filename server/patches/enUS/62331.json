@@ -42,7 +42,8 @@
     "name": "Stay Frosty",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAt the end of your turn,\n<b>Frozen</b> minions get\n+2/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58435"
   },
   "58143": {
     "attack": 4,
@@ -104,7 +105,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart with 55 Health \ninstead of 40.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59397"
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -118,7 +120,8 @@
     "relatedCards": [
       59816,
       65230
-    ]
+    ],
+    "heroDbfId": "59814"
   },
   "60122": {
     "attack": 1,
@@ -178,7 +181,8 @@
     "name": "Imprison",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nMake a minion in Bob's\nTavern <b>Dormant</b>. After 2\n  turns, get it with +1 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61914"
   },
   "62254": {
     "attack": 8,
@@ -234,7 +238,8 @@
     "name": "Friendly Wager",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGuess which player will\nwin their next combat.\n If they win, get 3 Coins.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63602"
   },
   "63624": {
     "attack": 6,
@@ -453,7 +458,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
@@ -462,7 +468,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       64426
-    ]
+    ],
+    "heroDbfId": "57892"
   },
   "64426": {
     "cardClass": "NEUTRAL",
@@ -471,7 +478,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087t",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Sulfuras",
     "set": "BATTLEGROUNDS",
@@ -505,7 +513,8 @@
     "name": "Avalanche",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAfter you play 3 Elementals,\nreduce the cost of upgrading\nBob's Tavern by (3).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64475"
   },
   "65031": {
     "attack": 1,

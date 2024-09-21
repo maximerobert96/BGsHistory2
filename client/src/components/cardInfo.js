@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import parse from 'html-react-parser';
 import { Link } from "react-router-dom";
+import CardImage from "./cardImage";
 
-export default function CardInfo() {
+export default function DisplayCardInfo() {
     const [card, setCard] = useState();
     const params = useParams();
     let patchId = params.patchId.toString();
@@ -31,40 +32,32 @@ export default function CardInfo() {
         
         getCard();
         return;
-    }, [params.id.toString()]);
+    }, [params.id, params.patchId]);
 
-    if(card){
-        switch (card.type){
-            case "MINION":
-                return (<MinionInfo card={card} patch={patchId} />);
-                case "HERO":
-                    return (<HeroInfo card={card} patch={patchId} />);
-                    // if(card.heroPower.cost) {
-                    //     return(
-                    //         <ul>
-                    //             <li>Name: {card.name}</li>
-                    //             <li>HP Name: {card.heroPower.name}</li>
-                    //             <li>HP Cost: {card.heroPower.cost}</li>
-                    //             <li>HP Text: {card.heroPower.text}</li>
-                    //         </ul>
-                    //     );
-                    // } else {
-                    //     return(
-                    //         <ul>
-                    //             <li>Name: {card.name}</li>
-                    //             <li>HP Name: {card.heroPower.name}</li>
-                    //             <li>HP Text: {card.heroPower.text}</li>
-                    //         </ul>
-                    //     );
-                    // }
-                default: 
-                    return(<p>help</p>);
+    return <CardInfo card={card} patch={patchId} />   
+}
 
-        }
-    } else {
-        return(<p>Loading</p>);
+export function CardInfo({ card, patch }) {
+    if(card === undefined) {
+        return <p>Loading</p>;
     }
-    
+    switch (card.type){
+        case "MINION":
+            return (<MinionInfo card={card} patch={patch} />);
+        case "HERO":
+            return (<HeroInfo card={card} patch={patch} />);
+        case "HERO_POWER":
+            return (<HeroPowerInfo card={card} patch={patch} />);
+        case "SPELL":
+            return (<SpellInfo card={card} patch={patch} />);
+        case "BATTLEGROUND_SPELL":
+            return (<TavernSpellInfo card={card} patch={patch} />);
+        case "BATTLEGROUND_TRINKET":
+            return (<TrinketInfo card={card} patch={patch} />);
+        default: 
+            return(<p>help</p>);
+
+    }
 }
 
 function getElementsOfProperty(card, property) {
@@ -102,37 +95,187 @@ function MinionInfo({ card, patch }) {
     } else if (tribes.length > 1) {
         tribesHtml = <><br />Tribes: {tribes}</>
     }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
     
 
     let basicInfo = <>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
         
     return (
-    <div>
-        <h2>{golden}{card.name}</h2>
-        <p>{basicInfo}</p>
-        <RelatedCards card={card} patch={patch}/>
-        <CardPools card={card} patch={patch}/>
-        <OtherVersion card={card} patch={patch} />
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{golden}{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
     </div>);
 }
 
 function HeroInfo({ card, patch }) {
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+
     return (
-        <div>
-            <h2>{card.name}</h2>
-            <HeroPowerInfo card={card} patch={patch}/>
-            <CardPools card={card} patch={patch}/>
+        <div className="grid-container">
+            <div className="card-info-image">
+                <h2>{card.name}</h2>
+                <CardImage card={card} />
+                {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+            </div>
+            <div className="card-info-text">
+                
+                <HeroPowerOfHeroInfo card={card} patch={patch}/>
+                <CardPools card={card} patch={patch}/>
+            </div>
         </div>);
 }
 
-function HeroPowerInfo({ card, patch }) {
+function HeroPowerInfo({card, patch}) {
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+
+    return (<>
+                <h3>{card.name}</h3>
+                <div className="card-info-image">
+                    <CardImage card={card} />
+                    {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+                </div>
+                
+                <p>
+                {card.hasOwnProperty("hideCost") ? (
+                    "Passive hero power"
+                    ) : (
+                        `${card.cost} cost hero power`
+                    )
+                }
+                <br />
+                {parse(card.text)}
+                </p>
+                <RelatedCards card={card} patch={patch}/>
+                <CardPools card={card} patch={patch}/>
+            </>);
+}
+
+function TavernSpellInfo({ card, patch }) {
+    let cardText;
+
+    if(card.hasOwnProperty("text")) {
+        cardText = <><br />{parse(card.text)}</>;
+    }
+    let tribes = getElementsOfProperty(card, "associatedTribes");
+    
+
+    let tribesHtml;
+    if(tribes.length === 1) {
+        tribesHtml = <><br />Tribe: {tribes}</>
+    } else if (tribes.length > 1) {
+        tribesHtml = <><br />Tribes: {tribes}</>
+    }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+    
+
+    let basicInfo = <>{card.cost} cost tavern spell on tier {card.techLevel}.{cardText}{tribesHtml}</>;
+        
+    return (
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
+    </div>);
+}
+
+function TrinketInfo({ card, patch }) {
+    let cardText;
+
+    if(card.hasOwnProperty("text")) {
+        cardText = <><br />{parse(card.text)}</>;
+    }
+    let tribes = getElementsOfProperty(card, "associatedTribes");
+    
+
+    let tribesHtml;
+    if(tribes.length === 1) {
+        tribesHtml = <><br />Tribe: {tribes}</>
+    } else if (tribes.length > 1) {
+        tribesHtml = <><br />Tribes: {tribes}</>
+    }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+    
+
+    let basicInfo = <>{card.cost} cost trinket.{cardText}{tribesHtml}</>;
+        
+    return (
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
+    </div>);
+}
+
+function SpellInfo({ card, patch }) {
+    let cardText;
+
+    if(card.hasOwnProperty("text")) {
+        cardText = <><br />{parse(card.text)}</>;
+    }
+
+    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
+    let placeholderIcon = "/icons/placeholder.png";
+    
+
+    let basicInfo = <>{cardText}</>;
+        
+    return (
+    <div className="grid-container">
+        <div className="card-info-image">
+            <CardImage card={card} />
+            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
+        </div>
+        <div className="card-info-text">
+            <h2>{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </div>
+    </div>);
+}
+
+function HeroPowerOfHeroInfo({ card, patch }) {
     const [hp, setHp] = useState(null);
 
     useEffect(() => {
         fetch(`http://localhost:5000/${patch}/cards/${card.heroPowerDbfId}`)
         .then(response => {
             if(!response.ok) {
-                throw new Error(`an error has occurred: ${response.statusText}`);
+                throw new Error(`an error has occurred: ${response.statusText}. Current card: ${card.dbfId}. Hero power: ${card.heroPowerDbfId}`);
             }
             return response.json();
         })
@@ -147,21 +290,7 @@ function HeroPowerInfo({ card, patch }) {
     let hpHtml = (<p>Loading</p>);
     if(hp) {
         hpHtml = (
-            <>
-                <h3>{hp.name}</h3>
-                <p>
-                {hp.hasOwnProperty("hideCost") ? (
-                    "Passive hero power"
-                    ) : (
-                        `${hp.cost} cost hero power`
-                    )
-                }
-                <br />
-                {parse(hp.text)}
-                </p>
-                <RelatedCards card={hp} patch={patch}/>
-                <CardPools card={hp} patch={patch}/>
-            </>
+            <HeroPowerInfo card={hp} patch={patch} />
         );
     }
     
@@ -180,6 +309,7 @@ function RelatedCards({ card, patch }) {
     let relatedCardsList = [];
     card.relatedCards.forEach((rc) => {
         relatedCardsList.push(<li key={rc}><Link to={`/${patch}/cards/${rc}`}>{rc}</Link></li>);
+        // relatedCardsList.push(<li key={rc}><Link to={`../${rc}`}>{rc}</Link></li>);
     });
     return(
         <div>

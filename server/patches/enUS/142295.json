@@ -141,7 +141,8 @@
     "name": "Stay Frosty",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Freeze</b> a minion in Bob's\nTavern. <b>Passive:</b> At the\nend of your turn, <b>Frozen</b>\nminions get +2/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58435"
   },
   "58387": {
     "attack": 0,
@@ -363,7 +364,8 @@
     "name": "Embrace Your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nAdd a minion from your\nTavern Tier to your hand.\nSummon a copy of it.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "66545": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -384,7 +386,8 @@
     "name": "Natural Balance",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion of\neach Tavern Tier +3/+2.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "68129"
   },
   "70144": {
     "attack": 1,
@@ -396,7 +399,8 @@
     "id": "BG20_201",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bannerboar",
     "race": "QUILBOAR",
@@ -447,7 +451,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give +2 Attack to the\nnext minion you buy.\n <i>(Upgrades each turn!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "71454"
   },
   "72063": {
     "attack": 3,
@@ -522,7 +527,8 @@
     "name": "Conviction (Rank 1)",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give two random\nfriendly minions +1/+1.\n<i>(Upgrades at Tavern Tier 3.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "73940"
   },
   "73943": {
     "cardClass": "PALADIN",
@@ -599,7 +605,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion:\n\"<b>Deathrattle</b>: Summon\na random minion from\na lower Tavern Tier.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "76521"
   },
   "80244": {
     "cardClass": "NEUTRAL",
@@ -609,7 +616,8 @@
     "name": "Lead the Frostwolves",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a minion.\nIt copies the Attack of the\nhighest Attack minion\nuntil next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80239"
   },
   "80248": {
     "cardClass": "NEUTRAL",
@@ -619,7 +627,8 @@
     "name": "Lead the Stormpikes",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a minion.\nIt copies the Health of the\nhighest Health minion\nuntil next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "80247"
   },
   "85125": {
     "artist": "James Ryman",
@@ -649,7 +658,8 @@
     "type": "HERO_POWER",
     "pools": [
       "SPELLCRAFT_POOL"
-    ]
+    ],
+    "heroDbfId": "85125"
   },
   "89017": {
     "cardClass": "NEUTRAL",

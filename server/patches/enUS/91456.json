@@ -14,7 +14,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "60370"
   },
   "63622": {
     "attack": 4,
@@ -221,7 +222,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       72671
-    ]
+    ],
+    "heroDbfId": "71908"
   },
   "72042": {
     "attack": 3,
@@ -463,7 +465,10 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]After you upgrade your\nTavern Tier, add a random\nPirate to Bob's Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "72062": {
     "attack": 4,
@@ -596,7 +601,8 @@
     "health": 5,
     "id": "BG21_005",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Famished Felbat",
     "race": "DEMON",
@@ -745,7 +751,8 @@
     "health": 5,
     "id": "BG21_014",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Prized Promo-Drake",
     "race": "DRAGON",
@@ -1271,7 +1278,8 @@
     "name": "Conviction (Rank 1)",
     "set": "BATTLEGROUNDS",
     "text": "Give a random friendly minion +1/+1. <i>(Upgrades at Tavern Tier 3.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "73940"
   },
   "73943": {
     "cardClass": "PALADIN",

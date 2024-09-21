@@ -691,7 +691,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]After you buy a minion,\nyour next <b>Refresh</b> costs (0).",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "61911"
   },
   "77470": {
     "attack": 4,
@@ -709,7 +710,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you kill a second\nminion each combat,\nget a plain copy of it.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60362"
   },
   "77472": {
     "attack": 5,
@@ -732,7 +734,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]At the end of your turn,\ngive a random friendly\nGolden minion +5/+5.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "62242"
   },
   "77475": {
     "attack": 3,
@@ -750,7 +753,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a different friendly minion gains stats, gain +1/+1 until next turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58535"
   },
   "77479": {
     "attack": 3,
@@ -768,7 +772,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you buy a minion, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57633"
   },
   "77484": {
     "attack": 3,
@@ -787,7 +792,8 @@
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Reduce the Cost of 'Lead Explorer' by (2).",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "60213"
   },
   "77494": {
     "attack": 2,
@@ -805,7 +811,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Replace minions in Bob's Tavern with ones of a higher Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57635"
   },
   "77502": {
     "attack": 3,
@@ -826,7 +833,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Whenever you summon a <b>Taunt</b> minion, give it +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "67553"
   },
   "77507": {
     "attack": 3,
@@ -849,7 +857,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Battlecry:</b> <b>Discover</b> a minion from a higher Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58534"
   },
   "77508": {
     "attack": 4,
@@ -872,7 +881,8 @@
     "techLevel": 2,
     "text": "After you feed a minion a Banana, give it +1/+1.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "59814"
   },
   "77510": {
     "attack": 2,
@@ -895,7 +905,8 @@
     "techLevel": 4,
     "text": "[x]Whenever your hero takes\ndamage, this minion\ngains +2/+2 instead.\n<i>(2 left this turn.)</i>",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "58044"
   },
   "77535": {
     "attack": 10,
@@ -1041,7 +1052,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]Your first minion that\nattacks has \"<b>Immune</b>\nwhile Attacking\" for one\nattack only.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57634"
   },
   "77629": {
     "attack": 3,
@@ -1061,7 +1073,8 @@
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Gain 1 Gold for each minion type you control.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "57924"
   },
   "77712": {
     "attack": 8,
@@ -1099,7 +1112,8 @@
     "techLevel": 4,
     "text": "[x]'Arcane Alteration'\nreplaces with a minion\none Tavern Tier higher.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "61490"
   },
   "77726": {
     "attack": 8,
@@ -1212,7 +1226,8 @@
     "techLevel": 4,
     "text": "After you use 'Trash for Treasure', gain Gold equal to the removed minion's Tavern Tier.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "62266"
   },
   "77777": {
     "attack": 10,
@@ -1253,7 +1268,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101567
-    ]
+    ],
+    "heroDbfId": "73940"
   },
   "77779": {
     "attack": 14,
@@ -1297,7 +1313,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Add a\nrandom <b>Battlecry</b> minion\nto your hand and summon\na copy of it.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60214"
   },
   "77785": {
     "attack": 0,
@@ -1338,7 +1355,8 @@
     "techLevel": 2,
     "text": "Your flightpaths trigger twice.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "75702"
   },
   "77789": {
     "attack": 4,
@@ -1378,7 +1396,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "<b>Battlecry: Refresh</b> Bob's Tavern with a minion of each Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "68129"
   },
   "77791": {
     "attack": 6,
@@ -1419,7 +1438,8 @@
     "techLevel": 5,
     "text": "After 'Verdant Spheres' triggers, give your hand and board +1/+1.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "61912"
   },
   "77795": {
     "attack": 14,
@@ -1459,7 +1479,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]After you buy a minion,\nminions in Bob's Tavern\nhave +2/+1 this turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "74631"
   },
   "77797": {
     "attack": 10,
@@ -1505,7 +1526,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Add a random Demon to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "59807"
   },
   "77799": {
     "attack": 6,
@@ -1567,7 +1589,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]At the start of your turn,\nget a plain minion from\nyour lowest Health\nopponent's warband.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "63319"
   },
   "77808": {
     "attack": 10,
@@ -1613,7 +1636,8 @@
     "targetingArrowText": "Make a <b>Deathrattle</b> minion Golden.",
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Make a friendly\n<b>Deathrattle</b> minion Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "66483"
   },
   "77812": {
     "attack": 16,
@@ -1653,7 +1677,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "Whenever a different friendly minion gains Health, this gains it too.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "59831"
   },
   "77820": {
     "attack": 10,
@@ -1690,7 +1715,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "Your end of turn effects trigger twice.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57892"
   },
   "77822": {
     "attack": 12,
@@ -1728,7 +1754,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Make your\nright-most minion Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60212"
   },
   "77826": {
     "attack": 8,
@@ -1768,7 +1795,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you play a minion,\nadd a <b>Battlecry</b> minion\nto Bob's Tavern.\nGive it +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58027"
   },
   "77828": {
     "attack": 10,
@@ -1812,7 +1840,8 @@
     "techLevel": 4,
     "text": "After you <b>Discover</b> a minion, give it +{1}/+{1} and upgrade this by +1/+1.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "64480"
   },
   "77830": {
     "attack": 10,
@@ -1857,7 +1886,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Add the Buddy of your Hero Power to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60211"
   },
   "77832": {
     "attack": 2,
@@ -1904,7 +1934,8 @@
     "type": "MINION",
     "pools": [
       "SECRET_POOL"
-    ]
+    ],
+    "heroDbfId": "58021"
   },
   "77840": {
     "attack": 10,
@@ -1952,7 +1983,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, give it this minion's Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58024"
   },
   "77842": {
     "attack": 12,
@@ -1994,7 +2026,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "When you sell this, <b>Discover</b> a Darkmoon Prize from the next prize turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "67356"
   },
   "77846": {
     "attack": 12,
@@ -2034,7 +2067,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After you play a minion with Attack equal to its Health, gain +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "70956"
   },
   "77852": {
     "attack": 4,
@@ -2075,7 +2109,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "When you sell this, spin the Wheel of Yogg-Saron.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "59805"
   },
   "77854": {
     "attack": 10,
@@ -2113,7 +2148,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "At the start of your turn,\nadd your next opponent's Buddy to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "76562"
   },
   "77871": {
     "attack": 4,
@@ -2155,7 +2191,8 @@
     "targetingArrowText": "Copy <b>Deathrattles</b>.",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Copy a friendly minion's <b>Deathrattles</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 8,
@@ -2204,7 +2241,8 @@
     "techLevel": 3,
     "text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon\nthose Elements.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "79719"
   },
   "77883": {
     "attack": 6,
@@ -2246,7 +2284,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Avenge (2):</b> Minions in Bob's Tavern have +1 Attack for the rest of the game.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "80239"
   },
   "77885": {
     "attack": 14,
@@ -2287,7 +2326,8 @@
     "techLevel": 4,
     "text": "'Twice as Nice' also gives both minions stats equal to your Tavern Tier.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "79615"
   },
   "77889": {
     "attack": 6,
@@ -2332,7 +2372,8 @@
     "techLevel": 2,
     "text": "Whenever you summon a Whelp, gain +2/+2 permanently.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "82110"
   },
   "77891": {
     "attack": 8,
@@ -2376,7 +2417,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]Whenever you cast a\n<b>Spellcraft</b> spell on a\n different minion, you\nalso cast it on this.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "79618"
   },
   "77895": {
     "attack": 4,
@@ -2532,7 +2574,8 @@
     "techLevel": 2,
     "text": "<b>Avenge (2):</b> Upgrade 'Tentacular' by +1/+1.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "86013"
   },
   "98636": {
     "attack": 8,
@@ -2579,7 +2622,8 @@
     "targetingArrowText": "Remove a friendly minion. It gives its stats to its neighbors.",
     "techLevel": 6,
     "text": "[x]<b>Battlecry:</b> Remove a\nfriendly minion. Give its\nstats to its neighbors.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "89293"
   },
   "98661": {
     "attack": 12,
@@ -2650,7 +2694,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Summon 3 random Tier 1 minions.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "97186"
   },
   "98693": {
     "attack": 4,
@@ -2694,7 +2739,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Deathrattle:</b> Summon a random Undead Creation.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "97813"
   },
   "101443": {
     "attack": 8,
@@ -2745,7 +2791,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]Minions in Bob's Tavern\nwith <b>Taunt</b>, <b>Reborn</b>, \n<b>Windfury</b>, or <b>Divine Shield</b>\nhave +2/+2 for each.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "96870"
   },
   "101974": {
     "artist": "Anton Zemskov",

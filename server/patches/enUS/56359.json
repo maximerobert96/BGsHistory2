@@ -38,7 +38,8 @@
     "name": "Galakrond's Greed",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nReplace a minion in Bob's\nTavern with one from a higher\nTavern Tier and <b>Freeze</b> it.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57635"
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -51,7 +52,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\n<b>Reborn</b> for the next\ncombat only.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58024"
   },
   "58367": {
     "attack": 4,
@@ -280,7 +282,8 @@
     "name": "Gonna Be Rich!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60212"
   },
   "61046": {
     "attack": 8,
@@ -481,7 +484,8 @@
     "pools": [
       "GOLDEN_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "62242"
   },
   "96789": {
     "artist": "Ozhill Studio",

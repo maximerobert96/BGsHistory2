@@ -103,7 +103,8 @@
     "name": "Embrace Your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Add a\nminion from your Tavern Tier\nto your warband. Keep it.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "67356": {
     "battlegroundsHero": true,
@@ -139,7 +140,8 @@
     "pools": [
       "DARKMOON_PRIZE_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "67356"
   },
   "67493": {
     "attack": 2,
@@ -185,7 +187,8 @@
     "name": "Sprout It Out!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nGive +1/+2 and <b>Taunt</b>\nto minions you summon\nduring combat.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "67553"
   },
   "67728": {
     "attack": 12,

@@ -30,7 +30,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +2 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "65660": {
     "attack": 3,
@@ -94,7 +95,11 @@
     "name": "Fragrant Phylactery",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDestroy your lowest Health\nminion. Give its stats\n to five friendly minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74646",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "80741": {
     "attack": 5,
@@ -214,7 +219,8 @@
     "id": "BG23_012",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Corrupted Myrmidon",
     "race": "NAGA",
@@ -385,7 +391,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       82117
-    ]
+    ],
+    "heroDbfId": "82110"
   },
   "82117": {
     "artist": "Mauricio Herrera",
@@ -438,7 +445,8 @@
     "hideCost": true,
     "id": "BG23_HERO_201p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Tentacular",
     "referencedTags": [
@@ -449,7 +457,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       86227
-    ]
+    ],
+    "heroDbfId": "86013"
   },
   "90531": {
     "attack": 10,

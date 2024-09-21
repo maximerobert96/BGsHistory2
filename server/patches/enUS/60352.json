@@ -60,7 +60,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       96786
-    ]
+    ],
+    "heroDbfId": "60214"
   },
   "62460": {
     "attack": 12,
@@ -94,7 +95,8 @@
     "name": "Bob's Burgles",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern with\nminions from your last\nopponent's warband.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60367"
   },
   "63624": {
     "attack": 4,
@@ -787,7 +789,8 @@
     "name": "Tavern Lighting",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a random friendly\nminion stats equal to\nyour Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64400"
   },
   "64402": {
     "cardClass": "NEUTRAL",
@@ -796,7 +799,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_086",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Swatting Insects",
     "referencedTags": [
@@ -806,7 +810,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\n<b>Start of Combat:</b> Give your\nleft-most minion <b>Windfury</b>,\n   <b>Divine Shield</b>, and <b>Taunt</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64403"
   },
   "64403": {
     "battlegroundsHero": true,
@@ -830,7 +835,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
@@ -839,7 +845,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       64426
-    ]
+    ],
+    "heroDbfId": "57892"
   },
   "64426": {
     "cardClass": "NEUTRAL",
@@ -848,7 +855,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087t",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Sulfuras",
     "set": "BATTLEGROUNDS",
@@ -922,7 +930,8 @@
     "name": "Avalanche",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAfter you play 3 Elementals,\nreduce the cost of upgrading\nBob's Tavern by (2).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64475"
   },
   "64484": {
     "cardClass": "NEUTRAL",

@@ -118,7 +118,8 @@
     "name": "Manastorm",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\nMinions cost 2 Gold.\n<b>Refresh</b> costs 2 Gold.\n Tavern Tiers cost (1) more.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60366"
   },
   "63614": {
     "attack": 2,
@@ -333,7 +334,8 @@
       "TIER_4_POOL",
       "TIER_6_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "81569"
   },
   "82507": {
     "battlegroundsSkinParentId": 71463,
@@ -457,7 +459,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Add a random Tier 1, 3, and 5 minion to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "81569"
   },
   "82606": {
     "attack": 8,

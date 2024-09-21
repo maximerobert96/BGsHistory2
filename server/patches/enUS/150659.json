@@ -7,7 +7,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "89293": {
     "battlegroundsHero": true,
@@ -31,7 +32,8 @@
     "name": "Reclaimed Souls",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give +2/+1 to your\nminions that died\nlast combat.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "89293"
   },
   "96166": {
     "artist": "Mooncolony",

@@ -1,0 +1,1404 @@
+{
+  "475": {
+    "artist": "Jaemin Kim",
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 475,
+    "flavor": "This guy gets crazy strong at family reunions.",
+    "health": 2,
+    "id": "EX1_509",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Murloc Tidecaller",
+    "race": "MURLOC",
+    "rarity": "RARE",
+    "set": "EXPERT1",
+    "text": "Whenever you summon a Murloc, gain +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "MURLOC"
+    ],
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 58138,
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "2074": {
+    "artist": "Zoltan Boros",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 58402,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 2074,
+    "flavor": "One bot's junk is another bot's AWESOME UPGRADE!",
+    "health": 5,
+    "id": "GVG_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Junkbot",
+    "race": "MECHANICAL",
+    "rarity": "EPIC",
+    "set": "GVG",
+    "techLevel": 5,
+    "text": "Whenever a friendly Mech dies, gain +2/+2.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "2288": {
+    "artist": "Steve Prescott",
+    "attack": 2,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 2288,
+    "flavor": "His imp gang likes to sneak into Stormwind to spraypaint \"Ragnaros Rulez\" on the Mage Tower.",
+    "health": 4,
+    "howToEarn": "Unlocked in Molten Core, in the Blackrock Mountain adventure.",
+    "howToEarnGolden": "Crafting unlocked in Molten Core, in the Blackrock Mountain adventure.",
+    "id": "BRM_006",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Imp Gang Boss",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "BRM",
+    "text": "Whenever this minion takes damage, summon a 1/1 Imp.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58372,
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "38734": {
+    "artist": "E. Guiton & A. Bozonnet",
+    "attack": 3,
+    "cardClass": "HUNTER",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 38734,
+    "flavor": "A little flea powder will fix that right up.",
+    "health": 3,
+    "id": "OG_216",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Infested Wolf",
+    "race": "BEAST",
+    "rarity": "RARE",
+    "set": "OG",
+    "text": "<b>Deathrattle:</b> Summon two 1/1 Spiders.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 58365,
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "39481": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "cardClass": "HUNTER",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 39481,
+    "flavor": "\"Goodness! What… abundant drool you have.\"",
+    "health": 1,
+    "howToEarn": "Unlocked in the Opera, in One Night in Karazhan.",
+    "howToEarnGolden": "Crafting unlocked in the Opera, in One Night in Karazhan.",
+    "id": "KAR_005",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Kindly Grandmother",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "KARA",
+    "text": "<b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 2,
+    "battlegroundsPremiumDbfId": 57340,
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "40391": {
+    "artist": "Arthur Gimaldinov",
+    "attack": 5,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 4,
+    "dbfId": 40391,
+    "flavor": "The trick is soaking the crystals in warm milk to soften them up.",
+    "health": 4,
+    "id": "CFM_610",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Crystalweaver",
+    "rarity": "COMMON",
+    "set": "GANGS",
+    "text": "<b>Battlecry:</b> Give your Demons +1/+1.",
+    "type": "MINION",
+    "techLevel": 3,
+    "battlegroundsPremiumDbfId": 59504,
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "43121": {
+    "artist": "Steve Prescott",
+    "attack": 2,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 2,
+    "dbfId": 43121,
+    "flavor": "Fortunately he has an even number of fingers.",
+    "health": 4,
+    "id": "LOOT_013",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Vulgar Homunculus",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "LOOTAPALOOZA",
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 63778,
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "45392": {
+    "artist": "Tooth",
+    "attack": 1,
+    "cardClass": "PALADIN",
+    "collectible": true,
+    "cost": 5,
+    "dbfId": 45392,
+    "elite": true,
+    "flavor": "He's so hot right now.",
+    "health": 7,
+    "id": "ICC_858",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bolvar, Fireblood",
+    "rarity": "LEGENDARY",
+    "set": "ICECROWN",
+    "text": "<b>Divine Shield</b>\nAfter a friendly minion loses <b>Divine Shield</b>, gain +2 Attack.",
+    "type": "MINION",
+    "techLevel": 4,
+    "battlegroundsPremiumDbfId": 58405,
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "48100": {
+    "artist": "Adam Byrne",
+    "attack": 2,
+    "cardClass": "WARRIOR",
+    "collectible": true,
+    "cost": 6,
+    "dbfId": 48100,
+    "flavor": "Insecurity detected. Alerting hugbots.",
+    "health": 6,
+    "id": "BOT_218",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Security Rover",
+    "race": "MECHANICAL",
+    "rarity": "RARE",
+    "referencedTags": [
+      "TAUNT"
+    ],
+    "set": "BOOMSDAY",
+    "text": "[x]Whenever this minion\ntakes damage, summon a\n2/3 Mech with <b>Taunt</b>.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 4,
+    "relatedCards": [
+      49278
+    ],
+    "battlegroundsPremiumDbfId": 58392,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "49973": {
+    "artist": "Luca Zontini",
+    "attack": 7,
+    "cardClass": "DRUID",
+    "collectible": true,
+    "cost": 7,
+    "dbfId": 49973,
+    "flavor": "\"Boy! Bring me my masks and skull rams.\"",
+    "health": 7,
+    "id": "TRL_232",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Ironhide Direhorn",
+    "race": "BEAST",
+    "rarity": "COMMON",
+    "set": "TROLL",
+    "text": "<b>Overkill:</b> Summon a 5/5 Ironhide Runt.",
+    "type": "MINION",
+    "races": [
+      "BEAST"
+    ],
+    "techLevel": 5,
+    "relatedCards": [
+      50359
+    ],
+    "battlegroundsPremiumDbfId": 58412,
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "56112": {
+    "artist": "Mike Sass",
+    "attack": 2,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 56112,
+    "flavor": "Putting the \"r\" in fiend.",
+    "health": 1,
+    "id": "YOD_026",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Fiendish Servant",
+    "race": "DEMON",
+    "rarity": "COMMON",
+    "set": "YEAR_OF_THE_DRAGON",
+    "techLevel": 1,
+    "text": "[x]<b>Deathrattle:</b> Give this\nminion's Attack to a random\nfriendly minion.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "battlegroundsPremiumDbfId": 60671
+  },
+  "57891": {
+    "armor": 5,
+    "artist": "Mike Sass",
+    "battlegroundsBuddyDbfId": 77847,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57891,
+    "health": 30,
+    "heroPowerDbfId": 57559,
+    "id": "TB_BaconShop_HERO_10",
+    "name": "Trade Prince Gallywix",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "57946": {
+    "armor": 16,
+    "artist": "Aaron Su",
+    "battlegroundsBuddyDbfId": 77805,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57946,
+    "health": 30,
+    "heroPowerDbfId": 57949,
+    "id": "TB_BaconShop_HERO_17",
+    "name": "Millificent Manastorm",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "58535": {
+    "armor": 19,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 77475,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58535,
+    "health": 30,
+    "heroPowerDbfId": 66246,
+    "id": "TB_BaconShop_HERO_29",
+    "name": "C'Thun",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "59682": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 59683,
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 59682,
+    "elite": true,
+    "health": 7,
+    "id": "BGS_006",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Sneed's Old Shredder",
+    "race": "MECHANICAL",
+    "rarity": "LEGENDARY",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Deathrattle:</b> Summon a random <b>Legendary</b> minion.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "pools": [
+      "LEGENDARY_POOL"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "59940": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 59969,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 59940,
+    "health": 4,
+    "id": "BGS_017",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pack Leader",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever you summon a Beast, give it +2 Attack.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "60055": {
+    "attack": 1,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60055,
+    "health": 2,
+    "id": "BGS_027",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Micro Machine",
+    "race": "MECHANICAL",
+    "rarity": "COMMON",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of each turn, gain +1 Attack.",
+    "type": "MINION",
+    "races": [
+      "MECHANICAL"
+    ],
+    "techLevel": 1,
+    "battlegroundsPremiumDbfId": 60056,
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "60214": {
+    "armor": 14,
+    "artist": "L. Lullabi & K. Turovec",
+    "battlegroundsBuddyDbfId": 77784,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60214,
+    "health": 30,
+    "heroPowerDbfId": 60218,
+    "id": "TB_BaconShop_HERO_43",
+    "name": "Dinotamer Brann",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "60372": {
+    "armor": 10,
+    "artist": "Arthur Bozonnet",
+    "battlegroundsBuddyDbfId": 77786,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60372,
+    "health": 30,
+    "heroPowerDbfId": 60448,
+    "id": "TB_BaconShop_HERO_55",
+    "name": "Fungalmancer Flurgl",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "60498": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 60643,
+    "cardClass": "WARRIOR",
+    "cost": 5,
+    "dbfId": 60498,
+    "health": 6,
+    "id": "BGS_032",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Herald of Flame",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Overkill:</b> Deal 3 damage\nto the left-most enemy minion.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "60552": {
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 60645,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 60552,
+    "health": 4,
+    "id": "BGS_033",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hangry Dragon",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]At the start of your turn,\ngain +2/+2 if you won\nthe last combat.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "60559": {
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 60647,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 60559,
+    "elite": true,
+    "health": 3,
+    "id": "BGS_035",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Waxrider Togwaggle",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever a friendly Dragon kills an enemy, gain +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "60628": {
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 60628,
+    "health": 3,
+    "id": "BGS_039",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Dragonspawn Lieutenant",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "battlegroundsPremiumDbfId": 63772,
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "61059": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 61081,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 61059,
+    "health": 3,
+    "id": "BGS_059",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Soul Devourer",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Consume a\nfriendly Demon to gain\nits stats and 3 Gold.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "62232": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62251,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62232,
+    "health": 4,
+    "id": "BGS_079",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "The Tide Razor",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "<b>Deathrattle</b>: Summon 3 random Pirates.",
+    "type": "MINION",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "pools": [
+      "PIRATE_POOL"
+    ]
+  },
+  "62268": {
+    "armor": 14,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 77833,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 62268,
+    "health": 30,
+    "heroPowerDbfId": 62269,
+    "id": "TB_BaconShop_HERO_68",
+    "name": "Skycap'n Kragg",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "62458": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 62460,
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 62458,
+    "health": 7,
+    "id": "BGS_080",
+    "mechanics": [
+      "OVERKILL"
+    ],
+    "name": "Seabreaker Goliath",
+    "race": "PIRATE",
+    "referencedTags": [
+      "WINDFURY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Windfury</b>\n<b>Overkill:</b> Give your other Pirates +2/+2.",
+    "type": "MINION",
+    "races": [
+      "PIRATE"
+    ],
+    "associatedTribes": [
+      "PIRATE"
+    ]
+  },
+  "64189": {
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 64190,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64189,
+    "health": 4,
+    "id": "BGS_126",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wildfire Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "After this attacks and\nkills a minion, deal\nexcess damage to an adjacent minion.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "64190": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 64189,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 64190,
+    "health": 8,
+    "id": "TB_BaconUps_166",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wildfire Elemental",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "text": "After this attacks and kills\na minion, deal excess damage to both adjacent minions.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "techLevel": 4
+  },
+  "64297": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 64303,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 64297,
+    "health": 3,
+    "id": "BGS_128",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Arcane Assistant",
+    "race": "ELEMENTAL",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "<b>Battlecry:</b> Give your other Elementals +1/+1.",
+    "type": "MINION",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "65661": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 65668,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 65661,
+    "health": 3,
+    "id": "BGS_201",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tormented Ritualist",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]<b>Taunt</b>\nWhenever this is attacked,\ngive adjacent minions\n+1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "70838": {
+    "armor": 14,
+    "artist": "Rafael Zanchetin",
+    "battlegroundsBuddyDbfId": 77876,
+    "battlegroundsHero": true,
+    "cardClass": "WARRIOR",
+    "dbfId": 70838,
+    "health": 30,
+    "heroPowerDbfId": 80229,
+    "id": "BG20_HERO_100",
+    "name": "Rokara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "71454": {
+    "armor": 19,
+    "artist": "Glenn Rane",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71454,
+    "health": 30,
+    "heroPowerDbfId": 71455,
+    "id": "BG20_HERO_102",
+    "name": "Overlord Saurfang",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "71458": {
+    "armor": 15,
+    "artist": "Samwise Didier",
+    "battlegroundsBuddyDbfId": 77478,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71458,
+    "health": 30,
+    "heroPowerDbfId": 71459,
+    "id": "BG20_HERO_103",
+    "name": "Death Speaker Blackthorn",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
+  },
+  "73072": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 73092,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 73072,
+    "health": 5,
+    "id": "BG20_210",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hexruin Marauder",
+    "race": "DEMON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn,\nif you have 6 or fewer\nminions, gain +3/+3.",
+    "type": "MINION",
+    "races": [
+      "DEMON"
+    ],
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "76312": {
+    "artist": "Sam Nielson",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58400,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 3,
+    "dbfId": 76312,
+    "elite": true,
+    "flavor": "Contains 75% more fiber than his brother Magni!",
+    "health": 4,
+    "howToEarn": "Unlocked at level 41.",
+    "howToEarnGolden": "Unlocked after 5000 total wins.",
+    "id": "CORE_LOE_077",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Brann Bronzebeard",
+    "rarity": "LEGENDARY",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "CORE",
+    "techLevel": 5,
+    "text": "Your <b>Battlecries</b> trigger twice.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "79719": {
+    "armor": 13,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 77882,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79719,
+    "health": 30,
+    "heroPowerDbfId": 79720,
+    "id": "BG22_HERO_001",
+    "name": "Bru'kan",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "84867": {
+    "armor": 10,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 98656,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 84867,
+    "health": 30,
+    "heroPowerDbfId": 90403,
+    "id": "BG23_HERO_303",
+    "name": "Murloc Holmes",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "96842": {
+    "artist": "Anton Zemskov",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 63796,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 96842,
+    "flavor": "I'm addicted to him, but I know that he's Toxfin.",
+    "health": 2,
+    "id": "BG_DAL_077",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Toxfin",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "rarity": "COMMON",
+    "referencedTags": [
+      "POISONOUS"
+    ],
+    "set": "DALARAN",
+    "targetingArrowText": "Give a friendly Murloc Poisonous.",
+    "techLevel": 5,
+    "text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "97423": {
+    "artist": "Brian Despain",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 58397,
+    "cardClass": "ROGUE",
+    "cost": 3,
+    "dbfId": 97423,
+    "flavor": "Mechs like learning from him because he really speaks their language.\n0110100001101001",
+    "health": 2,
+    "id": "BG_GVG_027",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Iron Sensei",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "rarity": "RARE",
+    "set": "GVG",
+    "techLevel": 3,
+    "text": "At the end of your turn, give another friendly Mech +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "97452": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97452,
+    "hideCost": true,
+    "id": "BG24_Reward_712",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sinfall Medallion",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]After you play a minion,\ngive 2 other friendly\nminions of its Tier +4/+4.",
+    "type": "BATTLEGROUND_QUEST_REWARD"
+  },
+  "97813": {
+    "armor": 16,
+    "artist": "Mike Sass",
+    "battlegroundsBuddyDbfId": 101442,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97813,
+    "health": 30,
+    "heroPowerDbfId": 97814,
+    "id": "BG25_HERO_100",
+    "name": "Professor Putricide",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "98509": {
+    "artist": "Sam Nielson",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 98513,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98509,
+    "health": 6,
+    "id": "BG26_137",
+    "isBattlegroundsPoolMinion": true,
+    "name": "Bream Counter",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "While this is in your hand, after you play a Murloc, gain +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "98513": {
+    "artist": "Sam Nielson",
+    "attack": 12,
+    "battlegroundsNormalDbfId": 98509,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 98513,
+    "health": 12,
+    "id": "BG26_137_G",
+    "name": "Bream Counter",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "While this is in your hand, after you play a Murloc, gain +4/+4.",
+    "type": "MINION"
+  },
+  "99228": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 99229,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 99228,
+    "elite": true,
+    "health": 3,
+    "id": "BG26_523",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tichondrius",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After your hero takes damage, give your Demons +1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "99229": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 99228,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 99229,
+    "elite": true,
+    "health": 6,
+    "id": "BG26_523_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tichondrius",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "After your hero takes damage, give your Demons +2/+2.",
+    "type": "MINION"
+  },
+  "101727": {
+    "artist": "Brian Despain",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 101726,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 101727,
+    "elite": true,
+    "flavor": "\"ME HAVE GOOD STATS FOR THE COST\"",
+    "health": 7,
+    "id": "BG_CS2_200",
+    "name": "Boulderfist Ogre",
+    "set": "BASIC",
+    "techLevel": 3,
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "103652": {
+    "artist": "Matt Dixon",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 103653,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103652,
+    "flavor": "The inventor of the Annoy-o-Tron was immediately expelled from Tinkerschool, Tinkertown, and was eventually exiled from the Eastern Kingdoms altogether.",
+    "health": 2,
+    "id": "BG_GVG_085",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
+    "name": "Annoy-o-Tron",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "rarity": "COMMON",
+    "set": "GVG",
+    "targetingArrowText": "_",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Divine Shield</b>",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "104446": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 104446,
+    "id": "BG28_827",
+    "name": "Leaf Through the Pages",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 2,
+    "text": "Your next three\n<b>Refreshes</b> cost (0).",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104461": {
+    "artist": "Gabriel Lopes",
+    "cost": 3,
+    "dbfId": 104461,
+    "id": "BG28_843",
+    "name": "Titus' Tribute",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 4,
+    "text": "Your <b>Deathrattles</b> trigger twice until\nnext turn.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104534": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 104534,
+    "id": "BG28_870",
+    "name": "Jaws of Fate",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Spin the Wheel of Yogg-Saron.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104535": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 104535,
+    "id": "BG28_871",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Buddy Up",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "<b>Discover</b> a Buddy.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "104612": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 104613,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 104612,
+    "elite": true,
+    "health": 2,
+    "id": "BG28_304",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "REBORN"
+    ],
+    "name": "Moroes, Steward of Death",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+5.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "104613": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 104612,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 104613,
+    "elite": true,
+    "health": 4,
+    "id": "BG28_304_G",
+    "mechanics": [
+      "DEATHRATTLE",
+      "REBORN"
+    ],
+    "name": "Moroes, Steward of Death",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +4/+10.",
+    "type": "MINION"
+  },
+  "105431": {
+    "armor": 18,
+    "artist": "Forrest Imel",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 105431,
+    "health": 30,
+    "heroPowerDbfId": 105432,
+    "id": "BG28_HERO_800",
+    "name": "Tae'thelan Bloodwatcher",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "105434": {
+    "armor": 10,
+    "artist": "Juan Calle",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 105434,
+    "health": 30,
+    "heroPowerDbfId": 110472,
+    "id": "BG28_HERO_801",
+    "name": "Doctor Holli'dae",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "105635": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 105635,
+    "id": "BG28_513",
+    "name": "Reckless Investment",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 3,
+    "text": "Gain 3 Gold.\nNext turn, lose 2 Gold.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "107939": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 107940,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 107939,
+    "health": 3,
+    "id": "BG28_707",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Living Azerite",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever you cast a\nTavern spell, Elementals\nin the Tavern have +1/+1\nthis game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
+  },
+  "107940": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 107939,
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 107940,
+    "health": 6,
+    "id": "BG28_707_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Living Azerite",
+    "race": "ELEMENTAL",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]Whenever you cast a\nTavern spell, Elementals\nin the Tavern have +2/+2\nthis game.",
+    "type": "MINION"
+  },
+  "110400": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 110400,
+    "id": "BG28_601",
+    "name": "Cloning Conch",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "Get a copy of a non-Golden Murloc in your hand.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "110664": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 110665,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 110664,
+    "health": 6,
+    "id": "BG28_633",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Felboar",
+    "race": "QUILBOAR",
+    "races": [
+      "DEMON",
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain its stats.\n<i>(2 left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON",
+      "QUILBOAR"
+    ],
+    "artist": "Joseph Weston"
+  },
+  "110665": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 110664,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 110665,
+    "health": 12,
+    "id": "BG28_633_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Felboar",
+    "race": "QUILBOAR",
+    "races": [
+      "DEMON",
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you cast 2 spells,\nconsume a minion in the\nTavern to gain double\nits stats. <i>(2 left!)</i>",
+    "type": "MINION"
+  }
+}

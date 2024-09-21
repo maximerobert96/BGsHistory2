@@ -380,7 +380,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Add a random Dragon of your Tavern Tier to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "61488"
   },
   "77533": {
     "attack": 10,
@@ -422,7 +423,8 @@
     "techLevel": 5,
     "text": "After you use 'Trash for Treasure', gain Gold equal to the removed minion's Tavern Tier.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "62266"
   },
   "77777": {
     "attack": 10,
@@ -462,7 +464,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]Bob always offers an extra\n<b>Frozen</b> Elemental whenever\nthe Tavern is <b>Refreshed</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "64475"
   },
   "77781": {
     "attack": 8,
@@ -506,7 +509,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you buy a minion,\nminions in Bob's Tavern\nhave +2/+1 this turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "74631"
   },
   "77797": {
     "attack": 12,
@@ -544,7 +548,8 @@
     "techLevel": 4,
     "text": "When you 'Devour' this, spit its stats onto 2 extra minions.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "71916"
   },
   "77810": {
     "attack": 8,
@@ -582,7 +587,8 @@
     "targetingArrowText": "Copy <b>Deathrattles</b>.",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Copy a friendly minion's <b>Deathrattles</b>.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 8,
@@ -699,7 +705,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "After you play a Mech,\ngain +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "80832"
   },
   "82603": {
     "attack": 8,
@@ -817,7 +824,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]<b>Battlecry: Refresh</b> Bob's\nTavern with the highest\nTier minion from each\nopponent's warband.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "86291"
   },
   "98651": {
     "attack": 14,
@@ -878,7 +886,8 @@
     "targetingArrowText": "Make a Buddy Golden.",
     "techLevel": 3,
     "text": "<b>Battlecry:</b> Make a Buddy Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "101345"
   },
   "101350": {
     "attack": 8,
@@ -919,7 +928,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]After a <b>Spellcraft</b> minion\nappears in Bob's Tavern,\nget a copy of its spell.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "85125"
   },
   "101463": {
     "attack": 6,

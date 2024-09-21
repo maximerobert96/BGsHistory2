@@ -543,7 +543,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -810,7 +811,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 6,
     "text": "Remove a minion.\nGive its stats to a random friendly minion.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "100930": {
     "artist": "Tanamaes Leejierasaes",
@@ -1347,7 +1352,8 @@
     "dbfId": 110383,
     "id": "BG28_600",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Scavenge for Parts",
     "referencedTags": [
@@ -1357,7 +1363,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "At the end of your turn, get a random <b>Magnetic</b> minion. Lasts 3 turns.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110400": {
     "cardClass": "NEUTRAL",
@@ -1369,7 +1379,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Get a copy of a Murloc in your hand.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110401": {
     "cardClass": "NEUTRAL",
@@ -1387,7 +1401,11 @@
     "type": "BATTLEGROUND_SPELL",
     "relatedCards": [
       110402
-    ]
+    ],
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110402": {
     "artist": "Mooncolony",
@@ -1417,7 +1435,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "Get 3 random <b>Spellcraft</b> spells.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110407": {
     "artist": "Christopher Hayes",
@@ -1430,7 +1452,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "[x]Choose a friendly\nDemon. It consumes\nall minions in the Tavern\nto gain their stats.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110409": {
     "artist": "Filip Acovic",
@@ -1439,14 +1465,19 @@
     "dbfId": 110409,
     "id": "BG28_602",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Guzzle the Goop",
     "set": "BATTLEGROUNDS",
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "At the end of your turn, give your Dragons +4 Attack. Lasts 3 turns.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110411": {
     "cardClass": "NEUTRAL",
@@ -1458,7 +1489,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]<b>Freeze</b> a minion in the\nTavern. If it's <b>Frozen</b>\n at the end of this turn,\ndouble its stats.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110412": {
     "cardClass": "NEUTRAL",
@@ -1470,7 +1505,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "[x]Destroy a friendly\nUndead. Your Undead\nhave extra Attack equal\nto its Tier this game.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "UNDEAD"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110471": {
     "cardClass": "NEUTRAL",
@@ -1482,7 +1521,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Steal a random card from the Tavern. Repeat for each friendly Pirate.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110551": {
     "cardClass": "NEUTRAL",
@@ -1572,7 +1615,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]Swap a friendly\nnon-Golden minion with a\nrandom one in the Tavern.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110642": {
     "cardClass": "NEUTRAL",
@@ -1584,7 +1631,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "[x]Play 2 <b>Blood Gems</b>\non a friendly minion.\nIt steals all <b>Blood Gems</b>\nfrom its neighbors.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "110660": {
     "attack": 7,
@@ -1876,6 +1927,13 @@
     "type": "BATTLEGROUND_SPELL",
     "relatedCards": [
       110680
+    ],
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
     ]
   },
   "110680": {

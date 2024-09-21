@@ -101,7 +101,8 @@
     "type": "MINION",
     "referencedTags": [
       "DEATHRATTLE"
-    ]
+    ],
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 10,

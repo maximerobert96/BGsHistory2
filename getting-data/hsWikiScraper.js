@@ -6,7 +6,7 @@ const { comparePatches } = require("./cardsComparer");
 
 async function getNewPatches(lastPatch) {
     
-    return JSDOM.fromURL("https://hearthstone.wiki.gg/wiki/Category:Patches")
+    return JSDOM.fromURL("https://hearthstone.wiki.gg/index.php?title=Category:Patches&pagefrom=Patch+3.0.0.9786#mw-pages")
     .then(async (dom) => {
         let newPatches = {};
         let elements = dom.window.document.getElementsByTagName("a");

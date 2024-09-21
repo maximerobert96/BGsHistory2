@@ -7,7 +7,8 @@
     "name": "Temporal Tavern",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Refresh</b> Bob's Tavern.\nAdd a minion from\na higher <b>Tavern Tier</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58534"
   },
   "59808": {
     "cardClass": "NEUTRAL",
@@ -17,7 +18,8 @@
     "name": "Bloodfury",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive your Demons\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59807"
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -33,7 +35,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       59816
-    ]
+    ],
+    "heroDbfId": "59814"
   },
   "59935": {
     "attack": 3,

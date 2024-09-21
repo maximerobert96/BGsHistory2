@@ -173,7 +173,11 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\nof each minion type\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "60211": {
     "cardClass": "NEUTRAL",
@@ -213,7 +217,8 @@
     "type": "HERO_POWER",
     "pools": [
       "PIRATE_POOL"
-    ]
+    ],
+    "heroDbfId": "57947"
   },
   "63614": {
     "attack": 2,
@@ -349,7 +354,8 @@
     "name": "Three Wishes",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nIf you have two copies of\na minion, find the third.\n<i>(3 Wishes left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64485"
   },
   "65230": {
     "cardClass": "NEUTRAL",
@@ -820,7 +826,8 @@
     "name": "Embrace your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Add a\nminion from your Tavern Tier\nto your warband. Keep it.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "66227": {
     "attack": 4,
@@ -876,7 +883,11 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt end of turn, give a friendly\nminion +1/+1. Repeat 0 times.\n<i>(Upgrades after each use!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "58535",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "66424": {
     "cardClass": "NEUTRAL",
@@ -961,7 +972,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       67213
-    ]
+    ],
+    "heroDbfId": "66483"
   },
   "66495": {
     "cardClass": "NEUTRAL",

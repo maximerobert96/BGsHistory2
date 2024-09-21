@@ -7,7 +7,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "61910": {
     "armor": 12,
@@ -36,7 +37,8 @@
     "name": "Friendly Wager",
     "set": "BATTLEGROUNDS",
     "text": "[x]Guess which player will\nwin their next combat.\nIf you're correct,\nget 3 Gold Coins.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63602"
   },
   "70136": {
     "cardClass": "NEUTRAL",
@@ -72,7 +74,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101567
-    ]
+    ],
+    "heroDbfId": "73940"
   },
   "77779": {
     "attack": 14,
@@ -113,7 +116,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]After you buy a minion,\nadd one of the same Tier\n to the Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60366"
   },
   "77804": {
     "attack": 8,

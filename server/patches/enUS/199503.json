@@ -1,0 +1,19 @@
+{
+  "67553": {
+    "armor": 13,
+    "artist": "Steven Prescott",
+    "battlegroundsBuddyDbfId": 77502,
+    "cardClass": "NEUTRAL",
+    "dbfId": 67553,
+    "health": 30,
+    "heroPowerDbfId": 67554,
+    "id": "TB_BaconShop_HERO_95",
+    "name": "Greybough",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  }
+}
