@@ -42,6 +42,15 @@ code {
 .hover-container-wrapper {
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  /* flex: 50%; */
 }
 
 .hover-container {

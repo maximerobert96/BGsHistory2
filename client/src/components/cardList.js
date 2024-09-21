@@ -71,10 +71,10 @@ export default function MainPage() {
 }
 
 export function PutriPage() {
-    // const [cards, setCards] = useState([]);
+    const [cards, setCards] = useState([]);
     // const [activeCards, setActiveCards] = useState([]);
-    const [pool1, setPool1] = useState([]);
-    const [pool2, setPool2] = useState([]);
+    // const [pool1, setPool1] = useState([]);
+    // const [pool2, setPool2] = useState([]);
     const params = useParams();
     const [selectedCard, setSelectedCard] = useState(null);
 
@@ -96,9 +96,8 @@ export function PutriPage() {
                 return;
             }
             const cards = await response.json();
-            setPool1(cards.pool1);
-            setPool2(cards.pool2);
-            // setCards(c => cards);
+            // setActiveCards(cards);
+            setCards(c => cards);
             // applyFilter(setCards, withoutDuosFilter);
             // applyFilter(setCards, onlyDuosFilter);
             // applyFilter(setCards, faelinFilter);
@@ -129,10 +128,8 @@ export function PutriPage() {
             { selectedCard &&
             (<DisplayCardInfo patchId={patchId} />)}
             <PatchInfo patchId={patchId}/>
-            {pool1.length && 
-            (<CardList cards={pool1} patchId={patchId} />)}
-            {pool2.length && 
-            (<CardList cards={pool2} patchId={patchId} />)}
+            {cards.length && 
+            (<CardList cards={cards} patchId={patchId} rule={"putricide"} />)}
            
         </>
         );
@@ -143,8 +140,9 @@ function DisplayCardInfo({ patchId }){
     
     const closeOutlet = (event) => {
         if(event.target.classList.contains('outlet-background')){
-            navigate(`/${patchId}/cards`);
+            // navigate(`/${patchId}/cards`);
             // navigate(-1);
+            navigate(`./`);
         }
     };
 
@@ -175,7 +173,7 @@ function getTribes(cards) {
     return tribes;
 }
 
-export function CardList({ cards, patchId }) {
+export function CardList({ cards, patchId, rule }) {
     let availableTribes = getTribes(cards);
     const [tribes, setTribes] = useState(availableTribes);
     const [cardPoolFilter, setCardPoolFilter] = useState();
@@ -202,7 +200,7 @@ export function CardList({ cards, patchId }) {
         <div>
             <TribesFilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <FilterDropdown cardPool={cards} setActiveCards={setActiveCards} />
-            <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} />
+            <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} rule={rule}/>
         </div>
     );
 
@@ -264,7 +262,7 @@ function sortTribes(tribesArray) {
     });
 }
 
-function CategoryTable({ cards, patchId }) {
+function CategoryTable({ cards, patchId, rule }) {
     let heroes = cards.filter((card) =>
         card.type === "HERO" );
     let minionsOrTSpells = cards.filter((card) =>
@@ -274,7 +272,7 @@ function CategoryTable({ cards, patchId }) {
     return (
         <div>
             <Heroes cards={heroes} patchId={patchId} />
-            <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} />
+            <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} />
             <Trinkets cards={trinkets} patchId={patchId} />
         </div>
     );
@@ -297,11 +295,11 @@ function Heroes({ cards, patchId }) {
     );
 }
 
-function MinionsOrTSpells({ cards, patchId }) {
+function MinionsOrTSpells({ cards, patchId, rule }) {
     
     let tierTables = [];
     for(let i = 1; i <= 7; ++i ) {
-        tierTables.push(<Tier tier={i} cards={cards} key={i} patchId={patchId} />);
+        tierTables.push(<Tier tier={i} cards={cards} key={i} patchId={patchId} rule={rule} />);
     }
     
     return (
@@ -333,7 +331,7 @@ function Trinkets({ cards, patchId }) {
 }
 
 
-function Tier({ tier, cards, patchId }) {
+function Tier({ tier, cards, patchId, rule }) {
     let cardsOfTier = cards.filter((card) =>
         card.techLevel === tier);
     let minions = cardsOfTier.filter((card) => card.type === "MINION").sort((a,b) => 
@@ -350,13 +348,15 @@ function Tier({ tier, cards, patchId }) {
     return(
         <div>
             <h1>Tier {tier}</h1>
-            <CardRows cards={minionsAndSpellsOfTier} patchId={patchId} />
+            <CardRows cards={minionsAndSpellsOfTier} patchId={patchId} rule={rule} />
         </div>
     );
 }
 
-export function CardRows({ cards, patchId }) {
-
+export function CardRows({ cards, patchId, rule }) {
+    if(rule === "putricide"){
+        return <PutricideCardRows cards={cards} />;
+    }
 
     let cardRows = [];
     cards.forEach((card) => {
@@ -369,6 +369,39 @@ export function CardRows({ cards, patchId }) {
     return (
         <div className="hover-container-wrapper">
             {cardRows}
+        </div>
+    );
+}
+
+function PutricideCardRows( { cards, patchId } ) {
+    let cardRows1 = [];
+    let cardRows2 = [];
+    let cardsPool1 = cards.filter((card) => card.undeadCreationPool === 1).sort((a,b) => 
+        a.name > b.name ? 1 : -1);
+    let cardsPool2 = cards.filter((card) => card.undeadCreationPool === 2).sort((a,b) => 
+        a.name > b.name ? 1 : -1);
+    cardsPool1.forEach((card) => {
+            let cardRow;
+            cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
+                    <HoverImage card={card} key={card.dbfId}/>
+                </Link>;
+            cardRows1.push(cardRow);
+    })
+    cardsPool2.forEach((card) => {
+        let cardRow;
+        cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
+                <HoverImage card={card} key={card.dbfId}/>
+            </Link>;
+        cardRows2.push(cardRow);
+})
+    return (
+        <div className="hover-container-wrapper">
+            <div className="column">
+                {cardRows1}
+            </div>
+            <div className="column">
+            {cardRows2}
+            </div>
         </div>
     );
 }

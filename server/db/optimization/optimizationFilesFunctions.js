@@ -51,17 +51,21 @@ function getPutricideCards(patchId) {
     let recentPool1 = Object.values(mostRecentPools)[0].pool1;
     let recentPool2 = Object.values(mostRecentPools)[0].pool2;
 
-    let currentCardsInPool1 = [];
-    let currentCardsInPool2 = [];
+    let putricideCards = [];
+    // let currentCardsInPool2 = [];
 
     for(let cardId of recentPool1) {
-        currentCardsInPool1.push(dbManager.getCardById(cardId));
+        let currentCard = dbManager.getCardById(cardId);
+        currentCard.undeadCreationPool = 1;
+        putricideCards.push(currentCard);
     }
     for(let cardId of recentPool2) {
-        currentCardsInPool2.push(dbManager.getCardById(cardId));
+        let currentCard = dbManager.getCardById(cardId);
+        currentCard.undeadCreationPool = 2;
+        putricideCards.push(currentCard);
     }
 
-    return {pool1: currentCardsInPool1, pool2: currentCardsInPool2};
+    return putricideCards;
 
     // dbManager.getCardById(patchId)
     console.log(recentPool1);
