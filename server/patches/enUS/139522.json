@@ -14,7 +14,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "80739": {
     "attack": 4,
@@ -422,7 +423,8 @@
     "id": "BG22_403",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Young Murk-Eye",
     "race": "MURLOC",

@@ -391,7 +391,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       94063
-    ]
+    ],
+    "heroDbfId": "63319"
   },
   "63600": {
     "cardClass": "NEUTRAL",
@@ -401,7 +402,8 @@
     "name": "Friendly Wager",
     "set": "BATTLEGROUNDS",
     "text": "[x]Guess which player will\nwin their next combat. If\nyou're right, get 3 Coins.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63602"
   },
   "63619": {
     "attack": 5,
@@ -689,7 +691,6 @@
   },
   "70144": {
     "attack": 3,
-    "battlegroundsNormalDbfId": 70146,
     "battlegroundsPremiumDbfId": 70146,
     "cardClass": "NEUTRAL",
     "cost": 3,
@@ -697,7 +698,8 @@
     "health": 5,
     "id": "BG20_201",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bannerboar",
     "race": "QUILBOAR",
@@ -883,7 +885,8 @@
     "name": "See the Light",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a minion in the\nTavern. Set its stats to 2\nand add it to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "70956"
   },
   "72062": {
     "attack": 4,
@@ -996,7 +999,8 @@
     "health": 3,
     "id": "BG21_014",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Prized Promo-Drake",
     "race": "DRAGON",
@@ -1199,7 +1203,8 @@
     "type": "MINION",
     "referencedTags": [
       "DEATHRATTLE"
-    ]
+    ],
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 8,
@@ -1593,7 +1598,8 @@
     "id": "BG22_403",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Young Murk-Eye",
     "race": "MURLOC",
@@ -2161,7 +2167,8 @@
     "health": 1,
     "id": "BG25_046",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Magmaloc",
     "race": "MURLOC",
@@ -5663,7 +5670,8 @@
     "name": "Choose Your Champion",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> At the start of the\ngame, <b>Discover</b> a Tier 7\nminion to get after you\n  spend 65 Gold. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "103477"
   },
   "104724": {
     "cardClass": "NEUTRAL",
@@ -5720,7 +5728,8 @@
     "name": "Glaive Ricochet",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> Once per turn,\nafter you buy 3 minions,\nget a plain copy of one\nof them. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "74631"
   },
   "105108": {
     "artist": "Andrew Hou",

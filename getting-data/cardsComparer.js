@@ -40,7 +40,8 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
 
                 newVersionsInPatch[id] = addCustomFields(currentPatch[id], currentPatch);
                 let isGolden = currentVersion.hasOwnProperty("battlegroundsNormalDbfId");
-                downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden);
+                let jsonId = currentVersion.id;
+                downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden, jsonId);
                 // TODO also download images if the card was changed
             }
 
@@ -48,7 +49,9 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
             // temporary, usually it should be outside the else, and I should download the pictures for the latest patch
             let currentVersion = currentPatch[id];
             let isGolden = currentVersion.hasOwnProperty("battlegroundsNormalDbfId");
-            downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden);
+            let jsonId = currentVersion.id;
+            downloadImagesFromBlizzAPIForCardId(id, currentPatchId, isGolden, jsonId);
+            
             
 
             mapping.cards[id] = [ currentPatchId ];
@@ -65,11 +68,12 @@ function comparePatches(bgCardsOfPrevious, bgCardsOfCurrent, currentPatchId){
 }
 
 function addCustomFields(card, cardsInPatch){
-    let directory = "../server/"; //TODO update to real one later when everything works
+    let directory = "../server/";
     let mapping = getJsonFromFile(`${directory}mapping.json`); 
     let cardWithCustomFields = card;
     let cardsArray = Object.values(cardsInPatch);
 
+    // if an old version of the card exists
     if(mapping.cards.hasOwnProperty(card.dbfId)){
         let oldVersion = {};
         try {
@@ -83,14 +87,25 @@ function addCustomFields(card, cardsInPatch){
 
     } else {
         cardWithCustomFields = addTribes(cardWithCustomFields);
+        // cardWithCustomFields = addMisc(cardWithCustomFields);
         cardWithCustomFields = addTokens(cardWithCustomFields, cardsArray);
     }
 
     return cardWithCustomFields;
 }
 
+// function addMisc(card) {
+//     if((card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL")) {
+//         card.isActiveTavernSpell = true;
+//     }
+//     return card;
+// }
+
 function combineVersions(oldVersion, newVersion) {
     let combined = {...oldVersion, ...newVersion};
+    if(combined.hasOwnProperty("version")){
+        delete combined.version;
+    }
     let fieldsToTrackRemoval = ["isBattlegroundsPoolMinion", "battlegroundsHero"];
 
     for(let field of fieldsToTrackRemoval) {
@@ -104,12 +119,12 @@ function combineVersions(oldVersion, newVersion) {
 
 function addTribes(card) {
         // ignore cards that are not active
-    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero"))){
+    if (!(card.hasOwnProperty("isBattlegroundsPoolMinion") || card.hasOwnProperty("battlegroundsHero") || (card.hasOwnProperty("type") && card.type === "BATTLEGROUND_SPELL") || (card.hasOwnProperty("type") && card.type === "BATTLEGROUND_TRINKET"))){
         return card;
     }
 
     // ALL becomes GENERAL, others with card types keep them as tribes, and the
-    // rest become GENERAL
+    // rest becomes GENERAL
     if (card.hasOwnProperty("races") && card.races.toString() === ["ALL"].toString()) {
         card.associatedTribes = ["GENERAL"];
     } else if (card.hasOwnProperty("races")) {

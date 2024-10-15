@@ -49,6 +49,7 @@ function getNewAccessToken() {
     .catch(error => {
       if (error.response) {
           console.error('Error Response:', error.response.data);
+          console.error("Error message", response.header);
         } else if (error.request) {
           console.error('No response received:', error.request);
         } else {
@@ -128,8 +129,8 @@ function downloadImagesFromBlizzAPI(images, dbfId, patchId){
   }
   for(let locale in images){
     let imageUrl = images[locale];
-    fsExtra.ensureDir(absolutePath(`./images/${locale}/${patchId}`));
-    downloadImage(imageUrl, `./images/${locale}/${patchId}/${dbfId}.png`);
+    fsExtra.ensureDir(absolutePath(`../client/public/cards/${locale}/${patchId}`));
+    downloadImage(imageUrl, `../client/public/cards/${locale}/${patchId}/${dbfId}.png`);
   }
 }
 
@@ -141,7 +142,7 @@ function getJsonFromFile(file){
   return JSON.parse(fs.readFileSync(absolutePath(file)));
 }
 
-async function downloadImagesFromBlizzAPIForCardId(dbfId, patchId, isGolden) {
+async function downloadImagesFromBlizzAPIForCardId(dbfId, patchId, isGolden, hsJsonId) {
   let token = await getAccessToken();
 
   return limiter.schedule(async () => {
@@ -157,7 +158,12 @@ async function downloadImagesFromBlizzAPIForCardId(dbfId, patchId, isGolden) {
       }
       downloadImagesFromBlizzAPI(images, dbfId, patchId);
     } catch (error) {
-      console.error(`Card ${dbfId} failed to be downloaded. ${error.message}`);
+      console.error(`Card ${dbfId} failed to be downloaded. ${error.message} Trying with hs-json.`);
+      try {
+        downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId)
+      } catch (error) {
+        console.error(`Still couldn't download card ${dbfId}.`)
+      }
       
     }
   });
@@ -230,10 +236,10 @@ async function downloadImagesOfOneCardFromHSJson(dbfId, hsJsonId, patchId) {
     let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
     
     try {
-      await downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`);
+      fsExtra.ensureDir(absolutePath(`../client/public/cards/${locale}/${patchId}`));
+      await downloadImage(url, `../client/public/cards/${locale}/${patchId}/${dbfId}.png`);
     } catch (error) {
       console.error(`Not finding ${url}`);
-      throw error;
     }
     
     
@@ -247,7 +253,8 @@ async function downloadImageOfOneCardFromHSJson(dbfId, hsJsonId, patchId, locale
   let url = makeHsJsonArtUrl(hsJsonLocale, hsJsonId);
   
   try {
-    await downloadImage(url, `./images/${locale}/${patchId}/${dbfId}.png`);
+    fsExtra.ensureDir(absolutePath(`../client/public/cards/${locale}/${patchId}`));
+    await downloadImage(url, `../client/public/cards/${locale}/${patchId}/${dbfId}.png`);
   } catch (error) {
     console.error(`Not finding ${url}`);
     throw error;
@@ -293,6 +300,12 @@ async function getRemainingImagesOnlyForUS(){
   }
 
 }
+
+// async function temp() {
+//   let token = await getNewAccessToken();
+//   console.log(token);
+// }
+// temp();
 
 module.exports = { getJsonFromFile, saveJsonToFile, downloadImagesFromBlizzAPIForCardId }
 

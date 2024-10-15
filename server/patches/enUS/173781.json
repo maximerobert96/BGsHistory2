@@ -378,7 +378,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]After you buy a minion,\nadd one of the same Tavern\nTier to Bob's Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60366"
   },
   "77804": {
     "attack": 8,
@@ -413,7 +414,8 @@
     "techLevel": 3,
     "text": "When you 'Devour' this, spit its stats onto 1 extra minions.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "71916"
   },
   "77810": {
     "attack": 10,
@@ -446,7 +448,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]<b>Choose One - </b>Give a minion\n+1 Attack for each Gold\nyou've spent this turn;\nor +1 Health.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57891"
   },
   "77848": {
     "attack": 12,

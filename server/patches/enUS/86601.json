@@ -7,7 +7,8 @@
     "name": "Galakrond's Greed",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a minion in Bob's\nTavern. <b>Discover</b> a higher\nTier minion to replace it.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57635"
   },
   "57559": {
     "cardClass": "ROGUE",
@@ -22,7 +23,8 @@
     "name": "Smart Savings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>(Can exceed 10)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57891"
   },
   "57561": {
     "cardClass": "NEUTRAL",
@@ -33,7 +35,8 @@
     "name": "Skilled Bartender",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nReduce the Cost of\nTavern Tiers by (1).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58546"
   },
   "57562": {
     "cardClass": "NEUTRAL",
@@ -46,7 +49,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "Give a friendly minion <b>Divine Shield</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57929"
   },
   "57567": {
     "cardClass": "NEUTRAL",
@@ -56,7 +60,8 @@
     "name": "Sharpen Blades",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +2/+1\nfor each minion you've\nbought this turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57633"
   },
   "57635": {
     "battlegroundsHero": true,
@@ -96,7 +101,8 @@
     "name": "Stay Frosty",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Freeze</b> a minion in Bob's\nTavern. <b>Frozen</b> minions\nget +2/+1 each turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58435"
   },
   "57949": {
     "cardClass": "NEUTRAL",
@@ -107,7 +113,8 @@
     "name": "Tinker",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nMechs in Bob's Tavern\nhave +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57946"
   },
   "57957": {
     "cardClass": "NEUTRAL",
@@ -117,7 +124,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\n Summon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "57962": {
     "cardClass": "NEUTRAL",
@@ -127,7 +135,8 @@
     "name": "Rage Potion",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n+10 Attack for the next\ncombat only.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57961"
   },
   "58017": {
     "cardClass": "NEUTRAL",
@@ -153,7 +162,8 @@
     "type": "HERO_POWER",
     "pools": [
       "SECRET_POOL"
-    ]
+    ],
+    "heroDbfId": "58021"
   },
   "58028": {
     "cardClass": "NEUTRAL",
@@ -167,7 +177,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third <b>Battlecry</b>\n triggers an extra time.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58027"
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -180,7 +191,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\n<b>Reborn</b> for the next\ncombat only.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58024"
   },
   "58527": {
     "cardClass": "NEUTRAL",
@@ -200,7 +212,8 @@
     "name": "Temporal Tavern",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Refresh</b> Bob's Tavern.\nInclude a minion from\na higher Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58534"
   },
   "59186": {
     "attack": 2,
@@ -241,7 +254,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       59202
-    ]
+    ],
+    "heroDbfId": "59203"
   },
   "59202": {
     "attack": 2,
@@ -270,7 +284,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nStart with 55 Health \ninstead of 40.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59397"
   },
   "59487": {
     "attack": 4,
@@ -338,7 +353,8 @@
     "name": "Bloodfury",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give your Demons\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59807"
   },
   "59815": {
     "cardClass": "NEUTRAL",
@@ -352,7 +368,8 @@
     "relatedCards": [
       59816,
       65230
-    ]
+    ],
+    "heroDbfId": "59814"
   },
   "59826": {
     "cardClass": "NEUTRAL",
@@ -362,7 +379,8 @@
     "name": "Puzzle Box",
     "set": "BATTLEGROUNDS",
     "text": "[x]Add a random minion in\nBob's Tavern to your hand.\nGive it +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59805"
   },
   "59832": {
     "cardClass": "NEUTRAL",
@@ -373,7 +391,8 @@
     "set": "BATTLEGROUNDS",
     "text": "Give a random friendly minion +4 Health.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -455,7 +474,8 @@
     "name": "Hat Trick",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nrandomly give a minion in\n   Bob's Tavern +1/+1 twice. ",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "59806"
   },
   "59862": {
     "cardClass": "NEUTRAL",
@@ -465,7 +485,8 @@
     "name": "Nefarious Fire",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b>\nDeal 1 damage to all\nenemy minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58536"
   },
   "59863": {
     "cardClass": "NEUTRAL",
@@ -475,7 +496,11 @@
     "name": "Wax Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion\nof each minion type\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57924",
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "59891": {
     "cardClass": "NEUTRAL",
@@ -493,7 +518,8 @@
     "pools": [
       "TIER_3_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "57944"
   },
   "59940": {
     "attack": 3,
@@ -589,7 +615,8 @@
     "name": "Gonna Be Rich!",
     "set": "BATTLEGROUNDS",
     "text": "[x]Make a friendly minion\nGolden.\n<i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60212"
   },
   "60217": {
     "cardClass": "NEUTRAL",
@@ -606,7 +633,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       60265
-    ]
+    ],
+    "heroDbfId": "60213"
   },
   "60218": {
     "cardClass": "NEUTRAL",
@@ -628,7 +656,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       96786
-    ]
+    ],
+    "heroDbfId": "60214"
   },
   "60285": {
     "cardClass": "NEUTRAL",
@@ -638,7 +667,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Take $2 damage and add\na Gold Coin to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60373": {
     "cardClass": "NEUTRAL",
@@ -648,7 +678,8 @@
     "name": "Banshee's Blessing",
     "set": "BATTLEGROUNDS",
     "text": "[x]Remove a friendly minion.\nGive adjacent minions\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60361"
   },
   "60376": {
     "cardClass": "NEUTRAL",
@@ -658,7 +689,8 @@
     "name": "Honorable Warband",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give your minions with\nno minion type\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60364"
   },
   "60378": {
     "cardClass": "NEUTRAL",
@@ -668,7 +700,8 @@
     "name": "Arcane Alteration",
     "set": "BATTLEGROUNDS",
     "text": "[x]Replace a minion with a\nrandom one of the same\nTavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61490"
   },
   "60381": {
     "cardClass": "NEUTRAL",
@@ -678,7 +711,8 @@
     "name": "I'll Take That!",
     "set": "BATTLEGROUNDS",
     "text": "[x]Next combat, add a plain\ncopy of the first minion\nyou kill to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60362"
   },
   "60405": {
     "cardClass": "NEUTRAL",
@@ -689,7 +723,8 @@
     "name": "Manastorm",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive</b>\nMinions cost 2 Gold\n<b>Refresh</b> costs 2 Gold.\n Tavern Tiers cost (1) more.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60366"
   },
   "60448": {
     "cardClass": "NEUTRAL",
@@ -706,7 +741,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "60450": {
     "cardClass": "NEUTRAL",
@@ -720,7 +756,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAt the start of the game,\n<b>Discover</b> a Hero Power.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "60211"
   },
   "60561": {
     "attack": 4,
@@ -793,12 +830,14 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_061",
     "mechanics": [
-      "AURA"
+      "AURA",
+      "START_OF_COMBAT"
     ],
     "name": "ALL Will Burn!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nALL minions have\n+2 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60369"
   },
   "61408": {
     "cardClass": "NEUTRAL",
@@ -815,7 +854,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "60370"
   },
   "61491": {
     "cardClass": "NEUTRAL",
@@ -826,7 +866,8 @@
     "name": "Clairvoyance",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nYour first <b>Refresh</b> each\nturn costs (0).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61489"
   },
   "61517": {
     "cardClass": "NEUTRAL",
@@ -844,7 +885,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "61488"
   },
   "61851": {
     "cardClass": "DEMONHUNTER",
@@ -853,12 +895,14 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_069",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Wingmen",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> <b>Start of Combat:</b>\nYour left and right-most\nminions gain +2 Attack\n  and attack immediately.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57634"
   },
   "61914": {
     "battlegroundsHero": true,
@@ -884,7 +928,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you <b>Refresh</b> 5 times,\nBob always has 7 minions.\n<i>(5 left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61910"
   },
   "61917": {
     "cardClass": "NEUTRAL",
@@ -895,7 +940,8 @@
     "name": "Verdant Spheres",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third minion you\nbuy gains +2/+2.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61912"
   },
   "61918": {
     "cardClass": "SHAMAN",
@@ -909,7 +955,8 @@
     "name": "Evolving Electricity",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you upgrade Bob's\nTavern, replace his minions\n   with ones of a higher Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61913"
   },
   "61919": {
     "cardClass": "NEUTRAL",
@@ -919,7 +966,8 @@
     "name": "Imprison",
     "set": "BATTLEGROUNDS",
     "text": "[x]Make a minion in Bob's\nTavern <b>Dormant</b>. After 3\n  turns, get it with +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61914"
   },
   "61930": {
     "attack": 3,
@@ -982,7 +1030,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nBob's Tavern refreshes\nwith 7 minions.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "61911"
   },
   "62243": {
     "cardClass": "NEUTRAL",
@@ -995,7 +1044,8 @@
     "type": "HERO_POWER",
     "pools": [
       "PIRATE_POOL"
-    ]
+    ],
+    "heroDbfId": "57947"
   },
   "62250": {
     "cardClass": "NEUTRAL",
@@ -1009,7 +1059,8 @@
     "pools": [
       "GOLDEN_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "62242"
   },
   "62267": {
     "cardClass": "NEUTRAL",
@@ -1022,7 +1073,8 @@
     "type": "HERO_POWER",
     "pools": [
       "TIER_X_POOL"
-    ]
+    ],
+    "heroDbfId": "62266"
   },
   "62269": {
     "cardClass": "NEUTRAL",
@@ -1033,7 +1085,11 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Gain 1 Gold this turn.\nIncreases each turn.\n<i>(Once per game.)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "62268",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "62277": {
     "cardClass": "NEUTRAL",
@@ -1076,7 +1132,8 @@
       71081,
       89813,
       98888
-    ]
+    ],
+    "heroDbfId": "57893"
   },
   "63162": {
     "cardClass": "ROGUE",
@@ -1086,7 +1143,8 @@
     "name": "Bob's Burgles",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Refresh</b> Bob's Tavern\nwith your last opponent's\nwarband.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60367"
   },
   "63320": {
     "cardClass": "NEUTRAL",
@@ -1104,7 +1162,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       94063
-    ]
+    ],
+    "heroDbfId": "63319"
   },
   "63600": {
     "cardClass": "NEUTRAL",
@@ -1114,7 +1173,8 @@
     "name": "Friendly Wager",
     "set": "BATTLEGROUNDS",
     "text": "[x]Guess which player will\nwin their next combat.\n If they win, get 3 Coins.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63602"
   },
   "63605": {
     "cardClass": "NEUTRAL",
@@ -1128,7 +1188,8 @@
     "name": "Everbloom",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you upgrade Bob's\nTavern, gain 2 Gold\nthis turn only.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63604"
   },
   "63607": {
     "cardClass": "NEUTRAL",
@@ -1138,7 +1199,8 @@
     "name": "Swap, Lock, & Shop It",
     "set": "BATTLEGROUNDS",
     "text": "[x]Swap a friendly non-golden\nminion with a random one\nin Bob's Tavern.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "63601"
   },
   "64042": {
     "attack": 1,
@@ -1258,7 +1320,8 @@
     "name": "Tavern Lighting",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion stats\nequal to your Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64400"
   },
   "64402": {
     "cardClass": "NEUTRAL",
@@ -1267,7 +1330,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_086",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Swatting Insects",
     "referencedTags": [
@@ -1277,7 +1341,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\n<b>Start of Combat:</b> Give your\nleft-most minion <b>Windfury</b>,\n   <b>Divine Shield</b>, and <b>Taunt</b>.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64403"
   },
   "64424": {
     "cardClass": "NEUTRAL",
@@ -1286,7 +1351,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "DIE, INSECTS!",
     "set": "BATTLEGROUNDS",
@@ -1295,7 +1361,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       64426
-    ]
+    ],
+    "heroDbfId": "57892"
   },
   "64426": {
     "cardClass": "NEUTRAL",
@@ -1304,7 +1371,8 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_087t",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Sulfuras",
     "set": "BATTLEGROUNDS",
@@ -1320,7 +1388,8 @@
     "name": "Avalanche",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you play 3 Elementals,\nreduce the cost of upgrading\nBob's Tavern by (3).",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64475"
   },
   "64481": {
     "cardClass": "NEUTRAL",
@@ -1335,7 +1404,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       64484
-    ]
+    ],
+    "heroDbfId": "64480"
   },
   "64486": {
     "cardClass": "NEUTRAL",
@@ -1345,7 +1415,8 @@
     "name": "Three Wishes",
     "set": "BATTLEGROUNDS",
     "text": "[x]If you have two copies of\na minion, find the third.\n<i>(3 Wishes left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64485"
   },
   "65239": {
     "battlegroundsDarkmoonPrizeTurn": 1,
@@ -1388,7 +1459,8 @@
     "name": "Embrace Your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b> Summon a\nminion from your Tavern Tier.\nAdd a copy to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "66227": {
     "attack": 6,
@@ -1444,7 +1516,11 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]At end of turn, give a\nfriendly minion +1/+1.\n  Repeat 0 times.\n<i>  (Upgrades after each use!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "58535",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "66484": {
     "cardClass": "NEUTRAL",
@@ -1459,7 +1535,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       67213
-    ]
+    ],
+    "heroDbfId": "66483"
   },
   "66545": {
     "battlegroundsDarkmoonPrizeTurn": 2,
@@ -1539,7 +1616,8 @@
     "pools": [
       "DARKMOON_PRIZE_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "67356"
   },
   "67554": {
     "cardClass": "NEUTRAL",
@@ -1553,7 +1631,8 @@
     "name": "Sprout It Out!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nGive +1/+2 and <b>Taunt</b>\nto minions you summon\nduring combat.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "67553"
   },
   "68130": {
     "cardClass": "DRUID",
@@ -1563,7 +1642,8 @@
     "name": "Natural Balance",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a friendly minion of\neach Tavern Tier +1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "68129"
   },
   "70165": {
     "attack": 4,
@@ -1575,7 +1655,8 @@
     "health": 4,
     "id": "BG20_303",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Charlga",
     "race": "QUILBOAR",
@@ -1626,7 +1707,8 @@
     "name": "See the Light",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a minion in\nBob's Tavern to add to your\nhand. Set its stats to 2.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "70956"
   },
   "71081": {
     "cardClass": "NEUTRAL",
@@ -1654,7 +1736,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give +2 Attack to the next\nminion you buy this turn.\n<i>(Upgrades each turn!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "71454"
   },
   "71459": {
     "cardClass": "NEUTRAL",
@@ -1670,7 +1753,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       70136
-    ]
+    ],
+    "heroDbfId": "71458"
   },
   "71464": {
     "cardClass": "NEUTRAL",
@@ -1680,7 +1764,8 @@
     "name": "Spirit Swap",
     "set": "BATTLEGROUNDS",
     "text": "Choose two minions. Swap their stats.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "71463"
   },
   "71644": {
     "cardClass": "NEUTRAL",
@@ -1700,7 +1785,8 @@
     "name": "Devour",
     "set": "BATTLEGROUNDS",
     "text": "[x]Remove a friendly minion.\nSpit its stats onto another.\nGet 1 Gold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "71916"
   },
   "72230": {
     "attack": 4,

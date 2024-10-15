@@ -10,7 +10,8 @@
     "name": "Sharpen Blades",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +{1}/+{1}.\nUpgrades after you\nbuy 4 cards. <i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57633"
   },
   "57945": {
     "cardClass": "NEUTRAL",
@@ -23,7 +24,8 @@
     "type": "HERO_POWER",
     "mechanics": [
       "TRIGGER_VISUAL"
-    ]
+    ],
+    "heroDbfId": "58435"
   },
   "59564": {
     "cardClass": "NEUTRAL",
@@ -65,7 +67,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal a card from the\n Tavern. Take damage\nequal to its Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60558": {
     "attack": 2,
@@ -231,7 +234,8 @@
     "name": "Imprison",
     "set": "BATTLEGROUNDS",
     "text": "[x]Choose a card in the\nTavern to lock in your\nhand. After 2 turns,\nunlock it.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "61914"
   },
   "62228": {
     "attack": 12,
@@ -570,7 +574,8 @@
     "name": "Spirit Swap",
     "set": "BATTLEGROUNDS",
     "text": "Choose 2 minions. They gain each other's Attack until next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "71463"
   },
   "71644": {
     "cardClass": "NEUTRAL",
@@ -666,7 +671,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 1,
     "text": "[x]After you buy a card,\nyour next <b>Refresh</b>\ncosts (0).",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "61911"
   },
   "77479": {
     "attack": 3,
@@ -684,7 +690,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "After you buy a card, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57633"
   },
   "77494": {
     "attack": 2,
@@ -702,7 +709,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Replace\ncards in the Tavern with\nones from a Tier higher.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57635"
   },
   "77538": {
     "attack": 6,
@@ -740,7 +748,8 @@
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Gain 1 Gold\nfor each different\nfriendly minion type.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "57924"
   },
   "77724": {
     "attack": 5,
@@ -758,7 +767,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]At the end of your turn, get\na random <b>Frozen</b> card\nfrom the Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58435"
   },
   "77725": {
     "attack": 10,
@@ -836,7 +846,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101567
-    ]
+    ],
+    "heroDbfId": "73940"
   },
   "77779": {
     "attack": 14,
@@ -880,7 +891,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you buy a card,\nminions in the Tavern\nhave +2/+1 this turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "74631"
   },
   "77797": {
     "attack": 12,
@@ -921,7 +933,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "[x]After you buy a card,\nadd one of the same Tier\n to the Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60366"
   },
   "77804": {
     "attack": 8,
@@ -958,7 +971,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Avenge (2):</b> Minions in\nthe Tavern have +1 Attack\nthis game.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "80239"
   },
   "77885": {
     "attack": 14,
@@ -994,7 +1008,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Avenge (2):</b> Minions in\nthe Tavern have +1 Health\nthis game.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "80247"
   },
   "77887": {
     "attack": 8,
@@ -1190,7 +1205,11 @@
     "name": "The Perfect Crime",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal all cards from\nthe Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "86291",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "90425": {
     "attack": 6,
@@ -1700,7 +1719,8 @@
     ],
     "relatedCards": [
       97817
-    ]
+    ],
+    "heroDbfId": "97813"
   },
   "98032": {
     "artist": "Valeria Styajkina",
@@ -1993,7 +2013,11 @@
     "targetingArrowText": "Give +4 Attack.",
     "techLevel": 1,
     "text": "Give a minion\n+4 Attack.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "100910": {
     "cardClass": "NEUTRAL",
@@ -2008,7 +2032,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "<b>Discover</b> a new\nHero Power.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "100911": {
     "artist": "Susan Aniorte",
@@ -2022,7 +2050,11 @@
     "targetingArrowText": "<b>Refresh</b> with minions of this type.",
     "techLevel": 6,
     "text": "[x]Choose a minion.\n<b>Refresh</b> the Tavern\nwith minions of its type.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "101028": {
     "artist": "Hideaki Takamura",
@@ -2458,7 +2490,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 2,
     "text": "Gain 2 Gold next turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "103785": {
     "cardClass": "NEUTRAL",
@@ -2470,7 +2506,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Set your Armor to 5.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "103791": {
     "cardClass": "NEUTRAL",
@@ -2486,7 +2526,11 @@
     "targetingArrowText": "Give +3 Health and <b>Taunt</b>.",
     "techLevel": 1,
     "text": "Give a minion\n+3 Health and <b>Taunt</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "103793": {
     "artist": "Kleston Marques",
@@ -2499,7 +2543,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 1,
     "text": "[x]Get a random\nTier 1 minion.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "103796": {
     "cardClass": "NEUTRAL",
@@ -2515,7 +2563,11 @@
     "targetingArrowText": "Give <b>Divine Shield</b>.",
     "techLevel": 6,
     "text": "Give a minion\n<b>Divine Shield</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "103800": {
     "armor": 15,
@@ -2616,7 +2668,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Your <b>Battlecries</b> trigger twice until next turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104029": {
     "cardClass": "NEUTRAL",
@@ -2628,7 +2684,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 2,
     "text": "Increase your maximum Gold by 1.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104414": {
     "armor": 15,
@@ -2685,7 +2745,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 1,
     "text": "Gain 1 Gold.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104438": {
     "cardClass": "NEUTRAL",
@@ -2697,7 +2761,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Replace all cards in\nthe Tavern with ones\nof a Tier higher.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104440": {
     "cardClass": "NEUTRAL",
@@ -2710,7 +2778,14 @@
     "targetingArrowText": "Give \"At the end of your turn, gain +2/+2.\"",
     "techLevel": 3,
     "text": "Give a friendly minion \"At the end of your turn, gain +2/+2.\"",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "104445": {
     "cardClass": "NEUTRAL",
@@ -2726,7 +2801,11 @@
     "targetingArrowText": "Give +8/+8 and <b>Taunt</b>.",
     "techLevel": 4,
     "text": "Give a friendly minion +8/+8 and <b>Taunt</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104446": {
     "cardClass": "NEUTRAL",
@@ -2738,7 +2817,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 2,
     "text": "Your next three\n<b>Refreshes</b> cost (0).",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104448": {
     "cardClass": "NEUTRAL",
@@ -2750,7 +2833,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Make a random minion in the Tavern Golden.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104461": {
     "artist": "Gabriel Lopes",
@@ -2765,7 +2852,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Your <b>Deathrattles</b> trigger twice until\nnext turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104466": {
     "attack": 3,
@@ -2862,7 +2953,11 @@
     "targetingArrowText": "Give minions of this type +3/+2.",
     "techLevel": 3,
     "text": "Choose a minion. Give all minions that share a type with it +3/+2.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104494": {
     "artist": "Marta Vives Poch",
@@ -2875,7 +2970,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 6,
     "text": "<b>Refresh</b> the Tavern\nwith Tavern spells.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104496": {
     "attack": 4,
@@ -2934,7 +3033,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 1,
     "text": "Steal a random minion from the Tavern.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104504": {
     "attack": 2,
@@ -3023,7 +3126,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Spin the Wheel of Yogg-Saron.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104535": {
     "cardClass": "NEUTRAL",
@@ -3038,7 +3145,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "<b>Discover</b> a Buddy.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104551": {
     "attack": 0,
@@ -3097,7 +3208,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 2,
     "text": "Gain 1 Gold.\nThis costs Health to\nbuy instead of Gold.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104560": {
     "artist": "Kleston Marques",
@@ -3110,7 +3225,14 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "<b>Start of Combat:</b> Set\na random enemy minion's Health to 1.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "104601": {
     "cardClass": "NEUTRAL",
@@ -3123,7 +3245,11 @@
     "targetingArrowText": "Set stats to 20/20.",
     "techLevel": 6,
     "text": "Set a minion's stats to 20/20.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104607": {
     "attack": 3,
@@ -3605,7 +3731,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "<b>Discover</b> a\n<b>Battlecry</b> minion.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105265": {
     "artist": "Vika Yarova",
@@ -3624,7 +3754,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "<b>Discover</b> a\n<b>Deathrattle</b> minion.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105266": {
     "cardClass": "NEUTRAL",
@@ -3640,7 +3774,11 @@
     "targetingArrowText": "Trigger a <b>Battlecry</b>.",
     "techLevel": 5,
     "text": "Trigger a friendly minion's <b>Battlecry</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105267": {
     "artist": "Valeria Styajkina",
@@ -3653,7 +3791,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 2,
     "text": "If you win your next combat, gain 3 Gold.\nIf you tie, gain 1.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105269": {
     "cardClass": "NEUTRAL",
@@ -3666,7 +3808,11 @@
     "targetingArrowText": "Give a minion stats equal to your Tier.",
     "techLevel": 2,
     "text": "Give a minion stats equal to your Tier.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105271": {
     "artist": "Inès (Ourka) Rotzinger",
@@ -3679,7 +3825,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Give a friendly minion of each type +3/+3.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -3691,7 +3841,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +2/+2 this game.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105314": {
     "armor": 10,
@@ -3718,7 +3872,8 @@
     "name": "Lucky Roll",
     "set": "BATTLEGROUNDS",
     "text": "Roll a 6-sided die.\nGain that much Gold.\n<i>(Cannot be used again for that many turns!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "105314"
   },
   "105395": {
     "cardClass": "NEUTRAL",
@@ -3807,7 +3962,8 @@
     "name": "Reliquary Research",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third Tavern spell\nyou buy costs (0).\n<i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "105431"
   },
   "105434": {
     "armor": 8,
@@ -3885,7 +4041,8 @@
     "id": "BG28_308",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Archlich Kel'Thuzad",
     "race": "UNDEAD",
@@ -4088,7 +4245,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "Gain 3 Gold.\nNext turn, lose 2 Gold.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105664": {
     "cardClass": "NEUTRAL",
@@ -4101,7 +4262,11 @@
     "targetingArrowText": "Get a different minion of the same type.",
     "techLevel": 2,
     "text": "Choose a minion.\nGet a different minion of the same type.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105665": {
     "cardClass": "NEUTRAL",
@@ -4114,7 +4279,14 @@
     "targetingArrowText": "Give +5/+5 until next turn.",
     "techLevel": 3,
     "text": "Give a minion +5/+5 until next turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "105667": {
     "cardClass": "NEUTRAL",
@@ -4130,7 +4302,11 @@
     "targetingArrowText": "Give +1/+2 and give or remove <b>Taunt</b>.",
     "techLevel": 3,
     "text": "Give a minion +1/+2 and <b>Taunt</b>. If it already has <b>Taunt</b>, remove it.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105668": {
     "attack": 4,
@@ -4166,7 +4342,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "[x]<b>Discover</b> a minion of\nyour most common type.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105671": {
     "attack": 8,
@@ -4187,7 +4367,6 @@
   },
   "105672": {
     "attack": 3,
-    "battlegroundsNormalDbfId": 105673,
     "battlegroundsPremiumDbfId": 105673,
     "cardClass": "NEUTRAL",
     "cost": 3,
@@ -4469,7 +4648,11 @@
     "targetingArrowText": "Give +2/+2.",
     "techLevel": 1,
     "text": "Give a minion +2/+2.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105852": {
     "attack": 2,
@@ -4547,7 +4730,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 1,
     "text": "Give minions in the Tavern +1/+3.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105905": {
     "cardClass": "NEUTRAL",
@@ -4559,7 +4746,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 4,
     "text": "Your end of turn effects trigger twice this turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "106195": {
     "attack": 0,
@@ -4664,7 +4855,8 @@
     "id": "BG27_083",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Slitherspear, Lord of Gains",
     "race": "NAGA",
@@ -5011,7 +5203,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "Give your minions +1/+1.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "109232": {
     "artist": "Anzka Nguyen",
@@ -5024,7 +5220,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 6,
     "text": "Give your minions +4/+4.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "109317": {
     "attack": 0,
@@ -5083,7 +5283,8 @@
     "name": "Blessing of the Nine Frogs",
     "set": "BATTLEGROUNDS",
     "text": "Get a random\nTavern spell.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "105434"
   },
   "110504": {
     "attack": 6,

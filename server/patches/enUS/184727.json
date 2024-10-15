@@ -274,7 +274,8 @@
     "id": "BG21_005",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Famished Felbat",
     "race": "DEMON",

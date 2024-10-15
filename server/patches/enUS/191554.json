@@ -172,7 +172,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal a card from the\n Tavern. Take damage\nequal to its Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60372": {
     "armor": 16,
@@ -899,7 +900,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -1298,7 +1300,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Set your Armor to 5.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "103796": {
     "cardClass": "NEUTRAL",
@@ -1314,7 +1320,11 @@
     "targetingArrowText": "Give <b>Divine Shield</b>.",
     "techLevel": 6,
     "text": "Give a minion\n<b>Divine Shield</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104440": {
     "cardClass": "NEUTRAL",
@@ -1327,7 +1337,14 @@
     "targetingArrowText": "Give \"At the end of your turn, gain +2/+2.\"",
     "techLevel": 3,
     "text": "Give a friendly minion \"At the end of your turn, gain +2/+2.\"",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "104496": {
     "attack": 5,
@@ -1388,7 +1405,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "<b>Discover</b> a Buddy.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104607": {
     "attack": 4,
@@ -1637,7 +1658,11 @@
     "targetingArrowText": "Give a minion stats equal to your Tier.",
     "techLevel": 2,
     "text": "Give a minion stats equal to your Tier.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -1649,7 +1674,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +1/+2 this game.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105314": {
     "armor": 6,
@@ -1724,7 +1753,8 @@
     "name": "Reliquary Research",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nEvery third Tavern spell\nyou buy costs (1) less.\n<i>({0} left!)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "105431"
   },
   "105518": {
     "attack": 10,
@@ -1737,7 +1767,8 @@
     "id": "BG28_308",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Archlich Kel'Thuzad",
     "race": "UNDEAD",
@@ -1833,7 +1864,14 @@
     "targetingArrowText": "Give +6/+6 until next turn.",
     "techLevel": 4,
     "text": "Give a minion +6/+6 until next turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "105697": {
     "attack": 2,

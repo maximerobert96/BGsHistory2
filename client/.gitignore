@@ -23,6 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 
+
 public/icons
 public/cards
 public/placeholder

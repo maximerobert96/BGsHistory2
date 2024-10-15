@@ -1,14 +1,4 @@
 {
-  "57110": {
-    "cardClass": "NEUTRAL",
-    "dbfId": 57110,
-    "health": 60,
-    "hideStats": true,
-    "id": "TB_BaconShopBob",
-    "name": "Bartender Bob",
-    "set": "BATTLEGROUNDS",
-    "type": "HERO"
-  },
   "57559": {
     "cardClass": "ROGUE",
     "collectionText": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>({0} Gold saved.)</i>",
@@ -22,7 +12,8 @@
     "name": "Smart Savings",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive</b>\nAfter you sell a minion,\nget 1 extra Gold next turn.\n<i>(Can exceed 10.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57891"
   },
   "59559": {
     "cardClass": "NEUTRAL",
@@ -64,7 +55,8 @@
     "bannedFromNguyen": true,
     "relatedCards": [
       96786
-    ]
+    ],
+    "heroDbfId": "60214"
   },
   "75129": {
     "battlegroundsSkinParentId": 71463,
@@ -284,7 +276,8 @@
       75704,
       75705,
       75706
-    ]
+    ],
+    "heroDbfId": "75702"
   },
   "75704": {
     "cardClass": "NEUTRAL",

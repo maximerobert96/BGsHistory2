@@ -1,5 +1,6 @@
 const express = require("express");
 const dbManager = require('../db/dbManager');
+const optimizerFunctions = require("../db/optimization/optimizationFilesFunctions");
 
 const cardRoutes = express.Router();
 
@@ -8,6 +9,7 @@ cardRoutes.route("/cards").get(function(req,res) {
 
     res.json(activeCards);
 });
+
 
 cardRoutes.route("/cards/:id").get(function(req, res) {
     try {
@@ -22,7 +24,13 @@ cardRoutes.route("/cards/:id").get(function(req, res) {
 
 cardRoutes.route("/:patchId/cards").get(function(req, res) {
     let patchId = req.params.patchId;
-    let activeCards = dbManager.getActiveCardsOfPatch(patchId);
+    let activeCards = optimizerFunctions.getActiveCardsOfPatch(patchId);
+    res.json(activeCards);
+});
+
+cardRoutes.route("/:patchId/cards2").get(function(req, res) {
+    let patchId = req.params.patchId;
+    let activeCards = optimizerFunctions.getActiveCardsOfPatch(patchId);
     res.json(activeCards);
 });
 
@@ -44,6 +52,19 @@ cardRoutes.route("/card-changes/:id").get(function(req, res) {
     }
 });
 
+cardRoutes.route("/generate-placeholder").post(function(req, res) {
+    try {
+        const dbfId = req.body.dbfId;
+        const version = req.body.version;
+        let locale = req.body.hasOwnProperty("locale") ? req.body.locale : "enUS";
+        dbManager.generatePlaceholder(dbfId, version, locale);
+        res.json({message: 'Placeholder image generated successfully'});
+    } catch (error) {
+        res.status(404);
+        res.json({error: error.message});
+    }
+
+});
 
 cardRoutes.route("/card-changes/").post(function(req, res){
     // let build = 35747; // first patch

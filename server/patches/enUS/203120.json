@@ -1,0 +1,21 @@
+{
+  "104535": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 104535,
+    "id": "BG28_871",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Buddy Up",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "<b>Discover</b> a Buddy.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
+  }
+}

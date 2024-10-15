@@ -115,7 +115,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]After you play a minion,\nyour next <b>Refresh</b> costs (0).",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "61911"
   },
   "77477": {
     "attack": 2,
@@ -134,7 +135,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "After you sell a minion, gain +1/+1.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "59806"
   },
   "77484": {
     "attack": 4,
@@ -153,7 +155,8 @@
     "techLevel": 2,
     "text": "[x]At the start of your turn,\nget a 'Recruitment Map'\nand reduce the Cost of\nyour maps by (1).",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "60213"
   },
   "77493": {
     "attack": 9,
@@ -171,7 +174,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of your turn, add\na random minion of your\n Tavern Tier to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "63604"
   },
   "77494": {
     "attack": 3,
@@ -189,7 +193,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Battlecry:</b> Replace minions in Bob's Tavern with ones of a higher Tavern Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57635"
   },
   "77495": {
     "attack": 3,
@@ -212,7 +217,8 @@
     "techLevel": 4,
     "text": "After you use your Hero Power, give your <b>Divine Shield</b> minions +2 Attack.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "57929"
   },
   "77510": {
     "attack": 4,
@@ -231,7 +237,8 @@
     "techLevel": 4,
     "text": "[x]Whenever your hero would\ntake damage, this minion\ngains +2/+2 instead.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "58044"
   },
   "77540": {
     "attack": 8,
@@ -347,7 +354,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]Your first minion that\nattacks has \"<b>Immune</b>\nwhile Attacking\" for one\nattack only.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57634"
   },
   "77730": {
     "attack": 6,
@@ -404,7 +412,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "At the end of your turn, give your Tavern Tier 3 minions +1/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57944"
   },
   "77775": {
     "attack": 10,
@@ -445,7 +454,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101567
-    ]
+    ],
+    "heroDbfId": "73940"
   },
   "77779": {
     "attack": 14,
@@ -489,7 +499,8 @@
     "type": "MINION",
     "races": [
       "ELEMENTAL"
-    ]
+    ],
+    "heroDbfId": "64475"
   },
   "77781": {
     "attack": 8,
@@ -530,7 +541,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "Your minions have +3 Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60369"
   },
   "77783": {
     "attack": 2,
@@ -571,7 +583,8 @@
     "type": "MINION",
     "races": [
       "MURLOC"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "77787": {
     "attack": 10,
@@ -612,7 +625,8 @@
     "techLevel": 2,
     "text": "At the end of your turn, progress your flightpath by 1 turn.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "75702"
   },
   "77789": {
     "attack": 10,
@@ -652,7 +666,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "heroDbfId": "68129"
   },
   "77791": {
     "attack": 6,
@@ -693,7 +708,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you buy a minion,\nadd one of the same Tavern\nTier to Bob's Tavern.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60366"
   },
   "77804": {
     "attack": 8,
@@ -734,7 +750,8 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
-    ]
+    ],
+    "heroDbfId": "57946"
   },
   "77806": {
     "attack": 8,
@@ -775,7 +792,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]At the start of your turn,\nget a plain minion from\nyour lowest Health\nopponent's warband.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "63319"
   },
   "77808": {
     "attack": 10,
@@ -817,7 +835,8 @@
     "type": "MINION",
     "races": [
       "PIRATE"
-    ]
+    ],
+    "heroDbfId": "57947"
   },
   "77816": {
     "attack": 8,
@@ -858,7 +877,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "<b>Deathrattle:</b> Make your right-most minion Golden.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60212"
   },
   "77826": {
     "attack": 8,
@@ -897,7 +917,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]After you play a minion,\nadd a <b>Battlecry</b> minion\nto Bob's Tavern.\nGive it +2/+2.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "58027"
   },
   "77828": {
     "attack": 10,
@@ -936,7 +957,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the start of your turn,\nadd your last opponent's Buddy to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60367"
   },
   "77836": {
     "attack": 12,
@@ -978,7 +1000,8 @@
     "races": [
       "ALL"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "59203"
   },
   "77838": {
     "attack": 4,
@@ -1025,7 +1048,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "heroDbfId": "58024"
   },
   "77842": {
     "attack": 8,
@@ -1068,7 +1092,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> <b>Discover</b> a\nDarkmoon Prize from\nthe next Prize turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "67356"
   },
   "77846": {
     "attack": 12,
@@ -1106,7 +1131,8 @@
     "targetingArrowText": "Give +1/+1 for each Gold spent.",
     "techLevel": 4,
     "text": "<b>Battlecry:</b> Give a minion +1/+1 for each Gold spent this turn.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "57891"
   },
   "77848": {
     "attack": 12,
@@ -1144,7 +1170,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "[x]At the end of your turn,\nadjacent minions copy\nthis minion's Attack.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "71463"
   },
   "77850": {
     "attack": 16,
@@ -1185,7 +1212,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "heroDbfId": "70956"
   },
   "77852": {
     "attack": 4,
@@ -1227,7 +1255,8 @@
     "type": "MINION",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "heroDbfId": "60370"
   },
   "77856": {
     "attack": 12,
@@ -1266,7 +1295,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "At the start of your turn,\nadd your next opponent's Buddy to your hand.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "76562"
   },
   "77871": {
     "attack": 8,
@@ -1308,7 +1338,8 @@
     "type": "MINION",
     "races": [
       "MECHANICAL"
-    ]
+    ],
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 10,
@@ -1355,7 +1386,8 @@
     "races": [
       "BEAST"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "77987"
   },
   "77881": {
     "attack": 4,

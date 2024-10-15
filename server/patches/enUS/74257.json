@@ -398,7 +398,8 @@
     "name": "Embrace Your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\n<b>Start of Combat:</b> Summon a\nminion from your Tavern Tier.\nAdd a copy to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "66835": {
     "attack": 4,
@@ -434,6 +435,7 @@
     "name": "Mosh Pit!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive +1/+1 to a random\nfriendly minion of\neach Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "68129"
   }
 }

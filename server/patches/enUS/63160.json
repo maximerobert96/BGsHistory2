@@ -22,6 +22,7 @@
     "name": "Three Wishes",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nIf you have two copies\nof a minion, find the third.\n<i>(3 wishes left)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "64485"
   }
 }

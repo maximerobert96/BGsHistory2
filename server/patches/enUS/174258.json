@@ -419,7 +419,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal a minion\nin Bob's Tavern.\nTake damage equal\nto its Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60366": {
     "armor": 8,
@@ -754,7 +755,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "61488"
   },
   "61912": {
     "armor": 15,
@@ -1239,7 +1241,8 @@
     "name": "Embrace Your Rage",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Start of Combat:</b> Summon\nand get a random minion\nfrom your Tavern Tier.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "66196"
   },
   "66227": {
     "attack": 6,
@@ -1416,7 +1419,8 @@
     "id": "BG20_303",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Charlga",
     "race": "QUILBOAR",
@@ -1861,7 +1865,8 @@
     "id": "BG21_005",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Famished Felbat",
     "race": "DEMON",
@@ -2149,7 +2154,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get a random\n<b>Battlecry</b> minion.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": "60214"
   },
   "77785": {
     "attack": 0,
@@ -2188,6 +2194,10 @@
       77992,
       77993,
       77994
+    ],
+    "heroDbfId": "77987",
+    "mechanics": [
+      "START_OF_COMBAT"
     ]
   },
   "80239": {
@@ -2574,7 +2584,8 @@
     "type": "HERO_POWER",
     "pools": [
       "SPELLCRAFT_POOL"
-    ]
+    ],
+    "heroDbfId": "85125"
   },
   "86013": {
     "armor": 15,
@@ -2703,7 +2714,8 @@
     "id": "BG22_403",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Young Murk-Eye",
     "race": "MURLOC",
@@ -3412,7 +3424,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +{1}/+{1}.\nUpgrades after nine\n friendly minions die.\n <i>({0} left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "97186"
   },
   "97270": {
     "attack": 3,
@@ -3828,7 +3841,8 @@
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
       "MAGNETIC",
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Lullabot",
     "race": "MECHANICAL",
@@ -3877,7 +3891,8 @@
     "id": "BG26_152",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Utility Drone",
     "race": "MECHANICAL",
@@ -4829,7 +4844,8 @@
     "id": "BG26_354",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Choral Mrrrglr",
     "race": "MURLOC",
@@ -4986,13 +5002,15 @@
     "dbfId": 99034,
     "id": "BG26_HERO_104p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Upbeat Harmony",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> At the end of every 3\n turns, get a plain copy of the\nleft-most card in your hand.\n<i>({0} turns left!)</i>",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "99033"
   },
   "99035": {
     "attack": 3,
@@ -5709,7 +5727,8 @@
     "id": "BG26_531",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Bongo Bopper",
     "race": "QUILBOAR",

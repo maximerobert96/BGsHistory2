@@ -34,7 +34,8 @@
     "name": "Tinker",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +2 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57946"
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -61,7 +62,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a friendly minion\n<b>Reborn</b> for the next\ncombat only.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58024"
   },
   "58409": {
     "attack": 12,
@@ -145,7 +147,8 @@
     "set": "BATTLEGROUNDS",
     "text": "<b>Hero Power</b>\nGive a random friendly minion +4 Health.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59831"
   },
   "59839": {
     "cardClass": "NEUTRAL",
@@ -237,7 +240,8 @@
     "name": "Gonna Be Rich!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nMake a friendly minion\nGolden.\n<i>(Once per game.)</i>",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60212"
   },
   "60361": {
     "cardClass": "NEUTRAL",
@@ -273,7 +277,8 @@
     "name": "Manastorm",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nMinions cost 2 Gold.\n<b>Refresh</b> costs 2 Gold.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60366"
   },
   "60448": {
     "cardClass": "NEUTRAL",
@@ -290,7 +295,8 @@
     "type": "HERO_POWER",
     "pools": [
       "MURLOC_POOL"
-    ]
+    ],
+    "heroDbfId": "60372"
   },
   "60450": {
     "cardClass": "NEUTRAL",
@@ -305,7 +311,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nAt the start of the game,\n<b>Discover</b> a Hero Power.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "60211"
   },
   "60498": {
     "attack": 5,
@@ -538,12 +545,14 @@
     "hideCost": true,
     "id": "TB_BaconShop_HP_061",
     "mechanics": [
-      "AURA"
+      "AURA",
+      "START_OF_COMBAT"
     ],
     "name": "ALL Will Burn!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nALL minions have\n+2 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60369"
   },
   "61408": {
     "cardClass": "NEUTRAL",
@@ -560,7 +569,8 @@
     "type": "HERO_POWER",
     "pools": [
       "DRAGON_POOL"
-    ]
+    ],
+    "heroDbfId": "60370"
   },
   "96793": {
     "artist": "Milivoj Ceran",

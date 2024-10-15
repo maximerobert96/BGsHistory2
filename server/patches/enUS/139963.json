@@ -175,7 +175,8 @@
     "hideCost": true,
     "id": "BG23_HERO_201p",
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Tentacular",
     "referencedTags": [
@@ -186,7 +187,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       86227
-    ]
+    ],
+    "heroDbfId": "86013"
   },
   "86227": {
     "artist": "Hideaki Takamura",

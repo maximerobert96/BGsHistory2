@@ -1,23 +1,29 @@
 # BGsHistory2
 
 ## Current branch
-Getting the data
+MVP
 
 ## Goal of the branch
-Automatically fetch the new changes from the official Blizzard API, and/or the hearthstonejson, and update my database.
+
+Have a minimum viable product. Start with the very first patch, and try to make the main features work (patch changes, displaying cards, card pools, related cards, golden cards).
 
 ## Tasks
-* ~~Get an access token for the blizzard api.~~
-* ~~Store the access token in a file.~~
-* ~~Perform a card search using the access token.~~
-* ~~Download a card image.~~
-* ~~Download a golden image.~~
-* ~~Figure out a folder tree system, or card names.~~
-* ~~Download the images of all the ids I have, and keep track of the images I couldn't find.~~
-* ~~The following are stuff I should already have done, and that I'll have to update / reimplement.~~
-  * ~~Download the patches since the last one, and update the patches.json file.~~
-  * ~~Keep the BG cards, and the cards that exist in my mapping file (because some might escape the BG filters).~~
-  * ~~Compare the cards, add changes to the mapping file, save the new versions in their patch files. For new cards, generally the tribe is equal to the race, and if no race, it's general.~~
-  * ~~Download the images of the cards that didn't exist back in the last patch I have on record.~~
-* Handle cards that have both the fields battlegroundsNormalDbfId and battlegroundsPremiumDbfId.
-* When the new patch is live, have function for downloading everything associated with the new patch.
+* ~~Add English images for all the main cards in the first patch~~
+* ~~Create icons for all images (active cards, not tokens and hero powers)~~
+* Route for patch changes
+* ~~Display icons in front end~~
+
+
+
+### Low priority tasks
+* Select/unselect all tribes
+* Update AFKay's pools
+* Add field hideCost to all passive hero powers
+* Add related card to Giantfin
+* Continue verifying cards
+* Add adapt options to the database
+
+### Later
+* Generate placeholder images for cards using name, tier level, stats (could be its own branch)
+* Implement card pools in front end (probably will be implemented alongside a db overhaul for optimization)
+* ~~Show a picture when you hover a card (it will be a placeholder pic for now)~~

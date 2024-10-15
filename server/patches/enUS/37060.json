@@ -33,7 +33,8 @@
     "name": "Sharpen Blades",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nGive a minion +1/+1\nfor each minion you've\nbought this turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57633"
   },
   "57633": {
     "cardClass": "NEUTRAL",
@@ -97,7 +98,8 @@
     "name": "Tinker",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nMechs in Bob's Tavern\nhave +1 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57946"
   },
   "57961": {
     "cardClass": "NEUTRAL",
@@ -120,7 +122,8 @@
     "name": "Rage Potion",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nAt the start of next combat,\ngive your left-most minion\n+20 Attack.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57961"
   },
   "58044": {
     "cardClass": "NEUTRAL",
@@ -186,7 +189,8 @@
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive Hero Power</b>\nStart with 50 Health \ninstead of 40.",
     "type": "HERO_POWER",
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "59397"
   },
   "59560": {
     "cardClass": "NEUTRAL",
@@ -331,7 +335,8 @@
     "pools": [
       "TIER_3_POOL"
     ],
-    "bannedFromNguyen": true
+    "bannedFromNguyen": true,
+    "heroDbfId": "57944"
   },
   "60247": {
     "attack": 6,
@@ -369,7 +374,8 @@
     "name": "Graveyard Shift",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nTake $2 damage and add\na Gold Coin to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58044"
   },
   "60361": {
     "cardClass": "NEUTRAL",
@@ -404,7 +410,8 @@
     "name": "Banshee's Blessing",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nRemove a friendly minion.\nGive adjacent minions\n+1/+1.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60361"
   },
   "60381": {
     "cardClass": "NEUTRAL",
@@ -414,7 +421,8 @@
     "name": "I'll Take That!",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Hero Power</b>\nNext combat, add a plain\ncopy of the first minion\nyou kill to your hand.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "60362"
   },
   "60396": {
     "attack": 12,

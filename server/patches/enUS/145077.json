@@ -7,7 +7,8 @@
     "name": "Sharpen Blades",
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion +2/+1\nfor each minion you've\nbought this turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57633"
   },
   "58040": {
     "cardClass": "NEUTRAL",
@@ -20,7 +21,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion <b>Reborn</b>\nuntil next turn.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "58024"
   },
   "59968": {
     "attack": 2,
@@ -125,7 +127,8 @@
     ],
     "set": "BATTLEGROUNDS",
     "text": "[x]Give a minion:\n\"<b>Deathrattle:</b> Summon\na random minion from\na lower Tavern Tier.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "76521"
   },
   "77703": {
     "artist": "Kleston Marques",
@@ -170,7 +173,11 @@
     "name": "The Perfect Crime",
     "set": "BATTLEGROUNDS",
     "text": "[x]Steal all minions in\nBob's Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "86291",
+    "mechanics": [
+      "END_OF_TURN"
+    ]
   },
   "94870": {
     "artist": "BOSi Studio",

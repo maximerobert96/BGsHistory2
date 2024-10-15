@@ -1,12 +1,14 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const poolManager = require("./poolManager");
-const { saveJsonToFile } = require('./dbUpdater');
 const path = require('path');
+const { generateCard } = require('../generate/generatePhImage');
 
 
 function isActiveCard( currentCard ) {
-    return (currentCard["battlegroundsHero"] && currentCard["battlegroundsHero"] == true)
-    || (currentCard["isBattlegroundsPoolMinion"] && currentCard["isBattlegroundsPoolMinion"] == true);
+    return (currentCard.hasOwnProperty("battlegroundsHero") && currentCard["battlegroundsHero"] == true)
+    || (currentCard.hasOwnProperty("isBattlegroundsPoolMinion") && currentCard["isBattlegroundsPoolMinion"] == true)
+    || (currentCard.hasOwnProperty("isBattlegroundsPoolSpell") && currentCard["isBattlegroundsPoolSpell"] == true)
+    || (currentCard.hasOwnProperty("isBattlegroundsTrinket") && currentCard["isBattlegroundsTrinket"] == true);
 }
 
 function getMostRecentPatch() {
@@ -36,16 +38,18 @@ function getActiveCardsOfPatch(patchId, tribes) {
     let mappingJson = getJsonFromFile("../mapping.json");
     let cards = mappingJson.cards;
     let activeCards = [];
+    let patchIdNum = parseInt(patchId);
     for(let cardId in cards) {
         let patchesOfCardChange = cards[cardId];
-        if(patchId >= patchesOfCardChange[0]) {
-            let highestPatch = findMostRecentVersionLowerThanRef(patchId, patchesOfCardChange);
+        if(patchIdNum >= patchesOfCardChange[0]) {
+            let highestPatch = findMostRecentVersionLowerThanRef(patchIdNum, patchesOfCardChange);
             let jsonHighestPatch = getJsonFromFile(`../patches/enUS/${highestPatch}.json`);
             if(tribes) {
                 jsonHighestPatch = keepCardsFromTribes(jsonHighestPatch, tribes);
             }
             let mostRecentVersionCard = jsonHighestPatch[cardId];
             if(mostRecentVersionCard && isActiveCard(mostRecentVersionCard)){
+                mostRecentVersionCard["version"] = highestPatch;
                 activeCards.push(mostRecentVersionCard);
             }
 
@@ -91,6 +95,7 @@ function getCardById( cardId, patch ) {
         throw new Error(`The card with the id ${cardId} doesn't exist.`);
     }
     // currentCard = formatFields(currentCard, jsonDB);
+    currentCard["version"] = patchOfCurrentVersion;
 
     return currentCard;
 }
@@ -149,14 +154,9 @@ function tempGetCardPoolNames(){
 
 // console.log(tempGetCardPoolNames());
 
-function getCardsOfPool(cards, pool) {
-    // let cards = 
-    let cardsInPool = poolManager.getMinionsForPool(cards, pool);
-    let cardsInPoolFormatted = [];
-    for (let card of cardsInPool) {
-        cardsInPoolFormatted.push(card);
-    }
-    return cardsInPoolFormatted;
+function getCardsOfPool(patchId, pool) {
+    let tempJson = getActiveCardsOfPatch(patchId);
+    return poolManager.getCardsForPool(tempJson, pool);
 }
 
 function keepCardsFromTribes(jsonDB, tribes) {
@@ -223,6 +223,8 @@ function getChangesOfPatch(patchId) {
             oldVersion = getJsonDBOfPatch(previousPatchId)[id];
         }
         currentChange[id].changes = getChangesBetweenVersions(newVersion, oldVersion);
+        newVersion.version = patchId;
+        oldVersion.version = previousPatchId;
         
         currentChange[id].new = newVersion;
         currentChange[id].old = oldVersion;
@@ -281,7 +283,7 @@ function getPreviousOrEqualPatchIdOfCard(currentPatchId, cardId, mappingJson) {
     let cardVersions = mappingJson.cards[cardId];
     let previousPatchId;
     for(let patch of cardVersions) {
-        if(patch > currentPatchId) {
+        if(parseInt(patch) > parseInt(currentPatchId)) {
             break;
         }
         previousPatchId = patch;
@@ -313,7 +315,63 @@ function addServerPatchToPatchesFile(build) {
     saveJsonToFile("./patches.json", patches);
 }
 
+function saveJsonToFile(filename, jsonObj) {
+    fs.writeFileSync(absolutePath(filename), JSON.stringify(jsonObj, null , 2));
+}
+
+function saveJsonDBOfPatch(jsonObj, patch, locale) {
+    if(locale === undefined){
+        locale = "enUS";
+    }
+    saveJsonToFile(`../patches/${locale}/${patch}.json`, jsonObj);
+}
+
+function generatePlaceholder(dbfId, version, locale){
+    if(locale === undefined){
+        locale = "enUS";
+    }
+    let card = getCardById(dbfId, version);
+    generateCard(card).then((res) => {
+        if(res !== undefined){
+            fs.ensureDirSync(absolutePath(`../../client/public/placeholder/${locale}/${version}`));
+            fs.writeFileSync(absolutePath(`../../client/public/placeholder/${locale}/${version}/${dbfId}.png`), res);
+        }
+    })
+}
+
+/**
+ * Gets an array of patchIds in a range. [oldest, ..., newest]
+ * 
+ * @param {*} oldestPatchId first id being included
+ * @param {*} newestPatchId last id being included. If no newest id is there, newest is the most current one
+ * 
+ * @returns 
+ */
+function getPatchIdsInRange(oldestPatchId, newestPatchId){
+    if(oldestPatchId === undefined){
+        throw Error("getPatchIdsInRange should have at least one argument.");
+    }
+    let mappingJson = getJsonMappingFile();
+    let patchesOfMapping = Object.keys(mappingJson.patches);
+
+    if(newestPatchId === undefined){
+        newestPatchId = patchesOfMapping[patchesOfMapping.length - 1];
+    }
+
+    let oldestPatchNum = parseInt(oldestPatchId);
+    let newestPatchNum = parseInt(newestPatchId);
+    let range = [];
+
+    for(let patch of patchesOfMapping){
+        let patchNum = parseInt(patch);
+        if(patchNum >= oldestPatchNum && patchNum <= newestPatchNum ){
+            range.push(patchNum);
+        }
+    }
+
+    return range;
+}
 
 module.exports = { 
-    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile
+    getActiveCards: getActiveCardsOfRecentPatch, getActiveCardsOfPatch, getCardById, getCardsOfPool, getChangesOfPatch, getCardChangesOfId, getJsonDBOfPatch, getJsonMappingFile, getPreviousPatchIdOfCard: getPreviousOrEqualPatchIdOfCard, addServerPatchToPatchesFile, saveJsonToFile, absolutePath, getJsonFromFile, saveJsonDBOfPatch, generatePlaceholder, getPatchIdsInRange
 }

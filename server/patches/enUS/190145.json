@@ -689,7 +689,8 @@
     "id": "BG27_556",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "START_OF_COMBAT"
     ],
     "name": "Diremuck Forager",
     "race": "MURLOC",

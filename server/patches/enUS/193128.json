@@ -118,7 +118,11 @@
     "targetingArrowText": "Give minions of this type +2/+2.",
     "techLevel": 3,
     "text": "Choose a minion. Give all minions that share a type with it +2/+2.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "104496": {
     "attack": 3,
@@ -371,7 +375,11 @@
     "targetingArrowText": "Trigger a <b>Battlecry</b>.",
     "techLevel": 4,
     "text": "Trigger a friendly minion's <b>Battlecry</b>.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105267": {
     "artist": "Valeria Styajkina",
@@ -384,7 +392,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "If you win your next combat, gain 3 Gold.\nIf you tie, gain 1.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105276": {
     "cardClass": "NEUTRAL",
@@ -396,7 +408,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]Minions in the Tavern\nhave +1/+2 this game.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105518": {
     "attack": 10,
@@ -409,7 +425,8 @@
     "id": "BG28_308",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Archlich Kel'Thuzad",
     "race": "UNDEAD",
@@ -457,7 +474,14 @@
     "targetingArrowText": "Give +7/+7 until next turn.",
     "techLevel": 3,
     "text": "Give a minion +7/+7 until next turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true,
+    "mechanics": [
+      "START_OF_COMBAT"
+    ]
   },
   "105669": {
     "cardClass": "NEUTRAL",
@@ -472,7 +496,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 3,
     "text": "[x]<b>Discover</b> a minion of\nyour most common type.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "105905": {
     "cardClass": "NEUTRAL",
@@ -484,7 +512,11 @@
     "spellSchool": "TAVERN",
     "techLevel": 5,
     "text": "Your end of turn effects trigger twice this turn.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   },
   "106484": {
     "attack": 6,
@@ -548,6 +580,10 @@
     "spellSchool": "TAVERN",
     "techLevel": 2,
     "text": "Give your minions +1/+1.",
-    "type": "BATTLEGROUND_SPELL"
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
   }
 }

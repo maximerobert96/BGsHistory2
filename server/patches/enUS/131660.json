@@ -7,7 +7,8 @@
     "name": "Murloc King",
     "set": "BATTLEGROUNDS",
     "text": "[x]At the start of next combat,\ngive your minions \"<b>Deathrattle:</b>\nSummon a 1/1 Murloc.\"",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "57956"
   },
   "70838": {
     "battlegroundsBuddyDbfId": 77876,
@@ -45,7 +46,8 @@
     "type": "MINION",
     "races": [
       "BEAST"
-    ]
+    ],
+    "heroDbfId": "70838"
   },
   "77877": {
     "attack": 10,
@@ -91,7 +93,8 @@
     "races": [
       "ELEMENTAL"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "79615"
   },
   "77889": {
     "attack": 6,
@@ -136,7 +139,8 @@
     "races": [
       "DRAGON"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": "82110"
   },
   "77891": {
     "attack": 8,
@@ -186,7 +190,8 @@
     "name": "Glory of Combat",
     "set": "BATTLEGROUNDS",
     "text": "<b>Passive.</b> After a friendly minion kills an enemy, give it +1 Attack permanently.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "70838"
   },
   "80539": {
     "cardClass": "NEUTRAL",
@@ -200,7 +205,8 @@
     "name": "Twice as Nice",
     "set": "BATTLEGROUNDS",
     "text": "[x]<b>Passive.</b> After Bob's\nTavern is <b>Refreshed</b>,\ncopy and <b>Freeze</b> one\nof his minions.",
-    "type": "HERO_POWER"
+    "type": "HERO_POWER",
+    "heroDbfId": "79615"
   },
   "82110": {
     "battlegroundsBuddyDbfId": 77890,
@@ -231,7 +237,8 @@
     "type": "HERO_POWER",
     "relatedCards": [
       82117
-    ]
+    ],
+    "heroDbfId": "82110"
   },
   "82117": {
     "artist": "Mauricio Herrera",

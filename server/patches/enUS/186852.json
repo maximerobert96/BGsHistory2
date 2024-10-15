@@ -41,7 +41,8 @@
     "type": "MINION",
     "pools": [
       "SECRET_POOL"
-    ]
+    ],
+    "heroDbfId": "58021"
   },
   "77840": {
     "attack": 6,
@@ -91,7 +92,8 @@
     "type": "MINION",
     "referencedTags": [
       "DEATHRATTLE"
-    ]
+    ],
+    "heroDbfId": "76521"
   },
   "77875": {
     "attack": 10,
@@ -273,7 +275,8 @@
     "bannedFromFoaF": true,
     "relatedCards": [
       101579
-    ]
+    ],
+    "heroDbfId": "92960"
   },
   "101441": {
     "attack": 6,

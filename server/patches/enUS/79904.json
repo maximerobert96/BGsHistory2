@@ -214,7 +214,8 @@
     "type": "HERO_POWER",
     "pools": [
       "TIER_X_POOL"
-    ]
+    ],
+    "heroDbfId": "62266"
   },
   "63624": {
     "attack": 6,

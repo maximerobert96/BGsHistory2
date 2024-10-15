@@ -552,7 +552,8 @@
     "id": "BG25_046",
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
-      "TRIGGER_VISUAL"
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
     ],
     "name": "Magmaloc",
     "race": "MURLOC",
