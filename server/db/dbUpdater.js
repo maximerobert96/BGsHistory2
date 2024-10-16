@@ -571,5 +571,3 @@ function addSingleTribeToTrinket(tribe, cardId, patchJson) {
         card.associatedTribes.push(tribe);
     }
 }
-
-// addingTribesToAllTrinkets();

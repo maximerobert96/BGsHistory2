@@ -245,14 +245,13 @@ const PUTRI_POOL_2 = [
 
 }
 
-createPutriFile();
+// createPutriFile();
 
 
 //162867
 
 
-// let patches = [183876, 190416, 198608, 201108];
-// let patches = [206433];
+let patches = [206605, 208182, 208591];
 
 // for(let patch of patches){
 //     updateActiveCardsForPatch(patch);
@@ -260,4 +259,7 @@ createPutriFile();
 // }
 
 
-
+let test = "BGDUO_MagicItem_003";
+if(test.includes("BGDUO")){
+    console.log("success");
+}

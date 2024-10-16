@@ -1,0 +1,179 @@
+{
+  "72072": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73546,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 72072,
+    "health": 5,
+    "id": "BG21_013",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Whelp Smuggler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "Whenever a friendly Dragon gains Attack, give it +1 Health.",
+    "type": "MINION",
+    "isBattlegroundsPoolMinion": true,
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
+  "73546": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72072,
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 73546,
+    "health": 10,
+    "id": "BG21_013_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Whelp Smuggler",
+    "set": "BATTLEGROUNDS",
+    "text": "Whenever a friendly Dragon gains Attack, give it +2 Health.",
+    "type": "MINION",
+    "techLevel": 2
+  },
+  "95293": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 95294,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 95293,
+    "health": 5,
+    "id": "BG25_027",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hunter of Gatherers",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever this gains Attack, give your minions +1 Health.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "95294": {
+    "attack": 6,
+    "battlegroundsNormalDbfId": 95293,
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 95294,
+    "health": 10,
+    "id": "BG25_027_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Hunter of Gatherers",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever this gains Attack, give your minions +2 Health.",
+    "type": "MINION"
+  },
+  "110299": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 110299,
+    "hideCost": true,
+    "id": "BG28_Reward_501",
+    "name": "Temporal Tampering",
+    "set": "BATTLEGROUNDS",
+    "text": "You cast your Tavern spells an extra time.",
+    "type": "BATTLEGROUND_QUEST_REWARD",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ]
+  },
+  "112001": {
+    "artist": "Tanamaes Leejierasaes",
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 112001,
+    "id": "BG30_MagicItem_425",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Azeroth Model Globe",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]At the start of every 2\nturns, <b>Discover</b> a Tier 6\nminion. <i>(2 turns left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112382": {
+    "artist": "Vika Yarova",
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 112382,
+    "id": "BG30_MagicItem_541",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nether Pendant",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Minions in the Tavern have\n+{1}/+{1}. Upgrades every 4\ntimes your hero takes damage\nduring your turn. <i>({0} left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112855": {
+    "artist": "Joseph Weston",
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 112855,
+    "id": "BG30_MagicItem_434",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Replica Cathedral",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "You cast your first spell each turn an extra time.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "NAGA",
+      "QUILBOAR"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117712": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 93101,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 117712,
+    "health": 6,
+    "id": "BG23_353t",
+    "mechanics": [
+      "TAUNT"
+    ],
+    "name": "Golden Monkey",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<i>(You found it!)</i>",
+    "type": "MINION"
+  }
+}
