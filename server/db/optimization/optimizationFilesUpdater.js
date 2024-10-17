@@ -251,15 +251,10 @@ const PUTRI_POOL_2 = [
 //162867
 
 
-let patches = [206605, 208182, 208591];
+let patches = [209698];
 
-// for(let patch of patches){
-//     updateActiveCardsForPatch(patch);
-//     updateCardChangesForPatch(patch);
-// }
-
-
-let test = "BGDUO_MagicItem_003";
-if(test.includes("BGDUO")){
-    console.log("success");
+for(let patch of patches){
+    updateActiveCardsForPatch(patch);
+    updateCardChangesForPatch(patch);
 }
+

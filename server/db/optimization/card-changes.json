@@ -88941,5 +88941,1265 @@
         "newVersion": 208591
       }
     ]
+  },
+  "209698": {
+    "57555": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Choose a minion in the Tavern. Then choose a higher Tier minion to replace it.",
+            "old": "[x]Choose a minion in the\nTavern. <b>Discover</b> a higher\nTier minion to replace it."
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 209698
+      }
+    ],
+    "59955": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 3,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +3/+3.",
+            "old": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +4/+4."
+          }
+        },
+        "oldVersion": "198608",
+        "newVersion": 209698
+      }
+    ],
+    "59956": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 8
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "text": {
+            "new": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +6/+6.",
+            "old": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +8/+8."
+          }
+        },
+        "oldVersion": "198608",
+        "newVersion": 209698
+      }
+    ],
+    "62734": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 5,
+            "old": 1
+          },
+          "health": {
+            "new": 5,
+            "old": 1
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "62739": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 10,
+            "old": 2
+          },
+          "health": {
+            "new": 10,
+            "old": 2
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "65265": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Discover</b> a minion\nfrom a Tier higher.",
+            "old": "<b>Discover</b> a minion\nfrom <b>Tier 6</b>."
+          },
+          "techLevel": {
+            "new": 3
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 209698
+      }
+    ],
+    "92408": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "health": {
+            "new": 8,
+            "old": 6
+          },
+          "text": {
+            "new": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +4/+4.",
+            "old": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +2/+2."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "92438": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 16,
+            "old": 12
+          },
+          "health": {
+            "new": 16,
+            "old": 12
+          },
+          "text": {
+            "new": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +8/+8.",
+            "old": "[x]After you play a minion\nwith no type, give 3\nfriendly minions of\n  different types +4/+4."
+          }
+        },
+        "oldVersion": "181554",
+        "newVersion": 209698
+      }
+    ],
+    "95006": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 5
+          },
+          "health": {
+            "new": 3,
+            "old": 5
+          },
+          "text": {
+            "new": "[x]<b>Start of Combat:</b> Give\nanother friendly Dragon\n+3/+3 and <b>Divine Shield</b>.",
+            "old": "[x]<b>Start of Combat:</b> Give\nanother friendly Dragon\n+5/+5 and <b>Divine Shield</b>."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "95010": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 10
+          },
+          "health": {
+            "new": 6,
+            "old": 10
+          },
+          "text": {
+            "new": "[x]<b>Start of Combat:</b> Give\ntwo other friendly Dragons\n+3/+3 and <b>Divine Shield</b>.",
+            "old": "[x]<b>Start of Combat:</b> Give\ntwo other friendly Dragons\n+5/+5 and <b>Divine Shield</b>."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "98867": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 9,
+            "old": 8
+          },
+          "health": {
+            "new": 9,
+            "old": 8
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "98868": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 18,
+            "old": 16
+          },
+          "health": {
+            "new": 18,
+            "old": 16
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "98939": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 1,
+            "old": 0
+          },
+          "text": {
+            "new": "<b>Start of Combat:</b> For the rest of this combat, your Beasts have +1 Attack.",
+            "old": "<b>Start of Combat:</b> For the rest of this combat, your Beasts have +2 Attack."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "98941": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 0
+          },
+          "text": {
+            "new": "<b>Start of Combat:</b> For the rest of this combat, your Beasts have +2 Attack.",
+            "old": "<b>Start of Combat:</b> For the rest of this combat, your Beasts have +4 Attack."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "103009": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 12
+          },
+          "health": {
+            "new": 8,
+            "old": 12
+          },
+          "mechanics": {
+            "new": [
+              "TRIGGER_VISUAL"
+            ],
+            "old": [
+              "DEATHRATTLE"
+            ]
+          },
+          "text": {
+            "new": "Whenever you summon a Beast, give it +8/+8.",
+            "old": "<b>Deathrattle:</b> Summon\n3 Mama Bears."
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 209698
+      }
+    ],
+    "103016": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 16,
+            "old": 24
+          },
+          "health": {
+            "new": 16,
+            "old": 24
+          },
+          "mechanics": {
+            "new": [
+              "TRIGGER_VISUAL"
+            ],
+            "old": [
+              "DEATHRATTLE"
+            ]
+          },
+          "text": {
+            "new": "Whenever you summon a Beast, give it +16/+16.",
+            "old": "<b>Deathrattle:</b> Summon\n3 Golden Mama Bears."
+          }
+        },
+        "oldVersion": "183876",
+        "newVersion": 209698
+      }
+    ],
+    "103682": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "103683": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "198608",
+        "newVersion": 209698
+      }
+    ],
+    "110966": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 1
+          },
+          "text": {
+            "new": "Get a Fish of N'Zoth that copies <b>Deathrattles</b>.",
+            "old": "[x]<b>Start of Combat:</b> Summon\na Fish of N'Zoth that\ncopies <b>Deathrattles</b>."
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 209698
+      }
+    ],
+    "110972": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 3
+          },
+          "text": {
+            "new": "[x]<b>Avenge (4):</b> Give\nyour minions +3/+3\npermanently and deal\n1 damage to them.",
+            "old": "[x]<b>Avenge (3):</b> Give\nyour minions +3/+3\npermanently and deal\n1 damage to them."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "110991": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "111253": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "111384": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "111408": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 209698
+      }
+    ],
+    "111499": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "111502": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 8,
+            "old": 7
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 209698
+      }
+    ],
+    "111512": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "111556": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]<b>Spellcraft:</b> Choose a minion.\nThen choose a minion from\na Tier higher to transform\nit into.",
+            "old": "<b>Spellcraft:</b> Choose a minion. <b>Discover</b> a minion from a Tier higher to transform it into."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "111608": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112001": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "206605",
+        "newVersion": 209698
+      }
+    ],
+    "112005": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112011": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112080": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "112083": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112381": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "112382": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "206605",
+        "newVersion": 209698
+      }
+    ],
+    "112392": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 209698
+      }
+    ],
+    "112402": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112464": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112813": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Choose a minion. Then choose a minion from a Tier higher to transform it into.",
+            "old": "Choose a minion. <b>Discover</b> a minion from a Tier higher to transform it into."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "112882": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 6,
+            "old": 7
+          }
+        },
+        "oldVersion": "200097",
+        "newVersion": 209698
+      }
+    ],
+    "112883": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 12,
+            "old": 14
+          }
+        },
+        "oldVersion": "200097",
+        "newVersion": 209698
+      }
+    ],
+    "113099": [
+      {
+        "changeType": "change",
+        "changes": {
+          "artist": {
+            "new": "Vika Yarova",
+            "old": "Marta Vives Poch"
+          },
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "113294": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "113295": [
+      {
+        "changeType": "change",
+        "changes": {
+          "techLevel": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 209698
+      }
+    ],
+    "113369": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 3
+          },
+          "mechanics": {
+            "new": [
+              "DIVINE_SHIELD",
+              "TRIGGER_VISUAL"
+            ],
+            "old": [
+              "TRIGGER_VISUAL"
+            ]
+          },
+          "text": {
+            "new": "[x]<b>Divine Shield</b>\nWhenever this gains stats,\nadd +2/+2 to that amount\n<i>(wherever this is)</i>.",
+            "old": "Whenever this gains stats, add +3/+2 to that amount <i>(wherever this is)</i>."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "113370": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 6
+          },
+          "mechanics": {
+            "new": [
+              "DIVINE_SHIELD",
+              "TRIGGER_VISUAL"
+            ],
+            "old": [
+              "TRIGGER_VISUAL"
+            ]
+          },
+          "text": {
+            "new": "[x]<b>Divine Shield</b>\nWhenever this gains stats,\nadd +4/+4 to that amount\n<i>(wherever this is)</i>.",
+            "old": "Whenever this gains stats, add +6/+4 to that amount <i>(wherever this is)</i>."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "115237": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "115240": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "115253": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +1/+1 this game.",
+            "old": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +2/+1 this game."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 209698
+      }
+    ],
+    "115579": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 5
+          },
+          "health": {
+            "new": 6,
+            "old": 8
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "115580": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 10
+          },
+          "health": {
+            "new": 12,
+            "old": 16
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "116699": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 4
+          },
+          "health": {
+            "new": 7,
+            "old": 5
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "116700": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 12,
+            "old": 8
+          },
+          "health": {
+            "new": 14,
+            "old": 10
+          },
+          "techLevel": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117794": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117795": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 6
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117796": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117797": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117798": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117799": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 3
+          },
+          "text": {
+            "new": "[x]Get a 'Sky Pirate\nFlagbearer'. Your Sky\nPirates have +6 Attack.",
+            "old": "[x]Get a 'Sky Pirate\nFlagbearer'. Your Sky\nPirates have +8 Attack."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117800": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117801": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117854": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Reduce the Cost of\nupgrading the Tavern by\n(3). At the start of your\nturn, repeat this.",
+            "old": "[x]At the start of your turn,\nreduce the Cost of\nupgrading the Tavern by (3)."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117856": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117857": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117858": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 6
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117860": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117861": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 5,
+            "old": 4
+          },
+          "text": {
+            "new": "[x]<b>Spellcraft:</b> <b>Refresh</b> the\nTavern with an extra\nTavern spell that costs\n(1) less.",
+            "old": "[x]<b>Spellcraft:</b> <b>Refresh</b> the\nTavern with two extra\nTavern spells that cost\n(1) less."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117862": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 10,
+            "old": 8
+          },
+          "text": {
+            "new": "[x]<b>Spellcraft:</b> <b>Refresh</b> the\nTavern with two extra\nTavern spells that cost\n(1) less.",
+            "old": "[x]<b>Spellcraft:</b> <b>Refresh</b> the\nTavern with two extra\nTavern spells that cost\n(2) less."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117864": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Refresh</b> the Tavern with an extra Tavern spell that costs (1) less.",
+            "old": "<b>Refresh</b> the Tavern with two extra Tavern spells that cost (1) less."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117865": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Refresh</b> the Tavern with two extra Tavern spells that cost (1) less.",
+            "old": "<b>Refresh</b> the Tavern with two extra Tavern spells that cost (2) less."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117895": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Get a 'Silver Goose'.\nAfter you summon\n3 Silver Fledglings, get\na Lucky Egg. <i>(3 left!)</i>",
+            "old": "[x]Get a 'Silver Goose'.\nAfter you summon\n5 Silver Fledglings, get\na Goldenizer. <i>(5 left!)</i>"
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117896": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117897": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117906": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          },
+          "text": {
+            "new": "<b>Avenge (7):</b> Summon and get a random Undead.",
+            "old": "<b>Avenge (6):</b> Summon and get a random Undead."
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117910": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 2,
+            "old": 1
+          },
+          "text": {
+            "new": "[x]After you summon 5 minions\nin combat, get a random\nTavern spell. <i>(5 left!)</i>",
+            "old": "[x]After you summon 7 minions\nin combat, get a random\nTavern spell. <i>(7 left!)</i>"
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117911": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]After you summon 5 minions\nin combat, get 2 random\nTavern spells. <i>(5 left!)</i>",
+            "old": "[x]After you summon 7 minions\nin combat, get 2 random\nTavern spells. <i>(7 left!)</i>"
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117935": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117936": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117938": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 3
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ],
+    "117944": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "208591",
+        "newVersion": 209698
+      }
+    ]
   }
 }
