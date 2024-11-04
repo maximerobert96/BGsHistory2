@@ -90201,5 +90201,329 @@
         "newVersion": 209698
       }
     ]
+  },
+  "210009": {
+    "110956": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          },
+          "mechanics": {
+            "new": [
+              "AURA"
+            ],
+            "old": [
+              "AURA",
+              "TRIGGER_VISUAL"
+            ]
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 210009
+      }
+    ],
+    "110972": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "110975": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 6
+          },
+          "mechanics": {
+            "new": [
+              "AURA"
+            ],
+            "old": [
+              "AURA",
+              "TRIGGER_VISUAL"
+            ]
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 210009
+      }
+    ],
+    "111400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 5
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 210009
+      }
+    ],
+    "111408": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "111417": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 210009
+      }
+    ],
+    "111664": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 210009
+      }
+    ],
+    "111976": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 1
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 210009
+      }
+    ],
+    "112005": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "112381": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "112400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          },
+          "mechanics": {
+            "new": [
+              "AURA"
+            ],
+            "old": [
+              "AURA",
+              "TRIGGER_VISUAL"
+            ]
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 210009
+      }
+    ],
+    "112990": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 210009
+      }
+    ],
+    "113102": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 1
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 210009
+      }
+    ],
+    "114212": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 4
+          },
+          "mechanics": {
+            "new": [
+              "AURA"
+            ],
+            "old": [
+              "AURA",
+              "TRIGGER_VISUAL"
+            ]
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 210009
+      }
+    ],
+    "115234": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 210009
+      }
+    ],
+    "115245": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 210009
+      }
+    ],
+    "115248": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 5
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 210009
+      }
+    ],
+    "117796": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "117798": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 3
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "117856": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "117858": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 8,
+            "old": 7
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ],
+    "117906": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 7,
+            "old": 6
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 210009
+      }
+    ]
   }
 }

@@ -1,0 +1,422 @@
+{
+  "110956": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 110956,
+    "id": "BG30_MagicItem_803",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Kaboom Bot Portrait",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Get a 'Kaboom Bot'.\nYour Kaboom Bots'\n<b>Deathrattles</b> deal\n8 extra damage.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "110972": {
+    "artist": "Grafit",
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 110972,
+    "id": "BG30_MagicItem_864",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Gilnean Thorned Rose",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]<b>Avenge (4):</b> Give\nyour minions +3/+3\npermanently and deal\n1 damage to them.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "110975": {
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 110975,
+    "id": "BG30_MagicItem_868",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Rewinder Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Get a 'Soul Rewinder'\nand a 'Wrath Weaver'.\nYour Soul Rewinders\nalso gain Attack.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111400": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 111400,
+    "id": "BG30_MagicItem_920",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Spitescale Sushi Roll",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Get a 'Spitescale Special'. Your first two <b>Spellcraft</b> spells each turn cast twice. <i>(2 left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111408": {
+    "artist": "Vlad Botos",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 111408,
+    "id": "BG30_MagicItem_931",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lucky Tabby",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "After 6 friendly minions die, get a random Beast. <i>(6 left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111417": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 111417,
+    "id": "BG30_MagicItem_962",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Training Certificate",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]<b>Start of Combat:</b> Double\nthe stats of your two\nlowest-Attack minions.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111664": {
+    "artist": "Marta Vives Poch",
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 111664,
+    "id": "BG30_MagicItem_422",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lorewalker Scroll",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "Whenever you cast a spell on a minion, give it +2/+1.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "NAGA",
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      117416
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111976": {
+    "artist": "Kevin Sidharta",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 111976,
+    "id": "BG30_MagicItem_978",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Blingtron's Sunglasses",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]After you summon a Mech\nin combat, give a friendly\nMech <b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112005": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 112005,
+    "id": "BG30_MagicItem_984",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Charging Staff",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]At the end of each turn,\ngive your minions with\n<b>Divine Shield</b> +3 Attack.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "relatedCards": [
+      115258
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112381": {
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 112381,
+    "id": "BG30_MagicItem_540",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Slamma Sticker",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "After you summon a Beast in combat, double its stats.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "BEAST"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112400": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 112400,
+    "id": "BG30_MagicItem_431",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Azerite Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a 'Living Azerite'.\nYour Living Azerites\nalso give stats to\nfriendly Elementals.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112990": {
+    "artist": "Kevin Sidharta",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 112990,
+    "id": "BG30_MagicItem_439",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Designer Eyepatch",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "You only need 2 copies of a Pirate to make it Golden.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "113102": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 113102,
+    "id": "BG30_MagicItem_999",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fancy Spellbook",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "After you spend 7 Gold, get a random Tavern spell. <i>(7 Gold left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "114212": {
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 114212,
+    "id": "BG30_MagicItem_828",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Shaker Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a 'Zesty Shaker'. Your\nZesty Shakers give an\nextra copy of the spell.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "115234": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 115234,
+    "id": "BG30_MagicItem_841t",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Glowing Gauntlet",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Minions in the Tavern have +8/+8.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DEMON",
+      "MECHANICAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "115245": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 115245,
+    "id": "BG30_MagicItem_924t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Booty Bay Brew",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Whenever you spend Gold, give a friendly Pirate +3/+4.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "115248": {
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 115248,
+    "id": "BG30_MagicItem_433t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Alliance Keychain",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]The first time a friendly\nminion dies each combat,\ngive its maximum stats to\n2 random friendly minions.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117796": {
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 117796,
+    "id": "BG30_MagicItem_702",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Primalfin Portrait",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a 'Primalfin Lookout'.\nAfter you <b>Discover</b> a\nminion, get a random\nTavern spell.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117798": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 117798,
+    "id": "BG30_MagicItem_918",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Promo Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a 'Prized Promo-\nDrake'. Your first <b>Start of\nCombat</b> effect each combat\ntriggers an extra time.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117856": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 117856,
+    "id": "BG30_MagicItem_943",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Surveyor Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Get a 'Hot-Air Surveyor'. At the start of each turn, get 3 <b>Blood Gems</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117858": {
+    "cardClass": "NEUTRAL",
+    "cost": 8,
+    "dbfId": 117858,
+    "id": "BG30_MagicItem_944",
+    "name": "Redeemer Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a 'Nalaa the\nRedeemer'. Tavern\nspells cost (1) less.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117906": {
+    "cardClass": "NEUTRAL",
+    "cost": 7,
+    "dbfId": 117906,
+    "id": "BG30_MagicItem_713",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Bleeding Heart",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "<b>Avenge (7):</b> Summon and get a random Undead.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  }
+}

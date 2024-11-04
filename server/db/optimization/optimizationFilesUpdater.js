@@ -251,7 +251,7 @@ const PUTRI_POOL_2 = [
 //162867
 
 
-let patches = [209698];
+let patches = [210009];
 
 for(let patch of patches){
     updateActiveCardsForPatch(patch);
