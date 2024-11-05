@@ -1,4 +1,5 @@
 const { addNewChange } = require('./changeHandler');
+const dbManager = require('./dbManager');
 
 function testAddingTribeToMurkeye(){
     let build = 35747; // first patch
@@ -854,3 +855,60 @@ function addingTribeSpecificTSpells() {
 
 // addNewChange(201108, 100910, undefined, ["isBattlegroundsPoolSpell"]); // removing unmasked identity
 // addNewChange(198608, 103796, undefined, ["isBattlegroundsPoolSpell"]); // removing sacred gift
+
+function patch210009bugfixes() {
+    let build = 210009;
+
+    addNewChange(build, 101130, {"associatedTribes": ["PIRATE"]}); // adding tribe to hoggarr hero
+    addNewChange(build, 85125, {"associatedTribes": ["NAGA"]}); // adding tribe to lady vashj
+    addNewChange(build, 104610, {"associatedTribes": ["UNDEAD"]}); // adding tribe to graverobber
+    addNewChange(build, 72055, {"associatedTribes": ["BEAST"]}); // adding tribe to bird buddy
+    addNewChange(build, 105266, undefined, ["isBattlegroundsPoolSpell"]); // removing dreamers embrace from the pool
+    addNewChange(build, 100910, {"isBattlegroundsPoolSpell": true}); // adding unmasked identity
+    addNewChange(build, 106501, {"associatedTribes": ["DEMON"]}); // adding tribe to cultist
+    addNewChange(build, 117906, {"associatedTribes": ["UNDEAD"]}); // adding tribe to bleeding heart
+    addNewChange(build, 117894, {"associatedTribes": ["MECHANICAL"]}); // adding tribe to electromagnetic device
+    addNewChange(build, 117896, {"associatedTribes": ["MURLOC"]}); // adding tribe to fungalmancer sticker
+    addNewChange(build, 117895, {"associatedTribes": ["BEAST"]}); // adding tribe to goose portrait
+    addNewChange(build, 116510, undefined, ["isBattlegroundsTrinket"]); // removing lesser trinket placeholder from the pool
+    addNewChange(build, 117799, {"associatedTribes": ["PIRATE"]}); // adding tribe to flagbearer portrait
+    addNewChange(build, 116614, undefined, ["isBattlegroundsTrinket"]); // removing greater trinket placeholder from the pool
+    addNewChange(build, 117855, {"associatedTribes": ["MECHANICAL", "DEMON"]}); // adding tribes to mecha j sticker
+    addNewChange(build, 117797, {"associatedTribes": ["NAGA"]}); // adding tribe to nazjatar postcard
+    addNewChange(build, 117944, {"associatedTribes": ["NAGA"]}); // adding tribe to precious perl
+    addNewChange(build, 117796, {"associatedTribes": ["MURLOC"]}); // adding tribe to primalfin portrait
+    addNewChange(build, 117798, {"associatedTribes": ["DRAGON"]}); // adding tribe to promo portrait
+    addNewChange(build, 117905, {"associatedTribes": ["ELEMENTAL"]}); // adding tribe to surprise portrait
+    addNewChange(build, 117856, {"associatedTribes": ["QUILBOAR"]}); // adding tribe to surveyor portrait
+    addNewChange(build, 117795, {"associatedTribes": ["DEMON"]}); // adding tribe to eye of sargeras
+    addNewChange(build, 98726, {"associatedTribes": ["GENERAL"]}); // changing terons tribe
+    addNewChange(build, 108432, {"associatedTribes": ["MECHANICAL"]}); // adding tribe to ancestral automaton
+    addNewChange(build, 112078, undefined, ["isBattlegroundsTrinket"]); // removing demonblood gourd from the pool
+    addNewChange(build, 111920, undefined, ["isBattlegroundsTrinket"]); // removing lesser valorous medaillion from the pool
+    addNewChange(build, 115219, undefined, ["isBattlegroundsTrinket"]); // removing greater valorous medaillion from the pool
+    addNewChange(build, 115464, undefined, ["isBattlegroundsTrinket"]); // removing ceremonial sword from the pool
+    addNewChange(build, 111211, undefined, ["isBattlegroundsTrinket"]); // removing lesser feral talisman from the pool
+    addNewChange(build, 115251, undefined, ["isBattlegroundsTrinket"]); // removing horde keychain from the pool
+
+}
+
+// patch210009bugfixes();
+
+
+// function fixImages(){
+//     let ids = [117896,117894,117906,106501,100910,105266,72055,104610,85125,101130,117905,117798,117796,117944,117797,117855,116614,117799,116510,117895,115251,111211,115464,115219,111920,112078,108432,98726,117795,117856];
+//     let build = 210009;
+
+//     let mappingJson = dbManager.getJsonMappingFile();
+
+//     ids.forEach((id) => {
+//         let patchesOfId = mappingJson.cards[id];
+//         let penultimatePatch = patchesOfId[patchesOfId.length - 2];
+//         // for each folder in public/cards
+//         // copy public/cards/${folderName}/${penultimatePatch}/${id}.png to public/cards/${folderName}/${build}/${id}.png
+//     })
+// }
+
+
+
+// fixImages();

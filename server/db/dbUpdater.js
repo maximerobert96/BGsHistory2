@@ -429,7 +429,7 @@ function addDuoSpecificField() {
         
 }
 
-function addStartOfCombatToCards() {
+function addEndOfTurnToCards() {
     const dbfIds = [66246,
         86292,
         99034,

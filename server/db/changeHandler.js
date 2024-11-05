@@ -7,7 +7,7 @@ const dbManager = require('../db/dbManager');
  * @param {*} newFields 
  * @param {*} removedFields 
  * @param {*} areReplacing 
- * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE" : for range [build1, build2[
+ * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE" : for range [build1, build2[, "RECENT" for bugfixes
  * @param {*} build2 
  * @param {*} modifyGolden 
  * @param {*} goldenText 
@@ -19,6 +19,12 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
         mappingFile.cards[cardId] = [];
     }    
     let patchesOfChange = mappingFile.cards[cardId];
+
+    // affects the latest build only
+    if(affectedBuilds === "RECENT") {
+        build = patchesOfChange[length - 1];
+    }
+
     patchesOfChange = addToSortedArray(patchesOfChange, build);
     let patchesOfChangeForGolden;
 
@@ -44,7 +50,7 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
 
     if(affectedBuilds === "ALL_FROM_NOW"){
         updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
-    } else if (affectedBuilds === "ONLY_THIS") {
+    } else if (affectedBuilds === "ONLY_THIS" || affectedBuilds === "RECENT") {
         updateOnlyCurrent(build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else if (affectedBuilds === "RANGE" && build !== undefined && build2 !== undefined) {
         updateRange(patchesOfChange, build, build2, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
