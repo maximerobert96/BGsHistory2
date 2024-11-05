@@ -1039,8 +1039,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "UNDEAD",
-      "BEAST"
+      "GENERAL"
     ]
   },
   "98829": {

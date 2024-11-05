@@ -6541,7 +6541,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ]
   },
   "86013": {
@@ -8774,8 +8774,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "UNDEAD",
-      "BEAST"
+      "GENERAL"
     ]
   },
   "98785": {

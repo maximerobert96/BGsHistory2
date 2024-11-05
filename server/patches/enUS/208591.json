@@ -140,7 +140,7 @@
     "text": "<b>Avenge (1):</b> Give your Beasts +1/+1.",
     "type": "MINION",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsPoolMinion": true
   },
@@ -537,6 +537,25 @@
       "UNDEAD"
     ]
   },
+  "100910": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 100910,
+    "id": "EBG_Spell_037",
+    "mechanics": [
+      "DISCOVER"
+    ],
+    "name": "Unmasked Identity",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "techLevel": 5,
+    "text": "<b>Discover</b> a new\nHero Power.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolSpell": true
+  },
   "102294": {
     "attack": 6,
     "battlegroundsPremiumDbfId": 102296,
@@ -622,6 +641,25 @@
       "MECHANICAL"
     ],
     "isBattlegroundsPoolMinion": true
+  },
+  "105266": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 105266,
+    "id": "BG28_883",
+    "name": "Dreamer's Embrace",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "targetingArrowText": "Trigger a <b>Battlecry</b>.",
+    "techLevel": 5,
+    "text": "Trigger a friendly minion's <b>Battlecry</b>.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "105424": {
     "attack": 3,
@@ -1108,7 +1146,7 @@
     "text": "[x]Every fourth card you\nbuy costs Health instead\nof Gold. <i>({0} left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1129,7 +1167,7 @@
     "text": "[x]Get a 'Primalfin Lookout'.\nAfter you <b>Discover</b> a\nminion, get a random\nTavern spell.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1147,7 +1185,7 @@
     "text": "[x]After you play a\nnon-Naga minion, get a\nrandom <b>Spellcraft</b> spell.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1184,7 +1222,7 @@
     "text": "[x]Get a 'Sky Pirate\nFlagbearer'. Your Sky\nPirates have +8 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1272,7 +1310,8 @@
     "text": "[x]Get 2 random <b>Magnetic</b>\nMecha-Demons. At the\nstart of each turn, get\n2 more.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL",
+      "DEMON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1290,7 +1329,7 @@
     "text": "Get a 'Hot-Air Surveyor'. At the start of each turn, get 3 <b>Blood Gems</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1442,7 +1481,7 @@
     "text": "[x]<b>Discover</b> a <b>Magnetic</b>\nminion. Whenever you\n<b>Magnetize</b> a minion,\ngive it +2/+2.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1460,7 +1499,7 @@
     "text": "[x]Get a 'Silver Goose'.\nAfter you summon\n5 Silver Fledglings, get\na Goldenizer. <i>(5 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1478,7 +1517,7 @@
     "text": "[x]After you sell 5 minions,\nget a random Murloc.\n<i>(5 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1516,7 +1555,7 @@
     "text": "[x]Get an 'Elemental of\nSurprise'. <i>(More appear\nwhen you least expect\nthem...)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "ELEMENTAL"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1534,7 +1573,7 @@
     "text": "<b>Avenge (6):</b> Summon and get a random Undead.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1858,7 +1897,7 @@
     "text": "<b>Spellcraft:</b> Give a minion +30/+30 until next turn.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true,
     "relatedCards": [

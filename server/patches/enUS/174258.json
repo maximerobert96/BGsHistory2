@@ -1757,7 +1757,7 @@
     "text": "<b>Avenge (1):</b> Give your Beasts +1/+1.",
     "type": "MINION",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ]
   },
   "72062": {
@@ -4063,8 +4063,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "UNDEAD",
-      "BEAST"
+      "GENERAL"
     ]
   },
   "98816": {

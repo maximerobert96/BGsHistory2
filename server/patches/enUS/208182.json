@@ -1469,6 +1469,27 @@
     ],
     "isBattlegroundsTrinket": true
   },
+  "111211": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 111211,
+    "id": "BG30_MagicItem_880",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Feral Talisman",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "Your minions have +2/+1.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "BEAST",
+      "UNDEAD"
+    ],
+    "relatedCards": [
+      111250
+    ]
+  },
   "111384": {
     "artist": "Marta Vives Poch",
     "cardClass": "NEUTRAL",
@@ -1763,6 +1784,26 @@
     ],
     "isBattlegroundsTrinket": true
   },
+  "111920": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 111920,
+    "id": "BG30_MagicItem_970",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Valorous Medallion",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "<b>Start of Combat:</b> Give your minions +2/+2.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "relatedCards": [
+      115219
+    ]
+  },
   "111922": {
     "artist": "Valeria Styajkina",
     "cardClass": "NEUTRAL",
@@ -1887,6 +1928,28 @@
       "DEMON"
     ],
     "isBattlegroundsTrinket": true
+  },
+  "112078": {
+    "artist": "Kevin Sidharta",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 112078,
+    "id": "BG30_MagicItem_429",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Demonblood Gourd",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]<b>Spellcraft:</b> Choose a\nfriendly minion. It consumes\na random minion in the\nTavern to gain its stats.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DEMON",
+      "ELEMENTAL"
+    ],
+    "relatedCards": [
+      112401
+    ]
   },
   "112083": {
     "artist": "Vlad Botos",
@@ -2605,6 +2668,24 @@
     ],
     "isBattlegroundsTrinket": true
   },
+  "115219": {
+    "artist": "Grafit",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 115219,
+    "id": "BG30_MagicItem_970t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Valorous Medallion",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "<b>Start of Combat:</b> Give your minions +6/+6.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON"
+    ]
+  },
   "115221": {
     "artist": "Ivo Campelo da Silva",
     "cardClass": "NEUTRAL",
@@ -2781,6 +2862,24 @@
     ],
     "isBattlegroundsTrinket": true
   },
+  "115251": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 115251,
+    "id": "BG30_MagicItem_843t",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Horde Keychain",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Your minions from Tier 3 or lower have +7/+5.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "BEAST",
+      "UNDEAD"
+    ]
+  },
   "115253": {
     "cardClass": "NEUTRAL",
     "cost": 4,
@@ -2819,5 +2918,23 @@
       "MECHANICAL"
     ],
     "isBattlegroundsTrinket": true
+  },
+  "115464": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 115464,
+    "id": "BG30_MagicItem_925",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Ceremonial Sword",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "Whenever a friendly minion attacks, give it +4 Attack.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "PIRATE",
+      "UNDEAD"
+    ]
   }
 }

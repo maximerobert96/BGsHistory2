@@ -345,7 +345,7 @@
     "text": "[x]Get a 'Primalfin Lookout'.\nAfter you <b>Discover</b> a\nminion, get a random\nTavern spell.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -364,7 +364,7 @@
     "text": "[x]Get a 'Prized Promo-\nDrake'. Your first <b>Start of\nCombat</b> effect each combat\ntriggers an extra time.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DRAGON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -382,7 +382,7 @@
     "text": "Get a 'Hot-Air Surveyor'. At the start of each turn, get 3 <b>Blood Gems</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -415,7 +415,7 @@
     "text": "<b>Avenge (7):</b> Summon and get a random Undead.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   }

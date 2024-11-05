@@ -90480,6 +90480,14 @@
           "cost": {
             "new": 1,
             "old": 3
+          },
+          "associatedTribes": {
+            "new": [
+              "DRAGON"
+            ],
+            "old": [
+              "GENERAL"
+            ]
           }
         },
         "oldVersion": "209698",

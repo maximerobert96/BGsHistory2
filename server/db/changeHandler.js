@@ -7,7 +7,7 @@ const dbManager = require('../db/dbManager');
  * @param {*} newFields 
  * @param {*} removedFields 
  * @param {*} areReplacing 
- * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE" : for range [build1, build2[, "RECENT" for bugfixes
+ * @param {*} affectedBuilds "ALL_FROM_NOW", "ONLY_THIS", "RANGE" : for range [build1, build2[, "FIRST" or "RECENT" for bugfixes
  * @param {*} build2 
  * @param {*} modifyGolden 
  * @param {*} goldenText 
@@ -22,7 +22,11 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
 
     // affects the latest build only
     if(affectedBuilds === "RECENT") {
-        build = patchesOfChange[length - 1];
+        build = patchesOfChange[patchesOfChange.length - 1];
+    }
+
+    if(affectedBuilds === "FIRST") {
+        build = patchesOfChange[0];
     }
 
     patchesOfChange = addToSortedArray(patchesOfChange, build);
@@ -48,7 +52,7 @@ function addNewChange(build, cardId, newFields, removedFields = [], areReplacing
         patchesOfChangeForGolden = addToSortedArray(patchesOfChangeForGolden, build);
     }
 
-    if(affectedBuilds === "ALL_FROM_NOW"){
+    if(affectedBuilds === "ALL_FROM_NOW" || affectedBuilds === "FIRST"){
         updateAllFromNow(patchesOfChange, build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);
     } else if (affectedBuilds === "ONLY_THIS" || affectedBuilds === "RECENT") {
         updateOnlyCurrent(build, cardId, newFields, removedFields, areReplacing, modifyGolden, goldenText, goldenId);

@@ -1346,7 +1346,7 @@
     "text": "[x]<b><b>Stealth</b>.</b> <b>Deathrattle:</b>\nSummon your first Demon\nthat died this combat.\n   It keeps enchantments.",
     "type": "MINION",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ]
   },
   "106503": {

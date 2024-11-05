@@ -2598,8 +2598,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "UNDEAD",
-      "BEAST"
+      "GENERAL"
     ]
   },
   "99014": {
@@ -2830,7 +2829,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "battlegroundsBuddyDbfId": 114598
   },
@@ -3597,6 +3596,9 @@
     "isBattlegroundsPoolMinion": true,
     "mechanics": [
       "AURA"
+    ],
+    "associatedTribes": [
+      "MECHANICAL"
     ]
   },
   "108435": {
@@ -8281,8 +8283,7 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isBattlegroundsTrinket": true
+    ]
   },
   "116614": {
     "cardClass": "NEUTRAL",
@@ -8297,8 +8298,7 @@
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isBattlegroundsTrinket": true
+    ]
   },
   "117157": {
     "cardClass": "NEUTRAL",

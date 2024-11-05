@@ -1232,7 +1232,7 @@
     "text": "[x]Every fourth card you\nbuy costs Health instead\nof Gold. <i>({0} left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1253,7 +1253,7 @@
     "text": "[x]Get a 'Primalfin Lookout'.\nAfter you <b>Discover</b> a\nminion, get a random\nTavern spell.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1271,7 +1271,7 @@
     "text": "[x]After you play a\nnon-Naga minion, get a\nrandom <b>Spellcraft</b> spell.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1308,7 +1308,7 @@
     "text": "[x]Get a 'Sky Pirate\nFlagbearer'. Your Sky\nPirates have +6 Attack.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "PIRATE"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1380,7 +1380,7 @@
     "text": "Get a 'Hot-Air Surveyor'. At the start of each turn, get 3 <b>Blood Gems</b>.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "QUILBOAR"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1528,7 +1528,7 @@
     "text": "[x]Get a 'Silver Goose'.\nAfter you summon\n3 Silver Fledglings, get\na Lucky Egg. <i>(3 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "BEAST"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1546,7 +1546,7 @@
     "text": "[x]After you sell 5 minions,\nget a random Murloc.\n<i>(5 left!)</i>",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "MURLOC"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1583,7 +1583,7 @@
     "text": "<b>Avenge (7):</b> Summon and get a random Undead.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "UNDEAD"
     ],
     "isBattlegroundsTrinket": true
   },
@@ -1704,7 +1704,7 @@
     "text": "<b>Spellcraft:</b> Give a minion +30/+30 until next turn.",
     "type": "BATTLEGROUND_TRINKET",
     "associatedTribes": [
-      "GENERAL"
+      "NAGA"
     ],
     "isBattlegroundsTrinket": true,
     "relatedCards": [

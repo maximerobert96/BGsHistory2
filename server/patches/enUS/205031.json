@@ -1463,8 +1463,7 @@
     "set": "BATTLEGROUNDS",
     "type": "HERO",
     "associatedTribes": [
-      "UNDEAD",
-      "BEAST"
+      "GENERAL"
     ]
   },
   "98786": {
@@ -1670,7 +1669,7 @@
     "text": "[x]<b><b>Stealth</b>.</b> <b>Deathrattle:</b>\nSummon your first Demon\nthat died this combat\n with its maximum stats.",
     "type": "MINION",
     "associatedTribes": [
-      "GENERAL"
+      "DEMON"
     ]
   },
   "106503": {
