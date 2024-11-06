@@ -341,9 +341,9 @@ function CardPools({card, patch}) {
 function OtherVersion({card, patch}) {
     let otherVersion;
     if(card.hasOwnProperty("battlegroundsPremiumDbfId")) {
-        otherVersion = <Link to={`/${patch}/cards/${card.battlegroundsPremiumDbfId}`}>Golden Version</Link>;
+        otherVersion = <Link to={`../${card.battlegroundsPremiumDbfId}`}>Golden Version</Link>;
     } else if (card.hasOwnProperty("battlegroundsNormalDbfId")) {
-        otherVersion = <Link to={`/${patch}/cards/${card.battlegroundsNormalDbfId}`}>Regular Version</Link>;
+        otherVersion = <Link to={`../${card.battlegroundsNormalDbfId}`}>Regular Version</Link>;
     }
     return otherVersion;
 }

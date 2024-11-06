@@ -95,10 +95,8 @@ export function BuddyPage() {
             }
             const cards = await response.json();
             setActiveCards(cards);
-            setCards(c => cards);
-            // applyFilter(setCards, withoutDuosFilter);
-            // applyFilter(setCards, onlyDuosFilter);
-            // applyFilter(setCards, faelinFilter);
+
+            setCards(c => cards.filter((card) => !card.hasOwnProperty("bannedFromFoaF")));
 
 
             
