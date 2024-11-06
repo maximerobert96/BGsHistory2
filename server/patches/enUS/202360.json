@@ -1358,7 +1358,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you buy a minion, gain its stats.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 71454,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77814": {
     "attack": 12,
@@ -2863,7 +2867,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 2,
     "text": "[x]At the end of your turn,\n  transform the minion to the  \nleft of this into one from a\n   Tier higher <i>(up to Tier 7!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 103477,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113558": {
     "attack": 10,
@@ -2912,7 +2920,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]At the start of your turn, roll\na 6-sided die. <b>Discover</b> a\n Tavern spell of that Tier.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 105314,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113560": {
     "attack": 12,
@@ -2962,7 +2974,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]At the end of every 2\n turns, get a plain copy of the\nleft-most card in your hand.\n<i>({0} turns left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 99033,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113630": {
     "attack": 6,
@@ -3008,7 +3024,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 6,
     "text": "[x]After you buy a minion, get a\nrandom Tavern spell from\nthe same Tier. <i>(9 left!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 105434,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113632": {
     "attack": 18,
@@ -3050,7 +3070,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "Once per turn, after you <b>Pass</b> a minion, get a plain copy of it <i>(except <b>Buddies</b>)</i>.",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 107183,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113636": {
     "attack": 12,
@@ -3148,7 +3172,11 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you buy 2 Pirates, gain +1/+1 and add a Pirate to the Tavern. <i>(2 left)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "heroDbfId": 101130,
+    "associatedTribes": [
+      "PIRATE"
+    ]
   },
   "114599": {
     "attack": 8,

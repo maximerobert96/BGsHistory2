@@ -3506,7 +3506,8 @@
     "techLevel": 4,
     "text": "'For the Horde!' also grants Health.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": 71454
   },
   "77814": {
     "attack": 18,

@@ -919,4 +919,23 @@ function buddyBugFixes() {
 
 }
 
-// buddyBugFixes();
+function linkingSomeBuddiesToHeroes() {
+    let build = 210009;
+
+    addNewChange(build, 113627, {"heroDbfId": 103500}, undefined, undefined, "FIRST"); // inge buddy
+    addNewChange(build, 113633, {"heroDbfId": 104567}, undefined, undefined, "FIRST"); // nameless one buddy
+    addNewChange(build, 113690, {"heroDbfId": 104981}, undefined, undefined, "FIRST"); // cho buddy
+    addNewChange(build, 113692, {"heroDbfId": 104982}, undefined, undefined, "FIRST"); // gall buddy
+    addNewChange(build, 77813, {"heroDbfId": 71454}, undefined, undefined, "FIRST"); // saurfang buddy
+    addNewChange(build, 113631, {"heroDbfId": 105434}, undefined, undefined, "FIRST"); // hollidae buddy
+    addNewChange(build, 113650, {"heroDbfId": 105431}, undefined, undefined, "FIRST"); // taethelan buddy
+    addNewChange(build, 113635, {"heroDbfId": 107183}, undefined, undefined, "FIRST"); // goya buddy
+    addNewChange(build, 113559, {"heroDbfId": 105314}, undefined, undefined, "FIRST"); // snake eyes buddy
+    addNewChange(build, 113637, {"heroDbfId": 104671}, undefined, undefined, "FIRST"); // floop buddy
+    addNewChange(build, 113557, {"heroDbfId": 103477}, undefined, undefined, "FIRST"); // thorim buddy
+    addNewChange(build, 114598, {"heroDbfId": 101130}, undefined, undefined, "FIRST"); // hoggarr buddy
+    addNewChange(build, 113629, {"heroDbfId": 99033}, undefined, undefined, "FIRST"); // voone buddy
+  
+}
+
+// linkingSomeBuddiesToHeroes();

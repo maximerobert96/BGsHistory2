@@ -1902,7 +1902,11 @@
     "techLevel": 4,
     "text": "When you sell this, get the <b>Buddy</b> of your teammate's Hero Power.",
     "type": "MINION",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "heroDbfId": 104567,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113634": {
     "attack": 2,
@@ -1939,7 +1943,11 @@
     "techLevel": 6,
     "text": "[x]At the start of your turn,\nget a plain copy of your\nteammate's highest-Tier\n      minion <i>(except <b>Buddies</b>)</i>.   ",
     "type": "MINION",
-    "artist": "Todd Harris"
+    "artist": "Todd Harris",
+    "heroDbfId": 104671,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "113638": {
     "attack": 12,

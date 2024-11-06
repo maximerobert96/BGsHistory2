@@ -597,4 +597,4 @@ function addingTribesToBuddies() {
     })
 }
 
-addingTribesToBuddies();
+// addingTribesToBuddies();
