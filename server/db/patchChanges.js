@@ -938,4 +938,6 @@ function linkingSomeBuddiesToHeroes() {
   
 }
 
+// addNewChange(210009, 77468, {"heroDbfId": 61910, "associatedTribes": ["GENERAL"]}, undefined, undefined, "FIRST"); // aranna buddy
+
 // linkingSomeBuddiesToHeroes();

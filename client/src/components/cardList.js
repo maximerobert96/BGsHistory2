@@ -70,6 +70,69 @@ export default function MainPage() {
         );
 }
 
+export function BuddyPage() {
+    const [cards, setCards] = useState([]);
+    const [activeCards, setActiveCards] = useState([]);
+    const params = useParams();
+    const [selectedCard, setSelectedCard] = useState(null);
+
+    let patchId;
+    if(params.patchId !== undefined) {
+        patchId = params.patchId.toString();
+    }
+
+    useEffect(() => {
+        async function getCards(){
+            let response;
+            if(params.patchId !== undefined) {
+                let patchId = params.patchId.toString();
+                response = await fetch(`http://localhost:5000/${patchId}/buddy-pool/`);
+            }
+            if(!response.ok){
+                const message = `an error has occurred: ${response.statusText}`;
+                window.alert(message);
+                return;
+            }
+            const cards = await response.json();
+            setActiveCards(cards);
+            setCards(c => cards);
+            // applyFilter(setCards, withoutDuosFilter);
+            // applyFilter(setCards, onlyDuosFilter);
+            // applyFilter(setCards, faelinFilter);
+
+
+            
+        }
+        
+        getCards();
+        return;
+    }, [params.patchId]);
+
+    useEffect(() => {
+        async function getSelectedId(){
+            if(params.id !== undefined) {
+                setSelectedCard(params.id);
+            } else {
+                setSelectedCard(null);
+            }
+        }
+        getSelectedId();
+
+    }, [params.id]);
+
+
+        return (
+        <>
+            { selectedCard &&
+            (<DisplayCardInfo patchId={patchId} />)}
+            <PatchInfo patchId={patchId}/>
+            {cards.length && 
+            (<CardList cards={cards} patchId={patchId} />)}
+           
+        </>
+        );
+}
+
 export function PutriPage() {
     const [cards, setCards] = useState([]);
     // const [activeCards, setActiveCards] = useState([]);

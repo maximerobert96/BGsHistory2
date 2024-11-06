@@ -248,32 +248,74 @@ const PUTRI_POOL_2 = [
 
 
 
+// function createBuddyFile() {
+//     let currentPatch = 210009;
+//     let activeCards = optimizerFunctions.getActiveCardsOfPatch(currentPatch);
+//     let banned = [];
+//     let nonBanned = [];
+//     activeCards.forEach((card) => {
+//         if(card.hasOwnProperty("battlegroundsBuddyDbfId")){
+//             let buddyId = card.battlegroundsBuddyDbfId;
+//             let buddy = dbManager.getCardById(buddyId, currentPatch);
+//             // let buddyShortObj = { hero: card.name, name: buddy.name, techLevel: buddy.techLevel, text: buddy.text, buddyDbfId: buddy.dbfId }
+//             if(buddy.hasOwnProperty("bannedFromFoaF")){
+//                 banned.push(buddy.dbfId);
+//             } else {
+//                 nonBanned.push(buddy.dbfId);
+//             }
+//         }
+//     })
+
+//     let buddyPoolObj = [];
+//     buddyPoolObj.push({[currentPatch]: { banned: banned, nonBanned: nonBanned}
+//     });
+
+//     dbManager.saveJsonToFile("./optimization/buddy_pools.json", buddyPoolObj);
+// }
+
 function createBuddyFile() {
     let currentPatch = 210009;
     let activeCards = optimizerFunctions.getActiveCardsOfPatch(currentPatch);
-    let banned = [];
-    let nonBanned = [];
+    let buddies = [];
     activeCards.forEach((card) => {
         if(card.hasOwnProperty("battlegroundsBuddyDbfId")){
-            let buddyId = card.battlegroundsBuddyDbfId;
-            let buddy = dbManager.getCardById(buddyId, currentPatch);
-            // let buddyShortObj = { hero: card.name, name: buddy.name, techLevel: buddy.techLevel, text: buddy.text, buddyDbfId: buddy.dbfId }
-            if(buddy.hasOwnProperty("bannedFromFoaF")){
-                banned.push(buddy.dbfId);
-            } else {
-                nonBanned.push(buddy.dbfId);
-            }
+            buddies.push(card.battlegroundsBuddyDbfId);
         }
     })
 
     let buddyPoolObj = [];
-    buddyPoolObj.push({[currentPatch]: { banned: banned, nonBanned: nonBanned}
-    });
+    buddyPoolObj.push({[currentPatch]: buddies});
 
     dbManager.saveJsonToFile("./optimization/buddy_pools.json", buddyPoolObj);
 }
 
-// createBuddyFile();
+// maybe todo, do it like the active card file. Not a high priority
+// function createBuddyOptimizationFile() {
+//     let currentPatch = 210009;
+//     let activeCards = optimizerFunctions.getActiveCardsOfPatch(currentPatch);
+//     let buddies = [];
+//     activeCards.forEach((card) => {
+//         if(card.hasOwnProperty("battlegroundsBuddyDbfId")){
+//             let buddyId = card.battlegroundsBuddyDbfId;
+//             let buddy = dbManager.getCardById(buddyId, currentPatch);
+//             // let buddyShortObj = { hero: card.name, name: buddy.name, techLevel: buddy.techLevel, text: buddy.text, buddyDbfId: buddy.dbfId }
+//             if(buddy.hasOwnProperty("bannedFromFoaF")){
+//                 banned.push(buddy.dbfId);
+//             } else {
+//                 nonBanned.push(buddy.dbfId);
+//             }
+//         }
+//     })
+
+//     let buddyPoolObj = [];
+//     buddyPoolObj.push({[currentPatch]: { banned: banned, nonBanned: nonBanned}
+//     });
+
+//     dbManager.saveJsonToFile("./optimization/buddy_pools.json", buddyPoolObj);
+// }
+
+// console.log(dbManager.getCardById(113629, 210009));
+createBuddyFile();
 
 
 // let patches = [210009];
@@ -282,3 +324,5 @@ function createBuddyFile() {
 //     updateActiveCardsForPatch(patch);
 //     updateCardChangesForPatch(patch);
 // }
+
+

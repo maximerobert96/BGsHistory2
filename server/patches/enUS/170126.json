@@ -692,7 +692,10 @@
     "techLevel": 1,
     "text": "[x]After you buy a minion,\nyour next <b>Refresh</b> costs (0).",
     "type": "MINION",
-    "heroDbfId": "61911"
+    "heroDbfId": 61910,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77470": {
     "attack": 4,

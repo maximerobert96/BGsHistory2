@@ -13,6 +13,10 @@ function getPutricidePoolJson() {
     return dbManager.getJsonFromFile("./optimization/putricide_pools.json");   
 }
 
+function getBuddyPoolJson() {
+    return dbManager.getJsonFromFile("./optimization/buddy_pools.json");   
+}
+
 function getActiveCardsOfPatch(patchId){
     let activeCardsMappingJson = getActiveCardsMappingJson();
     let mappingActiveCardsOfPatch = activeCardsMappingJson[patchId];
@@ -77,6 +81,33 @@ function getPutricideCards(patchId) {
 
 // getPutricideCards(205267);
 
+function getBuddies(patchId) {
+    let buddyPoolJson = getBuddyPoolJson();
+
+    let mostRecentPatch;
+
+    for(let patchObj of buddyPoolJson) {
+        let currentPatchId = Object.keys(patchObj)[0];
+        if(parseInt(patchId) >= parseInt(currentPatchId)) {
+            mostRecentPatch = patchObj;
+        } else {
+            break;
+        }
+    }
+    let buddiesOfRecentPatch = Object.values(mostRecentPatch)[0];
+
+    let buddies = [];
+
+    buddiesOfRecentPatch.forEach((buddyDbfId) => {
+        buddies.push(dbManager.getCardById(buddyDbfId, mostRecentPatch));
+    });
+
+    return buddies;
+
+}
+
+
+
 module.exports = {
-    getActiveCardsOfPatch, getChangesOfPatch, getPutricideCards
+    getActiveCardsOfPatch, getChangesOfPatch, getPutricideCards, getBuddies
 }

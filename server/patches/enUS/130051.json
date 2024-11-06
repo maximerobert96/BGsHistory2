@@ -1812,7 +1812,10 @@
     "techLevel": 3,
     "text": "[x]After you play a minion,\nyour next <b>Refresh</b> costs (0).",
     "type": "MINION",
-    "heroDbfId": "61911"
+    "heroDbfId": 61910,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77470": {
     "attack": 6,

@@ -672,7 +672,10 @@
     "techLevel": 1,
     "text": "[x]After you buy a card,\nyour next <b>Refresh</b>\ncosts (0).",
     "type": "MINION",
-    "heroDbfId": "61911"
+    "heroDbfId": 61910,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77479": {
     "attack": 3,

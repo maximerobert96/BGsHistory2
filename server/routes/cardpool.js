@@ -32,4 +32,18 @@ cardPoolRoutes.route("/:patchId/putricide-pool").get(function(req,res) {
     }
 });
 
+cardPoolRoutes.route("/:patchId/buddy-pool").get(function(req,res) {
+    
+    try {
+        let patchId = req.params.patchId;
+        // let cards = dbManager.getCardsOfPool(patchId, poolName)
+        let cards = optimizerFunctions.getBuddies(patchId);
+        res.json(cards);
+    } catch (error) {
+        res.status(404);
+        res.json({error: error.message});
+        
+    }
+});
+
 module.exports = cardPoolRoutes;
