@@ -1,4 +1,5 @@
 const dbManager = require('../dbManager');
+const optimizerFunctions = require("./optimizationFilesFunctions");
 
 /**
  * Gives an object of the format 
@@ -245,16 +246,39 @@ const PUTRI_POOL_2 = [
 
 }
 
-// createPutriFile();
 
 
-//162867
+function createBuddyFile() {
+    let currentPatch = 210009;
+    let activeCards = optimizerFunctions.getActiveCardsOfPatch(currentPatch);
+    let banned = [];
+    let nonBanned = [];
+    activeCards.forEach((card) => {
+        if(card.hasOwnProperty("battlegroundsBuddyDbfId")){
+            let buddyId = card.battlegroundsBuddyDbfId;
+            let buddy = dbManager.getCardById(buddyId, currentPatch);
+            // let buddyShortObj = { hero: card.name, name: buddy.name, techLevel: buddy.techLevel, text: buddy.text, buddyDbfId: buddy.dbfId }
+            if(buddy.hasOwnProperty("bannedFromFoaF")){
+                banned.push(buddy.dbfId);
+            } else {
+                nonBanned.push(buddy.dbfId);
+            }
+        }
+    })
 
+    let buddyPoolObj = [];
+    buddyPoolObj.push({[currentPatch]: { banned: banned, nonBanned: nonBanned}
+    });
 
-let patches = [210009];
-
-for(let patch of patches){
-    updateActiveCardsForPatch(patch);
-    updateCardChangesForPatch(patch);
+    dbManager.saveJsonToFile("./optimization/buddy_pools.json", buddyPoolObj);
 }
 
+// createBuddyFile();
+
+
+// let patches = [210009];
+
+// for(let patch of patches){
+//     updateActiveCardsForPatch(patch);
+//     updateCardChangesForPatch(patch);
+// }

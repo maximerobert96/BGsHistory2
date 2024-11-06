@@ -788,7 +788,8 @@
     "relatedCards": [
       70136
     ],
-    "heroDbfId": "71458"
+    "heroDbfId": "71458",
+    "bannedFromFoaF": true
   },
   "77479": {
     "attack": 2,
@@ -1321,8 +1322,7 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 5,
     "text": "After you buy a minion, gain its stats.",
-    "type": "MINION",
-    "bannedFromFoaF": true
+    "type": "MINION"
   },
   "77814": {
     "attack": 12,
@@ -1522,7 +1522,8 @@
     "techLevel": 6,
     "text": "[x]Minions targeted by\n'Spirit Swap' also gain\neach other's Health.",
     "type": "MINION",
-    "heroDbfId": "71463"
+    "heroDbfId": "71463",
+    "bannedFromFoaF": true
   },
   "77850": {
     "attack": 14,
@@ -1697,7 +1698,8 @@
     "referencedTags": [
       "DEATHRATTLE"
     ],
-    "heroDbfId": "76521"
+    "heroDbfId": "76521",
+    "bannedFromFoaF": true
   },
   "77875": {
     "attack": 12,

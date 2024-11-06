@@ -895,23 +895,28 @@ function patch210009bugfixes() {
 
 }
 
-patch210009bugfixes();
+function buddyBugFixes() {
+    let build = 210009;
 
+    // removing buddies from ban list
+    addNewChange(build, 101435, undefined, ["bannedFromFoaF"], undefined, "RECENT"); // sire buddy
+    addNewChange(build, 77629, undefined, ["bannedFromFoaF"], undefined, "RECENT"); // wagtoggle buddy
+    addNewChange(build, 77829, undefined, ["bannedFromFoaF"], undefined, "RECENT"); // silas buddy
+    addNewChange(build, 77813, undefined, ["bannedFromFoaF"], undefined, "RECENT"); // saurfang buddy
 
-// function fixImages(){
-//     let ids = [117896,117894,117906,106501,100910,105266,72055,104610,85125,101130,117905,117798,117796,117944,117797,117855,116614,117799,116510,117895,115251,111211,115464,115219,111920,112078,108432,98726,117795,117856];
-//     let build = 210009;
+    // adding buddies to ban list
+    addNewChange(build, 77841, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // lich king buddy
+    addNewChange(build, 77782, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // deathwing buddy
+    addNewChange(build, 113627, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // inge buddy
+    addNewChange(build, 77478, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // blackthorn buddy
+    addNewChange(build, 77831, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // finley buddy
+    addNewChange(build, 77849, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // voljin buddy
+    addNewChange(build, 77874, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // sneed buddy
+    addNewChange(build, 98660, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // sylvanas buddy
+    addNewChange(build, 113633, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // nameless one buddy
+    addNewChange(build, 77845, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // tickatus buddy
+    addNewChange(build, 98690, {"bannedFromFoaF": true}, undefined, undefined, "RECENT"); // jailer buddy
 
-//     let mappingJson = dbManager.getJsonMappingFile();
+}
 
-//     ids.forEach((id) => {
-//         let patchesOfId = mappingJson.cards[id];
-//         let penultimatePatch = patchesOfId[patchesOfId.length - 2];
-//         // for each folder in public/cards
-//         // copy public/cards/${folderName}/${penultimatePatch}/${id}.png to public/cards/${folderName}/${build}/${id}.png
-//     })
-// }
-
-
-
-// fixImages();
+// buddyBugFixes();

@@ -521,7 +521,6 @@
     "techLevel": 4,
     "text": "[x]<b>Start of Combat:</b> If you control\n4 minions with different types,\ngain your minions' highest\nAttack and Health.",
     "type": "MINION",
-    "bannedFromFoaF": true,
     "heroDbfId": "57924"
   },
   "77723": {
@@ -622,7 +621,8 @@
     "race": "DRAGON",
     "races": [
       "DRAGON"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77783": {
     "attack": 4,
@@ -890,7 +890,8 @@
     "heroDbfId": "67356",
     "referencedTags": [
       "DISCOVER"
-    ]
+    ],
+    "bannedFromFoaF": true
   },
   "77846": {
     "attack": 12,
@@ -1579,7 +1580,6 @@
     "techLevel": 3,
     "text": "[x]When you sell this, <b>Discover</b>\na <b>Quest</b>. Complete it to get\nan 8-Gold Coin Pouch.",
     "type": "MINION",
-    "bannedFromFoaF": true,
     "relatedCards": [
       101579
     ],
@@ -2462,7 +2462,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 3,
     "text": "[x]After you use your Hero Power\non a minion, it gains half this\nminion's Attack. <i>(Swaps to\nHealth next turn!)</i>",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "113628": {
     "attack": 8,

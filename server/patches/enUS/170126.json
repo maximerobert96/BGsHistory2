@@ -1840,7 +1840,6 @@
     "techLevel": 4,
     "text": "After you <b>Discover</b> a minion, give it +{1}/+{1} and upgrade this by +1/+1.",
     "type": "MINION",
-    "bannedFromFoaF": true,
     "heroDbfId": "64480"
   },
   "77830": {
@@ -1984,7 +1983,8 @@
     "techLevel": 3,
     "text": "After a friendly minion is <b>Reborn</b>, give it this minion's Attack.",
     "type": "MINION",
-    "heroDbfId": "58024"
+    "heroDbfId": "58024",
+    "bannedFromFoaF": true
   },
   "77842": {
     "attack": 12,
@@ -2623,7 +2623,8 @@
     "techLevel": 6,
     "text": "[x]<b>Battlecry:</b> Remove a\nfriendly minion. Give its\nstats to its neighbors.",
     "type": "MINION",
-    "heroDbfId": "89293"
+    "heroDbfId": "89293",
+    "bannedFromFoaF": true
   },
   "98661": {
     "attack": 12,

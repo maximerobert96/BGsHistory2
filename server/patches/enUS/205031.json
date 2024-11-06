@@ -834,7 +834,8 @@
     "techLevel": 4,
     "text": "When you sell this, get the <b>Buddy</b> of your Hero Power.",
     "type": "MINION",
-    "heroDbfId": "60211"
+    "heroDbfId": "60211",
+    "bannedFromFoaF": true
   },
   "77832": {
     "attack": 2,
@@ -1423,7 +1424,8 @@
     "techLevel": 1,
     "text": "<b>Deathrattle:</b> Summon 3 random Tier 1 minions.",
     "type": "MINION",
-    "heroDbfId": "97186"
+    "heroDbfId": "97186",
+    "bannedFromFoaF": true
   },
   "98693": {
     "attack": 4,
@@ -1860,7 +1862,8 @@
     "set": "BATTLEGROUNDS",
     "techLevel": 4,
     "text": "When you sell this, get the <b>Buddy</b> of your teammate's Hero Power.",
-    "type": "MINION"
+    "type": "MINION",
+    "bannedFromFoaF": true
   },
   "113634": {
     "attack": 2,
