@@ -2208,7 +2208,10 @@
     "techLevel": 5,
     "text": "At the end of your turn,\nget a random minion\nof your Tier.",
     "type": "MINION",
-    "heroDbfId": "63604"
+    "heroDbfId": "63604",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77494": {
     "attack": 2,
@@ -2251,7 +2254,10 @@
     "techLevel": 5,
     "text": "<b>Battlecry:</b> <b>Discover</b> a minion from a Tier\nhigher than yours.",
     "type": "MINION",
-    "heroDbfId": "58534"
+    "heroDbfId": "58534",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77512": {
     "attack": 6,
@@ -2268,7 +2274,10 @@
     "techLevel": 4,
     "text": "[x]Minions in the Tavern\nhave +1/+1 for each time it\nwas <b>Refreshed</b> this turn.",
     "type": "MINION",
-    "heroDbfId": "61489"
+    "heroDbfId": "61489",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77533": {
     "attack": 10,
@@ -2477,7 +2486,10 @@
     "text": "[x]After you use 'Trash for\n Treasure', gain Gold\nequal to the removed\nminion's Tier.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "62266"
+    "heroDbfId": "62266",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77777": {
     "attack": 10,
@@ -2587,7 +2599,10 @@
     "techLevel": 3,
     "text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon\nand get a random\n<b>Battlecry</b> minion.",
     "type": "MINION",
-    "heroDbfId": "60214"
+    "heroDbfId": "60214",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77785": {
     "attack": 0,
@@ -2677,7 +2692,10 @@
     "techLevel": 5,
     "text": "<b>Battlecry: Refresh</b> the Tavern with a minion of each Tier.",
     "type": "MINION",
-    "heroDbfId": "68129"
+    "heroDbfId": "68129",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77791": {
     "attack": 6,
@@ -3031,7 +3049,10 @@
     "techLevel": 4,
     "text": "At the start of your turn,\nget your last opponent's Buddy.",
     "type": "MINION",
-    "heroDbfId": "60367"
+    "heroDbfId": "60367",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77836": {
     "attack": 10,
@@ -3066,7 +3087,10 @@
     "text": "[x]Your <b>Refreshes</b> cost (0)\nwhile the Tavern doesn't\nhave the minion type of\nyour Hero Power.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "57893"
+    "heroDbfId": "57893",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77844": {
     "attack": 6,
@@ -3142,7 +3166,10 @@
     "techLevel": 4,
     "text": "Whenever you summon\na minion of your Tier,\ngive it +4/+4.",
     "type": "MINION",
-    "heroDbfId": "66196"
+    "heroDbfId": "66196",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77858": {
     "attack": 12,
@@ -3458,7 +3485,10 @@
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Get a random minion each from\nTiers 1, 3, and 5.",
     "type": "MINION",
-    "heroDbfId": "81569"
+    "heroDbfId": "81569",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "82606": {
     "attack": 8,
@@ -4837,7 +4867,10 @@
     "techLevel": 1,
     "text": "[x]After a <b>Spellcraft</b> minion\nappears in the Tavern,\nget a copy of its spell.",
     "type": "MINION",
-    "heroDbfId": "85125"
+    "heroDbfId": "85125",
+    "associatedTribes": [
+      "NAGA"
+    ]
   },
   "101463": {
     "attack": 6,
@@ -4941,7 +4974,10 @@
     "techLevel": 1,
     "text": "[x]Minions in the Tavern\nwith <b>Taunt</b>, <b>Reborn</b>, \n<b>Windfury</b>, or <b>Divine Shield</b>\nhave +2/+2 for each.",
     "type": "MINION",
-    "heroDbfId": "96870"
+    "heroDbfId": "96870",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101974": {
     "artist": "Anton Zemskov",

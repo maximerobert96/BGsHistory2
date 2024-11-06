@@ -341,7 +341,10 @@
     "relatedCards": [
       58596
     ],
-    "heroDbfId": "63602"
+    "heroDbfId": "63602",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77532": {
     "attack": 12,
@@ -521,7 +524,10 @@
     "techLevel": 4,
     "text": "[x]<b>Start of Combat:</b> If you control\n4 minions with different types,\ngain your minions' highest\nAttack and Health.",
     "type": "MINION",
-    "heroDbfId": "57924"
+    "heroDbfId": "57924",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77723": {
     "attack": 6,
@@ -541,6 +547,9 @@
     "heroDbfId": "61490",
     "mechanics": [
       "AURA"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "77732": {
@@ -622,7 +631,10 @@
     "races": [
       "DRAGON"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77783": {
     "attack": 4,
@@ -800,7 +812,10 @@
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Get a random <b>Battlecry</b> minion.",
     "type": "MINION",
-    "heroDbfId": "58027"
+    "heroDbfId": "58027",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77828": {
     "attack": 10,
@@ -891,7 +906,10 @@
     "referencedTags": [
       "DISCOVER"
     ],
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77846": {
     "attack": 12,
@@ -1020,6 +1038,9 @@
     "heroDbfId": "60370",
     "mechanics": [
       "TRIGGER_VISUAL"
+    ],
+    "associatedTribes": [
+      "DRAGON"
     ]
   },
   "77856": {
@@ -1068,7 +1089,10 @@
     "techLevel": 4,
     "text": "<b><b>Battlecry:</b> Discover</b> a plain copy of a different minion that you have exactly one of.",
     "type": "MINION",
-    "heroDbfId": "64485"
+    "heroDbfId": "64485",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77860": {
     "attack": 6,
@@ -1586,6 +1610,9 @@
     "heroDbfId": "92960",
     "referencedTags": [
       "DISCOVER"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "101441": {
@@ -1635,7 +1662,10 @@
     "techLevel": 5,
     "text": "[x]<b>Deathrattle:</b> Give this\nminion's maximum\nstats to another friendly\nminion.",
     "type": "MINION",
-    "heroDbfId": "98726"
+    "heroDbfId": "98726",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101460": {
     "artist": "Alex Horley Orlandelli",

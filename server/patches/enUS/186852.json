@@ -42,7 +42,10 @@
     "pools": [
       "SECRET_POOL"
     ],
-    "heroDbfId": "58021"
+    "heroDbfId": "58021",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77840": {
     "attack": 6,

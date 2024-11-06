@@ -263,7 +263,10 @@
     "techLevel": 4,
     "text": "After a friendly minion dies, gain its Attack.",
     "type": "MINION",
-    "heroDbfId": "74646"
+    "heroDbfId": "74646",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77879": {
     "attack": 0,

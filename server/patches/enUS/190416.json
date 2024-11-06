@@ -710,7 +710,10 @@
     "techLevel": 2,
     "text": "[x]<b>Battlecry:</b> Replace\ncards in the Tavern with\nones from a Tier higher.",
     "type": "MINION",
-    "heroDbfId": "57635"
+    "heroDbfId": "57635",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77538": {
     "attack": 6,
@@ -768,7 +771,10 @@
     "techLevel": 3,
     "text": "[x]At the end of your turn, get\na random <b>Frozen</b> card\nfrom the Tavern.",
     "type": "MINION",
-    "heroDbfId": "58435"
+    "heroDbfId": "58435",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77725": {
     "attack": 10,
@@ -892,7 +898,10 @@
     "techLevel": 3,
     "text": "[x]After you buy a card,\nminions in the Tavern\nhave +2/+1 this turn.",
     "type": "MINION",
-    "heroDbfId": "74631"
+    "heroDbfId": "74631",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77797": {
     "attack": 12,
@@ -934,7 +943,10 @@
     "techLevel": 5,
     "text": "[x]After you buy a card,\nadd one of the same Tier\n to the Tavern.",
     "type": "MINION",
-    "heroDbfId": "60366"
+    "heroDbfId": "60366",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77804": {
     "attack": 8,
@@ -972,7 +984,10 @@
     "techLevel": 3,
     "text": "[x]<b>Avenge (2):</b> Minions in\nthe Tavern have +1 Attack\nthis game.",
     "type": "MINION",
-    "heroDbfId": "80239"
+    "heroDbfId": "80239",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77885": {
     "attack": 14,
@@ -1009,7 +1024,10 @@
     "techLevel": 3,
     "text": "[x]<b>Avenge (2):</b> Minions in\nthe Tavern have +1 Health\nthis game.",
     "type": "MINION",
-    "heroDbfId": "80247"
+    "heroDbfId": "80247",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77887": {
     "attack": 8,

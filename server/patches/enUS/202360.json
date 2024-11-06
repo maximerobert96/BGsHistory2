@@ -741,7 +741,10 @@
     "techLevel": 5,
     "text": "<b>Battlecry and Start of Combat:</b> Give your other minions +3/+3.",
     "type": "MINION",
-    "heroDbfId": "61488"
+    "heroDbfId": "61488",
+    "associatedTribes": [
+      "DRAGON"
+    ]
   },
   "77477": {
     "attack": 2,
@@ -761,7 +764,10 @@
     "techLevel": 2,
     "text": "[x]After you sell a minion,\ngain a +1/+1 hat that\npasses to a friendly minion\nwhen sold.",
     "type": "MINION",
-    "heroDbfId": "59806"
+    "heroDbfId": "59806",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77478": {
     "attack": 3,
@@ -789,7 +795,10 @@
       70136
     ],
     "heroDbfId": "71458",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
   },
   "77479": {
     "attack": 2,
@@ -808,7 +817,10 @@
     "techLevel": 1,
     "text": "After you buy a card, gain +1/+1.",
     "type": "MINION",
-    "heroDbfId": "57633"
+    "heroDbfId": "57633",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77484": {
     "attack": 4,
@@ -828,7 +840,10 @@
     "text": "<b>Battlecry:</b> Reduce the Cost of 'Lead Explorer' by (2).",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "60213"
+    "heroDbfId": "60213",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77495": {
     "attack": 3,
@@ -874,7 +889,10 @@
     "techLevel": 5,
     "text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked, give\nyour minions +1 Attack\npermanently.",
     "type": "MINION",
-    "heroDbfId": "67553"
+    "heroDbfId": "67553",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77510": {
     "attack": 5,
@@ -898,7 +916,10 @@
     "text": "Whenever your hero takes damage, rewind it and gain stats equal to that amount.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "58044"
+    "heroDbfId": "58044",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77533": {
     "attack": 12,
@@ -1087,7 +1108,10 @@
     "techLevel": 3,
     "text": "At the end of your turn, give your Tier 3 minions +1/+2.",
     "type": "MINION",
-    "heroDbfId": "57944"
+    "heroDbfId": "57944",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77775": {
     "attack": 6,
@@ -1128,7 +1152,10 @@
     "techLevel": 4,
     "text": "[x]The Tavern offers an extra\n<b>Frozen</b> Elemental\n whenever it is <b>Refreshed</b>.",
     "type": "MINION",
-    "heroDbfId": "64475"
+    "heroDbfId": "64475",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ]
   },
   "77781": {
     "attack": 10,
@@ -1173,7 +1200,10 @@
     "techLevel": 3,
     "text": "[x]<b>Battlecry:</b> Transform\nminions in the Tavern into\n Murlocs of the same Tier.",
     "type": "MINION",
-    "heroDbfId": "60372"
+    "heroDbfId": "60372",
+    "associatedTribes": [
+      "MURLOC"
+    ]
   },
   "77787": {
     "attack": 8,
@@ -1215,7 +1245,10 @@
     "text": "Your flightpaths trigger twice.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "75702"
+    "heroDbfId": "75702",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77789": {
     "attack": 4,
@@ -1288,7 +1321,10 @@
     "text": "When you 'Devour' this, spit its stats onto 1 extra minion.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "71916"
+    "heroDbfId": "71916",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77810": {
     "attack": 8,
@@ -1360,7 +1396,10 @@
     "techLevel": 5,
     "text": "At the end of your turn,\nget 2 'Lantern Lights' that give a minion stats equal to your Tier.",
     "type": "MINION",
-    "heroDbfId": "64400"
+    "heroDbfId": "64400",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77824": {
     "attack": 12,
@@ -1398,7 +1437,10 @@
     "techLevel": 2,
     "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Make your\nright-most minion Golden.",
     "type": "MINION",
-    "heroDbfId": "60212"
+    "heroDbfId": "60212",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77826": {
     "attack": 10,
@@ -1442,7 +1484,10 @@
       "ALL"
     ],
     "bannedFromFoaF": true,
-    "heroDbfId": "59203"
+    "heroDbfId": "59203",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77838": {
     "attack": 8,
@@ -1484,7 +1529,10 @@
     "techLevel": 3,
     "text": "[x]<b>Choose One - </b>Give a minion\n+1 Attack for each Gold\nyou've spent this turn;\nor +1 Health.",
     "type": "MINION",
-    "heroDbfId": "57891"
+    "heroDbfId": "57891",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77848": {
     "attack": 12,
@@ -1523,7 +1571,10 @@
     "text": "[x]Minions targeted by\n'Spirit Swap' also gain\neach other's Health.",
     "type": "MINION",
     "heroDbfId": "71463",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77850": {
     "attack": 14,
@@ -1565,7 +1616,10 @@
     "techLevel": 2,
     "text": "After you play a minion with Attack equal to its Health, gain +2/+2.",
     "type": "MINION",
-    "heroDbfId": "70956"
+    "heroDbfId": "70956",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77852": {
     "attack": 4,
@@ -1610,6 +1664,9 @@
     "heroDbfId": "59805",
     "mechanics": [
       "TRIGGER_VISUAL"
+    ],
+    "associatedTribes": [
+      "GENERAL"
     ]
   },
   "77854": {
@@ -1652,7 +1709,10 @@
     "techLevel": 3,
     "text": "At the start of your turn,\nget your next opponent's Buddy.",
     "type": "MINION",
-    "heroDbfId": "76562"
+    "heroDbfId": "76562",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77871": {
     "attack": 4,
@@ -1699,7 +1759,10 @@
       "DEATHRATTLE"
     ],
     "heroDbfId": "76521",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77875": {
     "attack": 12,
@@ -1749,7 +1812,10 @@
     "techLevel": 3,
     "text": "[x]After a friendly minion\nkills an enemy, gain\n+1 Health permanently.",
     "type": "MINION",
-    "heroDbfId": "70838"
+    "heroDbfId": "70838",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77877": {
     "attack": 10,
@@ -1796,7 +1862,10 @@
     "text": "[x]'Twice as Nice' also\ngives both minions stats\nequal to your Tier.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "79615"
+    "heroDbfId": "79615",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77889": {
     "attack": 6,
@@ -1841,7 +1910,10 @@
     "techLevel": 6,
     "text": "[x]Whenever you cast a\n<b>Spellcraft</b> spell on a\ndifferent friendly minion,\n   you also cast it on this.",
     "type": "MINION",
-    "heroDbfId": "79618"
+    "heroDbfId": "79618",
+    "associatedTribes": [
+      "NAGA"
+    ]
   },
   "77895": {
     "attack": 8,
@@ -2008,7 +2080,10 @@
     "techLevel": 5,
     "text": "After you play a Mech,\ngain +2/+2.",
     "type": "MINION",
-    "heroDbfId": "80832"
+    "heroDbfId": "80832",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
   },
   "82603": {
     "attack": 12,
@@ -2134,7 +2209,10 @@
     "techLevel": 4,
     "text": "[x]<b>Battlecry: Refresh</b> the\nTavern with the highest\nTier minion from each\nopponent's warband.",
     "type": "MINION",
-    "heroDbfId": "86291"
+    "heroDbfId": "86291",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "98651": {
     "attack": 14,
@@ -2183,7 +2261,10 @@
     "text": "After you guess correctly with 'Detective for Hire', get a plain copy of the minion.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "84867"
+    "heroDbfId": "84867",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "98659": {
     "attack": 4,
@@ -2383,7 +2464,10 @@
     "techLevel": 5,
     "text": "<b>Battlecry:</b> Make a <b>Buddy</b> Golden.",
     "type": "MINION",
-    "heroDbfId": "101345"
+    "heroDbfId": "101345",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "101350": {
     "attack": 8,
@@ -2426,7 +2510,10 @@
     "text": "<b>Deathrattle:</b> Summon a random Undead Creation.",
     "type": "MINION",
     "heroDbfId": "97813",
-    "cardClass": "NEUTRAL"
+    "cardClass": "NEUTRAL",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
   },
   "101443": {
     "attack": 12,

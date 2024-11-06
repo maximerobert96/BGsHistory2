@@ -571,3 +571,30 @@ function addSingleTribeToTrinket(tribe, cardId, patchJson) {
         card.associatedTribes.push(tribe);
     }
 }
+
+function addingTribesToBuddies() {
+    let json = dbManager.getJsonFromFile('./optimization/buddy_pools.json');
+    let mappingJson = dbManager.getJsonMappingFile();
+    let banned = json[0][210009].banned;
+    let notBanned = json[0][210009].nonBanned;
+    let allBuddies = banned.concat(notBanned);
+    allBuddies.forEach((dbfId) => {
+        let patchesOfBuddy = mappingJson.cards[dbfId];
+        let mostRecentPatch = patchesOfBuddy[patchesOfBuddy.length - 1];
+        let jsonOfBuddyPatch = dbManager.getJsonDBOfPatch(mostRecentPatch);
+        let buddyObj = jsonOfBuddyPatch[dbfId];
+
+        if(buddyObj.hasOwnProperty("heroDbfId")) {
+            let heroObj = dbManager.getCardById(buddyObj.heroDbfId, mostRecentPatch);
+            buddyObj.associatedTribes = heroObj.associatedTribes;
+
+            jsonOfBuddyPatch[dbfId] = buddyObj;
+            dbManager.saveJsonDBOfPatch(jsonOfBuddyPatch, mostRecentPatch);
+
+        } else {
+            console.log(dbfId);
+        }
+    })
+}
+
+addingTribesToBuddies();

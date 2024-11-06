@@ -456,7 +456,10 @@
     "techLevel": 2,
     "text": "[x]At the end of your turn,\ngive a random friendly\nGolden minion +5/+5.",
     "type": "MINION",
-    "heroDbfId": "62242"
+    "heroDbfId": "62242",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77475": {
     "attack": 3,
@@ -475,7 +478,10 @@
     "techLevel": 2,
     "text": "After a different friendly minion gains stats, gain +1/+1 until next turn.",
     "type": "MINION",
-    "heroDbfId": "58535"
+    "heroDbfId": "58535",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77495": {
     "attack": 3,
@@ -499,7 +505,10 @@
     "text": "After you use your Hero Power, give your <b>Divine Shield</b> minions +2 Attack.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "57929"
+    "heroDbfId": "57929",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77535": {
     "attack": 10,
@@ -586,7 +595,10 @@
     "relatedCards": [
       101567
     ],
-    "heroDbfId": "73940"
+    "heroDbfId": "73940",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77779": {
     "attack": 14,
@@ -628,7 +640,10 @@
     "text": "After you swap minions, give them stats equal to your Tier.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "63601"
+    "heroDbfId": "63601",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77793": {
     "attack": 8,
@@ -666,7 +681,10 @@
     "text": "After 'Verdant Spheres' triggers, give your hand and board +1/+1.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "61912"
+    "heroDbfId": "61912",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77795": {
     "attack": 14,
@@ -709,7 +727,10 @@
     "techLevel": 3,
     "text": "<b>Taunt</b>\n<b>Deathrattle:</b> Get a\nrandom Demon.",
     "type": "MINION",
-    "heroDbfId": "59807"
+    "heroDbfId": "59807",
+    "associatedTribes": [
+      "DEMON"
+    ]
   },
   "77799": {
     "attack": 6,
@@ -753,7 +774,10 @@
     "text": "<b>Battlecry:</b> Your next Hero Power makes the target Golden.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "61914"
+    "heroDbfId": "61914",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77801": {
     "attack": 12,
@@ -791,7 +815,10 @@
     "techLevel": 4,
     "text": "Your end of turn effects trigger an extra time.",
     "type": "MINION",
-    "heroDbfId": "57892"
+    "heroDbfId": "57892",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77822": {
     "attack": 12,
@@ -835,7 +862,10 @@
     "text": "When you sell this, get the <b>Buddy</b> of your Hero Power.",
     "type": "MINION",
     "heroDbfId": "60211",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77832": {
     "attack": 2,
@@ -883,7 +913,10 @@
     "text": "After your Hero Power deals damage, give adjacent minions stats equal to the damage dealt.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "77987"
+    "heroDbfId": "77987",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77881": {
     "attack": 4,
@@ -933,7 +966,10 @@
     "text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon\nthose Elements.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "79719"
+    "heroDbfId": "79719",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77883": {
     "attack": 6,
@@ -1425,7 +1461,10 @@
     "text": "<b>Deathrattle:</b> Summon 3 random Tier 1 minions.",
     "type": "MINION",
     "heroDbfId": "97186",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "98693": {
     "attack": 4,

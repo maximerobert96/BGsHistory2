@@ -711,7 +711,10 @@
     "techLevel": 3,
     "text": "[x]After you kill a second\nminion each combat,\nget a plain copy of it.",
     "type": "MINION",
-    "heroDbfId": "60362"
+    "heroDbfId": "60362",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77472": {
     "attack": 5,
@@ -882,7 +885,10 @@
     "text": "After you feed a minion a Banana, give it +1/+1.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "59814"
+    "heroDbfId": "59814",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77510": {
     "attack": 2,
@@ -1053,7 +1059,10 @@
     "techLevel": 2,
     "text": "[x]Your first minion that\nattacks has \"<b>Immune</b>\nwhile Attacking\" for one\nattack only.",
     "type": "MINION",
-    "heroDbfId": "57634"
+    "heroDbfId": "57634",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77629": {
     "attack": 3,
@@ -1590,7 +1599,10 @@
     "techLevel": 3,
     "text": "[x]At the start of your turn,\nget a plain minion from\nyour lowest Health\nopponent's warband.",
     "type": "MINION",
-    "heroDbfId": "63319"
+    "heroDbfId": "63319",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77808": {
     "attack": 10,
@@ -1637,7 +1649,10 @@
     "techLevel": 4,
     "text": "[x]<b>Battlecry:</b> Make a friendly\n<b>Deathrattle</b> minion Golden.",
     "type": "MINION",
-    "heroDbfId": "66483"
+    "heroDbfId": "66483",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77812": {
     "attack": 16,
@@ -1678,7 +1693,10 @@
     "techLevel": 4,
     "text": "Whenever a different friendly minion gains Health, this gains it too.",
     "type": "MINION",
-    "heroDbfId": "59831"
+    "heroDbfId": "59831",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77820": {
     "attack": 10,
@@ -1840,7 +1858,10 @@
     "techLevel": 4,
     "text": "After you <b>Discover</b> a minion, give it +{1}/+{1} and upgrade this by +1/+1.",
     "type": "MINION",
-    "heroDbfId": "64480"
+    "heroDbfId": "64480",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77830": {
     "attack": 10,
@@ -1984,7 +2005,10 @@
     "text": "After a friendly minion is <b>Reborn</b>, give it this minion's Attack.",
     "type": "MINION",
     "heroDbfId": "58024",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77842": {
     "attack": 12,
@@ -2373,7 +2397,10 @@
     "text": "Whenever you summon a Whelp, gain +2/+2 permanently.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "82110"
+    "heroDbfId": "82110",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "77891": {
     "attack": 8,
@@ -2575,7 +2602,10 @@
     "text": "<b>Avenge (2):</b> Upgrade 'Tentacular' by +1/+1.",
     "type": "MINION",
     "bannedFromFoaF": true,
-    "heroDbfId": "86013"
+    "heroDbfId": "86013",
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "98636": {
     "attack": 8,
@@ -2624,7 +2654,10 @@
     "text": "[x]<b>Battlecry:</b> Remove a\nfriendly minion. Give its\nstats to its neighbors.",
     "type": "MINION",
     "heroDbfId": "89293",
-    "bannedFromFoaF": true
+    "bannedFromFoaF": true,
+    "associatedTribes": [
+      "GENERAL"
+    ]
   },
   "98661": {
     "attack": 12,
