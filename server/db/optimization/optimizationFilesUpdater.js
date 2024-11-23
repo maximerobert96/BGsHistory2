@@ -315,14 +315,14 @@ function createBuddyFile() {
 // }
 
 // console.log(dbManager.getCardById(113629, 210009));
-createBuddyFile();
+// createBuddyFile();
 
 
-// let patches = [210009];
+let patches = [210640, 212031];
 
-// for(let patch of patches){
-//     updateActiveCardsForPatch(patch);
-//     updateCardChangesForPatch(patch);
-// }
+for(let patch of patches){
+    updateActiveCardsForPatch(patch);
+    updateCardChangesForPatch(patch);
+}
 
 

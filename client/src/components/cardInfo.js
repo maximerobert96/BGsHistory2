@@ -308,7 +308,7 @@ function RelatedCards({ card, patch }) {
     }
     let relatedCardsList = [];
     card.relatedCards.forEach((rc) => {
-        relatedCardsList.push(<li key={rc}><Link to={`/${patch}/cards/${rc}`}>{rc}</Link></li>);
+        relatedCardsList.push(<li key={rc}><Link to={`../${rc}`}>{rc}</Link></li>);
         // relatedCardsList.push(<li key={rc}><Link to={`../${rc}`}>{rc}</Link></li>);
     });
     return(

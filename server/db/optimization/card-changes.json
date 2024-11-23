@@ -90533,5 +90533,692 @@
         "newVersion": 210009
       }
     ]
+  },
+  "210640": {},
+  "212031": {
+    "70163": [
+      {
+        "changeType": "removal",
+        "oldVersion": "208591"
+      }
+    ],
+    "72067": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 5,
+            "old": 6
+          },
+          "text": {
+            "new": "At the end of your turn, your Demons each consume a minion in the Tavern to gain its stats.",
+            "old": "[x]At the end of your turn, your\nother Demons consume\na minion in the Tavern\nto gain its stats."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "72824": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 10,
+            "old": 12
+          },
+          "text": {
+            "new": "[x]At the end of your turn, your\nDemons each consume a\nminion in the Tavern to\ngain double its stats.",
+            "old": "[x]At the end of your turn, your\nother Demons consume\na minion in the Tavern\n   to gain double its stats."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "77859": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 3
+          },
+          "health": {
+            "new": 4,
+            "old": 3
+          },
+          "mechanics": {
+            "new": [
+              "DISCOVER"
+            ],
+            "old": [
+              "BATTLECRY",
+              "DISCOVER"
+            ]
+          },
+          "text": {
+            "new": "[x]When you sell this,\n<b>Discover</b> a plain copy of a\ndifferent minion that you\nhave exactly one of.",
+            "old": "<b><b>Battlecry:</b> Discover</b> a plain copy of a different minion that you have exactly one of."
+          }
+        },
+        "oldVersion": "201108",
+        "newVersion": 212031
+      }
+    ],
+    "77860": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 6
+          },
+          "health": {
+            "new": 8,
+            "old": 6
+          },
+          "mechanics": {
+            "new": [
+              "DISCOVER"
+            ],
+            "old": [
+              "BATTLECRY",
+              "DISCOVER"
+            ]
+          },
+          "text": {
+            "new": "When you sell this, <b>Discover</b> a plain copy of a different minion that you have exactly one of twice.",
+            "old": "<b><b>Battlecry:</b> Discover</b> a plain copy of a different minion that you have exactly one of twice."
+          }
+        },
+        "oldVersion": "201108",
+        "newVersion": 212031
+      }
+    ],
+    "80741": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 2
+          },
+          "health": {
+            "new": 6,
+            "old": 5
+          },
+          "text": {
+            "new": "[x]Whenever you cast a spell\non a minion, give it +3/+3.",
+            "old": "[x]Whenever you cast a spell\non a minion, give it +2/+2."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "80759": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 4
+          },
+          "health": {
+            "new": 12,
+            "old": 10
+          },
+          "text": {
+            "new": "[x]Whenever you cast a spell\non a minion, give it +6/+6.",
+            "old": "[x]Whenever you cast a spell\non a minion, give it +4/+4."
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "98930": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 5,
+            "old": 3
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "202360",
+        "newVersion": 212031
+      }
+    ],
+    "98934": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 10,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 2
+          }
+        },
+        "oldVersion": "202360",
+        "newVersion": 212031
+      }
+    ],
+    "104532": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 5,
+            "old": 4
+          },
+          "health": {
+            "new": 6,
+            "old": 5
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 212031
+      }
+    ],
+    "104533": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 10,
+            "old": 8
+          },
+          "health": {
+            "new": 12,
+            "old": 10
+          },
+          "techLevel": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 212031
+      }
+    ],
+    "107937": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 3,
+            "old": 4
+          },
+          "health": {
+            "new": 7,
+            "old": 8
+          },
+          "text": {
+            "new": "[x]Whenever a friendly Beast\ntakes damage, give a\nfriendly Beast other than it\n+2/+1 permanently.",
+            "old": "[x]Whenever a friendly Beast\ntakes damage, give a\nfriendly Beast other than it\n+1/+1 permanently."
+          },
+          "artist": {
+            "new": "Monika Palosz"
+          }
+        },
+        "oldVersion": "202360",
+        "newVersion": 212031
+      }
+    ],
+    "107938": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 6,
+            "old": 8
+          },
+          "health": {
+            "new": 14,
+            "old": 16
+          },
+          "text": {
+            "new": "[x]Whenever a friendly Beast\ntakes damage, give a\nfriendly Beast other than it\n+4/+2 permanently.",
+            "old": "[x]Whenever a friendly Beast\ntakes damage, give a\nfriendly Beast other than it\n+2/+2 permanently."
+          }
+        },
+        "oldVersion": "202360",
+        "newVersion": 212031
+      }
+    ],
+    "107939": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 4,
+            "old": 6
+          },
+          "health": {
+            "new": 4,
+            "old": 6
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "107940": [
+      {
+        "changeType": "change",
+        "changes": {
+          "attack": {
+            "new": 8,
+            "old": 12
+          },
+          "health": {
+            "new": 8,
+            "old": 12
+          },
+          "techLevel": {
+            "new": 3,
+            "old": 4
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "108524": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 10,
+            "old": 6
+          }
+        },
+        "oldVersion": "198037",
+        "newVersion": 212031
+      }
+    ],
+    "108525": [
+      {
+        "changeType": "change",
+        "changes": {
+          "health": {
+            "new": 20,
+            "old": 12
+          }
+        },
+        "oldVersion": "198037",
+        "newVersion": 212031
+      }
+    ],
+    "110956": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 0,
+            "old": 1
+          },
+          "text": {
+            "new": "[x]Get a 'Kaboom Bot'.\nYour Kaboom Bots'\n<b>Deathrattles</b> deal\n10 extra damage.",
+            "old": "[x]Get a 'Kaboom Bot'.\nYour Kaboom Bots'\n<b>Deathrattles</b> deal\n8 extra damage."
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "110967": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "110975": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 3,
+            "old": 5
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "111384": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "Minions in the Tavern have +{1}/+{1}. Upgrades every 4 times you <b>Refresh</b>. <i>({0} left!)</i>",
+            "old": "Minions in the Tavern have +{1}/+{1}. Upgrades every 5 times you <b>Refresh</b>. <i>({0} left!)</i>"
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 212031
+      }
+    ],
+    "111403": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 6
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 212031
+      }
+    ],
+    "111408": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "111607": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 0,
+            "old": 1
+          },
+          "mechanics": {
+            "new": [
+              "AURA"
+            ],
+            "old": [
+              "AURA",
+              "TRIGGER_VISUAL"
+            ]
+          },
+          "text": {
+            "new": "[x]Get a 'Brann Bronzebeard'\nand a random <b>Battlecry</b> minion.\nYour Brann Bronzebeards are\nboth Murlocs and Dragons.",
+            "old": "Get a 'Brann Bronzebeard'. Your Brann Bronzebeards are both Murlocs and Dragons."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 212031
+      }
+    ],
+    "111609": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 3
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "111976": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 3
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "112004": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 2,
+            "old": 1
+          },
+          "spellSchool": {
+            "new": "LESSER_TRINKET",
+            "old": "GREATER_TRINKET"
+          }
+        },
+        "oldVersion": "206433",
+        "newVersion": 212031
+      }
+    ],
+    "112400": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 4,
+            "old": 1
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "112402": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+4/+4 permanently.",
+            "old": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+3/+3 permanently."
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 212031
+      }
+    ],
+    "113101": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 0,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]Gain 2 Gold.\nThe Tavern no longer offers\ncards from Tier 1 or Tier 2.",
+            "old": "[x]The Tavern no longer\noffers cards from\nTier 1 or Tier 2."
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 212031
+      }
+    ],
+    "114208": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          },
+          "spellSchool": {
+            "new": "GREATER_TRINKET",
+            "old": "LESSER_TRINKET"
+          }
+        },
+        "oldVersion": "205267",
+        "newVersion": 212031
+      }
+    ],
+    "114212": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 5
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "115236": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 2
+          },
+          "text": {
+            "new": "Minions in the Tavern have +{1}/+{1}. Upgrades every 4 times you <b>Refresh</b>. <i>({0} left!)</i>",
+            "old": "Minions in the Tavern have +{1}/+{1}. Upgrades every 5 times you <b>Refresh</b>. <i>({0} left!)</i>"
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "115240": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 0,
+            "old": 2
+          },
+          "text": {
+            "new": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+14/+14 permanently.",
+            "old": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+12/+12 permanently."
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 212031
+      }
+    ],
+    "115258": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "208182",
+        "newVersion": 212031
+      }
+    ],
+    "115580": [
+      {
+        "changeType": "change",
+        "changes": {
+          "text": {
+            "new": "<b>Avenge (5):</b> Transform into a Golden copy of the minion to the left of this.",
+            "old": "<b>Avenge (5):</b> Transform into a copy of the minion to the left of this."
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 212031
+      }
+    ],
+    "117796": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 8,
+            "old": 6
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "117856": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 6,
+            "old": 4
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "117858": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 5,
+            "old": 8
+          },
+          "text": {
+            "new": "[x]Get a 'Nalaa the Redeemer'.\nTavern spells cost (1) less\n<i>(but not less than 1)</i>.",
+            "old": "[x]Get a 'Nalaa the\nRedeemer'. Tavern\nspells cost (1) less."
+          }
+        },
+        "oldVersion": "210009",
+        "newVersion": 212031
+      }
+    ],
+    "117895": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 3
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 212031
+      }
+    ],
+    "117897": [
+      {
+        "changeType": "change",
+        "changes": {
+          "cost": {
+            "new": 1,
+            "old": 2
+          }
+        },
+        "oldVersion": "209698",
+        "newVersion": 212031
+      }
+    ]
   }
 }

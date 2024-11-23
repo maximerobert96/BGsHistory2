@@ -894,5 +894,17 @@
     "build": "210009",
     "releaseDate": "October 29, 2024",
     "patchNumber": "31.0.0"
+  },
+  "210640": {
+    "patchNotes": "https://us.forums.blizzard.com/en/hearthstone/t/310-known-issues/136886",
+    "build": "210640",
+    "releaseDate": "November 4, 2024",
+    "patchNumber": "31.0.0"
+  },
+  "212031": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24161533/31-0-3-patch-notes",
+    "build": "212031",
+    "releaseDate": "November 21, 2024",
+    "patchNumber": "31.0.3"
   }
 }
