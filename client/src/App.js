@@ -5,9 +5,9 @@ import { Route, Routes } from "react-router-dom";
 import MainPage, { BuddyPage, PutriPage } from "./components/cardList";
 import DisplayCardInfo from './components/cardInfo';
 import Practice from './components/practice';
-import PatchChanges from './components/PatchChanges';
+// import PatchChangesArchive from './components/PatchChangesArchive';
 import CardPool from './components/cardPoolPage';
-import PatchChanges2 from './components/PatchChanges2';
+import PatchChanges from './components/PatchChanges';
 
 function App() {
   return (
@@ -24,8 +24,8 @@ function App() {
         <Route path="/:patchId/buddy-pool/" element={<BuddyPage  />}>
           <Route path="/:patchId/buddy-pool/:id" element={<DisplayCardInfo />} />
         </Route>
+        {/* <Route path="/:patchId/patch-changes/" element={<PatchChanges />} /> */}
         <Route path="/:patchId/patch-changes/" element={<PatchChanges />} />
-        <Route path="/patch-changes2/:patchId" element={<PatchChanges2 />} />
         <Route path="/:patchId/card-pool/:poolId" element={<CardPool />} />
       </Routes>
     </div>

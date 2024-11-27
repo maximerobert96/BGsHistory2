@@ -90,6 +90,9 @@ function convertToChangesArray(change){
     let itIsNowAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.new !== undefined);
     let itIsNoLongerAnActiveMinion = (card.changes.hasOwnProperty("isBattlegroundsPoolMinion") && card.changes.isBattlegroundsPoolMinion.old !== undefined);
     let itIsNoLongerAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.old !== undefined);
+    let associatedTribes = card.new.hasOwnProperty("associatedTribes") ? card.new.associatedTribes : ["GENERAL"] ;
+    let isGolden = card.new.hasOwnProperty("battlegroundsNormalDbfId");
+
     let allChangesAreNew = true;
     for(let field in card.changes){
         if(card.changes[field].old !== undefined) {
@@ -110,14 +113,14 @@ function convertToChangesArray(change){
     if(!olderVersionExists) {
         let changeType = "new";
         let newVersion = card.new.version;
-        changesArray.push({changeType, newVersion});
+        changesArray.push({changeType, newVersion, associatedTribes, isGolden});
     }
 
     // returning
     if(olderVersionExists && (itIsNowAnActiveMinion || itIsNowAnActiveHero)) {
         let changeType = "returning";
         let newVersion = card.new.version;
-        changesArray.push({changeType, newVersion});
+        changesArray.push({changeType, newVersion, associatedTribes, isGolden});
     }
 
     // removal
@@ -125,7 +128,7 @@ function convertToChangesArray(change){
         let changeType = "removal";
         let oldVersion = card.old.version;
         
-        changesArray.push({changeType, oldVersion});
+        changesArray.push({changeType, oldVersion, associatedTribes, isGolden});
     }
 
     // change
@@ -134,7 +137,7 @@ function convertToChangesArray(change){
         let changes = card.changes;
         let oldVersion = card.old.version;
         let newVersion = card.new.version;
-        changesArray.push({changeType, changes, oldVersion, newVersion});
+        changesArray.push({changeType, changes, oldVersion, newVersion, associatedTribes, isGolden});
     }
 
     return changesArray;
@@ -318,11 +321,13 @@ function createBuddyFile() {
 // createBuddyFile();
 
 
-let patches = [210640, 212031];
+// let patches = [210640, 212031];
+// let patches = [212031];
 
-for(let patch of patches){
-    updateActiveCardsForPatch(patch);
-    updateCardChangesForPatch(patch);
-}
+// for(let patch of patches){
+//     // updateActiveCardsForPatch(patch);
+//     updateCardChangesForPatch(patch);
+// }
 
 
+// createFullCardChangesFile();
