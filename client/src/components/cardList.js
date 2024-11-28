@@ -202,8 +202,6 @@ function DisplayCardInfo({ patchId }){
     
     const closeOutlet = (event) => {
         if(event.target.classList.contains('outlet-background')){
-            // navigate(`/${patchId}/cards`);
-            // navigate(-1);
             navigate(`./`);
         }
     };

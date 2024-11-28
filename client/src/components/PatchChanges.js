@@ -36,7 +36,8 @@ export default function PatchChanges(){
     </>);
 }
 
-// filter out golden cards as long as the normal version was also changed
+/** filter out golden cards as long as the normal version was also changed
+*/
 function filterOutGoldenCards( patchChanges ) {
     for(let id in patchChanges) {
         let currentChange = patchChanges[id][0];
