@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import PatchInfo from "./PatchInfo";
 import CardImage from "./cardImage";
 import FilterDropdown from "./filters";
+import Accordion from 'react-bootstrap/Accordion';
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
@@ -330,11 +331,14 @@ function CategoryTable({ cards, patchId, rule }) {
         card.type === "MINION" || card.type === "BATTLEGROUND_SPELL");
     let trinkets = cards.filter((card) =>
         card.type === "BATTLEGROUND_TRINKET");
+    // <Accordion defaultActiveKey={["heroes", "tier1", "tier2", "tier3", "tier4", "tier5", "tier6"]} alwaysOpen></Accordion>
     return (
         <div>
-            <Heroes cards={heroes} patchId={patchId} />
-            <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} />
-            <Trinkets cards={trinkets} patchId={patchId} />
+            <Accordion defaultActiveKey={["tier1"]} alwaysOpen>
+                <Heroes cards={heroes} patchId={patchId} />
+                <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} />
+                <Trinkets cards={trinkets} patchId={patchId} />
+            </Accordion>
         </div>
     );
 }
@@ -349,10 +353,12 @@ function Heroes({ cards, patchId }) {
     let alphSortedCards = cards.sort((a,b) => a.name > b.name ? 1 : -1 );
 
     return (
-        <div>
-            <h1>Heroes</h1>
-            <CardRows cards={alphSortedCards} patchId={patchId} />
-        </div>
+
+            <Accordion.Item eventKey="heroes">
+                <Accordion.Header as='h1'>Heroes</Accordion.Header>
+                <Accordion.Body><CardRows cards={alphSortedCards} patchId={patchId} /></Accordion.Body>
+            </Accordion.Item>
+
     );
 }
 
@@ -383,10 +389,14 @@ function Trinkets({ cards, patchId }) {
         
     return (
         <div>
-            <h1>Lesser Trinkets</h1>
-            <CardRows cards={lesserTrinkets} patchId={patchId} />
-            <h1>Greater Trinkets</h1>
-            <CardRows cards={greaterTrinkets} patchId={patchId} />
+            <Accordion.Item eventKey="lesser-trinket">
+            <Accordion.Header>Lesser Trinkets</Accordion.Header>
+            <Accordion.Body><CardRows cards={lesserTrinkets} patchId={patchId} /></Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="greater-trinket">
+            <Accordion.Header>Greater Trinkets</Accordion.Header>
+            <Accordion.Body><CardRows cards={greaterTrinkets} patchId={patchId} /></Accordion.Body>
+            </Accordion.Item>
         </div>
     );
 }
@@ -405,11 +415,15 @@ function Tier({ tier, cards, patchId, rule }) {
     if(cardsOfTier.length === 0){
         return;
     }
-        
+    
+    const eventKey = `tier${tier}`;
+    
     return(
         <div>
-            <h1>Tier {tier}</h1>
-            <CardRows cards={minionsAndSpellsOfTier} patchId={patchId} rule={rule} />
+            <Accordion.Item eventKey={eventKey}>
+            <Accordion.Header>Tier {tier}</Accordion.Header>
+            <Accordion.Body><CardRows cards={minionsAndSpellsOfTier} patchId={patchId} rule={rule} /></Accordion.Body>
+            </Accordion.Item>
         </div>
     );
 }
