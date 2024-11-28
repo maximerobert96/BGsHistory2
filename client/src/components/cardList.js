@@ -5,12 +5,19 @@ import PatchInfo from "./PatchInfo";
 import CardImage from "./cardImage";
 import FilterDropdown from "./filters";
 import Accordion from 'react-bootstrap/Accordion';
+import DisplayCardInfo from "./cardInfo";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
     const [activeCards, setActiveCards] = useState([]);
     const params = useParams();
     const [selectedCard, setSelectedCard] = useState(null);
+    const [selectedCardImage, setSelectedCardImage] = useState(null);
+
+    const test = (card, src) => {
+        setSelectedCard(card);
+        setSelectedCardImage(src);
+    };
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -46,26 +53,14 @@ export default function MainPage() {
         return;
     }, [params.patchId]);
 
-    useEffect(() => {
-        async function getSelectedId(){
-            if(params.id !== undefined) {
-                setSelectedCard(params.id);
-            } else {
-                setSelectedCard(null);
-            }
-        }
-        getSelectedId();
-
-    }, [params.id]);
-
 
         return (
         <>
             { selectedCard &&
-            (<DisplayCardInfo patchId={patchId} />)}
+            (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} cardImage={selectedCardImage} />)}
             <PatchInfo patchId={patchId}/>
             {cards.length && 
-            (<CardList cards={cards} patchId={patchId} />)}
+            (<CardList cards={cards} patchId={patchId} handleClick={test} />)}
            
         </>
         );
@@ -123,7 +118,7 @@ export function BuddyPage() {
         return (
         <>
             { selectedCard &&
-            (<DisplayCardInfo patchId={patchId} />)}
+            (<DisplayCardInfo card={selectedCard} />)}
             <PatchInfo patchId={patchId}/>
             {cards.length && 
             (<CardList cards={cards} patchId={patchId} />)}
@@ -197,19 +192,18 @@ export function PutriPage() {
         );
 }
 
-function DisplayCardInfo({ patchId }){
-    const navigate = useNavigate();
+function CardInfoOverlay({ card, patchId, setSelectedCard, cardImage }){
     
-    const closeOutlet = (event) => {
+    const closeOverlay = (event) => {
         if(event.target.classList.contains('outlet-background')){
-            navigate(`./`);
+            setSelectedCard(null);
         }
     };
 
     return (
-    <div className="outlet-background" onClick={closeOutlet}>
+    <div className="outlet-background" onClick={closeOverlay}>
         <div className="outlet-foreground">
-            <Outlet />
+            <DisplayCardInfo card={card} patchId={patchId} cardImage={cardImage} />
         </div>
     </div>
     );
@@ -233,7 +227,7 @@ function getTribes(cards) {
     return tribes;
 }
 
-export function CardList({ cards, patchId, rule }) {
+export function CardList({ cards, patchId, rule, handleClick }) {
     let availableTribes = getTribes(cards);
     const [tribes, setTribes] = useState(availableTribes);
     const [cardPoolFilter, setCardPoolFilter] = useState();
@@ -260,7 +254,7 @@ export function CardList({ cards, patchId, rule }) {
         <div>
             <TribesFilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
             <FilterDropdown cardPool={cards} setActiveCards={setActiveCards} />
-            <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} rule={rule}/>
+            <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </div>
     );
 
@@ -322,7 +316,7 @@ function sortTribes(tribesArray) {
     });
 }
 
-function CategoryTable({ cards, patchId, rule }) {
+function CategoryTable({ cards, patchId, rule, handleClick }) {
     let heroes = cards.filter((card) =>
         card.type === "HERO" );
     let minionsOrTSpells = cards.filter((card) =>
@@ -333,15 +327,15 @@ function CategoryTable({ cards, patchId, rule }) {
     return (
         <div>
             <Accordion defaultActiveKey={["tier1"]} alwaysOpen>
-                <Heroes cards={heroes} patchId={patchId} />
-                <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} />
-                <Trinkets cards={trinkets} patchId={patchId} />
+                <Heroes cards={heroes} patchId={patchId} handleClick={handleClick}/>
+                <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} handleClick={handleClick}/>
+                <Trinkets cards={trinkets} patchId={patchId} handleClick={handleClick} />
             </Accordion>
         </div>
     );
 }
 
-function Heroes({ cards, patchId }) {
+function Heroes({ cards, patchId, handleClick }) {
     // no heroes
     if(cards.length === 0){
         return;
@@ -354,17 +348,17 @@ function Heroes({ cards, patchId }) {
 
             <Accordion.Item eventKey="heroes">
                 <Accordion.Header as='h1'>Heroes</Accordion.Header>
-                <Accordion.Body><CardRows cards={alphSortedCards} patchId={patchId} /></Accordion.Body>
+                <Accordion.Body><CardRows cards={alphSortedCards} patchId={patchId} handleClick={handleClick} /></Accordion.Body>
             </Accordion.Item>
 
     );
 }
 
-function MinionsOrTSpells({ cards, patchId, rule }) {
+function MinionsOrTSpells({ cards, patchId, rule, handleClick }) {
     
     let tierTables = [];
     for(let i = 1; i <= 7; ++i ) {
-        tierTables.push(<Tier tier={i} cards={cards} key={i} patchId={patchId} rule={rule} />);
+        tierTables.push(<Tier tier={i} cards={cards} key={i} patchId={patchId} rule={rule} handleClick={handleClick} />);
     }
     
     return (
@@ -374,7 +368,7 @@ function MinionsOrTSpells({ cards, patchId, rule }) {
     );
 }
 
-function Trinkets({ cards, patchId }) {
+function Trinkets({ cards, patchId, handleClick }) {
     // no trinket
     if(cards.length === 0){
         return;
@@ -389,18 +383,18 @@ function Trinkets({ cards, patchId }) {
         <div>
             <Accordion.Item eventKey="lesser-trinket">
             <Accordion.Header>Lesser Trinkets</Accordion.Header>
-            <Accordion.Body><CardRows cards={lesserTrinkets} patchId={patchId} /></Accordion.Body>
+            <Accordion.Body><CardRows cards={lesserTrinkets} patchId={patchId} handleClick={handleClick} /></Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="greater-trinket">
             <Accordion.Header>Greater Trinkets</Accordion.Header>
-            <Accordion.Body><CardRows cards={greaterTrinkets} patchId={patchId} /></Accordion.Body>
+            <Accordion.Body><CardRows cards={greaterTrinkets} patchId={patchId} handleClick={handleClick}/></Accordion.Body>
             </Accordion.Item>
         </div>
     );
 }
 
 
-function Tier({ tier, cards, patchId, rule }) {
+function Tier({ tier, cards, patchId, rule, handleClick }) {
     let cardsOfTier = cards.filter((card) =>
         card.techLevel === tier);
     let minions = cardsOfTier.filter((card) => card.type === "MINION").sort((a,b) => 
@@ -420,13 +414,13 @@ function Tier({ tier, cards, patchId, rule }) {
         <div>
             <Accordion.Item eventKey={eventKey}>
             <Accordion.Header>Tier {tier}</Accordion.Header>
-            <Accordion.Body><CardRows cards={minionsAndSpellsOfTier} patchId={patchId} rule={rule} /></Accordion.Body>
+            <Accordion.Body><CardRows cards={minionsAndSpellsOfTier} patchId={patchId} rule={rule} handleClick={handleClick} /></Accordion.Body>
             </Accordion.Item>
         </div>
     );
 }
 
-export function CardRows({ cards, patchId, rule }) {
+export function CardRows({ cards, patchId, rule, handleClick }) {
     if(rule === "putricide"){
         return <PutricideCardRows cards={cards} />;
     }
@@ -434,9 +428,7 @@ export function CardRows({ cards, patchId, rule }) {
     let cardRows = [];
     cards.forEach((card) => {
             let cardRow;
-            cardRow = <Link to={`${card.dbfId}`} key={card.dbfId}>
-                    <HoverImage card={card} key={card.dbfId}/>
-                </Link>;
+            cardRow = <HoverImage card={card} key={card.dbfId} handleClick={handleClick}/>
             cardRows.push(cardRow);
     })
     return (
@@ -479,7 +471,7 @@ function PutricideCardRows( { cards, patchId } ) {
     );
 }
 
-function HoverImage({card}) {
+function HoverImage({card, handleClick}) {
     // const [isHovered, setIsHovered] = useState(false);
     // const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
 
@@ -523,7 +515,7 @@ function HoverImage({card}) {
         //   {/* <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" /> */}
             // {/* <CardImage card={card}  className="smaller-card-images"/> */}
             <div className={className}>
-                <CardImage card={card}/>
+                <CardImage card={card} handleClick={handleClick}/>
             </div>
         // </div>
     //     {isHovered && (

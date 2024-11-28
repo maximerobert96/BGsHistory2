@@ -4,35 +4,35 @@ import parse from 'html-react-parser';
 import { Link } from "react-router-dom";
 import CardImage from "./cardImage";
 
-export default function DisplayCardInfo() {
-    const [card, setCard] = useState();
-    const params = useParams();
-    let patchId = params.patchId.toString();
+export default function DisplayCardInfo({card, patchId, cardImage}) {
+    // const [card, setCard] = useState();
+    // const params = useParams();
+    // let patchId = params.patchId.toString();
 
-    useEffect(() => {
-        async function getCard(){
-            const id = params.id.toString();
-            let response;
-            if(params.patchId !== undefined) {
-                let patchId = params.patchId.toString();
-                response = await fetch(`http://localhost:5000/${patchId}/cards/${id}`);
-            } else {
-                response = await fetch(`http://localhost:5000/cards/${id}`);
-            }
+    // useEffect(() => {
+    //     async function getCard(){
+    //         const id = params.id.toString();
+    //         let response;
+    //         if(params.patchId !== undefined) {
+    //             let patchId = params.patchId.toString();
+    //             response = await fetch(`http://localhost:5000/${patchId}/cards/${id}`);
+    //         } else {
+    //             response = await fetch(`http://localhost:5000/cards/${id}`);
+    //         }
            
             
-            if(!response.ok){
-                const message = `an error has occurred: ${response.statusText}`;
-                window.alert(message);
-                return;
-            }
-            const card = await response.json();
-            setCard(card);
-        }
+    //         if(!response.ok){
+    //             const message = `an error has occurred: ${response.statusText}`;
+    //             window.alert(message);
+    //             return;
+    //         }
+    //         const card = await response.json();
+    //         setCard(card);
+    //     }
         
-        getCard();
-        return;
-    }, [params.id, params.patchId]);
+    //     getCard();
+    //     return;
+    // }, [params.id, params.patchId]);
 
     return <CardInfo card={card} patch={patchId} />   
 }

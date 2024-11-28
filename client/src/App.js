@@ -14,16 +14,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<Practice />} />
-        <Route path="/cards/:id" element={<DisplayCardInfo />} />
-        <Route path="/:patchId/cards/" element={<MainPage  />}>
-          <Route path="/:patchId/cards/:id" element={<DisplayCardInfo />} />
-        </Route>
-        <Route path="/:patchId/putricide-pool/" element={<PutriPage  />}>
-          <Route path="/:patchId/putricide-pool/:id" element={<DisplayCardInfo />} />
-        </Route>
-        <Route path="/:patchId/buddy-pool/" element={<BuddyPage  />}>
-          <Route path="/:patchId/buddy-pool/:id" element={<DisplayCardInfo />} />
-        </Route>
+        <Route path="/:patchId/cards/" element={<MainPage  />} />
+        {/* <Route path="/:patchId/putricide-pool/" element={<PutriPage  />} />
+        <Route path="/:patchId/buddy-pool/" element={<BuddyPage  />} /> */}
         {/* <Route path="/:patchId/patch-changes/" element={<PatchChanges />} /> */}
         <Route path="/:patchId/patch-changes/" element={<PatchChanges />} />
         <Route path="/:patchId/card-pool/:poolId" element={<CardPool />} />

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-const CardImage = ({ card, className }) => {
+const CardImage = ({ card, className, handleClick }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
   useEffect( () => {
-    setImageSrc(`/cards/en_US/${card.version}/${card.dbfId}.png`);
+      setImageSrc(`/cards/en_US/${card.version}/${card.dbfId}.png`);
   }, [card]);
 
   // const generatePlaceholderImage = async (card) => {
@@ -63,12 +63,24 @@ const CardImage = ({ card, className }) => {
   //       });
   // }, [card]);
 
+  if(handleClick === undefined) {
+    return (
+      <img
+        src={imageSrc}
+        onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
+        alt={card.name}
+        className={className}
+      />
+    );
+  }
   return (
     <img
       src={imageSrc}
       onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
       alt={card.name}
       className={className}
+      onClick={() => handleClick(card, imageSrc)}
+      style={{ cursor: "pointer" }}
     />
   );
 };
