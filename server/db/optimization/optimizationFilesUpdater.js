@@ -92,6 +92,12 @@ function convertToChangesArray(change){
     let itIsNoLongerAnActiveHero = (card.changes.hasOwnProperty("battlegroundsHero") && card.changes.battlegroundsHero.old !== undefined);
     let associatedTribes = card.new.hasOwnProperty("associatedTribes") ? card.new.associatedTribes : ["GENERAL"] ;
     let isGolden = card.new.hasOwnProperty("battlegroundsNormalDbfId");
+    let commonFields = {associatedTribes};
+    if(isGolden) {
+        commonFields = {...commonFields, battlegroundsNormalDbfId: card.new.battlegroundsNormalDbfId};
+    }
+
+
 
     let allChangesAreNew = true;
     for(let field in card.changes){
@@ -113,14 +119,14 @@ function convertToChangesArray(change){
     if(!olderVersionExists) {
         let changeType = "new";
         let newVersion = card.new.version;
-        changesArray.push({changeType, newVersion, associatedTribes, isGolden});
+        changesArray.push({changeType, newVersion, ...commonFields});
     }
 
     // returning
     if(olderVersionExists && (itIsNowAnActiveMinion || itIsNowAnActiveHero)) {
         let changeType = "returning";
         let newVersion = card.new.version;
-        changesArray.push({changeType, newVersion, associatedTribes, isGolden});
+        changesArray.push({changeType, newVersion, ...commonFields});
     }
 
     // removal
@@ -128,7 +134,7 @@ function convertToChangesArray(change){
         let changeType = "removal";
         let oldVersion = card.old.version;
         
-        changesArray.push({changeType, oldVersion, associatedTribes, isGolden});
+        changesArray.push({changeType, oldVersion, ...commonFields});
     }
 
     // change
@@ -137,7 +143,7 @@ function convertToChangesArray(change){
         let changes = card.changes;
         let oldVersion = card.old.version;
         let newVersion = card.new.version;
-        changesArray.push({changeType, changes, oldVersion, newVersion, associatedTribes, isGolden});
+        changesArray.push({changeType, changes, oldVersion, newVersion, ...commonFields});
     }
 
     return changesArray;

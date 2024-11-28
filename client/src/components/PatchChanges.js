@@ -36,10 +36,11 @@ export default function PatchChanges(){
     </>);
 }
 
+// filter out golden cards as long as the normal version was also changed
 function filterOutGoldenCards( patchChanges ) {
     for(let id in patchChanges) {
         let currentChange = patchChanges[id][0];
-        if(currentChange.isGolden || !currentChange.associatedTribes.includes("QUILBOAR")) {
+        if(currentChange.hasOwnProperty("battlegroundsNormalDbfId") && patchChanges.hasOwnProperty(currentChange.battlegroundsNormalDbfId)) {
             delete patchChanges[id]
         }
     }
