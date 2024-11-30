@@ -63,13 +63,7 @@ export default function MainPage() {
 
 function sortCards (cards) {
     const compareNames = (a,b) => {
-        if(a.name > b.name) {
-            return 1;
-        } else if (a.name < b.name) {
-            return -1;
-        } else {
-            return 0;
-        }
+        return a.name.localeCompare(b.name);
     }
 
     const types = ["HERO", "MINION", "BATTLEGROUND_SPELL", "BATTLEGROUND_TRINKET"];
@@ -249,18 +243,27 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
         }
     };
 
+    let indexOfCard = activeCards.findIndex((c) => c.dbfId == card.dbfId);
+    let nextExists = indexOfCard < activeCards.length - 1;
+    let previousExists = indexOfCard != 0;
+
     const nextCard = () => {
-        let index = activeCards.findIndex((c) => c.dbfId == card.dbfId);
-        console.log(index);
-        console.log(activeCards[index+1]);
-        setSelectedCard(activeCards[index + 1]);
-    }
+        // let index = activeCards.findIndex((c) => c.dbfId == card.dbfId);
+        // console.log(index);
+        // console.log(activeCards[index+1]);
+        setSelectedCard(activeCards[indexOfCard + 1]);
+    };
+
+    const previousCard = () => {
+        setSelectedCard(activeCards[indexOfCard - 1])
+    };
 
     return (
     <div className="outlet-background" onClick={closeOverlay}>
         <div className="outlet-foreground">
             <DisplayCardInfo card={card} patchId={patchId} />
-            <button onClick={nextCard}>Next</button>
+            {previousExists && <button onClick={previousCard}>Previous</button>}
+            {nextExists && <button onClick={nextCard}>Next</button>}
         </div>
     </div>
     );
@@ -285,41 +288,61 @@ function getTribes(cards) {
 }
 
 export function CardList({ cards, patchId, rule, handleClick, activeCards, handleFilterChange }) {
-    let availableTribes = getTribes(cards);
-    const [tribes, setTribes] = useState(availableTribes);
-    const [cardPoolFilter, setCardPoolFilter] = useState();
-    const [temp, setTemp] = useState(cards);
+    // const [cardPoolFilter, setCardPoolFilter] = useState();
 
-    let cardsOfSelectedTribes = temp.filter(
-        function (card) {
-            if(card.hasOwnProperty("associatedTribes")) {
-                let isSelectedTribe = false;
-                for(let associatedTribe of card.associatedTribes) {
-                    if(tribes.includes(associatedTribe)) {
-                        isSelectedTribe = true;
-                        break;
-                    }
-                }
-                return isSelectedTribe;
-            } else {
-                return tribes.includes("DEBUG");
-            }
-        }
-    );
 
     // handleFilterChange(cardsOfSelectedTribes);
 
     return( 
         <div>
-            <TribesFilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
-            <FilterDropdown cardPool={cards} setActiveCards={setTemp} />
-            <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} rule={rule} handleClick={handleClick}/>
+            <TribesFilterTable cards={cards} onSelectedTribesChange={handleFilterChange} />
+            <FilterDropdown cardPool={cards} setActiveCards={handleFilterChange} />
+            <CategoryTable cards={activeCards} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </div>
     );
 
 }
 
-function TribesFilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
+function TribesFilterTable({ cards, onSelectedTribesChange }) {
+    let tribes = getTribes(cards);
+    const [selectedTribes, setSelectedTribes] = useState(tribes);
+
+    const keepActiveCardsOfTribes = (activeCards, newArr) => {
+        return [...activeCards].filter(
+            function (card) {
+                if(card.hasOwnProperty("associatedTribes")) {
+                    let isSelectedTribe = false;
+                    for(let associatedTribe of card.associatedTribes) {
+                        if(newArr.includes(associatedTribe)) {
+                            isSelectedTribe = true;
+                            break;
+                        }
+                    }
+                    return isSelectedTribe;
+                } else {
+                    return newArr.includes("DEBUG");
+                }
+            }
+        )
+    }
+
+    // let cardsOfSelectedTribes = activeCards.filter(
+    //     function (card) {
+    //         if(card.hasOwnProperty("associatedTribes")) {
+    //             let isSelectedTribe = false;
+    //             for(let associatedTribe of card.associatedTribes) {
+    //                 if(selectedTribes.includes(associatedTribe)) {
+    //                     isSelectedTribe = true;
+    //                     break;
+    //                 }
+    //             }
+    //             return isSelectedTribe;
+    //         } else {
+    //             return selectedTribes.includes("DEBUG");
+    //         }
+    //     }
+    // );
+
     let tribeTable = [];
     
     sortTribes(tribes);
@@ -342,7 +365,8 @@ function TribesFilterTable({ tribes, selectedTribes, onSelectedTribesChange }) {
                             } else {
                                 newArr = [...selectedTribes, e.target.value];
                             }
-                            onSelectedTribesChange(newArr);
+                            setSelectedTribes(newArr);
+                            onSelectedTribesChange(ac => keepActiveCardsOfTribes(ac, newArr));
                         }
                     } />
                 {' '}
@@ -376,8 +400,6 @@ function sortTribes(tribesArray) {
 }
 
 function CategoryTable({ cards, patchId, rule, handleClick }) {
-    let [temp, setTemp] = useState([]);
-
     let heroes = cards.filter((card) =>
         card.type === "HERO" );
     let minionsOrTSpells = cards.filter((card) =>
@@ -388,23 +410,19 @@ function CategoryTable({ cards, patchId, rule, handleClick }) {
     return (
         <div>
             <Accordion defaultActiveKey={["tier1"]} alwaysOpen>
-                <Heroes cards={heroes} patchId={patchId} handleClick={handleClick} setTemp={setTemp} temp={temp}/>
+                <Heroes cards={heroes} patchId={patchId} handleClick={handleClick}/>
                 <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} handleClick={handleClick}/>
                 <Trinkets cards={trinkets} patchId={patchId} handleClick={handleClick} />
-                <Temp temp={temp} />
             </Accordion>
         </div>
     );
 }
 
-function Temp({ temp }) {
-    return <p>{temp.length}</p>;
-}
 
-function Heroes({ cards, patchId, handleClick, setTemp, temp }) {
-    const alphSortedCards = [...cards].sort((a,b) => a.name > b.name ? 1 : -1 );
+function Heroes({ cards, patchId, handleClick }) {
+    // const alphSortedCards = [...cards].sort((a,b) => a.name > b.name ? 1 : -1 );
 
-    console.log(1);
+    // console.log(1);
 
     // useEffect(() => {
     //     setTemp((t) => [...t, ...alphSortedCards]);
@@ -426,7 +444,7 @@ function Heroes({ cards, patchId, handleClick, setTemp, temp }) {
 
             <Accordion.Item eventKey="heroes">
                 <Accordion.Header as='h1'>Heroes</Accordion.Header>
-                <Accordion.Body><CardRows cards={alphSortedCards} patchId={patchId} handleClick={handleClick} /></Accordion.Body>
+                <Accordion.Body><CardRows cards={cards} patchId={patchId} handleClick={handleClick} /></Accordion.Body>
             </Accordion.Item>
 
     );
@@ -452,10 +470,14 @@ function Trinkets({ cards, patchId, handleClick }) {
         return;
     }
 
-    let lesserTrinkets = cards.filter((card) => card.spellSchool === "LESSER_TRINKET").sort((a,b) => 
-        a.name > b.name ? 1 : -1);
-    let greaterTrinkets = cards.filter((card) => card.spellSchool === "GREATER_TRINKET").sort((a,b) => 
-        a.name > b.name ? 1 : -1);
+    let lesserTrinkets = cards.filter((card) => card.spellSchool === "LESSER_TRINKET");
+    let greaterTrinkets = cards.filter((card) => card.spellSchool === "GREATER_TRINKET")
+
+
+    // let lesserTrinkets = cards.filter((card) => card.spellSchool === "LESSER_TRINKET").sort((a,b) => 
+    //     a.name > b.name ? 1 : -1);
+    // let greaterTrinkets = cards.filter((card) => card.spellSchool === "GREATER_TRINKET").sort((a,b) => 
+    //     a.name > b.name ? 1 : -1);
         
     return (
         <div>
@@ -475,12 +497,12 @@ function Trinkets({ cards, patchId, handleClick }) {
 function Tier({ tier, cards, patchId, rule, handleClick }) {
     let cardsOfTier = cards.filter((card) =>
         card.techLevel === tier);
-    let minions = cardsOfTier.filter((card) => card.type === "MINION").sort((a,b) => 
-        a.name > b.name ? 1 : -1);
-    let tSpells = cardsOfTier.filter((card) => card.type === "BATTLEGROUND_SPELL").sort((a,b) => 
-        a.name > b.name ? 1 : -1);
+    // let minions = cardsOfTier.filter((card) => card.type === "MINION").sort((a,b) => 
+    //     a.name > b.name ? 1 : -1);
+    // let tSpells = cardsOfTier.filter((card) => card.type === "BATTLEGROUND_SPELL").sort((a,b) => 
+    //     a.name > b.name ? 1 : -1);
     
-    let minionsAndSpellsOfTier = minions.concat(tSpells);
+    // let minionsAndSpellsOfTier = minions.concat(tSpells);
 
     if(cardsOfTier.length === 0){
         return;
@@ -492,7 +514,7 @@ function Tier({ tier, cards, patchId, rule, handleClick }) {
         <div>
             <Accordion.Item eventKey={eventKey}>
             <Accordion.Header>Tier {tier}</Accordion.Header>
-            <Accordion.Body><CardRows cards={minionsAndSpellsOfTier} patchId={patchId} rule={rule} handleClick={handleClick} /></Accordion.Body>
+            <Accordion.Body><CardRows cards={cardsOfTier} patchId={patchId} rule={rule} handleClick={handleClick} /></Accordion.Body>
             </Accordion.Item>
         </div>
     );
