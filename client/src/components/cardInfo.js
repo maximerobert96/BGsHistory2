@@ -4,7 +4,7 @@ import parse from 'html-react-parser';
 import { Link } from "react-router-dom";
 import CardImage from "./cardImage";
 
-export default function DisplayCardInfo({card, patchId, cardImage}) {
+export default function DisplayCardInfo({card, patchId}) {
     // const [card, setCard] = useState();
     // const params = useParams();
     // let patchId = params.patchId.toString();

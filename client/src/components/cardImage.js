@@ -7,6 +7,34 @@ const CardImage = ({ card, className, handleClick }) => {
       setImageSrc(`/cards/en_US/${card.version}/${card.dbfId}.png`);
   }, [card]);
 
+  if(handleClick === undefined) {
+    return (
+      <img
+        src={imageSrc}
+        onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
+        alt={card.name}
+        className={className}
+      />
+    );
+  }
+  return (
+    <img
+      src={imageSrc}
+      onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
+      alt={card.name}
+      className={className}
+      onClick={() => handleClick(card)}
+      style={{ cursor: "pointer" }}
+    />
+  );
+};
+
+export default CardImage;
+
+
+
+// following snippet kinda used to work, and it was in the CardImage function
+
   // const generatePlaceholderImage = async (card) => {
 
   //   let infoForBody = { version: card.version, dbfId: card.dbfId };
@@ -62,27 +90,3 @@ const CardImage = ({ card, className, handleClick }) => {
   //           console.error("Error fetching card image:", error);
   //       });
   // }, [card]);
-
-  if(handleClick === undefined) {
-    return (
-      <img
-        src={imageSrc}
-        onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
-        alt={card.name}
-        className={className}
-      />
-    );
-  }
-  return (
-    <img
-      src={imageSrc}
-      onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
-      alt={card.name}
-      className={className}
-      onClick={() => handleClick(card, imageSrc)}
-      style={{ cursor: "pointer" }}
-    />
-  );
-};
-
-export default CardImage;

@@ -12,12 +12,6 @@ export default function MainPage() {
     const [activeCards, setActiveCards] = useState([]);
     const params = useParams();
     const [selectedCard, setSelectedCard] = useState(null);
-    const [selectedCardImage, setSelectedCardImage] = useState(null);
-
-    const test = (card, src) => {
-        setSelectedCard(card);
-        setSelectedCardImage(src);
-    };
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -39,6 +33,7 @@ export default function MainPage() {
                 return;
             }
             const cards = await response.json();
+            sortCards(cards);
             setActiveCards(cards);
             setCards(c => cards);
             // applyFilter(setCards, withoutDuosFilter);
@@ -57,142 +52,196 @@ export default function MainPage() {
         return (
         <>
             { selectedCard &&
-            (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} cardImage={selectedCardImage} />)}
+            (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
             <PatchInfo patchId={patchId}/>
             {cards.length && 
-            (<CardList cards={cards} patchId={patchId} handleClick={test} />)}
+            (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} handleFilterChange={setActiveCards} />)}
            
         </>
         );
 }
 
-export function BuddyPage() {
-    const [cards, setCards] = useState([]);
-    const [activeCards, setActiveCards] = useState([]);
-    const params = useParams();
-    const [selectedCard, setSelectedCard] = useState(null);
-
-    let patchId;
-    if(params.patchId !== undefined) {
-        patchId = params.patchId.toString();
+function sortCards (cards) {
+    const compareNames = (a,b) => {
+        if(a.name > b.name) {
+            return 1;
+        } else if (a.name < b.name) {
+            return -1;
+        } else {
+            return 0;
+        }
     }
 
-    useEffect(() => {
-        async function getCards(){
-            let response;
-            if(params.patchId !== undefined) {
-                let patchId = params.patchId.toString();
-                response = await fetch(`http://localhost:5000/${patchId}/buddy-pool/`);
-            }
-            if(!response.ok){
-                const message = `an error has occurred: ${response.statusText}`;
-                window.alert(message);
-                return;
-            }
-            const cards = await response.json();
-            setActiveCards(cards);
+    const types = ["HERO", "MINION", "BATTLEGROUND_SPELL", "BATTLEGROUND_TRINKET"];
 
-            setCards(c => cards.filter((card) => !card.hasOwnProperty("bannedFromFoaF")));
+    cards.sort((a, b) => {
+        if(a.hasOwnProperty("techLevel") && b.hasOwnProperty("techLevel")) {
+            if(a.techLevel > b.techLevel) {
+                return 1;
+            } else if (a.techLevel < b.techLevel) {
+                return -1;
+            } else if (a.type === b.type) {
+                return compareNames(a,b);
+            } else if (types.indexOf(a.type) > types.indexOf(b.type) ) {
+                return 1;
+            } else {
+                return -1;
+            }
+        }
+        if(a.type === b.type) {
+            if(a.type === "MINION") { // this one is already handled by the techLevel condition
+                if(a.techLevel > b.techLevel) {
+                    return 1;
+                } else if(a.techLevel < b.techLevel) {
+                    return -1;
+                } else return compareNames(a,b);
+            } else if (a.type === "BATTLEGROUND_TRINKET") {
+                if(a.spellSchool === b.spellSchool) {
+                    return compareNames(a,b);
+                } else if (a.spellSchool === "LESSER_TRINKET" && b.spellSchool === "GREATER_TRINKET") {
+                    return -1;
+                } else {
+                    return 1;
+                }
+            } else {
+                return compareNames(a,b);
+            }
+        } else if (types.indexOf(a.type) > types.indexOf(b.type) ) {
+            return 1;
+        } else {
+            return -1;
+        }
+
+    });
+}
+
+// export function BuddyPage() {
+//     const [cards, setCards] = useState([]);
+//     const [activeCards, setActiveCards] = useState([]);
+//     const params = useParams();
+//     const [selectedCard, setSelectedCard] = useState(null);
+
+//     let patchId;
+//     if(params.patchId !== undefined) {
+//         patchId = params.patchId.toString();
+//     }
+
+//     useEffect(() => {
+//         async function getCards(){
+//             let response;
+//             if(params.patchId !== undefined) {
+//                 let patchId = params.patchId.toString();
+//                 response = await fetch(`http://localhost:5000/${patchId}/buddy-pool/`);
+//             }
+//             if(!response.ok){
+//                 const message = `an error has occurred: ${response.statusText}`;
+//                 window.alert(message);
+//                 return;
+//             }
+//             const cards = await response.json();
+//             setActiveCards(cards);
+
+//             setCards(c => cards.filter((card) => !card.hasOwnProperty("bannedFromFoaF")));
 
 
             
-        }
+//         }
         
-        getCards();
-        return;
-    }, [params.patchId]);
+//         getCards();
+//         return;
+//     }, [params.patchId]);
 
-    useEffect(() => {
-        async function getSelectedId(){
-            if(params.id !== undefined) {
-                setSelectedCard(params.id);
-            } else {
-                setSelectedCard(null);
-            }
-        }
-        getSelectedId();
+//     useEffect(() => {
+//         async function getSelectedId(){
+//             if(params.id !== undefined) {
+//                 setSelectedCard(params.id);
+//             } else {
+//                 setSelectedCard(null);
+//             }
+//         }
+//         getSelectedId();
 
-    }, [params.id]);
+//     }, [params.id]);
 
 
-        return (
-        <>
-            { selectedCard &&
-            (<DisplayCardInfo card={selectedCard} />)}
-            <PatchInfo patchId={patchId}/>
-            {cards.length && 
-            (<CardList cards={cards} patchId={patchId} />)}
+//         return (
+//         <>
+//             { selectedCard &&
+//             (<DisplayCardInfo card={selectedCard} />)}
+//             <PatchInfo patchId={patchId}/>
+//             {cards.length && 
+//             (<CardList cards={cards} patchId={patchId} />)}
            
-        </>
-        );
-}
+//         </>
+//         );
+// }
 
-export function PutriPage() {
-    const [cards, setCards] = useState([]);
-    // const [activeCards, setActiveCards] = useState([]);
-    // const [pool1, setPool1] = useState([]);
-    // const [pool2, setPool2] = useState([]);
-    const params = useParams();
-    const [selectedCard, setSelectedCard] = useState(null);
+// export function PutriPage() {
+//     const [cards, setCards] = useState([]);
+//     // const [activeCards, setActiveCards] = useState([]);
+//     // const [pool1, setPool1] = useState([]);
+//     // const [pool2, setPool2] = useState([]);
+//     const params = useParams();
+//     const [selectedCard, setSelectedCard] = useState(null);
 
-    let patchId;
-    if(params.patchId !== undefined) {
-        patchId = params.patchId.toString();
-    }
+//     let patchId;
+//     if(params.patchId !== undefined) {
+//         patchId = params.patchId.toString();
+//     }
 
-    useEffect(() => {
-        async function getCards(){
-            let response;
-            if(params.patchId !== undefined) {
-                let patchId = params.patchId.toString();
-                response = await fetch(`http://localhost:5000/${patchId}/putricide-pool/`);
-            }
-            if(!response.ok){
-                const message = `an error has occurred: ${response.statusText}`;
-                window.alert(message);
-                return;
-            }
-            const cards = await response.json();
-            // setActiveCards(cards);
-            setCards(c => cards);
-            // applyFilter(setCards, withoutDuosFilter);
-            // applyFilter(setCards, onlyDuosFilter);
-            // applyFilter(setCards, faelinFilter);
+//     useEffect(() => {
+//         async function getCards(){
+//             let response;
+//             if(params.patchId !== undefined) {
+//                 let patchId = params.patchId.toString();
+//                 response = await fetch(`http://localhost:5000/${patchId}/putricide-pool/`);
+//             }
+//             if(!response.ok){
+//                 const message = `an error has occurred: ${response.statusText}`;
+//                 window.alert(message);
+//                 return;
+//             }
+//             const cards = await response.json();
+//             // setActiveCards(cards);
+//             setCards(c => cards);
+//             // applyFilter(setCards, withoutDuosFilter);
+//             // applyFilter(setCards, onlyDuosFilter);
+//             // applyFilter(setCards, faelinFilter);
 
 
             
-        }
+//         }
         
-        getCards();
-        return;
-    }, [params.patchId]);
+//         getCards();
+//         return;
+//     }, [params.patchId]);
 
-    useEffect(() => {
-        async function getSelectedId(){
-            if(params.id !== undefined) {
-                setSelectedCard(params.id);
-            } else {
-                setSelectedCard(null);
-            }
-        }
-        getSelectedId();
+//     useEffect(() => {
+//         async function getSelectedId(){
+//             if(params.id !== undefined) {
+//                 setSelectedCard(params.id);
+//             } else {
+//                 setSelectedCard(null);
+//             }
+//         }
+//         getSelectedId();
 
-    }, [params.id]);
+//     }, [params.id]);
 
 
-        return (
-        <>
-            { selectedCard &&
-            (<DisplayCardInfo patchId={patchId} />)}
-            <PatchInfo patchId={patchId}/>
-            {cards.length && 
-            (<CardList cards={cards} patchId={patchId} rule={"putricide"} />)}
+//         return (
+//         <>
+//             { selectedCard &&
+//             (<DisplayCardInfo patchId={patchId} />)}
+//             <PatchInfo patchId={patchId}/>
+//             {cards.length && 
+//             (<CardList cards={cards} patchId={patchId} rule={"putricide"} />)}
            
-        </>
-        );
-}
+//         </>
+//         );
+// }
 
-function CardInfoOverlay({ card, patchId, setSelectedCard, cardImage }){
+function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
     
     const closeOverlay = (event) => {
         if(event.target.classList.contains('outlet-background')){
@@ -200,10 +249,18 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, cardImage }){
         }
     };
 
+    const nextCard = () => {
+        let index = activeCards.findIndex((c) => c.dbfId == card.dbfId);
+        console.log(index);
+        console.log(activeCards[index+1]);
+        setSelectedCard(activeCards[index + 1]);
+    }
+
     return (
     <div className="outlet-background" onClick={closeOverlay}>
         <div className="outlet-foreground">
-            <DisplayCardInfo card={card} patchId={patchId} cardImage={cardImage} />
+            <DisplayCardInfo card={card} patchId={patchId} />
+            <button onClick={nextCard}>Next</button>
         </div>
     </div>
     );
@@ -227,13 +284,13 @@ function getTribes(cards) {
     return tribes;
 }
 
-export function CardList({ cards, patchId, rule, handleClick }) {
+export function CardList({ cards, patchId, rule, handleClick, activeCards, handleFilterChange }) {
     let availableTribes = getTribes(cards);
     const [tribes, setTribes] = useState(availableTribes);
     const [cardPoolFilter, setCardPoolFilter] = useState();
-    const [activeCards, setActiveCards] = useState(cards);
+    const [temp, setTemp] = useState(cards);
 
-    let cardsOfSelectedTribes = activeCards.filter(
+    let cardsOfSelectedTribes = temp.filter(
         function (card) {
             if(card.hasOwnProperty("associatedTribes")) {
                 let isSelectedTribe = false;
@@ -250,10 +307,12 @@ export function CardList({ cards, patchId, rule, handleClick }) {
         }
     );
 
+    // handleFilterChange(cardsOfSelectedTribes);
+
     return( 
         <div>
             <TribesFilterTable tribes={availableTribes} selectedTribes={tribes} onSelectedTribesChange={setTribes} />
-            <FilterDropdown cardPool={cards} setActiveCards={setActiveCards} />
+            <FilterDropdown cardPool={cards} setActiveCards={setTemp} />
             <CategoryTable cards={cardsOfSelectedTribes} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </div>
     );
@@ -317,6 +376,8 @@ function sortTribes(tribesArray) {
 }
 
 function CategoryTable({ cards, patchId, rule, handleClick }) {
+    let [temp, setTemp] = useState([]);
+
     let heroes = cards.filter((card) =>
         card.type === "HERO" );
     let minionsOrTSpells = cards.filter((card) =>
@@ -327,22 +388,39 @@ function CategoryTable({ cards, patchId, rule, handleClick }) {
     return (
         <div>
             <Accordion defaultActiveKey={["tier1"]} alwaysOpen>
-                <Heroes cards={heroes} patchId={patchId} handleClick={handleClick}/>
+                <Heroes cards={heroes} patchId={patchId} handleClick={handleClick} setTemp={setTemp} temp={temp}/>
                 <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} handleClick={handleClick}/>
                 <Trinkets cards={trinkets} patchId={patchId} handleClick={handleClick} />
+                <Temp temp={temp} />
             </Accordion>
         </div>
     );
 }
 
-function Heroes({ cards, patchId, handleClick }) {
+function Temp({ temp }) {
+    return <p>{temp.length}</p>;
+}
+
+function Heroes({ cards, patchId, handleClick, setTemp, temp }) {
+    const alphSortedCards = [...cards].sort((a,b) => a.name > b.name ? 1 : -1 );
+
+    console.log(1);
+
+    // useEffect(() => {
+    //     setTemp((t) => [...t, ...alphSortedCards]);
+
+    // },[cards, temp, setTemp]);
+    
     // no heroes
     if(cards.length === 0){
-        return;
+        return null;
     }
 
     // alphabetically ordering heroes
-    let alphSortedCards = cards.sort((a,b) => a.name > b.name ? 1 : -1 );
+    
+
+    
+
 
     return (
 
