@@ -55,7 +55,7 @@ export default function MainPage() {
             (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
             <PatchInfo patchId={patchId}/>
             {cards.length && 
-            (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} handleFilterChange={setActiveCards} />)}
+            (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} setActiveCards={setActiveCards} />)}
            
         </>
         );
@@ -243,14 +243,12 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
         }
     };
 
+
     let indexOfCard = activeCards.findIndex((c) => c.dbfId == card.dbfId);
     let nextExists = indexOfCard < activeCards.length - 1;
     let previousExists = indexOfCard != 0;
 
     const nextCard = () => {
-        // let index = activeCards.findIndex((c) => c.dbfId == card.dbfId);
-        // console.log(index);
-        // console.log(activeCards[index+1]);
         setSelectedCard(activeCards[indexOfCard + 1]);
     };
 
@@ -258,8 +256,16 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
         setSelectedCard(activeCards[indexOfCard - 1])
     };
 
+    const handleKeyPress = e => {
+        if (e.key === "ArrowLeft" && previousExists) {
+            previousCard();
+        } else if (e.key === "ArrowRight" && nextExists) {
+            nextCard();
+        }
+    }
+
     return (
-    <div className="outlet-background" onClick={closeOverlay}>
+    <div className="outlet-background" onClick={closeOverlay} tabIndex={0} onKeyDown={handleKeyPress}>
         <div className="outlet-foreground">
             <DisplayCardInfo card={card} patchId={patchId} />
             {previousExists && <button onClick={previousCard}>Previous</button>}
@@ -287,7 +293,7 @@ function getTribes(cards) {
     return tribes;
 }
 
-export function CardList({ cards, patchId, rule, handleClick, activeCards, handleFilterChange }) {
+export function CardList({ cards, patchId, rule, handleClick, activeCards, setActiveCards }) {
     // const [cardPoolFilter, setCardPoolFilter] = useState();
 
 
@@ -295,20 +301,20 @@ export function CardList({ cards, patchId, rule, handleClick, activeCards, handl
 
     return( 
         <div>
-            <TribesFilterTable cards={cards} onSelectedTribesChange={handleFilterChange} />
-            <FilterDropdown cardPool={cards} setActiveCards={handleFilterChange} />
+            <TribesFilterTable cards={cards} setActiveCards={setActiveCards} />
+            <FilterDropdown cardPool={cards} setActiveCards={setActiveCards} />
             <CategoryTable cards={activeCards} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </div>
     );
 
 }
 
-function TribesFilterTable({ cards, onSelectedTribesChange }) {
+function TribesFilterTable({ cards, setActiveCards }) {
     let tribes = getTribes(cards);
     const [selectedTribes, setSelectedTribes] = useState(tribes);
 
     const keepActiveCardsOfTribes = (activeCards, newArr) => {
-        return [...activeCards].filter(
+        return [...cards].filter(
             function (card) {
                 if(card.hasOwnProperty("associatedTribes")) {
                     let isSelectedTribe = false;
@@ -366,7 +372,7 @@ function TribesFilterTable({ cards, onSelectedTribesChange }) {
                                 newArr = [...selectedTribes, e.target.value];
                             }
                             setSelectedTribes(newArr);
-                            onSelectedTribesChange(ac => keepActiveCardsOfTribes(ac, newArr));
+                            setActiveCards(ac => keepActiveCardsOfTribes(ac, newArr));
                         }
                     } />
                 {' '}
