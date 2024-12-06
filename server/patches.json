@@ -906,5 +906,11 @@
     "build": "212031",
     "releaseDate": "November 21, 2024",
     "patchNumber": "31.0.3"
+  },
+  "212197": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-gb/news/24163459/31-2-patch-notes",
+    "build": "212197",
+    "releaseDate": "December 3, 2024",
+    "patchNumber": "31.2.0"
   }
 }

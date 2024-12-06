@@ -318,7 +318,7 @@ function createBuddyFile() {
 // createBuddyFile();
 
 
-let patches = [210640, 212031];
+let patches = [212197];
 
 for(let patch of patches){
     updateActiveCardsForPatch(patch);
