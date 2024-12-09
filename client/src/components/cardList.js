@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 import PatchInfo from "./PatchInfo";
@@ -9,9 +9,18 @@ import DisplayCardInfo from "./cardInfo";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
-    const [activeCards, setActiveCards] = useState([]);
+    // const [activeCards, setActiveCards] = useState([]);
     const params = useParams();
     const [selectedCard, setSelectedCard] = useState(null);
+    const [activeFilters, setActiveFilters] = useState( {tribes: ["GENERAL", "BEAST", "DEMON", "DRAGON", "ELEMENTAL", "MECHANICAL", "MURLOC", "NAGA", "PIRATE", "QUILBOAR", "UNDEAD"], cardFilterFcs: [], sortFc: defaultSortFc } );
+
+    // TODO
+
+    let activeCards = getActiveCards(activeFilters, cards);
+
+    // const activeCards = useMemo( () => {
+    //     return getActiveCards(activeFilters, cards);
+    // }, [activeFilters, cards] )
 
     let patchId;
     if(params.patchId !== undefined) {
@@ -33,8 +42,6 @@ export default function MainPage() {
                 return;
             }
             const cards = await response.json();
-            sortCards(cards);
-            setActiveCards(cards);
             setCards(c => cards);
             // applyFilter(setCards, withoutDuosFilter);
             // applyFilter(setCards, onlyDuosFilter);
@@ -48,6 +55,7 @@ export default function MainPage() {
         return;
     }, [params.patchId]);
 
+    
 
         return (
         <>
@@ -55,13 +63,47 @@ export default function MainPage() {
             (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
             <PatchInfo patchId={patchId}/>
             {cards.length && 
-            (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} setActiveCards={setActiveCards} />)}
+            (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />)}
            
         </>
         );
 }
 
-function sortCards (cards) {
+function getActiveCards (filters, cards) {
+    if(cards.length === 0) {
+        return [];
+    }
+
+    let activeCards = [...cards];
+    activeCards = activeCards.filter(card => {
+        if(card.hasOwnProperty("associatedTribes")) {
+            let isSelectedTribe = false;
+            for(let tribe of card.associatedTribes) {
+                if(filters.tribes.includes(tribe)) {
+                    isSelectedTribe = true;
+                    break;
+                }
+            }
+            return isSelectedTribe;
+        } else {
+            // idk
+            return true;
+        }
+    })
+
+    applyFilters(filters.cardFilterFcs, activeCards);
+    filters.sortFc(activeCards);
+
+    return activeCards;
+}
+
+function applyFilters(filterFcs, activeCards) {
+    for(let filterFc of filterFcs) {
+        filterFc(activeCards);
+    }
+}
+
+function defaultSortFc (cards) {
     const compareNames = (a,b) => {
         return a.name.localeCompare(b.name);
     }
@@ -293,7 +335,7 @@ function getTribes(cards) {
     return tribes;
 }
 
-export function CardList({ cards, patchId, rule, handleClick, activeCards, setActiveCards }) {
+export function CardList({ cards, patchId, rule, handleClick, activeCards, setActiveFilters, activeFilters }) {
     // const [cardPoolFilter, setCardPoolFilter] = useState();
 
 
@@ -301,59 +343,23 @@ export function CardList({ cards, patchId, rule, handleClick, activeCards, setAc
 
     return( 
         <div>
-            <TribesFilterTable cards={cards} setActiveCards={setActiveCards} />
-            <FilterDropdown cardPool={cards} setActiveCards={setActiveCards} />
+            <TribesFilterTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />
+            {/* <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} /> */}
             <CategoryTable cards={activeCards} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </div>
     );
 
 }
 
-function TribesFilterTable({ cards, setActiveCards }) {
-    let tribes = getTribes(cards);
-    const [selectedTribes, setSelectedTribes] = useState(tribes);
-
-    const keepActiveCardsOfTribes = (activeCards, newArr) => {
-        return [...cards].filter(
-            function (card) {
-                if(card.hasOwnProperty("associatedTribes")) {
-                    let isSelectedTribe = false;
-                    for(let associatedTribe of card.associatedTribes) {
-                        if(newArr.includes(associatedTribe)) {
-                            isSelectedTribe = true;
-                            break;
-                        }
-                    }
-                    return isSelectedTribe;
-                } else {
-                    return newArr.includes("DEBUG");
-                }
-            }
-        )
-    }
-
-    // let cardsOfSelectedTribes = activeCards.filter(
-    //     function (card) {
-    //         if(card.hasOwnProperty("associatedTribes")) {
-    //             let isSelectedTribe = false;
-    //             for(let associatedTribe of card.associatedTribes) {
-    //                 if(selectedTribes.includes(associatedTribe)) {
-    //                     isSelectedTribe = true;
-    //                     break;
-    //                 }
-    //             }
-    //             return isSelectedTribe;
-    //         } else {
-    //             return selectedTribes.includes("DEBUG");
-    //         }
-    //     }
-    // );
+function TribesFilterTable({ cards, setActiveFilters, activeFilters }) {
+    let allTribes = getTribes(cards);
+    // const [selectedTribes, setSelectedTribes] = useState(allTribes);
 
     let tribeTable = [];
     
-    sortTribes(tribes);
+    sortTribes(allTribes);
     
-    for(let tribe of tribes) {
+    for(let tribe of allTribes) {
 
         tribeTable.push(
             <label htmlFor={tribe} key={tribe}>
@@ -362,17 +368,18 @@ function TribesFilterTable({ cards, setActiveCards }) {
                     id={tribe} 
                     name={tribe} 
                     value={tribe} 
-                    defaultChecked={selectedTribes.includes(tribe)} 
+                    defaultChecked={activeFilters.tribes.includes(tribe)} 
                     onChange={
                         function (e) {
                             let newArr = [];
-                            if(selectedTribes.includes(e.target.value)) {
-                                newArr = selectedTribes.filter((name) => name !== e.target.value);
+                            if(activeFilters.tribes.includes(e.target.value)) {
+                                newArr = activeFilters.tribes.filter((name) => name !== e.target.value);
                             } else {
-                                newArr = [...selectedTribes, e.target.value];
+                                newArr = [...activeFilters.tribes, e.target.value];
                             }
-                            setSelectedTribes(newArr);
-                            setActiveCards(ac => keepActiveCardsOfTribes(ac, newArr));
+                            setActiveFilters({...activeFilters, tribes: newArr});
+                            // setSelectedTribes(newArr);
+                            // setActiveCards(ac => keepActiveCardsOfTribes(ac, newArr));
                         }
                     } />
                 {' '}
