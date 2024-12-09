@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function FilterDropdown({ cardPool, setActiveCards }) {
+function FilterDropdown({ cardPool, setActiveFilters }) {
     const commonFilters = [
         {none: {fc: activeCardsFilter, name: "None"}},
         {withoutDuos: {fc: withoutDuosFilter, name: "Without duo specific cards"}},
@@ -18,13 +18,9 @@ function FilterDropdown({ cardPool, setActiveCards }) {
     const handleFilterChange = (event) => {
         const selectedFilterName = event.target.value;
         const selectedFilterObj = commonFilters.find(filter => filter[selectedFilterName]);
-        const subObj = Object.values(selectedFilterObj)[0];
-        setActiveCards(c => cardPool);
-        if(subObj.hasOwnProperty("extraArgs")){
-            applyFilter(setActiveCards, subObj.fc, subObj.extraArgs);
-        } else {
-            applyFilter(setActiveCards, subObj.fc);
-        }
+
+        // currently overwrites the cardFilterFcs, so I don't stack them. It's like that because the dropdown is only one value, but this is subject to a change.
+        setActiveFilters(activeFilters => {return {...activeFilters, cardFilterFcs: [selectedFilterObj]} });
         
     }
 
@@ -38,12 +34,12 @@ function FilterDropdown({ cardPool, setActiveCards }) {
 }
 
 
-function applyFilter(setCards, filterBool, args){
+export function applyFilter(cards, filterBool, args){
     // let filteredCards = filter(cards);
     if(args !== undefined){
-        setCards(cards => cards.filter( (card) => filterBool(card, ...args)));
+        return cards.filter( (card) => filterBool(card, ...args));
     } else {
-        setCards(cards => cards.filter( (card) => filterBool(card)));
+        return cards.filter( (card) => filterBool(card));
     }
     
     

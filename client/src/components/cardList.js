@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useParams } from "react-router";
 import PatchInfo from "./PatchInfo";
 import CardImage from "./cardImage";
-import FilterDropdown from "./filters";
+import FilterDropdown, { applyFilter } from "./filters";
 import Accordion from 'react-bootstrap/Accordion';
 import DisplayCardInfo from "./cardInfo";
 
@@ -14,10 +14,9 @@ export default function MainPage() {
     const [selectedCard, setSelectedCard] = useState(null);
     const [activeFilters, setActiveFilters] = useState( {tribes: ["GENERAL", "BEAST", "DEMON", "DRAGON", "ELEMENTAL", "MECHANICAL", "MURLOC", "NAGA", "PIRATE", "QUILBOAR", "UNDEAD"], cardFilterFcs: [], sortFc: defaultSortFc } );
 
-    // TODO
-
     let activeCards = getActiveCards(activeFilters, cards);
 
+    // memoized version in case the function takes too much time. Gotta import useMemo from react.
     // const activeCards = useMemo( () => {
     //     return getActiveCards(activeFilters, cards);
     // }, [activeFilters, cards] )
@@ -91,7 +90,7 @@ function getActiveCards (filters, cards) {
         }
     })
 
-    applyFilters(filters.cardFilterFcs, activeCards);
+    activeCards = applyFilters(filters.cardFilterFcs, activeCards);
     filters.sortFc(activeCards);
 
     return activeCards;
@@ -99,8 +98,10 @@ function getActiveCards (filters, cards) {
 
 function applyFilters(filterFcs, activeCards) {
     for(let filterFc of filterFcs) {
-        filterFc(activeCards);
+        let subObj = Object.values(filterFc)[0];
+        activeCards = applyFilter(activeCards, subObj.fc, subObj.extraArgs);
     }
+    return activeCards;
 }
 
 function defaultSortFc (cards) {
@@ -344,7 +345,7 @@ export function CardList({ cards, patchId, rule, handleClick, activeCards, setAc
     return( 
         <div>
             <TribesFilterTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />
-            {/* <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} /> */}
+            <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} />
             <CategoryTable cards={activeCards} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </div>
     );
@@ -377,7 +378,7 @@ function TribesFilterTable({ cards, setActiveFilters, activeFilters }) {
                             } else {
                                 newArr = [...activeFilters.tribes, e.target.value];
                             }
-                            setActiveFilters({...activeFilters, tribes: newArr});
+                            setActiveFilters(af => {return {...af, tribes: newArr}});
                             // setSelectedTribes(newArr);
                             // setActiveCards(ac => keepActiveCardsOfTribes(ac, newArr));
                         }
