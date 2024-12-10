@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'react-bootstrap/Image';
 
 const CardImage = ({ card, className, handleClick }) => {
   const [imageSrc, setImageSrc] = useState(null);
@@ -9,23 +10,33 @@ const CardImage = ({ card, className, handleClick }) => {
 
   if(handleClick === undefined) {
     return (
-      <img
-        src={imageSrc}
-        onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
-        alt={card.name}
-        className={className}
-      />
+      // <img
+      //   src={imageSrc}
+      //   onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
+      //   alt={card.name}
+      //   className={className}
+      // />
+      <Image src={`${imageSrc}`} fluid rounded alt={card.name} className={className} />
     );
   }
   return (
-    <img
-      src={imageSrc}
-      onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
+    // <img
+    //   src={imageSrc}
+    //   onError={(e)=>{e.target.onError = null; e.target.src = "/icons/placeholder.png"}}
+    //   alt={card.name}
+    //   className={className}
+    //   onClick={() => handleClick(card)}
+    //   style={{ cursor: "pointer" }}
+    // />
+    <Image 
+      src={`${imageSrc}`} 
+      fluid
+      rounded 
       alt={card.name}
-      className={className}
       onClick={() => handleClick(card)}
       style={{ cursor: "pointer" }}
-    />
+      className={className}
+      />
   );
 };
 

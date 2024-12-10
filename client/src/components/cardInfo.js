@@ -3,6 +3,9 @@ import { useParams } from "react-router";
 import parse from 'html-react-parser';
 import { Link } from "react-router-dom";
 import CardImage from "./cardImage";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 export default function DisplayCardInfo({card, patchId}) {
     // const [card, setCard] = useState();
@@ -95,27 +98,39 @@ function MinionInfo({ card, patch }) {
     } else if (tribes.length > 1) {
         tribesHtml = <><br />Tribes: {tribes}</>
     }
-
-    let srcOfCard = `/cards/en_US/${card.version}/${card.dbfId}.png`;
-    let placeholderIcon = "/icons/placeholder.png";
     
 
     let basicInfo = <>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
         
     return (
-    <div className="grid-container">
-        <div className="card-info-image">
-            <CardImage card={card} />
-            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
-        </div>
-        <div className="card-info-text">
-            <h2>{golden}{card.name}</h2>
-            <p>{basicInfo}</p>
-            <RelatedCards card={card} patch={patch}/>
-            <CardPools card={card} patch={patch}/>
-            <OtherVersion card={card} patch={patch} />
-        </div>
-    </div>);
+        <Container>
+            <Row>
+                <Col>
+                    <CardImage card={card} />
+                </Col>
+                <Col>
+                    <h2>{golden}{card.name}</h2>
+                    <p>{basicInfo}</p>
+                    <RelatedCards card={card} patch={patch}/>
+                    <CardPools card={card} patch={patch}/>
+                    <OtherVersion card={card} patch={patch} />
+                </Col>
+            </Row>
+        </Container>);
+
+    // return (
+    // <div className="grid-container">
+    //     <div className="card-info-image">
+    //         <CardImage card={card} />
+    //     </div>
+    //     <div className="card-info-text">
+    //         <h2>{golden}{card.name}</h2>
+    //         <p>{basicInfo}</p>
+    //         <RelatedCards card={card} patch={patch}/>
+    //         <CardPools card={card} patch={patch}/>
+    //         <OtherVersion card={card} patch={patch} />
+    //     </div>
+    // </div>);
 }
 
 function HeroInfo({ card, patch }) {

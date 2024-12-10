@@ -6,6 +6,9 @@ import CardImage from "./cardImage";
 import FilterDropdown, { applyFilter } from "./filters";
 import Accordion from 'react-bootstrap/Accordion';
 import DisplayCardInfo from "./cardInfo";
+import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
@@ -315,15 +318,28 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
     }, [card]); 
 
     return (
-    <div className="outlet-background" onClick={handleClickingBackground}>
-        <div className="outlet-foreground" onKeyDown={handleKeyPress}>
-            <DisplayCardInfo card={card} patchId={patchId} />
-            {previousExists && <button onClick={previousCard}>Previous</button>}
-            {nextExists && <button onClick={nextCard}>Next</button>}
-            <button onClick={closeOverlay}>Close</button>
-        </div>
-    </div>
+        <Container fluid className="outlet-background" onClick={handleClickingBackground}>
+            <Row>
+                <Col className="outlet-foreground" onKeyDown={handleKeyPress}>
+                    <DisplayCardInfo card={card} patchId={patchId} />
+                    {previousExists && <button onClick={previousCard}>Previous</button>}
+                    {nextExists && <button onClick={nextCard}>Next</button>}
+                    <button onClick={closeOverlay}>Close</button>
+                </Col>
+            </Row>
+        </Container>
     );
+
+    // return (
+    //     <div className="outlet-background" onClick={handleClickingBackground}>
+    //         <div className="outlet-foreground" onKeyDown={handleKeyPress}>
+    //             <DisplayCardInfo card={card} patchId={patchId} />
+    //             {previousExists && <button onClick={previousCard}>Previous</button>}
+    //             {nextExists && <button onClick={nextCard}>Next</button>}
+    //             <button onClick={closeOverlay}>Close</button>
+    //         </div>
+    //     </div>
+    //     );
 
 }
 
