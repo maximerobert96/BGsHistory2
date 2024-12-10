@@ -93056,6 +93056,18 @@
         "newVersion": 212197
       }
     ],
+    "100596": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 212197
+      }
+    ],
     "100718": [
       {
         "changeType": "removal",
@@ -93232,6 +93244,30 @@
         "oldVersion": "208182"
       }
     ],
+    "104438": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "190416",
+        "newVersion": 212197
+      }
+    ],
+    "104465": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "198037",
+        "newVersion": 212197
+      }
+    ],
     "104468": [
       {
         "changeType": "removal",
@@ -93255,6 +93291,18 @@
       {
         "changeType": "removal",
         "oldVersion": "212031"
+      }
+    ],
+    "104535": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "203120",
+        "newVersion": 212197
       }
     ],
     "104554": [
@@ -93315,6 +93363,18 @@
           }
         },
         "oldVersion": "198037",
+        "newVersion": 212197
+      }
+    ],
+    "105250": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "208182",
         "newVersion": 212197
       }
     ],
@@ -93939,6 +93999,30 @@
           }
         },
         "oldVersion": "202360",
+        "newVersion": 212197
+      }
+    ],
+    "110411": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "198608",
+        "newVersion": 212197
+      }
+    ],
+    "110471": [
+      {
+        "changeType": "change",
+        "changes": {
+          "isBattlegroundsPoolSpell": {
+            "old": true
+          }
+        },
+        "oldVersion": "200097",
         "newVersion": 212197
       }
     ],
