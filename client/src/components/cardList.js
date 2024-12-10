@@ -9,7 +9,6 @@ import DisplayCardInfo from "./cardInfo";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
-    // const [activeCards, setActiveCards] = useState([]);
     const params = useParams();
     const [selectedCard, setSelectedCard] = useState(null);
     const [activeFilters, setActiveFilters] = useState( {tribes: ["GENERAL", "BEAST", "DEMON", "DRAGON", "ELEMENTAL", "MECHANICAL", "MURLOC", "NAGA", "PIRATE", "QUILBOAR", "UNDEAD"], cardFilterFcs: [], sortFc: defaultSortFc } );
@@ -280,12 +279,11 @@ function defaultSortFc (cards) {
 
 function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
     
-    const closeOverlay = (event) => {
+    const handleClickingBackground = (event) => {
         if(event.target.classList.contains('outlet-background')){
             setSelectedCard(null);
         }
-    };
-
+    }
 
     let indexOfCard = activeCards.findIndex((c) => c.dbfId == card.dbfId);
     let nextExists = indexOfCard < activeCards.length - 1;
@@ -299,6 +297,10 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
         setSelectedCard(activeCards[indexOfCard - 1])
     };
 
+    const closeOverlay = () => {
+        setSelectedCard(null);
+    };
+
     const handleKeyPress = e => {
         if (e.key === "ArrowLeft" && previousExists) {
             previousCard();
@@ -307,12 +309,18 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
         }
     }
 
+    useEffect(() => {
+        window.addEventListener("keydown", handleKeyPress);
+        return () => window.removeEventListener("keydown", handleKeyPress); // cleanup on unmount
+    }, [card]); 
+
     return (
-    <div className="outlet-background" onClick={closeOverlay} tabIndex={0} onKeyDown={handleKeyPress}>
-        <div className="outlet-foreground">
+    <div className="outlet-background" onClick={handleClickingBackground}>
+        <div className="outlet-foreground" onKeyDown={handleKeyPress}>
             <DisplayCardInfo card={card} patchId={patchId} />
             {previousExists && <button onClick={previousCard}>Previous</button>}
             {nextExists && <button onClick={nextCard}>Next</button>}
+            <button onClick={closeOverlay}>Close</button>
         </div>
     </div>
     );
