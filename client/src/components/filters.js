@@ -7,6 +7,7 @@ function FilterDropdown({ cardPool, setActiveFilters }) {
         {duosOnly: {fc: onlyDuosFilter, name: "Duo specific"}},
         {battlecry: {fc: mechanicFilter, name: "Battlecry", extraArgs: ["BATTLECRY"]}}, 
         {deathrattle: {fc: mechanicFilter, name: "Deathrattle", extraArgs: ["DEATHRATTLE"]}}, 
+        {chooseOne: {fc: mechanicFilter, name: "Choose one", extraArgs: ["CHOOSE_ONE"]}}, 
         {endOfTurn: {fc: mechanicFilter, name: "End of turn", extraArgs: ["END_OF_TURN"]}}, 
         {startOfCombat: {fc: mechanicFilter, name: "Start of combat", extraArgs: ["START_OF_COMBAT"]}}, 
         {tavernSpells: {fc: cardTypeFilter, name: "Tavern Spell", extraArgs: ["BATTLEGROUND_SPELL"]}},

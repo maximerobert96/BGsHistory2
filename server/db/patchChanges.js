@@ -938,6 +938,22 @@ function linkingSomeBuddiesToHeroes() {
   
 }
 
+function patch212197() {
+    let build = 212197;
+
+    addNewChange(build, 100596, undefined, ["isBattlegroundsPoolSpell"]); // removing pointy arrow from the pool
+    addNewChange(build, 110471, undefined, ["isBattlegroundsPoolSpell"]); // removing plunder seeker from the pool
+    addNewChange(build, 105250, undefined, ["isBattlegroundsPoolSpell"]); // removing portal in a bottle from the pool
+    addNewChange(build, 104438, undefined, ["isBattlegroundsPoolSpell"]); // removing ritual of growth from the pool
+    addNewChange(build, 110411, undefined, ["isBattlegroundsPoolSpell"]); // removing suspicious stimulant from the pool
+    addNewChange(build, 104535, undefined, ["isBattlegroundsPoolSpell"]); // removing buddy up from the pool
+    addNewChange(build, 104465, undefined, ["isBattlegroundsPoolSpell"]); // removing top of the beanstalk from the pool
+    addNewChange(build, 119470, {"isDuoCard": true}); // portal fountain
+    addNewChange(build, 117671, {"isDuoCard": true}); // bargain bundle
+    addNewChange(build, 119471, {"isDuoCard": true}); // portal in a crystal
+}
+
+patch212197();
 // addNewChange(210009, 77468, {"heroDbfId": 61910, "associatedTribes": ["GENERAL"]}, undefined, undefined, "FIRST"); // aranna buddy
 
 // linkingSomeBuddiesToHeroes();
