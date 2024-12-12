@@ -60,12 +60,13 @@ export default function MainPage() {
 
         return (
         <>
-            { selectedCard &&
-            (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
-            <PatchInfo patchId={patchId}/>
-            {cards.length && 
-            (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />)}
-           
+            <Container>
+                { selectedCard &&
+                (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
+                <PatchInfo patchId={patchId}/>
+                {cards.length && 
+                (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />)}
+           </Container>
         </>
         );
 }
@@ -318,7 +319,7 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
     }, [card]); 
 
     return (
-        <Container fluid className="outlet-background" onClick={handleClickingBackground}>
+        <div className="outlet-background" onClick={handleClickingBackground}>
             <Row>
                 <Col className="outlet-foreground" onKeyDown={handleKeyPress}>
                     <DisplayCardInfo card={card} patchId={patchId} />
@@ -327,7 +328,7 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
                     <button onClick={closeOverlay}>Close</button>
                 </Col>
             </Row>
-        </Container>
+        </div>
     );
 
     // return (
@@ -367,11 +368,11 @@ export function CardList({ cards, patchId, rule, handleClick, activeCards, setAc
     // handleFilterChange(cardsOfSelectedTribes);
 
     return( 
-        <div>
+        <>
             <TribesFilterTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />
             <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} />
             <CategoryTable cards={activeCards} patchId={patchId} rule={rule} handleClick={handleClick}/>
-        </div>
+        </>
     );
 
 }
@@ -446,13 +447,11 @@ function CategoryTable({ cards, patchId, rule, handleClick }) {
         card.type === "BATTLEGROUND_TRINKET");
     // <Accordion defaultActiveKey={["heroes", "tier1", "tier2", "tier3", "tier4", "tier5", "tier6"]} alwaysOpen></Accordion>
     return (
-        <div>
-            <Accordion defaultActiveKey={["tier1"]} alwaysOpen>
+            <Row>
                 <Heroes cards={heroes} patchId={patchId} handleClick={handleClick}/>
                 <MinionsOrTSpells cards={minionsOrTSpells} patchId={patchId} rule={rule} handleClick={handleClick}/>
                 <Trinkets cards={trinkets} patchId={patchId} handleClick={handleClick} />
-            </Accordion>
-        </div>
+            </Row>
     );
 }
 
@@ -480,10 +479,10 @@ function Heroes({ cards, patchId, handleClick }) {
 
     return (
 
-            <Accordion.Item eventKey="heroes">
-                <Accordion.Header as='h1'>Heroes</Accordion.Header>
-                <Accordion.Body><CardRows cards={cards} patchId={patchId} handleClick={handleClick} /></Accordion.Body>
-            </Accordion.Item>
+            <Col>
+                <h1>Heroes</h1>
+                <CardRows cards={cards} patchId={patchId} handleClick={handleClick} />
+            </Col>
 
     );
 }
@@ -519,14 +518,14 @@ function Trinkets({ cards, patchId, handleClick }) {
         
     return (
         <div>
-            <Accordion.Item eventKey="lesser-trinket">
+            {/* <Accordion.Item eventKey="lesser-trinket">
             <Accordion.Header>Lesser Trinkets</Accordion.Header>
             <Accordion.Body><CardRows cards={lesserTrinkets} patchId={patchId} handleClick={handleClick} /></Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="greater-trinket">
             <Accordion.Header>Greater Trinkets</Accordion.Header>
             <Accordion.Body><CardRows cards={greaterTrinkets} patchId={patchId} handleClick={handleClick}/></Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
         </div>
     );
 }
@@ -546,15 +545,24 @@ function Tier({ tier, cards, patchId, rule, handleClick }) {
         return;
     }
     
-    const eventKey = `tier${tier}`;
+    // const eventKey = `tier${tier}`;
+    
+    // return(
+    //     <div>
+    //         <Accordion.Item eventKey={eventKey}>
+    //         <Accordion.Header>Tier {tier}</Accordion.Header>
+    //         <Accordion.Body><CardRows cards={cardsOfTier} patchId={patchId} rule={rule} handleClick={handleClick} /></Accordion.Body>
+    //         </Accordion.Item>
+    //     </div>
+    // );
+
+    // const eventKey = `tier${tier}`;
     
     return(
-        <div>
-            <Accordion.Item eventKey={eventKey}>
-            <Accordion.Header>Tier {tier}</Accordion.Header>
-            <Accordion.Body><CardRows cards={cardsOfTier} patchId={patchId} rule={rule} handleClick={handleClick} /></Accordion.Body>
-            </Accordion.Item>
-        </div>
+            <Row>
+                <h2>Tier {tier}</h2>
+                <CardRows cards={cardsOfTier} patchId={patchId} rule={rule} handleClick={handleClick} />
+            </Row>
     );
 }
 
@@ -566,13 +574,13 @@ export function CardRows({ cards, patchId, rule, handleClick }) {
     let cardRows = [];
     cards.forEach((card) => {
             let cardRow;
-            cardRow = <HoverImage card={card} key={card.dbfId} handleClick={handleClick}/>
+            cardRow = <HoverImage card={card} key={card.dbfId} handleClick={handleClick}/>;
             cardRows.push(cardRow);
     })
     return (
-        <div className="hover-container-wrapper">
+        <Row>
             {cardRows}
-        </div>
+        </Row>
     );
 }
 
@@ -652,9 +660,7 @@ function HoverImage({card, handleClick}) {
         // <div className="main-image-container">
         //   {/* <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" /> */}
             // {/* <CardImage card={card}  className="smaller-card-images"/> */}
-            <div className={className}>
                 <CardImage card={card} handleClick={handleClick}/>
-            </div>
         // </div>
     //     {isHovered && (
     //       <div className="hover-image-container"
