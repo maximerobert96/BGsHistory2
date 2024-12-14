@@ -9,6 +9,7 @@ import DisplayCardInfo from "./cardInfo";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
+import Navbar from "react-bootstrap/esm/Navbar";
 
 export default function MainPage() {
     const [cards, setCards] = useState([]);
@@ -60,12 +61,13 @@ export default function MainPage() {
 
         return (
         <>
+        <FiltersTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters}/>
             <Container>
                 { selectedCard &&
                 (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
                 <PatchInfo patchId={patchId}/>
                 {cards.length && 
-                (<CardList cards={cards} patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />)}
+                (<CardList patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} />)}
            </Container>
         </>
         );
@@ -361,7 +363,7 @@ function getTribes(cards) {
     return tribes;
 }
 
-export function CardList({ cards, patchId, rule, handleClick, activeCards, setActiveFilters, activeFilters }) {
+export function CardList({ patchId, rule, handleClick, activeCards}) {
     // const [cardPoolFilter, setCardPoolFilter] = useState();
 
 
@@ -369,12 +371,17 @@ export function CardList({ cards, patchId, rule, handleClick, activeCards, setAc
 
     return( 
         <>
-            <TribesFilterTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />
-            <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} />
             <CategoryTable cards={activeCards} patchId={patchId} rule={rule} handleClick={handleClick}/>
         </>
     );
 
+}
+
+function FiltersTable({ cards, setActiveFilters, activeFilters }) {
+    return <div className="filter-bar">
+        <TribesFilterTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />
+        <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} />
+    </div>;
 }
 
 function TribesFilterTable({ cards, setActiveFilters, activeFilters }) {
@@ -578,9 +585,9 @@ export function CardRows({ cards, patchId, rule, handleClick }) {
             cardRows.push(cardRow);
     })
     return (
-        <Row>
+        <>
             {cardRows}
-        </Row>
+        </>
     );
 }
 
@@ -660,7 +667,7 @@ function HoverImage({card, handleClick}) {
         // <div className="main-image-container">
         //   {/* <img src={srcOfIcon} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={card.name} className="card-icons" /> */}
             // {/* <CardImage card={card}  className="smaller-card-images"/> */}
-                <CardImage card={card} handleClick={handleClick}/>
+                <CardImage card={card} handleClick={handleClick} className={className}/>
         // </div>
     //     {isHovered && (
     //       <div className="hover-image-container"

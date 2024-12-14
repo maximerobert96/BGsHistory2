@@ -21,23 +21,33 @@ code {
   height: auto;
 }
 
-.small-hero-container img {
+.small-hero-container {
   width: 75px;
   height: auto;
 }
 
 .small-minion-container {
   width: 150px;
-  height: 120px;
   overflow: hidden;
   position: relative;
+  padding: 0%;
 }
 
-.small-minion-container img {
+.filter-bar {
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background-color: rgb(214, 214, 214);
+  width: 100%;
+  padding-left: 5%;
+}
+
+
+/* .small-minion-container Image { this was supposed to crop the images
   width: 100%;
   height: auto;
   position: absolute;
-}
+} */
 
 .hover-container-wrapper {
   display: flex;
@@ -75,7 +85,7 @@ code {
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
   overflow-y: hidden;
   overflow-x: hidden;
@@ -90,7 +100,7 @@ code {
 
   /* width: fit-content; */
   width: max-content;
-  z-index: 2;
+  z-index: 3;
   background-color: white;
 }
 

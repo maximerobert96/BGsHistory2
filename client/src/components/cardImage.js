@@ -34,7 +34,7 @@ const CardImage = ({ card, className, handleClick }) => {
       rounded 
       alt={card.name}
       onClick={() => handleClick(card)}
-      style={{ cursor: "pointer", width: "10%"}}
+      style={{ cursor: "pointer"}}
       className={className}
       />
   );
