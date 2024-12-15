@@ -44,23 +44,37 @@ export function CardInfo({ card, patch }) {
     if(card === undefined) {
         return <p>Loading</p>;
     }
+
+    let cardInfo;
+
     switch (card.type){
         case "MINION":
-            return (<MinionInfo card={card} patch={patch} />);
+            cardInfo = <MinionInfo card={card} patch={patch} />;
+            break;
         case "HERO":
-            return (<HeroInfo card={card} patch={patch} />);
+            cardInfo = <HeroInfo card={card} patch={patch} />;
+            break;
         case "HERO_POWER":
-            return (<HeroPowerInfo card={card} patch={patch} />);
+            cardInfo = <HeroPowerInfo card={card} patch={patch} />;
+            break;
         case "SPELL":
-            return (<SpellInfo card={card} patch={patch} />);
+            cardInfo = <SpellInfo card={card} patch={patch} />;
+            break;
         case "BATTLEGROUND_SPELL":
-            return (<TavernSpellInfo card={card} patch={patch} />);
+            cardInfo = <TavernSpellInfo card={card} patch={patch} />;
+            break;
         case "BATTLEGROUND_TRINKET":
-            return (<TrinketInfo card={card} patch={patch} />);
+            cardInfo = <TrinketInfo card={card} patch={patch} />;
+            break;
         default: 
-            return(<p>help</p>);
+            cardInfo = (<p>help</p>);
 
     }
+
+    return <Row className="justify-content-md-center">
+        <Col><CardImage card={card} className="hover-image" /></Col>
+        <Col xs="8">{cardInfo}</Col>
+    </Row>;
 }
 
 function getElementsOfProperty(card, property) {
@@ -103,20 +117,14 @@ function MinionInfo({ card, patch }) {
     let basicInfo = <>{card.attack}/{card.health} minion on tier {card.techLevel}.{cardText}{racesHtml}{tribesHtml}</>;
         
     return (
-        <Container>
-            <Row>
-                <Col>
-                    <CardImage card={card} />
-                </Col>
-                <Col>
-                    <h2>{golden}{card.name}</h2>
-                    <p>{basicInfo}</p>
-                    <RelatedCards card={card} patch={patch}/>
-                    <CardPools card={card} patch={patch}/>
-                    <OtherVersion card={card} patch={patch} />
-                </Col>
-            </Row>
-        </Container>);
+        <>
+            <h2>{golden}{card.name}</h2>
+            <p>{basicInfo}</p>
+            <RelatedCards card={card} patch={patch}/>
+            <CardPools card={card} patch={patch}/>
+            <OtherVersion card={card} patch={patch} />
+        </>
+        );
 
     // return (
     // <div className="grid-container">
@@ -138,18 +146,11 @@ function HeroInfo({ card, patch }) {
     let placeholderIcon = "/icons/placeholder.png";
 
     return (
-        <div className="grid-container">
-            <div className="card-info-image">
+        <>
                 <h2>{card.name}</h2>
-                <CardImage card={card} />
-                {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
-            </div>
-            <div className="card-info-text">
-                
                 <HeroPowerOfHeroInfo card={card} patch={patch}/>
                 <CardPools card={card} patch={patch}/>
-            </div>
-        </div>);
+        </>);
 }
 
 function HeroPowerInfo({card, patch}) {
@@ -201,19 +202,13 @@ function TavernSpellInfo({ card, patch }) {
     let basicInfo = <>{card.cost} cost tavern spell on tier {card.techLevel}.{cardText}{tribesHtml}</>;
         
     return (
-    <div className="grid-container">
-        <div className="card-info-image">
-            <CardImage card={card} />
-            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
-        </div>
-        <div className="card-info-text">
+    <>
             <h2>{card.name}</h2>
             <p>{basicInfo}</p>
             <RelatedCards card={card} patch={patch}/>
             <CardPools card={card} patch={patch}/>
             <OtherVersion card={card} patch={patch} />
-        </div>
-    </div>);
+    </>);
 }
 
 function TrinketInfo({ card, patch }) {
@@ -239,19 +234,13 @@ function TrinketInfo({ card, patch }) {
     let basicInfo = <>{card.cost} cost trinket.{cardText}{tribesHtml}</>;
         
     return (
-    <div className="grid-container">
-        <div className="card-info-image">
-            <CardImage card={card} />
-            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
-        </div>
-        <div className="card-info-text">
+    <>
             <h2>{card.name}</h2>
             <p>{basicInfo}</p>
             <RelatedCards card={card} patch={patch}/>
             <CardPools card={card} patch={patch}/>
             <OtherVersion card={card} patch={patch} />
-        </div>
-    </div>);
+    </>);
 }
 
 function SpellInfo({ card, patch }) {
@@ -268,19 +257,13 @@ function SpellInfo({ card, patch }) {
     let basicInfo = <>{cardText}</>;
         
     return (
-    <div className="grid-container">
-        <div className="card-info-image">
-            <CardImage card={card} />
-            {/* <img src={srcOfCard} onError={(e)=>{e.target.onError = null; e.target.src = placeholderIcon}} alt={`${card.name}`} className="hover-image" /> */}
-        </div>
-        <div className="card-info-text">
+    <>
             <h2>{card.name}</h2>
             <p>{basicInfo}</p>
             <RelatedCards card={card} patch={patch}/>
             <CardPools card={card} patch={patch}/>
             <OtherVersion card={card} patch={patch} />
-        </div>
-    </div>);
+    </>);
 }
 
 function HeroPowerOfHeroInfo({ card, patch }) {
