@@ -6,8 +6,11 @@ import CardImage from "./cardImage";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/esm/Button";
+import { tempFilter } from "./filters";
 
-export default function DisplayCardInfo({card, patchId}) {
+
+export default function DisplayCardInfo({card, patchId, setActiveFilters}) {
     // const [card, setCard] = useState();
     // const params = useParams();
     // let patchId = params.patchId.toString();
@@ -37,10 +40,10 @@ export default function DisplayCardInfo({card, patchId}) {
     //     return;
     // }, [params.id, params.patchId]);
 
-    return <CardInfo card={card} patch={patchId} />   
+    return <CardInfo card={card} patch={patchId} setActiveFilters={setActiveFilters} />   
 }
 
-export function CardInfo({ card, patch }) {
+export function CardInfo({ card, patch, setActiveFilters }) {
     if(card === undefined) {
         return <p>Loading</p>;
     }
@@ -49,7 +52,7 @@ export function CardInfo({ card, patch }) {
 
     switch (card.type){
         case "MINION":
-            cardInfo = <MinionInfo card={card} patch={patch} />;
+            cardInfo = <MinionInfo card={card} patch={patch} setActiveFilters={setActiveFilters} />;
             break;
         case "HERO":
             cardInfo = <HeroInfo card={card} patch={patch} />;
@@ -87,7 +90,7 @@ function getElementsOfProperty(card, property) {
     return elementsOfProperty;
 }
 
-function MinionInfo({ card, patch }) {
+function MinionInfo({ card, patch, setActiveFilters }) {
     let cardText;
     let golden;
     if(card.hasOwnProperty("battlegroundsNormalDbfId")) {
@@ -121,7 +124,7 @@ function MinionInfo({ card, patch }) {
             <h2>{golden}{card.name}</h2>
             <p>{basicInfo}</p>
             <RelatedCards card={card} patch={patch}/>
-            <CardPools card={card} patch={patch}/>
+            <CardPools card={card} patch={patch} setActiveFilters={setActiveFilters}/>
             <OtherVersion card={card} patch={patch} />
         </>
         );
@@ -317,23 +320,30 @@ function RelatedCards({ card, patch }) {
     );
 }
 
-function CardPools({card, patch}) {
-    if(!card.hasOwnProperty("pools")){
-        return;
+function CardPools({card, patch, setActiveFilters}) {
+
+    const handleClick = () => {
+        setActiveFilters(activeFilters => {return {...activeFilters, cardFilterFcs: [tempFilter()]} });
     }
-    let cardPoolList = [];
-    card.pools.forEach((pool) => {
-        cardPoolList.push(<li key={pool}>{pool}</li>);
-    });
+
+    return <Button variant="primary" onClick={handleClick}>Apply filter</Button>;
+
+    // if(!card.hasOwnProperty("pools")){
+    //     return;
+    // }
+    // let cardPoolList = [];
+    // card.pools.forEach((pool) => {
+    //     cardPoolList.push(<li key={pool}>{pool}</li>);
+    // });
     
-    return (
-    <div>
-        <h3>{cardPoolList.length === 1 ? "Card Pool" : "Card Pools"}</h3>
-        <ul>
-            {cardPoolList}
-        </ul>
-    </div>
-    );
+    // return (
+    // <div>
+    //     <h3>{cardPoolList.length === 1 ? "Card Pool" : "Card Pools"}</h3>
+    //     <ul>
+    //         {cardPoolList}
+    //     </ul>
+    // </div>
+    // );
 }
 
 function OtherVersion({card, patch}) {

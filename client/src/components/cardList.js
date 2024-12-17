@@ -64,7 +64,7 @@ export default function MainPage() {
         <FiltersTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters}/>
             <Container>
                 { selectedCard &&
-                (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} />)}
+                (<CardInfoOverlay card={selectedCard} patchId={patchId} setSelectedCard={setSelectedCard} activeCards={activeCards} setActiveFilters={setActiveFilters} />)}
                 <PatchInfo patchId={patchId}/>
                 {cards.length && 
                 (<CardList patchId={patchId} handleClick={setSelectedCard} activeCards={activeCards} />)}
@@ -283,7 +283,7 @@ function defaultSortFc (cards) {
 //         );
 // }
 
-function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
+function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards, setActiveFilters }){
     
     const handleClickingBackground = (event) => {
         if(event.target.classList.contains('outlet-background')){
@@ -324,7 +324,7 @@ function CardInfoOverlay({ card, patchId, setSelectedCard, activeCards }){
         <div className="outlet-background" onClick={handleClickingBackground}>
             <Row>
                 <Col className="outlet-foreground" onKeyDown={handleKeyPress}>
-                    <DisplayCardInfo card={card} patchId={patchId} />
+                    <DisplayCardInfo card={card} patchId={patchId} setActiveFilters={setActiveFilters} />
                     {previousExists && <button onClick={previousCard}>Previous</button>}
                     {nextExists && <button onClick={nextCard}>Next</button>}
                     <button onClick={closeOverlay}>Close</button>

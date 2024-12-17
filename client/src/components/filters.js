@@ -55,6 +55,10 @@ function cardTypeFilter(card, cardType){
     return card.hasOwnProperty("type") && card.type === cardType;
 }
 
+function minionTypeFilter(card, minionType) {
+    return card.hasOwnProperty("races") && card.races.includes(minionType);
+}
+
 function mechanicFilter(card, mechanic){
     return card.hasOwnProperty("mechanics") && card.mechanics.includes(mechanic);
 }
@@ -73,6 +77,10 @@ function withoutDuosFilter(card) {
 
 function onlyDuosFilter(card) {
    return card.hasOwnProperty("isDuoCard");
+}
+
+export function tempFilter() {
+    return {startOfCombat: {fc: mechanicFilter, name: "Start of combat", extraArgs: ["START_OF_COMBAT"]}};
 }
 
 export default FilterDropdown;
