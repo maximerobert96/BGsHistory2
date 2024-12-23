@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/esm/Button";
-import { tempFilter } from "./filters";
+import { getPoolFilter, tempFilter, tempFilter2, tempFilter3 } from "./filters";
 
 
 export default function DisplayCardInfo({card, patchId, setActiveFilters}) {
@@ -322,9 +322,16 @@ function RelatedCards({ card, patch }) {
 
 function CardPools({card, patch, setActiveFilters}) {
 
-    const handleClick = () => {
-        setActiveFilters(activeFilters => {return {...activeFilters, cardFilterFcs: [tempFilter()]} });
+    if(!card.hasOwnProperty("pools")){
+        return;
     }
+
+    const handleClick = () => {
+        // setActiveFilters(activeFilters => {return {...activeFilters, cardFilterFcs: [tempFilter(), tempFilter2(card)]} });
+        let poolFilter = getPoolFilter(card.pools[0]);
+        setActiveFilters(activeFilters => {return {...activeFilters, cardFilterFcs: [poolFilter]} });
+    }
+
 
     return <Button variant="primary" onClick={handleClick}>Apply filter</Button>;
 

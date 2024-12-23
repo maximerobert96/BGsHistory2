@@ -67,6 +67,8 @@ function discoverFilter(card){
     return mechanicFilter(card, "DISCOVER") || (card.hasOwnProperty("referencedTags") && card.referencedTags.includes("DISCOVER"));
 }
 
+
+
 function activeCardsFilter(card) {
     return true;
 }
@@ -80,7 +82,34 @@ function onlyDuosFilter(card) {
 }
 
 export function tempFilter() {
-    return {startOfCombat: {fc: mechanicFilter, name: "Start of combat", extraArgs: ["START_OF_COMBAT"]}};
+    return {murlocFilter: {fc: minionTypeFilter, name: "Murloc", extraArgs: ["MURLOC"]}};
+}
+
+function withoutItselfFilter(card, dbfId) {
+    return card.dbfId != dbfId;
+}
+
+export function tempFilter2(card) {
+    return {withoutItself: {fc: withoutItselfFilter, name: "Without Itself", extraArgs: [card.dbfId]}};
+}
+
+export function tempFilter3() {
+    return {faelin: {fc: faelinFilter, name: "Faelin"}};
+}
+
+function faelinFilter(card) {
+    return cardTypeFilter(card, "MINION") && (tierFilter(card, 2) || tierFilter(card, 4) || tierFilter(card, 6));
+}
+
+export function getPoolFilter(filterName) {
+    switch (filterName) {
+        case "MURLOC_POOL":
+            return {murlocFilter: {fc: minionTypeFilter, name: "Murloc", extraArgs: ["MURLOC"]}};
+            break;
+    
+        default:
+            break;
+    }
 }
 
 export default FilterDropdown;
