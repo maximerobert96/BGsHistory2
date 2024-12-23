@@ -906,5 +906,23 @@
     "build": "212031",
     "releaseDate": "November 21, 2024",
     "patchNumber": "31.0.3"
+  },
+  "212197": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-gb/news/24163459/31-2-patch-notes",
+    "build": "212197",
+    "releaseDate": "December 3, 2024",
+    "patchNumber": "31.2.0"
+  },
+  "213490": {
+    "patchNotes": "https://eu.forums.blizzard.com/en/hearthstone/t/312-client-update-patch-notes/11277",
+    "build": "213490",
+    "releaseDate": "December 10, 2024",
+    "patchNumber": "31.2.0"
+  },
+  "213852": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24167660/31-2-2-patch-notes",
+    "build": "213852",
+    "releaseDate": "December 17, 2024",
+    "patchNumber": "31.2.2"
   }
 }
