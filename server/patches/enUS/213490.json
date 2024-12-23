@@ -1,0 +1,14 @@
+{
+  "118385": {
+    "battlegroundsSkinParentId": 57110,
+    "cardClass": "NEUTRAL",
+    "dbfId": 118385,
+    "health": 60,
+    "hideStats": true,
+    "id": "TB_BaconShopBob_SKIN_AN",
+    "name": "Zeratul",
+    "rarity": "EPIC",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  }
+}
