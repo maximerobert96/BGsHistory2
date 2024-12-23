@@ -56,7 +56,7 @@ function cardTypeFilter(card, cardType){
 }
 
 function minionTypeFilter(card, minionType) {
-    return card.hasOwnProperty("races") && card.races.includes(minionType);
+    return card.hasOwnProperty("races") && (card.races.includes(minionType) || card.races.includes("ALL"));
 }
 
 function mechanicFilter(card, mechanic){
