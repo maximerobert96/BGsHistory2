@@ -2556,22 +2556,6 @@
     "text": "<b>Battlecry and Start of Combat:</b> Give your\nother Dragons +2/+2.",
     "type": "MINION"
   },
-  "100596": {
-    "cardClass": "NEUTRAL",
-    "cost": 1,
-    "dbfId": 100596,
-    "id": "EBG_Spell_014",
-    "name": "Pointy Arrow",
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "targetingArrowText": "Give +4 Attack.",
-    "techLevel": 1,
-    "text": "Give a minion\n+4 Attack.",
-    "type": "BATTLEGROUND_SPELL",
-    "associatedTribes": [
-      "GENERAL"
-    ]
-  },
   "100718": {
     "artist": "Grafit",
     "attack": 5,
@@ -2923,39 +2907,6 @@
       "MURLOC"
     ]
   },
-  "104438": {
-    "cardClass": "NEUTRAL",
-    "cost": 2,
-    "dbfId": 104438,
-    "id": "BG28_812",
-    "name": "Ritual of Growth",
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "techLevel": 4,
-    "text": "Replace all cards in\nthe Tavern with ones\nof a Tier higher.",
-    "type": "BATTLEGROUND_SPELL",
-    "associatedTribes": [
-      "GENERAL"
-    ]
-  },
-  "104465": {
-    "cardClass": "NEUTRAL",
-    "cost": 5,
-    "dbfId": 104465,
-    "id": "BG28_821",
-    "name": "Top of the Beanstalk",
-    "referencedTags": [
-      "DISCOVER"
-    ],
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "techLevel": 5,
-    "text": "<b>Discover</b> a minion from <b>Tavern Tier 6</b>.",
-    "type": "BATTLEGROUND_SPELL",
-    "associatedTribes": [
-      "GENERAL"
-    ]
-  },
   "104468": {
     "attack": 5,
     "battlegroundsPremiumDbfId": 104471,
@@ -3017,24 +2968,6 @@
     "associatedTribes": [
       "ELEMENTAL",
       "PIRATE"
-    ]
-  },
-  "104535": {
-    "cardClass": "NEUTRAL",
-    "cost": 3,
-    "dbfId": 104535,
-    "id": "BG28_871",
-    "mechanics": [
-      "DISCOVER"
-    ],
-    "name": "Buddy Up",
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "techLevel": 5,
-    "text": "<b>Discover</b> a Buddy.",
-    "type": "BATTLEGROUND_SPELL",
-    "associatedTribes": [
-      "GENERAL"
     ]
   },
   "104554": {
@@ -3185,23 +3118,6 @@
       "BEAST"
     ],
     "isBattlegroundsPoolMinion": true
-  },
-  "105250": {
-    "cardClass": "NEUTRAL",
-    "cost": 3,
-    "dbfId": 105250,
-    "id": "BGDUO_113",
-    "name": "Portal in a Bottle",
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "techLevel": 4,
-    "text": "<b>Pass</b> a non-Golden minion.",
-    "type": "BATTLEGROUND_SPELL",
-    "associatedTribes": [
-      "GENERAL"
-    ],
-    "isDuoCard": true,
-    "artist": "Inès (Ourka) Rotzinger"
   },
   "105265": {
     "artist": "Vika Yarova",
@@ -4176,37 +4092,6 @@
       "TAUNT"
     ],
     "text": "<b>Taunt</b>"
-  },
-  "110411": {
-    "cardClass": "NEUTRAL",
-    "cost": 4,
-    "dbfId": 110411,
-    "id": "BG28_605",
-    "name": "Suspicious Stimulant",
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "techLevel": 4,
-    "text": "Choose a minion in the Tavern. Lock it in your hand for 1 turn and double its stats.",
-    "type": "BATTLEGROUND_SPELL",
-    "targetingArrowText": "Lock it in your hand for 1 turn and double its stats.",
-    "associatedTribes": [
-      "ELEMENTAL"
-    ]
-  },
-  "110471": {
-    "cardClass": "NEUTRAL",
-    "cost": 7,
-    "dbfId": 110471,
-    "id": "BG28_609",
-    "name": "Plunder Seeker",
-    "set": "BATTLEGROUNDS",
-    "spellSchool": "TAVERN",
-    "techLevel": 4,
-    "text": "Steal a random card from the Tavern for each Pirate you control.",
-    "type": "BATTLEGROUND_SPELL",
-    "associatedTribes": [
-      "PIRATE"
-    ]
   },
   "110555": {
     "artist": "Guilherme Freitas",
@@ -9079,8 +8964,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isDuoCard": true
+    ]
   },
   "117861": {
     "attack": 5,
@@ -9654,8 +9538,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isDuoCard": true
+    ]
   },
   "119471": {
     "artist": "James Ryman",
@@ -9672,8 +9555,7 @@
     "type": "BATTLEGROUND_SPELL",
     "associatedTribes": [
       "GENERAL"
-    ],
-    "isDuoCard": true
+    ]
   },
   "119510": {
     "cardClass": "NEUTRAL",
