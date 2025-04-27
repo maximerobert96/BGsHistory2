@@ -15,7 +15,7 @@ export default function MainPage() {
     const [cards, setCards] = useState([]);
     const params = useParams();
     const [selectedCard, setSelectedCard] = useState(null);
-    const [activeFilters, setActiveFilters] = useState( {tribes: ["GENERAL", "BEAST", "DEMON", "DRAGON", "ELEMENTAL", "MECHANICAL", "MURLOC", "NAGA", "PIRATE", "QUILBOAR", "UNDEAD"], cardFilterFcs: [], sortFc: defaultSortFc } );
+    const [activeFilters, setActiveFilters] = useState( {tribes: ["GENERAL", "BEAST", "DEMON", "DRAGON", "ELEMENTAL", "MECHANICAL", "MURLOC", "NAGA", "PIRATE", "QUILBOAR", "UNDEAD"], cardFilterFcs: [], sortFc: defaultSortFc, showChanges: false } );
 
     let activeCards = getActiveCards(activeFilters, cards);
 
@@ -95,6 +95,11 @@ function getActiveCards (filters, cards) {
         }
     })
 
+    // filter out cards that are removed in this patch if we're not showing changes
+    if(!filters.showChanges) {
+        activeCards = activeCards.filter(card => !card.hasOwnProperty("removed"));
+    }
+    
     activeCards = applyFilters(filters.cardFilterFcs, activeCards);
     filters.sortFc(activeCards);
 
@@ -381,8 +386,29 @@ function FiltersTable({ cards, setActiveFilters, activeFilters }) {
     return <div className="filter-bar">
         <TribesFilterTable cards={cards} setActiveFilters={setActiveFilters} activeFilters={activeFilters} />
         <FilterDropdown cardPool={cards} setActiveFilters={setActiveFilters} />
+        <ChangesFitler setActiveFilters={setActiveFilters} />
     </div>;
 }
+
+function ChangesFitler({ setActiveFilters }) {
+    return (
+        <label htmlFor="showChanges" key="showChanges">
+            <input 
+                type="checkbox" 
+                id="showChanges" 
+                name="showChanges" 
+                value="showChanges" 
+                defaultChecked={false} 
+                onChange={
+                    function (e) {
+                        setActiveFilters(af => {return {...af, showChanges: e.target.checked}});
+                    }
+                } />
+            {' '}
+            Show Changes
+        </label>
+    );
+ }
 
 function TribesFilterTable({ cards, setActiveFilters, activeFilters }) {
     let allTribes = getTribes(cards);

@@ -60,7 +60,7 @@ function getActiveCardsOfPatchWithChanges(patchId){
             activeCards[cardId].removed = true;
         }
 
-        // skip cards that don't exist for now (might be linked to hero powers or golden versions)
+        // skip cards that don't exist for now (might be linked to hero powers, golden versions, related cards, etc.)
         if(activeCards[cardId] === undefined) {
             continue;
         }
