@@ -24,7 +24,7 @@ cardRoutes.route("/cards/:id").get(function(req, res) {
 
 cardRoutes.route("/:patchId/cards").get(function(req, res) {
     let patchId = req.params.patchId;
-    let activeCards = optimizerFunctions.getActiveCardsOfPatch(patchId);
+    let activeCards = optimizerFunctions.getActiveCardsOfPatchWithChanges(patchId);
     res.json(activeCards);
 });
 

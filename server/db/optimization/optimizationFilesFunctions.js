@@ -17,10 +17,10 @@ function getBuddyPoolJson() {
     return dbManager.getJsonFromFile("./optimization/buddy_pools.json");   
 }
 
-function getActiveCardsOfPatch(patchId){
+function getActiveCardsObjOfPatch(patchId) {
     let activeCardsMappingJson = getActiveCardsMappingJson();
     let mappingActiveCardsOfPatch = activeCardsMappingJson[patchId];
-    let activeCards = [];
+    let activeCards = {};
 
     for(let version in mappingActiveCardsOfPatch){
         let cards = mappingActiveCardsOfPatch[version];
@@ -28,10 +28,50 @@ function getActiveCardsOfPatch(patchId){
         for(let card of cards){
             let activeCard = jsonOfPatch[card];
             activeCard.version = parseInt(version);
-            activeCards.push(activeCard);
+            activeCards[activeCard.dbfId] = activeCard;
         }
     }
     return activeCards;
+}
+
+function getActiveCardsOfPatch(patchId){
+    return Object.values(getActiveCardsObjOfPatch(patchId));
+}
+
+function getActiveCardsOfPatchWithChanges(patchId){
+    let activeCards = getActiveCardsObjOfPatch(patchId);
+    let changesOfPatch = getChangesOfPatch(patchId);
+    let isRemoved;
+
+    for(let cardId in changesOfPatch) {
+        isRemoved = false;
+
+        let cardChange = changesOfPatch[cardId];
+        for(let change of cardChange) {
+            if(change.hasOwnProperty("changeType") && change.changeType === "removal") {
+                isRemoved = true;
+            }
+
+        }
+
+        // adding the card to active cards if it was removed in this patch, but with a removed flag
+        if(isRemoved) {
+            activeCards[cardId] = dbManager.getCardById(cardId, cardChange.oldVersion);
+            activeCards[cardId].removed = true;
+        }
+
+        // skip cards that don't exist for now (might be linked to hero powers or golden versions)
+        if(activeCards[cardId] === undefined) {
+            continue;
+        }
+
+        activeCards[cardId].changes = cardChange;
+    }
+
+    // we look at the changes of patch
+    // if a card was removed (it's not in the active cards of this patch), we add it to the active cards with the removed flag
+
+    return Object.values(activeCards);
 }
 
 function getChangesOfPatch(patchId) {
@@ -109,5 +149,5 @@ function getBuddies(patchId) {
 
 
 module.exports = {
-    getActiveCardsOfPatch, getChangesOfPatch, getPutricideCards, getBuddies
+    getActiveCardsOfPatch, getActiveCardsOfPatchWithChanges, getChangesOfPatch, getPutricideCards, getBuddies
 }
