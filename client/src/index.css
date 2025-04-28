@@ -21,6 +21,16 @@ code {
   height: auto;
 }
 
+.removed-card {
+  background-color: gray;
+  background-blend-mode: screen;
+}
+
+.changed-card {
+  background-color: yellowgreen;
+  background-blend-mode: screen;
+}
+
 .small-hero-container {
   width: 75px;
   height: auto;
