@@ -1,0 +1,1515 @@
+{
+  "57635": {
+    "armor": 14,
+    "artist": "Konstantin Turovec",
+    "battlegroundsBuddyDbfId": 77494,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57635,
+    "health": 30,
+    "heroPowerDbfId": 57555,
+    "id": "TB_BaconShop_HERO_02",
+    "name": "Galakrond",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "57893": {
+    "armor": 12,
+    "artist": "Steve Ellis",
+    "battlegroundsBuddyDbfId": 77843,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57893,
+    "health": 30,
+    "heroPowerDbfId": 63127,
+    "id": "TB_BaconShop_HERO_12",
+    "name": "The Rat King",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "57924": {
+    "armor": 18,
+    "artist": "L. Lullabi & K. Turovec",
+    "battlegroundsBuddyDbfId": 77629,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57924,
+    "health": 30,
+    "heroPowerDbfId": 59863,
+    "id": "TB_BaconShop_HERO_14",
+    "name": "Queen Wagtoggle",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "57944": {
+    "armor": 20,
+    "artist": "Adam Byrne",
+    "battlegroundsBuddyDbfId": 77774,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57944,
+    "health": 30,
+    "heroPowerDbfId": 59891,
+    "id": "TB_BaconShop_HERO_16",
+    "name": "A. F. Kay",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "58027": {
+    "armor": 7,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 77827,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58027,
+    "health": 30,
+    "heroPowerDbfId": 58028,
+    "id": "TB_BaconShop_HERO_23",
+    "name": "Shudderwock",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "59806": {
+    "armor": 15,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 77477,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59806,
+    "health": 30,
+    "heroPowerDbfId": 59860,
+    "id": "TB_BaconShop_HERO_36",
+    "name": "Dancin' Deryl",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "60366": {
+    "armor": 14,
+    "artist": "Jim Nelson",
+    "battlegroundsBuddyDbfId": 77803,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60366,
+    "health": 30,
+    "heroPowerDbfId": 60405,
+    "id": "TB_BaconShop_HERO_49",
+    "name": "Millhouse Manastorm",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "60372": {
+    "armor": 17,
+    "artist": "Arthur Bozonnet",
+    "battlegroundsBuddyDbfId": 77786,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60372,
+    "health": 30,
+    "heroPowerDbfId": 60448,
+    "id": "TB_BaconShop_HERO_55",
+    "name": "Fungalmancer Flurgl",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ],
+    "battlegroundsBuddyDbfId": 77468,
+    "battlegroundsHero": true
+  },
+  "62266": {
+    "armor": 8,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 77776,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 62266,
+    "health": 30,
+    "heroPowerDbfId": 62267,
+    "id": "TB_BaconShop_HERO_67",
+    "name": "Captain Hooktusk",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "63602": {
+    "armor": 14,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 77511,
+    "cardClass": "NEUTRAL",
+    "dbfId": 63602,
+    "health": 30,
+    "heroPowerDbfId": 63600,
+    "id": "TB_BaconShop_HERO_72",
+    "name": "Lord Barov",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "64403": {
+    "armor": 15,
+    "artist": "Raymond Swanland",
+    "battlegroundsBuddyDbfId": 77447,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64403,
+    "health": 30,
+    "heroPowerDbfId": 64402,
+    "id": "TB_BaconShop_HERO_76",
+    "name": "Al'Akir",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "64480": {
+    "armor": 12,
+    "artist": "Ivan Fomin",
+    "battlegroundsBuddyDbfId": 77829,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64480,
+    "health": 30,
+    "heroPowerDbfId": 64481,
+    "id": "TB_BaconShop_HERO_90",
+    "name": "Silas Darkmoon",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "68129": {
+    "armor": 8,
+    "artist": "Paul Mafayon",
+    "battlegroundsBuddyDbfId": 77790,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 68129,
+    "health": 30,
+    "heroPowerDbfId": 68130,
+    "id": "BG20_HERO_242",
+    "name": "Guff Runetotem",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "74631": {
+    "armor": 12,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 77796,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 74631,
+    "health": 30,
+    "heroPowerDbfId": 104875,
+    "id": "BG20_HERO_280",
+    "name": "Kurtrus Ashfallen",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "79618": {
+    "armor": 10,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ],
+    "battlegroundsHero": true
+  },
+  "80832": {
+    "armor": 14,
+    "artist": "Arthur Bozonnet",
+    "battlegroundsBuddyDbfId": 82600,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 80832,
+    "health": 30,
+    "heroPowerDbfId": 81572,
+    "id": "BG22_HERO_200",
+    "name": "Ini Stormcoil",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "82110": {
+    "armor": 18,
+    "artist": "Alex Stone",
+    "battlegroundsBuddyDbfId": 77890,
+    "cardClass": "NEUTRAL",
+    "dbfId": 82110,
+    "health": 30,
+    "heroPowerDbfId": 82114,
+    "id": "BG22_HERO_305",
+    "name": "Onyxia",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "84867": {
+    "armor": 10,
+    "artist": "Matt Dixon",
+    "battlegroundsBuddyDbfId": 98656,
+    "cardClass": "NEUTRAL",
+    "dbfId": 84867,
+    "health": 30,
+    "heroPowerDbfId": 90403,
+    "id": "BG23_HERO_303",
+    "name": "Murloc Holmes",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "86013": {
+    "armor": 18,
+    "artist": "Zoltan Boros",
+    "battlegroundsBuddyDbfId": 98635,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 86013,
+    "health": 30,
+    "heroPowerDbfId": 86014,
+    "id": "BG23_HERO_201",
+    "name": "Ozumat",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "97813": {
+    "armor": 15,
+    "artist": "Mike Sass",
+    "battlegroundsBuddyDbfId": 101442,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97813,
+    "health": 30,
+    "heroPowerDbfId": 97814,
+    "id": "BG25_HERO_100",
+    "name": "Professor Putricide",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "98509": {
+    "artist": "Sam Nielson",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 98513,
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 98509,
+    "health": 4,
+    "id": "BG26_137",
+    "name": "Bream Counter",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "While this is in your hand, after you play a Murloc, gain +4/+4.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "98513": {
+    "artist": "Sam Nielson",
+    "attack": 8,
+    "battlegroundsNormalDbfId": 98509,
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 98513,
+    "health": 8,
+    "id": "BG26_137_G",
+    "name": "Bream Counter",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "While this is in your hand, after you play a Murloc, gain +8/+8.",
+    "type": "MINION"
+  },
+  "98930": {
+    "artist": "Anton Zemskov & Timur Shevtsov",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 98934,
+    "cardClass": "DRUID",
+    "cost": 0,
+    "dbfId": 98930,
+    "health": 5,
+    "id": "BG26_159",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Moon-Bacon Jazzer",
+    "race": "QUILBOAR",
+    "races": [
+      "QUILBOAR"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "QUILBOAR"
+    ],
+    "relatedCards": [
+      70136
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "103477": {
+    "armor": 17,
+    "artist": "Grafit",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 103477,
+    "flavor": "Meetings always reach quorum when they're led by Thorim.",
+    "health": 30,
+    "heroPowerDbfId": 104628,
+    "id": "BG27_HERO_801",
+    "name": "Thorim, Stormlord",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsBuddyDbfId": 113557
+  },
+  "104468": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 104471,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104468,
+    "elite": true,
+    "health": 7,
+    "id": "BG28_551",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nalaa the Redeemer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever you cast a Tavern spell, give a friendly minion of each type +3/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "104471": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 104468,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 104471,
+    "elite": true,
+    "health": 14,
+    "id": "BG28_551_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nalaa the Redeemer",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "Whenever you cast a Tavern spell, give a friendly minion of each type +6/+4.",
+    "type": "MINION"
+  },
+  "105434": {
+    "armor": 12,
+    "artist": "Juan Calle",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 105434,
+    "health": 30,
+    "heroPowerDbfId": 110472,
+    "id": "BG28_HERO_801",
+    "name": "Doctor Holli'dae",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsBuddyDbfId": 113631
+  },
+  "107185": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 107185,
+    "id": "BG27_Anomaly_574t2",
+    "name": "Consolation Coin Pouch",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]Gain 3 Gold.\n<i>(There were no available\nminions to <b>Discover</b>.)</i>",
+    "type": "SPELL"
+  },
+  "110975": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 110975,
+    "id": "BG30_MagicItem_868",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Rewinder Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Get a Soul Rewinder\nand a Wrath Weaver.\nYour Soul Rewinders\nalso gain Attack.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111109": {
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 111109,
+    "id": "BG32_MagicItem_844",
+    "name": "Sacrificial Altar",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "Remove all your minions. Gain 4 Gold for each removed.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111255": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 111255,
+    "id": "BG30_MagicItem_825",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Smuggler Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Get a Whelp Smuggler.\nSet its stats to 12/12.\nYour Whelp Smugglers\nare Dragons.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111387": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 111387,
+    "id": "BG32_MagicItem_350",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Splinter of Aurum",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]When you have 15 Gold,\nget a random Golden\nTier 5 minion.\n<i>(Once per game.)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111607": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 111607,
+    "id": "BG30_MagicItem_418",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Bronzebeard Portrait",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a Brann Bronzebeard and\na random <b>Battlecry</b> minion.\nYour Brann Bronzebeards are\nboth Murlocs and Dragons.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON",
+      "MURLOC"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "111976": {
+    "artist": "Kevin Sidharta",
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 111976,
+    "id": "BG30_MagicItem_978",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Blingtron's Sunglasses",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]After you summon a Mech\nin combat, give a friendly\nMech <b>Divine Shield</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112001": {
+    "artist": "Tanamaes Leejierasaes",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 112001,
+    "id": "BG30_MagicItem_425",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Azeroth Model Globe",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]At the start of every two\nturns, gain 2 Gold and\n<b>Discover</b> a Tier 6 minion.\n<i>(2 turns left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112009": {
+    "artist": "Vika Yarova",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 112009,
+    "id": "BG30_MagicItem_986",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Peacebloom Candle",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "The first 2 Tavern spells you buy each turn are free. <i>(2 left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112382": {
+    "artist": "Vika Yarova",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 112382,
+    "id": "BG30_MagicItem_541",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nether Pendant",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Minions in the Tavern have\n+{1}/+{1}. Upgrades every 3\ntimes your hero takes damage\n  outside combat. <i>({0} left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DEMON"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112397": {
+    "artist": "Vlad Botos",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 112397,
+    "id": "BG30_MagicItem_545",
+    "mechanics": [
+      "AVENGE"
+    ],
+    "name": "Fridge Magnet",
+    "referencedTags": [
+      "MAGNETIC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]<b>Avenge (3):</b> Get a random\n<b>Magnetic</b> minion.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112402": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 112402,
+    "id": "BG30_MagicItem_432",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Belcher Portrait",
+    "referencedTags": [
+      "VENOMOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Get an Operatic Belcher.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+4/+4 permanently.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "relatedCards": [
+      115240
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112411": {
+    "artist": "Kati Sarin",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 112411,
+    "id": "BG30_MagicItem_995",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Bronze Timepiece",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]<b>Start of Combat:</b> Give each\nof your minions Health\nequal to half its Attack.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "DRAGON",
+      "UNDEAD"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "112990": {
+    "artist": "Kevin Sidharta",
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 112990,
+    "id": "BG30_MagicItem_439",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Designer Eyepatch",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "You only need 2 copies of a Pirate to make it Golden.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "113102": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 113102,
+    "id": "BG30_MagicItem_999",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fancy Spellbook",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "After you spend 7 Gold, get a random Tavern spell. <i>(7 Gold left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "PIRATE"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "113310": {
+    "armor": 10,
+    "artist": "Zoltan Boros",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 113310,
+    "health": 30,
+    "heroPowerDbfId": 113311,
+    "id": "BG30_HERO_304",
+    "name": "Marin the Manager",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "115235": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 115235,
+    "id": "BG30_MagicItem_544t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Nomi Sticker",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]After you play an\nElemental, Elementals in\nthe Tavern have +4/+4\nthis game.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "ELEMENTAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "115240": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 115240,
+    "id": "BG30_MagicItem_432t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Belcher Portrait",
+    "referencedTags": [
+      "VENOMOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get an Operatic Belcher.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+14/+14 permanently.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117416": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 117416,
+    "id": "BG30_MagicItem_422t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lorewalker Scroll",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Whenever you cast a\nspell on a minion,\ngive it +7/+7.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "NAGA",
+      "QUILBOAR"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "117894": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 117894,
+    "id": "BG30_MagicItem_709",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Electromagnetic Device",
+    "referencedTags": [
+      "DISCOVER",
+      "MAGNETIC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]<b>Discover</b> a <b>Magnetic</b>\nMech. Whenever a friendly\nminion is <b>Magnetized</b>,\ngive it +3/+3.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "118510": {
+    "armor": 17,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 118510,
+    "health": 30,
+    "heroPowerDbfId": 119196,
+    "id": "BG31_HERO_802",
+    "name": "Artanis",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "artist": "Grafit"
+  },
+  "120145": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 120145,
+    "id": "BG32_MagicItem_807",
+    "name": "Curator Sticker",
+    "referencedTags": [
+      "VENOMOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Get a 20/20 Mishmash and a 20/20 Amalgam with <b>Venomous</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120161": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 120161,
+    "id": "BG32_MagicItem_802t",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Fountain Pen",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Your Elementals that give stats grant an extra +4/+2.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120215": {
+    "artist": "Ira Fidler",
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 120216,
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 120215,
+    "health": 5,
+    "id": "BG32_860",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shoalfin Mystic",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Your Tavern spells\nthat give stats grant an\n extra +1/+1 this game.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "120216": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 120215,
+    "cardClass": "SHAMAN",
+    "cost": 0,
+    "dbfId": 120216,
+    "health": 10,
+    "id": "BG32_860_G",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "name": "Shoalfin Mystic",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Battlecry:</b> Your Tavern spells\nthat give stats grant an\n extra +2/+2 this game.",
+    "type": "MINION"
+  },
+  "120358": {
+    "armor": 12,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 120358,
+    "health": 30,
+    "heroPowerDbfId": 120362,
+    "id": "BG31_HERO_811",
+    "name": "Kerrigan, Queen of Blades",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      120359
+    ],
+    "artist": "James Ryman"
+  },
+  "120606": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 120606,
+    "id": "BG32_MagicItem_920",
+    "name": "Thaumaturgist Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a Thaumaturgist.\nYour Thaumaturgists'\n<b>Spellcrafts</b> are permanent.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120619": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 120619,
+    "id": "BG32_MagicItem_922",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Charming Panpipes",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]At the end of each turn,\ngive your left-most minion\n+{0}/+{0}. After you cast\na spell, improve this.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120705": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 120705,
+    "id": "BG32_MagicItem_888",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Recycling Sticker",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "After you play an Elemental, gain a free <b>Refresh</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120799": {
+    "artist": "BOSi Studio",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 120799,
+    "id": "BG32_MagicItem_806",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Battlecruiser Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Get an 8/8 Battlecruiser.\nWhenever the Tavern is\n<b>Refreshed</b>, add a\nBattlecruiser Upgrade to it.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120863": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 120863,
+    "id": "BG32_MagicItem_700",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Marvelous Mushroom",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Your Tavern spells that\ngive stats grant an extra\n+{0} Health. At the start of\neach turn, increase this by 1.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120867": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 120867,
+    "id": "BG32_MagicItem_953",
+    "name": "Goldgrubber Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "Get a Goldgrubber and an Aureate Laureate.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120870": {
+    "artist": "Inès (Ourka) Rotzinger",
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]Whenever a friendly\nDragon attacks, give it\n<b>Divine Shield</b>.\n<i>({0} left!)</i>",
+    "cost": 5,
+    "dbfId": 120870,
+    "id": "BG32_MagicItem_363",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Faerie Dragon Scale",
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Whenever a friendly\nDragon attacks, give it\n<b>Divine Shield</b>.\n<i>(3 times per combat.)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120875": {
+    "artist": "Alex Horley Orlandelli",
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 120875,
+    "id": "BG32_MagicItem_364",
+    "name": "Poet Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a Persistent Poet,\na Prized Promo-Drake,\nand a Bronze Steward.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120900": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 120900,
+    "id": "BG32_815",
+    "isBattlegroundsPoolSpell": true,
+    "name": "Shifting Tide",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "TAVERN",
+    "targetingArrowText": "Give +{0}/+{1} twice. Repeat if Naga.",
+    "techLevel": 4,
+    "text": "[x]Give a minion +{0}/+{1}\ntwice. If it's a Naga,\n repeat this.",
+    "type": "BATTLEGROUND_SPELL",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "120926": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 120926,
+    "id": "BG32_MagicItem_306",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Herald Sticker",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]<b>Start of Combat:</b> Trigger\nall friendly <b>Deathrattles</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120932": {
+    "artist": "Ira Fidler",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 120932,
+    "id": "BG32_MagicItem_200",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "All-Purpose Kibble",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Whenever a friendly Beast\nattacks, give it +{0} Attack\nand permanently improve\nthis.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120967": {
+    "artist": "Ivo Campelo da Silva",
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 120967,
+    "id": "BG32_MagicItem_365",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Valdrakken Wind Chimes",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Your <b>Start of Combat</b> effects trigger twice.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121034": {
+    "artist": "Topdog Entertainment",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 121034,
+    "id": "BG32_MagicItem_823",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Wax Imprinter",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]Gain 2 Gold and take\n2 damage. At the start\nof each turn, repeat this\n<i>(if possible)</i>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121035": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 121035,
+    "id": "BG32_MagicItem_231t",
+    "name": "Gilded Anchor",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "At the end of each turn, give your Golden minions +10/+10.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121059": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 121059,
+    "id": "BG32_MagicItem_824",
+    "name": "Implicator Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "Get 2 False Implicators. Your Demons always consume the highest-Health minion in the Tavern.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121109": {
+    "cardClass": "NEUTRAL",
+    "cost": 5,
+    "dbfId": 121109,
+    "id": "BG32_MagicItem_925",
+    "name": "Hackerfin Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Get a Hackerfin. At the end of each turn, trigger your Hackerfins' <b>Battlecries</b>.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "referencedTags": [
+      "BATTLECRY"
+    ]
+  },
+  "121112": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 121112,
+    "id": "BG32_MagicItem_800",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Theotar Sticker",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "After you play a minion with no type, give a friendly minion of each type +10/+10.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121129": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 121129,
+    "id": "BG32_MagicItem_282",
+    "name": "Turbocharged Drill",
+    "referencedTags": [
+      "MAGNETIC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "Get 5 different <b>Magnetic</b> Mechs of ANY Tier.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121132": {
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 121132,
+    "id": "BG32_MagicItem_284",
+    "name": "Aggem Sticker",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "At the end of your turn, play 4 <b>Blood Gems</b> on a friendly minion of each type.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121134": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 121134,
+    "id": "BG32_MagicItem_286",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lavish Cape",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "You cast a random Tavern spell for each different friendly minion type. At the start of each turn, repeat this.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121135": {
+    "artist": "Marta Vives Poch",
+    "attack": 8,
+    "battlegroundsPremiumDbfId": 121136,
+    "cardClass": "HUNTER",
+    "cost": 0,
+    "dbfId": 121135,
+    "health": 3,
+    "id": "BG32_204",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Silky Shimmermoth",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After this gains Attack, your\nBeetles have +3/+2 this\ngame. <b>Deathrattle:</b> Summon\na {0}/{1} Beetle.",
+    "type": "MINION",
+    "associatedTribes": [
+      "BEAST"
+    ]
+  },
+  "121136": {
+    "attack": 16,
+    "battlegroundsNormalDbfId": 121135,
+    "cardClass": "HUNTER",
+    "cost": 0,
+    "dbfId": 121136,
+    "health": 6,
+    "id": "BG32_204_G",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Silky Shimmermoth",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]After this gains Attack, your\nBeetles have +6/+4 this\ngame. <b>Deathrattle:</b> Summon\ntwo {0}/{1} Beetles.",
+    "type": "MINION"
+  },
+  "121498": {
+    "artist": "Ivo Campelo da Silva",
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 121498,
+    "id": "BG32_MagicItem_362",
+    "name": "Innkeeper's Hearth",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "[x]<b>Discover</b> a minion of\nyour Tier. Set its stats\nto 15/15.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true,
+    "relatedCards": [
+      121684
+    ]
+  },
+  "121499": {
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 121499,
+    "id": "BG32_MagicItem_944",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Empowerment Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get an Azerite\nEmpowerment. At the\nstart of each turn, get\nanother.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "121558": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 121558,
+    "id": "BG32_MagicItem_205",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Maw Caster Portrait",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a Maw Caster.\nWhenever you destroy a\nminion outside combat,\nget a 3-Gold Coin Pouch.",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsTrinket": true,
+    "relatedCards": [
+      121944
+    ]
+  },
+  "122788": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 122788,
+    "id": "BG32_Anomaly_001",
+    "name": "Greater Pouches",
+    "set": "BATTLEGROUNDS",
+    "text": "On Turns 6 and 9, buy a Greater <b>Trinket</b>. There are no Lesser <b>Trinkets</b> in this game.",
+    "type": "BATTLEGROUND_ANOMALY"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "102092": {
+    "artist": "Milivoj Ceran",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102092,
+    "id": "BG27_Anomaly_754",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Path of the Treasure-Seeker",
+    "set": "BATTLEGROUNDS",
+    "text": "After you <b>Refresh</b> 5 times, find the <b>Golden</b> Monkey! <i>(",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "102093": {
+    "artist": "Eva Widermann",
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102093,
+    "id": "BG27_Anomaly_755",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "A Faire Reward",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier {1}</b> Darkmoon Prize.\n<i>(Improves in {0} turns!)</i>",
+    "type": "BATTLEGROUND_ANOMALY",
+    "relatedCards": [
+      102094
+    ]
+  },
+  "106500": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 106500,
+    "id": "BG27_Anomaly_562",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Anomalous Wisdomball",
+    "set": "BATTLEGROUNDS",
+    "text": "You occasionally get\nhelpful <b>Refreshes</b>!\n<i>(Unlocks on Turn 6.)</i>",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "115589": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 115590,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 115589,
+    "elite": true,
+    "health": 6,
+    "id": "BG31_840",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Bonerender",
+    "race": "PIRATE",
+    "races": [
+      "UNDEAD",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you summon a\ndifferent minion in combat,\nsummon an extra copy\nof it.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "PIRATE"
+    ]
+  },
+  "115590": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 115589,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 115590,
+    "elite": true,
+    "health": 12,
+    "id": "BG31_840_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Bonerender",
+    "race": "PIRATE",
+    "races": [
+      "UNDEAD",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you summon a\ndifferent minion in combat,\nsummon two extra copies\nof it.",
+    "type": "MINION"
+  },
+  "117060": {
+    "artist": "Steve Prescott",
+    "attack": 2,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 2,
+    "countAsCopyOfDbfId": 43121,
+    "dbfId": 117060,
+    "flavor": "Fortunately he has an even number of fingers.",
+    "health": 4,
+    "howToEarn": "Unlocked with Warlock class.",
+    "howToEarnGolden": "Unlocked after winning 50 games as Warlock.",
+    "id": "CORE_LOOT_013",
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "name": "Vulgar Homunculus",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "rarity": "COMMON",
+    "set": "CORE",
+    "techLevel": 1,
+    "text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+    "type": "MINION"
+  },
+  "117061": {
+    "artist": "Mike Sass",
+    "attack": 2,
+    "cardClass": "WARLOCK",
+    "collectible": true,
+    "cost": 1,
+    "countAsCopyOfDbfId": 56112,
+    "dbfId": 117061,
+    "flavor": "Putting the \"r\" in fiend.",
+    "health": 1,
+    "howToEarn": "Unlocked with Warlock class.",
+    "howToEarnGolden": "Unlocked after winning 50 games as Warlock.",
+    "id": "CORE_YOD_026",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Fiendish Servant",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "rarity": "COMMON",
+    "set": "CORE",
+    "techLevel": 1,
+    "text": "[x]<b>Deathrattle:</b> Give this\nminion's Attack to a random\nfriendly minion.",
+    "type": "MINION"
+  },
+  "118670": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 118670,
+    "id": "BG31_Anomaly_114",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Factory Line",
+    "set": "BATTLEGROUNDS",
+    "text": "At the end of every 2 turns, get a plain copy of your left-most minion. <i>({0} turns left!)</i>",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "118671": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 118671,
+    "id": "BG31_Anomaly_109",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mystical Blossom",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of each turn, <b>Discover</b> a Tavern spell. <i>(Unlocks on Turn 3.)</i>",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "118673": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 118673,
+    "id": "BG31_Anomaly_116",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Light the Way",
+    "set": "BATTLEGROUNDS",
+    "text": "After you <b>Refresh</b> two times, gain 1 Gold next turn. <i>(",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "118674": {
+    "cost": 0,
+    "dbfId": 118674,
+    "id": "BG31_Anomaly_115",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Magic Shop",
+    "referencedTags": [
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "text": "Spell Tickets are in the Tavern! Get 3 to <b>Discover</b> a Tavern spell\nof your Tier. <i>(",
+    "type": "BATTLEGROUND_ANOMALY",
+    "relatedCards": [
+      118675
+    ]
+  },
+  "119748": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 119748,
+    "id": "BG31_Anomaly_126",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Planar Alignment",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of each turn, get a random minion of your most common type. <i>(Unlocks on Turn 2.)</i>",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "120377": {
+    "artist": "Juan Calle",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 120375,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 120377,
+    "health": 4,
+    "id": "BG31_HERO_811t6_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mutalisk",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "[x]After a friendly minion\nkills an enemy, gain\n+2 Attack  permanently.\n<i>(Morphs each turn!)</i>",
+    "type": "MINION"
+  }
+}
