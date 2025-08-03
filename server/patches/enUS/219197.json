@@ -1,0 +1,1122 @@
+{
+  "57635": {
+    "armor": 16,
+    "artist": "Konstantin Turovec",
+    "battlegroundsBuddyDbfId": 77494,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57635,
+    "health": 30,
+    "heroPowerDbfId": 57555,
+    "id": "TB_BaconShop_HERO_02",
+    "name": "Galakrond",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "57944": {
+    "armor": 18,
+    "artist": "Adam Byrne",
+    "battlegroundsBuddyDbfId": 77774,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 57944,
+    "health": 30,
+    "heroPowerDbfId": 59891,
+    "id": "TB_BaconShop_HERO_16",
+    "name": "A. F. Kay",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "58535": {
+    "armor": 20,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 77475,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 58535,
+    "health": 30,
+    "heroPowerDbfId": 66246,
+    "id": "TB_BaconShop_HERO_29",
+    "name": "C'Thun",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "59814": {
+    "armor": 13,
+    "artist": "Sean McNally",
+    "battlegroundsBuddyDbfId": 77508,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 59814,
+    "health": 30,
+    "heroPowerDbfId": 59815,
+    "id": "TB_BaconShop_HERO_38",
+    "name": "King Mukla",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "60369": {
+    "armor": 15,
+    "artist": "Ludo Lullabi",
+    "battlegroundsBuddyDbfId": 77782,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60369,
+    "health": 30,
+    "heroPowerDbfId": 61406,
+    "id": "TB_BaconShop_HERO_52",
+    "name": "Deathwing",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "60372": {
+    "armor": 10,
+    "artist": "Arthur Bozonnet",
+    "battlegroundsBuddyDbfId": 77786,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 60372,
+    "health": 30,
+    "heroPowerDbfId": 60448,
+    "id": "TB_BaconShop_HERO_55",
+    "name": "Fungalmancer Flurgl",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "61488": {
+    "armor": 5,
+    "artist": "Raymond Swanland",
+    "battlegroundsBuddyDbfId": 77448,
+    "cardClass": "NEUTRAL",
+    "dbfId": 61488,
+    "health": 30,
+    "heroPowerDbfId": 61517,
+    "id": "TB_BaconShop_HERO_56",
+    "name": "Alexstrasza",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "battlegroundsHero": true
+  },
+  "61910": {
+    "armor": 12,
+    "artist": "Luke Mancini",
+    "cardClass": "NEUTRAL",
+    "dbfId": 61910,
+    "health": 30,
+    "heroPowerDbfId": 61915,
+    "id": "TB_BaconShop_HERO_59",
+    "name": "Aranna Starseeker",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "relatedCards": [
+      61911
+    ],
+    "battlegroundsBuddyDbfId": 77468,
+    "battlegroundsHero": true
+  },
+  "64400": {
+    "armor": 19,
+    "artist": "Konstantin Turovec",
+    "battlegroundsBuddyDbfId": 77823,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 64400,
+    "health": 30,
+    "heroPowerDbfId": 64401,
+    "id": "TB_BaconShop_HERO_75",
+    "name": "Rakanishu",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "65662": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 65671,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65662,
+    "elite": true,
+    "health": 2,
+    "id": "BGS_202",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn, gain\n+2/+2 for each different\nfriendly minion type.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "65671": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 65662,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 65671,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconUps_258",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Mythrax the Unraveler",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]At the end of your turn, gain\n+4/+4 for each different\nfriendly minion type.",
+    "type": "MINION"
+  },
+  "68129": {
+    "armor": 6,
+    "artist": "Paul Mafayon",
+    "battlegroundsBuddyDbfId": 77790,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 68129,
+    "health": 30,
+    "heroPowerDbfId": 68130,
+    "id": "BG20_HERO_242",
+    "name": "Guff Runetotem",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "70956": {
+    "armor": 12,
+    "artist": "James Ryman",
+    "battlegroundsBuddyDbfId": 77851,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 70956,
+    "health": 30,
+    "heroPowerDbfId": 70957,
+    "id": "BG20_HERO_101",
+    "name": "Xyrella",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "71454": {
+    "armor": 20,
+    "artist": "Glenn Rane",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71454,
+    "health": 30,
+    "heroPowerDbfId": 71455,
+    "id": "BG20_HERO_102",
+    "name": "Overlord Saurfang",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsBuddyDbfId": 77813
+  },
+  "71458": {
+    "armor": 18,
+    "artist": "Samwise Didier",
+    "battlegroundsBuddyDbfId": 77478,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 71458,
+    "health": 30,
+    "heroPowerDbfId": 71459,
+    "id": "BG20_HERO_103",
+    "name": "Death Speaker Blackthorn",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "QUILBOAR"
+    ]
+  },
+  "72073": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 73452,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 72073,
+    "health": 2,
+    "id": "BG21_014",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prized Promo-Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "<b>Start of Combat:</b> Give your Dragons +3/+3.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "73452": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 72073,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 73452,
+    "health": 4,
+    "id": "BG21_014_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Prized Promo-Drake",
+    "race": "DRAGON",
+    "set": "BATTLEGROUNDS",
+    "text": "<b>Start of Combat:</b> Give your Dragons +6/+6.",
+    "type": "MINION",
+    "races": [
+      "DRAGON"
+    ],
+    "techLevel": 4
+  },
+  "73940": {
+    "armor": 16,
+    "artist": "Ursula Dorada",
+    "battlegroundsBuddyDbfId": 77778,
+    "cardClass": "NEUTRAL",
+    "dbfId": 73940,
+    "health": 30,
+    "heroPowerDbfId": 73941,
+    "id": "BG21_HERO_000",
+    "name": "Cariel Roame",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "74646": {
+    "armor": 15,
+    "artist": "BOSi Studio",
+    "battlegroundsBuddyDbfId": 77878,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 74646,
+    "health": 30,
+    "heroPowerDbfId": 77911,
+    "id": "BG20_HERO_282",
+    "name": "Tamsin Roame",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "75702": {
+    "armor": 8,
+    "artist": "Chris Bjors",
+    "battlegroundsBuddyDbfId": 77788,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 75702,
+    "health": 30,
+    "heroPowerDbfId": 75703,
+    "id": "BG20_HERO_283",
+    "name": "Galewing",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "79618": {
+    "armor": 10,
+    "artist": "Alex Garner",
+    "battlegroundsBuddyDbfId": 77894,
+    "cardClass": "NEUTRAL",
+    "dbfId": 79618,
+    "health": 30,
+    "heroPowerDbfId": 79619,
+    "id": "BG22_HERO_007",
+    "name": "Queen Azshara",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "relatedCards": [
+      89992
+    ],
+    "battlegroundsHero": true
+  },
+  "80747": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 80765,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80747,
+    "health": 5,
+    "id": "BG23_009",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "The first <b>Spellcraft</b> spell played on this each turn is permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ],
+    "associatedTribes": [
+      "NAGA"
+    ]
+  },
+  "80751": {
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 80769,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80751,
+    "elite": true,
+    "health": 7,
+    "id": "BG23_013",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever you cast a spell, give 4 friendly Naga +1/+1.",
+    "type": "MINION",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "80765": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 80747,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80765,
+    "health": 10,
+    "id": "BG23_009_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Lava Lurker",
+    "race": "NAGA",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 2,
+    "text": "The first two <b>Spellcraft</b> spells played on this each turn are permanent.",
+    "type": "MINION",
+    "races": [
+      "NAGA"
+    ]
+  },
+  "80769": {
+    "attack": 12,
+    "battlegroundsNormalDbfId": 80751,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 80769,
+    "elite": true,
+    "health": 14,
+    "id": "BG23_013_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Tidemistress Athissa",
+    "race": "NAGA",
+    "races": [
+      "NAGA"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "Whenever you cast a spell, give 4 friendly Naga +2/+2.",
+    "type": "MINION"
+  },
+  "89293": {
+    "armor": 20,
+    "artist": "Glenn Rane",
+    "battlegroundsBuddyDbfId": 98660,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 89293,
+    "health": 30,
+    "heroPowerDbfId": 89294,
+    "id": "BG23_HERO_306",
+    "name": "Sylvanas Windrunner",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "text": "Don't bother asking her for drinks. She will never serve.",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "97186": {
+    "armor": 19,
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsBuddyDbfId": 98690,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97186,
+    "health": 30,
+    "heroPowerDbfId": 97185,
+    "id": "TB_BaconShop_HERO_702",
+    "name": "The Jailer",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "97557": {
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 97558,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 97557,
+    "health": 10,
+    "id": "BG25_043",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "Cyborg Drake",
+    "race": "DRAGON",
+    "races": [
+      "MECHANICAL",
+      "DRAGON"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+6 Attack.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL",
+      "DRAGON"
+    ]
+  },
+  "97813": {
+    "armor": 19,
+    "artist": "Mike Sass",
+    "battlegroundsBuddyDbfId": 101442,
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 97813,
+    "health": 30,
+    "heroPowerDbfId": 97814,
+    "id": "BG25_HERO_100",
+    "name": "Professor Putricide",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "98588": {
+    "artist": "Vlad Botos",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 98591,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 98588,
+    "health": 6,
+    "id": "BG26_152",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Utility Drone",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "referencedTags": [
+      "MAGNETIC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\ngive your minions +3/+2\nfor each <b>Magnetization</b>\nthey have.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "98591": {
+    "artist": "Vlad Botos",
+    "attack": 12,
+    "battlegroundsNormalDbfId": 98588,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 98591,
+    "health": 12,
+    "id": "BG26_152_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Utility Drone",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "referencedTags": [
+      "MAGNETIC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\ngive your minions +6/+4\nfor each <b>Magnetization</b>\nthey have.",
+    "type": "MINION"
+  },
+  "99175": {
+    "artist": "Zoltan Boros",
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 99177,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 99175,
+    "health": 5,
+    "id": "BG26_356",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sanctum Rester",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Give your Dragons +10 Attack.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "99177": {
+    "artist": "Zoltan Boros",
+    "attack": 4,
+    "battlegroundsNormalDbfId": 99175,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 99177,
+    "health": 10,
+    "id": "BG26_356_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Sanctum Rester",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "<b>Start of Combat:</b> Give your Dragons +20 Attack.",
+    "type": "MINION"
+  },
+  "101114": {
+    "artist": "Ramzy Kamen",
+    "attack": 1,
+    "battlegroundsPremiumDbfId": 101115,
+    "cardClass": "NEUTRAL",
+    "collectionText": "[x]At the end of every 3 turns,\nget a random Dragon.\n<i>(End of this turn!)</i>",
+    "cost": 0,
+    "dbfId": 101114,
+    "health": 1,
+    "id": "BG26_529",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Upbeat Frontdrake",
+    "race": "DRAGON",
+    "races": [
+      "DRAGON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "[x]At the end of every 3 turns,\nget a random Dragon.\n<i>({0} turns left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "DRAGON"
+    ],
+    "pools": [
+      "DRAGON_POOL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "101345": {
+    "armor": 14,
+    "artist": "Edgar Hidalgo",
+    "battlegroundsBuddyDbfId": 101349,
+    "cardClass": "NEUTRAL",
+    "dbfId": 101345,
+    "flavor": "I Am Murloc... but they're not in this lobby.",
+    "health": 30,
+    "heroPowerDbfId": 101346,
+    "id": "BG25_HERO_105",
+    "name": "E.T.C., Band Manager",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsHero": true
+  },
+  "101562": {
+    "attack": 5,
+    "battlegroundsPremiumDbfId": 101564,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 101562,
+    "health": 5,
+    "id": "BG25_922",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fireworks Fanatic",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever you get a minion you already have, give your minions +2/+2.",
+    "type": "MINION",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "isBattlegroundsPoolMinion": true
+  },
+  "101564": {
+    "attack": 10,
+    "battlegroundsNormalDbfId": 101562,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 101564,
+    "health": 10,
+    "id": "BG25_922_G",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Fireworks Fanatic",
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "Whenever you get a minion you already have, give your minions +4/+4.",
+    "type": "MINION"
+  },
+  "102982": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 102982,
+    "id": "BG27_Anomaly_803",
+    "name": "Anomalous Evidence",
+    "set": "BATTLEGROUNDS",
+    "text": "At the start of your turn, choose from 2 new Quest Rewards.\n<i>(Unlocks on Turn 4.)</i>",
+    "type": "BATTLEGROUND_ANOMALY",
+    "relatedCards": [
+      106474
+    ],
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ]
+  },
+  "103708": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 20,
+    "battlegroundsPremiumDbfId": 103709,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103708,
+    "elite": true,
+    "health": 20,
+    "id": "BG27_021",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "MAGNETIC",
+      "REBORN",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "name": "The Boommobile",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 7,
+    "text": "[x]<b>Magnetic</b>\n <b>Reborn</b>, <b>Divine Shield</b>,\n<b>Taunt</b>, <b>Windfury</b>",
+    "type": "MINION",
+    "associatedTribes": [
+      "MECHANICAL"
+    ]
+  },
+  "103709": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 40,
+    "battlegroundsNormalDbfId": 103708,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 103709,
+    "elite": true,
+    "health": 40,
+    "id": "BG27_021_G",
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "MAGNETIC",
+      "REBORN",
+      "TAUNT",
+      "WINDFURY"
+    ],
+    "name": "The Boommobile",
+    "race": "MECHANICAL",
+    "races": [
+      "MECHANICAL"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 7,
+    "text": "[x]<b>Magnetic</b>\n <b>Reborn</b>, <b>Divine Shield</b>,\n<b>Taunt</b>, <b>Windfury</b>",
+    "type": "MINION"
+  },
+  "105434": {
+    "armor": 10,
+    "artist": "Juan Calle",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 105434,
+    "health": 30,
+    "heroPowerDbfId": 110472,
+    "id": "BG28_HERO_801",
+    "name": "Doctor Holli'dae",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ],
+    "battlegroundsBuddyDbfId": 113631
+  },
+  "106500": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 106500,
+    "id": "BG27_Anomaly_562",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Anomalous Wisdomball",
+    "set": "BATTLEGROUNDS",
+    "text": "You occasionally get\nhelpful <b>Refreshes</b>!\n<i>(Unlocks on Turn 5.)</i>",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "113134": {
+    "artist": "Grafit",
+    "attack": 3,
+    "battlegroundsPremiumDbfId": 113135,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 113134,
+    "health": 5,
+    "id": "BG30_106",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Pilgrimp",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "1 Demon each turn costs Health instead of Gold to buy. <i>(1 left!)</i>",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "113310": {
+    "armor": 12,
+    "artist": "Zoltan Boros",
+    "battlegroundsHero": true,
+    "cardClass": "NEUTRAL",
+    "dbfId": 113310,
+    "health": 30,
+    "heroPowerDbfId": 113311,
+    "id": "BG30_HERO_304",
+    "name": "Marin the Manager",
+    "rarity": "FREE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO",
+    "associatedTribes": [
+      "GENERAL"
+    ]
+  },
+  "115589": {
+    "artist": "Alex Horley Orlandelli",
+    "attack": 6,
+    "battlegroundsPremiumDbfId": 115590,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 115589,
+    "elite": true,
+    "health": 6,
+    "id": "BG31_840",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Captain Bonerender",
+    "race": "PIRATE",
+    "races": [
+      "UNDEAD",
+      "PIRATE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 5,
+    "text": "[x]After you summon a\ndifferent minion in combat,\nsummon an extra copy\nof it.",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD",
+      "PIRATE"
+    ]
+  },
+  "115840": {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 115841,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 115840,
+    "health": 2,
+    "id": "BG31_144",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
+    "name": "Adaptive Ancestor",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "VENOMOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Choose One - </b>Gain +3\nAttack and <b>Divine Shield</b>; or\n+3 Health and <b>Venomous</b>.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ],
+    "relatedCards": [
+      115940
+    ]
+  },
+  "115841": {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 115840,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 115841,
+    "health": 4,
+    "id": "BG31_144_G",
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
+    "name": "Adaptive Ancestor",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "referencedTags": [
+      "DIVINE_SHIELD",
+      "VENOMOUS"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 3,
+    "text": "[x]<b>Choose One - </b>Gain +6\nAttack and <b>Divine Shield</b>; or\n+6 Health and <b>Venomous</b>.",
+    "type": "MINION",
+    "relatedCards": [
+      115942
+    ]
+  },
+  "116695": {
+    "artist": "Marta Vives Poch",
+    "attack": 4,
+    "battlegroundsPremiumDbfId": 116696,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 116695,
+    "health": 4,
+    "id": "BG31_870",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Big Brother",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Taunt</b>\nAfter you cast a Tavern spell,\nminions in the Tavern have\n+1/+1 this turn.",
+    "type": "MINION",
+    "associatedTribes": [
+      "DEMON"
+    ]
+  },
+  "116696": {
+    "attack": 8,
+    "battlegroundsNormalDbfId": 116695,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 116696,
+    "health": 8,
+    "id": "BG31_870_G",
+    "mechanics": [
+      "TAUNT",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Big Brother",
+    "race": "DEMON",
+    "races": [
+      "DEMON"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 4,
+    "text": "[x]<b>Taunt</b>\nAfter you cast a Tavern spell,\nminions in the Tavern have\n+2/+2 this turn.",
+    "type": "MINION"
+  },
+  "119092": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 119092,
+    "id": "BG31_Anomaly_120",
+    "name": "Scout's Honor",
+    "set": "BATTLEGROUNDS",
+    "text": "Start with a Golden Patient Scout in play.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "119666": {
+    "attack": 16,
+    "battlegroundsPremiumDbfId": 119669,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 119666,
+    "health": 4,
+    "id": "BG31_999",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stitched Salvager",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 7,
+    "text": "[x]<b>Start of Combat:</b> Destroy the\nminion to the left. <b>Deathrattle:</b>\nSummon an exact copy of it.\n      <i>(Except Stitched Salvager.)</i>   ",
+    "type": "MINION",
+    "associatedTribes": [
+      "UNDEAD"
+    ]
+  },
+  "119669": {
+    "attack": 32,
+    "battlegroundsNormalDbfId": 119666,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 119669,
+    "health": 8,
+    "id": "BG31_999_G",
+    "mechanics": [
+      "DEATHRATTLE",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Stitched Salvager",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 7,
+    "text": "[x]<b>Start of Combat:</b> Destroy\nadjacent minions. <b>Deathrattle:</b>\nSummon exact copies of them.\n      <i>(Except Stitched Salvager.)</i>   ",
+    "type": "MINION"
+  },
+  "119749": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 119749,
+    "id": "BG31_Anomaly_127",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Instant Warband",
+    "set": "BATTLEGROUNDS",
+    "text": "Start with 3 different Tier 2 minions in hand.",
+    "type": "BATTLEGROUND_ANOMALY"
+  }
+}

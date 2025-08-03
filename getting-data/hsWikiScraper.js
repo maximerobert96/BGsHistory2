@@ -3,94 +3,9 @@ const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
 const axios = require('axios').default;
 const { getJsonMappingFile } = require('../server/db/dbManager');
 const { comparePatches } = require("./cardsComparer");
+// const { get } = require("axios");
 
-async function getNewPatches(lastPatch) {
-    
-    return JSDOM.fromURL("https://hearthstone.wiki.gg/index.php?title=Category:Patches&pagefrom=Patch+3.0.0.9786#mw-pages")
-    .then(async (dom) => {
-        let newPatches = {};
-        let elements = dom.window.document.getElementsByTagName("a");
-        const promises = [];
-        for(let element of elements){
-            if(element.getAttribute("title")){
-                let textOfElement = element.textContent;
-
-                if(textOfElement.includes("Patch ") && textOfElement.indexOf(".") != -1) {
-                    let indexLastPeriod = textOfElement.lastIndexOf(".");
-                    let buildNumber = textOfElement.substring(indexLastPeriod + 1);
-                    if(buildNumber > lastPatch) {
-                        let urlOfElem = `https://hearthstone.wiki.gg${element.getAttribute("href")}`;
-                        
-                        
-                        promises.push(
-                            getPatchFromUrl(urlOfElem).then(patchObj => {
-                                newPatches = {...newPatches, [patchObj.build]: patchObj};
-                                
-                            })
-                        );
-                        
-                        
-                    }
-                }
-            }
-            
-        }
-        await Promise.all(promises);
-        return newPatches;
-    })
-    .catch( error => console.log(error.message));
-    
-}
-
-async function getPatchFromUrl(patchUrl) {
-    let patch = null;
-    return JSDOM.fromURL(patchUrl).then( dom => {
-        let releaseDate;
-        let patchNumber;
-        let build;
-        let patchNotesUrl;
-        let elements = dom.window.document.getElementsByClassName("pi-item pi-data pi-item-spacing pi-border-color");
-        let externalTextElements = dom.window.document.getElementsByClassName("external text");
-
-        for (let element of elements){
-            let attr = element.getAttribute("data-source");
-            switch (attr) {
-                case "releaseDate": {
-                    releaseDate = element.lastElementChild.textContent;
-                    break;
-                }
-                case "version": {
-                    patchNumber = element.lastElementChild.textContent;
-                    break;
-                }
-                case "build": {
-                    build = element.lastElementChild.textContent;
-                    break;
-                }
-            }
-            
-        }
-
-        for(let externalTextElem of externalTextElements){
-
-            if (externalTextElem.textContent === "Patch Notes") {
-                patchNotesUrl = externalTextElem.getAttribute("href");
-                break;
-            }
-
-        }
-
-        patchNotesUrl = patchNotesUrl ? patchNotesUrl : patchUrl;
-
-        let patchObj = { patchNotes: patchNotesUrl, build: build, releaseDate: releaseDate, patchNumber: patchNumber };
-        return patchObj;
-    });
-    
-
-
-}
-
-    
+ 
 function getLastPatch(patches){
     let buildNumbersS = Object.keys(patches);
     // convert strings to numbers
@@ -131,6 +46,143 @@ function getJsonFromUrl(url){
     });
 }
 
+
+async function fetchAllPatchTitles() {
+    const endpoint = "https://hearthstone.wiki.gg/api.php";
+    let patches = [];
+    let cmcontinue = null;
+
+    do {
+        const params = {
+            action: "query",
+            list: "categorymembers",
+            cmtitle: "Category:Patches",
+            cmlimit: "max",
+            format: "json",
+            ...(cmcontinue && { cmcontinue })
+        };
+
+        const response = await axios.get(endpoint, { params });
+        const data = response.data;
+
+        patches.push(...data.query.categorymembers);
+        cmcontinue = data.continue?.cmcontinue;
+
+    } while (cmcontinue);
+
+    return patches;
+}
+
+function extractBuildNumber(title) {
+    const match = title.match(/Patch \d+\.\d+\.\d+\.(\d+)/);
+    return match ? match[1] : null;
+}
+
+function isNewerPatch(title, lastPatch) {
+    const build = extractBuildNumber(title);
+    if (!build) return false;
+
+    return parseInt(build) > parseInt(lastPatch);
+}
+
+async function fetchPatchPageHtml(title) {
+    const url = `https://hearthstone.wiki.gg/api.php`;
+    const response = await axios.get(url, {
+        params: {
+            action: 'parse',
+            page: title,
+            format: 'json'
+        }
+    });
+
+    return response.data.parse?.text['*']; // Raw HTML of the page
+}
+
+async function getNewPatches(lastBuild) {
+    const allPatches = await fetchAllPatchTitles();
+
+    const filtered = allPatches.filter(patch =>
+        isNewerPatch(patch.title, lastBuild)
+    );
+
+    const newPatches = {};
+
+    for (const patch of filtered) {
+        const patchData = await getPatchFromTitle(patch.title);
+        if (patchData && patchData.build) {
+            newPatches[patchData.build] = patchData;
+        }
+    }
+
+    return newPatches;
+}
+
+async function getPatchFromTitle(title) {
+    const url = `https://hearthstone.wiki.gg/api.php`;
+    
+    // Fetch parsed HTML content of the wiki page
+    const response = await axios.get(url, {
+        params: {
+            action: 'parse',
+            page: title,
+            format: 'json'
+        }
+    });
+
+    const html = response.data.parse?.text['*'];
+    if (!html) return null;
+
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+
+    let releaseDate = null;
+    let patchNumber = null;
+    let build = null;
+    let patchNotesUrl = null;
+
+    // Extract infobox data
+    const dataElements = doc.querySelectorAll(".pi-item.pi-data.pi-item-spacing.pi-border-color");
+
+    dataElements.forEach(element => {
+        const attr = element.getAttribute("data-source");
+        const value = element.querySelector(".pi-data-value")?.textContent?.trim();
+
+        switch (attr) {
+            case "releaseDate":
+                releaseDate = value;
+                break;
+            case "version":
+                patchNumber = value;
+                break;
+            case "build":
+                build = value;
+                break;
+        }
+    });
+
+    // Extract Patch Notes link
+    const externalLinks = doc.querySelectorAll(".external.text");
+    for (let linkElem of externalLinks) {
+        if (linkElem.textContent === "Patch Notes") {
+            patchNotesUrl = linkElem.getAttribute("href");
+            break;
+        }
+    }
+
+    // Fallback to the wiki page if no external link found
+    const wikiPageUrl = `https://hearthstone.wiki.gg/wiki/${encodeURIComponent(title.replace(/ /g, "_"))}`;
+    patchNotesUrl = patchNotesUrl || wikiPageUrl;
+
+    if (!build) return null;
+
+    return {
+        patchNotes: patchNotesUrl,
+        build,
+        releaseDate,
+        patchNumber
+    };
+}
+
 async function downloadManyNewestPatches() {
     let patchesObj = getJsonFromFile("../server/patches.json");
     let lastPatch = getLastPatch(patchesObj);
@@ -159,11 +211,7 @@ async function downloadManyNewestPatches() {
         console.error('Error: ', error.message);
     }
 
-
 }
 
 downloadManyNewestPatches();
 
-// function downloadLatestPatch() {
-
-// }

@@ -924,5 +924,83 @@
     "build": "213852",
     "releaseDate": "December 17, 2024",
     "patchNumber": "31.2.2"
+  },
+  "214839": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24166286/31-4-patch-notes",
+    "build": "214839",
+    "releaseDate": "January 21, 2025",
+    "patchNumber": "31.4.0"
+  },
+  "216149": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24173976/31-4-2-patch-notes",
+    "build": "216149",
+    "releaseDate": "February 4, 2025",
+    "patchNumber": "31.4.2"
+  },
+  "216423": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24179332/31-6-patch-notes",
+    "build": "216423",
+    "releaseDate": "February 18, 2025",
+    "patchNumber": "31.6.0"
+  },
+  "217489": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-gb/news/24180850/31-6-2-patch-notes",
+    "build": "217489",
+    "releaseDate": "February 27, 2025",
+    "patchNumber": "31.6.2"
+  },
+  "217964": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-gb/news/24187196/32-0-patch-notes",
+    "build": "217964",
+    "releaseDate": "March 18, 2025",
+    "patchNumber": "32.0.0"
+  },
+  "219197": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24191047/32-0-3-patch-notes",
+    "build": "219197",
+    "releaseDate": "April 4, 2025",
+    "patchNumber": "32.0.3"
+  },
+  "219846": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24198086/32-2-patch-notes",
+    "build": "219846",
+    "releaseDate": "April 29, 2025",
+    "patchNumber": "32.2.0"
+  },
+  "221175": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24204092/32-2-2-patch-notes",
+    "build": "221175",
+    "releaseDate": "May 13, 2025",
+    "patchNumber": "32.2.2"
+  },
+  "221850": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24204920/32-2-4-patch-notes",
+    "build": "221850",
+    "releaseDate": "May 22, 2025",
+    "patchNumber": "32.2.4"
+  },
+  "221908": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24205006/32-4-patch-notes",
+    "build": "221908",
+    "releaseDate": "June 2, 2025",
+    "patchNumber": "32.4.0"
+  },
+  "223184": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24205944/32-4-2-patch-notes",
+    "build": "223184",
+    "releaseDate": "June 12, 2025",
+    "patchNumber": "32.4.2"
+  },
+  "223542": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-us/news/24217842/33-0-patch-notes",
+    "build": "223542",
+    "releaseDate": "July 1, 2025",
+    "patchNumber": "33.0.0"
+  },
+  "225000": {
+    "patchNotes": "https://hearthstone.blizzard.com/en-gb/news/24224212/33-0-3-patch-notes",
+    "build": "225000",
+    "releaseDate": "July 17, 2025",
+    "patchNumber": "33.0.3"
   }
 }

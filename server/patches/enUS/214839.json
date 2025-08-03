@@ -1,0 +1,106 @@
+{
+  "85651": {
+    "artist": "Alex Stone",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "collectible": true,
+    "cost": 1,
+    "dbfId": 85651,
+    "flavor": ":O",
+    "health": 1,
+    "howToEarnGolden": "Unlocked with \"Blight of the Scourge\" Achievement.",
+    "id": "RLK_957",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Wailing Banshee",
+    "race": "UNDEAD",
+    "rarity": "RARE",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
+  },
+  "87084": {
+    "attack": 9,
+    "battlegroundsPremiumDbfId": 87086,
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 87084,
+    "elite": true,
+    "health": 6,
+    "id": "BG22_403",
+    "isBattlegroundsPoolMinion": true,
+    "mechanics": [
+      "TRIGGER_VISUAL",
+      "END_OF_TURN"
+    ],
+    "name": "Young Murk-Eye",
+    "race": "MURLOC",
+    "races": [
+      "MURLOC"
+    ],
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 6,
+    "text": "[x]At the end of your turn,\ntrigger the <b>Battlecry</b> of the\n minion to the left of this.",
+    "type": "MINION",
+    "associatedTribes": [
+      "MURLOC"
+    ]
+  },
+  "99117": {
+    "artist": "Alex Stone",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 99117,
+    "flavor": ":O",
+    "health": 1,
+    "id": "BG_RLK_957",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Wailing Banshee",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "rarity": "RARE",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
+    "type": "MINION",
+    "undeadCreationPool": 1
+  },
+  "100775": {
+    "artist": "Alex Stone",
+    "attack": 2,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 100775,
+    "flavor": ":O",
+    "health": 1,
+    "id": "RLK_Prologue_RLK_957",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Wailing Banshee",
+    "race": "UNDEAD",
+    "rarity": "RARE",
+    "set": "RETURN_OF_THE_LICH_KING",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
+    "type": "MINION",
+    "races": [
+      "UNDEAD"
+    ],
+    "undeadCreationPool": 1
+  }
+}

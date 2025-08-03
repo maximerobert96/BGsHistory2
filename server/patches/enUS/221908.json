@@ -1,0 +1,98 @@
+{
+  "111400": {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 111400,
+    "id": "BG30_MagicItem_920",
+    "mechanics": [
+      "AURA",
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Spitescale Sushi Roll",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "[x]Get a Spitescale Special.\nYou cast your first two\n<b>Spellcraft</b> spells each\nturn twice. <i>(2 left!)</i>",
+    "type": "BATTLEGROUND_TRINKET",
+    "associatedTribes": [
+      "NAGA"
+    ],
+    "isBattlegroundsTrinket": true
+  },
+  "120650": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 120650,
+    "hideCost": true,
+    "id": "BG32_HERO_002p",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "Growing Collection",
+    "set": "BATTLEGROUNDS",
+    "text": "[x]<b>Passive</b>\nOn Turn 8, choose a\nGreater <b>Trinket</b> to buy.\n<i>(7 turns left!)</i>",
+    "type": "HERO_POWER"
+  },
+  "120911": {
+    "artist": "Eric Kenji",
+    "battlegroundsSkinParentId": 66196,
+    "cardClass": "NEUTRAL",
+    "dbfId": 120911,
+    "health": 30,
+    "heroPowerDbfId": 66197,
+    "id": "TB_BaconShop_HERO_92_SKIN_C",
+    "name": "Y'Shaarj the Corrupt",
+    "rarity": "RARE",
+    "set": "BATTLEGROUNDS",
+    "type": "HERO"
+  },
+  "122788": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 122788,
+    "id": "BG32_Anomaly_001",
+    "name": "Greater Pouches",
+    "set": "BATTLEGROUNDS",
+    "text": "On Turn 6 and 9, buy a Greater <b>Trinket</b>. There are no Lesser <b>Trinkets</b> in this game.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "122789": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 122789,
+    "id": "BG32_Anomaly_002",
+    "name": "Lesser Pouches",
+    "set": "BATTLEGROUNDS",
+    "text": "On Turns 6 and 7, buy a Lesser <b>Trinket</b>. There are no Greater <b>Trinkets</b> in this game.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "122790": {
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 122790,
+    "id": "BG32_Anomaly_003",
+    "name": "Impressive Foresight",
+    "set": "BATTLEGROUNDS",
+    "text": "Buy your Lesser <b>Trinket</b> on Turn 5, and your Greater <b>Trinket</b> on Turn 8.",
+    "type": "BATTLEGROUND_ANOMALY"
+  },
+  "122906": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 122906,
+    "id": "BG_EX1_014t",
+    "name": "Bananas",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +1/+1.",
+    "type": "SPELL"
+  },
+  "122908": {
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 122908,
+    "id": "BG_TB_006",
+    "name": "Big Banana",
+    "set": "BATTLEGROUNDS",
+    "text": "Give a minion +2/+2.",
+    "type": "SPELL"
+  }
+}

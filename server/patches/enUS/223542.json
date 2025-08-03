@@ -1,0 +1,25 @@
+{
+  "123007": {
+    "artist": "Mike Sass",
+    "attack": 5,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 123007,
+    "flavor": "Abomination. Emphasis on the second syllable.",
+    "health": 6,
+    "id": "ICC_099_Puzzle",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "name": "Ticking Abomination",
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ],
+    "rarity": "RARE",
+    "set": "ICECROWN",
+    "techLevel": 1,
+    "text": "<b>Deathrattle:</b> Deal 5 damage to your minions.",
+    "type": "MINION"
+  }
+}
