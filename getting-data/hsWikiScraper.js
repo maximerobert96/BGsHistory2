@@ -3,95 +3,9 @@ const { getJsonFromFile, saveJsonToFile } = require('./blizzApiHandler');
 const axios = require('axios').default;
 const { getJsonMappingFile } = require('../server/db/dbManager');
 const { comparePatches } = require("./cardsComparer");
-const { get } = require("axios");
+// const { get } = require("axios");
 
-// async function getNewPatches(lastPatch) {
-    
-//     return JSDOM.fromURL("https://hearthstone.wiki.gg/index.php?title=Category:Patches&pagefrom=Patch+3.0.0.9786#mw-pages")
-//     .then(async (dom) => {
-//         let newPatches = {};
-//         let elements = dom.window.document.getElementsByTagName("a");
-//         const promises = [];
-//         for(let element of elements){
-//             if(element.getAttribute("title")){
-//                 let textOfElement = element.textContent;
-
-//                 if(textOfElement.includes("Patch ") && textOfElement.indexOf(".") != -1) {
-//                     let indexLastPeriod = textOfElement.lastIndexOf(".");
-//                     let buildNumber = textOfElement.substring(indexLastPeriod + 1);
-//                     if(buildNumber > lastPatch) {
-//                         let urlOfElem = `https://hearthstone.wiki.gg${element.getAttribute("href")}`;
-                        
-                        
-//                         promises.push(
-//                             getPatchFromUrl(urlOfElem).then(patchObj => {
-//                                 newPatches = {...newPatches, [patchObj.build]: patchObj};
-                                
-//                             })
-//                         );
-                        
-                        
-//                     }
-//                 }
-//             }
-            
-//         }
-//         await Promise.all(promises);
-//         return newPatches;
-//     })
-//     .catch( error => console.log(error.message));
-    
-// }
-
-// async function getPatchFromUrl(patchUrl) {
-//     let patch = null;
-//     return JSDOM.fromURL(patchUrl).then( dom => {
-//         let releaseDate;
-//         let patchNumber;
-//         let build;
-//         let patchNotesUrl;
-//         let elements = dom.window.document.getElementsByClassName("pi-item pi-data pi-item-spacing pi-border-color");
-//         let externalTextElements = dom.window.document.getElementsByClassName("external text");
-
-//         for (let element of elements){
-//             let attr = element.getAttribute("data-source");
-//             switch (attr) {
-//                 case "releaseDate": {
-//                     releaseDate = element.lastElementChild.textContent;
-//                     break;
-//                 }
-//                 case "version": {
-//                     patchNumber = element.lastElementChild.textContent;
-//                     break;
-//                 }
-//                 case "build": {
-//                     build = element.lastElementChild.textContent;
-//                     break;
-//                 }
-//             }
-            
-//         }
-
-//         for(let externalTextElem of externalTextElements){
-
-//             if (externalTextElem.textContent === "Patch Notes") {
-//                 patchNotesUrl = externalTextElem.getAttribute("href");
-//                 break;
-//             }
-
-//         }
-
-//         patchNotesUrl = patchNotesUrl ? patchNotesUrl : patchUrl;
-
-//         let patchObj = { patchNotes: patchNotesUrl, build: build, releaseDate: releaseDate, patchNumber: patchNumber };
-//         return patchObj;
-//     });
-    
-
-
-// }
-
-    
+ 
 function getLastPatch(patches){
     let buildNumbersS = Object.keys(patches);
     // convert strings to numbers
