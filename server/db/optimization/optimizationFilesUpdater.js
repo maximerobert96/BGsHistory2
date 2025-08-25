@@ -326,13 +326,26 @@ function createBuddyFile() {
 // console.log(dbManager.getCardById(113629, 210009));
 // createBuddyFile();
 
-
-let patches = [212197, 213490, 213852];
-
-for(let patch of patches){
-    updateActiveCardsForPatch(patch);
-    updateCardChangesForPatch(patch);
+function getPatchesAfterPatch(patchId) {
+    let patchesJson = dbManager.getJsonFromFile("../patches.json");
+    let patches = [];
+    for(let patch in patchesJson) {
+        if(parseInt(patch) > patchId) {
+            patches.push(patch);
+        }
+    }
+    return patches;
 }
+
+let patches = getPatchesAfterPatch(213852); // 213852 is the patch where the active cards file was last updated
+console.log(patches);
+
+//TODO there is currently a bug with the active cards. Gotta fix that
+
+// for(let patch of patches){
+//     updateActiveCardsForPatch(patch);
+//     updateCardChangesForPatch(patch);
+// }
 
 
 // createFullCardChangesFile();

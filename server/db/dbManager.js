@@ -236,8 +236,16 @@ function getChangesOfPatch(patchId) {
 }
 
 function getChangesBetweenVersions(newVersion, oldVersion) {
-    let fieldsNew = Object.keys(newVersion);
-    let fieldsOld = Object.keys(oldVersion);
+    let fieldsNew = [];
+    let fieldsOld = [];
+    try {
+    fieldsNew = Object.keys(newVersion);
+    fieldsOld = Object.keys(oldVersion);
+    } catch (e) {
+        console.error("Error while getting changes between versions: ", e);
+        console.log("newVersion: ", newVersion);
+        console.log("oldVersion: ", oldVersion);
+    }
     let allFields = concatAndDedupArrays(fieldsNew, fieldsOld);
     let fieldsBeingChanged = {};
 
