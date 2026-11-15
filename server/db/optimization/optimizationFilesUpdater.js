@@ -340,8 +340,6 @@ function getPatchesAfterPatch(patchId) {
 let patches = getPatchesAfterPatch(213852); // 213852 is the patch where the active cards file was last updated
 console.log(patches);
 
-//TODO there is currently a bug with the active cards. Gotta fix that
-
 for(let patch of patches){
     updateActiveCardsForPatch(patch);
     updateCardChangesForPatch(patch);
